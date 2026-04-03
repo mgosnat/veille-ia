@@ -1,0 +1,47 @@
+name: Veille IA quotidienne
+
+on:
+  schedule:
+    - cron: '0 6 * * 1-5'   # 7h00 heure Paris (UTC+1) du lundi au vendredi
+  workflow_dispatch:          # déclenchement manuel possible
+
+permissions:
+  contents: write             # pour committer insights.json
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run veille pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_HOST:         ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:         ${{ secrets.SMTP_PORT }}
+          SMTP_USER:         ${{ secrets.SMTP_USER }}
+          SMTP_PASS:         ${{ secrets.SMTP_PASS }}
+          EMAIL_TO:          ${{ secrets.EMAIL_TO }}
+          GITHUB_REPO_URL:   ${{ secrets.GITHUB_REPO_URL }}
+        run: python scripts/veille_pipeline.py
+
+      - name: Commit insights.json
+        run: |
+          git config --global user.name  "Veille Bot"
+          git config --global user.email "bot@github-actions.com"
+          git add data/insights.json
+          git diff --staged --quiet || (
+            git commit -m "🔍 Veille IA – $(date +'%Y-%m-%d')" &&
+            git push
+          )
