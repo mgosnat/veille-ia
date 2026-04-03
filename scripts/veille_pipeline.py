@@ -192,8 +192,11 @@ def main():
     print(f"\n🔍 Veille IA – {date_str}\n")
 
     all_insights = {}
-    for theme_id, theme in THEMES.items():
+   for i, (theme_id, theme) in enumerate(THEMES.items()):
         print(f"[{theme['label']}]")
+        if i > 0:
+            print("  → Pause 30s entre les appels API...")
+            time.sleep(30)
         insights = fetch_insights(theme_id, theme)
         all_insights[theme_id] = insights
         print(f"  → {len(insights)} insights trouvés\n")
