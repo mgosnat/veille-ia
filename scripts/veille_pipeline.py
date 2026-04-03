@@ -48,7 +48,7 @@ THEMES = {
 
 # ─── Fetching insights via Claude API ────────────────────────────────────────
 
-def fetch_insights(theme_id: str, theme: dict) -> list:
+def fetch_insights(theme_id: str, theme: dict, retries: int = 3) -> list:
     """Appel Claude API avec web_search pour un thème donné."""
     print(f"  → Appel Claude API pour « {theme['label']} »...")
 
@@ -75,28 +75,41 @@ def fetch_insights(theme_id: str, theme: dict) -> list:
         }]
     }
 
-    resp = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={
-            "Content-Type": "application/json",
-            "x-api-key": ANTHROPIC_API_KEY,
-            "anthropic-version": "2023-06-01"
-        },
-        json=payload,
-        timeout=90
-    )
-    resp.raise_for_status()
-    data = resp.json()
-
-    texts = [b["text"] for b in data.get("content", []) if b.get("type") == "text"]
-    last_text = texts[-1] if texts else ""
-    cleaned = last_text.replace("```json", "").replace("```", "").strip()
-    match = re.search(r'\[[\s\S]*\]', cleaned)
-    if match:
-        return json.loads(match.group(0))
-    print(f"    ⚠ Pas de JSON valide pour {theme_id}")
+    for attempt in range(retries):
+        try:
+            resp = requests.post(
+                "https://api.anthropic.com/v1/messages",
+                headers={
+                    "Content-Type": "application/json",
+                    "x-api-key": ANTHROPIC_API_KEY,
+                    "anthropic-version": "2023-06-01"
+                },
+                json=payload,
+                timeout=90
+            )
+            if resp.status_code == 429:
+                wait = 60 * (attempt + 1)
+                print(f"    ⏳ Rate limit 429 — attente {wait}s (tentative {attempt+1}/{retries})")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            data = resp.json()
+            texts = [b["text"] for b in data.get("content", []) if b.get("type") == "text"]
+            last_text = texts[-1] if texts else ""
+            cleaned = last_text.replace("```json", "").replace("```", "").strip()
+            match = re.search(r'\[[\s\S]*\]', cleaned)
+            if match:
+                return json.loads(match.group(0))
+            print(f"    ⚠ Pas de JSON valide pour {theme_id}")
+            return []
+        except requests.exceptions.HTTPError as e:
+            if attempt < retries - 1:
+                wait = 60 * (attempt + 1)
+                print(f"    ⏳ Erreur HTTP — attente {wait}s")
+                time.sleep(wait)
+            else:
+                raise e
     return []
-
 # ─── Email HTML ───────────────────────────────────────────────────────────────
 
 def build_insight_card_html(item: dict, color: str) -> str:
@@ -188,27 +201,8 @@ def save_insights_json(all_insights: dict) -> None:
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
-def main():
-    date_str = datetime.now().strftime("%A %d %B %Y").capitalize()
-    print(f"\n🔍 Veille IA – {date_str}\n")
-
-    all_insights = {}
-   for i, (theme_id, theme) in enumerate(THEMES.items()):
+for theme_id, theme in THEMES.items():
         print(f"[{theme['label']}]")
-        if i > 0:
-            print("  → Pause 30s entre les appels API...")
-            time.sleep(30)
         insights = fetch_insights(theme_id, theme)
         all_insights[theme_id] = insights
         print(f"  → {len(insights)} insights trouvés\n")
-
-    save_insights_json(all_insights)
-
-    print("[Email]")
-    html = build_email_html(all_insights, date_str)
-    send_email(html, date_str)
-
-    print("\n✅ Pipeline terminé avec succès.")
-
-if __name__ == "__main__":
-    main()
