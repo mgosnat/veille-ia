@@ -30,7 +30,7 @@ def fetch_all():
         "Theme 2 - Gouvernance IA entreprise: AI governance, EU AI Act, ISO 42001, responsible AI, AI compliance, AI policy.\n\n"
         "Reponds UNIQUEMENT avec ce JSON brut (sans markdown):\n"
         '{"agentique":[{"titre":"...","resume":"...","source":"...","pertinence":"haute ou moyenne","categorie":"..."}],'
-        '"gouvernance":[{"titre":"...","resume":"...","source":"...","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n'
+        '"gouvernance":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n'
         "4 items par theme. resume en francais 2-3 phrases. JSON brut uniquement."
     )
     txt = call_claude(prompt).replace("```json","").replace("```","").strip()
