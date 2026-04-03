@@ -27,19 +27,20 @@ def fetch_all():
     prompt = (
         "Fais une veille des dernieres actualites IA (24-48h) sur deux themes.\n\n"
         "Theme 1 - IA agentique: agentic AI, multi-agent, AutoGen, CrewAI, LangGraph, MCP protocol, agent framework.\n"
-        "Theme 2 - Gouvernance IA entreprise: AI governance, EU AI Act, ISO 42001, responsible AI, AI compliance, AI policy.\n\n"
+        "Theme 2 - Gouvernance IA entreprise: AI governance, EU AI Act, ISO 42001, responsible AI, AI compliance, AI policy.\n"
+        "Theme 3 - Diversite en essais cliniques: clinical trial diversity, health equity, underrepresented populations, minority recruitment, FDA diversity action plan, algorithmic bias clinical, inclusive trial design.\n\n"
         "Reponds UNIQUEMENT avec ce JSON brut (sans markdown):\n"
-        '"agentique":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}],'
-        '"gouvernance":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n'
-        "4 items par theme. resume en francais 2-3 phrases. JSON brut uniquement."
+        '{"agentique":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}],'
+        '"gouvernance":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}],'
+        '"clinique":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n'
     )
     txt = call_claude(prompt).replace("```json","").replace("```","").strip()
     m = re.search(r'\{[\s\S]*\}', txt)
     return json.loads(m.group(0)) if m else {"agentique":[],"gouvernance":[]}
 
 def send_email(insights, date_str):
-    colors = {"agentique":"#16a34a","gouvernance":"#d97706"}
-    labels = {"agentique":"IA agentique","gouvernance":"Gouvernance IA entreprise"}
+   colors = {"agentique":"#16a34a","gouvernance":"#d97706","clinique":"#0ea5e9"}
+    labels = {"agentique":"IA agentique","gouvernance":"Gouvernance IA entreprise","clinique":"Diversite & essais cliniques"}
     sections = ""
     for tid, items in insights.items():
         c = colors[tid]
