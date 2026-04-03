@@ -48,67 +48,38 @@ THEMES = {
 
 # ─── Fetching insights via Claude API ────────────────────────────────────────
 
-def fetch_insights(theme_id: str, theme: dict, retries: int = 3) -> list:
-    """Appel Claude API avec web_search pour un thème donné."""
+def fetch_insights(theme_id: str, theme: dict) -> list:
     print(f"  → Appel Claude API pour « {theme['label']} »...")
-
     payload = {
         "model": "claude-sonnet-4-20250514",
         "max_tokens": 1500,
         "tools": [{"type": "web_search_20250305", "name": "web_search"}],
-        "messages": [{
-            "role": "user",
-            "content": (
-                f"Tu es expert en veille stratégique IA. "
-                f"Recherche les dernières actualités importantes (dernières 24-48h) sur : \"{theme['label']}\".\n"
-                f"Mots-clés prioritaires : {', '.join(theme['keywords'])}.\n\n"
-                "Réponds UNIQUEMENT avec un tableau JSON brut (sans markdown, sans backticks). "
-                "4 objets avec exactement ces champs :\n"
-                "- titre : string court et percutant\n"
-                "- resume : 2-3 phrases en français\n"
-                "- source : nom de la source\n"
-                "- url : URL de l'article si disponible, sinon \"\"\n"
-                "- pertinence : \"haute\" ou \"moyenne\"\n"
-                "- categorie : ex \"Outil\", \"Recherche\", \"Réglementation\", \"Entreprise\", \"Communauté\"\n\n"
-                "JSON brut uniquement."
-            )
-        }]
+        "messages": [{"role": "user", "content": (
+            f"Veille stratégique sur \"{theme['label']}\". "
+            f"Mots-clés: {', '.join(theme['keywords'])}. "
+            "Recherche les dernières actualités (24-48h). "
+            "Retourne UNIQUEMENT un tableau JSON de 4 objets: "
+            "{titre, resume, source, url, pertinence, categorie}. JSON brut."
+        )}]
     }
-
-    for attempt in range(retries):
-        try:
-            resp = requests.post(
-                "https://api.anthropic.com/v1/messages",
-                headers={
-                    "Content-Type": "application/json",
-                    "x-api-key": ANTHROPIC_API_KEY,
-                    "anthropic-version": "2023-06-01"
-                },
-                json=payload,
-                timeout=90
-            )
-            if resp.status_code == 429:
-                wait = 60 * (attempt + 1)
-                print(f"    ⏳ Rate limit 429 — attente {wait}s (tentative {attempt+1}/{retries})")
-                time.sleep(wait)
-                continue
-            resp.raise_for_status()
-            data = resp.json()
-            texts = [b["text"] for b in data.get("content", []) if b.get("type") == "text"]
-            last_text = texts[-1] if texts else ""
-            cleaned = last_text.replace("```json", "").replace("```", "").strip()
-            match = re.search(r'\[[\s\S]*\]', cleaned)
-            if match:
-                return json.loads(match.group(0))
-            print(f"    ⚠ Pas de JSON valide pour {theme_id}")
-            return []
-        except requests.exceptions.HTTPError as e:
-            if attempt < retries - 1:
-                wait = 60 * (attempt + 1)
-                print(f"    ⏳ Erreur HTTP — attente {wait}s")
-                time.sleep(wait)
-            else:
-                raise e
+    for attempt in range(4):
+        resp = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={"Content-Type": "application/json",
+                     "x-api-key": ANTHROPIC_API_KEY,
+                     "anthropic-version": "2023-06-01"},
+            json=payload, timeout=120
+        )
+        if resp.status_code == 429:
+            wait = 90 * (attempt + 1)
+            print(f"    ⏳ Rate limit — attente {wait}s...")
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        texts = [b["text"] for b in resp.json().get("content", []) if b.get("type") == "text"]
+        txt = (texts[-1] if texts else "").replace("```json","").replace("```","")
+        m = re.search(r'\[[\s\S]*\]', txt)
+        return json.loads(m.group(0)) if m else []
     return []
 # ─── Email HTML ───────────────────────────────────────────────────────────────
 
