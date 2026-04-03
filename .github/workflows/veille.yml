@@ -2,7 +2,7 @@ name: Veille IA quotidienne
 
 on:
   schedule:
-    - cron: '0 6 * * 1-5'   # 7h00 heure Paris (UTC+1) du lundi au vendredi
+   - cron: '0 6 * * *'   # 7h00 heure Paris (UTC+1) tous les jours
   workflow_dispatch:          # déclenchement manuel possible
 
 permissions:
