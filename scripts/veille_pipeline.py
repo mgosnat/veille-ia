@@ -29,7 +29,7 @@ def fetch_all():
         "Theme 1 - IA agentique: agentic AI, multi-agent, AutoGen, CrewAI, LangGraph, MCP protocol, agent framework.\n"
         "Theme 2 - Gouvernance IA entreprise: AI governance, EU AI Act, ISO 42001, responsible AI, AI compliance, AI policy.\n\n"
         "Reponds UNIQUEMENT avec ce JSON brut (sans markdown):\n"
-        '{"agentique":[{"titre":"...","resume":"...","source":"...","pertinence":"haute ou moyenne","categorie":"..."}],'
+        '"agentique":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}],'
         '"gouvernance":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n'
         "4 items par theme. resume en francais 2-3 phrases. JSON brut uniquement."
     )
@@ -48,7 +48,8 @@ def send_email(insights, date_str):
             pb = "#dcfce7" if item.get("pertinence")=="haute" else "#fef9c3"
             pt = "#15803d" if item.get("pertinence")=="haute" else "#854d0e"
             cards += f"""<div style="background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px;margin-bottom:12px;">
-<p style="margin:0 0 6px;font-size:15px;font-weight:600;color:#111827;">{item.get("titre","")}</p>
+<p style="margin:0 0 6px;font-size:15px;font-weight:600;color:#111827;">
+{"<a href='"+item["url"]+"' style='color:#111827;'>"+item.get("titre","")+"</a>" if item.get("url") else item.get("titre","")}</p>
 <p style="margin:0 0 10px;font-size:13px;color:#4b5563;">{item.get("resume","")}</p>
 <div style="display:flex;gap:8px;">
 <span style="font-size:12px;color:#9ca3af;">{item.get("source","")}</span>
