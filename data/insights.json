@@ -1,65 +1,73 @@
 {
-  "generated_at": "2026-04-03T09:41:27.241390Z",
+  "generated_at": "2026-04-03T12:07:43.484885Z",
   "date_fr": "03/04/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft lance Agent Governance Toolkit pour la sécurité runtime des agents IA",
-        "resume": "Microsoft publie un toolkit open-source de gouvernance pour agents IA avec intégrations natives dans LangChain, CrewAI, LangGraph et OpenAI Agents SDK. Le toolkit répond aux nouveaux risques OWASP Top 10 pour applications agentiques 2026.",
-        "source": "Microsoft Open Source Blog",
-        "pertinence": "haute",
-        "categorie": "Gouvernance"
-      },
-      {
-        "titre": "Benchmark 2026 des frameworks IA agentique: LangGraph vs CrewAI vs AutoGen",
-        "resume": "Une comparaison exhaustive montre LangGraph leader en efficacité token et AutoGen en latence. CrewAI reste 40% plus rapide pour déploiement production mais avec plafond architectural. Support MCP devient standard.",
-        "source": "AIMultiple",
-        "pertinence": "haute",
-        "categorie": "Frameworks"
-      },
-      {
-        "titre": "OpenAgents émerge comme seul framework avec support MCP et A2A natif",
-        "resume": "OpenAgents se distingue par son support natif des protocoles MCP et A2A permettant interopérabilité cross-framework. CrewAI ajoute support A2A tandis que LangGraph et AutoGen n'ont pas encore adopté ces standards.",
+        "titre": "Framework OpenAgents : première interopérabilité native MCP + A2A (2026)",
+        "resume": "OpenAgents devient le seul framework avec support natif des protocoles MCP et A2A, permettant une véritable interopérabilité entre frameworks. Il permet aux agents LangGraph, CrewAI et Python personnalisés de collaborer dans le même réseau via A2A. Cette approche révolutionne l'écosystème multi-agents.",
         "source": "OpenAgents Blog",
+        "url": "https://openagents.org/blog/posts/2026-02-23-open-source-ai-agent-frameworks-compared",
         "pertinence": "haute",
-        "categorie": "Protocoles"
+        "categorie": "interopérabilité"
       },
       {
-        "titre": "Microsoft unifie AutoGen et Semantic Kernel dans Agent Framework",
-        "resume": "Microsoft fusionne AutoGen et Semantic Kernel en un framework unifié prévu GA Q1 2026. Inclut SLAs production, support multi-langages et intégration Azure native pour entreprises Microsoft.",
-        "source": "Medium",
+        "titre": "Showdown des frameworks 2026 : CrewAI domine en rapidité de déploiement",
+        "resume": "CrewAI reste champion du 'Time-to-Production', permettant un déploiement 40% plus rapide que LangGraph pour les workflows business standards. OpenAI Swarm obtient la latence la plus faible grâce à sa connexion native aux modèles GPT. AutoGen reste le plus lent à cause des coûts de consensus conversationnel.",
+        "source": "DEV Community",
+        "url": "https://dev.to/topuzas/the-great-ai-agent-showdown-of-2026-openai-autogen-crewai-or-langgraph-1ea8",
+        "pertinence": "haute",
+        "categorie": "performance"
+      },
+      {
+        "titre": "Microsoft unifie AutoGen et Semantic Kernel dans Agent Framework (RC février 2026)",
+        "resume": "Microsoft sort la Release Candidate de son Agent Framework unifié qui fusionne AutoGen et Semantic Kernel. Il apporte les workflows graphiques, support A2A/MCP, streaming et checkpointing. Disponible Python/.NET, c'est le choix naturel pour l'écosystème Azure avec GA prévue fin mars 2026.",
+        "source": "Let's Data Science",
+        "url": "https://letsdatascience.com/blog/ai-agent-frameworks-compared",
+        "pertinence": "haute",
+        "categorie": "microsoft"
+      },
+      {
+        "titre": "Benchmarks 2026 : LangChain le plus efficace en tokens, CrewAI lourd mais intelligent",
+        "resume": "Sur 5 tâches et 2000 exécutions, LangChain émerge comme le framework le plus efficace en tokens, AutoGen mène en latence. CrewAI montre le profil le plus lourd globalement mais construit des boucles de raisonnement plus focalisées lors d'erreurs, évitant les workarounds manuels de 10-15 étapes de ses concurrents.",
+        "source": "AiMultiple",
+        "url": "https://aimultiple.com/agentic-frameworks",
         "pertinence": "moyenne",
-        "categorie": "Frameworks"
+        "categorie": "benchmarks"
       }
     ],
     "gouvernance": [
       {
-        "titre": "ISO/IEC 42001 et EU AI Act: partenariat pratique pour gouvernance IA",
-        "resume": "L'ISO/IEC 42001 fournit structure PDCA opérationnelle pour conformité EU AI Act. Guide pratique émis par ISACA détaille mapping obligations réglementaires vers processus certifiables avec exemples concrets.",
+        "titre": "ISO 42001 + EU AI Act : pairing pratique pour la gouvernance IA (ISACA 2025)",
+        "resume": "Les organisations devraient combiner l'EU AI Act (obligations légales) avec ISO 42001 (framework opérationnel). Cette approche duale transforme la conformité d'une course folle en système stable et auditable. Les échéances de conformité approchent rapidement et les organisations qui attendent 2026-2027 feront face à des risques significatifs.",
         "source": "ISACA",
+        "url": "https://www.isaca.org/resources/news-and-trends/industry-news/2025/isoiec-42001-and-eu-ai-act-a-practical-pairing-for-ai-governance",
         "pertinence": "haute",
-        "categorie": "Standards"
+        "categorie": "frameworks"
       },
       {
-        "titre": "prEN 18286 s'aligne avec ISO 42001 pour conformité EU AI Act",
-        "resume": "Le standard européen prEN 18286, finalisé fin 2026, complète ISO 42001 pour gouvernance IA spécifique EU AI Act. Approche management system intégrée recommandée pour compliance scalable et auditable.",
+        "titre": "ISO 42001 couvre 40-50% des exigences EU AI Act selon Cognisys (2026)",
+        "resume": "ISO 42001 adresse une portion significative des exigences EU AI Act via son framework AIMS, particulièrement pour les systèmes à haut risque avant l'échéance d'août 2026. Les acheteurs en services financiers, santé et gouvernement exigent désormais une certification de gouvernance IA avant d'acheter des solutions alimentées par IA.",
+        "source": "Cognisys",
+        "url": "https://cognisys.co.uk/security-compliance/iso42001/",
+        "pertinence": "haute",
+        "categorie": "certification"
+      },
+      {
+        "titre": "Guide d'implémentation ISO 42001 pour la conformité IA réelle (2026)",
+        "resume": "Guide step-by-step pour l'implémentation ISO 42001 incluant l'évaluation des risques IA spécifiques, la gestion du cycle de vie et l'alignement avec l'EU AI Act. Le framework établit les exigences pour un système de management IA (AIMS) utilisant la structure Plan-Do-Check-Act familière d'ISO 27001.",
+        "source": "SecurePrivacy",
+        "url": "https://secureprivacy.ai/blog/iso-42001-implementation-guide-2026",
+        "pertinence": "moyenne",
+        "categorie": "implémentation"
+      },
+      {
+        "titre": "prEN 18286 s'aligne avec ISO 42001 pour la conformité EU AI Act (février 2026)",
+        "resume": "Le pré-standard européen prEN 18286 offre une approche structurée alignée avec les attentes réglementaires UE. Combiné avec ISO 42001, il fournit une base puissante pour une gouvernance IA évolutive et auditable. Publication finale attendue fin 2026 avec emphasis sur l'intégration plutôt que des initiatives séparées.",
         "source": "Schellman",
-        "pertinence": "haute",
-        "categorie": "Compliance"
-      },
-      {
-        "titre": "Cornerstone obtient certification ISO/IEC 42001 pour IA responsable",
-        "resume": "Premier éditeur plateforme workforce à obtenir certification ISO/IEC 42001. Démontre gouvernance opérationnelle IA dans systèmes RH critiques avec alignement réglementations émergentes US et EU.",
-        "source": "Cornerstone OnDemand",
+        "url": "https://www.schellman.com/blog/ai-services/how-pren-18286-aligns-with-iso-42001-for-eu-ai-act-compliance",
         "pertinence": "moyenne",
-        "categorie": "Certification"
-      },
-      {
-        "titre": "Guide pratique EU AI Act avec roadmap ISO/IEC 42001",
-        "resume": "Safeshield publie guide complet EU AI Act applicable août 2026. Détaille classification risques, obligations providers/deployers et utilisation ISO/IEC 42001 comme fondation gouvernance trustworthy AI.",
-        "source": "Safeshield",
-        "pertinence": "moyenne",
-        "categorie": "Implementation"
+        "categorie": "standards"
       }
     ]
   }
