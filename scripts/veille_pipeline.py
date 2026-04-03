@@ -6,6 +6,7 @@ Génère insights.json + envoie email digest quotidien
 
 import os
 import json
+import time
 import re
 import smtplib
 import ssl
