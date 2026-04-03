@@ -31,7 +31,7 @@ def call_claude(prompt):
         },
         json={
             "model": "claude-sonnet-4-20250514",
-            "max_tokens": 2500,
+            "max_tokens": 4000,
             "tools": [{"type": "web_search_20250305", "name": "web_search"}],
             "messages": [{"role": "user", "content": prompt}]
         },
@@ -52,7 +52,7 @@ def fetch_all():
         '{"agentique":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}],'
         '"gouvernance":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}],'
         '"clinique":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n'
-        "4 items par theme. resume en francais 2-3 phrases. JSON brut uniquement."
+        "8 items par theme. resume en francais 2-3 phrases. JSON brut uniquement."
     )
     txt = call_claude(prompt).replace("```json", "").replace("```", "").strip()
     m = re.search(r'\{[\s\S]*\}', txt)
