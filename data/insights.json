@@ -1,203 +1,203 @@
 {
-  "generated_at": "2026-04-03T12:22:11.092893Z",
-  "date_fr": "03/04/2026",
+  "generated_at": "2026-04-04T07:10:16.184539Z",
+  "date_fr": "04/04/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "LangGraph vs CrewAI vs AutoGen: Le paysage consolidé de 2026",
-        "resume": "Le chaos des frameworks IA agentique s'est clarifié en 2026. Microsoft a fusionné AutoGen et Semantic Kernel en un Agent Framework unifié avec support entreprise. LangGraph domine les déploiements production avec 400+ entreprises tandis que CrewAI reste leader pour le time-to-market rapide mais avec limitations de plafond.",
-        "source": "O-mega.ai",
-        "url": "https://o-mega.ai/articles/langgraph-vs-crewai-vs-autogen-top-10-agent-frameworks-2026",
-        "pertinence": "haute",
-        "categorie": "Comparatif frameworks"
-      },
-      {
-        "titre": "Benchmark des frameworks agentiques: performances token et latence",
-        "resume": "Étude comparative sur 2000 exécutions révèle que LangChain est le plus efficace en tokens, AutoGen leader en latence, et CrewAI le plus lourd globalement. LangGraph montre la plus forte consommation de tokens (15 010 en tâche 4) mais sans impact latence significatif.",
+        "titre": "Top 5 Open-Source Agentic AI Frameworks in 2026",
+        "resume": "Une étude comparative des frameworks IA agentiques révèle que LangGraph est le plus consommateur de tokens, mais AutoGen présente les meilleures performances en latence. LangChain s'impose comme le plus efficace en termes de tokens utilisés.",
         "source": "AiMultiple",
         "url": "https://aimultiple.com/agentic-frameworks",
         "pertinence": "haute",
-        "categorie": "Benchmarks techniques"
+        "categorie": "étude comparative"
       },
       {
-        "titre": "Microsoft Agent Framework: unification AutoGen et Semantic Kernel",
-        "resume": "Microsoft a officiellement unifié AutoGen et Semantic Kernel en un seul Agent Framework en octobre 2025, GA prévu Q1 2026. Cette consolidation élimine la confusion entre frameworks Microsoft avec support Azure natif, SLA production et support multi-langages.",
+        "titre": "LangGraph vs CrewAI vs AutoGen: Top 10 AI Agent Frameworks",
+        "resume": "Les frameworks multi-agents transforment l'automatisation d'entreprise avec des équipes d'agents IA collaboratifs. LangGraph, CrewAI et AutoGen dominent le marché avec des approches distinctes de l'orchestration d'agents.",
+        "source": "o-mega",
+        "url": "https://o-mega.ai/articles/langgraph-vs-crewai-vs-autogen-top-10-agent-frameworks-2026",
+        "pertinence": "haute",
+        "categorie": "guide marché"
+      },
+      {
+        "titre": "The Great AI Agent Showdown of 2026: OpenAI, AutoGen, CrewAI, or LangGraph?",
+        "resume": "Analyse des frameworks d'agents IA en janvier 2026 montrant que CrewAI domine pour l'automatisation business, LangGraph pour les déploiements enterprise, et OpenAI Swarm pour le prototypage rapide.",
+        "source": "DEV Community",
+        "url": "https://dev.to/topuzas/the-great-ai-agent-showdown-of-2026-openai-autogen-crewai-or-langgraph-1ea8",
+        "pertinence": "haute",
+        "categorie": "benchmark"
+      },
+      {
+        "titre": "The AI Agent Framework Landscape in 2025: What Changed",
+        "resume": "Microsoft a fusionné AutoGen et Semantic Kernel en un framework unifié prévu pour Q1 2026. LangChain recommande désormais officiellement LangGraph pour les agents. CrewAI a levé 18M$ et équipe 60% des Fortune 500.",
         "source": "Medium",
         "url": "https://medium.com/@hieutrantrung.it/the-ai-agent-framework-landscape-in-2025-what-changed-and-what-matters-3cd9b07ef2c3",
         "pertinence": "haute",
-        "categorie": "Consolidation industrie"
+        "categorie": "consolidation marché"
       },
       {
-        "titre": "Le showdown des frameworks agentiques 2026",
-        "resume": "Analyse comparative détaillée des frameworks en 2026: OpenAI domine le prototypage rapide, CrewAI excelle en automation business, LangGraph s'impose comme standard entreprise. Émergence de l'Agentic Mesh pour orchestration multi-frameworks modulaire.",
-        "source": "Dev.to",
-        "url": "https://dev.to/topuzas/the-great-ai-agent-showdown-of-2026-openai-autogen-crewai-or-langgraph-1ea8",
-        "pertinence": "haute",
-        "categorie": "Vision stratégique"
+        "titre": "Top 5 AI Agent Frameworks 2026: LangGraph, CrewAI & More",
+        "resume": "LangChain et CrewAI se distinguent comme les meilleurs frameworks pour startups et PME en 2026. Ils offrent flexibilité, scalabilité et intégrations rentables pour construire des workflows IA sans infrastructure lourde.",
+        "source": "Intuz",
+        "url": "https://www.intuz.com/blog/top-5-ai-agent-frameworks-2025",
+        "pertinence": "moyenne",
+        "categorie": "guide PME"
       },
       {
-        "titre": "DeepAgents: nouveau framework LangGraph avec capacités avancées",
-        "resume": "LangChain lance DeepAgents, framework MIT open-source basé sur LangGraph avec planification, backend filesystem et spawn de sous-agents. Support MCP natif via langchain-mcp-adapters et agent coding pré-construit type Claude Code/Cursor.",
-        "source": "GitHub LangChain",
-        "url": "https://github.com/langchain-ai/deepagents",
-        "pertinence": "haute",
-        "categorie": "Nouveau produit"
+        "titre": "Top AI Agent Frameworks in 2025",
+        "resume": "LangChain et LangGraph restent les frameworks les plus utilisés, avec AutoGen en croissance rapide. Le choix du framework dépend de la complexité des tâches et de l'expertise de l'équipe selon l'analyse 2025.",
+        "source": "Codecademy",
+        "url": "https://www.codecademy.com/article/top-ai-agent-frameworks-in-2025",
+        "pertinence": "moyenne",
+        "categorie": "guide éducatif"
       },
       {
-        "titre": "GitAgent: l'outil Docker pour agents IA",
-        "resume": "GitAgent résout la fragmentation entre LangChain, AutoGen et Claude Code avec format framework-agnostique. Permet export vers tous les frameworks majeurs, contrôle Git natif et support compliance enterprise intégré.",
+        "titre": "A Detailed Comparison of Top 6 AI Agent Frameworks in 2026",
+        "resume": "Chaque framework apporte ses forces uniques : LangGraph pour les workflows complexes, CrewAI pour les systèmes collaboratifs role-based, Microsoft Semantic Kernel pour l'intégration enterprise.",
+        "source": "Turing",
+        "url": "https://www.turing.com/resources/ai-agent-frameworks",
+        "pertinence": "moyenne",
+        "categorie": "comparaison technique"
+      },
+      {
+        "titre": "Meet GitAgent: The Docker for AI Agents",
+        "resume": "GitAgent propose une solution à la fragmentation entre LangChain, AutoGen et CrewAI avec un format universel permettant de définir un agent une fois et de l'exporter vers tous les frameworks majeurs.",
         "source": "MarkTechPost",
         "url": "https://www.marktechpost.com/2026/03/22/meet-gitagent-the-docker-for-ai-agents-that-is-finally-solving-the-fragmentation-between-langchain-autogen-and-claude-code/",
         "pertinence": "moyenne",
-        "categorie": "Outil interopérabilité"
-      },
-      {
-        "titre": "Protocole MCP: standard universel pour agents IA",
-        "resume": "Le Model Context Protocol d'Anthropic devient le standard de facto pour connexions agents-outils. Adoption par OpenAI en mars 2025, donation à la Linux Foundation via Agentic AI Foundation. 97M+ téléchargements mensuels SDK décembre 2025.",
-        "source": "Anthropic",
-        "url": "https://www.anthropic.com/news/model-context-protocol",
-        "pertinence": "haute",
-        "categorie": "Standards protocoles"
-      },
-      {
-        "titre": "Agentic AI Foundation: gouvernance open-source",
-        "resume": "Linux Foundation lance l'Agentic AI Foundation avec MCP (Anthropic), goose (Block) et AGENTS.md (OpenAI). Membres platine: AWS, Microsoft, Google, OpenAI. Gouvernance neutre pour standards agentiques avec transparence et évolution communautaire.",
-        "source": "Linux Foundation",
-        "url": "https://www.linux-foundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
-        "pertinence": "haute",
-        "categorie": "Gouvernance ecosystem"
+        "categorie": "interopérabilité"
       }
     ],
     "gouvernance": [
       {
-        "titre": "ISO 42001 devient standard de facto gouvernance IA 2026",
-        "resume": "83% des équipes procurement Fortune 500 exigeront l'alignement ISO 42001 d'ici 2027. Le standard n'est plus optionnel mais différenciateur compétitif. Convergence réglementaire avec EU AI Act comme mécanisme de démonstration de conformité pour certaines catégories de risque.",
-        "source": "AI Governance Today",
-        "url": "https://www.aigovernancetoday.com/news/iso-42001-redefining-ai-governance-2026",
-        "pertinence": "haute",
-        "categorie": "Standards certification"
-      },
-      {
-        "titre": "EU AI Act et ISO 42001: couplage pratique gouvernance IA",
-        "resume": "L'EU AI Act définit les obligations légales tandis qu'ISO 42001 fournit le système opérationnel. Approche duale permet navigation complexités compliance et gouvernance. Obligations GPAI créent exigences implémentation urgentes avec structure PDCA familière.",
+        "titre": "ISO/IEC 42001 and EU AI Act: A Practical Pairing for AI Governance",
+        "resume": "L'EU AI Act définit ce qui doit être accompli tandis qu'ISO/IEC 42001 décrit comment opérationnaliser un programme de gouvernance IA. Les deux frameworks se complètent pour la conformité réglementaire.",
         "source": "ISACA",
         "url": "https://www.isaca.org/resources/news-and-trends/industry-news/2025/isoiec-42001-and-eu-ai-act-a-practical-pairing-for-ai-governance",
         "pertinence": "haute",
-        "categorie": "Compliance réglementaire"
+        "categorie": "conformité réglementaire"
       },
       {
-        "titre": "Préparation compliance EU AI Act avec ISO 42001",
-        "resume": "L'EU AI Act devient pleinement applicable août 2026 avec exigences phasées. ISO 42001 fournit approche structurée et basée risque pour gouvernance IA alignée aux exigences. Organisations doivent implémenter mesures compliance maintenant pour éviter risques opérationnels.",
-        "source": "A-LIGN",
-        "url": "https://www.a-lign.com/articles/preparing-for-eu-ai-act-compliance",
+        "titre": "83% of Fortune 500 to Require ISO 42001 by 2027",
+        "resume": "83% des équipes procurement Fortune 500 prévoient d'exiger l'alignement ISO 42001 d'ici 2027. La norme n'est plus optionnelle mais devient un différenciateur concurrentiel selon AI Governance Today.",
+        "source": "AI Governance Today",
+        "url": "https://www.aigovernancetoday.com/",
         "pertinence": "haute",
-        "categorie": "Mise en conformité"
+        "categorie": "adoption enterprise"
       },
       {
-        "titre": "IA responsable: gouvernance 3 étapes pour entreprises 2026",
-        "resume": "Guide pratique gouvernance IA responsable face aux changements réglementaires constants. EU AI Act passe de politique à échéances opérationnelles 2026, États-Unis shift politique fédérale post-2025. Nécessité d'équipe core responsable et inventaire IA vivant.",
-        "source": "OneTrust",
-        "url": "https://www.onetrust.com/blog/responsible-ai-in-2026-a-3-step-guide-for-governance-that-scales/",
+        "titre": "EU AI Act vs NIST AI RMF vs ISO/IEC 42001: A Plain English Comparison",
+        "resume": "Comparaison des trois frameworks majeurs : l'EU AI Act impose des obligations légales, NIST AI RMF offre une approche flexible, et ISO/IEC 42001 fournit un système de management certifiable pour l'IA.",
+        "source": "EC-Council",
+        "url": "https://www.eccouncil.org/cybersecurity-exchange/responsible-ai-governance/eu-ai-act-nist-ai-rmf-and-iso-iec-42001-a-plain-english-comparison/",
         "pertinence": "haute",
-        "categorie": "Gouvernance pratique"
+        "categorie": "frameworks comparaison"
       },
       {
-        "titre": "Californie renforce protections IA face au recul fédéral",
-        "resume": "Gouverneur Newsom signe ordre exécutif renforçant standards IA pour marchés publics californiens. Contraste avec administration Trump supprimant protections fédérales. Californie leader technologique maintient équilibre innovation et protections publiques.",
-        "source": "État de Californie",
-        "url": "https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/",
-        "pertinence": "moyenne",
-        "categorie": "Politique régionale"
+        "titre": "EU AI Act vs ISO 42001",
+        "resume": "L'EU AI Act impose des amendes jusqu'à 40M€ ou 7% du chiffre d'affaires global pour non-conformité. ISO 42001 peut servir de système de gouvernance fondamental pour soutenir la conformité EU AI Act.",
+        "source": "ModelOp",
+        "url": "https://www.modelop.com/ai-governance/ai-regulations-standards/eu-ai-act-vs-iso-42001",
+        "pertinence": "haute",
+        "categorie": "analyse réglementaire"
       },
       {
-        "titre": "Régulation IA 2026: États-Unis fédéral vs règles californiennes",
-        "resume": "Paysage réglementaire complexe US 2026: Californie mise sur transparence et prévention risques, Texas sur gouvernance entreprise, fédéral sur standards nationaux unifiés. Aucun signal crédible d'interdiction IA, focus sur contrôles ciblés et exigences gouvernance.",
-        "source": "Blockchain Council",
-        "url": "https://www.blockchain-council.org/news/ai-regulation/",
+        "titre": "Greenhouse Achieves ISO/IEC 42001 Certification",
+        "resume": "Greenhouse devient l'une des premières entreprises mondiales à obtenir la certification ISO/IEC 42001 pour la gouvernance IA responsable, renforçant sa plateforme de recrutement alimentée par l'IA.",
+        "source": "PR Newswire",
+        "url": "https://www.prnewswire.com/news-releases/greenhouse-achieves-isoiec-42001-certification-for-responsible-ai-governance-302696433.html",
         "pertinence": "moyenne",
-        "categorie": "Évolutions réglementaires"
+        "categorie": "certification entreprise"
       },
       {
-        "titre": "Gouvernance IA devient stratégie core entreprise",
-        "resume": "IA responsable n'est plus optionnelle mais gestion des risques. Organisations créent comités surveillance cross-fonctionnels, politiques usage claires, systèmes monitoring continu. Transition de l'expérimentation vers adoption structurée avec frameworks gouvernance.",
-        "source": "Knowledge Hub Media",
-        "url": "https://knowledgehubmedia.com/ai-governance-and-compliance-why-responsible-ai-is-becoming-a-core-enterprise-strategy/",
+        "titre": "Understanding ISO/IEC 42001: The AI Management System Standard",
+        "resume": "ISO 42001 est le premier standard international dédié aux systèmes de management IA. Il offre un framework structuré pour utiliser l'IA de manière sûre et responsable avec transparence et accountability.",
+        "source": "Seratos Consulting",
+        "url": "https://www.seratos.com/insights/understanding-iso-42001-artificial-intelligence-management-system",
         "pertinence": "moyenne",
-        "categorie": "Stratégie business"
+        "categorie": "guide standard"
       },
       {
-        "titre": "Marché gouvernance IA entreprise: 11 milliards USD 2036",
-        "resume": "Marché gouvernance et compliance IA entreprise valorisé 2,5 milliards USD, attendu 11 milliards 2036 (CAGR 15,8%). Croissance tirée par pressions réglementaires, considérations éthiques et gestion risques opérationnels. Frameworks obligatoires EU AI Act, GDPR créent exigences structures formelles.",
-        "source": "Future Market Insights",
-        "url": "https://www.futuremarketinsights.com/reports/enterprise-ai-governance-and-compliance-market",
+        "titre": "A Practical Guide to the EU AI Act and ISO/IEC 42001 Compliance",
+        "resume": "Le standard ISO/IEC 42001 pose les fondations pour des systèmes IA conformes et dignes de confiance. L'EU AI Act s'applique à toute organisation utilisant l'IA dans l'UE, indépendamment de sa localisation.",
+        "source": "SafeShield",
+        "url": "https://www.safeshield.cloud/a-practical-guide-to-the-eu-ai-act-and-how-iso-iec-42001-can-help-you-achieve-compliance",
         "pertinence": "moyenne",
-        "categorie": "Données marché"
+        "categorie": "guide compliance"
+      },
+      {
+        "titre": "ISO 42001 - a tool to achieve AI Act compliance?",
+        "resume": "Bien qu'ISO 42001 puisse être utile pour approcher la conformité IA, l'EU AI Act est souvent plus spécifique. Le respect du standard ISO peut aider mais ne suffit pas toujours à assurer la conformité légale.",
+        "source": "Freshfields",
+        "url": "https://technologyquotient.freshfields.com/post/102jcog/eu-ai-act-unpacked-10-iso-42001-a-tool-to-achieve-ai-act-compliance",
+        "pertinence": "moyenne",
+        "categorie": "analyse juridique"
       }
     ],
     "clinique": [
       {
-        "titre": "Plans d'action diversité FDA: nouvelle approche essais cliniques",
-        "resume": "FDA publie guidance définitive Plans d'Action Diversité obligatoires pour études pivots et phase III. Sponsors doivent fixer objectifs recrutement spécifiques par race, ethnicité, sexe, âge avec stratégies détaillées. Applicable 180 jours après publication guidance finale.",
-        "source": "FDA",
-        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/diversity-action-plans-improve-enrollment-participants-underrepresented-populations-clinical-studies",
+        "titre": "FDA Removes Draft Guidance on Diversity in Clinical Trials",
+        "resume": "La FDA a discrètement retiré son projet de guidance sur la diversité des essais cliniques suite aux ordres exécutifs anti-DEI. Cette suppression crée de l'incertitude sur la conformité et l'échéance juin 2025.",
+        "source": "AJMC",
+        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
         "pertinence": "haute",
-        "categorie": "Réglementation FDA"
+        "categorie": "politique réglementaire"
       },
       {
-        "titre": "Guidance FDA transforme essais cliniques et développement médicaments",
-        "resume": "Mandat diversité FDA révolutionne essais cliniques: objectifs recrutement obligatoires par groupes démographiques, stratégies implémentation détaillées, focus sur populations historiquement sous-représentées. Commissaire Califf souligne rôle NIH comme précédent et engagement FDA rattraper standards.",
-        "source": "Premier Research",
-        "url": "https://premier-research.com/perspectives/fdas-diversity-mandate-transforming-clinical-trials-and-drug-development-for-better-outcomes-for-all/",
-        "pertinence": "haute",
-        "categorie": "Impact industrie"
-      },
-      {
-        "titre": "Biais algorithmiques menacent équité santé publique",
-        "resume": "Systèmes IA santé publique reflètent biais institutionnels, excluent populations rurales, minorités, groupes marginalisés. Sources données biaisées introduisent annotations cliniques discriminatoires. Nécessité design participatif avec voix Global South et audits équité réguliers.",
+        "titre": "FDA Draft Guidance to Improve Clinical Trial Diversity: Opportunities",
+        "resume": "Le manque de diversité dans les essais cliniques est reconnu depuis longtemps. La FDA a émis une guidance en avril 2022 sur les plans de diversité pour améliorer l'inscription des populations sous-représentées.",
         "source": "PMC",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12325396/",
-        "pertinence": "haute",
-        "categorie": "Biais algorithmiques"
-      },
-      {
-        "titre": "Biais potentiels instruments décision clinique",
-        "resume": "Analyse 690 instruments décision clinique MDCalc révèle risques biais algorithmiques. Développeurs doivent révéler conscience facteurs risque dans méthodologie recrutement. Études validation sur populations sous-représentées essentielles avant approbation usage clinique.",
-        "source": "Nature Digital Medicine",
-        "url": "https://www.nature.com/articles/s41746-025-02119-7",
-        "pertinence": "haute",
-        "categorie": "Recherche académique"
-      },
-      {
-        "titre": "Impact interdiction DEI sur écosystème recherche clinique",
-        "resume": "Ordres exécutifs Trump interdisant DEI fédéral impactent diversité essais cliniques, mettant en péril programmes accès équitable populations LGBTQIA+ et autres groupes sous-représentés. Questions critiques sur initiatives diversité encore 'autorisées' sous nouvelles politiques.",
-        "source": "Applied Clinical Trials",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/the-impact-of-dei-ban-on-clinical-research-ecosystem",
-        "pertinence": "haute",
-        "categorie": "Politique santé"
-      },
-      {
-        "titre": "Biais genre IA conseils santé: données incomplètes",
-        "resume": "Seulement 7% financement recherche santé mondiale dirigé vers conditions affectant exclusivement femmes. 67% plus d'essais cliniques masculins seulement vs féminins. Lacunes preuves se répercutent dans guidance clinique et développement IA, créant biais systémiques.",
-        "source": "Medical Device Network",
-        "url": "https://www.medicaldevice-network.com/comment/gender-bias-in-ai-health-advice-when-innovation-learns-from-incomplete-data/",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10225256/",
         "pertinence": "moyenne",
-        "categorie": "Disparités genre"
+        "categorie": "recherche académique"
       },
       {
-        "titre": "Biais médical IA: implications décisions cliniques",
-        "resume": "Biais IA médicale survient tout cycle développement: données, étiquetage, entraînement modèle, déploiement. Tailles échantillons insuffisantes pour certains groupes patients créent performance sous-optimale. Méthodes débiaisage comme pondération échantillons et régularisation adversarielle montrent efficacité.",
-        "source": "PMC",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11542778/",
+        "titre": "FDA Issues Guidance Intended to Diversify Clinical Trial Participation",
+        "resume": "La FDA a publié en juin 2024 une guidance préliminaire sur les Plans d'Action Diversité exigeant des sponsors qu'ils définissent des objectifs d'inscription et stratégies pour améliorer la représentation démographique.",
+        "source": "Mintz",
+        "url": "https://www.mintz.com/insights-center/viewpoints/2146/2024-07-29-fda-issues-guidance-intended-diversify-and-enhance",
         "pertinence": "moyenne",
-        "categorie": "Recherche technique"
+        "categorie": "analyse juridique"
       },
       {
-        "titre": "Guidance FDA avancement crucial vers essais inclusifs",
-        "resume": "40% population US appartient minorité raciale/ethnique, mais 80-90% participants essais cliniques sont blancs. Plans d'Action Diversité FDA exigent sponsors définir objectifs et stratégies améliorer représentation race, ethnicité, sexe, âge. Améliore généralisabilité données cliniques.",
+        "titre": "FDA Draft Guidance: Crucial Advancement Toward More Inclusive Clinical Trials",
+        "resume": "Près de 40% de la population américaine appartient à une minorité raciale ou ethnique, mais 80-90% des participants aux essais cliniques sont blancs, soulevant des questions sur la généralisation des résultats.",
         "source": "RTI Health Solutions",
         "url": "https://www.rtihs.org/resource/insight/fda-guidance-more-inclusive-clinical-trials",
         "pertinence": "moyenne",
-        "categorie": "Analyse experte"
+        "categorie": "analyse statistique"
+      },
+      {
+        "titre": "Report to Congress: Diversity Action Plans Summary FY 2023-2024",
+        "resume": "La FDA a reçu des plans de diversité volontaires reflétant les propositions des sponsors pour améliorer l'inscription de participants issus de populations raciales et ethniques sous-représentées dans les essais.",
+        "source": "FDA",
+        "url": "https://www.fda.gov/media/184768/download",
+        "pertinence": "moyenne",
+        "categorie": "rapport gouvernemental"
+      },
+      {
+        "titre": "Diversity Action Plans Federal Register Notice",
+        "resume": "La FDA annonce la disponibilité d'une guidance préliminaire sur les Plans d'Action Diversité suite au mandat FDORA exigeant une guidance sur le format et contenu de ces plans pour les études cliniques.",
+        "source": "Federal Register",
+        "url": "https://www.federalregister.gov/documents/2024/06/28/2024-14284/diversity-action-plans-to-improve-enrollment-of-participants-from-underrepresented-populations-in",
+        "pertinence": "moyenne",
+        "categorie": "publication officielle"
+      },
+      {
+        "titre": "The Impact of DEI Ban on Clinical Research Ecosystem",
+        "resume": "Les ordres exécutifs récents interdisant les initiatives DEI impactent la diversité des essais cliniques, mettant en péril les programmes d'accès équitable, particulièrement pour les populations LGBTQIA+.",
+        "source": "Applied Clinical Trials",
+        "url": "https://www.appliedclinicaltrialsonline.com/view/the-impact-of-dei-ban-on-clinical-research-ecosystem",
+        "pertinence": "haute",
+        "categorie": "impact politique"
+      },
+      {
+        "titre": "FDA Publishes Long-Awaited Clinical Trial Diversity Guidance",
+        "resume": "La guidance tant attendue de la FDA définit les produits médicaux et études cliniques nécessitant un Plan d'Action Diversité, ainsi que le format, contenu et processus de soumission à la FDA.",
+        "source": "Hogan Lovells",
+        "url": "https://www.hoganlovells.com/en/publications/fda-publishes-long-awaited-clinical-trial-diversity-guidance",
+        "pertinence": "moyenne",
+        "categorie": "analyse légale"
       }
     ]
   }
