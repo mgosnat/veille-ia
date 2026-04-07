@@ -44,7 +44,7 @@ def call_claude(prompt):
 def fetch_all():
     prompt = (
         "Fais une veille des dernieres actualites (24-48h) sur trois themes.\n\n"
-        "Theme 1 - IA agentique: agentic AI, multi-agent, AutoGen, CrewAI, LangGraph, MCP protocol, agent framework.\n"
+        "Theme 1 - IA agentique (focus PRATIQUE): nouveaux outils et frameworks agents sortis cette semaine, releases GitHub, retours d'experience de builders, tutoriels concrets, cas d'usage reels, annonces de produits agentiques, benchmarks pratiques, workflows AutoGen/CrewAI/LangGraph/MCP en production.\n"
         "Theme 2 - Gouvernance IA entreprise: AI governance, EU AI Act, ISO 42001, responsible AI, AI compliance, AI policy.\n"
         "Theme 3 - Diversite en essais cliniques: clinical trial diversity, health equity, underrepresented populations, "
         "minority recruitment, FDA diversity action plan, algorithmic bias clinical, inclusive trial design.\n\n"
