@@ -1,227 +1,191 @@
 {
-  "generated_at": "2026-04-14T09:02:38.928163Z",
+  "generated_at": "2026-04-14T10:22:34.616380Z",
   "date_fr": "14/04/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Top 5 Open-Source Agentic AI Frameworks in 2026 - Analyse comparative et benchmarking",
-        "resume": "Comparaison détaillée des frameworks LangGraph, AutoGen, CrewAI, OpenAI Swarm et LangChain avec benchmarking sur 5 tâches et 2000 runs. LangChain domine en efficacité token, AutoGen en latence. Intégration MCP standardisée pour tous frameworks.",
-        "source": "aimultiple.com",
-        "url": "https://aimultiple.com/agentic-frameworks",
-        "date_publication": "31/03/2026",
+        "titre": "Google ADK (Agent Development Kit) - Nouveau framework officiel pour agents multi-agents",
+        "resume": "Google a lancé en avril 2026 son Agent Development Kit (ADK), un framework Python open-source pour la construction de systèmes multi-agents. Le projet a atteint 8,200+ étoiles GitHub en 2 semaines et offre une intégration native avec l'écosystème Google (Gemini, Vertex AI). Il prend en charge le protocole MCP et les compositions hiérarchiques d'agents.",
+        "source": "Fazm AI Blog",
+        "url": "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026",
+        "date_publication": "13/04/2026",
         "pertinence": "haute",
-        "categorie": "produit"
+        "categorie": "outil"
       },
       {
-        "titre": "Comparaison approfondie des frameworks 2026 - CrewAI vs LangGraph vs AutoGen vs OpenAgents",
-        "resume": "Analyse technique des meilleurs frameworks multi-agents avec focus sur l'interopérabilité via protocoles MCP et A2A. OpenAgents seul framework avec support natif des deux protocoles. CrewAI optimal pour rôles, LangGraph pour stateful workflows.",
-        "source": "openagents.org",
-        "url": "https://openagents.org/blog/posts/2026-02-23-open-source-ai-agent-frameworks-compared",
-        "date_publication": "02/03/2026",
+        "titre": "Microsoft Agent Framework - Plateforme multi-langage pour agents IA",
+        "resume": "Microsoft a publié son nouveau Agent Framework supportant Python et .NET pour la construction, orchestration et déploiement d'agents IA. Le framework offre des workflows basés sur des graphes, du streaming, checkpointing et des capacités human-in-the-loop. Il inclut le support de multiples fournisseurs LLM et un système de middleware flexible.",
+        "source": "GitHub Microsoft",
+        "url": "https://github.com/microsoft/agent-framework",
+        "date_publication": "13/04/2026",
         "pertinence": "haute",
-        "categorie": "tutoriel"
+        "categorie": "outil"
       },
       {
-        "titre": "Top 5 Agentic AI Frameworks to Watch in 2026 - Microsoft Agent Framework",
-        "resume": "Microsoft fusionne AutoGen et Semantic Kernel dans un SDK unifié ciblant Q1 2026. AutoGen en maintenance mode. Gartner prédit 40% de projets agentiques annulés en 2027 sans gouvernance. MCP devient standard USB pour agents.",
-        "source": "futureagi.substack.com",
-        "url": "https://futureagi.substack.com/p/top-5-agentic-ai-frameworks-to-watch",
-        "date_publication": "20/02/2026",
+        "titre": "OpenAI Codex CLI - Agent de codage en terminal avec exécution sandbox",
+        "resume": "OpenAI a lancé Codex CLI, un agent de codage natif pour terminal avec exécution dans un environnement sandbox. Le projet TypeScript a obtenu 5,800+ étoiles GitHub et permet aux développeurs d'interagir avec un agent de codage directement depuis la ligne de commande en toute sécurité.",
+        "source": "Fazm AI Blog",
+        "url": "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026",
+        "date_publication": "13/04/2026",
         "pertinence": "haute",
-        "categorie": "produit"
+        "categorie": "outil"
       },
       {
-        "titre": "AI Agent Frameworks Comparison 2026 - Production Ready Analysis",
-        "resume": "Guide complet comparant LangChain, CrewAI, AutoGen et SDK vendeurs. Convergence vers MCP standard. LangGraph le plus mature pour production, CrewAI pour expérience développeur. Gains productivité 20-45% pour équipes utilisant IA efficacement.",
-        "source": "fungies.io",
-        "url": "https://fungies.io/ai-agent-frameworks-comparison-2026-langchain-crewai-autogen/",
+        "titre": "Block Goose - Framework d'agent IA local-first avec support MCP",
+        "resume": "Block a publié Goose, un framework d'agent IA en Rust qui privilégie l'exécution locale avec support du Model Context Protocol (MCP). Le projet a rapidement gagné 4,900+ étoiles GitHub et vise à offrir une alternative privacy-first aux solutions cloud pour le développement d'agents.",
+        "source": "Fazm AI Blog",
+        "url": "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026",
+        "date_publication": "13/04/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "HuggingFace SmolAgents - Bibliothèque légère pour agents avec outils",
+        "resume": "HuggingFace a lancé SmolAgents, une bibliothèque Python lightweight (~1000 lignes) pour créer des agents IA avec utilisation d'outils et exécution de code. Le projet a atteint 4,100+ étoiles GitHub et offre une approche minimaliste et agnostique aux modèles pour le développement d'agents.",
+        "source": "Fazm AI Blog",
+        "url": "https://fazm.ai/blog/new-open-source-ai-projects-github-hugging-face-april-2026",
+        "date_publication": "13/04/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Hermes Agent - Framework open-source auto-améliorant avec 32K+ étoiles",
+        "resume": "Nous Research a développé Hermes Agent, un framework d'agent IA auto-améliorant qui a explosé à 32,000+ étoiles GitHub. Le système offre une mémoire persistante, 40+ outils intégrés, et peut fonctionner sur un VPS à 5$ tout en s'améliorant continuellement via l'apprentissage par renforcement.",
+        "source": "OPC Community",
+        "url": "https://www.opc.community/blog/hermes-agent-open-source-ai-agent-2026",
         "date_publication": "09/04/2026",
         "pertinence": "haute",
-        "categorie": "tutoriel"
+        "categorie": "outil"
       },
       {
-        "titre": "Agentic AI in the Cloud - DevOps Transformation 2026",
-        "resume": "Impact transformation DevOps avec agents autonomes. ROI moyen 171% pour entreprises US (192%). Cas d'usage cristallisés : incident response self-healing, IaC review, monitoring automatisé. AWS Bedrock, Azure AI Foundry, GCP Vertex AI positionnés.",
-        "source": "cloudmagazin.com",
-        "url": "https://www.cloudmagazin.com/en/2026/04/04/agentic-ai-cloud-autonomous-workflows-devops-2026/",
-        "date_publication": "04/04/2026",
+        "titre": "Retours d'expérience production : 79% des entreprises déploient des agents IA",
+        "resume": "Une étude PwC 2025 révèle que 79% des organisations ont adopté des agents IA à un certain degré, mais la plupart restent bloquées en mode pilote. Les entreprises qui réussissent le passage en production obtiennent des réductions de coûts de 30-70% sur des workflows spécifiques et des gains de productivité mesurables.",
+        "source": "NovaEdge Digital Labs",
+        "url": "https://www.novaedgedigitallabs.tech/Blog/ai-agents-enterprise-2026-complete-guide",
+        "date_publication": "02/02/2026",
         "pertinence": "haute",
-        "categorie": "cas-usage"
+        "categorie": "retour_experience"
       },
       {
-        "titre": "Best Multi-Agent Frameworks in 2026 - Production Maturity Analysis",
-        "resume": "Comparaison production-ready frameworks avec focus state persistence, model dependency, courbe apprentissage. LangGraph leadership production avec checkpointing, CrewAI pour prototypage rapide. Google ADK avec support A2A protocol pour interopérabilité.",
-        "source": "gurusup.com",
-        "url": "https://gurusup.com/blog/best-multi-agent-frameworks-2026",
-        "date_publication": "07/04/2026",
+        "titre": "Cas d'usage entreprise : Siemens et PepsiCo Digital Twin Composer",
+        "resume": "Siemens et PepsiCo ont dévoilé au CES 2026 leur Digital Twin Composer utilisant des agents IA pour simuler et tester les changements de chaîne d'approvisionnement avec une précision physique avant toute modification réelle. Cette implémentation démontre l'application des agents dans la gestion complexe de supply chain.",
+        "source": "8allocate",
+        "url": "https://8allocate.com/blog/top-50-agentic-ai-implementations-use-cases-to-learn-from/",
+        "date_publication": "13/03/2026",
         "pertinence": "haute",
-        "categorie": "produit"
-      },
-      {
-        "titre": "AI Agent Showdown 2026 - Architecture Choices",
-        "resume": "Evolution marché agents vers orchestration agentique. Quatre titans : OpenAI Swarm/Assistants, AutoGen, CrewAI, LangGraph. Choix framework = destinée architecturale. LangGraph pour infrastructure critique, CrewAI pour équipes business workflow.",
-        "source": "dev.to",
-        "url": "https://dev.to/topuzas/the-great-ai-agent-showdown-of-2026-openai-autogen-crewai-or-langgraph-1ea8",
-        "date_publication": "13/02/2026",
-        "pertinence": "moyenne",
-        "categorie": "tutoriel"
-      },
-      {
-        "titre": "Complete Guide to Choosing AI Agent Framework in 2025",
-        "resume": "Guide développeur orienté technique comparant Langflow, n8n, OpenAI AgentKit, LangChain/LangGraph, CrewAI, AutoGPT. Focus visual vs code-first builders, observabilité, governance. AgentKit pour écosystème OpenAI, Langflow pour prototypage visuel.",
-        "source": "langflow.org",
-        "url": "https://www.langflow.org/blog/the-complete-guide-to-choosing-an-ai-agent-framework-in-2025",
-        "date_publication": "17/10/2025",
-        "pertinence": "moyenne",
-        "categorie": "tutoriel"
+        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "ISO/IEC 42001 et EU AI Act - Appariement pratique pour gouvernance IA",
-        "resume": "ISO/IEC 42001 fournit système opérationnel pour conformité EU AI Act. Structure PDCA soutient cadence rapports. Caractéristiques clés : clarté via inventaires IA, traçabilité obligations-processus-preuves, résilience via seuils monitoring.",
-        "source": "isaca.org",
-        "url": "https://www.isaca.org/resources/news-and-trends/industry-news/2025/isoiec-42001-and-eu-ai-act-a-practical-pairing-for-ai-governance",
-        "date_publication": "08/12/2025",
-        "pertinence": "haute",
-        "categorie": "frameworks"
-      },
-      {
-        "titre": "Qu'est-ce qu'ISO 42001 et pourquoi chaque organisation utilisant l'IA doit le connaître",
-        "resume": "ISO 42001 : premier standard international pour systèmes management IA (décembre 2023). EU AI Act enforcement complète août 2026. Framework gouvernance auditable pour gestion risques IA. Alignement réglementaire direct avec EU AI Act pour organisations exposition UE.",
-        "source": "6clicks.com",
-        "url": "https://www.6clicks.com/resources/blog/iso-42001-responsible-ai-governance-standard",
-        "date_publication": "13/04/2026",
-        "pertinence": "haute",
-        "categorie": "standards"
-      },
-      {
-        "titre": "AI Governance as Compliance Obligation - Intégration ISO/IEC 42001",
-        "resume": "IA désormais capacité production, non expérimentation, attirant attention réglementaire. ISO/IEC 42001 framework pratique intégration IA dans programmes conformité. Expansion responsabilité pour professionnels compliance : gestion systèmes comportement évolutif.",
-        "source": "complianceandethics.org",
-        "url": "https://complianceandethics.org/ai-governance-as-a-compliance-obligation-integrating-iso-iec-42001/",
+        "titre": "EU AI Act : Obligations complètes en vigueur le 2 août 2026",
+        "resume": "Les obligations principales de l'AI Act européen entrent pleinement en vigueur le 2 août 2026, marquant une étape cruciale pour les entreprises utilisant des systèmes IA à haut risque. Les entreprises doivent finaliser leurs évaluations de conformité, documentation technique et marquage CE avant cette date limite.",
+        "source": "Commission européenne",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
         "date_publication": "08/04/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
-      },
-      {
-        "titre": "EU AI Act vs ISO 42001 - 7 Différences clés",
-        "resume": "Marché gouvernance IA projeté 227,65M$ (2024) à 4,3Md$ (2033). 78% organisations déploient systèmes IA. Overlap 40-50% exigences haut niveau. EU AI Act prescriptif vs ISO 42001 adaptable contexte. Certification volontaire vs obligations légales.",
-        "source": "verifywise.ai",
-        "url": "https://verifywise.ai/blog/eu-ai-act-vs-iso-42001-similarities-and-differences",
-        "date_publication": "05/11/2025",
-        "pertinence": "haute",
-        "categorie": "frameworks"
-      },
-      {
-        "titre": "ISO 42001 Implementation Guide 2026 - Framework AIMS pratique",
-        "resume": "EU AI Act deadline août 2026 pour systèmes haut risque rend ISO 42001 opportun. Framework fournit 'système opérationnel' management pour Articles 9-15 EU AI Act. Gouvernance unifiée IA connectant fonctions data science, IT, risque, sécurité, légal.",
-        "source": "secureprivacy.ai",
-        "url": "https://secureprivacy.ai/blog/iso-42001-implementation-guide-2026",
-        "date_publication": "19/02/2026",
-        "pertinence": "haute",
-        "categorie": "implementation"
-      },
-      {
-        "titre": "ISO/IEC 42001: 2026 Gold Standard pour gouvernance et confiance IA",
-        "resume": "Certification indépendante rapidement signal confiance sélection vendeurs et supervision conseil. EU AI Act catalyseur mondial certification formelle. AIMS transforme validations modèles dispersées en fabric gouvernance entreprise. Framework certifiable unique.",
-        "source": "insightassurance.com",
-        "url": "https://insightassurance.com/insights/blog/iso-iec-42001-the-2026-gold-standard-for-ai-governance-and-trust/",
-        "date_publication": "07/04/2026",
-        "pertinence": "haute",
-        "categorie": "certification"
-      },
-      {
-        "titre": "EU AI Code of Practice 2025 Guide + ISO 42001 Map",
-        "resume": "Commission européenne publie Code de Pratique GPAI volontaire 10 juillet 2025. Obligations GPAI applicables 2 août 2025, enforcement Commission 2 août 2026. ISO/IEC 42001 framework certifiable management système IA. Early adopters réduisent disruption.",
-        "source": "elevateconsult.com",
-        "url": "https://elevateconsult.com/insights/eu-ai-code-of-practice-iso-42001/",
-        "date_publication": "04/11/2025",
-        "pertinence": "moyenne",
         "categorie": "reglementation"
       },
       {
-        "titre": "ISO 42001 Explained - New Global AI Governance Standard",
-        "resume": "NQA obtient accréditation UKAS janvier 2026 pour certification ISO/IEC 42001. Premier standard système management international focalisé gouvernance IA. Framework structuré, auditable gestion risques IA, impacts, responsabilités cycle complet IA.",
-        "source": "nqa.com",
-        "url": "https://www.nqa.com/en-us/resources/blog/March-2026/iso-42001-ai-governance",
-        "date_publication": "vide si inconnue",
-        "pertinence": "moyenne",
-        "categorie": "certification"
+        "titre": "Code de pratique pour le marquage de contenu généré par IA - Projet publié",
+        "resume": "La Commission européenne a publié le 3 mars 2026 le second projet de Code de pratique sur le marquage et l'étiquetage du contenu généré par IA. Ce code vise à soutenir la conformité avec les obligations de transparence de l'AI Act pour les modèles d'IA à usage général.",
+        "source": "Kennedys Law",
+        "url": "https://www.kennedyslaw.com/en/thought-leadership/article/2026/the-eu-ai-act-implementation-timeline-understanding-the-next-deadline-for-compliance/",
+        "date_publication": "24/03/2026",
+        "pertinence": "haute",
+        "categorie": "conformite"
+      },
+      {
+        "titre": "Mise en place des autorités de surveillance et sanctions par les États membres",
+        "resume": "Les États membres de l'UE doivent avoir mis en place leurs systèmes de sanctions et d'amendes pour l'AI Act depuis le 2 août 2025. Les nouveaux modèles GPAI entrant sur le marché doivent se conformer immédiatement, tandis que les modèles existants ont jusqu'au 2 août 2027 pour se mettre en conformité.",
+        "source": "Kennedys Law",
+        "url": "https://www.kennedyslaw.com/en/thought-leadership/article/2026/the-eu-ai-act-implementation-timeline-understanding-the-next-deadline-for-compliance/",
+        "date_publication": "24/03/2026",
+        "pertinence": "haute",
+        "categorie": "conformite"
+      },
+      {
+        "titre": "AI Office européen : Supervision des modèles IA les plus puissants",
+        "resume": "L'AI Office européen supervise la mise en œuvre de l'AI Act et a la responsabilité particulière de superviser les modèles d'IA à usage général les plus puissants. Il applique les règles pour ces modèles et soutient les organismes de gouvernance des États membres dans leurs tâches de surveillance.",
+        "source": "Commission européenne",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+        "date_publication": "08/04/2026",
+        "pertinence": "haute",
+        "categorie": "gouvernance"
+      },
+      {
+        "titre": "Guidance sur l'implémentation pratique des systèmes IA à haut risque",
+        "resume": "La Commission européenne devait publier avant le 2 février 2026 des lignes directrices spécifiant l'implémentation pratique de l'Article 6, incluant la classification des systèmes IA à haut risque et les exigences associées. Ces guidance sont cruciales pour la conformité des entreprises.",
+        "source": "Kennedys Law",
+        "url": "https://www.kennedyslaw.com/en/thought-leadership/article/2026/the-eu-ai-act-implementation-timeline-understanding-the-next-deadline-for-compliance/",
+        "date_publication": "24/03/2026",
+        "pertinence": "haute",
+        "categorie": "conformite"
+      },
+      {
+        "titre": "Phase d'évaluation et révision de l'AI Act : 2028-2030",
+        "resume": "À partir de 2028, la Commission européenne entrera en phase d'évaluation et de révision de l'AI Act. Les organisations auront l'opportunité de contribuer et partager leurs expériences de conformité, ce qui peut influencer les futures modifications, interprétations et applications de la réglementation.",
+        "source": "Kennedys Law",
+        "url": "https://www.kennedyslaw.com/en/thought-leadership/article/2026/the-eu-ai-act-implementation-timeline-understanding-the-next-deadline-for-compliance/",
+        "date_publication": "24/03/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
       }
     ],
     "clinique": [
       {
-        "titre": "Overview of FDA Diversity-Related Documents for Clinical Trials",
-        "resume": "FDA engagement croissant diversité essais cliniques depuis 2016. Focus critères éligibilité participants. Sponsors doivent refléter caractéristiques populations cliniquement pertinentes : âge, sexe, race, ethnicité. Modèles décentralisés et télémédecine pour inclusion diverse.",
-        "source": "appliedclinicaltrialsonline.com",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/an-overview-of-fda-diversity-related-documents-for-clinical-trials",
-        "date_publication": "14/04/2026",
+        "titre": "Effective date 1er janvier 2026 pour la diversité dans les essais cliniques UW",
+        "resume": "L'Université de Washington a mis en application sa politique sur la diversité dans les essais cliniques le 1er janvier 2026. Cette politique exige un plan de diversité pour améliorer l'inscription des groupes sous-représentés et s'applique à toutes les recherches répondant à la définition d'essai clinique où les employés UW sont responsables du recrutement.",
+        "source": "Office of Healthcare Equity UW",
+        "url": "https://equity.uwmedicine.org/uwm-jedictr/dcti/",
+        "date_publication": "15/10/2025",
         "pertinence": "haute",
+        "categorie": "politique"
+      },
+      {
+        "titre": "ABPI Royaume-Uni : Stratégie nationale pour la diversité des essais cliniques",
+        "resume": "L'Association of the British Pharmaceutical Industry (ABPI) travaille avec l'Health Research Authority pour développer une stratégie nationale britannique sur la diversité des essais cliniques. Le Department of Health and Social Care s'est engagé à publier des métriques nationales sur l'inclusivité de la recherche en 2026, marquant un progrès significatif en transparence.",
+        "source": "ABPI",
+        "url": "https://www.abpi.org.uk/media/blogs/2026/march/improving-diversity-in-clinical-trials-is-both-an-equity-issue-and-a-scientific-necessity/",
+        "date_publication": "05/03/2026",
+        "pertinence": "haute",
+        "categorie": "initiative"
+      },
+      {
+        "titre": "Healthcare Congress 2026 : Priorité réglementaire à la diversité des essais",
+        "resume": "Les régulateurs et sponsors priorisent de plus en plus la diversité à travers des cadres de guidance et de responsabilité. La transparence des données, le suivi d'inscription en temps réel et les rapports démographiques sont maintenant considérés comme des meilleures pratiques standard dans l'industrie des essais cliniques.",
+        "source": "Healthcare Congress 2026",
+        "url": "https://healthcarecongress.healthconferences.org/events-list/diversity-and-inclusion-strategies-in-trial-enrollment",
+        "date_publication": "20/04/2026",
+        "pertinence": "haute",
+        "categorie": "conference"
+      },
+      {
+        "titre": "FDA Diversity Action Plans : Guidance mise à jour pour l'industrie",
+        "resume": "La FDA a publié une guidance mise à jour sur les plans d'action pour la diversité, remplaçant la version draft d'avril 2022. Cette guidance décrit le format, contenu et modalités des plans d'action diversité requis pour améliorer l'inscription de participants des populations sous-représentées dans les études cliniques.",
+        "source": "FDA",
+        "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/diversity-action-plans-improve-enrollment-participants-underrepresented-populations-clinical-studies",
+        "date_publication": "",
+        "pertinence": "moyenne",
         "categorie": "reglementation"
       },
       {
-        "titre": "FDA Draft Guidance - Crucial Advancement Toward More Inclusive Clinical Trials",
-        "resume": "40% population US appartient minorité raciale/ethnique, mais 80-90% participants essais cliniques sont blancs. Draft guidance FDA introduit Diversity Action Plans (DAPs) obligatoires 180 jours après guidance finale. Focus race, ethnicité, sexe, âge.",
-        "source": "rtihs.org",
-        "url": "https://www.rtihs.org/resource/insight/fda-guidance-more-inclusive-clinical-trials",
-        "date_publication": "vide si inconnue",
-        "pertinence": "haute",
-        "categorie": "policy"
-      },
-      {
-        "titre": "New FDA Guidance on Diversity Action Plans for Clinical Studies",
-        "resume": "FDA publie draft guidance 'Diversity Action Plans to Improve Enrollment of Participants from Underrepresented Populations in Clinical Studies'. Développé par Oncology Center of Excellence Project Equity en collaboration centres FDA et Office of Minority Health.",
-        "source": "mdgroup.com",
-        "url": "https://mdgroup.com/blog/new-fda-guidance-provides-details-on-diversity-action-plans-required-for-certain-clinical-studies/",
-        "date_publication": "09/07/2024",
+        "titre": "NIHR North West London : Framework EDI pour la recherche clinique",
+        "resume": "Le National Institute for Health and Care Research Clinical Research Network de North West London a développé un framework pratique pour intégrer l'équité, diversité et inclusion (EDI) dans la conception, protocoles et implémentation de la recherche clinique. Ce framework vise à établir des systèmes de recherche responsables et accessibles aux communautés diverses.",
+        "source": "PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11956285/",
+        "date_publication": "",
         "pertinence": "moyenne",
-        "categorie": "guidance"
+        "categorie": "framework"
       },
       {
-        "titre": "Diversity in Clinical Trials - UW Research Policy",
-        "resume": "UW exige Diversity Plan pour améliorer enrollment groupes sous-représentés. Politique effective 1er janvier 2026. Doit inclure participants préférence linguistique non-anglaise sauf raison impérieuse exclusion. Ressources planification engagement communautaire.",
-        "source": "washington.edu",
-        "url": "https://www.washington.edu/research/hsd/guidance/dct/",
-        "date_publication": "04/11/2024",
-        "pertinence": "moyenne",
-        "categorie": "institutional"
-      },
-      {
-        "titre": "HHS Actions to Enhance Diversity in Clinical Research",
-        "resume": "FDA Project Equity améliore accès essais cliniques oncologie pour populations historiquement sous-représentées : minorités raciales/ethniques, ruraux, minorités sexuelles/genre. HHS 2023 Equity Action Plan engage progrès diversification recherche clinique.",
-        "source": "ncbi.nlm.nih.gov",
+        "titre": "HHS Equity Action Plan 2023 : Engagement pour diversifier la recherche clinique",
+        "resume": "Le plan d'action équité 2023 du Department of Health and Human Services s'engage à continuer de faire des progrès pour diversifier la recherche clinique. Les actions incluent assurer une meilleure représentation des personnes affectées par les conditions de santé dans les études et engager les populations diverses tout au long du processus de recherche.",
+        "source": "NCBI",
         "url": "https://www.ncbi.nlm.nih.gov/books/NBK611096/",
-        "date_publication": "vide si inconnue",
+        "date_publication": "",
         "pertinence": "moyenne",
-        "categorie": "policy"
-      },
-      {
-        "titre": "Guidance Breakdown - Diversity Action Plans FDA",
-        "resume": "Guidance FDA développé par Oncology Center of Excellence Project Equity. Éléments DAP : spécification objectifs enrollment, rationale objectifs, mesures les atteindre. Engagement précoce FDA design étude, partenariats organisations communautaires.",
-        "source": "insider.thefdagroup.com",
-        "url": "https://insider.thefdagroup.com/p/guidance-breakdown-diversity-action",
-        "date_publication": "29/07/2024",
-        "pertinence": "moyenne",
-        "categorie": "guidance"
-      },
-      {
-        "titre": "Inclusion and Diversity in Clinical Trials - Actionable Steps for Change",
-        "resume": "Conférence multi-stakeholder DCRI sur état diversité/inclusivité essais cliniques. Participation représentants FDA, NIH, investigateurs, pharma, organisations communautaires. Engagement communautaire intégral recrutement/rétention groupes sous-représentés.",
-        "source": "pmc.ncbi.nlm.nih.gov",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9133187/",
-        "date_publication": "17/05/2022",
-        "pertinence": "moyenne",
-        "categorie": "research"
-      },
-      {
-        "titre": "Opportunities to Increase Science of Diversity and Inclusion in Clinical Trials",
-        "resume": "American Heart Association Strategically Focused Research Network on Science of Diversity in Clinical Trials. Réseau multicenter Stanford-Morehouse pour comprendre barrières diversité. Stratégies recrutement digitales, institutionnelles, communautaires.",
-        "source": "pmc.ncbi.nlm.nih.gov",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10863780/",
-        "date_publication": "vide si inconnue",
-        "pertinence": "moyenne",
-        "categorie": "research"
+        "categorie": "politique"
       }
     ]
   }
