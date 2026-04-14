@@ -21,36 +21,25 @@ LABELS = {
     "clinique":   "Diversite & essais cliniques"
 }
 
-def call_claude(prompt, max_retries=3, wait_seconds=30):
-    import time
-    for attempt in range(1, max_retries + 1):
-        try:
-            resp = requests.post(
-                "https://api.anthropic.com/v1/messages",
-                headers={
-                    "Content-Type": "application/json",
-                    "x-api-key": ANTHROPIC_API_KEY,
-                    "anthropic-version": "2023-06-01"
-                },
-                json={
-                    "model": "claude-sonnet-4-20250514",
-                    "max_tokens": 4000,
-                    "tools": [{"type": "web_search_20250305", "name": "web_search"}],
-                    "messages": [{"role": "user", "content": prompt}]
-                },
-                timeout=120
-            )
-            resp.raise_for_status()
-            texts = [b["text"] for b in resp.json().get("content", []) if b.get("type") == "text"]
-            return texts[-1] if texts else ""
-        except requests.exceptions.HTTPError as e:
-            status = e.response.status_code if e.response is not None else 0
-            if status in (429, 529) and attempt < max_retries:
-                print(f"API surchargee (erreur {status}), tentative {attempt}/{max_retries}, attente {wait_seconds}s...")
-                time.sleep(wait_seconds)
-            else:
-                raise
-    return ""
+def call_claude(prompt):
+    resp = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={
+            "Content-Type": "application/json",
+            "x-api-key": ANTHROPIC_API_KEY,
+            "anthropic-version": "2023-06-01"
+        },
+        json={
+            "model": "claude-sonnet-4-20250514",
+            "max_tokens": 4000,
+            "tools": [{"type": "web_search_20250305", "name": "web_search"}],
+            "messages": [{"role": "user", "content": prompt}]
+        },
+        timeout=120
+    )
+    resp.raise_for_status()
+    texts = [b["text"] for b in resp.json().get("content", []) if b.get("type") == "text"]
+    return texts[-1] if texts else ""
 
 def fetch_all():
     today = datetime.utcnow().strftime("%d %B %Y")
@@ -78,7 +67,7 @@ def fetch_all():
         "Reponds UNIQUEMENT avec ce JSON brut (sans markdown):\n"
         '{"agentique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"outil|cas-usage|tutoriel|produit|retour-experience"}],'
         '"gouvernance":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"..."}],'
-        '"clinique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n'
+        '"clinique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n"'
         "Maximum 8 items par theme, minimum 0 si rien de recent. resume en francais 2-3 phrases. JSON brut uniquement."
     )
     txt = call_claude(prompt).replace("```json", "").replace("```", "").strip()
