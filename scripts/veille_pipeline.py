@@ -42,17 +42,33 @@ def call_claude(prompt):
     return texts[-1] if texts else ""
 
 def fetch_all():
+    today = datetime.utcnow().strftime("%d %B %Y")
     prompt = (
-        "Fais une veille des dernieres actualites (24-48h) sur trois themes.\n\n"
-        "Theme 1 - IA agentique (focus PRATIQUE): nouveaux outils et frameworks agents sortis cette semaine, releases GitHub, retours d'experience de builders, tutoriels concrets, cas d'usage reels, annonces de produits agentiques, benchmarks pratiques, workflows AutoGen/CrewAI/LangGraph/MCP en production.\n"
-        "Theme 2 - Gouvernance IA entreprise: AI governance, EU AI Act, ISO 42001, responsible AI, AI compliance, AI policy.\n"
+        f"Nous sommes le {today}. "
+        "Fais une veille des actualites publiees dans les 14 DERNIERS JOURS MAXIMUM sur trois themes.\n\n"
+        "REGLE STRICTE : n'inclure un article que si tu peux verifier qu'il a ete publie dans les 14 derniers jours. "
+        "Si la date de publication n'est pas clairement identifiable ou si l'article est plus ancien, NE PAS l'inclure. "
+        "Mieux vaut avoir 3-4 articles recents et verifies que 8 articles dont certains sont anciens.\n\n"
+
+        "Theme 1 - IA agentique (focus TERRAIN et PRATIQUE uniquement):\n"
+        "Cherche EXCLUSIVEMENT : (a) nouveaux outils ou frameworks agents sortis ces 2 semaines avec lien GitHub ou page produit, "
+        "(b) retours d'experience concrets de professionnels qui ont deploye des agents en production (pas de theorie), "
+        "(c) tutoriels pratiques step-by-step sur AutoGen / CrewAI / LangGraph / MCP / n8n agents, "
+        "(d) annonces de produits agentiques avec demo ou benchmark reel, "
+        "(e) cas d'usage metiers documentes (workflow automatise, agent RH, agent support, etc.).\n"
+        "EXCLURE : articles conceptuels sur 'ce que sont les agents', predictions, opinions generales, articles de blog sans implementation concrete.\n\n"
+
+        "Theme 2 - Gouvernance IA entreprise: AI governance, EU AI Act implementation, ISO 42001, responsible AI deployment, "
+        "AI compliance frameworks, enterprise AI policy, AI Act enforcement updates.\n\n"
+
         "Theme 3 - Diversite en essais cliniques: clinical trial diversity, health equity, underrepresented populations, "
         "minority recruitment, FDA diversity action plan, algorithmic bias clinical, inclusive trial design.\n\n"
+
         "Reponds UNIQUEMENT avec ce JSON brut (sans markdown):\n"
-        '{"agentique":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}],'
-        '"gouvernance":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}],'
-        '"clinique":[{"titre":"...","resume":"...","source":"...","url":"https://...","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n'
-        "8 items par theme. resume en francais 2-3 phrases. JSON brut uniquement."
+        '{"agentique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"outil|cas-usage|tutoriel|produit|retour-experience"}],'
+        '"gouvernance":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"..."}],'
+        '"clinique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n"'
+        "Maximum 8 items par theme, minimum 0 si rien de recent. resume en francais 2-3 phrases. JSON brut uniquement."
     )
     txt = call_claude(prompt).replace("```json", "").replace("```", "").strip()
     m = re.search(r'\{[\s\S]*\}', txt)
@@ -67,35 +83,47 @@ def make_card(item, color):
         if url else item.get("titre", "")
     )
     cat = item.get("categorie", "")
+    date_pub = item.get("date_publication", "")
     return (
         f'<div style="background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px;margin-bottom:12px;">'
         f'<p style="margin:0 0 6px;font-size:15px;font-weight:600;color:#111827;">{titre}</p>'
         f'<p style="margin:0 0 10px;font-size:13px;color:#4b5563;line-height:1.6;">{item.get("resume","")}</p>'
-        f'<div style="display:flex;gap:8px;align-items:center;">'
+        f'<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">'
         f'<span style="font-size:12px;color:#9ca3af;">{item.get("source","")}</span>'
-        f'<span style="background:{pb};color:{pt};font-size:11px;padding:2px 8px;border-radius:20px;">{item.get("pertinence","")}</span>'
+        + (f'<span style="font-size:11px;color:#d1d5db;">· {date_pub}</span>' if date_pub else '')
+        + f'<span style="background:{pb};color:{pt};font-size:11px;padding:2px 8px;border-radius:20px;">{item.get("pertinence","")}</span>'
         + (f'<span style="background:#f3f4f6;color:#6b7280;font-size:11px;padding:1px 7px;border-radius:5px;">{cat}</span>' if cat else '')
         + '</div></div>'
     )
 
 def send_email(insights, date_str):
+    total = sum(len(insights.get(tid, [])) for tid in ["agentique", "gouvernance", "clinique"])
     sections = ""
     for tid in ["agentique", "gouvernance", "clinique"]:
         items = insights.get(tid, [])
         if not items:
+            c = COLORS[tid]
+            sections += (
+                f'<div style="margin-bottom:32px;">'
+                f'<p style="font-weight:700;color:{c};font-size:15px;margin:0 0 12px;">{LABELS[tid]}</p>'
+                f'<p style="color:#9ca3af;font-size:13px;font-style:italic;">Aucun article recent verifiable sur ce theme cette semaine.</p>'
+                f'</div>'
+            )
             continue
         c = COLORS[tid]
         cards = "".join(make_card(item, c) for item in items)
         sections += (
             f'<div style="margin-bottom:32px;">'
-            f'<p style="font-weight:700;color:{c};font-size:15px;margin:0 0 12px;">{LABELS[tid]}</p>'
+            f'<p style="font-weight:700;color:{c};font-size:15px;margin:0 0 12px;">'
+            f'{LABELS[tid]} <span style="font-weight:400;font-size:13px;color:#9ca3af;">({len(items)} articles)</span></p>'
             f'{cards}</div>'
         )
     html = (
         f'<html><body style="font-family:sans-serif;background:#f9fafb;padding:32px;">'
         f'<div style="max-width:600px;margin:0 auto;background:#fff;border-radius:12px;padding:28px;">'
         f'<h1 style="font-size:20px;margin:0 0 4px;">Veille IA</h1>'
-        f'<p style="color:#6b7280;font-size:13px;margin:0 0 24px;">{date_str}</p>'
+        f'<p style="color:#6b7280;font-size:13px;margin:0 0 4px;">{date_str}</p>'
+        f'<p style="color:#9ca3af;font-size:12px;margin:0 0 24px;">Articles des 14 derniers jours uniquement · {total} articles verifies</p>'
         f'{sections}'
         f'<p style="font-size:11px;color:#9ca3af;text-align:center;">Pipeline automatique ClinDiv</p>'
         f'</div></body></html>'
