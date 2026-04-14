@@ -21,7 +21,7 @@ LABELS = {
     "clinique":   "Diversite & essais cliniques"
 }
 
-def call_claude(prompt, max_retries=3, wait_seconds=30):
+def call_claude(prompt, max_retries=5, wait_seconds=60):
     import time
     for attempt in range(1, max_retries + 1):
         try:
@@ -47,6 +47,7 @@ def call_claude(prompt, max_retries=3, wait_seconds=30):
             status = e.response.status_code if e.response is not None else 0
             if status in (429, 529) and attempt < max_retries:
                 print(f"API surchargee (erreur {status}), tentative {attempt}/{max_retries}, attente {wait_seconds}s...")
+                time.sleep(wait_seconds * attempt)  # attente progressive
                 time.sleep(wait_seconds)
             else:
                 raise
@@ -75,10 +76,11 @@ def fetch_all():
         "Theme 3 - Diversite en essais cliniques: clinical trial diversity, health equity, underrepresented populations, "
         "minority recruitment, FDA diversity action plan, algorithmic bias clinical, inclusive trial design.\n\n"
 
+        "IMPORTANT : le champ pertinence doit contenir UNIQUEMENT le mot \"haute\" ou le mot \"moyenne\". Rien d'autre. Pas de chiffre, pas de Tres elevee, pas de elevee, pas de score. Uniquement \"haute\" ou \"moyenne\".\n\n"
         "Reponds UNIQUEMENT avec ce JSON brut (sans markdown):\n"
-        '{"agentique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"outil|cas-usage|tutoriel|produit|retour-experience"}],'
-        '"gouvernance":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"..."}],'
-        '"clinique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n'
+        '{"agentique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute","categorie":"outil"}],'
+        '"gouvernance":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute","categorie":"..."}],'
+        '"clinique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute","categorie":"..."}]}\n\n'
         "Maximum 8 items par theme, minimum 0 si rien de recent. resume en francais 2-3 phrases. JSON brut uniquement."
     )
     txt = call_claude(prompt).replace("```json", "").replace("```", "").strip()
