@@ -10,6 +10,31 @@ EMAIL_TO  = os.environ["EMAIL_TO"]
 SMTP_HOST = os.environ.get("SMTP_HOST", "ssl0.ovh.net")
 SMTP_PORT = int(os.environ.get("SMTP_PORT", "465"))
 
+
+def filter_recent(items, max_days=14):
+    """Remove items older than max_days. Keep items with no date (Claude couldn't verify)."""
+    from datetime import datetime, timedelta
+    cutoff = datetime.utcnow() - timedelta(days=max_days)
+    kept = []
+    for item in items:
+        date_str = item.get("date_publication", "").strip()
+        if not date_str:
+            # No date — keep but flag
+            item["date_publication"] = ""
+            kept.append(item)
+            continue
+        try:
+            # Parse JJ/MM/AAAA
+            d = datetime.strptime(date_str, "%d/%m/%Y")
+            if d >= cutoff:
+                kept.append(item)
+            else:
+                print(f"  Filtre anciennete: article exclu ({date_str}) - {item.get('titre','')[:60]}")
+        except ValueError:
+            # Unparseable date — keep it
+            kept.append(item)
+    return kept
+
 COLORS = {
     "agentique":  "#16a34a",
     "gouvernance":"#d97706",
@@ -85,7 +110,16 @@ def fetch_all():
     )
     txt = call_claude(prompt).replace("```json", "").replace("```", "").strip()
     m = re.search(r'\{[\s\S]*\}', txt)
-    return json.loads(m.group(0)) if m else {"agentique": [], "gouvernance": [], "clinique": []}
+    if not m:
+        return {"agentique": [], "gouvernance": [], "clinique": []}
+    data = json.loads(m.group(0))
+    for theme in ["agentique", "gouvernance", "clinique"]:
+        before = len(data.get(theme, []))
+        data[theme] = filter_recent(data.get(theme, []))
+        after = len(data[theme])
+        if before != after:
+            print(f"  {theme}: {before - after} article(s) trop ancien(s) retire(s)")
+    return data
 
 def make_card(item, color):
     pb = "#dcfce7" if item.get("pertinence") == "haute" else "#fef9c3"
