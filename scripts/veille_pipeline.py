@@ -67,7 +67,7 @@ def fetch_all():
         "Reponds UNIQUEMENT avec ce JSON brut (sans markdown):\n"
         '{"agentique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"outil|cas-usage|tutoriel|produit|retour-experience"}],'
         '"gouvernance":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"..."}],'
-        '"clinique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n"'
+        '"clinique":[{"titre":"...","resume":"...","source":"...","url":"https://...","date_publication":"JJ/MM/AAAA ou vide si inconnue","pertinence":"haute ou moyenne","categorie":"..."}]}\n\n'
         "Maximum 8 items par theme, minimum 0 si rien de recent. resume en francais 2-3 phrases. JSON brut uniquement."
     )
     txt = call_claude(prompt).replace("```json", "").replace("```", "").strip()
