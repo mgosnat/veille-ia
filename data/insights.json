@@ -1,84 +1,65 @@
 {
-  "generated_at": "2026-04-15T07:58:24.610490Z",
-  "date_fr": "15/04/2026",
+  "generated_at": "2026-04-17T07:59:07.145530Z",
+  "date_fr": "17/04/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "n8n intègre le Model Context Protocol (MCP) pour l'automatisation agentique",
-        "resume": "n8n a déployé une intégration complète du MCP permettant aux IA externes comme Claude de créer et déployer des workflows via API. Le serveur MCP n8n expose plus de 1396 nœuds avec documentation complète et validation en temps réel pour la création de workflows pilotés par IA.",
-        "source": "SyncBricks",
-        "url": "https://syncbricks.com/n8n-claude-code-build-ai-workflows-without-touching-ui/",
-        "date_publication": "13/04/2026",
+        "titre": "Microsoft Agent Framework 1.0 Launch",
+        "resume": "Microsoft lance Agent Framework 1.0 le 3 avril 2026, unifiant Semantic Kernel et AutoGen en une seule plateforme de production. Supporte Python/.NET avec intégration MCP complète et protocole A2A pour l'interopérabilité entre frameworks.",
+        "source": "DEV Community",
+        "url": "https://dev.to/jangwook_kim_e31e7291ad98/microsoft-agent-framework-10-build-ai-agents-in-net-and-python-kka",
+        "date_publication": "15/04/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Nouvelle version de n8n MCP Server avec plus de 104000 patterns de workflows",
-        "resume": "Le serveur MCP officiel de n8n atteint une couverture de 99% des nœuds avec 87% de documentation officielle. L'outil permet la création automatisée de workflows via prompts naturels avec un agent IA intégré qui apprend des patterns existants.",
-        "source": "n8n-MCP",
-        "url": "https://www.n8n-mcp.com/",
-        "date_publication": "",
+        "titre": "Reprobot - Agent IA pour reproduire les bugs",
+        "resume": "Metabase dévoile Reprobot, un agent qui automatise la reproduction de bugs signalés sur GitHub. Parse les descriptions, provisionnent des environnements de test et exécute les étapes pour reproduire les problèmes avec stack traces complets.",
+        "source": "Epsilla Blog",
+        "url": "https://www.epsilla.com/blogs/ai-agents-ecosystem-update-april-2026",
+        "date_publication": "15/04/2026",
+        "pertinence": "haute",
+        "categorie": "cas_usage"
+      },
+      {
+        "titre": "GAIA - Framework local pour agents IA",
+        "resume": "Sortie du framework GAIA permettant d'exécuter des agents IA directement sur du matériel local. Résout les problèmes de latence et de sécurité en éliminant la dépendance aux APIs cloud pour l'exécution d'agents.",
+        "source": "Epsilla Blog",
+        "url": "https://www.epsilla.com/blogs/ai-agents-ecosystem-update-april-2026",
+        "date_publication": "15/04/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Comparatif complet des frameworks d'agents IA 2026: performances en production",
-        "resume": "Benchmark détaillé sur 2000 exécutions comparant LangGraph, CrewAI, AutoGen et autres frameworks. LangGraph montre la plus faible latence, CrewAI excelle pour les équipes d'agents, et les coûts varient de 0,12$ à 0,35$ par requête selon le framework utilisé.",
-        "source": "Fungies.io",
-        "url": "https://fungies.io/ai-agent-frameworks-comparison-2026-langchain-crewai-autogen/",
-        "date_publication": "08/04/2026",
+        "titre": "LangGraph vs CrewAI vs AutoGen - Guide de production 2026",
+        "resume": "Guide comparatif détaillé des trois frameworks dominants pour agents multi-agents. LangGraph recommandé pour la production avec contrôle fin, CrewAI pour le prototypage rapide, AutoGen pour le raisonnement collaboratif avec Azure.",
+        "source": "Lushbinary",
+        "url": "https://lushbinary.com/blog/langgraph-vs-crewai-vs-autogen-ai-agent-framework-comparison/",
+        "date_publication": "10/04/2026",
         "pertinence": "haute",
-        "categorie": "benchmark"
+        "categorie": "comparatif"
       },
       {
-        "titre": "Retour d'expérience : déploiement d'agents n8n avec MCP en entreprise",
-        "resume": "Guide pratique montrant comment connecter agents IA à n8n via MCP pour automatiser workflows complexes. Inclut architectures de déploiement, exemples de code et patterns de gouvernance pour systèmes agentiques en production avec échelle K8s.",
-        "source": "Panaversity",
-        "url": "https://github.com/panaversity/learn-n8n-agentic-ai",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "tutoriel"
+        "titre": "SnapState - Persistance d'état pour agents",
+        "resume": "SnapState fournit un stockage clé-valeur optimisé pour les agents IA permettant la sérialisation complète du contexte d'exécution. Inclut capacité de 'time-travel debugging' et récupération après crash pour la fiabilité.",
+        "source": "Epsilla Blog",
+        "url": "https://www.epsilla.com/blogs/ai-agents-ecosystem-update-april-2026",
+        "date_publication": "15/04/2026",
+        "pertinence": "moyenne",
+        "categorie": "infrastructure"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act 2026 : exigences spécifiques pour les agents autonomes",
-        "resume": "Analyse des défis de gouvernance pour les IA agentiques sous l'AI Act. Nécessité d'un registre centralisé des agents, logs cryptographiques des actions et mécanismes de révocation rapide pour respecter l'Article 9 sur la gestion des risques en continu.",
-        "source": "Artificial Intelligence News",
-        "url": "https://www.artificialintelligence-news.com/news/agentic-ais-governance-challenges-under-the-eu-ai-act-in-2026/",
-        "date_publication": "10/04/2026",
-        "pertinence": "haute",
-        "categorie": "analyse"
-      },
-      {
-        "titre": "Covasant lance une solution de gouvernance IA conforme EU AI Act",
-        "resume": "Solution architecturale permettant aux entreprises de rendre leurs agents autonomes conformes à l'AI Act d'ici août 2026. Focus sur traçabilité complète des données, points de contrôle humain et étiquetage des niveaux de risque pour éviter les amendes jusqu'à 35M€.",
+        "titre": "Covasant - Gouvernance agents autonomes pour AI Act",
+        "resume": "Guide pratique pour mettre en conformité les agents IA autonomes avec l'AI Act d'ici août 2026. Focus sur systèmes à haut risque : scoring crédit, recrutement, reporting réglementaire avec frameworks d'audit.",
         "source": "Covasant",
         "url": "https://www.covasant.com/blogs/eu-ai-act-compliance-autonomous-agents-enterprise-2026",
         "date_publication": "13/04/2026",
         "pertinence": "haute",
-        "categorie": "solution"
+        "categorie": "implementation"
       }
     ],
-    "clinique": [
-      {
-        "titre": "Guide FDA 2024 : Plans d'Action Diversité obligatoires pour essais cliniques",
-        "resume": "La FDA a finalisé ses exigences pour les Plans d'Action Diversité (DAP) dans les essais cliniques phase 3 et pivotaux. Les sponsors doivent définir objectifs d'inscription, stratégies de recrutement et métriques pour populations sous-représentées selon race, ethnie, sexe et âge.",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/an-overview-of-fda-diversity-related-documents-for-clinical-trials",
-        "date_publication": "14/04/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "Université de Washington lance politique Diversité obligatoire dès janvier 2026",
-        "resume": "Nouvelle politique UW exigeant Plans Diversité pour tous essais cliniques avec participation à recrutement/consentement. Inclut accès linguistique obligatoire pour participants non-anglophones et définition élargie des groupes sous-représentés incluant orientation sexuelle et statut socio-économique.",
-        "source": "UW Research",
-        "url": "https://www.washington.edu/research/hsd/guidance/dct/",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "politique"
-      }
-    ]
+    "clinique": []
   }
 }
