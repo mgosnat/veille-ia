@@ -1,75 +1,56 @@
 {
-  "generated_at": "2026-04-18T07:18:37.896868Z",
-  "date_fr": "18/04/2026",
+  "generated_at": "2026-05-07T07:14:40.841043Z",
+  "date_fr": "07/05/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Top 5 AI Agent Frameworks 2026: LangGraph, CrewAI & More | Intuz",
-        "resume": "Guide comparatif des 5 frameworks d'agents IA principaux en 2026 - LangGraph pour workflows stateful, AutoGen pour conversations multi-agents, CrewAI pour automation basée sur les rôles. Article analyse leurs forces et recommandations d'utilisation selon le cas d'usage entreprise.",
-        "source": "Intuz",
-        "url": "https://www.intuz.com/blog/top-5-ai-agent-frameworks-2025",
-        "date_publication": "",
+        "titre": "Explosion du paysage des frameworks d'agents en 2026",
+        "resume": "LangGraph a dépassé CrewAI en stars GitHub début 2026 grâce à l'adoption en entreprise et son architecture graphique adaptée aux exigences de production. OpenAI a lancé un SDK d'agents, Google a sorti ADK, et HuggingFace a publié Smolagents.",
+        "source": "Medium",
+        "url": "https://medium.com/@atnoforgenai/10-ai-agent-frameworks-you-should-know-in-2026-langgraph-crewai-autogen-more-2e0be4055556",
+        "date_publication": "30/04/2026",
         "pertinence": "haute",
-        "categorie": "comparatif"
+        "categorie": "outil"
       },
       {
-        "titre": "AI Agent Frameworks Comparison 2026: LangChain vs CrewAI vs AutoGen | Fungies",
-        "resume": "MCP devient standard intégration outils en 2026 avec tous frameworks ajoutant support. LangGraph et AutoGen ont implémentations MCP les plus matures. Convergence standards mais écarts se réduisent. Gains productivité 20-45% pour équipes utilisant IA efficacement.",
-        "source": "Fungies",
-        "url": "https://fungies.io/ai-agent-frameworks-comparison-2026-langchain-crewai-autogen/",
-        "date_publication": "",
+        "titre": "Guide des meilleurs frameworks multi-agents 2026",
+        "resume": "LangGraph domine pour les systèmes de production avec observabilité native. CrewAI reste champion pour le prototypage rapide. Google ADK propose une architecture hiérarchique avec support A2A natif pour la communication inter-frameworks.",
+        "source": "GuruSup",
+        "url": "https://gurusup.com/blog/best-multi-agent-frameworks-2026",
+        "date_publication": "02/05/2026",
         "pertinence": "haute",
-        "categorie": "comparatif"
+        "categorie": "outil"
       },
       {
-        "titre": "LangGraph vs CrewAI vs AutoGen: Agent Framework Comparison | Lushbinary",
-        "resume": "LangGraph est le meilleur framework production 2026 avec workflow engine graph-based, streaming, checkpointing et debugging via LangSmith. CrewAI pour prototypage rapide, AutoGen excellence Azure. Support MCP complet tous frameworks avec intégration la plus profonde LangGraph.",
-        "source": "Lushbinary",
-        "url": "https://lushbinary.com/blog/langgraph-vs-crewai-vs-autogen-ai-agent-framework-comparison/",
-        "date_publication": "",
+        "titre": "Comparaison pratique CrewAI vs LangGraph vs AutoGen 2026",
+        "resume": "AutoGen en mode maintenance chez Microsoft. CrewAI excellent pour prototypes en 1 jour. LangGraph recommandé pour workflows avec cycles, logique de branchement et observabilité de niveau production. OpenAgents seul framework avec MCP et A2A natifs.",
+        "source": "DEV Community",
+        "url": "https://dev.to/emperorakashi20/crewai-vs-langgraph-vs-autogen-which-multi-agent-framework-should-you-use-in-2026-5h2f",
+        "date_publication": "30/04/2026",
         "pertinence": "haute",
-        "categorie": "comparatif"
+        "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act 2026 Readiness Report: 78% of Enterprises Unprepared | Vision Compliance",
-        "resume": "Rapport révèle 78% entreprises non préparées obligations AI Act. Nécessité classifier chaque système IA, documenter construction/tests, maintenir surveillance humaine continue. Organisations GDPR-compliant mieux positionnées mais Act introduit exigences dépassant protection données.",
-        "source": "Vision Compliance",
-        "url": "https://natlawreview.com/press-releases/vision-compliance-releases-2026-eu-ai-act-readiness-report-finds-78",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "étude"
-      },
-      {
-        "titre": "EU AI Act 2026 Updates: Compliance Requirements and Business Risks | Legal Nodes",
-        "resume": "Obligations AI Act s'appliquent tous opérateurs systèmes haut risque avant 2 août 2026. Évaluations conformité complétées, documentation technique finalisée, marquage CE et enregistrement base UE requis. Surveillance continue mises à jour réglementaires après août 2026.",
-        "source": "Legal Nodes",
-        "url": "https://www.legalnodes.com/article/eu-ai-act-2026-updates-compliance-requirements-and-business-risks",
-        "date_publication": "",
+        "titre": "Compliance EU AI Act 2026 pour les entreprises",
+        "resume": "Date limite d'application critique : 2 août 2026 pour les systèmes IA à haut risque. La plupart des entreprises présentent des lacunes importantes : absence d'inventaire IA complet, documentation technique insuffisante, gouvernance des données inadéquate.",
+        "source": "Secure Privacy",
+        "url": "https://secureprivacy.ai/blog/eu-ai-act-2026-compliance",
+        "date_publication": "30/04/2026",
         "pertinence": "haute",
         "categorie": "compliance"
       },
       {
-        "titre": "EU AI Act Compliance for Autonomous AI Agents in 2026 | Covasant",
-        "resume": "Toute entreprise opérant UE ou servant citoyens UE doit mettre agents conformes août 2026. AI Act loi contraignante avec enforcement, exigences systèmes haut risque effectives août 2026. Remplacer boîte noire par boîte verre visible, contrôlée et auditable à tous niveaux.",
-        "source": "Covasant",
-        "url": "https://www.covasant.com/blogs/eu-ai-act-compliance-autonomous-agents-enterprise-2026",
-        "date_publication": "13/04/2026",
+        "titre": "Compliance et gouvernance IA d'entreprise 2026",
+        "resume": "Structure de pénalités à niveaux : jusqu'à 35 millions d'euros ou 7% du chiffre d'affaires global pour pratiques IA interdites. Focus d'application passe des conseils aux pénalités agressives en 2025-2026. Evidence de gouvernance IA structurée requise.",
+        "source": "TechAhead",
+        "url": "https://www.techaheadcorp.com/blog/ai-compliance-governance-guide/",
+        "date_publication": "06/05/2026",
         "pertinence": "haute",
-        "categorie": "conformité"
+        "categorie": "gouvernance"
       }
     ],
-    "clinique": [
-      {
-        "titre": "An Overview of FDA Diversity-Related Documents for Clinical Trials | Applied Clinical Trials",
-        "resume": "Depuis 2016, FDA a publié divers documents guidance promotion diversité essais cliniques. Sponsors doivent être proactifs s'assurer critères inclusion/exclusion n'excluent pas inadvertamment populations diverses. Exploration croissante modèles décentralisés, télémédecine et technologie remote pour inclusion élargie.",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/an-overview-of-fda-diversity-related-documents-for-clinical-trials",
-        "date_publication": "14/04/2026",
-        "pertinence": "haute",
-        "categorie": "guidance"
-      }
-    ]
+    "clinique": []
   }
 }
