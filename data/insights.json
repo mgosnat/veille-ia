@@ -1,119 +1,92 @@
 {
-  "generated_at": "2026-05-07T08:42:54.831868Z",
-  "date_fr": "07/05/2026",
+  "generated_at": "2026-05-08T07:50:04.831330Z",
+  "date_fr": "08/05/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Framework v1.0 : plateforme de production multi-langage",
-        "resume": "Microsoft a lancé en octobre 2025 son Agent Framework unifiant AutoGen et Semantic Kernel pour la production. Le framework supporte Python et .NET avec déploiement natif sur Azure AI Foundry et configuration YAML simplifiée.",
-        "source": "GitHub",
-        "url": "https://github.com/microsoft/agent-framework",
-        "date_publication": "06/05/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Google ADK : framework hiérarchique avec protocole A2A",
-        "resume": "Google a publié en avril 2025 son Agent Development Kit avec architecture d'arbre d'agents hiérarchique et support natif du protocole A2A pour l'interopérabilité inter-frameworks. Intégration native avec Vertex AI et Gemini.",
-        "source": "Medium",
+        "titre": "Explosion des frameworks d'agents IA en 2026 : LangGraph surpasse CrewAI en popularité",
+        "resume": "Le paysage des frameworks d'agents IA a explosé en 2026 avec de nombreuses nouvelles sorties et comparatifs. LangGraph a surpassé CrewAI en étoiles GitHub grâce à son adoption en entreprise et son architecture graphique adaptée aux exigences de production. Les organisations migrent souvent de CrewAI vers LangGraph pour les workflows de production nécessitant une gestion d'état avancée.",
+        "source": "Medium - ATNO for GenAI",
         "url": "https://medium.com/@atnoforgenai/10-ai-agent-frameworks-you-should-know-in-2026-langgraph-crewai-autogen-more-2e0be4055556",
-        "date_publication": "30/04/2026",
+        "date_publication": "01/05/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "CrewAI Flow 2.0 : mode pipeline événementiel pour production",
-        "resume": "CrewAI a introduit en 2025 les 'Flows', un mode pipeline événementiel pour des workflows plus prévisibles en production, complétant le modèle traditionnel basé sur les rôles. Support A2A ajouté pour l'interopérabilité.",
+        "titre": "Guide pratique 2026 : Comparatif détaillé LangGraph vs CrewAI vs AutoGen pour la production",
+        "resume": "Guide complet comparant les trois frameworks dominants avec exemples de code et métriques d'ingénierie. LangGraph excelle pour les workflows complexes avec contrôle précis, CrewAI pour le prototypage rapide, AutoGen pour les environnements Azure. Inclut des benchmarks de coûts et retours d'expérience en production.",
+        "source": "Pratik Pathak",
+        "url": "https://pratikpathak.com/langgraph-vs-crewai-vs-autogen-2026/",
+        "date_publication": "02/05/2026",
+        "pertinence": "haute",
+        "categorie": "tutoriel"
+      },
+      {
+        "titre": "Frameworks d'orchestration d'agents IA : Guide complet 2026 avec intégration NVIDIA",
+        "resume": "CrewAI annonce son intégration avec la pile NVIDIA NemoClaw pour un déploiement sécurisé en entreprise. L'innovation clé est l'application de politiques au niveau infrastructure. Benchmark sur 2000 exécutions révèle des différences significatives entre frameworks : CrewAI utilise 3x plus de tokens mais égale les autres sur les tâches complexes.",
+        "source": "MHTECHIN",
+        "url": "https://www.mhtechin.com/support/orchestration-frameworks-for-agentic-ai-langchain-autogen-crewai-the-complete-2026-guide/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Showdown 2026 des agents IA : focus sur l'IA souveraine et l'architecture edge",
+        "resume": "Analyse approfondie des trois frameworks avec focus sur l'IA souveraine pour les industries réglementées. LangGraph recommandé pour les systèmes critiques, CrewAI pour les workflows structurés, AutoGen pour la collaboration itérative. Emphasis sur l'architecture edge et la propriété des modèles comme avantage concurrentiel 2026.",
+        "source": "AINext Conference",
+        "url": "https://ainextconference.com/agentic-ai-showdown-2026-crewai-vs-autogen-vs-langgraph/",
+        "date_publication": "02/05/2026",
+        "pertinence": "haute",
+        "categorie": "cas d'usage"
+      },
+      {
+        "titre": "Retour d'expérience pratique : déploiement multi-agents en production pour clients D2C",
+        "resume": "Retour d'expérience concret de déploiement d'agents pour marques D2C, chaînes de laverie et e-commerce au Moyen-Orient. CrewAI ajouté les Flows en 2025 pour les charges de production. Microsoft a arrêté le développement majeur d'AutoGen. Recommandations pratiques basées sur l'expérience terrain.",
         "source": "DEV Community",
         "url": "https://dev.to/emperorakashi20/crewai-vs-langgraph-vs-autogen-which-multi-agent-framework-should-you-use-in-2026-5h2f",
-        "date_publication": "30/04/2026",
-        "pertinence": "moyenne",
-        "categorie": "framework"
-      },
-      {
-        "titre": "LangGraph v1.0 : production-ready avec LangSmith natif",
-        "resume": "LangGraph a atteint v1.0 fin 2025 avec observabilité LangSmith intégrée, checkpointing natif et capacités de time-travel debugging. Architecture basée sur graphe avec transitions conditionnelles explicites.",
-        "source": "Lushbinary",
-        "url": "https://lushbinary.com/blog/langgraph-vs-crewai-vs-autogen-ai-agent-framework-comparison/",
-        "date_publication": "",
+        "date_publication": "02/05/2026",
         "pertinence": "haute",
-        "categorie": "framework"
-      },
-      {
-        "titre": "Retours d'expérience migration CrewAI vers LangGraph",
-        "resume": "Pattern de migration documenté où les équipes commencent par CrewAI pour le prototypage rapide puis migrent vers LangGraph pour la gestion d'état de production. Écart de performance de 8 points sur tâches complexes.",
-        "source": "Pooya Golchian",
-        "url": "https://pooya.blog/blog/crewai-vs-langgraph-autogen-comparison-2026/",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "retour"
+        "categorie": "cas d'usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : trilogue sur l'Omnibus échoue le 28 avril 2026",
-        "resume": "Les négociations du trilogue européen sur le paquet Omnibus AI Act ont échoué le 28 avril 2026 en raison de désaccords sur l'exemption des systèmes IA intégrés. L'échéance du 2 août 2026 pour les systèmes à haut risque reste en vigueur.",
-        "source": "IAPP",
-        "url": "https://iapp.org/news/a/ai-act-omnibus-what-just-happened-and-what-comes-next",
+        "titre": "UE simplifie les règles IA et interdit les apps de 'nudification' pour protéger les citoyens",
+        "resume": "L'UE s'accorde sur la simplification des règles d'IA pour stimuler l'innovation tout en interdisant les applications de 'nudification'. Cette décision fait partie des efforts continus pour équilibrer innovation et protection des citoyens dans le cadre de l'AI Act.",
+        "source": "Commission européenne",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
         "date_publication": "07/05/2026",
         "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "réglementation"
       },
       {
-        "titre": "AI Act : sandboxes réglementaires obligatoires avant août 2026",
-        "resume": "Chaque État membre de l'UE doit établir au moins un sandbox réglementaire IA au niveau national avant le 2 août 2026 selon l'Article 57 de l'AI Act. Objectif de faciliter l'innovation tout en respectant la réglementation.",
-        "source": "EU AI Act Website",
-        "url": "https://artificialintelligenceact.eu/",
+        "titre": "Développements réglementaires IA 2026 : ce que les entreprises doivent surveiller",
+        "resume": "Panorama des développements réglementaires IA pour 2026. Nouvelles lois d'implémentation de l'AI Act attendues dans les pays UE. Proposition d'amendements incluant extension de la date d'application des règles HRAI d'août 2026 à décembre 2027. Focus sur transparence des données d'entraînement IA et protection des mineurs.",
+        "source": "Wilson Sonsini",
+        "url": "https://www.wsgr.com/en/insights/2026-year-in-preview-ai-regulatory-developments-for-companies-to-watch-out-for.html",
         "date_publication": "",
         "pertinence": "haute",
-        "categorie": "implementation"
-      },
-      {
-        "titre": "Bureau européen de l'IA : guide d'implémentation des modèles GPAI",
-        "resume": "Le Bureau européen de l'IA publie des lignes directrices pour clarifier les obligations des fournisseurs de modèles d'IA à usage général, avec pouvoir d'évaluation et de sanctions renforcé depuis août 2025.",
-        "source": "Commission européenne",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "guidance"
+        "categorie": "réglementation"
       }
     ],
     "clinique": [
       {
-        "titre": "FDA retire discrètement le guide diversité après ordre exécutif",
-        "resume": "La FDA a retiré sans préavis public le 23 janvier 2025 son projet de guide sur la diversité des essais cliniques suite à l'ordre exécutif Trump contre les programmes DEI. Mouvement inhabituel pour l'agence sans annonce formelle.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "07/05/2026",
-        "pertinence": "haute",
-        "categorie": "regulation"
-      },
-      {
-        "titre": "FDA publie le guide final sur les plans d'action diversité",
-        "resume": "La FDA a publié le guide final remplaçant le projet d'avril 2022, détaillant les exigences pour les plans d'action diversité dans les essais cliniques de phase 3 et pivots, avec focus sur les populations sous-représentées.",
+        "titre": "Plans d'action diversité FDA pour améliorer l'inclusion dans les études cliniques",
+        "resume": "La FDA a publié un guide sur les plans d'action diversité pour améliorer l'inclusion des populations sous-représentées dans les études cliniques. Ce guide remplace la version préliminaire d'avril 2022 et détaille le format et contenu requis des plans de diversité mandatés par la loi FDORA.",
         "source": "FDA",
         "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/diversity-action-plans-improve-enrollment-participants-underrepresented-populations-clinical-studies",
         "date_publication": "",
         "pertinence": "haute",
-        "categorie": "guidance"
+        "categorie": "réglementation"
       },
       {
-        "titre": "FDORA : plans diversité obligatoires pour essais pivots",
-        "resume": "Le Food and Drug Omnibus Reform Act de 2022 impose aux sponsors de soumettre des plans d'action diversité pour les études de phase 3 et essais pivots, incluant objectifs d'inscription par groupe démographique et stratégies de recrutement.",
-        "source": "Applied Clinical Trials",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/an-overview-of-fda-diversity-related-documents-for-clinical-trials",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "legislation"
-      },
-      {
-        "titre": "Pharmacoépidémiologie : opportunités pour plans diversité",
-        "resume": "Les pharmacoépidémiologistes peuvent contribuer significativement aux objectifs de diversité en utilisant des méthodes épidémiologiques robustes et données du monde réel pour informer les objectifs des plans diversité au-delà de la race/ethnicité.",
-        "source": "PMC",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10225256/",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "methodologie"
+        "titre": "FDA retire discrètement ses directives sur la diversité suite à l'ordre exécutif DEI",
+        "resume": "La FDA a retiré sans préavis ses directives préliminaires sur la diversité dans les essais cliniques suite à l'ordre exécutif du président Trump limitant les programmes DEI. Ces directives visaient à améliorer l'inclusion des populations historiquement sous-représentées. Le retrait laisse les sponsors dans l'incertitude concernant les attentes de diversité.",
+        "source": "AJMC",
+        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
+        "date_publication": "07/05/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
       }
     ]
   }
