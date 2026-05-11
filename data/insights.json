@@ -1,92 +1,65 @@
 {
-  "generated_at": "2026-05-10T08:17:17.939993Z",
-  "date_fr": "10/05/2026",
+  "generated_at": "2026-05-11T09:52:57.318883Z",
+  "date_fr": "11/05/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Best Multi-Agent Frameworks in 2026: LangGraph, CrewAI & AutoGen",
-        "resume": "<cite index=\"1-14\">Teams that start with CrewAI for prototyping often migrate to LangGraph when they need production-grade state management and conditional routing.</cite> <cite index=\"1-17\">The v0.4 rewrite, now called AG2, rearchitected with an event-driven core, async-first execution, and pluggable orchestration strategies.</cite> <cite index=\"1-24\">Released in April 2025, Google's ADK provides a hierarchical agent tree where a root agent delegates to sub-agents.</cite>",
+        "titre": "Comparaison complète des frameworks d'agents IA 2026 : LangGraph, CrewAI, AutoGen et alternatives",
+        "resume": "<cite index=\"1-2,2-38\">LangGraph a dépassé CrewAI en nombre d'étoiles GitHub au début 2026, grâce à son adoption par les entreprises et son architecture basée sur des graphes qui s'adapte aux exigences de production</cite>. <cite index=\"1-24,2-15\">Google a lancé l'ADK en avril 2025</cite> avec un support natif pour le protocole Agent-to-Agent (A2A).",
         "source": "GuruSup",
         "url": "https://gurusup.com/blog/best-multi-agent-frameworks-2026",
-        "date_publication": "03/05/2026",
+        "date_publication": "04/05/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "framework"
       },
       {
-        "titre": "ServiceNow and Accenture Launch Forward Deployed Engineering for Agentic AI",
-        "resume": "<cite index=\"12-3\">Through the program, ServiceNow's AI-native FDE team works together with industry-led Accenture FDEs inside mutual customers' environments, collaborating to build agentic AI workflows natively on the ServiceNow AI Platform.</cite> <cite index=\"12-8\">ServiceNow and Accenture clients get access to more than 300 pre-built AI agent skills and agentic workflows.</cite>",
-        "source": "ServiceNow/Accenture",
-        "url": "https://newsroom.accenture.com/news/2026/servicenow-and-accenture-launch-forward-deployed-engineering-program-to-scale-agentic-ai-across-the-enterprise",
+        "titre": "EY déploie une plateforme IA agentique à l'échelle entreprise : étude de cas",
+        "resume": "<cite index=\"12-8\">EY.ai EYQ a été déployé auprès de plus de 300 000 professionnels, alimentant le chat d'entreprise sécurisé, les assistants de domaine et l'expérimentation GenAI sécurisée</cite>. <cite index=\"12-22\">L'objectif d'atteindre 100 milliards USD de revenus était étroitement lié à l'IA</cite>.",
+        "source": "EY",
+        "url": "https://www.ey.com/en_gl/insights/ai/building-an-enterprise-scale-agentic-ai-operating-system",
         "date_publication": "06/05/2026",
         "pertinence": "haute",
-        "categorie": "deploiement"
+        "categorie": "cas-usage"
       },
       {
-        "titre": "Five Guides to Building Production-Ready AI Agents",
-        "resume": "<cite index=\"11-4,11-5\">At Google Cloud Next '26, we introduced Gemini Enterprise Agent Platform to help developers build, deploy, scale, govern, and optimize autonomous AI agents. From managing long-running state and enforcing security with the Agent Governance Stack, to orchestrating complex workflows using Agent Development Kit.</cite>",
-        "source": "Google Cloud Blog",
-        "url": "https://cloud.google.com/blog/topics/developers-practitioners/five-guides-to-building-and-scaling-production-ready-ai-agents",
-        "date_publication": "05/05/2026",
+        "titre": "Top des cas d'usage de l'IA agentique en 2026 dans tous les secteurs",
+        "resume": "<cite index=\"13-13,13-15\">65% des entreprises ont déjà automatisé certains workflows avec l'IA agentique et prévoient une croissance de 33% supplémentaire en 2026. Gartner prévoit que 40% des applications d'entreprise intégreront des agents IA spécifiques aux tâches d'ici 2026</cite>, marquant un passage rapide vers des capacités autonomes opérationnelles.",
+        "source": "TechAhead",
+        "url": "https://www.techaheadcorp.com/blog/top-use-cases-of-agentic-ai-in-2026-across-industries/",
+        "date_publication": "04/05/2026",
         "pertinence": "haute",
-        "categorie": "deploiement"
+        "categorie": "cas-usage"
       },
       {
-        "titre": "Enterprise AI Coding Agent Deployment in 2026",
-        "resume": "<cite index=\"14-8,14-9\">By April 2026, Claude Code, OpenAI Codex, Google Jules, Cursor, Amazon Kiro, and Windsurf all produce strong code. What separates deployments that reach scale from the ones that get pulled after a quarter is whether the identity, logging, code review, and incident controls around the agent are in place from day one.</cite>",
-        "source": "Northflank",
-        "url": "https://northflank.com/blog/enterprise-ai-coding-agent-deployment",
-        "date_publication": "07/05/2026",
-        "pertinence": "moyenne",
-        "categorie": "deploiement"
-      },
-      {
-        "titre": "Agentic AI Enterprise Adoption 2026: 72% Production Proven",
-        "resume": "<cite index=\"17-2,17-5\">While agentic AI enterprise adoption 2026 has reached 72% production, a massive 60% governance gap remains.</cite> Les données montrent une adoption massive mais des lacunes importantes en gouvernance.",
-        "source": "Agentic AI Institute",
-        "url": "https://agenticaiinstitute.org/agentic-ai-enterprise-adoption-2026-governance-gap/",
-        "date_publication": "05/05/2026",
+        "titre": "IA agentique et logiciels d'entreprise en 2026 : perspectives CXO",
+        "resume": "<cite index=\"14-18\">Les entreprises sophistiquées ont aujourd'hui déployé plus de 1 000 agents en production pour diverses tâches différentes</cite>. L'analyse explore comment les agents génèrent de la valeur en production, quelles catégories SaaS sont exposées et les idées pour les DSI.",
+        "source": "CXOTalk",
+        "url": "https://www.cxotalk.com/episode/agentic-ai-and-the-future-of-enterprise-software-in-2026",
+        "date_publication": "10/05/2026",
         "pertinence": "haute",
-        "categorie": "deploiement"
-      },
-      {
-        "titre": "AI Agents Becoming Operational Infrastructure",
-        "resume": "<cite index=\"18-12,18-13\">AI agents are moving from experimentation into enterprise infrastructure and operations. Agents are moving into real working roles, becoming embedded in workflows rather than remaining limited to demos.</cite> <cite index=\"18-23\">IBM said enterprise AI is entering a new phase, moving beyond isolated applications toward more orchestrated, operational deployment of AI agents across the business.</cite>",
-        "source": "AI Business",
-        "url": "https://aibusiness.com/agentic-ai/prompt-ai-agents-becoming-operational-infrastructure",
-        "date_publication": "08/05/2026",
-        "pertinence": "haute",
-        "categorie": "deploiement"
+        "categorie": "cas-usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "Commission Opens Consultation on AI Transparency Obligations",
-        "resume": "<cite index=\"23-4\">Commission opens consultation on draft guidelines for AI transparency obligations</cite> sous l'AI Act. <cite index=\"29-1,29-4\">From 2 August 2026, people in the European Union will have to be informed when they are interacting with artificial intelligence (AI) systems or exposed to certain AI-generated or manipulated content.</cite>",
-        "source": "European AI Office",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
-        "date_publication": "08/05/2026",
+        "titre": "Simplification des règles UE sur l'IA : accord Conseil-Parlement",
+        "resume": "<cite index=\"24-4,24-6\">Étant donné que les dispositions sur les systèmes IA à haut risque doivent entrer en vigueur le 2 août 2026, les co-législateurs ont traité la proposition avec la plus haute priorité. L'accord reporte l'échéance pour l'établissement des bacs à sable réglementaires IA au niveau national jusqu'au 2 août 2027</cite>.",
+        "source": "Consilium",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+        "date_publication": "07/05/2026",
         "pertinence": "haute",
-        "categorie": "conformite"
+        "categorie": "regulation"
       }
     ],
     "clinique": [
       {
-        "titre": "DEI Changes in Pharma: 2025 Review & 2026 Predictions",
-        "resume": "<cite index=\"47-3,47-4\">New regulatory initiatives in 2026 impacted DE&I, creating challenges and opportunities for the pharmaceutical industry. Companies are urged to integrate DE&I into core operations, focusing on patient engagement, community partnerships, and R&D diversity.</cite> <cite index=\"47-13\">They can prioritize diverse clinical trial participation by engaging underrepresented communities and designing culturally responsive recruitment strategies.</cite>",
-        "source": "PharmExec",
-        "url": "https://www.pharmexec.com/view/dei-changes-2025-predictions-2026",
-        "date_publication": "08/05/2026",
-        "pertinence": "haute",
-        "categorie": "politique"
-      },
-      {
-        "titre": "FDA Quietly Removes Draft Guidance on Clinical Trial Diversity",
-        "resume": "<cite index=\"55-3\">Days after President Donald J. Trump issued an executive order (EO) curtailing diversity, equity, and inclusion (DEI) programs, the FDA removed previously issued draft guidance on diversity in clinical trials from its website.</cite> <cite index=\"55-7\">The final guidance was stated to be legally due by June 2025, but with the draft guidance now missing from the FDA website, uncertainty looms.</cite>",
+        "titre": "FDA retire discrètement les directives sur la diversité dans les essais cliniques suite à l'ordre exécutif sur DEI",
+        "resume": "<cite index=\"42-2,42-3,42-4\">Le retrait par la FDA des directives provisoires sur la diversité des essais cliniques soulève des préoccupations sur son engagement envers la diversité et le respect des obligations légales. Les directives provisoires visaient à améliorer l'inclusion des populations sous-représentées dans les essais cliniques, exigeant des sponsors qu'ils soumettent des Plans d'Action pour la Diversité</cite>.",
         "source": "AJMC",
         "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
         "date_publication": "07/05/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "regulation"
       }
     ]
   }
