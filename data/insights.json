@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-05-11T09:52:57.318883Z",
-  "date_fr": "11/05/2026",
+  "generated_at": "2026-05-13T08:52:35.522369Z",
+  "date_fr": "13/05/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Comparaison complète des frameworks d'agents IA 2026 : LangGraph, CrewAI, AutoGen et alternatives",
-        "resume": "<cite index=\"1-2,2-38\">LangGraph a dépassé CrewAI en nombre d'étoiles GitHub au début 2026, grâce à son adoption par les entreprises et son architecture basée sur des graphes qui s'adapte aux exigences de production</cite>. <cite index=\"1-24,2-15\">Google a lancé l'ADK en avril 2025</cite> avec un support natif pour le protocole Agent-to-Agent (A2A).",
-        "source": "GuruSup",
-        "url": "https://gurusup.com/blog/best-multi-agent-frameworks-2026",
-        "date_publication": "04/05/2026",
+        "titre": "Microsoft Agent Framework v3.18 - Support Python et .NET pour production",
+        "resume": "Microsoft a mis à jour son Agent Framework avec support complet Python/.NET, nouveau Foundry Hosted Agents permettant déploiement en 2 lignes de code, et observabilité OpenTelemetry intégrée. Framework conçu pour passer du prototype à la production avec patterns d'orchestration avancés.",
+        "source": "GitHub - Microsoft",
+        "url": "https://github.com/microsoft/agent-framework",
+        "date_publication": "13/05/2026",
         "pertinence": "haute",
-        "categorie": "framework"
+        "categorie": "outil"
       },
       {
-        "titre": "EY déploie une plateforme IA agentique à l'échelle entreprise : étude de cas",
-        "resume": "<cite index=\"12-8\">EY.ai EYQ a été déployé auprès de plus de 300 000 professionnels, alimentant le chat d'entreprise sécurisé, les assistants de domaine et l'expérimentation GenAI sécurisée</cite>. <cite index=\"12-22\">L'objectif d'atteindre 100 milliards USD de revenus était étroitement lié à l'IA</cite>.",
-        "source": "EY",
-        "url": "https://www.ey.com/en_gl/insights/ai/building-an-enterprise-scale-agentic-ai-operating-system",
-        "date_publication": "06/05/2026",
-        "pertinence": "haute",
-        "categorie": "cas-usage"
-      },
-      {
-        "titre": "Top des cas d'usage de l'IA agentique en 2026 dans tous les secteurs",
-        "resume": "<cite index=\"13-13,13-15\">65% des entreprises ont déjà automatisé certains workflows avec l'IA agentique et prévoient une croissance de 33% supplémentaire en 2026. Gartner prévoit que 40% des applications d'entreprise intégreront des agents IA spécifiques aux tâches d'ici 2026</cite>, marquant un passage rapide vers des capacités autonomes opérationnelles.",
-        "source": "TechAhead",
-        "url": "https://www.techaheadcorp.com/blog/top-use-cases-of-agentic-ai-in-2026-across-industries/",
-        "date_publication": "04/05/2026",
-        "pertinence": "haute",
-        "categorie": "cas-usage"
-      },
-      {
-        "titre": "IA agentique et logiciels d'entreprise en 2026 : perspectives CXO",
-        "resume": "<cite index=\"14-18\">Les entreprises sophistiquées ont aujourd'hui déployé plus de 1 000 agents en production pour diverses tâches différentes</cite>. L'analyse explore comment les agents génèrent de la valeur en production, quelles catégories SaaS sont exposées et les idées pour les DSI.",
-        "source": "CXOTalk",
-        "url": "https://www.cxotalk.com/episode/agentic-ai-and-the-future-of-enterprise-software-in-2026",
+        "titre": "Hermes Agent par Nous Research dépasse 135k stars GitHub",
+        "resume": "Agent autonome open-source avec mémoire persistante, accès terminal, et framework d'auto-évolution automatique. Plus de 276 cas d'usage documentés incluant workflows dev, CI/CD, et coordination multi-agents. Devient référence pour agents locaux sans vendor lock-in.",
+        "source": "Jason Pollak Marketing",
+        "url": "https://jasonpollakmarketing.com/2026/05/10/ai-agents-hermes-open-source-future-software/",
         "date_publication": "10/05/2026",
         "pertinence": "haute",
-        "categorie": "cas-usage"
+        "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "Simplification des règles UE sur l'IA : accord Conseil-Parlement",
-        "resume": "<cite index=\"24-4,24-6\">Étant donné que les dispositions sur les systèmes IA à haut risque doivent entrer en vigueur le 2 août 2026, les co-législateurs ont traité la proposition avec la plus haute priorité. L'accord reporte l'échéance pour l'établissement des bacs à sable réglementaires IA au niveau national jusqu'au 2 août 2027</cite>.",
-        "source": "Consilium",
-        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+        "titre": "EU AI Act - Nouvelles guidelines obligations transparence mai 2026",
+        "resume": "Commission européenne ouvre consultation publique sur guidelines d'implémentation obligations transparence Article 50 AI Act. Nouvelles précisions pour marquage contenu généré par IA et obligations information utilisateurs à partir août 2026.",
+        "source": "Commission européenne",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+        "date_publication": "08/05/2026",
+        "pertinence": "haute",
+        "categorie": "regulation"
+      },
+      {
+        "titre": "EU AI Act Omnibus - Accord politique simplifie règles IA",
+        "resume": "Accord politique atteint le 7 mai pour simplifier AI Act et interdire applications 'nudification'. Nouvelles dispositions étendent exemptions PME aux mid-caps, clarifient interopérabilité avec réglementation produits, et renforcent pouvoirs AI Office supervision modèles GPAI.",
+        "source": "Commission européenne",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
         "date_publication": "07/05/2026",
         "pertinence": "haute",
         "categorie": "regulation"
+      },
+      {
+        "titre": "EU AI Act Compliance 2026 - Guide préparation échéance août",
+        "resume": "Guide pratique préparation échéance août 2026 pour systèmes IA haut risque. Couvre inventaire IA, classification risques, surveillance fournisseurs, et intégration gouvernance existante. Accent sur préparation opérationnelle vs juridique pure.",
+        "source": "Security Boulevard",
+        "url": "https://securityboulevard.com/2026/05/eu-ai-act-compliance-how-to-prepare-for-2026/",
+        "date_publication": "12/05/2026",
+        "pertinence": "haute",
+        "categorie": "compliance"
       }
     ],
     "clinique": [
       {
-        "titre": "FDA retire discrètement les directives sur la diversité dans les essais cliniques suite à l'ordre exécutif sur DEI",
-        "resume": "<cite index=\"42-2,42-3,42-4\">Le retrait par la FDA des directives provisoires sur la diversité des essais cliniques soulève des préoccupations sur son engagement envers la diversité et le respect des obligations légales. Les directives provisoires visaient à améliorer l'inclusion des populations sous-représentées dans les essais cliniques, exigeant des sponsors qu'ils soumettent des Plans d'Action pour la Diversité</cite>.",
-        "source": "AJMC",
+        "titre": "FDA retire discrètement guidance diversité essais cliniques post-décret DEI",
+        "resume": "FDA a retiré sans préavis sa guidance draft juin 2024 sur Diversity Action Plans suite décret exécutif anti-DEI. Crée incertitude majeure pour sponsors sur attentes diversité alors que FDORA mandate soumission plans après finalisation guidance FDA.",
+        "source": "American Journal of Managed Care",
         "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "07/05/2026",
+        "date_publication": "06/05/2026",
         "pertinence": "haute",
         "categorie": "regulation"
       }
