@@ -1,74 +1,74 @@
 {
-  "generated_at": "2026-05-15T08:57:16.039530Z",
-  "date_fr": "15/05/2026",
+  "generated_at": "2026-05-16T08:12:07.195095Z",
+  "date_fr": "16/05/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Framework v1.0.22 avec support Foundry Hosted Agents",
-        "resume": "Microsoft publie une version majeure de son framework avec du support pour Python et .NET, incluant des nouveaux outils pour l'hébergement d'agents sur l'infrastructure Foundry avec seulement 2 lignes de code supplémentaires. La version introduit aussi des améliorations pour l'observabilité et l'orchestration multi-agents avec des workflows séquentiels, concurrents et de handoff.",
-        "source": "GitHub",
+        "titre": "Microsoft Agent Framework met à jour ses capacités multi-agents",
+        "resume": "Microsoft a publié des mises à jour majeures pour son Agent Framework en mai 2026, incluant le support pour Foundry Hosted Agents permettant le déploiement avec seulement 2 lignes de code supplémentaires, l'intégration OpenTelemetry native pour le monitoring distribué, et de nouveaux patterns d'orchestration avec workflows graphiques supportant les collaborations séquentielles et concurrentes.",
+        "source": "GitHub - microsoft/agent-framework",
         "url": "https://github.com/microsoft/agent-framework",
+        "date_publication": "13/05/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Nouvelles releases GitHub pour frameworks agents mai 2026",
+        "resume": "Plusieurs frameworks agents ont publié des versions majeures en mai 2026 : mise à jour des capacités Claude pour orchestration multi-agents (14 mai), nouvelles fonctionnalités RAGFlow avec capacités Agent (14 mai), et frameworks de développement agent avec 12 leçons pour débuter (13 mai). Focus sur la production et l'orchestration d'agents.",
+        "source": "GitHub Topics - agentic-ai",
+        "url": "https://github.com/topics/agentic-ai",
         "date_publication": "14/05/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "OpenClaw : Agent qui grandit avec vous - 150k étoiles sur GitHub",
-        "resume": "Agent autonome avec 150k étoiles GitHub qui intègre MCP (Model Context Protocol) et support Claude Code. L'outil offre des outils de productivité et de développement avec support d'Anthropic. Version récente mise à jour le 14 mai 2026 avec focus sur l'automatisation des tâches de développement.",
-        "source": "GitHub Topics",
-        "url": "https://github.com/topics/ai-agents",
-        "date_publication": "14/05/2026",
+        "titre": "Comparaison production CrewAI vs LangGraph vs AutoGen 2026",
+        "resume": "Nouvelle analyse comparative des trois frameworks dominants pour systèmes multi-agents en production. LangGraph recommandé pour contrôle production et observabilité, CrewAI pour prototypage rapide avec modèle basé sur les rôles, AutoGen pour environnements Azure et patterns conversationnels. Guide de décision avec études de cas réelles.",
+        "source": "DEV Community",
+        "url": "https://dev.to/emperorakashi20/crewai-vs-langgraph-vs-autogen-which-multi-agent-framework-should-you-use-in-2026-5h2f",
+        "date_publication": "",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "tutorial"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act et ISO 42001 : Feuille de route de conformité parallèle",
-        "resume": "Guide pratique publié le 14 mai 2026 montrant que ISO 42001 et EU AI Act se chevauchent à 40-50% sur la gestion des risques et la gouvernance des données. ISO 42001 fournit la fondation de gouvernance tandis que l'AI Act apporte la carte de conformité légale. Implémentation en parallèle recommandée pour éviter la duplication.",
-        "source": "Orbit Reconn",
-        "url": "https://orbit.reconn.io/iso-42001-vs-eu-ai-act/",
-        "date_publication": "14/05/2026",
+        "titre": "Accord politique UE sur simplification AI Act mai 2026",
+        "resume": "Le 7 mai 2026, l'UE a conclu un accord politique pour simplifier certaines règles de l'AI Act tout en interdisant les applications de 'nudification' IA. Les nouvelles règles pour systèmes IA haut-risque s'appliqueront dès décembre 2027 pour certains domaines (biométrie, infrastructures critiques, éducation) et août 2028 pour produits intégrés.",
+        "source": "European Commission",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "date_publication": "07/05/2026",
         "pertinence": "haute",
-        "categorie": "gouvernance"
+        "categorie": "regulation"
       },
       {
-        "titre": "Checklist de conformité EU AI Act avant août 2026",
-        "resume": "Guide complet publié il y a 2 jours détaillant les obligations clés avant l'échéance d'août 2026 pour les systèmes IA à haut risque. Les organisations avec ISO 42001 peuvent accélérer leur conformité EU AI Act de 30-40%, mais doivent encore combler les lacunes spécifiques en évaluations de conformité et surveillance post-marché.",
-        "source": "Sprinto",
-        "url": "https://sprinto.com/blog/eu-ai-act-compliance-checklist/",
-        "date_publication": "13/05/2026",
+        "titre": "Guide complet conformité EU AI Act entreprises 2026",
+        "resume": "Publication d'un guide détaillé pour la conformité AI Act avec deadline d'application août 2026. Analyse des lacunes organisationnelles : plus de 50% des entreprises manquent d'inventaire IA systématique. Framework de maturité compliance en 5 niveaux et stratégies de mise en œuvre par phases.",
+        "source": "Secure Privacy Blog",
+        "url": "https://secureprivacy.ai/blog/eu-ai-act-2026-compliance",
+        "date_publication": "",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "compliance"
       }
     ],
     "clinique": [
       {
-        "titre": "FDA retire discrètement les guidelines de diversité pour essais cliniques",
-        "resume": "La FDA a retiré sans préavis public les guidelines de diversité pour essais cliniques suite à l'ordre exécutif contre les programmes DEI. Le guide publié en juin 2024 visait à améliorer l'inscription de populations sous-représentées. La suppression crée une incertitude significative pour les sponsors concernant les attentes de diversité.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "08/05/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "Biais algorithmique : menace silencieuse pour l'équité en santé",
-        "resume": "Analyse publiée récemment sur le biais algorithmique dans l'IA de santé publique dans les contextes à ressources limitées. Les systèmes IA de santé sous-diagnostiquent, mal classent ou ignorent les patterns dans les populations non-conformes. Sources de biais multi-niveaux depuis la collecte de données jusqu'au déploiement clinique.",
-        "source": "PMC",
+        "titre": "Biais algorithmique IA santé publique contextes faibles ressources",
+        "resume": "Nouvelle étude sur les biais algorithmiques en IA de santé publique dans les contextes à faibles ressources. Les systèmes IA omettent systématiquement populations rurales, castes marginalisées et groupes indigènes. Les annotations cliniques standardisées ignorent différences génétiques, environnementales et culturelles influençant résultats santé.",
+        "source": "PMC - Algorithmic bias in public health AI",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12325396/",
         "date_publication": "",
         "pertinence": "haute",
-        "categorie": "biais"
+        "categorie": "research"
       },
       {
-        "titre": "Algorithmes cliniques biaisés : problème caché en Californie",
-        "resume": "Rapport publié il y a 12 heures révélant que les algorithmes cliniques basés sur la race restent intégrés dans les workflows des dossiers de santé électroniques, laboratoires et outils fournisseurs en Californie. Ces outils retardent le diagnostic et restreignent l'accès aux traitements. L'adoption accélérée de l'IA pose un risque croissant.",
-        "source": "California Health Care Foundation",
-        "url": "https://www.chcf.org/resource/bias-clinical-algorithms-equitable-care-california/",
-        "date_publication": "14/05/2026",
-        "pertinence": "haute",
-        "categorie": "biais"
+        "titre": "Protocole mapping biais algorithmique IA-ECG 2026",
+        "resume": "Publication d'un protocole de recherche pour cartographier les preuves de biais algorithmique dans l'interprétation ECG assistée par IA. Les biais peuvent émerger à tous les stades du cycle de vie IA et risquent d'aggraver disparités santé, particulièrement dans populations sous-représentées et contextes faibles ressources.",
+        "source": "JMIR Research Protocols",
+        "url": "https://www.researchprotocols.org/2026/1/e82486/PDF",
+        "date_publication": "",
+        "pertinence": "moyenne",
+        "categorie": "research"
       }
     ]
   }
