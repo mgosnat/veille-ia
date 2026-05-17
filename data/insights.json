@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-05-16T08:12:07.195095Z",
-  "date_fr": "16/05/2026",
+  "generated_at": "2026-05-17T08:28:04.615211Z",
+  "date_fr": "17/05/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Framework met à jour ses capacités multi-agents",
-        "resume": "Microsoft a publié des mises à jour majeures pour son Agent Framework en mai 2026, incluant le support pour Foundry Hosted Agents permettant le déploiement avec seulement 2 lignes de code supplémentaires, l'intégration OpenTelemetry native pour le monitoring distribué, et de nouveaux patterns d'orchestration avec workflows graphiques supportant les collaborations séquentielles et concurrentes.",
-        "source": "GitHub - microsoft/agent-framework",
+        "titre": "Microsoft Agent Framework - Production-ready platform for agentic workflow development",
+        "resume": "Microsoft publie son Agent Framework unifié qui merge AutoGen et Semantic Kernel. Cette plateforme production-ready pour le développement de workflows agentiques inclut le support multi-agent, des patterns d'orchestration, la persistance d'état, et l'intégration native avec Azure. Le framework est maintenant GA depuis Q1 2026.",
+        "source": "GitHub",
         "url": "https://github.com/microsoft/agent-framework",
-        "date_publication": "13/05/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Nouvelles releases GitHub pour frameworks agents mai 2026",
-        "resume": "Plusieurs frameworks agents ont publié des versions majeures en mai 2026 : mise à jour des capacités Claude pour orchestration multi-agents (14 mai), nouvelles fonctionnalités RAGFlow avec capacités Agent (14 mai), et frameworks de développement agent avec 12 leçons pour débuter (13 mai). Focus sur la production et l'orchestration d'agents.",
-        "source": "GitHub Topics - agentic-ai",
-        "url": "https://github.com/topics/agentic-ai",
         "date_publication": "14/05/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Comparaison production CrewAI vs LangGraph vs AutoGen 2026",
-        "resume": "Nouvelle analyse comparative des trois frameworks dominants pour systèmes multi-agents en production. LangGraph recommandé pour contrôle production et observabilité, CrewAI pour prototypage rapide avec modèle basé sur les rôles, AutoGen pour environnements Azure et patterns conversationnels. Guide de décision avec études de cas réelles.",
-        "source": "DEV Community",
-        "url": "https://dev.to/emperorakashi20/crewai-vs-langgraph-vs-autogen-which-multi-agent-framework-should-you-use-in-2026-5h2f",
-        "date_publication": "",
+        "titre": "OpenClaw v2026.5.12 - Personal AI agent platform with Claude Opus 4.7 support",
+        "resume": "OpenClaw sort une nouvelle version majeure avec support natif de Claude Opus 4.7, système de mémoire consolidée à 3 étapes appelé 'Dreaming', Canvas/A2UI interface, et intégration du harness de codage ACP. Le projet est passé de 9k à 188k stars en 60 jours.",
+        "source": "GitHub",
+        "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
+        "date_publication": "12/05/2026",
         "pertinence": "haute",
-        "categorie": "tutorial"
+        "categorie": "outil"
+      },
+      {
+        "titre": "Vapi raises $50M Series B for enterprise voice AI platform",
+        "resume": "Vapi annonce une levée de série B de 50M$ après avoir franchi 1 milliard d'appels sur sa plateforme. Les nouvelles fonctionnalités incluent Squads v2 pour l'orchestration multi-assistant, Composer alpha pour la création d'agents par prompt, et Simulations alpha pour les tests systématiques.",
+        "source": "GitHub",
+        "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
+        "date_publication": "12/05/2026",
+        "pertinence": "moyenne",
+        "categorie": "produit"
       }
     ],
     "gouvernance": [
       {
-        "titre": "Accord politique UE sur simplification AI Act mai 2026",
-        "resume": "Le 7 mai 2026, l'UE a conclu un accord politique pour simplifier certaines règles de l'AI Act tout en interdisant les applications de 'nudification' IA. Les nouvelles règles pour systèmes IA haut-risque s'appliqueront dès décembre 2027 pour certains domaines (biométrie, infrastructures critiques, éducation) et août 2028 pour produits intégrés.",
+        "titre": "EU agrees to simplify AI rules and ban 'nudification' apps - Political agreement reached May 7, 2026",
+        "resume": "Le Parlement européen et le Conseil sont parvenus à un accord provisoire le 7 mai 2026 sur les amendements visant à simplifier l'AI Act. Les modifications étendent certaines exemptions réglementaires accordées aux PME aux petites entreprises de taille intermédiaire et renforcent les pouvoirs de l'AI Office.",
         "source": "European Commission",
         "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
         "date_publication": "07/05/2026",
@@ -42,34 +42,24 @@
         "categorie": "regulation"
       },
       {
-        "titre": "Guide complet conformité EU AI Act entreprises 2026",
-        "resume": "Publication d'un guide détaillé pour la conformité AI Act avec deadline d'application août 2026. Analyse des lacunes organisationnelles : plus de 50% des entreprises manquent d'inventaire IA systématique. Framework de maturité compliance en 5 niveaux et stratégies de mise en œuvre par phases.",
-        "source": "Secure Privacy Blog",
-        "url": "https://secureprivacy.ai/blog/eu-ai-act-2026-compliance",
-        "date_publication": "",
+        "titre": "Commission opens consultation on draft guidelines for AI Act transparency obligations",
+        "resume": "La Commission européenne ouvre une consultation sur les lignes directrices concernant la mise en œuvre des obligations de transparence pour certains systèmes d'IA sous l'article 50 de l'AI Act. Ces règles de transparence entreront en vigueur en août 2026.",
+        "source": "European Commission",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "date_publication": "08/05/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
-      }
-    ],
-    "clinique": [
-      {
-        "titre": "Biais algorithmique IA santé publique contextes faibles ressources",
-        "resume": "Nouvelle étude sur les biais algorithmiques en IA de santé publique dans les contextes à faibles ressources. Les systèmes IA omettent systématiquement populations rurales, castes marginalisées et groupes indigènes. Les annotations cliniques standardisées ignorent différences génétiques, environnementales et culturelles influençant résultats santé.",
-        "source": "PMC - Algorithmic bias in public health AI",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12325396/",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "research"
+        "categorie": "guidance"
       },
       {
-        "titre": "Protocole mapping biais algorithmique IA-ECG 2026",
-        "resume": "Publication d'un protocole de recherche pour cartographier les preuves de biais algorithmique dans l'interprétation ECG assistée par IA. Les biais peuvent émerger à tous les stades du cycle de vie IA et risquent d'aggraver disparités santé, particulièrement dans populations sous-représentées et contextes faibles ressources.",
-        "source": "JMIR Research Protocols",
-        "url": "https://www.researchprotocols.org/2026/1/e82486/PDF",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "research"
+        "titre": "EU AI Act compliance starts with operationalizing AI governance - Kovrr analysis",
+        "resume": "Kovrr publie une analyse détaillée sur la gouvernance IA d'entreprise pour la conformité EU AI Act. L'article souligne que les entreprises qui gouvernent bien l'IA sont mieux positionnées pour le déployer de manière responsable. Les outils d'automatisation Kovrr permettent une conformité durable en collectant, cartographiant et maintenant continuellement les preuves.",
+        "source": "Security Boulevard",
+        "url": "https://securityboulevard.com/2026/05/eu-ai-act-compliance-starts-with-ai-governance-kovrr/",
+        "date_publication": "13/05/2026",
+        "pertinence": "haute",
+        "categorie": "governance"
       }
-    ]
+    ],
+    "clinique": []
   }
 }
