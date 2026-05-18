@@ -1,65 +1,57 @@
 {
-  "generated_at": "2026-05-17T08:28:04.615211Z",
-  "date_fr": "17/05/2026",
+  "generated_at": "2026-05-18T10:17:14.025736Z",
+  "date_fr": "18/05/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Framework - Production-ready platform for agentic workflow development",
-        "resume": "Microsoft publie son Agent Framework unifié qui merge AutoGen et Semantic Kernel. Cette plateforme production-ready pour le développement de workflows agentiques inclut le support multi-agent, des patterns d'orchestration, la persistance d'état, et l'intégration native avec Azure. Le framework est maintenant GA depuis Q1 2026.",
-        "source": "GitHub",
-        "url": "https://github.com/microsoft/agent-framework",
-        "date_publication": "14/05/2026",
+        "titre": "OpenClaw franchit 250 000 étoiles GitHub et accélère les mises à jour",
+        "resume": "Le framework d'agents OpenClaw a franchi 250 000 étoiles GitHub et sort désormais des versions à un rythme soutenu. Version 2026.4.14 en avril avec nouvelles fonctionnalités Task Brain et Active Memory pour unifier la gestion des tâches.",
+        "source": "Petronella Tech",
+        "url": "https://petronellatech.com/blog/openclaw-ai-agent-guide-2026/",
+        "date_publication": "06/05/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "OpenClaw v2026.5.12 - Personal AI agent platform with Claude Opus 4.7 support",
-        "resume": "OpenClaw sort une nouvelle version majeure avec support natif de Claude Opus 4.7, système de mémoire consolidée à 3 étapes appelé 'Dreaming', Canvas/A2UI interface, et intégration du harness de codage ACP. Le projet est passé de 9k à 188k stars en 60 jours.",
-        "source": "GitHub",
-        "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
-        "date_publication": "12/05/2026",
+        "titre": "Microsoft Agent 365 détecte et contrôle les agents locaux comme OpenClaw",
+        "resume": "Microsoft Agent 365 peut désormais détecter l'activité des agents locaux sur Windows via Defender et Intune. Support initial pour OpenClaw avec extension prévue à GitHub Copilot CLI et Claude Code pour réduire l'exposition Shadow AI.",
+        "source": "Microsoft Tech Community",
+        "url": "https://techcommunity.microsoft.com/blog/agent-365-blog/what%E2%80%99s-new-in-agent-365-may-2026/4516340",
+        "date_publication": "15/05/2026",
         "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Vapi raises $50M Series B for enterprise voice AI platform",
-        "resume": "Vapi annonce une levée de série B de 50M$ après avoir franchi 1 milliard d'appels sur sa plateforme. Les nouvelles fonctionnalités incluent Squads v2 pour l'orchestration multi-assistant, Composer alpha pour la création d'agents par prompt, et Simulations alpha pour les tests systématiques.",
-        "source": "GitHub",
-        "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
-        "date_publication": "12/05/2026",
-        "pertinence": "moyenne",
-        "categorie": "produit"
+        "categorie": "gouvernance"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU agrees to simplify AI rules and ban 'nudification' apps - Political agreement reached May 7, 2026",
-        "resume": "Le Parlement européen et le Conseil sont parvenus à un accord provisoire le 7 mai 2026 sur les amendements visant à simplifier l'AI Act. Les modifications étendent certaines exemptions réglementaires accordées aux PME aux petites entreprises de taille intermédiaire et renforcent les pouvoirs de l'AI Office.",
-        "source": "European Commission",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "titre": "Accord politique EU AI Act simplifié signé le 7 mai 2026",
+        "resume": "Le Parlement européen et le Conseil ont conclu un accord politique pour simplifier l'AI Act. Nouvelles échéances : sandboxes IA reportées à août 2027, watermarking IA générative au 2 décembre 2026, interdiction des apps 'nudification'.",
+        "source": "European Council",
+        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
         "date_publication": "07/05/2026",
         "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "régulation"
       },
       {
-        "titre": "Commission opens consultation on draft guidelines for AI Act transparency obligations",
-        "resume": "La Commission européenne ouvre une consultation sur les lignes directrices concernant la mise en œuvre des obligations de transparence pour certains systèmes d'IA sous l'article 50 de l'AI Act. Ces règles de transparence entreront en vigueur en août 2026.",
-        "source": "European Commission",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "titre": "Commission européenne ouvre consultation sur lignes directrices transparence IA",
+        "resume": "La Commission européenne a ouvert du 8 mai au 3 juin 2026 une consultation publique sur les projets de lignes directrices concernant les obligations de transparence pour certains systèmes IA sous l'Article 50 de l'AI Act.",
+        "source": "Commission européenne",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
         "date_publication": "08/05/2026",
         "pertinence": "haute",
-        "categorie": "guidance"
-      },
-      {
-        "titre": "EU AI Act compliance starts with operationalizing AI governance - Kovrr analysis",
-        "resume": "Kovrr publie une analyse détaillée sur la gouvernance IA d'entreprise pour la conformité EU AI Act. L'article souligne que les entreprises qui gouvernent bien l'IA sont mieux positionnées pour le déployer de manière responsable. Les outils d'automatisation Kovrr permettent une conformité durable en collectant, cartographiant et maintenant continuellement les preuves.",
-        "source": "Security Boulevard",
-        "url": "https://securityboulevard.com/2026/05/eu-ai-act-compliance-starts-with-ai-governance-kovrr/",
-        "date_publication": "13/05/2026",
-        "pertinence": "haute",
-        "categorie": "governance"
+        "categorie": "consultation"
       }
     ],
-    "clinique": []
+    "clinique": [
+      {
+        "titre": "FDA retire discrètement le projet de lignes directrices sur la diversité des essais cliniques",
+        "resume": "La FDA a retiré sans préavis ni explication son projet de lignes directrices sur la diversité des essais cliniques suite à l'ordre exécutif sur DEI. Ce retrait crée une incertitude pour les sponsors concernant les attentes de conformité.",
+        "source": "AJMC",
+        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
+        "date_publication": "06/05/2026",
+        "pertinence": "haute",
+        "categorie": "régulation"
+      }
+    ]
   }
 }
