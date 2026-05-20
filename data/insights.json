@@ -1,57 +1,92 @@
 {
-  "generated_at": "2026-05-18T10:17:14.025736Z",
-  "date_fr": "18/05/2026",
+  "generated_at": "2026-05-20T09:46:39.576361Z",
+  "date_fr": "20/05/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "OpenClaw franchit 250 000 étoiles GitHub et accélère les mises à jour",
-        "resume": "Le framework d'agents OpenClaw a franchi 250 000 étoiles GitHub et sort désormais des versions à un rythme soutenu. Version 2026.4.14 en avril avec nouvelles fonctionnalités Task Brain et Active Memory pour unifier la gestion des tâches.",
-        "source": "Petronella Tech",
-        "url": "https://petronellatech.com/blog/openclaw-ai-agent-guide-2026/",
-        "date_publication": "06/05/2026",
+        "titre": "Microsoft Agent Framework 1.0 lancé avec support multi-plateforme",
+        "resume": "Microsoft a lancé Agent Framework 1.0 avec support Python et .NET, succédant à AutoGen en mode maintenance. Le framework propose orchestration multi-agents, support de fournisseurs multiples et interopérabilité via A2A et MCP avec exemples déployables sur Azure.",
+        "source": "GitHub",
+        "url": "https://github.com/microsoft/agent-framework",
+        "date_publication": "19/05/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Microsoft Agent 365 détecte et contrôle les agents locaux comme OpenClaw",
-        "resume": "Microsoft Agent 365 peut désormais détecter l'activité des agents locaux sur Windows via Defender et Intune. Support initial pour OpenClaw avec extension prévue à GitHub Copilot CLI et Claude Code pour réduire l'exposition Shadow AI.",
-        "source": "Microsoft Tech Community",
-        "url": "https://techcommunity.microsoft.com/blog/agent-365-blog/what%E2%80%99s-new-in-agent-365-may-2026/4516340",
-        "date_publication": "15/05/2026",
+        "titre": "LangGraph 1.2 devient framework de référence 2026",
+        "resume": "LangGraph v1.2 publié avec streaming par blocs de contenu, timeouts par nœuds et API Python 3.10-3.14. Le framework s'impose comme choix principal pour agents production avec durable execution, human-in-the-loop et debugging temporel. LangGraph Studio offre débogueur visuel intégré.",
+        "source": "Tech Insider",
+        "url": "https://tech-insider.org/langgraph-tutorial-python-stateful-agent-13-steps-2026/",
+        "date_publication": "16/05/2026",
         "pertinence": "haute",
-        "categorie": "gouvernance"
+        "categorie": "tutoriel"
+      },
+      {
+        "titre": "CrewAI Flows vs LangGraph : guide de migration pratique",
+        "resume": "CrewAI introduit Flows avec approche decorator-driven remplaçant les graphes explicites de LangGraph. Nouvelle architecture combine orchestration Flows + intelligence Crews avec state management LanceDB intégré et opérateurs and_/or_ pour parallélisme.",
+        "source": "CrewAI Docs",
+        "url": "https://docs.crewai.com/en/guides/migration/migrating-from-langgraph",
+        "date_publication": "vide si inconnue",
+        "pertinence": "haute",
+        "categorie": "tutoriel"
+      },
+      {
+        "titre": "Tutoriel PySquad : Agents autonomes LangGraph + CrewAI",
+        "resume": "PySquad publie guide pratique construction agents autonomes avec LangGraph et CrewAI en Python. Couvre architecture, implémentation et cas d'usage réels incluant healthcare, finance et commerce. Exemples code complets pour orchestration multi-agents en production.",
+        "source": "PySquad",
+        "url": "https://pysquad.com/blogs/agentic-ai-with-python-building-autonomous-agents-using-langgraph-and-crewai",
+        "date_publication": "07/05/2026",
+        "pertinence": "haute",
+        "categorie": "tutoriel"
+      },
+      {
+        "titre": "Étude MAP : première analyse agents production à large échelle",
+        "resume": "Publication première étude systématique agents AI production avec 306 praticiens et 20 interviews approfondies. Documente pratiques réelles, applications, défis techniques et facteurs succès. Révèle écarts entre potentiel agents et échecs déploiement avec insights data-driven.",
+        "source": "arXiv",
+        "url": "https://arxiv.org/pdf/2512.04123",
+        "date_publication": "vide si inconnue",
+        "pertinence": "haute",
+        "categorie": "retour_experience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "Accord politique EU AI Act simplifié signé le 7 mai 2026",
-        "resume": "Le Parlement européen et le Conseil ont conclu un accord politique pour simplifier l'AI Act. Nouvelles échéances : sandboxes IA reportées à août 2027, watermarking IA générative au 2 décembre 2026, interdiction des apps 'nudification'.",
-        "source": "European Council",
+        "titre": "UE finalise simplification AI Act avec accord politique mai 2026",
+        "resume": "Parlement et Conseil européens concluent accord politique 7 mai 2026 sur 'AI Act Omnibus' simplifiant règles IA. Prolongation délais systèmes haut risque jusqu'août 2027, nouvelles interdictions contenu intime non-consensuel, clarification compétences AI Office et réduction charges administratives.",
+        "source": "Consilium Europa",
         "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
         "date_publication": "07/05/2026",
         "pertinence": "haute",
-        "categorie": "régulation"
+        "categorie": "legislation"
       },
       {
-        "titre": "Commission européenne ouvre consultation sur lignes directrices transparence IA",
-        "resume": "La Commission européenne a ouvert du 8 mai au 3 juin 2026 une consultation publique sur les projets de lignes directrices concernant les obligations de transparence pour certains systèmes IA sous l'Article 50 de l'AI Act.",
-        "source": "Commission européenne",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+        "titre": "Sesame Disk : réalités enforcement AI Act post-août 2026",
+        "resume": "Analyse post-enforcement AI Act depuis août 2026 montrant équilibre supervision ambitieuse et réalités techniques industrie. Package Digital Omnibus introduit simplifications et prolongations délais. Organisations adoptent comités gouvernance IA dédiés et plateformes automatisation conformité.",
+        "source": "Sesame Disk",
+        "url": "https://sesamedisk.com/ai-governance-framework-2026/",
+        "date_publication": "14/05/2026",
+        "pertinence": "haute",
+        "categorie": "analyse"
+      },
+      {
+        "titre": "Commission européenne publie directives transparence Article 50",
+        "resume": "Commission publie projet directives implémentation obligations transparence systèmes IA Article 50 AI Act. Code pratique marquage/étiquetage contenu généré par IA par experts indépendants. Obligations transparence chatbots août 2026, report étiquetage contenu généré décembre 2026.",
+        "source": "Digital Strategy Europa",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
         "date_publication": "08/05/2026",
         "pertinence": "haute",
-        "categorie": "consultation"
+        "categorie": "guide"
+      },
+      {
+        "titre": "Latham Watkins : amendements AI Act prolongent délais conformité",
+        "resume": "Accord politique UE 7 mai 2026 sur amendements AI Act prolonge délais conformité systèmes haut risque. Nouvelles règles contenu intime généré par IA décembre 2026. Entreprises doivent maintenir efforts conformité malgré délais supplémentaires car standards harmonisés publiés proche nouvelles échéances.",
+        "source": "Latham Watkins",
+        "url": "https://www.lw.com/en/insights/ai-act-update-eu-resolves-to-change-rules-and-extend-deadlines",
+        "date_publication": "13/05/2026",
+        "pertinence": "haute",
+        "categorie": "analyse"
       }
     ],
-    "clinique": [
-      {
-        "titre": "FDA retire discrètement le projet de lignes directrices sur la diversité des essais cliniques",
-        "resume": "La FDA a retiré sans préavis ni explication son projet de lignes directrices sur la diversité des essais cliniques suite à l'ordre exécutif sur DEI. Ce retrait crée une incertitude pour les sponsors concernant les attentes de conformité.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "06/05/2026",
-        "pertinence": "haute",
-        "categorie": "régulation"
-      }
-    ]
+    "clinique": []
   }
 }
