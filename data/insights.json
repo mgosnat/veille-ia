@@ -1,92 +1,92 @@
 {
-  "generated_at": "2026-05-21T09:54:19.942615Z",
-  "date_fr": "21/05/2026",
+  "generated_at": "2026-05-23T08:27:40.441338Z",
+  "date_fr": "23/05/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Framework - Nouvelle version 2 jours aprés le 19 mai 2026",
-        "resume": "Microsoft a publié une nouvelle version de son framework Agent unifiant AutoGen et Semantic Kernel. Inclut support pour GPT-5, Gemini, nouveaux agents hébergés avec observabilité, et intégration MCP native. Version GA disponible avec exemples pratiques.",
-        "source": "GitHub",
-        "url": "https://github.com/microsoft/agent-framework",
-        "date_publication": "19/05/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "LangGraph v1.2 - Nouvelles fonctionnalités mai 2026",
-        "resume": "LangGraph sort la v1.2 avec timeout par nœud, récupération d'erreur, arrêt gracieux, nouveau DeltaChannel pour réduire l'overhead des checkpoints, et streaming API v3. Amélioration significative pour la production.",
-        "source": "Zijian-Ni GitHub",
-        "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
+        "titre": "85% des équipes production choisissent des implémentations custom",
+        "resume": "<cite index='17-30,17-31'>In sharp contrast, our detailed case studies reveal a strong preference for custom in-house agent implementations. Only 3 of 20 (15%) detailed case studies rely on external agent frameworks (2 use LangChain/LangGraph (lan; LangChain Inc., 2025), 1 uses DSPy (Khattab et al., 2024)). The remaining 17 teams (85%) build their agent application entirely in-house with direct model API calls.</cite>",
+        "source": "arxiv.org",
+        "url": "https://arxiv.org/pdf/2512.04123",
         "date_publication": "",
         "pertinence": "haute",
-        "categorie": "framework"
+        "categorie": "retour_experience"
       },
       {
-        "titre": "OpenCode 150K étoiles - Version 1.2.0 mai 2026",
-        "resume": "OpenCode (MIT) atteint 150K étoiles GitHub avec 6.5M développeurs actifs. La v1.2.0 migre le stockage session vers SQLite, intègre MCP nativement, et ajoute Plan Agent pour l'analyse repo. Partenariat officiel GitHub Copilot depuis janvier 2026.",
-        "source": "DEV Community",
-        "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-may-20-2026-agentic-workflows-coding-agents-embodied-ai-481",
-        "date_publication": "20/05/2026",
+        "titre": "Cas d'usage concret : réduction 35% erreurs production automobile",
+        "resume": "<cite index='13-1,13-9'>A leading automotive manufacturer reports that deploying AI agents in its manufacturing facilities has reduced production errors by 35% and improved predictive maintenance accuracy by 42%.</cite> Ce retour d'expérience démontre l'impact mesurable des agents en environnement industriel.",
+        "source": "onereach.ai",
+        "url": "https://onereach.ai/blog/what-shapes-enterprise-ai-agents-in-the-future/",
+        "date_publication": "",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "Commission européenne cherche feedback sur classification systèmes IA haut risque",
-        "resume": "La Commission publie des guidelines en draft pour classifier les systèmes IA à haut risque selon l'AI Act. Consultation publique ouverte. Date limite d'application principale : 2 août 2026 pour la plupart des obligations restantes.",
-        "source": "Commission Européenne",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-        "date_publication": "19/05/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "Règles harmonisées IA UE - Développements récents",
-        "resume": "Obligations AI Act échelonnées jusqu'2027 : systèmes haut risque secteur financier conformité août 2026, provisions restantes août 2027. Digital Omnibus peut affecter timeline avec dates butoir décembre 2027 (haut risque) et août 2028 (systèmes intégrés).",
-        "source": "K&L Gates",
-        "url": "https://www.klgates.com/EU-and-Luxembourg-Update-on-the-European-Harmonised-Rules-on-Artificial-IntelligenceRecent-Developments-1-20-2026",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "legal"
-      },
-      {
-        "titre": "Enterprise AI Governance - Préparation AI Act 2026",
-        "resume": "La plupart des entreprises manquent de couche gouvernance unifiée pour visibilité cross-système. IA fantôme et déploiements non gouvernés représentent expositions conformité significatives. Inventaire complet systèmes IA étape critique.",
-        "source": "Airia",
+        "titre": "Lacunes de gouvernance identifiées chez la majorité des entreprises",
+        "resume": "<cite index='25-17,25-18,25-19'>Specifically: most enterprises do not have a governance layer that provides cross-system visibility and runtime enforcement across their AI estate. They have policies written in documents and point controls on individual tools. What they're missing is a unified platform that: Maintains complete, immutable audit trails across all AI interactions</cite>",
+        "source": "airia.com",
         "url": "https://airia.com/the-eu-ai-act-goes-into-full-effect-in-2026-is-your-enterprise-ready/",
         "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "preparation"
+        "pertinence": "haute",
+        "categorie": "compliance"
+      },
+      {
+        "titre": "Responsabilité des conseils d'administration pour gouvernance IA",
+        "resume": "<cite index='26-32,26-33,26-34'>The Act elevates AI governance to board-level responsibility. Directors face potential personal liability under corporate law fiduciary duties if they consciously disregard significant regulatory risks. Effective board oversight requires clear accountability assignment, regular reporting making AI risk assessments and compliance status regular board agenda items, and AI literacy ensuring directors receive training sufficient to understand AI risks.</cite>",
+        "source": "secureprivacy.ai",
+        "url": "https://secureprivacy.ai/blog/eu-ai-act-2026-compliance",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "gouvernance"
       }
     ],
     "clinique": [
       {
-        "titre": "Plans d'Action Diversité FDA - Guidance mise à jour mars 2026",
-        "resume": "FDA met à jour guidance draft sur Plans d'Action Diversité pour essais cliniques. Extension au-delà race/ethnie vers âge, sexe, localisation géographique, statut socioéconomique. Mandate prend effet 180 jours après finalisation guidance (pas encore finalisée mai 2026).",
-        "source": "MedDeviceGuide",
-        "url": "https://meddeviceguide.com/blog/medical-device-clinical-trial-diversity-action-plan-fda-fdora-enrollment-guide",
-        "date_publication": "15/05/2026",
+        "titre": "Biais algorithmiques dans les outils de recrutement clinique identifiés",
+        "resume": "<cite index='41-9,41-10'>AI patient-matching tools learn from historical data with well-documented diversity problems. Despite decades of efforts to broaden participation, \"certain groups continue to be underrepresented in many clinical trials,\" with populations including racial and ethnic minorities, older adults, children, and those with certain comorbidities frequently excluded \"without strong clinical or scientific justification.\"</cite>",
+        "source": "healthcarelawinsights.com",
+        "url": "https://www.healthcarelawinsights.com/2026/05/protocol-design-and-recruitment-risks-ais-hidden-compliance-traps-in-clinical-trials/",
+        "date_publication": "19/05/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "biais_algorithmique"
       },
       {
-        "titre": "FDA retire discrètement guidance diversité essais cliniques",
-        "resume": "Suite ordre exécutif sur DEI, FDA retire guidance draft diversité des essais cliniques de son site web. Incertitude sur respect deadline légale juin 2025 pour guidance finale. Questions sur comment sponsors doivent procéder dans l'intérim.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
+        "titre": "Sous-représentation persistante dans 57% des études IA clinique",
+        "resume": "<cite index='42-7,42-8,42-9'>Authors did not report a suspected mechanism for bias introduction in most studies where bias was identified (n = 39, 57%). Among the others, the most frequent suspected mechanism of bias introduction was underrepresentation of sociodemographic groups in training data (n = 13). For seven of these 13 studies, the underrepresented group was Black participants</cite>",
+        "source": "jclinepi.com",
+        "url": "https://www.jclinepi.com/article/S0895-4356(24)00362-7/fulltext",
         "date_publication": "",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "etude_diversite"
       },
       {
-        "titre": "10 Stratégies augmenter recrutement minorités essais oncologie",
-        "resume": "Stratégies spécifiques : recrutement dès Phase 1, cibler villes populations diverses (Miami Hispaniques, Los Angeles Mexicains vs Boston), surmonter barrières linguistiques formulaires consentement spécifiques langues, traduction live.",
-        "source": "Clinical Leader",
-        "url": "https://www.clinicalleader.com/doc/diversity-in-clinical-trials-strategies-to-increase-minority-enrollment-in-oncology-trials-0001",
+        "titre": "Manque standardisation démographique dans études IA/ML cliniques",
+        "resume": "<cite index='45-1,45-2,45-6'>This study aims to advocate for the continued evaluation of published clinical artificial intelligence (AI) and Machine Learning (ML) studies, including the reporting of demographic information, specifically gender, racial composition, and geographic location. Models are often trained on data lacking representation across basic demographics, potentially leading to biased outputs and exacerbating health disparities. Standardized reporting of gender and racial composition in training data is urgently needed to ensure ethical and equitable deployment of these technologies.</cite>",
+        "source": "ncbi.nlm.nih.gov",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560773/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "etude_diversite"
+      },
+      {
+        "titre": "70-90% des cohortes cliniques US concentrées sur 3 États seulement",
+        "resume": "<cite index='45-11'>There is a well-known systemic bias in the geographical distribution of patient cohorts used to train clinical models in the USA, with 70–90% from only three states, New York, California and Massachusetts</cite> Cette concentration géographique extrême limite la représentativité des modèles IA cliniques américains.",
+        "source": "ncbi.nlm.nih.gov",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12560773/",
         "date_publication": "",
         "pertinence": "moyenne",
-        "categorie": "strategies"
+        "categorie": "etude_diversite"
+      },
+      {
+        "titre": "Exclusion systématique populations marginalisées données santé",
+        "resume": "<cite index='46-8,46-9,46-13'>The resulting data inequity means the algorithms then do not capture the cultural, linguistic, genetic, or environmental variety in the underserved populations. Consequently, health AI systems will systematically underdiagnose, misclassify, or outright ignore patterns in the non-conforming population. Such data sets systematically exclude rural patients, ethnic minorities, indigenous people, or socially marginalized groups</cite>",
+        "source": "ncbi.nlm.nih.gov",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12325396/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "equite_sante"
       }
     ]
   }
