@@ -1,66 +1,28 @@
 {
-  "generated_at": "2026-06-03T11:11:43.342151Z",
-  "date_fr": "03/06/2026",
+  "generated_at": "2026-06-04T10:05:14.726422Z",
+  "date_fr": "04/06/2026",
   "insights": {
-    "agentique": [
-      {
-        "titre": "Microsoft Agent Framework : Nouvelle plateforme pour déployer des agents IA",
-        "resume": "Microsoft lance son Agent Framework pour Python et .NET permettant de construire des systèmes multi-agents en production. Le framework inclut l'orchestration de graphiques, le middleware personnalisable et l'hébergement Foundry pour déployer avec seulement 2 lignes de code supplémentaires.",
-        "source": "GitHub",
-        "url": "https://github.com/microsoft/agent-framework",
-        "date_publication": "30/05/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "AgentScope équipe lance QwenPaw v1.1.10 avec spawn de sous-agents",
-        "resume": "QwenPaw dévoile sa v1.1.10 permettant aux agents de générer des sous-agents éphémères et ajoutant l'intégration Tencent Yuanbao. La nouvelle version inclut également un mode codage à 3 panneaux et une application desktop Tauri pour faciliter le déploiement local.",
-        "source": "GitHub",
-        "url": "https://github.com/agentscope-ai/QwenPaw",
-        "date_publication": "01/06/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "GitHub Copilot passe au modèle de facturation par usage AI Credits",
-        "resume": "À partir du 1er juin 2026, tous les plans Copilot utilisent désormais le système GitHub AI Credits basé sur l'usage plutôt qu'un tarif fixe par siège. Cette évolution impacte directement le coût des workflows d'agents de développement automatisés.",
-        "source": "AI Agent Store",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "01/06/2026",
-        "pertinence": "moyenne",
-        "categorie": "produit"
-      }
-    ],
+    "agentique": [],
     "gouvernance": [
       {
-        "titre": "Extension des échéances EU AI Act : Annex III repoussé à décembre 2027",
-        "resume": "Un accord provisoire de mai 2026 du Digital Omnibus on AI repousse l'échéance des systèmes IA à haut risque Annex III du 2 août 2026 au 2 décembre 2027. Les organisations doivent continuer à se préparer malgré cette extension, l'accord n'étant pas encore formellement ratifié.",
+        "titre": "EU AI Act vs ISO 42001: What's the Difference?",
+        "resume": "EU AI Act force loi 1er aout 2024, obligations GPAI 2 aout 2025. Accord provisoire mai 2026 Digital Omnibus reporte deadline Annex III de aout 2026 a decembre 2027. ISO 42001 certification != compliance legale EU AI Act.",
         "source": "SureCloud",
         "url": "https://www.surecloud.com/blog-hub/eu-ai-act-vs-iso-42001-whats-the-difference",
-        "date_publication": "27/05/2026",
+        "date_publication": "28/05/2026",
         "pertinence": "haute",
-        "categorie": "regulation"
-      }
-    ],
-    "clinique": [
-      {
-        "titre": "FDA retire discrètement les orientations sur la diversité des essais cliniques",
-        "resume": "Suite à l'ordre exécutif sur la DEI, la FDA a retiré son projet d'orientations sur les plans d'action pour la diversité dans les essais cliniques sans avis public. Cette suppression soudaine laisse les promoteurs incertains quant à la conformité et à l'échéance de juin 2025.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "compliance"
       },
       {
-        "titre": "Enquête mondiale sur les barrières à la diversité des essais cliniques",
-        "resume": "Étude portant sur 12 017 répondants de 54 pays analysant les perceptions et obstacles à la participation aux essais cliniques. Les groupes sous-représentés citent le manque de confiance dans le système médical et les barrières logistiques comme principaux freins.",
-        "source": "NCBI",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12018620/",
+        "titre": "EU AI Act & ISO 42001: Compatibility & implementation guidelines",
+        "resume": "Guide implementation integree EU AI Act et ISO 42001. Cross-reference controles existants, identifier gaps compliance, fonctions organisationnelles multiples. ISO 42001 foundation, EU AI Act requirements specifiques par-dessus.",
+        "source": "Vanta",
+        "url": "https://www.vanta.com/collection/iso-42001/iso-42001-and-eu-ai-act",
         "date_publication": "",
         "pertinence": "moyenne",
-        "categorie": "recherche"
+        "categorie": "implementation"
       }
-    ]
+    ],
+    "clinique": []
   }
 }
