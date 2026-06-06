@@ -1,56 +1,57 @@
 {
-  "generated_at": "2026-06-05T10:02:45.491081Z",
-  "date_fr": "05/06/2026",
+  "generated_at": "2026-06-06T08:41:29.402072Z",
+  "date_fr": "06/06/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Framework : Nouvel orchestrateur production-ready pour Python et .NET",
-        "resume": "Microsoft lance son Agent Framework (MAF) open-source pour construire des systèmes d'agents multi-langages en production. Le framework supporte les workflows complexes avec checkpointing, streaming et intégration OpenTelemetry. MAF propose un hébergement Foundry avec seulement 2 lignes de code supplémentaires.",
-        "source": "GitHub",
-        "url": "https://github.com/microsoft/agent-framework",
-        "date_publication": "04/06/2026",
+        "titre": "7 Frameworks d'agents IA évalués en production par Alice Labs en 2026",
+        "resume": "Analyse comparative détaillée de LangGraph, Claude Agent SDK, CrewAI, AutoGen/AG2, Semantic Kernel, LlamaIndex et Pydantic AI basée sur 18+ déploiements production. LangGraph ressort comme #1 pour workflows complexes stateful, Claude Agent SDK #2 pour agents natifs Anthropic, CrewAI #3 pour équipes multi-agents basées sur les rôles.",
+        "source": "Alice Labs",
+        "url": "https://alicelabs.ai/en/insights/best-ai-agent-frameworks-2026",
+        "date_publication": "29/05/2026",
         "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "AutoGen en mode maintenance : Migration vers Microsoft Agent Framework",
-        "resume": "AutoGen est effectivement en mode maintenance depuis que Microsoft s'est focalisé sur son Agent Framework plus large. Le développement de fonctionnalités majeures s'est arrêté. Comparaisons 2024 obsolètes car non mises à jour. Impact significatif sur décisions architecture.",
-        "source": "Innovatrix Infotech",
-        "url": "https://www.innovatrixinfotech.com/blog/crewai-vs-langgraph-vs-autogen-multi-agent-framework",
-        "date_publication": "31/05/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "comparatif"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : Omnibus report les obligations systèmes haut-risque en décembre 2027",
-        "resume": "Accord politique provisoire du 7 mai 2026 sur l'Omnibus EU AI Act reporte les obligations des systèmes Annexe III (recrutement, crédit, maintien de l'ordre) au 2 décembre 2027. Systèmes Annexe I intégrés produits reportés au 2 août 2028. Pratiques interdites déjà applicables avec amendes jusqu'à 35M€.",
+        "titre": "Guide complet conformité EU AI Act - mise à jour juin 2026",
+        "resume": "Suite à l'EU AI Act Omnibus (7 mai 2026), principale échéance systèmes haut risque reportée au 2 décembre 2027. Systèmes Annexe I dans produits réglementés: 2 août 2028. ISO/IEC 42001 fournit structure gouvernance reconnue mappant directement aux obligations EU AI Act.",
         "source": "SureCloud",
         "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
         "date_publication": "02/06/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "réglementation"
       },
       {
-        "titre": "Commission européenne : Support expert indépendant pour l'application AI Act",
-        "resume": "La Commission européenne annonce le 1er juin 2026 un support expert indépendant pour l'application de l'AI Act. Les instruments d'aide à la mise en œuvre seront publiés au deuxième trimestre 2026, incluant lignes directrices, codes de pratique et Service Desk AI Act.",
-        "source": "Commission européenne",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-        "date_publication": "01/06/2026",
-        "pertinence": "haute",
-        "categorie": "implementation"
-      },
-      {
-        "titre": "ISO 42001 : Standard international systèmes management IA pour conformité AI Act",
-        "resume": "ISO/IEC 42001 fournit structure de gouvernance reconnue qui mappe directement aux obligations EU AI Act, supportant conformité et certification. Standard conçu pour opérationnaliser obligations AI Act avec framework système management structuré.",
+        "titre": "Différences EU AI Act vs ISO 42001 expliquées",
+        "resume": "Accord provisoire mai 2026 étend échéance Annexe III systèmes haut risque à décembre 2027. Extension crée marge mais pas raison ralentir préparation. ISO 42001 certification = signal commercial, pas légal. Article 5 prohibitions et obligations GPAI restent inchangées.",
         "source": "SureCloud",
-        "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
-        "date_publication": "02/06/2026",
-        "pertinence": "moyenne",
-        "categorie": "standard"
+        "url": "https://www.surecloud.com/blog-hub/eu-ai-act-vs-iso-42001-whats-the-difference",
+        "date_publication": "29/05/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
       }
     ],
-    "clinique": []
+    "clinique": [
+      {
+        "titre": "FDA retire discrètement guidance diversité essais cliniques",
+        "resume": "FDA retire guidance diversité essais cliniques de son site web sans notice publique suite executive order Trump sur DEI. Guidance finale devait être publiée juin 2025. Incertitude sur respect échéance et obligations sponsors pour Diversity Action Plans.",
+        "source": "AJMC",
+        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
+        "date_publication": "04/06/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
+      },
+      {
+        "titre": "FDA promeut diversité dans essais cliniques",
+        "resume": "Office of Women's Health FDA lance initiative Diverse Women in Clinical Trials pour sensibilisation et partage bonnes pratiques. Efforts continus engagement groupes défense patients dans design, feedback et évaluation essais. Staff FDA travaille avec communauté recherche pour affiner approche.",
+        "source": "AJMC",
+        "url": "https://www.ajmc.com/view/fda-advocates-for-diversity-in-clinical-trials",
+        "date_publication": "02/06/2026",
+        "pertinence": "haute",
+        "categorie": "initiative"
+      }
+    ]
   }
 }
