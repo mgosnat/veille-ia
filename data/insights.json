@@ -1,22 +1,40 @@
 {
-  "generated_at": "2026-06-06T08:41:29.402072Z",
-  "date_fr": "06/06/2026",
+  "generated_at": "2026-06-07T09:25:33.656925Z",
+  "date_fr": "07/06/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "7 Frameworks d'agents IA évalués en production par Alice Labs en 2026",
-        "resume": "Analyse comparative détaillée de LangGraph, Claude Agent SDK, CrewAI, AutoGen/AG2, Semantic Kernel, LlamaIndex et Pydantic AI basée sur 18+ déploiements production. LangGraph ressort comme #1 pour workflows complexes stateful, Claude Agent SDK #2 pour agents natifs Anthropic, CrewAI #3 pour équipes multi-agents basées sur les rôles.",
-        "source": "Alice Labs",
-        "url": "https://alicelabs.ai/en/insights/best-ai-agent-frameworks-2026",
-        "date_publication": "29/05/2026",
+        "titre": "OutSystems Agentic Systems Platform - plateforme low-code pour IA agentique",
+        "resume": "<cite index=\"1-25\">OutSystems positions its low-code platform as an \"AI-native\" agentic development environment.</cite> <cite index=\"1-27\">Open and governed AI, BYO model, multi-agent orchestration, and enterprise compliance tooling.</cite> Positionnée comme alternative à Copilot Studio et Agentforce.",
+        "source": "GitHub - awesome-ai-agents-2026",
+        "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
+        "date_publication": "",
         "pertinence": "haute",
-        "categorie": "comparatif"
+        "categorie": "outil"
+      },
+      {
+        "titre": "Microsoft Agent Framework - GA avec support multi-plateforme",
+        "resume": "<cite index=\"5-3\">Microsoft Agent Framework is built for teams taking agents from prototype to production.</cite> Framework open-source multi-langue pour construire des agents IA et workflows multi-agents en .NET et Python. Inclut support natif pour Microsoft Foundry et Azure OpenAI.",
+        "source": "GitHub - microsoft/agent-framework",
+        "url": "https://github.com/microsoft/agent-framework",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "framework"
+      },
+      {
+        "titre": "SAP Joule Studio 2.0 avec frameworks agents et Business AI Platform",
+        "resume": "<cite index=\"1-18\">Joule Studio 2.0 (rolling out June 2026) lets enterprises build with LangGraph / AutoGen-style frameworks against live SAP business data; the new Autonomous Suite ships 50+ domain Joule Assistants and 200+ specialised agents</cite> pour finance, supply chain, procurement, HCM et CX.",
+        "source": "GitHub - awesome-ai-agents-2026",
+        "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "produit"
       }
     ],
     "gouvernance": [
       {
-        "titre": "Guide complet conformité EU AI Act - mise à jour juin 2026",
-        "resume": "Suite à l'EU AI Act Omnibus (7 mai 2026), principale échéance systèmes haut risque reportée au 2 décembre 2027. Systèmes Annexe I dans produits réglementés: 2 août 2028. ISO/IEC 42001 fournit structure gouvernance reconnue mappant directement aux obligations EU AI Act.",
+        "titre": "EU AI Act Omnibus - nouveaux délais de mise en conformité adoptés",
+        "resume": "<cite index=\"23-4,23-5\">Following the EU AI Act Omnibus (provisional political agreement, 7 May 2026), the main high-risk deadline has been deferred. Annex III systems (recruitment, credit scoring, law enforcement) must comply by 2 December 2027.</cite> Annex I systems embedded in regulated products must comply by 2 August 2028.",
         "source": "SureCloud",
         "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
         "date_publication": "02/06/2026",
@@ -24,33 +42,33 @@
         "categorie": "réglementation"
       },
       {
-        "titre": "Différences EU AI Act vs ISO 42001 expliquées",
-        "resume": "Accord provisoire mai 2026 étend échéance Annexe III systèmes haut risque à décembre 2027. Extension crée marge mais pas raison ralentir préparation. ISO 42001 certification = signal commercial, pas légal. Article 5 prohibitions et obligations GPAI restent inchangées.",
-        "source": "SureCloud",
-        "url": "https://www.surecloud.com/blog-hub/eu-ai-act-vs-iso-42001-whats-the-difference",
-        "date_publication": "29/05/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
+        "titre": "Simplification des règles IA - accord politique européen mai 2026",
+        "resume": "<cite index=\"25-1,25-6\">In May 2026, a political agreement to simplify AI rules was reached. In May 2026, a political agreement to simplify AI rules was reached.</cite> <cite index=\"25-7,25-8\">These efforts complement actions already underway to provide clarity for businesses and national authorities. Find an overview of the upcoming guidelines supporting the implementation of the AI Act.</cite>",
+        "source": "Commission Européenne",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence",
+        "date_publication": "",
+        "pertinence": "moyenne",
+        "categorie": "politique"
       }
     ],
     "clinique": [
       {
-        "titre": "FDA retire discrètement guidance diversité essais cliniques",
-        "resume": "FDA retire guidance diversité essais cliniques de son site web sans notice publique suite executive order Trump sur DEI. Guidance finale devait être publiée juin 2025. Incertitude sur respect échéance et obligations sponsors pour Diversity Action Plans.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "04/06/2026",
+        "titre": "Stratégies pratiques pour améliorer la participation des minorités aux essais cliniques",
+        "resume": "<cite index=\"31-1,31-3\">Addressing this gap is not only a matter of scientific integrity but of health equity, and it requires deliberate, sustained effort from every stakeholder in the clinical research industry. When minority groups are systematically underrepresented in that evidence base, the treatments developed may not perform as expected across diverse populations.</cite>",
+        "source": "FOMAT Medical",
+        "url": "https://fomatmedical.com/blogs-updates/minority-participation-in-clinical-trials/",
+        "date_publication": "",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "stratégies"
       },
       {
-        "titre": "FDA promeut diversité dans essais cliniques",
-        "resume": "Office of Women's Health FDA lance initiative Diverse Women in Clinical Trials pour sensibilisation et partage bonnes pratiques. Efforts continus engagement groupes défense patients dans design, feedback et évaluation essais. Staff FDA travaille avec communauté recherche pour affiner approche.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/fda-advocates-for-diversity-in-clinical-trials",
-        "date_publication": "02/06/2026",
+        "titre": "Clinical Trial Innovation Summit 2026 - essais inclusifs et centrés patient",
+        "resume": "<cite index=\"45-3\">Core themes and topics for the 2026 agenda include: • Industry Trends and Innovations in Virtual, Hybrid and Decentralized Trials: AI, DHTs, Decentralized Trials, Evolving Role of CRO's, Global Perspective • Patient Perspective: Engagement, Involvement, and Applying Learnings at Scale • Ideas into Action: Keys to Delivering Inclusive Human-Centered Clinical Trials</cite>",
+        "source": "Panagora Pharma",
+        "url": "https://digitaltrialsx.panagorapharma.com/",
+        "date_publication": "24/06/2026",
         "pertinence": "haute",
-        "categorie": "initiative"
+        "categorie": "événement"
       }
     ]
   }
