@@ -1,66 +1,56 @@
 {
-  "generated_at": "2026-06-08T11:08:49.646222Z",
-  "date_fr": "08/06/2026",
+  "generated_at": "2026-06-09T09:56:01.517924Z",
+  "date_fr": "09/06/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Framework : Nouveau framework open-source pour la production",
-        "resume": "Microsoft lance son Agent Framework open-source supportant Python et .NET avec orchestration multi-agents, intégration Azure, et capacités de déploiement via Foundry. Version 1.0 candidate sortie récemment avec support natif GitHub Copilot SDK.",
+        "titre": "OutSystems lance sa plateforme Agentic Systems dédiée à l'IA native",
+        "resume": "OutSystems a déployé en juin 2026 une plateforme low-code spécialisée dans le développement d'agents IA avec orchestration multi-agents et conformité entreprise. Positionnée comme alternative à Copilot Studio et Agentforce.",
         "source": "GitHub",
-        "url": "https://github.com/microsoft/agent-framework",
-        "date_publication": "07/06/2026",
+        "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
+        "date_publication": "04/06/2026",
         "pertinence": "haute",
-        "categorie": "framework"
+        "categorie": "outil"
       },
       {
-        "titre": "AgentScope 2.0 : Framework production-ready",
-        "resume": "Nouvelle version majeure d'AgentScope avec abstractions essentielles pour capacités modèles croissantes. Support multi-tenancy, sandbox workspace, système d'événements unifié et middleware extensible pour production.",
-        "source": "GitHub AgentScope",
-        "url": "https://github.com/agentscope-ai/agentscope",
-        "date_publication": "vide si inconnue",
+        "titre": "Amazon Bedrock AgentCore Payments intègre les paiements autonomes",
+        "resume": "Amazon a ajouté en avril-mai 2026 des capacités de paiement managé pour les agents Bedrock via intégrations Coinbase et Stripe. Les agents peuvent désormais payer autonomément pour APIs et ressources.",
+        "source": "GitHub",
+        "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
+        "date_publication": "04/06/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "CrewAI domine les déploiements en production avec 44K+ étoiles GitHub",
+        "resume": "CrewAI atteint 60% d'adoption Fortune 500 et 44K+ étoiles GitHub avec une approche role-based intuitive. Comparatifs montrent avantage pour prototypage rapide vs LangGraph pour contrôle production.",
+        "source": "DEV Community",
+        "url": "https://dev.to/cristian_iridon_286794874/langgraph-vs-crewai-vs-autogen-in-2026-pick-the-right-ai-agent-framework-or-skip-frameworks-4m2c",
+        "date_publication": "27/05/2026",
         "pertinence": "moyenne",
-        "categorie": "framework"
+        "categorie": "retour"
+      },
+      {
+        "titre": "AutoGen en mode maintenance, Microsoft privilégie Agent Framework",
+        "resume": "Microsoft a mis AutoGen en mode maintenance début 2026 au profit de son Agent Framework plus large. Développement de nouvelles fonctionnalités arrêté malgré 55K étoiles GitHub.",
+        "source": "DEV Community",
+        "url": "https://dev.to/cristian_iridon_286794874/langgraph-vs-crewai-vs-autogen-in-2026-pick-the-right-ai-agent-framework-or-skip-frameworks-4m2c",
+        "date_publication": "27/05/2026",
+        "pertinence": "haute",
+        "categorie": "retour"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act Compliance Guide : Mise à jour juin 2026",
-        "resume": "Guide complet de conformité EU AI Act avec focus sur l'alignement ISO 42001. Couvre workflows de contrôle, capture d'evidence, gestion des risques GPAI et gestion du cycle de vie des politiques pour organisations.",
+        "titre": "EU AI Act Omnibus reporte les échéances high-risk à décembre 2027",
+        "resume": "Accord politique du 7 mai 2026 reporte les obligations systèmes high-risk Annexe III au 2 décembre 2027 et Annexe I au 2 août 2028. Amendes jusqu'à 35M€ ou 7% CA global déjà applicables.",
         "source": "SureCloud",
         "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
-        "date_publication": "01/06/2026",
+        "date_publication": "02/06/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
+        "categorie": "reglementation"
       }
     ],
-    "clinique": [
-      {
-        "titre": "Promotion diversité via compréhension barrières essais inclusifs",
-        "resume": "Étude globale 12,017 répondants (54 pays) examine perceptions, barrières et expériences participation recherche clinique par groupes raciaux/ethniques. Identification opportunités amélioration engagement populations sous-représentées.",
-        "source": "PMC",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12018620/",
-        "date_publication": "vide si inconnue",
-        "pertinence": "moyenne",
-        "categorie": "recherche"
-      },
-      {
-        "titre": "Diversité et représentation participants Amgen essais cliniques US",
-        "resume": "Étude rétrospective 31,619 participants (258 essais, 2005-2020) montre un cinquième populations minorités raciales, moins d'un cinquième minorités ethniques. Variation représentation par états US et domaines thérapeutiques.",
-        "source": "PMC",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11480170/",
-        "date_publication": "vide si inconnue",
-        "pertinence": "moyenne",
-        "categorie": "etude"
-      },
-      {
-        "titre": "Collaboration pour promouvoir diversité études cliniques face défis politiques",
-        "resume": "Think Tank Stanford septembre 2023 rassemble partenaires multisectoriels discuter barrières et solutions participation études cliniques. Implications potentielles suppression initiatives DEI sur participation recherche diverse.",
-        "source": "PMC",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11963400/",
-        "date_publication": "vide si inconnue",
-        "pertinence": "moyenne",
-        "categorie": "politique"
-      }
-    ]
+    "clinique": []
   }
 }
