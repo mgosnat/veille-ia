@@ -1,56 +1,102 @@
 {
-  "generated_at": "2026-06-09T09:56:01.517924Z",
-  "date_fr": "09/06/2026",
+  "generated_at": "2026-06-10T10:13:35.843917Z",
+  "date_fr": "10/06/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "OutSystems lance sa plateforme Agentic Systems dédiée à l'IA native",
-        "resume": "OutSystems a déployé en juin 2026 une plateforme low-code spécialisée dans le développement d'agents IA avec orchestration multi-agents et conformité entreprise. Positionnée comme alternative à Copilot Studio et Agentforce.",
-        "source": "GitHub",
-        "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
-        "date_publication": "04/06/2026",
+        "titre": "Microsoft Agent Framework arrive à maturité avec version 4.0",
+        "resume": "Microsoft lance la version 4.0 de son Agent Framework (anciennement AutoGen) avec support Python et C#/.NET, intégration Azure, et patterns d'orchestration avancés. Inclut les Foundry Hosted Agents pour déploiement simplifié avec 2 lignes de code additionnelles. L'ancien AutoGen est maintenant en mode maintenance.",
+        "source": "microsoft/agent-framework GitHub",
+        "url": "https://github.com/microsoft/agent-framework",
+        "date_publication": "06/06/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Amazon Bedrock AgentCore Payments intègre les paiements autonomes",
-        "resume": "Amazon a ajouté en avril-mai 2026 des capacités de paiement managé pour les agents Bedrock via intégrations Coinbase et Stripe. Les agents peuvent désormais payer autonomément pour APIs et ressources.",
-        "source": "GitHub",
-        "url": "https://github.com/Zijian-Ni/awesome-ai-agents-2026",
-        "date_publication": "04/06/2026",
+        "titre": "QwenPaw v1.1.10 : agents capables de créer des sous-agents",
+        "resume": "Nouvelle version de QwenPaw avec fonction spawn_subagent permettant aux agents de créer dynamiquement des sous-agents éphémères. Ajout du support Tencent Yuanbao et amélioration du mode coding avec référencement de projets locaux. Plateforme complète pour agents personnels avec multi-canaux (DingTalk, Feishu, Discord, Telegram).",
+        "source": "agentscope-ai/QwenPaw GitHub",
+        "url": "https://github.com/agentscope-ai/QwenPaw",
+        "date_publication": "10/06/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "CrewAI domine les déploiements en production avec 44K+ étoiles GitHub",
-        "resume": "CrewAI atteint 60% d'adoption Fortune 500 et 44K+ étoiles GitHub avec une approche role-based intuitive. Comparatifs montrent avantage pour prototypage rapide vs LangGraph pour contrôle production.",
-        "source": "DEV Community",
-        "url": "https://dev.to/cristian_iridon_286794874/langgraph-vs-crewai-vs-autogen-in-2026-pick-the-right-ai-agent-framework-or-skip-frameworks-4m2c",
-        "date_publication": "27/05/2026",
-        "pertinence": "moyenne",
-        "categorie": "retour"
-      },
-      {
-        "titre": "AutoGen en mode maintenance, Microsoft privilégie Agent Framework",
-        "resume": "Microsoft a mis AutoGen en mode maintenance début 2026 au profit de son Agent Framework plus large. Développement de nouvelles fonctionnalités arrêté malgré 55K étoiles GitHub.",
-        "source": "DEV Community",
-        "url": "https://dev.to/cristian_iridon_286794874/langgraph-vs-crewai-vs-autogen-in-2026-pick-the-right-ai-agent-framework-or-skip-frameworks-4m2c",
-        "date_publication": "27/05/2026",
+        "titre": "500 projets d'agents IA production-ready avec tous les frameworks",
+        "resume": "Collection de 500+ projets d'agents IA avec exemples production, tutoriels et code fonctionnel couvrant LangGraph, CrewAI, AutoGen, Agno. Organisé par industrie (Healthcare, Finance, Education, Cybersecurity). Chaque agent est autonome avec requirements.txt et .env.example.",
+        "source": "ashishpatel26/500-AI-Agents-Projects GitHub",
+        "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+        "date_publication": "06/06/2026",
         "pertinence": "haute",
-        "categorie": "retour"
+        "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act Omnibus reporte les échéances high-risk à décembre 2027",
-        "resume": "Accord politique du 7 mai 2026 reporte les obligations systèmes high-risk Annexe III au 2 décembre 2027 et Annexe I au 2 août 2028. Amendes jusqu'à 35M€ ou 7% CA global déjà applicables.",
-        "source": "SureCloud",
+        "titre": "EU AI Act Omnibus : report des obligations systèmes haut risque",
+        "resume": "Accord politique du 7 mai 2026 sur l'AI Act Omnibus reportant les obligations systèmes haut risque. Nouvelles échéances : Annexe III (recrutement, crédit, police) au 2 décembre 2027, Annexe I (produits réglementés) au 2 août 2028. Les pratiques interdites restent applicables avec amendes jusqu'à 35M€.",
+        "source": "SureCloud EU AI Act Guide",
         "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
-        "date_publication": "02/06/2026",
+        "date_publication": "03/06/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "regulation"
+      },
+      {
+        "titre": "Bureau IA européen renforce ses pouvoirs de supervision",
+        "resume": "Le Bureau IA européen obtient des pouvoirs étendus sur les systèmes IA intégrés aux très grandes plateformes en ligne (VLOP) sous le Digital Services Act. Création juridiction unifiée pour IA déployée sur plateformes. Recrutement d'experts techniques pour gouverner les modèles IA les plus avancés.",
+        "source": "Commission européenne",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+        "date_publication": "01/06/2026",
+        "pertinence": "haute",
+        "categorie": "gouvernance"
+      },
+      {
+        "titre": "Sandboxes réglementaires IA obligatoires dans chaque État membre",
+        "resume": "Article 57 de l'AI Act exige que chaque État membre établisse au moins un sandbox réglementaire IA au niveau national avant le 2 août 2026. Permet tests conditions réelles pour solutions IA avec supervision centralisée. Extension des permissions Article 60 pour tests IA haut risque intégrée produits.",
+        "source": "EU AI Act Implementation",
+        "url": "https://artificialintelligenceact.eu/",
+        "date_publication": "",
+        "pertinence": "moyenne",
+        "categorie": "implementation"
+      },
+      {
+        "titre": "ISO/IEC 42001 : standard international systèmes management IA",
+        "resume": "ISO/IEC 42001 fournit structure gouvernance reconnue mappant directement aux obligations EU AI Act. Implémentation supporte conformité et certification. Recommandé pour organisations UK servant utilisateurs UE devant respecter obligations AI Act malgré framework pro-innovation domestique UK.",
+        "source": "SureCloud Compliance Guide",
+        "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
+        "date_publication": "03/06/2026",
+        "pertinence": "moyenne",
+        "categorie": "standard"
       }
     ],
-    "clinique": []
+    "clinique": [
+      {
+        "titre": "Outil public de surveillance diversité essais cliniques développé",
+        "resume": "Centre médical académique développe outil public surveillant participation recherche clinique par âge, sexe, race, ethnie et ruralité. Comparaisons avec benchmarks géographiques révèlent sur-participation femmes, sous-représentation Hispaniques/Latinos et Asiatiques. Promeut transparence et responsabilité pour équité santé.",
+        "source": "PMC Article 12083199",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12083199/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Enquête mondiale sur barrières diversité essais cliniques",
+        "resume": "Questionnaire en ligne avril-juin 2023 impliquant 12 017 répondants de 54 pays sur perceptions, préoccupations et expériences liées à l'accès et participation recherche clinique. Composition raciale/ethnique : Blancs (81%), Hispaniques/Latinos (15%), Noirs/Afro-Américains (6%), Asiatiques (6%). Analyse comparative des réponses entre groupes.",
+        "source": "PMC Clinical Trials Barriers Study",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12018620/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "etude"
+      },
+      {
+        "titre": "État actuel diversité populations sous-desservies recherche maladies rares US",
+        "resume": "Évaluation diversité, équité, inclusion et accessibilité (DEIA) dans recherche maladies rares américaine. FDA Drug Trials Snapshot (2015-2019) révèle sous-représentation essais mondiaux maladies rares : 11% Asiatiques, 9% Noirs/Afro-Américains, 1% Indiens/Natifs Alaska, 6% Hispaniques/Latinos, 34% données ethnicité manquantes.",
+        "source": "MedRxiv Rare Disease Study",
+        "url": "https://www.medrxiv.org/content/10.1101/2025.04.30.25326209.full.pdf",
+        "date_publication": "",
+        "pertinence": "moyenne",
+        "categorie": "etude"
+      }
+    ]
   }
 }
