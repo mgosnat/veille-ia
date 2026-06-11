@@ -1,101 +1,74 @@
 {
-  "generated_at": "2026-06-10T10:13:35.843917Z",
-  "date_fr": "10/06/2026",
+  "generated_at": "2026-06-11T10:47:56.634985Z",
+  "date_fr": "11/06/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Framework arrive à maturité avec version 4.0",
-        "resume": "Microsoft lance la version 4.0 de son Agent Framework (anciennement AutoGen) avec support Python et C#/.NET, intégration Azure, et patterns d'orchestration avancés. Inclut les Foundry Hosted Agents pour déploiement simplifié avec 2 lignes de code additionnelles. L'ancien AutoGen est maintenant en mode maintenance.",
-        "source": "microsoft/agent-framework GitHub",
-        "url": "https://github.com/microsoft/agent-framework",
-        "date_publication": "06/06/2026",
+        "titre": "Building Production-Ready AI Agents in 2026",
+        "resume": "Guide détaillé sur l'architecture, gouvernance, observabilité et décisions de sécurité qui séparent les démos expérimentales des systèmes de confiance. Couvre les choix de framework et patterns architecturaux.",
+        "source": "MLflow",
+        "url": "https://mlflow.org/articles/building-production-ready-ai-agents-in-2026/",
+        "date_publication": "29/05/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "pratique"
       },
       {
-        "titre": "QwenPaw v1.1.10 : agents capables de créer des sous-agents",
-        "resume": "Nouvelle version de QwenPaw avec fonction spawn_subagent permettant aux agents de créer dynamiquement des sous-agents éphémères. Ajout du support Tencent Yuanbao et amélioration du mode coding avec référencement de projets locaux. Plateforme complète pour agents personnels avec multi-canaux (DingTalk, Feishu, Discord, Telegram).",
-        "source": "agentscope-ai/QwenPaw GitHub",
-        "url": "https://github.com/agentscope-ai/QwenPaw",
-        "date_publication": "10/06/2026",
+        "titre": "Enterprise AI Agents in Production: Governance, Workflows & Deployment Strategy",
+        "resume": "Playbook pour les dirigeants d'entreprise sur l'opération d'agents IA en production. 60% des organisations prévoient déployer des agents dans les deux prochaines années, mais seulement 17% l'ont fait à ce jour selon Gartner.",
+        "source": "ToTheNew",
+        "url": "https://www.tothenew.com/insights/article/enterprise-ai-agents-production-playbook",
+        "date_publication": "29/05/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "pratique"
       },
       {
-        "titre": "500 projets d'agents IA production-ready avec tous les frameworks",
-        "resume": "Collection de 500+ projets d'agents IA avec exemples production, tutoriels et code fonctionnel couvrant LangGraph, CrewAI, AutoGen, Agno. Organisé par industrie (Healthcare, Finance, Education, Cybersecurity). Chaque agent est autonome avec requirements.txt et .env.example.",
-        "source": "ashishpatel26/500-AI-Agents-Projects GitHub",
-        "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
-        "date_publication": "06/06/2026",
+        "titre": "10 Open-Source AI Agent Frameworks to Automate Your Work in 2026",
+        "resume": "Analyse des patterns adoptés par les agences et freelances en 2026. Scenarios concrets où les agents IA open-source génèrent des flux de revenus sans risque commercial.",
+        "source": "Pasquale Pillitteri",
+        "url": "https://pasqualepillitteri.it/en/news/1476/10-open-source-ai-agent-frameworks-2026",
+        "date_publication": "09/06/2026",
+        "pertinence": "haute",
+        "categorie": "pratique"
+      },
+      {
+        "titre": "Top 5 Open-Source Agentic AI Frameworks in 2026",
+        "resume": "Benchmark comparatif des frameworks sur 5 tâches avec 2000 exécutions. LangGraph est le plus rapide, AutoGen mène en latence, CrewAI présente l'overhead le plus lourd.",
+        "source": "AI Multiple",
+        "url": "https://aimultiple.com/agentic-frameworks",
+        "date_publication": "09/06/2026",
         "pertinence": "haute",
         "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act Omnibus : report des obligations systèmes haut risque",
-        "resume": "Accord politique du 7 mai 2026 sur l'AI Act Omnibus reportant les obligations systèmes haut risque. Nouvelles échéances : Annexe III (recrutement, crédit, police) au 2 décembre 2027, Annexe I (produits réglementés) au 2 août 2028. Les pratiques interdites restent applicables avec amendes jusqu'à 35M€.",
-        "source": "SureCloud EU AI Act Guide",
+        "titre": "EU AI Act Compliance Guide: Updated June 2026",
+        "resume": "Guide complet de conformité avec les nouvelles échéances suite à l'accord politique de mai 2026. Les systèmes à haut risque Annexe III doivent être conformes d'ici décembre 2027, les systèmes embarqués d'ici août 2028.",
+        "source": "SureCloud",
         "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
-        "date_publication": "03/06/2026",
+        "date_publication": "04/06/2026",
         "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "conformité"
       },
       {
-        "titre": "Bureau IA européen renforce ses pouvoirs de supervision",
-        "resume": "Le Bureau IA européen obtient des pouvoirs étendus sur les systèmes IA intégrés aux très grandes plateformes en ligne (VLOP) sous le Digital Services Act. Création juridiction unifiée pour IA déployée sur plateformes. Recrutement d'experts techniques pour gouverner les modèles IA les plus avancés.",
+        "titre": "Commission publishes Code of Practice on marking",
+        "resume": "La Commission européenne a publié le 10 juin 2026 un projet de Code de Pratique sur le marquage et l'étiquetage du contenu généré par IA. Version finale prévue pour juin 2026 avec application en août 2026.",
         "source": "Commission européenne",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
-        "date_publication": "01/06/2026",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "date_publication": "10/06/2026",
         "pertinence": "haute",
-        "categorie": "gouvernance"
-      },
-      {
-        "titre": "Sandboxes réglementaires IA obligatoires dans chaque État membre",
-        "resume": "Article 57 de l'AI Act exige que chaque État membre établisse au moins un sandbox réglementaire IA au niveau national avant le 2 août 2026. Permet tests conditions réelles pour solutions IA avec supervision centralisée. Extension des permissions Article 60 pour tests IA haut risque intégrée produits.",
-        "source": "EU AI Act Implementation",
-        "url": "https://artificialintelligenceact.eu/",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "implementation"
-      },
-      {
-        "titre": "ISO/IEC 42001 : standard international systèmes management IA",
-        "resume": "ISO/IEC 42001 fournit structure gouvernance reconnue mappant directement aux obligations EU AI Act. Implémentation supporte conformité et certification. Recommandé pour organisations UK servant utilisateurs UE devant respecter obligations AI Act malgré framework pro-innovation domestique UK.",
-        "source": "SureCloud Compliance Guide",
-        "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
-        "date_publication": "03/06/2026",
-        "pertinence": "moyenne",
-        "categorie": "standard"
+        "categorie": "réglementation"
       }
     ],
     "clinique": [
       {
-        "titre": "Outil public de surveillance diversité essais cliniques développé",
-        "resume": "Centre médical académique développe outil public surveillant participation recherche clinique par âge, sexe, race, ethnie et ruralité. Comparaisons avec benchmarks géographiques révèlent sur-participation femmes, sous-représentation Hispaniques/Latinos et Asiatiques. Promeut transparence et responsabilité pour équité santé.",
-        "source": "PMC Article 12083199",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12083199/",
-        "date_publication": "",
+        "titre": "FDA Quietly Removes Draft Guidance on Diversity in Clinical Trials",
+        "resume": "La FDA a discrètement retiré son projet de guidance sur la diversité des essais cliniques suite à un ordre exécutif. L'incertitude plane sur le respect de l'échéance statutaire de juin 2025 pour la guidance finale.",
+        "source": "AJMC",
+        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
+        "date_publication": "04/06/2026",
         "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Enquête mondiale sur barrières diversité essais cliniques",
-        "resume": "Questionnaire en ligne avril-juin 2023 impliquant 12 017 répondants de 54 pays sur perceptions, préoccupations et expériences liées à l'accès et participation recherche clinique. Composition raciale/ethnique : Blancs (81%), Hispaniques/Latinos (15%), Noirs/Afro-Américains (6%), Asiatiques (6%). Analyse comparative des réponses entre groupes.",
-        "source": "PMC Clinical Trials Barriers Study",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12018620/",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "etude"
-      },
-      {
-        "titre": "État actuel diversité populations sous-desservies recherche maladies rares US",
-        "resume": "Évaluation diversité, équité, inclusion et accessibilité (DEIA) dans recherche maladies rares américaine. FDA Drug Trials Snapshot (2015-2019) révèle sous-représentation essais mondiaux maladies rares : 11% Asiatiques, 9% Noirs/Afro-Américains, 1% Indiens/Natifs Alaska, 6% Hispaniques/Latinos, 34% données ethnicité manquantes.",
-        "source": "MedRxiv Rare Disease Study",
-        "url": "https://www.medrxiv.org/content/10.1101/2025.04.30.25326209.full.pdf",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "etude"
+        "categorie": "réglementation"
       }
     ]
   }
