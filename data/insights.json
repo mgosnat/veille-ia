@@ -1,74 +1,74 @@
 {
-  "generated_at": "2026-06-11T10:47:56.634985Z",
-  "date_fr": "11/06/2026",
+  "generated_at": "2026-06-12T10:23:33.987076Z",
+  "date_fr": "12/06/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Building Production-Ready AI Agents in 2026",
-        "resume": "Guide détaillé sur l'architecture, gouvernance, observabilité et décisions de sécurité qui séparent les démos expérimentales des systèmes de confiance. Couvre les choix de framework et patterns architecturaux.",
-        "source": "MLflow",
-        "url": "https://mlflow.org/articles/building-production-ready-ai-agents-in-2026/",
-        "date_publication": "29/05/2026",
+        "titre": "Microsoft Agent Framework v5.0 - Framework multi-langue pour agents de production en Python et .NET",
+        "resume": "Microsoft lance une nouvelle version de son framework agent multi-langue supportant Python et .NET avec des patterns d'orchestration avancés, le déploiement sur Foundry, et l'observabilité OpenTelemetry intégrée.",
+        "source": "GitHub",
+        "url": "https://github.com/microsoft/agent-framework",
+        "date_publication": "06/06/2026",
         "pertinence": "haute",
-        "categorie": "pratique"
+        "categorie": "outil"
       },
       {
-        "titre": "Enterprise AI Agents in Production: Governance, Workflows & Deployment Strategy",
-        "resume": "Playbook pour les dirigeants d'entreprise sur l'opération d'agents IA en production. 60% des organisations prévoient déployer des agents dans les deux prochaines années, mais seulement 17% l'ont fait à ce jour selon Gartner.",
-        "source": "ToTheNew",
-        "url": "https://www.tothenew.com/insights/article/enterprise-ai-agents-production-playbook",
-        "date_publication": "29/05/2026",
+        "titre": "QwenPaw v1.1.11 - Assistant personnel AI avec marketplace de plugins et authentification OAuth gratuite",
+        "resume": "Nouvelle version de QwenPaw avec authentification OAuth gratuite pour les modèles, marketplace de plugins intégré avec AgentScope Platform, et support MCP pour les outils multi-serveurs.",
+        "source": "GitHub",
+        "url": "https://github.com/agentscope-ai/QwenPaw",
+        "date_publication": "11/06/2026",
         "pertinence": "haute",
-        "categorie": "pratique"
+        "categorie": "outil"
       },
       {
-        "titre": "10 Open-Source AI Agent Frameworks to Automate Your Work in 2026",
-        "resume": "Analyse des patterns adoptés par les agences et freelances en 2026. Scenarios concrets où les agents IA open-source génèrent des flux de revenus sans risque commercial.",
-        "source": "Pasquale Pillitteri",
-        "url": "https://pasqualepillitteri.it/en/news/1476/10-open-source-ai-agent-frameworks-2026",
-        "date_publication": "09/06/2026",
-        "pertinence": "haute",
-        "categorie": "pratique"
-      },
-      {
-        "titre": "Top 5 Open-Source Agentic AI Frameworks in 2026",
-        "resume": "Benchmark comparatif des frameworks sur 5 tâches avec 2000 exécutions. LangGraph est le plus rapide, AutoGen mène en latence, CrewAI présente l'overhead le plus lourd.",
-        "source": "AI Multiple",
-        "url": "https://aimultiple.com/agentic-frameworks",
-        "date_publication": "09/06/2026",
-        "pertinence": "haute",
+        "titre": "Agno - Framework agent ultra-léger avec instantiation 529x plus rapide que LangGraph",
+        "resume": "Nouveau framework agent minimaliste promettant des performances exceptionnelles avec 2 microsecondes d'initialisation et 3.75 KB de mémoire par instance d'agent.",
+        "source": "Innovatrix Infotech",
+        "url": "https://www.innovatrixinfotech.com/blog/crewai-vs-langgraph-vs-autogen-multi-agent-framework",
+        "date_publication": "31/05/2026",
+        "pertinence": "moyenne",
         "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act Compliance Guide: Updated June 2026",
-        "resume": "Guide complet de conformité avec les nouvelles échéances suite à l'accord politique de mai 2026. Les systèmes à haut risque Annexe III doivent être conformes d'ici décembre 2027, les systèmes embarqués d'ici août 2028.",
-        "source": "SureCloud",
-        "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
-        "date_publication": "04/06/2026",
-        "pertinence": "haute",
-        "categorie": "conformité"
-      },
-      {
-        "titre": "Commission publishes Code of Practice on marking",
-        "resume": "La Commission européenne a publié le 10 juin 2026 un projet de Code de Pratique sur le marquage et l'étiquetage du contenu généré par IA. Version finale prévue pour juin 2026 avec application en août 2026.",
+        "titre": "Commission européenne publie le Code de Pratique sur le marquage du contenu généré par IA",
+        "resume": "Publication officielle du code de pratique pour le marquage et l'étiquetage du contenu IA, complétant les obligations de transparence de l'AI Act avec des méthodes standardisées d'implémentation.",
         "source": "Commission européenne",
         "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
         "date_publication": "10/06/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "regulation"
+      },
+      {
+        "titre": "Bureau européen de l'IA recrute des spécialistes technologiques pour gouverner les modèles IA de pointe",
+        "resume": "Le Bureau européen de l'IA lance un recrutement d'agents contractuels spécialistes en technologie IA pour superviser les modèles d'IA générative les plus avancés dans le cadre de l'AI Act.",
+        "source": "AI Act EU",
+        "url": "https://artificialintelligenceact.eu/",
+        "date_publication": "",
+        "pertinence": "moyenne",
+        "categorie": "governance"
       }
     ],
     "clinique": [
       {
-        "titre": "FDA Quietly Removes Draft Guidance on Diversity in Clinical Trials",
-        "resume": "La FDA a discrètement retiré son projet de guidance sur la diversité des essais cliniques suite à un ordre exécutif. L'incertitude plane sur le respect de l'échéance statutaire de juin 2025 pour la guidance finale.",
+        "titre": "Prendre des mesures pour améliorer la diversité des essais cliniques",
+        "resume": "Discussion sur les efforts croissants des leaders de santé pour améliorer la diversité des essais cliniques, avec focus sur les facteurs entravant la participation d'un mix plus large de participants.",
+        "source": "Chief Healthcare Executive",
+        "url": "https://www.chiefhealthcareexecutive.com/view/taking-steps-to-improve-diversity-in-clinical-trials",
+        "date_publication": "02/06/2026",
+        "pertinence": "moyenne",
+        "categorie": "recruitment"
+      },
+      {
+        "titre": "FDA retire discrètement les directives sur la diversité des essais cliniques suite à l'ordre exécutif sur la DEI",
+        "resume": "Retrait soudain par la FDA de ses directives sur les Plans d'Action Diversité sans annonce publique, créant une incertitude pour les sponsors alors que l'échéance statutaire de juin 2025 approche.",
         "source": "AJMC",
         "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "04/06/2026",
+        "date_publication": "11/06/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "regulation"
       }
     ]
   }
