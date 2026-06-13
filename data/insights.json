@@ -1,74 +1,92 @@
 {
-  "generated_at": "2026-06-12T10:23:33.987076Z",
-  "date_fr": "12/06/2026",
+  "generated_at": "2026-06-13T09:25:59.631061Z",
+  "date_fr": "13/06/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Framework v5.0 - Framework multi-langue pour agents de production en Python et .NET",
-        "resume": "Microsoft lance une nouvelle version de son framework agent multi-langue supportant Python et .NET avec des patterns d'orchestration avancés, le déploiement sur Foundry, et l'observabilité OpenTelemetry intégrée.",
-        "source": "GitHub",
-        "url": "https://github.com/microsoft/agent-framework",
-        "date_publication": "06/06/2026",
+        "titre": "Top 5 Open-Source Agentic AI Frameworks in 2026",
+        "resume": "<cite index=\"2-1,2-3\">Étude comparative montrant LangGraph comme le framework le plus rapide avec la latence la plus faible, tandis que LangChain a la latence et l'usage de tokens les plus élevés. AutoGen et CrewAI présentent un profil de surcharge plus lourd.</cite> <cite index=\"2-2,2-4\">LangChain se révèle le framework le plus efficace en tokens sur 5 tâches et 2000 exécutions.</cite>",
+        "source": "aimultiple.com",
+        "url": "https://aimultiple.com/agentic-frameworks",
+        "date_publication": "09/06/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "QwenPaw v1.1.11 - Assistant personnel AI avec marketplace de plugins et authentification OAuth gratuite",
-        "resume": "Nouvelle version de QwenPaw avec authentification OAuth gratuite pour les modèles, marketplace de plugins intégré avec AgentScope Platform, et support MCP pour les outils multi-serveurs.",
-        "source": "GitHub",
-        "url": "https://github.com/agentscope-ai/QwenPaw",
-        "date_publication": "11/06/2026",
+        "titre": "AI Agent Frameworks Compared: LangGraph vs CrewAI vs Mastra vs CopilotKit",
+        "resume": "<cite index=\"7-2,7-5\">Le paysage des frameworks agents a évolué significativement entre avril et juin 2026, avec des développements importants à suivre pour les décisions de frameworks.</cite> <cite index=\"7-10,7-11\">Guide pratique pour construire des agents orientés application avec état partagé et approbations, comparant Mastra vs CopilotKit vs LangGraph.</cite>",
+        "source": "developersdigest.tech",
+        "url": "https://www.developersdigest.tech/guides/ai-agent-frameworks-compared",
+        "date_publication": "10/06/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Agno - Framework agent ultra-léger avec instantiation 529x plus rapide que LangGraph",
-        "resume": "Nouveau framework agent minimaliste promettant des performances exceptionnelles avec 2 microsecondes d'initialisation et 3.75 KB de mémoire par instance d'agent.",
-        "source": "Innovatrix Infotech",
-        "url": "https://www.innovatrixinfotech.com/blog/crewai-vs-langgraph-vs-autogen-multi-agent-framework",
-        "date_publication": "31/05/2026",
-        "pertinence": "moyenne",
-        "categorie": "outil"
+        "titre": "12 Real-World Agentic AI Examples (2026)",
+        "resume": "<cite index=\"15-1,15-2,15-3,15-6,15-8\">Cas d'usage concret : un utilisateur décrit le problème en langage naturel, un agent IA conçoit la solution et écrit le code en 48h sur systèmes existants (SAP, Maximo). Déploiement possible de 12 solutions dans le temps qu'un intégrateur système en livre une.</cite> <cite index=\"15-19,15-20,15-21\">Agent détectant signature précurseur agit sur systèmes multiples sans attendre instruction humaine, vérifie inventaire pièces et prédit fenêtre de panne 48-96h à l'avance.</cite>",
+        "source": "opsima.com",
+        "url": "https://opsima.com/blog/industry-insights/agentic-ai-examples/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "Commission européenne publie le Code de Pratique sur le marquage du contenu généré par IA",
-        "resume": "Publication officielle du code de pratique pour le marquage et l'étiquetage du contenu IA, complétant les obligations de transparence de l'AI Act avec des méthodes standardisées d'implémentation.",
-        "source": "Commission européenne",
+        "titre": "EU AI Act Compliance Guide: Updated June 2026",
+        "resume": "<cite index=\"17-5,17-6,17-7\">Suite à l'Omnibus AI Act UE (accord politique provisoire du 7 mai 2026), principale échéance high-risk reportée. Systèmes Annexe III (recrutement, scoring crédit, application de la loi) doivent se conformer d'ici le 2 décembre 2027. Systèmes Annexe I intégrés dans produits réglementés d'ici le 2 août 2028.</cite>",
+        "source": "surecloud.com",
+        "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
+        "date_publication": "31/05/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "European Union AI Governance Profile",
+        "resume": "<cite index=\"16-1,16-10\">La Commission a nommé le Panel Scientifique et le Forum Consultatif en juin 2026, renforçant la couche institutionnelle derrière l'application. Le règlement s'applique généralement à partir du 2 août 2026, tandis que les obligations high-risk de sécurité produit Article 6(1) avaient une date d'application statutaire originale du 2 août 2027.</cite>",
+        "source": "gaeedu.org",
+        "url": "https://gaeedu.org/ai-governance-profiles/european-union",
+        "date_publication": "08/06/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "EU AI Act News 2026: Compliance Requirements & Deadlines",
+        "resume": "<cite index=\"18-1,18-8,18-9\">Juin 2026 : Publication finale du Code de Pratique sur le marquage et l'étiquetage du contenu généré par IA. Ce cadre volontaire fournira aux fournisseurs de systèmes IA génératifs des méthodes standardisées pour implémenter les obligations de transparence de l'Article 50.</cite>",
+        "source": "axis-intelligence.com",
+        "url": "https://axis-intelligence.com/eu-ai-act-news-2026/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "Commission publishes Code of Practice on marking - European Union",
+        "resume": "<cite index=\"20-1,20-2,20-3\">Renforcer les pouvoirs du Bureau IA et centraliser la supervision des systèmes IA construits sur modèles IA généralistes, réduisant la fragmentation de gouvernance. Le Bureau IA fournit clarté aux entreprises et autorités nationales via guidelines, codes de pratique et Service Desk AI Act.</cite>",
+        "source": "digital-strategy.ec.europa.eu",
         "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
         "date_publication": "10/06/2026",
         "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "reglementation"
       },
       {
-        "titre": "Bureau européen de l'IA recrute des spécialistes technologiques pour gouverner les modèles IA de pointe",
-        "resume": "Le Bureau européen de l'IA lance un recrutement d'agents contractuels spécialistes en technologie IA pour superviser les modèles d'IA générative les plus avancés dans le cadre de l'AI Act.",
-        "source": "AI Act EU",
-        "url": "https://artificialintelligenceact.eu/",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "governance"
+        "titre": "How to Implement ISO 42001 with AI Governance Tools",
+        "resume": "<cite index=\"38-1,38-4,38-6,38-7,38-8\">ISO 42001 relève délibérément la barre en fournissant aux entreprises un framework certifiable pour gérer le risque IA tout au long de son cycle de vie complet. Standard traite gestion risque IA comme discipline opérationnelle centrale et devient point de référence pour régulateurs, conseils d'administration et équipes d'approvisionnement.</cite>",
+        "source": "witness.ai",
+        "url": "https://witness.ai/blog/how-to-implement-iso-42001-with-ai-governance-tools/",
+        "date_publication": "07/06/2026",
+        "pertinence": "haute",
+        "categorie": "norme"
       }
     ],
     "clinique": [
       {
-        "titre": "Prendre des mesures pour améliorer la diversité des essais cliniques",
-        "resume": "Discussion sur les efforts croissants des leaders de santé pour améliorer la diversité des essais cliniques, avec focus sur les facteurs entravant la participation d'un mix plus large de participants.",
-        "source": "Chief Healthcare Executive",
-        "url": "https://www.chiefhealthcareexecutive.com/view/taking-steps-to-improve-diversity-in-clinical-trials",
-        "date_publication": "02/06/2026",
-        "pertinence": "moyenne",
-        "categorie": "recruitment"
-      },
-      {
-        "titre": "FDA retire discrètement les directives sur la diversité des essais cliniques suite à l'ordre exécutif sur la DEI",
-        "resume": "Retrait soudain par la FDA de ses directives sur les Plans d'Action Diversité sans annonce publique, créant une incertitude pour les sponsors alors que l'échéance statutaire de juin 2025 approche.",
-        "source": "AJMC",
+        "titre": "FDA Quietly Removes Draft Guidance on Diversity in Clinical Trials Following Executive Order on DEI",
+        "resume": "<cite index=\"36-2,36-3\">Formation de compétence culturelle pour s'assurer que le personnel des essais cliniques est équipé pour communiquer efficacement avec une population diverse et réduire les biais. Guidance finale légalement due en juin 2025, mais avec le draft guidance maintenant absent du site FDA, incertitude sur respect de cette échéance.</cite>",
+        "source": "ajmc.com",
         "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
         "date_publication": "11/06/2026",
         "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "reglementation"
       }
     ]
   }
