@@ -1,92 +1,65 @@
 {
-  "generated_at": "2026-06-13T09:25:59.631061Z",
-  "date_fr": "13/06/2026",
+  "generated_at": "2026-06-14T09:46:46.086085Z",
+  "date_fr": "14/06/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Top 5 Open-Source Agentic AI Frameworks in 2026",
-        "resume": "<cite index=\"2-1,2-3\">Étude comparative montrant LangGraph comme le framework le plus rapide avec la latence la plus faible, tandis que LangChain a la latence et l'usage de tokens les plus élevés. AutoGen et CrewAI présentent un profil de surcharge plus lourd.</cite> <cite index=\"2-2,2-4\">LangChain se révèle le framework le plus efficace en tokens sur 5 tâches et 2000 exécutions.</cite>",
+        "titre": "Benchmarks de frameworks agentiques 2026: AutoGen vs CrewAI vs LangGraph",
+        "resume": "Etude comparative de 2000 tests sur AutoGen, CrewAI et LangGraph montrant que LangGraph est le plus rapide avec la latence la plus faible. AutoGen emerge comme le plus efficace en tokens tandis que CrewAI excelle pour le prototypage rapide.",
         "source": "aimultiple.com",
         "url": "https://aimultiple.com/agentic-frameworks",
         "date_publication": "09/06/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "benchmark"
       },
       {
-        "titre": "AI Agent Frameworks Compared: LangGraph vs CrewAI vs Mastra vs CopilotKit",
-        "resume": "<cite index=\"7-2,7-5\">Le paysage des frameworks agents a évolué significativement entre avril et juin 2026, avec des développements importants à suivre pour les décisions de frameworks.</cite> <cite index=\"7-10,7-11\">Guide pratique pour construire des agents orientés application avec état partagé et approbations, comparant Mastra vs CopilotKit vs LangGraph.</cite>",
-        "source": "developersdigest.tech",
-        "url": "https://www.developersdigest.tech/guides/ai-agent-frameworks-compared",
-        "date_publication": "10/06/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "12 Real-World Agentic AI Examples (2026)",
-        "resume": "<cite index=\"15-1,15-2,15-3,15-6,15-8\">Cas d'usage concret : un utilisateur décrit le problème en langage naturel, un agent IA conçoit la solution et écrit le code en 48h sur systèmes existants (SAP, Maximo). Déploiement possible de 12 solutions dans le temps qu'un intégrateur système en livre une.</cite> <cite index=\"15-19,15-20,15-21\">Agent détectant signature précurseur agit sur systèmes multiples sans attendre instruction humaine, vérifie inventaire pièces et prédit fenêtre de panne 48-96h à l'avance.</cite>",
-        "source": "opsima.com",
-        "url": "https://opsima.com/blog/industry-insights/agentic-ai-examples/",
+        "titre": "CrewAI intégration NVIDIA NemoClaw pour entreprise",
+        "resume": "En début 2026, CrewAI annonce intégration avec la stack NVIDIA NemoClaw créant une combinaison puissante pour déploiement entreprise sécurisé. Enforcement des politiques au niveau infrastructure plutôt que dans le code des agents.",
+        "source": "mhtechin.com",
+        "url": "https://www.mhtechin.com/support/orchestration-frameworks-for-agentic-ai-langchain-autogen-crewai-the-complete-2026-guide/",
         "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "cas_usage"
+        "pertinence": "moyenne",
+        "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act Compliance Guide: Updated June 2026",
-        "resume": "<cite index=\"17-5,17-6,17-7\">Suite à l'Omnibus AI Act UE (accord politique provisoire du 7 mai 2026), principale échéance high-risk reportée. Systèmes Annexe III (recrutement, scoring crédit, application de la loi) doivent se conformer d'ici le 2 décembre 2027. Systèmes Annexe I intégrés dans produits réglementés d'ici le 2 août 2028.</cite>",
-        "source": "surecloud.com",
-        "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
-        "date_publication": "31/05/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "European Union AI Governance Profile",
-        "resume": "<cite index=\"16-1,16-10\">La Commission a nommé le Panel Scientifique et le Forum Consultatif en juin 2026, renforçant la couche institutionnelle derrière l'application. Le règlement s'applique généralement à partir du 2 août 2026, tandis que les obligations high-risk de sécurité produit Article 6(1) avaient une date d'application statutaire originale du 2 août 2027.</cite>",
-        "source": "gaeedu.org",
-        "url": "https://gaeedu.org/ai-governance-profiles/european-union",
-        "date_publication": "08/06/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "EU AI Act News 2026: Compliance Requirements & Deadlines",
-        "resume": "<cite index=\"18-1,18-8,18-9\">Juin 2026 : Publication finale du Code de Pratique sur le marquage et l'étiquetage du contenu généré par IA. Ce cadre volontaire fournira aux fournisseurs de systèmes IA génératifs des méthodes standardisées pour implémenter les obligations de transparence de l'Article 50.</cite>",
+        "titre": "Code of Practice marquage contenu IA publié juin 2026",
+        "resume": "La Commission européenne publie en juin 2026 le Code of Practice final sur le marquage et étiquetage du contenu généré par IA. Ce framework volontaire, d'abord ébauché en décembre 2025, fournit méthodes standardisées aux fournisseurs d'IA générative.",
         "source": "axis-intelligence.com",
         "url": "https://axis-intelligence.com/eu-ai-act-news-2026/",
         "date_publication": "",
         "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "Commission publishes Code of Practice on marking - European Union",
-        "resume": "<cite index=\"20-1,20-2,20-3\">Renforcer les pouvoirs du Bureau IA et centraliser la supervision des systèmes IA construits sur modèles IA généralistes, réduisant la fragmentation de gouvernance. Le Bureau IA fournit clarté aux entreprises et autorités nationales via guidelines, codes de pratique et Service Desk AI Act.</cite>",
-        "source": "digital-strategy.ec.europa.eu",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-        "date_publication": "10/06/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "How to Implement ISO 42001 with AI Governance Tools",
-        "resume": "<cite index=\"38-1,38-4,38-6,38-7,38-8\">ISO 42001 relève délibérément la barre en fournissant aux entreprises un framework certifiable pour gérer le risque IA tout au long de son cycle de vie complet. Standard traite gestion risque IA comme discipline opérationnelle centrale et devient point de référence pour régulateurs, conseils d'administration et équipes d'approvisionnement.</cite>",
-        "source": "witness.ai",
-        "url": "https://witness.ai/blog/how-to-implement-iso-42001-with-ai-governance-tools/",
-        "date_publication": "07/06/2026",
-        "pertinence": "haute",
-        "categorie": "norme"
+        "categorie": "guidance"
       }
     ],
     "clinique": [
       {
-        "titre": "FDA Quietly Removes Draft Guidance on Diversity in Clinical Trials Following Executive Order on DEI",
-        "resume": "<cite index=\"36-2,36-3\">Formation de compétence culturelle pour s'assurer que le personnel des essais cliniques est équipé pour communiquer efficacement avec une population diverse et réduire les biais. Guidance finale légalement due en juin 2025, mais avec le draft guidance maintenant absent du site FDA, incertitude sur respect de cette échéance.</cite>",
+        "titre": "FDA retire puis remet guidance diversité essais cliniques",
+        "resume": "La FDA retire discrètement en janvier 2026 sa guidance sur la diversité en essais cliniques suite aux ordres exécutifs DEI, puis la remet 19 jours plus tard après procès Doctors for America. Page web maintient message rejetant la réalité du contenu.",
         "source": "ajmc.com",
         "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
         "date_publication": "11/06/2026",
         "pertinence": "haute",
         "categorie": "reglementation"
+      },
+      {
+        "titre": "Impact ordres exécutifs DEI sur écosystème recherche clinique",
+        "resume": "Analyse des implications récents ordres exécutifs américains concernant poursuite diversité, équité et inclusion. Centres médicaux comme Cleveland Clinic font face plaintes droits civiques, organisations restent prudentes sur plans DEI futurs.",
+        "source": "appliedclinicaltrialsonline.com",
+        "url": "https://www.appliedclinicaltrialsonline.com/view/the-impact-of-dei-ban-on-clinical-research-ecosystem",
+        "date_publication": "08/06/2026",
+        "pertinence": "haute",
+        "categorie": "politique"
+      },
+      {
+        "titre": "Benchmarks enrollment diversité intégrés sélection sites 2026",
+        "resume": "En 2026, les benchmarks d'enrollment de diversité sont intégrés dans critères de faisabilité et sélection sites, plus seulement monitorés mi-essai. BEKplatform permet requêtes démographiques et géographiques sur millions de dossiers patients.",
+        "source": "bekhealth.com",
+        "url": "https://www.bekhealth.com/blog/clinical-trial-enrollment-metrics-2026/",
+        "date_publication": "",
+        "pertinence": "moyenne",
+        "categorie": "outil"
       }
     ]
   }
