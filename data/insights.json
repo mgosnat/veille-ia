@@ -1,65 +1,65 @@
 {
-  "generated_at": "2026-06-14T09:46:46.086085Z",
-  "date_fr": "14/06/2026",
+  "generated_at": "2026-06-15T12:29:28.745228Z",
+  "date_fr": "15/06/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Benchmarks de frameworks agentiques 2026: AutoGen vs CrewAI vs LangGraph",
-        "resume": "Etude comparative de 2000 tests sur AutoGen, CrewAI et LangGraph montrant que LangGraph est le plus rapide avec la latence la plus faible. AutoGen emerge comme le plus efficace en tokens tandis que CrewAI excelle pour le prototypage rapide.",
-        "source": "aimultiple.com",
-        "url": "https://aimultiple.com/agentic-frameworks",
-        "date_publication": "09/06/2026",
+        "titre": "AI Engineer Agentic Track: The Complete Agent & MCP Course",
+        "resume": "Programme intensif 6 semaines pour maîtriser l'IA agentique couvrant OpenAI Agents SDK, CrewAI, LangGraph et AutoGen. Cours pratique avec focus sur MCP et déploiement d'agents autonomes.",
+        "source": "Udemy",
+        "url": "https://www.udemy.com/course/the-complete-agentic-ai-engineering-course/",
+        "date_publication": "02/06/2026",
         "pertinence": "haute",
-        "categorie": "benchmark"
+        "categorie": "formation"
       },
       {
-        "titre": "CrewAI intégration NVIDIA NemoClaw pour entreprise",
-        "resume": "En début 2026, CrewAI annonce intégration avec la stack NVIDIA NemoClaw créant une combinaison puissante pour déploiement entreprise sécurisé. Enforcement des politiques au niveau infrastructure plutôt que dans le code des agents.",
-        "source": "mhtechin.com",
-        "url": "https://www.mhtechin.com/support/orchestration-frameworks-for-agentic-ai-langchain-autogen-crewai-the-complete-2026-guide/",
-        "date_publication": "",
+        "titre": "AI Agent Frameworks Compared: LangGraph vs CrewAI vs Mastra vs CopilotKit",
+        "resume": "Comparaison approfondie des frameworks d'agents IA incluant les coûts et intégrations. Guide pour choisir entre orchestration backend et agents de codage, avec focus sur Claude Fable 5.",
+        "source": "Developers Digest",
+        "url": "https://www.developersdigest.tech/guides/ai-agent-frameworks-compared",
+        "date_publication": "10/06/2026",
         "pertinence": "moyenne",
-        "categorie": "outil"
+        "categorie": "comparaison"
       }
     ],
     "gouvernance": [
       {
-        "titre": "Code of Practice marquage contenu IA publié juin 2026",
-        "resume": "La Commission européenne publie en juin 2026 le Code of Practice final sur le marquage et étiquetage du contenu généré par IA. Ce framework volontaire, d'abord ébauché en décembre 2025, fournit méthodes standardisées aux fournisseurs d'IA générative.",
-        "source": "axis-intelligence.com",
-        "url": "https://axis-intelligence.com/eu-ai-act-news-2026/",
-        "date_publication": "",
+        "titre": "EU Names Scientific Panel and Advisory Forum to Guide AI Act Implementation",
+        "resume": "La Commission européenne nomme un Panel Scientifique et un Forum Consultatif pour soutenir l'application de l'AI Act. 60 experts indépendants pour conseiller sur les modèles GPAI et la surveillance transfrontalière.",
+        "source": "AIwire",
+        "url": "https://www.hpcwire.com/aiwire/2026/06/02/eu-names-scientific-panel-and-advisory-forum-to-guide-ai-act-implementation/",
+        "date_publication": "02/06/2026",
         "pertinence": "haute",
-        "categorie": "guidance"
+        "categorie": "regulation"
+      },
+      {
+        "titre": "EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions",
+        "resume": "Accord provisoire sur le Digital Omnibus IA le 7 mai 2026, première série d'amendements à l'AI Act depuis juin 2024. Inclut extensions de délais pragmatiques et mesures de simplification ciblées.",
+        "source": "Global Policy Watch",
+        "url": "https://www.globalpolicywatch.com/2026/06/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions-2/",
+        "date_publication": "02/06/2026",
+        "pertinence": "haute",
+        "categorie": "regulation"
+      },
+      {
+        "titre": "EU AI Act compliance guide — GLACIS (June 2026)",
+        "resume": "Guide de conformité mis à jour juin 2026. Code de Pratique sur le marquage du contenu IA programmé pour juin 2026. 24 fournisseurs ont signé incluant Anthropic, Google, IBM, Microsoft, OpenAI.",
+        "source": "GLACIS",
+        "url": "https://www.glacis.io/guide-eu-ai-act",
+        "date_publication": "09/06/2026",
+        "pertinence": "haute",
+        "categorie": "compliance"
       }
     ],
     "clinique": [
       {
-        "titre": "FDA retire puis remet guidance diversité essais cliniques",
-        "resume": "La FDA retire discrètement en janvier 2026 sa guidance sur la diversité en essais cliniques suite aux ordres exécutifs DEI, puis la remet 19 jours plus tard après procès Doctors for America. Page web maintient message rejetant la réalité du contenu.",
-        "source": "ajmc.com",
-        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "11/06/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "Impact ordres exécutifs DEI sur écosystème recherche clinique",
-        "resume": "Analyse des implications récents ordres exécutifs américains concernant poursuite diversité, équité et inclusion. Centres médicaux comme Cleveland Clinic font face plaintes droits civiques, organisations restent prudentes sur plans DEI futurs.",
-        "source": "appliedclinicaltrialsonline.com",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/the-impact-of-dei-ban-on-clinical-research-ecosystem",
-        "date_publication": "08/06/2026",
-        "pertinence": "haute",
-        "categorie": "politique"
-      },
-      {
-        "titre": "Benchmarks enrollment diversité intégrés sélection sites 2026",
-        "resume": "En 2026, les benchmarks d'enrollment de diversité sont intégrés dans critères de faisabilité et sélection sites, plus seulement monitorés mi-essai. BEKplatform permet requêtes démographiques et géographiques sur millions de dossiers patients.",
-        "source": "bekhealth.com",
-        "url": "https://www.bekhealth.com/blog/clinical-trial-enrollment-metrics-2026/",
-        "date_publication": "",
+        "titre": "Taking steps to improve diversity in clinical trials",
+        "resume": "Leaders healthcare se focalisent sur l'amélioration de la diversité des essais cliniques. Les entreprises, universités et chercheurs doivent considérer les facteurs entravant la recherche d'un mix plus large de participants.",
+        "source": "Chief Healthcare Executive",
+        "url": "https://www.chiefhealthcareexecutive.com/view/taking-steps-to-improve-diversity-in-clinical-trials",
+        "date_publication": "02/06/2026",
         "pertinence": "moyenne",
-        "categorie": "outil"
+        "categorie": "amelioration"
       }
     ]
   }
