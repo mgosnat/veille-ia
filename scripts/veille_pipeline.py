@@ -63,7 +63,7 @@ def call_claude(prompt, max_retries=5, wait_seconds=60):
                     "tools": [{"type": "web_search_20250305", "name": "web_search"}],
                     "messages": [{"role": "user", "content": prompt}]
                 },
-                timeout=120
+                timeout=240
             )
             resp.raise_for_status()
             texts = [b["text"] for b in resp.json().get("content", []) if b.get("type") == "text"]
@@ -73,6 +73,12 @@ def call_claude(prompt, max_retries=5, wait_seconds=60):
             if status in (429, 529) and attempt < max_retries:
                 print(f"API surchargee (erreur {status}), tentative {attempt}/{max_retries}, attente {wait_seconds}s...")
                 time.sleep(wait_seconds * attempt)  # attente progressive
+                time.sleep(wait_seconds)
+            else:
+                raise
+         except requests.exceptions.Timeout:
+            if attempt < max_retries:
+                print(f"Timeout API, tentative {attempt}/{max_retries}, attente {wait_seconds}s...")
                 time.sleep(wait_seconds)
             else:
                 raise
