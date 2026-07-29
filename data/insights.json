@@ -1,65 +1,83 @@
 {
-  "generated_at": "2026-06-15T12:29:28.745228Z",
-  "date_fr": "15/06/2026",
+  "generated_at": "2026-07-29T09:19:47.745719Z",
+  "date_fr": "29/07/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "AI Engineer Agentic Track: The Complete Agent & MCP Course",
-        "resume": "Programme intensif 6 semaines pour maîtriser l'IA agentique couvrant OpenAI Agents SDK, CrewAI, LangGraph et AutoGen. Cours pratique avec focus sur MCP et déploiement d'agents autonomes.",
-        "source": "Udemy",
-        "url": "https://www.udemy.com/course/the-complete-agentic-ai-engineering-course/",
-        "date_publication": "02/06/2026",
+        "titre": "MCP 2026-07-28 : la plus grande révision du protocole depuis son lancement est désormais finale",
+        "resume": "La spécification MCP 2026-07-28 est devenue officielle le 28 juillet 2026, introduisant un cœur stateless (sans sessions), un framework d'extensions formel, les MCP Apps et un durcissement OAuth/OIDC. Avec plus de 10 000 serveurs MCP en production et 97 millions de téléchargements SDK mensuels, la migration devient urgente pour les équipes déjà en production HTTP. Un guide de migration pratique avec plan Q3 2026 est disponible sur le blog officiel.",
+        "source": "Model Context Protocol Blog / Stacktree",
+        "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
+        "date_publication": "28/07/2026",
         "pertinence": "haute",
-        "categorie": "formation"
+        "categorie": "outil"
       },
       {
-        "titre": "AI Agent Frameworks Compared: LangGraph vs CrewAI vs Mastra vs CopilotKit",
-        "resume": "Comparaison approfondie des frameworks d'agents IA incluant les coûts et intégrations. Guide pour choisir entre orchestration backend et agents de codage, avec focus sur Claude Fable 5.",
-        "source": "Developers Digest",
-        "url": "https://www.developersdigest.tech/guides/ai-agent-frameworks-compared",
-        "date_publication": "10/06/2026",
-        "pertinence": "moyenne",
-        "categorie": "comparaison"
+        "titre": "Alibaba Cloud lance Agent Native Cloud au WAIC : orchestration multi-agents et sandboxing en production",
+        "resume": "Alibaba Cloud a présenté le 18 juillet 2026 au World AI Conference son architecture 'Agent Native Cloud', incluant AgentTeams (orchestration multi-agents), Agentic Computer (exécution sécurisée/sandboxing) et une infrastructure pour les agents réutilisables avec gestion des identités. Ce lancement cible les équipes enterprise qui veulent déployer des agents en production avec isolation des workloads. Des démos d'agents industriels (CAD-to-process, scheduling, quality inspection) ont été présentées en parallèle.",
+        "source": "AI Agent Store News",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "18/07/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Businessolver déploie un agent RH d'onboarding IA réduisant l'effort d'implémentation de 40%",
+        "resume": "Le 28 juillet 2026, Businessolver a annoncé le déploiement en production de son intelligence agentic Sofia pour l'onboarding clients : l'IA interprète les matériaux des plans RH, détecte les incohérences et automatise les échanges de données via une Universal Data Gateway. Le résultat mesuré est une réduction de 40% de l'effort d'implémentation. C'est un cas d'usage métier RH/bénéfices concret avec ROI chiffré et déployé en production.",
+        "source": "GlobeNewswire / Businessolver",
+        "url": "https://www.globenewswire.com/news-release/2026/07/28/3334363/0/en/Businessolver-Introduces-AI-powered-Client-Onboarding-and-Universal-Data-Gateway-Reducing-Implementation-Effort-by-40.html",
+        "date_publication": "28/07/2026",
+        "pertinence": "haute",
+        "categorie": "cas d'usage metier"
+      },
+      {
+        "titre": "Ushur Agentic Platform (UAP) : agents pour parcours client end-to-end lancés le 22 juillet 2026",
+        "resume": "Ushur a lancé l'Ushur Agentic Platform (UAP) le 22 juillet 2026, une plateforme pour construire et opérer des agents IA gérant l'intégralité du parcours client, de la prise de contact à la résolution finale. Les agents comprennent l'intention, collectent des informations et récupèrent des documents de façon autonome. La plateforme cible les secteurs assurance, services financiers et RH avec une attention particulière aux gates d'approbation humaine.",
+        "source": "AI Agent Store News",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "22/07/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU Names Scientific Panel and Advisory Forum to Guide AI Act Implementation",
-        "resume": "La Commission européenne nomme un Panel Scientifique et un Forum Consultatif pour soutenir l'application de l'AI Act. 60 experts indépendants pour conseiller sur les modèles GPAI et la surveillance transfrontalière.",
-        "source": "AIwire",
-        "url": "https://www.hpcwire.com/aiwire/2026/06/02/eu-names-scientific-panel-and-advisory-forum-to-guide-ai-act-implementation/",
-        "date_publication": "02/06/2026",
+        "titre": "AI Act : la Commission publie les lignes directrices sur les obligations de transparence (Article 50) le 20 juillet 2026",
+        "resume": "Le 20 juillet 2026, la Commission européenne a publié ses Guidelines on Transparency of AI-Generated Content pour compléter le Code de Pratique publié en juin. Ces textes arrivent deux semaines avant l'entrée en vigueur le 2 août 2026 des obligations de transparence Article 50 (chatbots, contenus synthétiques, deepfakes). Les entreprises non signataires du Code devront démontrer leur conformité par d'autres voies et s'exposent à une surveillance accrue.",
+        "source": "Alston & Bird / Commission européenne",
+        "url": "https://www.alstonprivacy.com/european-commission-publishes-new-guidelines-and-code-of-practice-on-genai-transparency/",
+        "date_publication": "20/07/2026",
         "pertinence": "haute",
         "categorie": "regulation"
       },
       {
-        "titre": "EU AI Act Update: Timeline Relief, Targeted Simplification, and New Prohibitions",
-        "resume": "Accord provisoire sur le Digital Omnibus IA le 7 mai 2026, première série d'amendements à l'AI Act depuis juin 2024. Inclut extensions de délais pragmatiques et mesures de simplification ciblées.",
-        "source": "Global Policy Watch",
-        "url": "https://www.globalpolicywatch.com/2026/06/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions-2/",
-        "date_publication": "02/06/2026",
+        "titre": "Meta et Google signent le Code de Pratique de l'AI Act sur la transparence des contenus générés par IA",
+        "resume": "Le 24 juillet 2026, Google a annoncé sa signature du Code de Pratique EU AI Act sur la transparence des contenus générés par IA, s'appuyant sur SynthID (watermarking) et le standard C2PA. Le 28 juillet, Meta a confirmé sa propre signature, soulignant son engagement depuis 2024 sur le marquage des contenus IA. La date limite de signature était fixée au 27 juillet 2026, 18h CEST, avant l'entrée en application le 2 août 2026.",
+        "source": "Google Blog / Meta Newsroom",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/",
+        "date_publication": "24/07/2026",
         "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "conformite entreprise"
       },
       {
-        "titre": "EU AI Act compliance guide — GLACIS (June 2026)",
-        "resume": "Guide de conformité mis à jour juin 2026. Code de Pratique sur le marquage du contenu IA programmé pour juin 2026. 24 fournisseurs ont signé incluant Anthropic, Google, IBM, Microsoft, OpenAI.",
-        "source": "GLACIS",
-        "url": "https://www.glacis.io/guide-eu-ai-act",
-        "date_publication": "09/06/2026",
+        "titre": "EU AI Act August 2026 : ce qui entre vraiment en vigueur le 2 août - guide entreprise",
+        "resume": "À partir du 2 août 2026, la Commission active ses pouvoirs d'enforcement sur les fournisseurs de modèles GPAI, et les obligations de transparence Article 50 deviennent exécutoires (amendes jusqu'à 15M€ ou 3% du CA mondial). Les obligations pour les systèmes à haut risque (Annexe III) ont été repoussées au 2 décembre 2027 par le Digital Omnibus. Les entreprises doivent notamment avoir inventorié tous leurs outils IA, y compris shadow AI et fournisseurs tiers, avant cette date.",
+        "source": "Olakai / Lumenova AI",
+        "url": "https://olakai.ai/blog/eu-ai-act-enforcement-august-2026/",
+        "date_publication": "16/07/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
+        "categorie": "conformite entreprise"
       }
     ],
     "clinique": [
       {
-        "titre": "Taking steps to improve diversity in clinical trials",
-        "resume": "Leaders healthcare se focalisent sur l'amélioration de la diversité des essais cliniques. Les entreprises, universités et chercheurs doivent considérer les facteurs entravant la recherche d'un mix plus large de participants.",
-        "source": "Chief Healthcare Executive",
-        "url": "https://www.chiefhealthcareexecutive.com/view/taking-steps-to-improve-diversity-in-clinical-trials",
-        "date_publication": "02/06/2026",
-        "pertinence": "moyenne",
-        "categorie": "amelioration"
+        "titre": "FDA Diversity Action Plans : statut actualisé au 18 juillet 2026 - guidance finale toujours en attente",
+        "resume": "La page de référence CASRAI sur les Diversity Action Plans FDA a été mise à jour le 18 juillet 2026 : la guidance finale FDORA sur les DAP (Diversity Action Plans) pour les essais pivots drogue/dispositif n'est toujours pas publiée. L'obligation de soumission des DAP reste conditionnelle à la finalisation de cette guidance. Le contexte politique (retrait initial de la guidance par l'administration Trump en janvier 2025, restauration partielle suite à un arrêté judiciaire) maintient une incertitude réglementaire pour les sponsors.",
+        "source": "CASRAI",
+        "url": "https://casrai.org/guides/fda-diversity-action-plan-clinical-trials",
+        "date_publication": "18/07/2026",
+        "pertinence": "haute",
+        "categorie": "regulation"
       }
     ]
   }
