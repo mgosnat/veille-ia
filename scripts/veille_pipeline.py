@@ -58,7 +58,7 @@ def call_claude(prompt, max_retries=5, wait_seconds=60):
                     "anthropic-version": "2023-06-01"
                 },
                 json={
-                    "model": "claude-sonnet-4-20250514",
+                     "model": "claude-sonnet-4-6",
                     "max_tokens": 4000,
                     "tools": [{"type": "web_search_20250305", "name": "web_search"}],
                     "messages": [{"role": "user", "content": prompt}]
