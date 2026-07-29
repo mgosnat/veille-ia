@@ -58,7 +58,7 @@ def call_claude(prompt, max_retries=5, wait_seconds=60):
                     "anthropic-version": "2023-06-01"
                 },
                 json={
-                     "model": "claude-sonnet-4-6",
+                    "model": "claude-sonnet-4-6",
                     "max_tokens": 8000,
                     "tools": [{"type": "web_search_20250305", "name": "web_search"}],
                     "messages": [{"role": "user", "content": prompt}]
@@ -76,7 +76,7 @@ def call_claude(prompt, max_retries=5, wait_seconds=60):
                 time.sleep(wait_seconds)
             else:
                 raise
-         except requests.exceptions.Timeout:
+        except requests.exceptions.Timeout:
             if attempt < max_retries:
                 print(f"Timeout API, tentative {attempt}/{max_retries}, attente {wait_seconds}s...")
                 time.sleep(wait_seconds)
