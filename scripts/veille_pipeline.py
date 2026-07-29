@@ -109,7 +109,7 @@ def fetch_all():
         "Maximum 8 items par theme, minimum 0 si rien de recent. resume en francais 2-3 phrases. JSON brut uniquement."
     )
     txt = call_claude(prompt).replace("```json", "").replace("```", "").strip()
-   m = re.search(r'\{[\s\S]*\}', txt)
+    m = re.search(r'\{[\s\S]*\}', txt)
     if not m:
         return {"agentique": [], "gouvernance": [], "clinique": []}
     try:
