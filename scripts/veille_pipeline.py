@@ -59,7 +59,7 @@ def call_claude(prompt, max_retries=5, wait_seconds=60):
                 },
                 json={
                      "model": "claude-sonnet-4-6",
-                    "max_tokens": 4000,
+                    "max_tokens": 8000,
                     "tools": [{"type": "web_search_20250305", "name": "web_search"}],
                     "messages": [{"role": "user", "content": prompt}]
                 },
@@ -109,10 +109,15 @@ def fetch_all():
         "Maximum 8 items par theme, minimum 0 si rien de recent. resume en francais 2-3 phrases. JSON brut uniquement."
     )
     txt = call_claude(prompt).replace("```json", "").replace("```", "").strip()
-    m = re.search(r'\{[\s\S]*\}', txt)
+   m = re.search(r'\{[\s\S]*\}', txt)
     if not m:
         return {"agentique": [], "gouvernance": [], "clinique": []}
-    data = json.loads(m.group(0))
+    try:
+        data = json.loads(m.group(0))
+    except json.JSONDecodeError as e:
+        print(f"  JSON invalide ({e}). Longueur reponse: {len(txt)} caracteres.")
+        print(f"  Derniers 500 caracteres: {txt[-500:]}")
+        raise
     for theme in ["agentique", "gouvernance", "clinique"]:
         before = len(data.get(theme, []))
         data[theme] = filter_recent(data.get(theme, []))
