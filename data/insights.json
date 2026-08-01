@@ -1,92 +1,92 @@
 {
-  "generated_at": "2026-07-31T08:58:26.008902Z",
-  "date_fr": "31/07/2026",
+  "generated_at": "2026-08-01T08:29:28.569309Z",
+  "date_fr": "01/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "MCP 2026-07-28 : la plus grande mise à jour du Model Context Protocol depuis son lancement",
-        "resume": "Le 28 juillet 2026, la spécification finale MCP 2026-07-28 a été publiée, introduisant un protocole sans état (stateless) qui supprime le handshake initialize et la gestion de session par header. Cette refonte architecturale permet de déployer des serveurs MCP derrière de simples load balancers round-robin sans sticky sessions, rendant l'infrastructure agentique scalable sur HTTP ordinaire. Quatre SDK Tier 1 (TypeScript, Python, Go, C#) supportent la nouvelle spec dès le jour J, et des extensions officielles comme Tasks (long-running agents, par AWS) sont désormais disponibles.",
-        "source": "Model Context Protocol Blog / VentureBeat",
-        "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+        "titre": "MCP 2026-07-28 : la plus grande mise à jour du protocole depuis son lancement",
+        "resume": "Le 28 juillet 2026, la spécification finale du Model Context Protocol (MCP) a été publiée, marquant la plus grande révision du protocole depuis son lancement. Le cœur du changement est la transition vers un protocole sans état (stateless), permettant aux serveurs MCP de tourner derrière un simple load balancer HTTP standard sans sessions persistantes. Des extensions comme MCP Apps et Tasks sont désormais intégrées en première classe, et une politique de dépréciation formelle de 12 mois minimum garantit la stabilité pour les équipes en production. Des SDK bêta sont disponibles pour Python, TypeScript, Go et C#.",
+        "source": "Model Context Protocol Blog",
+        "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
         "date_publication": "28/07/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
         "titre": "BrowserStack lance Test Companion : un agent IA de test automation intégré à l'IDE",
-        "resume": "BrowserStack a lancé Test Companion le 29 juillet 2026, un agent IA dédié à l'automatisation des tests directement dans l'IDE (VS Code, JetBrains, Cursor). L'outil couvre l'authoring, l'exécution, le débogage et la maintenance des tests web et mobile, répondant au constat qu'un étude NBER 2026 montre que les agents de code augmentent les commits de 180% mais les releases seulement de 30%. Plus de 1 000 équipes utilisent déjà Test Companion et rapportent une accélération jusqu'à 4x sur les cycles de test.",
-        "source": "BrowserStack / PR Newswire",
-        "url": "https://www.browserstack.com/blog/meet-test-companion-ai-that-helps-qa-teams-keep-pace-with-modern-development/",
+        "resume": "Le 29 juillet 2026, BrowserStack a lancé Test Companion, un agent IA d'automatisation des tests directement intégré aux IDEs (VS Code, JetBrains, Cursor, Antigravity). L'outil couvre l'intégralité du cycle de test : rédaction, exécution, débogage et maintenance, pour les applications web et mobile. Plus de 1 000 équipes l'utilisent déjà et rapportent des gains de productivité jusqu'à 4x, selon BrowserStack.",
+        "source": "PR Newswire / Help Net Security",
+        "url": "https://www.prnewswire.com/news-releases/browserstack-launches-test-companion-agentic-ai-that-brings-complete-test-automation-into-the-ide-302837727.html",
         "date_publication": "29/07/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "GitHub MCP Server supporte la nouvelle spec stateless MCP avant même sa sortie officielle",
-        "resume": "Le 23 juillet 2026, GitHub a annoncé que son MCP Server supporte déjà la spécification MCP 2026-07-28 avant sa sortie finale, permettant des déploiements sans sessions et une connexion plus rapide aux serveurs. Les extensions MCP Apps et Enterprise Managed Auth sont déjà supportées par VS Code, ouvrant la voie à des workflows agentiques d'entreprise standardisés. Les clients peuvent désormais compléter le handshake en parallèle et se connecter à plusieurs serveurs simultanément.",
-        "source": "GitHub Changelog",
-        "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification/",
-        "date_publication": "23/07/2026",
+        "titre": "Stairwell lance Backstory : première plateforme d'investigation agentique pour la cybersécurité",
+        "resume": "Le 29 juillet 2026, Stairwell a mis en disponibilité générale Backstory, une plateforme d'investigation agentique qui trace automatiquement les variants de malwares, identifie les systèmes affectés et cartographie le périmètre d'impact complet d'un incident en quelques secondes. La plateforme répond à un rapport interne de Stairwell montrant 2,4 variants liés en moyenne pour chaque échantillon de malware référencé publiquement, signifiant que les équipes SOC n'investiguent souvent qu'une fraction de l'attaque réelle.",
+        "source": "Help Net Security / Globe Newswire",
+        "url": "https://www.helpnetsecurity.com/2026/07/29/stairwell-backstory-agentic-investigation/",
+        "date_publication": "29/07/2026",
         "pertinence": "haute",
         "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "L'AI Omnibus entre en vigueur le 27 juillet 2026 : délais prolongés pour les systèmes IA à haut risque",
-        "resume": "Le 27 juillet 2026, le règlement AI Omnibus (Regulation (EU) 2026/1744) est entré en force dans toute l'UE, prolongeant de 18 mois à 2 ans les délais de conformité pour les systèmes IA à haut risque initialement prévus au 2 août 2026. Les systèmes classés haut risque selon l'Annexe III (biométrie, infrastructure critique, emploi) devront se conformer au 2 décembre 2027, et ceux intégrés dans des produits physiques au 2 août 2028. L'AI Office voit ses pouvoirs de supervision étendus aux modèles IA à usage général (GPAI) et aux grandes plateformes en ligne.",
-        "source": "European Commission / Akin Gump",
-        "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
-        "date_publication": "27/07/2026",
+        "titre": "AI Omnibus entre en vigueur le 27 juillet 2026 : délais étendus pour les systèmes IA à haut risque",
+        "resume": "Le 27 juillet 2026, l'AI Omnibus (Regulation EU 2026/1744) est entré en vigueur, repoussant de 16 mois le délai de conformité pour les systèmes IA à haut risque dits « standalone » (Annexe III) au 2 décembre 2027, et à août 2028 pour les systèmes embarqués dans des produits réglementés (Annexe I). Ce report fait suite à des retards dans la publication des normes harmonisées et à la complexité des coûts de mise en conformité. Les obligations de transparence de l'Article 50 restent applicables au 2 août 2026.",
+        "source": "Akin Gump / European Commission",
+        "url": "https://www.akingump.com/en/insights/alerts/EU-AI-act-amendments-defer-and-clarify-obligations",
+        "date_publication": "29/07/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "réglementation"
       },
       {
-        "titre": "EU AI Act : entrée en vigueur de l'Article 50 et des pouvoirs de sanction GPAI le 2 août 2026",
-        "resume": "À partir du 2 août 2026, l'Article 50 de l'AI Act devient applicable : tout déploiement de chatbot ou IA conversationnelle doit informer l'utilisateur qu'il parle à une IA dès le début de l'interaction, sous peine d'amendes pouvant atteindre 15 millions d'euros ou 3% du chiffre d'affaires mondial. Le même jour, l'AI Office acquiert ses pouvoirs de supervision et de sanctions sur les fournisseurs de modèles GPAI. La fenêtre pour signer le Code de Pratique sur la Transparence des Contenus Générés par IA s'est fermée le 22 juillet 2026, les signataires bénéficiant d'une présomption de conformité.",
-        "source": "Olakai AI",
-        "url": "https://olakai.ai/blog/eu-ai-act-enforcement-august-2026/",
-        "date_publication": "18/07/2026",
+        "titre": "Commission européenne publie les lignes directrices finales sur les obligations de transparence de l'AI Act (Article 50)",
+        "resume": "Le 20 juillet 2026, la Commission européenne a adopté les lignes directrices finales sur les obligations de transparence de l'Article 50 de l'AI Act, qui entrent en application le 2 août 2026. Ces 51 pages clarifient les exigences de divulgation pour quatre catégories : interaction directe avec des individus (chatbots), contenu généré par IA, reconnaissance d'émotions/catégorisation biométrique, et deepfakes. Les entreprises non conformes s'exposent à des amendes allant jusqu'à 15 millions d'euros ou 3% du chiffre d'affaires mondial.",
+        "source": "Bird & Bird / Hunton Andrews Kurth",
+        "url": "https://www.twobirds.com/en/insights/2026/european-commission-adopts-final-guidelines-on-ai-act-article-50-transparency-obligations-first-impr",
+        "date_publication": "20/07/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "réglementation"
       },
       {
-        "titre": "Plan d'action UE sur la Cybersécurité et l'IA : nouvelle stratégie coordinée publiée en juillet 2026",
-        "resume": "En juillet 2026, la Commission européenne a dévoilé un Plan d'Action sur la Cybersécurité et l'IA, établissant une feuille de route structurée pour protéger les infrastructures critiques contre les menaces cyber liées aux modèles IA avancés. Ce plan reconnaît le caractère dual-use des modèles IA, à la fois outils de détection des vulnérabilités et potentielles armes pour les attaquants. Il complète l'AI Omnibus en coordonnant les États membres, les entreprises et les autorités publiques autour d'environnements pan-européens de test cybersécuritaire.",
-        "source": "European Commission / Lumenova AI",
-        "url": "https://www.lumenova.ai/blog/eu-ai-act-delays-july-2026/",
-        "date_publication": "24/07/2026",
+        "titre": "La Commission lance l'application effective de l'AI Act et des obligations de transparence au 2 août 2026",
+        "resume": "Le 31 juillet 2026, la Commission européenne a annoncé le début de l'application de l'AI Act à compter du 2 août 2026. L'AI Office dispose désormais de pouvoirs de supervision et d'amendes sur les fournisseurs de modèles GPAI, pouvant exiger la documentation technique, évaluer les modèles, imposer des mesures correctives. C'est la première fois que des pouvoirs réels de sanction sont activés à l'échelle européenne pour l'IA.",
+        "source": "European Commission – Digital Strategy",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "date_publication": "31/07/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "application"
+      },
+      {
+        "titre": "TechnipFMC obtient la certification ISO/IEC 42001 pour sa gouvernance IA",
+        "resume": "Le 29 juillet 2026, TechnipFMC a annoncé l'obtention de la certification ISO/IEC 42001, norme internationale pour les systèmes de management de l'IA (AIMS). La certification valide que les technologies IA de l'entreprise industrielle sont développées et gouvernées selon des processus structurés de fiabilité, responsabilité et amélioration continue. C'est un exemple concret de déploiement de gouvernance IA en entreprise dans le secteur industriel.",
+        "source": "TechnipFMC",
+        "url": "https://www.technipfmc.com/en/media/news/2026/07/technipfmc-achieves-isoiec-42001-certification-strengthening-responsible-ai-governance/",
+        "date_publication": "29/07/2026",
+        "pertinence": "haute",
+        "categorie": "certification"
       }
     ],
     "clinique": [
       {
-        "titre": "AJMC : pourquoi réduire la bureaucratie réglementaire ne suffira pas à améliorer la diversité dans les essais cliniques",
-        "resume": "Un article publié le 29 juillet 2026 dans l'AJMC analyse la tension entre la pression des républicains au Congrès pour maintenir les exigences de diversité (Diversity Action Plans) et l'agenda de la FDA visant à accélérer les essais de phase 1 de 6 à 12 mois via l'initiative Operation TrialBlazer. Des experts comme Francisco Beca (QuantHealth) et Oyepeju Abioye (Allegheny Health Network) soutiennent que le vrai levier est la simulation computationnelle des essais et la lisibilité des protocoles pour les patients, plutôt que la simplification administrative. L'article souligne également le manque de données génomiques sur les populations noires comme un obstacle structurel sous-estimé.",
+        "titre": "Roundup AJMC équité en santé (31 juillet 2026) : l'AHRQ suspend plus de 100 grants de recherche",
+        "resume": "Le 31 juillet 2026, l'AJMC rapporte que l'AHRQ (Agency for Healthcare Research and Quality) a effectivement suspendu la grande majorité de ses subventions sous l'administration Trump. Un courrier du 15 juillet 2026 a notifié l'arrêt d'au moins 104 grants, dont plusieurs focalisés sur la sécurité des patients, alors que le Congrès avait alloué 345 millions de dollars à l'agence pour l'année fiscale 2026. L'agence a vu ses effectifs chuter de 75%, passant de 300 à 74 employés. Ces annulations touchent directement des programmes de recherche sur les disparités de santé.",
+        "source": "AJMC",
+        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-july-31-2026",
+        "date_publication": "31/07/2026",
+        "pertinence": "haute",
+        "categorie": "politique"
+      },
+      {
+        "titre": "AJMC : La réduction des formalités FDA ne résoudra pas les lacunes de design des essais cliniques inclusifs",
+        "resume": "Publié le 30 juillet 2026, cet article de l'AJMC analyse la tension entre la pression du Congrès républicain pour maintenir les Diversity Action Plans et l'agenda FDA d'accélération des essais cliniques. Des experts comme Francisco Beca (QuantHealth) et Oyepeju Abioye (Allegheny Health Network) soulignent que la vraie solution réside dans la simulation de diversité en amont (IA de simulation) et la lisibilité des protocoles pour les patients, et non dans des ajustements réglementaires superficiels.",
         "source": "AJMC",
         "url": "https://www.ajmc.com/view/why-cutting-trial-red-tape-won-t-fix-clinical-trial-design",
-        "date_publication": "29/07/2026",
+        "date_publication": "30/07/2026",
         "pertinence": "haute",
-        "categorie": "politique_reglementaire"
-      },
-      {
-        "titre": "FDA retire discrètement son guide sur la diversité dans les essais cliniques suite à l'ordre exécutif sur le DEI",
-        "resume": "L'AJMC rapporte que la FDA a retiré sans préavis public son guide de référence sur la diversité dans les essais cliniques, suite à l'ordre exécutif de l'administration Trump sur les initiatives DEI. Ce retrait laisse les sponsors dans l'incertitude sur leurs obligations de Diversity Action Plans, tout en maintenant des obligations légales statutaires issues du FDORA. Des parlementaires républicains ont depuis exprimé leur soutien au maintien des exigences de DAP, mais en les dissociant du cadre DEI, créant une ambiguïté réglementaire persistante.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "18/07/2026",
-        "pertinence": "haute",
-        "categorie": "politique_reglementaire"
-      },
-      {
-        "titre": "CASRAI : guide mis à jour sur les FDA Diversity Action Plans - obligations, délais et opérations",
-        "resume": "Mis à jour le 18 juillet 2026, ce guide CASRAI détaille les exigences opérationnelles des Diversity Action Plans (DAP) imposés par le FDORA pour les essais pivots de médicaments et dispositifs médicaux. Il précise que les DAP doivent inclure des objectifs d'enrollment désagrégés par âge, sexe, race et ethnie, avec un plan opérationnel de recrutement crédible pour atteindre ces objectifs. Il distingue clairement le DAP (document réglementaire de soumission) du plan de recrutement opérationnel, soulignant que les deux doivent être construits conjointement.",
-        "source": "CASRAI",
-        "url": "https://casrai.org/guides/fda-diversity-action-plan-clinical-trials",
-        "date_publication": "18/07/2026",
-        "pertinence": "haute",
-        "categorie": "guide_pratique"
+        "categorie": "conception"
       }
     ]
   }
