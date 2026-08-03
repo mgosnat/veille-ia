@@ -1,11 +1,20 @@
 {
-  "generated_at": "2026-08-02T08:32:07.532948Z",
-  "date_fr": "02/08/2026",
+  "generated_at": "2026-08-03T09:56:59.107462Z",
+  "date_fr": "03/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "BrowserStack lance Test Companion, agent IA pour l'automatisation de tests dans l'IDE",
-        "resume": "BrowserStack a annoncé le 29 juillet 2026 Test Companion, un agent IA dédié à l'automatisation complète des tests directement dans les IDE (VS Code, JetBrains, Cursor). L'outil couvre le cycle entier : rédaction, exécution, débogage et maintenance des tests sur applications web et mobile. Plus de 1 000 équipes l'utilisent déjà et reportent une vitesse jusqu'à 4x supérieure pour gérer leurs tests.",
+        "titre": "MCP 2026-07-28 : Publication de la spécification finale du Model Context Protocol",
+        "resume": "Le 28 juillet 2026, la spécification finale MCP 2026-07-28 a été publiée, marquant la plus grande révision du protocole depuis son lancement. Le protocole devient stateless au niveau de la couche transport, supprimant la gestion de sessions et le handshake d'initialisation, ce qui permet aux serveurs MCP de tourner derrière un simple load balancer HTTP standard. Les betas SDK sont disponibles en Python, TypeScript, Go et C# pour les équipes qui migrent vers cette nouvelle version.",
+        "source": "Model Context Protocol Blog / Stacktree",
+        "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
+        "date_publication": "28/07/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "BrowserStack lance Test Companion : agent IA pour l'automatisation de tests directement dans l'IDE",
+        "resume": "Le 29 juillet 2026, BrowserStack a lancé Test Companion, un agent IA dédié à l'automatisation de tests intégré nativement dans VS Code, JetBrains, Cursor et Antigravity. L'outil couvre l'ensemble du cycle de vie des tests (authoring, exécution, debug, maintenance) et s'appuie sur un constat NBER 2026 : les agents de coding ont fait grimper les commits de 180% mais les releases de seulement 30%. Plus de 1 000 équipes l'utilisent déjà et reportent une vitesse d'exécution jusqu'à 4x plus rapide.",
         "source": "PR Newswire / BrowserStack",
         "url": "https://www.prnewswire.com/news-releases/browserstack-launches-test-companion-agentic-ai-that-brings-complete-test-automation-into-the-ide-302837727.html",
         "date_publication": "29/07/2026",
@@ -13,98 +22,89 @@
         "categorie": "outil"
       },
       {
-        "titre": "Stairwell lance Backstory, première plateforme agentique d'investigation pour malwares",
-        "resume": "Stairwell a lancé Backstory le 29 juillet 2026, une plateforme agentique de cybersécurité qui trace automatiquement les variants de malwares, identifie les systèmes affectés et cartographie le rayon d'impact d'un incident en quelques secondes. La plateforme répond au constat que chaque malware connu est associé en moyenne à 2,4 variants cachés non détectés par les outils traditionnels. Elle remplace une approche réactive basée sur les alertes par une investigation autonome orientée fichiers.",
-        "source": "GlobeNewswire / Help Net Security",
-        "url": "https://www.helpnetsecurity.com/2026/07/29/stairwell-backstory-agentic-investigation/",
-        "date_publication": "29/07/2026",
+        "titre": "GitHub Copilot : mise à jour juillet 2026 avec Codex comme nouvel agent dans le CLI et JetBrains",
+        "resume": "En juillet 2026, une mise à jour de GitHub Copilot a ajouté Codex comme nouveau fournisseur d'agents dans le CLI Copilot et les IDEs JetBrains (public preview), avec sélection du mode de permission et debug logging pour l'agent Claude. La même release a rendu les outils de navigation agentic dans le navigateur disponibles en GA dans VS Code, permettant aux agents de naviguer et valider des applications web directement dans l'éditeur, avec support des fenêtres de contexte 1M tokens.",
+        "source": "AI Multiple Tools Tracker",
+        "url": "https://aimultiple.com/ai-agent-tools",
+        "date_publication": "31/07/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "EliseAI : 85 % des entreprises immobilières déployant des agents IA constatent une baisse des coûts opérationnels",
-        "resume": "EliseAI a publié son deuxième rapport annuel 'State of AI in Multifamily' le 29 juillet 2026, basé sur 350 décideurs et 500 résidents américains. Les résultats montrent qu'une large majorité d'entreprises ayant réellement intégré des agents IA dans leurs opérations observent une réduction des coûts, tandis qu'une division nette apparaît entre adoptants superficiels et organisations ayant restructuré leurs opérations autour de l'IA agentique.",
-        "source": "Agentic.ai News",
-        "url": "https://agentic.ai/news",
-        "date_publication": "29/07/2026",
-        "pertinence": "moyenne",
-        "categorie": "cas_usage"
-      },
-      {
-        "titre": "Agent-to-Agent (A2A) Protocol v1.0 : spécification finale, 150+ organisations, interopérabilité native sur 3 clouds",
-        "resume": "Le protocole A2A, désormais sous gouvernance Linux Foundation, a atteint le statut v1.0 production en janvier 2026 avec des cartes d'agents signées cryptographiquement. En juillet 2026, le spec final a été verrouillé avec plus de 150 organisations signataires dont Google, Microsoft, AWS, Salesforce, SAP, ServiceNow et IBM. Le protocole est nativement intégré dans Azure AI Foundry, AWS Bedrock AgentCore et Google Cloud, et complète MCP en gérant la communication agent-à-agent (là où MCP gère agent-à-outil).",
-        "source": "AliceLabs AI / Tyk.io",
-        "url": "https://alicelabs.ai/en/insights/best-ai-agent-frameworks-2026",
+        "titre": "Statistiques d'adoption IA agentique en entreprise (données actualisées au 7 juillet 2026)",
+        "resume": "Une synthèse de plus de 30 rapports et 16 000 entreprises analysées entre février et juillet 2026 révèle que 79% des entreprises ont adopté des agents IA sous une forme ou une autre, mais seulement 11% à 31% les opèrent en production. Gartner projette que 40% des applications d'entreprise embarqueront des agents spécialisés d'ici fin 2026, contre moins de 5% en 2025. Le gap adoption/production reste la principale problématique identifiée pour 2026.",
+        "source": "First Page Sage / Digital Applied",
+        "url": "https://firstpagesage.com/reports/agentic-ai-adoption-statistics/",
         "date_publication": "28/07/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "retour d'expérience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : entrée en vigueur de l'application au 2 août 2026 — Article 50 et pouvoirs de sanction GPAI activés",
-        "resume": "À partir du 2 août 2026, l'AI Office européen et les autorités nationales disposent officiellement des pouvoirs d'enquête et de sanction sur les fournisseurs de modèles d'IA à usage général (GPAI). L'Article 50 impose désormais la divulgation obligatoire aux utilisateurs lorsqu'ils interagissent avec un chatbot ou du contenu généré par IA, sous peine d'amendes allant jusqu'à 15 millions d'euros ou 3 % du chiffre d'affaires mondial. Les obligations pour les systèmes à haut risque ont été décalées au 2 décembre 2027 via le Digital Omnibus.",
-        "source": "Commission Européenne / digital-strategy.ec.europa.eu",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "titre": "La Commission européenne lance l'application de l'AI Act le 2 août 2026",
+        "resume": "Le 31 juillet 2026, la Commission européenne a annoncé le début effectif de l'application de l'AI Act à compter du 2 août 2026. L'AI Office et les autorités nationales activent leurs pouvoirs de supervision et d'amendes sur les fournisseurs de modèles GPAI, et les obligations de transparence de l'Article 50 (déclaration 'vous parlez à une IA', labellisation des deepfakes) deviennent exécutoires. Les amendes peuvent atteindre 15 millions d'euros ou 3% du chiffre d'affaires mondial.",
+        "source": "Commission européenne / digital-strategy.ec.europa.eu",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
         "date_publication": "31/07/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "réglementation"
       },
       {
-        "titre": "Plan d'action UE Cybersécurité & IA de juillet 2026 : approche coordonnée pour les modèles IA avancés",
-        "resume": "La Commission européenne a publié en juillet 2026 un plan d'action sur la cybersécurité et l'IA visant à aider les États membres, entreprises et autorités publiques à faire face aux défis posés par les modèles IA les plus avancés. La Commission va lancer un appel pour renforcer la capacité européenne d'évaluation des modèles avant leur mise sur le marché. Ce dispositif devrait être opérationnel d'ici 2027 et renforcera la fonction réglementaire de l'AI Office.",
-        "source": "Commission Européenne / digital-strategy.ec.europa.eu",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-act-governance-and-enforcement",
-        "date_publication": "31/07/2026",
+        "titre": "EU AI Act et Digital Omnibus : calendrier révisé et implications business expliqués",
+        "resume": "Axis Intelligence publie une analyse complète (2 août 2026) du calendrier révisé de l'AI Act post-Digital Omnibus, confirmé le 5 mai 2026 après l'accord provisoire entre Parlement, Conseil et Commission. L'article détaille que les modèles à risque systémique (>10^25 FLOPS) tombent sous enforcement complet, tandis que les files d'attente pour les organismes de conformité Annex III se dispersent jusqu'en 2027, offrant temporairement plus de disponibilité.",
+        "source": "Axis Intelligence",
+        "url": "https://axis-intelligence.com/eu-ai-act-news/",
+        "date_publication": "02/08/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "réglementation"
       },
       {
-        "titre": "EU AI Act enforcement au 2 août 2026 : guide pratique pour les équipes compliance — chatbots, deepfakes, GPAI",
-        "resume": "Olakai publie un guide opérationnel expliquant ce qui change concrètement au 2 août 2026 pour les entreprises : obligation de divulgation pour tout chatbot ou agent conversationnel déployé auprès d'utilisateurs UE, obligation d'étiquetage des contenus synthétiques, et activation des pouvoirs de sanction de l'AI Office sur les GPAI. L'article met en garde contre la confusion créée par le Digital Omnibus et souligne que les obligations Article 50 ne sont pas reportées.",
+        "titre": "EU AI Act : l'obligation de transparence Article 50 et la fenêtre Code of Practice fermée le 22 juillet 2026",
+        "resume": "Olakai détaille les deux échéances critiques de fin juillet/début août 2026 : la fermeture de la fenêtre de signature du Code of Practice sur la transparence des contenus générés par IA (22 juillet à 18h CEST), et l'entrée en vigueur d'Article 50 le 2 août. Les signataires bénéficient d'une présomption de conformité inversant la charge de la preuve ; les non-signataires restent exposés aux amendes plafonnées à 15M€ ou 3% du CA global.",
         "source": "Olakai",
         "url": "https://olakai.ai/blog/eu-ai-act-enforcement-august-2026/",
         "date_publication": "22/07/2026",
         "pertinence": "haute",
-        "categorie": "conformite"
+        "categorie": "conformité"
       },
       {
-        "titre": "TechnipFMC obtient la certification ISO/IEC 42001 — premier grand industriel énergétique certifié",
-        "resume": "TechnipFMC a annoncé le 29 juillet 2026 avoir obtenu la certification ISO/IEC 42001, le standard international pour les Systèmes de Management de l'IA (AIMS). Cette certification fournit une validation indépendante que le cadre de gouvernance IA de l'entreprise s'aligne sur les meilleures pratiques mondiales pour gérer l'IA tout au long de son cycle de vie. Le cadre développé sur plusieurs années repose sur des politiques définies, des processus de gestion des risques et une supervision continue.",
-        "source": "TechnipFMC plc",
-        "url": "https://www.technipfmc.com/en/media/news/2026/07/technipfmc-achieves-isoiec-42001-certification-strengthening-responsible-ai-governance/",
-        "date_publication": "29/07/2026",
+        "titre": "EU AI Act : les obligations de transparence ignorées par les entreprises malgré leur entrée en vigueur imminente",
+        "resume": "Lumenova AI avertit que les obligations d'Article 50, non affectées par le vote Omnibus de juin 2026, constituent l'angle mort de conformité le plus dangereux pour les entreprises. Contrairement aux obligations high-risk repoussées à décembre 2027, ces exigences de transparence s'appliquent à tout déploiement d'IA conversationnelle ou générative face aux clients, un périmètre très large souvent sous-estimé dans les programmes de conformité.",
+        "source": "Lumenova AI",
+        "url": "https://www.lumenova.ai/blog/eu-ai-act-delays-july-2026/",
+        "date_publication": "21/07/2026",
         "pertinence": "haute",
-        "categorie": "certification"
+        "categorie": "conformité"
       }
     ],
     "clinique": [
       {
-        "titre": "Impact du bannissement DEI sur l'écosystème de la recherche clinique — Applied Clinical Trials",
-        "resume": "Applied Clinical Trials publie (29 juillet 2026) une analyse approfondie de l'impact des executive orders Trump sur la diversité des essais cliniques, mettant en péril les programmes d'accès équitable pour les populations LGBTQIA+ et d'autres groupes sous-représentés. L'article soulève des questions critiques sur ce qui reste 'autorisé' sous les nouvelles politiques, et avertit que si la diversité clinique reste prise dans la tourmente anti-DEI, cela pourrait avoir des répercussions majeures sur le développement de médicaments.",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/the-impact-of-dei-ban-on-clinical-research-ecosystem",
-        "date_publication": "29/07/2026",
-        "pertinence": "haute",
-        "categorie": "politique_reglementaire"
-      },
-      {
-        "titre": "Pourquoi réduire la bureaucratie des essais ne résoudra pas les problèmes de conception — AJMC",
-        "resume": "Un article AJMC du 30 juillet 2026 analyse pourquoi les initiatives de déréglementation ('Operation TrialBlazer') ne peuvent pas compenser des défauts structurels dans la conception des essais cliniques. L'article documente comment le projet de loi FY2027 de la Chambre (HR 8646) instruis la FDA à maintenir l'application des Diversity Action Plans même sans guidance formelle, et pointe les barrières persistantes à l'inclusion : lisibilité des formulaires de consentement, coûts de transport, et biais algorithmiques dans les critères d'éligibilité.",
+        "titre": "Health Equity & Access Weekly Roundup : 31 juillet 2026 – AHRQ gèle 104 grants, sous-représentation BIPOC persistante",
+        "resume": "Le roundup hebdomadaire d'AJMC du 31 juillet 2026 rapporte que l'AHRQ a effectivement gelé plus de 104 grants de recherche (dont beaucoup ciblaient la sécurité des patients et les populations sous-représentées), avec une réduction de 75% des effectifs depuis début 2025. Il documente également la persistance de la sous-représentation non-blanche dans les essais CLL (leucémie lymphoïde chronique) malgré que ces populations représentent ~8% des cas, ainsi qu'une étude montrant l'efficacité d'un modèle de traitement unifié pour les troubles alimentaires chez les patients BIPOC.",
         "source": "AJMC",
-        "url": "https://www.ajmc.com/view/why-cutting-trial-red-tape-won-t-fix-clinical-trial-design",
-        "date_publication": "30/07/2026",
+        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-july-31-2026",
+        "date_publication": "31/07/2026",
         "pertinence": "haute",
-        "categorie": "conception_essais"
+        "categorie": "équité en santé"
       },
       {
-        "titre": "FDA Diversity Action Plans : statut réglementaire, exigences FDORA et incertitudes actuelles — CASRAI",
-        "resume": "CASRAI publie (daté de 2 semaines) un guide de référence détaillant les exigences légales FDORA pour les Diversity Action Plans (DAPs) dans les essais cliniques pivots, incluant les objectifs d'enrollment par âge, sexe, race et ethnicité. Le guide documente l'état incertain de la guidance FDA après son retrait en janvier 2025 et sa restauration partielle sous ordonnance judiciaire, et explique que l'obligation de soumettre des DAPs reste liée à la finalisation de la guidance par la FDA.",
+        "titre": "Health Equity & Access Weekly Roundup : 24 juillet 2026 – sous-représentation non-blanche dans les essais CLL",
+        "resume": "Le roundup AJMC du 24 juillet 2026 met en lumière les discussions d'experts sur les inhibiteurs BTK en oncologie hématologique et souligne l'écart d'équité non résolu : les patients non-blancs restent chroniquement sous-représentés dans les essais sur la leucémie lymphoïde chronique (CLL), malgré leur représentation d'environ 8% de la population CLL. L'article souligne aussi l'avantage potentiel des thérapies orales à domicile pour l'équité d'accès des patients ruraux et défavorisés.",
+        "source": "AJMC",
+        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-july-24-2026",
+        "date_publication": "24/07/2026",
+        "pertinence": "haute",
+        "categorie": "équité en santé"
+      },
+      {
+        "titre": "FDA Diversity Action Plans : statut légal, études couvertes et état actuel des directives",
+        "resume": "CASRAI publie (juillet 2026) une analyse détaillée du cadre légal FDORA pour les Diversity Action Plans : les sponsors d'essais pivots doivent soumettre des objectifs d'enrollment par groupe d'âge, sexe, race et ethnie, ainsi qu'un plan opérationnel de recrutement. L'article explique la divergence entre la loi (obligation statutaire) et les directives FDA (encore en suspens), créant une incertitude pour les sponsors sur le timing d'application effectif.",
         "source": "CASRAI",
         "url": "https://casrai.org/guides/fda-diversity-action-plan-clinical-trials",
         "date_publication": "21/07/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "conformité réglementaire"
       }
     ]
   }
