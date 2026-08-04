@@ -1,110 +1,101 @@
 {
-  "generated_at": "2026-08-03T09:56:59.107462Z",
-  "date_fr": "03/08/2026",
+  "generated_at": "2026-08-04T08:47:47.399755Z",
+  "date_fr": "04/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "MCP 2026-07-28 : Publication de la spécification finale du Model Context Protocol",
-        "resume": "Le 28 juillet 2026, la spécification finale MCP 2026-07-28 a été publiée, marquant la plus grande révision du protocole depuis son lancement. Le protocole devient stateless au niveau de la couche transport, supprimant la gestion de sessions et le handshake d'initialisation, ce qui permet aux serveurs MCP de tourner derrière un simple load balancer HTTP standard. Les betas SDK sont disponibles en Python, TypeScript, Go et C# pour les équipes qui migrent vers cette nouvelle version.",
-        "source": "Model Context Protocol Blog / Stacktree",
-        "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
-        "date_publication": "28/07/2026",
+        "titre": "Stairwell Launches Backstory, the First Agentic Investigation Platform for Malware Blast Radius",
+        "resume": "Stairwell a lancé le 29 juillet 2026 Backstory, une plateforme d'investigation agentique qui trace automatiquement les variantes de malwares liés, identifie les systèmes affectés et cartographie le rayon de propagation d'un incident en quelques secondes. La plateforme repose sur une recherche interne montrant que chaque échantillon de malware publié cache en moyenne 2,4 variantes non documentées. Elle se distingue des outils de SOC classiques en se concentrant non pas sur la fermeture d'alertes mais sur la vérification concrète du confinement de la menace.",
+        "source": "GlobeNewswire / Help Net Security",
+        "url": "https://www.globenewswire.com/news-release/2026/07/29/3335300/0/en/stairwell-launches-backstory-the-first-agentic-investigation-platform-for-malware-blast-radius.html",
+        "date_publication": "29/07/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "BrowserStack lance Test Companion : agent IA pour l'automatisation de tests directement dans l'IDE",
-        "resume": "Le 29 juillet 2026, BrowserStack a lancé Test Companion, un agent IA dédié à l'automatisation de tests intégré nativement dans VS Code, JetBrains, Cursor et Antigravity. L'outil couvre l'ensemble du cycle de vie des tests (authoring, exécution, debug, maintenance) et s'appuie sur un constat NBER 2026 : les agents de coding ont fait grimper les commits de 180% mais les releases de seulement 30%. Plus de 1 000 équipes l'utilisent déjà et reportent une vitesse d'exécution jusqu'à 4x plus rapide.",
-        "source": "PR Newswire / BrowserStack",
+        "titre": "BrowserStack Launches Test Companion, Agentic AI That Brings Complete Test Automation Into the IDE",
+        "resume": "BrowserStack a lancé le 29 juillet 2026 Test Companion, un agent IA dédié à l'automatisation des tests directement intégré dans les IDE (VS Code, JetBrains, Cursor). L'outil prend en charge l'intégralité du cycle de test : rédaction, exécution, débogage et maintenance, avec plus de 1 000 équipes déjà utilisatrices réduisant leur temps de test jusqu'à 4x. Le lancement répond à un constat NBER 2026 : les agents de codage IA ont fait croître les commits de 180 % mais les releases seulement de 30 %, révélant un goulot d'étranglement au niveau du testing.",
+        "source": "PRNewswire / AOL / aithority",
         "url": "https://www.prnewswire.com/news-releases/browserstack-launches-test-companion-agentic-ai-that-brings-complete-test-automation-into-the-ide-302837727.html",
         "date_publication": "29/07/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "GitHub Copilot : mise à jour juillet 2026 avec Codex comme nouvel agent dans le CLI et JetBrains",
-        "resume": "En juillet 2026, une mise à jour de GitHub Copilot a ajouté Codex comme nouveau fournisseur d'agents dans le CLI Copilot et les IDEs JetBrains (public preview), avec sélection du mode de permission et debug logging pour l'agent Claude. La même release a rendu les outils de navigation agentic dans le navigateur disponibles en GA dans VS Code, permettant aux agents de naviguer et valider des applications web directement dans l'éditeur, avec support des fenêtres de contexte 1M tokens.",
-        "source": "AI Multiple Tools Tracker",
-        "url": "https://aimultiple.com/ai-agent-tools",
-        "date_publication": "31/07/2026",
+        "titre": "Microsoft Launches Project Perception, Agentic Security Platform to Combat AI-Based Attacks",
+        "resume": "Microsoft a annoncé le 27 juillet 2026 Project Perception, un système agentique de cybersécurité coordonnant des agents spécialisés red team, blue team et green team pour détecter, explorer et remédier aux vulnérabilités de manière autonome dans Microsoft Defender. La plateforme inclut également MAI-Cyber-1-Flash, le premier modèle cybersécurité développé en interne par Microsoft, entraîné sur ses propres données d'exploitation et de remédiation. Selon Microsoft, un seul workflow compresse environ 146 heures de travail de spécialistes sécurité.",
+        "source": "Cybersecurity Dive / Microsoft Security Blog / SiliconAngle",
+        "url": "https://www.cybersecuritydive.com/news/microsoft-agentic-security-platform-ai-attacks/826365/",
+        "date_publication": "27/07/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Statistiques d'adoption IA agentique en entreprise (données actualisées au 7 juillet 2026)",
-        "resume": "Une synthèse de plus de 30 rapports et 16 000 entreprises analysées entre février et juillet 2026 révèle que 79% des entreprises ont adopté des agents IA sous une forme ou une autre, mais seulement 11% à 31% les opèrent en production. Gartner projette que 40% des applications d'entreprise embarqueront des agents spécialisés d'ici fin 2026, contre moins de 5% en 2025. Le gap adoption/production reste la principale problématique identifiée pour 2026.",
-        "source": "First Page Sage / Digital Applied",
-        "url": "https://firstpagesage.com/reports/agentic-ai-adoption-statistics/",
+        "titre": "MCP 2026-07-28 : La plus grande mise à jour du Model Context Protocol depuis son lancement",
+        "resume": "Le 28 juillet 2026, la spécification finale du Model Context Protocol (MCP) a été publiée, représentant sa plus grande révision depuis sa création. Le changement majeur est le passage à un protocole stateless, permettant aux intégrations d'agents de fonctionner sur une infrastructure HTTP standard sans sessions persistantes ni stores partagés. Cette évolution rend MCP accessible à des équipes plus larges et simplifie le déploiement en production, avec déjà plus de 10 000 serveurs MCP publics actifs et 97 millions de téléchargements mensuels des SDK.",
+        "source": "Agentic AI Foundation (AAIF) / cruxdigits.nl",
+        "url": "https://aaif.io/blog/mcp-2026-07-28-whats-changing-and-how-to-migrate",
         "date_publication": "28/07/2026",
         "pertinence": "haute",
-        "categorie": "retour d'expérience"
+        "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "La Commission européenne lance l'application de l'AI Act le 2 août 2026",
-        "resume": "Le 31 juillet 2026, la Commission européenne a annoncé le début effectif de l'application de l'AI Act à compter du 2 août 2026. L'AI Office et les autorités nationales activent leurs pouvoirs de supervision et d'amendes sur les fournisseurs de modèles GPAI, et les obligations de transparence de l'Article 50 (déclaration 'vous parlez à une IA', labellisation des deepfakes) deviennent exécutoires. Les amendes peuvent atteindre 15 millions d'euros ou 3% du chiffre d'affaires mondial.",
-        "source": "Commission européenne / digital-strategy.ec.europa.eu",
-        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
-        "date_publication": "31/07/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "EU AI Act et Digital Omnibus : calendrier révisé et implications business expliqués",
-        "resume": "Axis Intelligence publie une analyse complète (2 août 2026) du calendrier révisé de l'AI Act post-Digital Omnibus, confirmé le 5 mai 2026 après l'accord provisoire entre Parlement, Conseil et Commission. L'article détaille que les modèles à risque systémique (>10^25 FLOPS) tombent sous enforcement complet, tandis que les files d'attente pour les organismes de conformité Annex III se dispersent jusqu'en 2027, offrant temporairement plus de disponibilité.",
-        "source": "Axis Intelligence",
-        "url": "https://axis-intelligence.com/eu-ai-act-news/",
+        "titre": "EU AI Act Enforcement Phase Begins: EU AI Office activates formal enforcement powers on 2 August 2026",
+        "resume": "Le 2 août 2026, l'AI Office de la Commission européenne et les autorités nationales ont officiellement activé leurs pouvoirs d'investigation et de sanction sur les fournisseurs de modèles d'IA à usage général (GPAI) et sur les pratiques IA interdites. Désormais, les chatbots doivent se déclarer comme IA, les deepfakes doivent être étiquetés, et les contenus générés par IA doivent porter des marquages lisibles par machine (Article 50). Les amendes peuvent atteindre 15 millions d'euros ou 3 % du chiffre d'affaires mondial en cas de non-respect des obligations de transparence.",
+        "source": "Wilson Sonsini / European Commission / Help Net Security",
+        "url": "https://www.wsgr.com/en/insights/eu-ai-act-enforcement-phase-begins.html",
         "date_publication": "02/08/2026",
         "pertinence": "haute",
         "categorie": "réglementation"
       },
       {
-        "titre": "EU AI Act : l'obligation de transparence Article 50 et la fenêtre Code of Practice fermée le 22 juillet 2026",
-        "resume": "Olakai détaille les deux échéances critiques de fin juillet/début août 2026 : la fermeture de la fenêtre de signature du Code of Practice sur la transparence des contenus générés par IA (22 juillet à 18h CEST), et l'entrée en vigueur d'Article 50 le 2 août. Les signataires bénéficient d'une présomption de conformité inversant la charge de la preuve ; les non-signataires restent exposés aux amendes plafonnées à 15M€ ou 3% du CA global.",
-        "source": "Olakai",
-        "url": "https://olakai.ai/blog/eu-ai-act-enforcement-august-2026/",
-        "date_publication": "22/07/2026",
+        "titre": "EU AI Act Enforcement Expands on 2 August 2026: Are Your AI Systems Compliant?",
+        "resume": "Un article de fond publié le 2 août 2026 détaille les obligations concrètes entrant en vigueur ce jour : transparence pour les systèmes conversationnels (Article 50), enforcement GPAI, et interdictions élargies incluant les deepfakes non consentis. Le Digital Omnibus (Règlement UE 2026/1744), entré en vigueur le 27 juillet 2026, a reporté les obligations pour les systèmes à haut risque à décembre 2027 et août 2028 respectivement, mais sans affecter les obligations de transparence du 2 août. L'article précise les sanctions applicables et les actions immédiates requises des entreprises.",
+        "source": "The AI Journal (aijourn.com)",
+        "url": "https://aijourn.com/eu-ai-act-enforcement-expands-on-2-august-2026-are-your-ai-systems-compliant/",
+        "date_publication": "02/08/2026",
         "pertinence": "haute",
-        "categorie": "conformité"
+        "categorie": "réglementation"
       },
       {
-        "titre": "EU AI Act : les obligations de transparence ignorées par les entreprises malgré leur entrée en vigueur imminente",
-        "resume": "Lumenova AI avertit que les obligations d'Article 50, non affectées par le vote Omnibus de juin 2026, constituent l'angle mort de conformité le plus dangereux pour les entreprises. Contrairement aux obligations high-risk repoussées à décembre 2027, ces exigences de transparence s'appliquent à tout déploiement d'IA conversationnelle ou générative face aux clients, un périmètre très large souvent sous-estimé dans les programmes de conformité.",
-        "source": "Lumenova AI",
-        "url": "https://www.lumenova.ai/blog/eu-ai-act-delays-july-2026/",
-        "date_publication": "21/07/2026",
+        "titre": "The Digital Omnibus on AI Enters Into Force on 27 July 2026",
+        "resume": "Le Digital Omnibus sur l'IA a été publié au Journal officiel de l'UE le 24 juillet 2026 et est entré en vigueur le 27 juillet 2026, constituant le premier amendement formel à l'AI Act depuis son adoption en juin 2024. Il repousse les obligations pour les systèmes à haut risque standalone (Annexe III) au 2 décembre 2027 et pour les systèmes embarqués dans des produits réglementés (Annexe I) au 2 août 2028. Cette révision vise à simplifier et alléger la charge réglementaire tout en maintenant les obligations de transparence et d'enforcement GPAI intactes au 2 août 2026.",
+        "source": "Lewis Silkin",
+        "url": "https://www.lewissilkin.com/insights/2026/07/27/the-digital-omnibus-on-ai-enters-into-force-today-102nedo",
+        "date_publication": "27/07/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
+      },
+      {
+        "titre": "EU Begins Enforcing AI Act, Putting AI Models Under the Microscope",
+        "resume": "Article publié le 4 août 2026 résumant le passage à l'enforcement effectif de l'AI Act : l'AI Office européen et les autorités nationales ont entamé l'application des nouvelles règles de transparence exigeant que les chatbots se déclarent comme systèmes automatisés, que les deepfakes soient étiquetés, et que les contenus générés par IA portent des marquages lisibles par machine. Les entreprises qui ignorent ces obligations s'exposent à des amendes pouvant atteindre 15 millions d'euros ou 3 % de leur chiffre d'affaires mondial annuel.",
+        "source": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/08/04/eu-ai-act-enforcement-ai-models/",
+        "date_publication": "04/08/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
+      },
+      {
+        "titre": "EU AI Act Enforcement: What Aug 2, 2026 Means for Enterprise AI Deployments",
+        "resume": "Analyse publiée par Olakai détaillant les implications concrètes de la date du 2 août 2026 pour les entreprises : l'Article 50 impose une divulgation explicite 'vous parlez à une IA' dès l'ouverture de toute interaction avec un chatbot ou assistant conversationnel. L'article démêle la confusion entre le Digital Omnibus (qui reporte les obligations haut-risque) et l'enforcement GPAI/Article 50 qui reste inchangé, avec un plafond de sanction de 15 millions d'euros ou 3 % du chiffre d'affaires global applicable immédiatement.",
+        "source": "Olakai",
+        "url": "https://olakai.ai/blog/eu-ai-act-enforcement-august-2026/",
+        "date_publication": "27/07/2026",
         "pertinence": "haute",
         "categorie": "conformité"
       }
     ],
     "clinique": [
       {
-        "titre": "Health Equity & Access Weekly Roundup : 31 juillet 2026 – AHRQ gèle 104 grants, sous-représentation BIPOC persistante",
-        "resume": "Le roundup hebdomadaire d'AJMC du 31 juillet 2026 rapporte que l'AHRQ a effectivement gelé plus de 104 grants de recherche (dont beaucoup ciblaient la sécurité des patients et les populations sous-représentées), avec une réduction de 75% des effectifs depuis début 2025. Il documente également la persistance de la sous-représentation non-blanche dans les essais CLL (leucémie lymphoïde chronique) malgré que ces populations représentent ~8% des cas, ainsi qu'une étude montrant l'efficacité d'un modèle de traitement unifié pour les troubles alimentaires chez les patients BIPOC.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-july-31-2026",
-        "date_publication": "31/07/2026",
+        "titre": "The Impact of DEI Ban on Clinical Research Ecosystem",
+        "resume": "Article publié le 29 juillet 2026 analysant les conséquences des executive orders de l'administration Trump interdisant les initiatives DEI fédérales sur la recherche clinique : suppression et réintégration des directives FDA sur la diversité dans les essais cliniques (DAP), retrait de la guidance sur les différences sex-spécifiques pour les dispositifs médicaux, et incertitude persistante sur les obligations FDORA. L'article soulève les risques concrets pour le développement médicamenteux si la diversité dans les essais continue d'être prise dans le croisement des politiques DEI fédérales.",
+        "source": "Applied Clinical Trials Online",
+        "url": "https://www.appliedclinicaltrialsonline.com/view/the-impact-of-dei-ban-on-clinical-research-ecosystem",
+        "date_publication": "29/07/2026",
         "pertinence": "haute",
-        "categorie": "équité en santé"
-      },
-      {
-        "titre": "Health Equity & Access Weekly Roundup : 24 juillet 2026 – sous-représentation non-blanche dans les essais CLL",
-        "resume": "Le roundup AJMC du 24 juillet 2026 met en lumière les discussions d'experts sur les inhibiteurs BTK en oncologie hématologique et souligne l'écart d'équité non résolu : les patients non-blancs restent chroniquement sous-représentés dans les essais sur la leucémie lymphoïde chronique (CLL), malgré leur représentation d'environ 8% de la population CLL. L'article souligne aussi l'avantage potentiel des thérapies orales à domicile pour l'équité d'accès des patients ruraux et défavorisés.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-july-24-2026",
-        "date_publication": "24/07/2026",
-        "pertinence": "haute",
-        "categorie": "équité en santé"
-      },
-      {
-        "titre": "FDA Diversity Action Plans : statut légal, études couvertes et état actuel des directives",
-        "resume": "CASRAI publie (juillet 2026) une analyse détaillée du cadre légal FDORA pour les Diversity Action Plans : les sponsors d'essais pivots doivent soumettre des objectifs d'enrollment par groupe d'âge, sexe, race et ethnie, ainsi qu'un plan opérationnel de recrutement. L'article explique la divergence entre la loi (obligation statutaire) et les directives FDA (encore en suspens), créant une incertitude pour les sponsors sur le timing d'application effectif.",
-        "source": "CASRAI",
-        "url": "https://casrai.org/guides/fda-diversity-action-plan-clinical-trials",
-        "date_publication": "21/07/2026",
-        "pertinence": "haute",
-        "categorie": "conformité réglementaire"
+        "categorie": "politique réglementaire"
       }
     ]
   }
