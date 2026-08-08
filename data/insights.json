@@ -1,128 +1,92 @@
 {
-  "generated_at": "2026-08-07T07:25:32.163226Z",
-  "date_fr": "07/08/2026",
+  "generated_at": "2026-08-08T07:03:12.300408Z",
+  "date_fr": "08/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "BrowserStack lance Test Companion : IA agentique pour l'automatisation des tests dans l'IDE",
-        "resume": "BrowserStack a lancé le 29 juillet 2026 Test Companion, un agent IA intégré directement dans l'IDE (VS Code, JetBrains, Cursor) pour automatiser l'intégralité du cycle de test logiciel. L'outil couvre la création, l'exécution, le débogage et la maintenance des tests sur applications web et mobiles. Plus de 1 000 équipes l'utilisent déjà pour tester jusqu'à 4x plus vite, avec gouvernance et traçabilité des actions agents intégrées.",
-        "source": "PRNewswire / BrowserStack",
-        "url": "https://www.prnewswire.com/news-releases/browserstack-launches-test-companion-agentic-ai-that-brings-complete-test-automation-into-the-ide-302837727.html",
-        "date_publication": "29/07/2026",
+        "titre": "MCP Specification 2026-07-28 : architecture stateless et nouvelles capacités enterprise",
+        "resume": "La nouvelle version de la spécification Model Context Protocol (MCP), publiée le 28 juillet 2026, introduit une architecture stateless majeure qui supprime la gestion de session au niveau protocolaire, rendant MCP déployable comme une charge HTTP standard. Cette mise à jour apporte également le support des Multi Round-Trip Requests, le routage par en-tête HTTP, l'autorisation enterprise managée et un framework d'extensions formel. Adoptée par Google Cloud, Microsoft Foundry et l'ensemble de l'écosystème, elle est désormais le socle de référence pour les workflows agentiques en production.",
+        "source": "Model Context Protocol Blog",
+        "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+        "date_publication": "28/07/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Stairwell lance Backstory : première plateforme d'investigation agentique pour cartographier les incidents malware",
-        "resume": "Le 29 juillet 2026, Stairwell a annoncé Backstory, une plateforme agentique de cybersécurité qui trace automatiquement les variants de malware liés, identifie les systèmes affectés et cartographie le périmètre complet d'un incident en quelques secondes. La plateforme s'appuie sur l'analyse de fichiers collectés sur les endpoints, et non sur des alertes, pour une investigation autonome et en profondeur. Le rapport Hidden Malware de Stairwell révèle en moyenne 2,4 variants liés pour chaque sample malware publiquement documenté.",
-        "source": "GlobeNewswire / Help Net Security",
-        "url": "https://www.globenewswire.com/news-release/2026/07/29/3335300/0/en/stairwell-launches-backstory-the-first-agentic-investigation-platform-for-malware-blast-radius.html",
-        "date_publication": "29/07/2026",
+        "titre": "Cas d'usage agentique en production 2026 : customer service, sinistres, maintenance prédictive",
+        "resume": "TechAhead publie un panorama des déploiements agentiques en production les plus documentés de 2026, couvrant la résolution autonome de tickets support, le routage et l'escalade en service client, l'automatisation des sinistres et de la souscription assurance, la maintenance prédictive en manufacturing, et l'automatisation de la documentation clinique. Les auteurs précisent que ces cas d'usage ne sont plus expérimentaux et que des données ROI commencent à être publiées par les entreprises déployantes.",
+        "source": "TechAhead",
+        "url": "https://www.techaheadcorp.com/blog/top-use-cases-of-agentic-ai-in-2026-across-industries/",
+        "date_publication": "05/08/2026",
         "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "LangGraph vs n8n en production 2026 : guide comparatif et architectures combinées",
-        "resume": "Un guide publié par Peliqan analyse les mises à jour de mars 2026 de LangGraph (streaming type-safe, sous-agents asynchrones) et positionne les deux outils comme complémentaires : n8n gère les triggers et l'intégration de systèmes, LangGraph orchestre les graphes d'agents et la gestion d'état. La convergence MCP est identifiée comme le signal d'interopérabilité majeur de 2026. LangGraph compte 34,5 millions de téléchargements mensuels et environ 400 entreprises en production (Uber, Cisco, LinkedIn, JPMorgan).",
-        "source": "Peliqan",
-        "url": "https://peliqan.io/blog/langgraph-vs-n8n/",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "tutoriel"
-      },
-      {
-        "titre": "Rapport Anthropic 2026 : état des agents IA en entreprise – de l'expérimentation à l'infrastructure",
-        "resume": "Anthropic a publié son rapport 'The 2026 State of AI Agents Report', basé sur des déploiements réels en production couvrant des workflows de codage multi-étapes et des processus métiers cross-fonctionnels. Le rapport documente le passage des agents du statut de technologie expérimentale à celui d'infrastructure d'entreprise. Il couvre les cas d'usage étendus, la mesure du ROI et les leviers d'adoption en 2026.",
-        "source": "Anthropic",
-        "url": "https://resources.anthropic.com/hubfs/The%202026%20State%20of%20AI%20Agents%20Report.pdf",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "benchmark"
+        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "L'AI Act entre en vigueur le 2 août 2026 : la Commission européenne commence l'application des règles de transparence",
-        "resume": "Le 2 août 2026, la Commission européenne et les autorités nationales ont officiellement commencé à appliquer l'AI Act, dont les règles de transparence (Article 50) : les chatbots doivent se déclarer comme systèmes automatisés, les deepfakes doivent être étiquetés, et les contenus générés par IA doivent porter des marques lisibles par machine. La Commission a simultanément publié la première liste des organisations signataires du Code of Practice sur la transparence du contenu IA. Les amendes pour non-conformité peuvent atteindre 15 millions d'euros ou 3% du chiffre d'affaires mondial.",
-        "source": "Kiteworks / Commission européenne",
-        "url": "https://www.kiteworks.com/regulatory-compliance/eu-ai-act-transparency-enforcement/",
-        "date_publication": "03/08/2026",
+        "titre": "EU AI Act : le régime d'enforcement entre en vigueur le 2 août 2026 — analyse juridique Wilson Sonsini",
+        "resume": "Depuis le 2 août 2026, l'AI Office de l'UE dispose de pouvoirs formels d'investigation et d'application des obligations pour les fournisseurs de modèles GPAI, avec des amendes pouvant atteindre 15 millions d'euros ou 3 % du chiffre d'affaires mondial. L'article 50 impose désormais aux chatbots de se déclarer comme tels et aux contenus générés par IA d'être clairement étiquetés. Wilson Sonsini souligne que l'AI Office privilégiera dans un premier temps les 'dialogues de conformité technique' avant de recourir à ses pouvoirs formels.",
+        "source": "Wilson Sonsini",
+        "url": "https://www.wsgr.com/en/insights/eu-ai-act-enforcement-phase-begins.html",
+        "date_publication": "04/08/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "reglementation"
       },
       {
-        "titre": "Help Net Security : l'UE commence à appliquer l'AI Act sur les modèles IA au 2 août 2026",
-        "resume": "Le 2 août 2026, l'application effective de l'AI Act est entrée en vigueur pour les fournisseurs de modèles d'IA à usage général (GPAI) avec des risques systémiques. Le Bureau de l'IA de la Commission peut désormais demander la documentation technique, effectuer des évaluations de modèles, exiger des mesures correctives et infliger des amendes pouvant atteindre 3% du chiffre d'affaires annuel mondial. Les nouvelles règles de transparence imposent aux systèmes IA interactifs d'identifier leur nature automatisée.",
+        "titre": "L'UE commence l'application de l'AI Act : les modèles IA sous surveillance",
+        "resume": "Help Net Security détaille l'entrée en vigueur au 2 août 2026 de l'AI Act, rendant obligatoire la divulgation des chatbots et l'étiquetage des contenus générés par IA. L'article précise que l'AI Omnibus a décalé les règles pour les systèmes à haut risque à décembre 2027, et pour ceux intégrés à des produits réglementés à août 2028. À partir de décembre 2026, l'interdiction des contenus sexuels non consentis générés par IA entrera également en application.",
         "source": "Help Net Security",
         "url": "https://www.helpnetsecurity.com/2026/08/04/eu-ai-act-enforcement-ai-models/",
         "date_publication": "04/08/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "reglementation"
       },
       {
-        "titre": "Guide compliance AI Act août 2026 pour entreprises : gouvernance opérationnelle des agents",
-        "resume": "Trussed AI a publié un guide pratique sur les obligations de l'AI Act applicables au 2 août 2026 pour les entreprises déployant des agents IA. Les exigences concrètes incluent : contrôles de risque à l'exécution, supervision humaine avec capacité d'intervention, journalisation automatique, et traçabilité continue des actions agents et outils. Le guide souligne que les politiques statiques et les évaluations d'impact pré-déploiement seules ne suffisent pas à répondre aux attentes des autorités de surveillance.",
-        "source": "Trussed AI",
-        "url": "https://trussed.ai/resources/eu-ai-act-enforcement-august-2026-guide",
-        "date_publication": "01/08/2026",
+        "titre": "Commission européenne : guide officiel sur la classification des systèmes IA à haut risque",
+        "resume": "La Commission européenne a publié ses lignes directrices officielles pour les fournisseurs et déployeurs de systèmes IA à haut risque, en lien avec l'entrée en vigueur de l'AI Act le 2 août 2026. Le document précise que l'AI Office et les autorités nationales sont désormais co-responsables de la supervision et de l'application du règlement. La Commission avait également publié en juillet 2026 un plan d'action sur la cybersécurité et l'IA pour coordonner la résilience face aux modèles avancés.",
+        "source": "Commission européenne",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-high-risk-systems",
+        "date_publication": "06/08/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
+        "categorie": "reglementation"
       },
       {
-        "titre": "ISO 42001 devient le standard de gouvernance IA de référence en 2026 : 83% des Fortune 500 l'exigeront d'ici 2027",
-        "resume": "Selon une enquête Gartner citée dans AI Governance Today, 83% des équipes achats des Fortune 500 prévoient d'exiger l'alignement ISO 42001 de leurs fournisseurs technologiques d'ici 2027. ISO/IEC 42001:2023 est le premier standard international de système de management de l'IA (AIMS), désormais exigé dans les due diligence B2B et les examens réglementaires à travers l'UE, le Royaume-Uni et l'Asie-Pacifique. Il structure les politiques, rôles, contrôles et processus de gouvernance IA de bout en bout, indépendamment du secteur ou de la taille de l'organisation.",
-        "source": "AI Governance Today",
-        "url": "https://www.aigovernancetoday.com/news/iso-42001-redefining-ai-governance-2026",
-        "date_publication": "",
+        "titre": "EU AI Act compliance pour les entreprises mondiales : guide pratique post-2 août 2026",
+        "resume": "Cloud-captains.com publie un guide complet analysant les obligations effectives depuis le 2 août 2026 : les pouvoirs d'enforcement de la Commission sur les fournisseurs GPAI sont désormais activés après une première année de conformité sans exposition aux sanctions. Le guide rappelle que les lignes directrices sur la classification des systèmes à haut risque publiées le 19 mai 2026 constituent le document le plus opérationnel pour justifier sa propre classification. Une nuance importante est soulignée : les obligations du Chapitre III ne s'appliquent aux systèmes déjà sur le marché que si ces systèmes subissent des 'modifications significatives de conception'.",
+        "source": "Cloud-captains",
+        "url": "https://cloud-captains.com/en/article/the-eu-ai-act-compliance-guide-for-global-businesses",
+        "date_publication": "06/08/2026",
         "pertinence": "haute",
-        "categorie": "standard"
+        "categorie": "conformite"
       },
       {
-        "titre": "Cloud and AI Development Act publié au Journal officiel de l'UE le 15 juillet 2026",
-        "resume": "Le Cloud and AI Development Act a été publié au Journal officiel de l'UE le 15 juillet 2026, parallèlement à l'approbation finale par le Conseil de l'AI Act Omnibus le 29 juin 2026. L'Omnibus simplifie certaines règles, repousse les délais de conformité pour les systèmes à haut risque, et interdit explicitement les applications IA de 'nudification'. Des groupes de défense des droits avertissent que ce paquet de simplification affaiblit certaines protections.",
-        "source": "Tecniforge",
-        "url": "https://tecniforge.com/eu-ai-act-deadline-approaches-brussels-drops-a-cybersecurity-plan-weeks-before-the-august-rules-hit/",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "Guide global entreprises AI Act et ISO 42001 : sécurité, gouvernance et conformité 2026",
-        "resume": "Mobisoft Infotech a publié un guide complet combinant AI Act et ISO 42001 pour les entreprises mondiales, incluant un tableau de comparaison des approches réglementaires par juridiction. ISO 42001 est présenté comme le framework de référence pour démontrer la conformité systémique avec les Articles 9-15 de l'AI Act (gestion des risques, gouvernance des données, documentation technique, supervision humaine). Le guide couvre 39 contrôles en 8 catégories, la gouvernance tiers, et la gestion des incidents.",
+        "titre": "EU AI Act et ISO 42001 : guide complet de gouvernance et sécurité IA en entreprise 2026",
+        "resume": "Mobisoft Infotech publie un guide exhaustif couvrant les obligations combinées de l'EU AI Act (pleinement applicable en août 2026) et d'ISO 42001, désormais devenu le standard de référence mondial pour les systèmes de management de l'IA. L'article détaille les obligations sectorielles spécifiques : HIPAA et réglementation FDA pour la santé, SR 11-7 et MAS FEAT pour les services financiers. L'EU AI Act est qualifié de loi IA contraignante la plus complète au monde, susceptible de devenir le référentiel global de gouvernance IA, à l'image du RGPD pour la protection des données.",
         "source": "Mobisoft Infotech",
         "url": "https://mobisoftinfotech.com/resources/blog/enterprise-ai-security-governance-compliance-guide",
         "date_publication": "06/08/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
+        "categorie": "conformite"
+      },
+      {
+        "titre": "Salt Security : AI Act Article 15 et sécurité des agents IA — ce que les équipes sécurité doivent faire maintenant",
+        "resume": "Salt Security publie une analyse ciblée sur l'Article 15 de l'AI Act, désormais applicable depuis le 2 août 2026 : les systèmes IA à haut risque doivent être résilients contre les attaques adversariales sur l'ensemble de leur couche d'action, y compris les APIs appelées par les agents. L'article précise que les systèmes IA utilisés pour le recrutement, le crédit, les infrastructures critiques ou les forces de l'ordre sont presque certainement soumis aux obligations les plus strictes. Les obligations couvrent la gestion des risques, la gouvernance des données, la journalisation, la transparence, la supervision humaine et la surveillance post-marché.",
+        "source": "Salt Security",
+        "url": "https://salt.security/eu-ai-act-compliance",
+        "date_publication": "01/08/2026",
+        "pertinence": "haute",
+        "categorie": "conformite"
       }
     ],
     "clinique": [
       {
-        "titre": "Mayo Clinic – JAMA Network Open : les essais cliniques décentralisés augmentent l'accès et la diversité (étude sur 765 essais)",
-        "resume": "Une étude publiée dans JAMA Network Open le 20 juillet 2026 a évalué le programme d'essais cliniques décentralisés de Mayo Clinic sur 765 essais et 7 469 participants pendant 15 mois (campus de Rochester, Phoenix et Jacksonville). Les chercheurs ont observé une augmentation de la participation des populations rurales et des communautés historiquement sous-représentées. Le programme s'appuie sur le consentement électronique, les visites vidéo, les prélèvements sanguins à domicile, la surveillance à distance et la livraison des médicaments oraux.",
-        "source": "JAMA Network Open / Mayo Clinic / Healio",
-        "url": "https://www.healio.com/news/hematology-oncology/20260804/review-of-decentralized-clinical-trials-shows-encouraging-trends-in-access-diversity",
-        "date_publication": "04/08/2026",
-        "pertinence": "haute",
-        "categorie": "étude"
-      },
-      {
-        "titre": "Applied Clinical Trials : Impact du DEI ban sur l'écosystème de la recherche clinique",
-        "resume": "Applied Clinical Trials a analysé les conséquences des ordres exécutifs anti-DEI sur la recherche clinique : la FDA a retiré puis partiellement rétabli les DAPs avec un disclaimer rejetant le contenu sur l'identité de genre. Les DAPs restent une exigence statutaire du FDORA, mais la guidance finale est bloquée, laissant les sponsors dans l'incertitude. L'article souligne les questions clés que chaque partie prenante des essais cliniques doit désormais naviguer.",
+        "titre": "L'impact de l'interdiction DEI sur l'écosystème de la recherche clinique",
+        "resume": "Applied Clinical Trials Online publie une analyse approfondie des implications des ordres exécutifs américains sur le DEI pour la recherche clinique, à l'heure où la FDA n'a toujours pas finalisé sa guidance sur les Diversity Action Plans. L'article examine les risques concrets : la non-représentativité des populations dans les essais limite la généralisabilité des résultats et expose les sponsors à des délais et surcoûts. Le FDA Commissioner Marty Makary a déclaré croire en la diversité des essais cliniques mais n'a pas confirmé de restauration des ressources supprimées.",
         "source": "Applied Clinical Trials Online",
         "url": "https://www.appliedclinicaltrialsonline.com/view/the-impact-of-dei-ban-on-clinical-research-ecosystem",
-        "date_publication": "07/08/2026",
+        "date_publication": "06/08/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "AJMC : Pourquoi réduire la bureaucratie des essais ne résout pas le problème du design pour la diversité",
-        "resume": "Un article AJMC publié en août 2026 analyse pourquoi les simplifications réglementaires seules sont insuffisantes pour améliorer la diversité dans les essais cliniques. Il documente comment la simulation in silico pourrait permettre de tester des critères d'inclusion/exclusion contre les démographies réelles avant l'enrôlement des patients. L'article note également que le budget fédéral 2026 (HR 8646) contient un rapport instruisant la FDA de continuer à appliquer la loi FDORA sur les plans de diversification, malgré le contexte DEI.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/why-cutting-trial-red-tape-won-t-fix-clinical-trial-design",
-        "date_publication": "01/08/2026",
-        "pertinence": "haute",
-        "categorie": "analyse"
+        "categorie": "politique_reglementaire"
       }
     ]
   }
