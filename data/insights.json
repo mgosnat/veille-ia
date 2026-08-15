@@ -1,137 +1,110 @@
 {
-  "generated_at": "2026-08-14T07:40:44.647267Z",
-  "date_fr": "14/08/2026",
+  "generated_at": "2026-08-15T06:47:21.981809Z",
+  "date_fr": "15/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "TrustScale lance Argus, plateforme de détection des hallucinations IA en temps réel",
-        "resume": "TrustScale a lancé Argus le 5 août 2026, une plateforme d'assurance IA (patent pending) conçue pour détecter et corriger les hallucinations des LLMs en temps réel dans les workflows agentiques d'entreprise. Contrairement aux approches 'AI vérifiant AI', Argus utilise une vérification déterministe et des preuves empiriques pour signaler les affirmations non étayées avant qu'elles ne soient diffusées. La plateforme revendique une précision de 98,5% et une vérification 135x plus rapide que la recherche manuelle.",
-        "source": "PR-Inside / ACN Newswire",
-        "url": "https://www.pr-inside.com/trustscale-launches-argus-to-detect-and-correct-ai-hallucinations-and-r5208682.htm",
-        "date_publication": "05/08/2026",
+        "titre": "How to Deploy AI Agents in Production 2026: Practical Guide",
+        "resume": "SIVARO, une firme spécialisée en infrastructure IA ayant déployé des systèmes traitant 50 000 requêtes par minute, partage ses leçons terrain sur le déploiement d'agents en production. Le guide couvre la validation d'inputs, les guardrails de budget, le monitoring et les stratégies de rollback. Publié le 2 août 2026, il insiste sur la discipline opérationnelle plutôt que sur le choix du framework.",
+        "source": "Sivaro.in",
+        "url": "https://sivaro.in/articles/how-to-deploy-ai-agents-in-production-2026-practical-guide/",
+        "date_publication": "02/08/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "retour_experience"
       },
       {
-        "titre": "Astraeus lance une infrastructure AI-native pour la gestion de patrimoine réglementée",
-        "resume": "Astraeus, startup new-yorkaise, a mis en ligne le 6 août 2026 une plateforme d'infrastructure IA pour les sociétés de gestion de patrimoine (RIA, broker-dealers, banques privées). La plateforme unifie les données clients, règles de conformité, relations et workflows dans un modèle sémantique gouverné, permettant l'orchestration d'agents IA dans un environnement réglementé avec traçabilité complète. La société a levé plus de 10 millions de dollars auprès de Fintech Collective, F-Prime et Plug and Play Ventures.",
-        "source": "Globe Newswire / InvestmentNews",
-        "url": "https://www.manilatimes.net/2026/08/06/tmt-newswire/globenewswire/astraeus-launches-ai-native-infrastructure-for-wealth-management-firms/2400284/",
-        "date_publication": "06/08/2026",
+        "titre": "FloQast Study Reveals Wide Gap Between the AI Ambitions of Accounting Teams and Their Ability to Execute",
+        "resume": "FloQast publie le 11 août 2026 un rapport de benchmark montrant que les équipes comptables et financières IA-natives réduisent le travail manuel de près de moitié et clôturent deux jours plus vite. Si 85 % des équipes ont fait de l'IA une priorité stratégique, seulement 10 % l'utilisent de façon extensive. Le manque de traçabilité des outputs IA est cité comme principal frein à l'adoption.",
+        "source": "Yahoo Finance / FloQast (Globe Newswire)",
+        "url": "https://finance.yahoo.com/technology/ai/articles/floqast-study-reveals-wide-gap-130000189.html",
+        "date_publication": "11/08/2026",
         "pertinence": "haute",
-        "categorie": "cas d'usage métier"
+        "categorie": "cas_usage_metier"
       },
       {
-        "titre": "Alice Labs : retour d'expérience sur 18+ déploiements production avec LangGraph, CrewAI, Claude Agent SDK et Pydantic AI V2",
-        "resume": "Alice Labs publie une comparaison terrain de 7 frameworks agents issus de 18+ déploiements en production sur la période 2024-H1 2026, couvrant LangGraph 1.0, Claude Agent SDK (avec spawning hiérarchique de sous-agents livré en juin 2026), CrewAI 1.14, Microsoft Agent Framework 1.0, LlamaIndex Workflows 1.0 et Pydantic AI V2. L'article détaille les forces et limites de chaque framework selon le type de workflow (cyclique, linéaire, conversationnel). Pydantic AI V2 et LlamaIndex Workflows 1.0 sont présentés comme les dernières sorties stables notables de juin 2026.",
-        "source": "Alice Labs AI",
-        "url": "https://alicelabs.ai/en/insights/best-ai-agent-frameworks-2026",
-        "date_publication": "",
+        "titre": "Agentic AI Examples 2026: 11 Real Companies, Real Results",
+        "resume": "Opsima documente onze déploiements d'agents IA en production dans des entreprises réelles avec des résultats mesurés, dont DHL Supply Chain utilisant des agents vocaux et e-mail HappyRobot pour la planification de rendez-vous et le suivi chauffeurs. L'article analyse les patterns architecturaux communs aux déploiements réussis. Publié il y a 6 jours (environ 9 août 2026).",
+        "source": "Opsima.com",
+        "url": "https://opsima.com/blog/industry-insights/agentic-ai-examples/",
+        "date_publication": "09/08/2026",
         "pertinence": "haute",
-        "categorie": "retour d'expérience"
+        "categorie": "cas_usage_metier"
       },
       {
-        "titre": "Guide complet : construire des agents IA avec n8n en production (RAG, outils, déploiement Docker)",
-        "resume": "Automation Atlas publie un retour terrain sur le déploiement d'un agent n8n pour une équipe support de 60 personnes début 2026, utilisé pour le triage de tickets entrants sur une instance auto-hébergée couplée à Qdrant. Le guide couvre l'architecture complète : nœuds LangChain, gestion mémoire, tool-calling, déploiement Docker Compose avec PostgreSQL et Redis. Il positionne n8n comme l'outil privilégié pour les automations métier intégrées (CRM, ticketing) nécessitant un audit trail accessible aux non-ingénieurs.",
-        "source": "Automation Atlas",
-        "url": "https://automationatlas.io/guides/building-ai-agents-with-n8n-2026/",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "tutoriel pratique"
-      },
-      {
-        "titre": "CrewAI vs LangGraph vs AutoGen : quel framework multi-agent choisir en production ? (retour terrain d'une agence)",
-        "resume": "Un retour d'expérience terrain d'une agence ayant déployé les trois frameworks en production compare leurs forces réelles : LangGraph pour les workflows cycliques et l'observabilité via LangSmith, CrewAI pour le prototypage rapide en moins d'une journée, n8n/Make pour les automations business intégrant des outils existants (CRM, email, Shopify). L'article souligne que pour la majorité des automatisations e-commerce, des outils no-code surpassent les frameworks Python sur tous les critères pratiques. LangGraph détenait 40% de part de marché des déploiements production au mars 2026.",
-        "source": "DEV Community",
-        "url": "https://dev.to/emperorakashi20/crewai-vs-langgraph-vs-autogen-which-multi-agent-framework-should-you-use-in-2026-5h2f",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "retour d'expérience"
-      },
-      {
-        "titre": "LangGraph vs n8n : choisir le bon framework pour l'IA agentique (comparatif ZenML)",
-        "resume": "ZenML publie une analyse comparative positionnant LangGraph et n8n comme complémentaires dans les stacks IA modernes : LangGraph pour l'orchestration fine d'agents complexes avec gestion d'état, n8n pour le déploiement rapide d'automatisations business avec interface visuelle. Selon les données de l'article, 90% des répondants hors secteur tech ont déployé ou prévoient de déployer des agents en production. Les équipes combinent de plus en plus les deux outils, n8n servant à connecter les agents LangGraph dans des écosystèmes de workflows plus larges.",
-        "source": "ZenML Blog",
-        "url": "https://www.zenml.io/blog/langgraph-vs-n8n",
-        "date_publication": "",
+        "titre": "AI Scientific Discovery: How Labs Use Agents in 2026",
+        "resume": "Article publié le 14 août 2026 analysant l'état réel de l'IA agentique dans la recherche scientifique en 2026, couvrant ScientistOne de Google, Co-Scientist (Nature), et les self-driving labs en chimie et biologie. Il distingue les preuves solides des effets d'annonce et documente concrètement où les agents scientifiques génèrent de la valeur vs. où ils échouent. Publié il y a 1 jour.",
+        "source": "Dualmedia.com",
+        "url": "https://www.dualmedia.com/ai-scientific-discovery/",
+        "date_publication": "14/08/2026",
         "pertinence": "moyenne",
-        "categorie": "comparatif outil"
-      },
-      {
-        "titre": "Agentic AI News — Lancements et modèles d'août 2026 (Genesis, Argus, Astraeus)",
-        "resume": "Le fil d'actualités Agentic.ai recense les lancements agentiques de début août 2026 : Genesis (UXUY Technology, lancé le 4 août à Singapour, agent capable d'invoquer des outils et d'exécuter des stratégies dans des écosystèmes interactifs), Argus (TrustScale, détection hallucinations), et Astraeus (infrastructure wealth management). Le fil signale également un rapport Indian Enterprises 2026 indiquant que seulement 12% des entreprises ayant financé l'IA depuis deux ans peuvent démontrer un impact business mesurable.",
-        "source": "Agentic.ai",
-        "url": "https://agentic.ai/news",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "veille produits"
+        "categorie": "benchmark"
       }
     ],
     "gouvernance": [
       {
-        "titre": "La Commission européenne active l'enforcement de l'AI Act le 2 août 2026",
-        "resume": "Le 2 août 2026, la Commission européenne et l'AI Office ont officiellement activé leurs pouvoirs d'enforcement sur l'EU AI Act. Les obligations Article 50 (transparence : les chatbots doivent se déclarer IA, les deepfakes doivent être labellisés) sont immédiatement applicables. Les amendes atteignent jusqu'à 15 millions d'euros ou 3% du chiffre d'affaires mondial, selon le montant le plus élevé. Enterprise DNA estime qu'au printemps 2026, 78% des organisations n'avaient pris aucune mesure de conformité significative.",
-        "source": "Commission européenne / Enterprise DNA",
-        "url": "https://enterprisedna.co/resources/news/eu-ai-act-enforcement-live-august-2-2026/",
+        "titre": "EU AI Act Enforcement Is Live: Fines Now Real",
+        "resume": "Depuis le 2 août 2026, l'UE peut infliger des amendes allant jusqu'à 3 % du chiffre d'affaires mondial aux fournisseurs d'IA non conformes. L'AI Office active ses pleins pouvoirs d'exécution : les chatbots doivent se déclarer comme IA, les deepfakes doivent être étiquetés. L'Office préfère d'abord des 'dialogues de conformité technique' avant d'escalader vers des procédures formelles. Publié il y a environ 1 semaine.",
+        "source": "EnterpriseDNA.co",
+        "url": "https://enterprisedna.co/resources/news/eu-ai-act-enforcement-fines-live-gpai-august-2026/",
+        "date_publication": "08/08/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
+      },
+      {
+        "titre": "EU AI Act: Transparency Obligations Take Effect 2 August 2026",
+        "resume": "Le cabinet d'avocats Cooley analyse en détail l'entrée en vigueur le 2 août 2026 des obligations de transparence de l'Article 50 de l'AI Act, avec amendes jusqu'à 15 millions d'euros ou 3 % du CA mondial. La Commission européenne a publié des guidelines le 20 juillet 2026 pour aider les entreprises à démontrer leur conformité. Les signataires du Code de conduite bénéficient d'une présomption de conformité.",
+        "source": "Cooley.com",
+        "url": "https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026",
+        "date_publication": "03/08/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
+      },
+      {
+        "titre": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+        "resume": "La Commission européenne annonce officiellement le début de l'application des règles de l'AI Act et des nouvelles exigences de transparence au 2 août 2026. Les autorités nationales de surveillance du marché, l'AI Office européen et le Contrôleur européen de la protection des données sont désormais responsables de l'application des règles. Publié directement par la Commission il y a 2 semaines.",
+        "source": "European Commission (digital-strategy.ec.europa.eu)",
+        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
         "date_publication": "02/08/2026",
         "pertinence": "haute",
         "categorie": "réglementation"
       },
       {
-        "titre": "EU AI Act enforcement effectif : amendes GPAI réelles depuis le 7 août 2026",
-        "resume": "Enterprise DNA publie le 7 août 2026 une analyse post-activation : l'AI Office peut désormais infliger des amendes rétroactives aux fournisseurs de modèles GPAI, demander de la documentation technique, évaluer les modèles et imposer des mesures correctives. Le Digital Omnibus (Regulation 2026/1744, signé le 27 juillet) a repoussé les évaluations de conformité des systèmes IA à haut risque (Annexe III) au 2 décembre 2027, une concession majeure à l'industrie. Les huit modèles fondation dépassant le seuil de 10^25 FLOPs soumettent déjà des évaluations mensuelles de risque systémique.",
-        "source": "Enterprise DNA",
-        "url": "https://enterprisedna.co/resources/news/eu-ai-act-enforcement-fines-live-gpai-august-2026/",
-        "date_publication": "07/08/2026",
+        "titre": "Enterprise AI Security, Governance and Compliance: The Complete Global Guide for 2026",
+        "resume": "Mobisoft Infotech publie un guide complet sur la gouvernance, sécurité et conformité IA en entreprise, couvrant l'EU AI Act en vigueur depuis août 2026, l'ISO 42001 et les réglementations mondiales (UK, Singapour, Canada, Australie). Le guide confirme que l'EU AI Act est désormais la loi IA la plus exhaustive au monde et est susceptible de devenir la référence globale pour la gouvernance IA. Publié il y a 1 semaine.",
+        "source": "Mobisoftinfotech.com",
+        "url": "https://mobisoftinfotech.com/resources/blog/enterprise-ai-security-governance-compliance-guide",
+        "date_publication": "08/08/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "ISO 42001 : standard de référence incontournable pour la gouvernance IA d'entreprise en 2026",
-        "resume": "En 2026, ISO/IEC 42001:2023 est devenu la référence attendue dans 40% des RFP de vendeurs IA en entreprise dans l'UE et 25% en Amérique du Nord. La certification (déjà détenue par AWS, Anthropic et Microsoft) est valable 3 ans avec audits de surveillance annuels. L'article de Konfirmity précise qu'en 2026, ISO 42001 n'est pas encore un standard harmonisé sous l'EU AI Act (pas de présomption de conformité automatique), mais reste le cadre le plus demandé par les acheteurs entreprise pour démontrer une gouvernance IA systématique.",
-        "source": "Konfirmity",
-        "url": "https://www.konfirmity.com/blog/iso-42001",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "standard"
-      },
-      {
-        "titre": "EU AI Act enforcement pour les agents IA : obligations runtime et audit continu (Trussed AI)",
-        "resume": "Trussed AI publie un guide pratique sur les obligations concrètes post-2 août 2026 pour les entreprises déployant des agents IA : gestion des risques en cycle de vie, supervision humaine démontrable, logs automatiques pour la traçabilité, et documentation technique Article 11. Pour les systèmes agentiques appelant des outils et chaînant des décisions de modèles, ces obligations sont continues. Trussed AI positionne son outil de gouvernance runtime (enforcement de politiques, permissions d'agents, workflows d'approbation d'outils, audit logging) comme réponse opérationnelle.",
-        "source": "Trussed AI",
-        "url": "https://trussed.ai/resources/eu-ai-act-enforcement-august-2026-guide",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "conformité enterprise"
+        "categorie": "gouvernance_enterprise"
       }
     ],
     "clinique": [
       {
-        "titre": "AJMC : Couper la bureaucratie des essais ne réglera pas les vrais problèmes de représentativité dans le design des études",
-        "resume": "Un article AJMC publié fin juillet/début août 2026 analyse la tension entre la pression républicaine pour maintenir les exigences de diversité (DAP sous FDORA) et la course de la FDA à raccourcir les délais de phase 1. Des experts soulignent que la simulation IA et la lisibilité des formulaires de consentement, non la paperasse réglementaire, sont les vrais leviers pour réduire les gaps de représentativité. L'article pointe également les barrières d'accès (transport, coûts, congés) comme facteurs suppresseurs de l'enrollment des populations sous-représentées.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/why-cutting-trial-red-tape-won-t-fix-clinical-trial-design",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "analyse"
-      },
-      {
-        "titre": "AJMC : Les incertitudes post-DEI rollbacks pour la santé — impact sur les essais cliniques et les inégalités de santé",
-        "resume": "Un article AJMC de mi-août 2026 analyse les conséquences durables des décrets anti-DEI de l'administration Trump sur la diversité des essais cliniques. Il souligne que la suppression puis la restauration modifiée de la guidance FDA a laissé les sponsors dans l'incertitude réglementaire, et que la finalisation de la guidance (initialement prévue en juin 2025) reste pendante. L'article avertit que ces actions pourraient aggraver les disparités de santé pour les populations marginalisées et affaiblir l'intégrité scientifique des données cliniques.",
-        "source": "AJMC",
+        "titre": "The Uncertain Road Ahead for Health Care After DEI Rollbacks",
+        "resume": "L'AJMC analyse les conséquences du retrait par la FDA de ses guidelines sur la diversité dans les essais cliniques suite aux executive orders anti-DEI, qui risquent de freiner les progrès vers l'équité en santé. L'article examine l'impact sur la diversité de la main-d'œuvre, les résultats pour les patients et la recherche clinique. Publié il y a 5 jours (environ 10 août 2026).",
+        "source": "AJMC.com",
         "url": "https://www.ajmc.com/view/the-uncertain-road-ahead-for-health-care-after-dei-rollbacks",
-        "date_publication": "",
+        "date_publication": "10/08/2026",
         "pertinence": "haute",
-        "categorie": "politique réglementaire"
+        "categorie": "politique_reglementaire"
       },
       {
-        "titre": "Applied Clinical Trials : l'impact du ban DEI sur l'écosystème de la recherche clinique",
-        "resume": "Applied Clinical Trials Online publie en août 2026 un état des lieux sur les actions FDA et NIH en réponse au contexte politique : réduction des initiatives diversité et coupes budgétaires dans la recherche médicale. La FDA a supprimé puis réintégré la guidance DAP avec un disclaimer rejetant le contenu sur l'identité de genre. Les DAP restent une exigence statutaire sous FDORA, et la guidance finale est attendue mais son calendrier d'application reste incertain. L'article documente les défis pour les sponsors qui doivent adapter leurs plans de conformité.",
+        "titre": "The Impact of DEI Ban On Clinical Research Ecosystem",
+        "resume": "Applied Clinical Trials Online analyse les implications concrètes du retrait des guidelines FDA sur les Diversity Action Plans (DAPs) pour l'écosystème de la recherche clinique. Bien que le commissaire de la FDA ait affirmé soutenir la diversité dans les essais, aucun engagement concret n'a été pris pour restaurer les ressources supprimées. L'article recommande aux sponsors de continuer à avancer en utilisant un vocabulaire alternatif ('représentation complète' vs DEI). Publié il y a 2 jours (environ 13 août 2026).",
         "source": "Applied Clinical Trials Online",
         "url": "https://www.appliedclinicaltrialsonline.com/view/the-impact-of-dei-ban-on-clinical-research-ecosystem",
-        "date_publication": "",
+        "date_publication": "13/08/2026",
         "pertinence": "haute",
-        "categorie": "conformité réglementaire"
+        "categorie": "politique_reglementaire"
+      },
+      {
+        "titre": "FDA reveals diversity action plan guide for clinical trials",
+        "resume": "Pharmaphorum rapporte le 13 août 2026 la publication par la FDA de sa mise à jour très attendue des directives sur les Diversity Action Plans (DAPs), visant à s'assurer que les essais cliniques reflètent mieux la diversité des patients réels. Bien que plus de 40 % de la population américaine soit issue de minorités ethniques et raciales, seulement 5 à 10 % des participants aux essais cliniques représentent ces populations. La guidance précise comment les sponsors d'essais doivent structurer leurs DAPs.",
+        "source": "Pharmaphorum.com",
+        "url": "https://pharmaphorum.com/news/fda-reveals-diversity-action-plan-guide-clinical-trials",
+        "date_publication": "13/08/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation_FDA"
       }
     ]
   }
