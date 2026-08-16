@@ -1,110 +1,56 @@
 {
-  "generated_at": "2026-08-15T06:47:21.981809Z",
-  "date_fr": "15/08/2026",
+  "generated_at": "2026-08-16T06:49:29.206984Z",
+  "date_fr": "16/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "How to Deploy AI Agents in Production 2026: Practical Guide",
-        "resume": "SIVARO, une firme spécialisée en infrastructure IA ayant déployé des systèmes traitant 50 000 requêtes par minute, partage ses leçons terrain sur le déploiement d'agents en production. Le guide couvre la validation d'inputs, les guardrails de budget, le monitoring et les stratégies de rollback. Publié le 2 août 2026, il insiste sur la discipline opérationnelle plutôt que sur le choix du framework.",
-        "source": "Sivaro.in",
-        "url": "https://sivaro.in/articles/how-to-deploy-ai-agents-in-production-2026-practical-guide/",
-        "date_publication": "02/08/2026",
-        "pertinence": "haute",
-        "categorie": "retour_experience"
-      },
-      {
-        "titre": "FloQast Study Reveals Wide Gap Between the AI Ambitions of Accounting Teams and Their Ability to Execute",
-        "resume": "FloQast publie le 11 août 2026 un rapport de benchmark montrant que les équipes comptables et financières IA-natives réduisent le travail manuel de près de moitié et clôturent deux jours plus vite. Si 85 % des équipes ont fait de l'IA une priorité stratégique, seulement 10 % l'utilisent de façon extensive. Le manque de traçabilité des outputs IA est cité comme principal frein à l'adoption.",
-        "source": "Yahoo Finance / FloQast (Globe Newswire)",
+        "titre": "FloQast : les équipes comptables IA-natives réduisent le travail manuel de moitié et clôturent deux jours plus vite",
+        "resume": "FloQast a publié le 11 août 2026 les résultats d'une étude indépendante menée auprès de professionnels de la finance et de la comptabilité aux États-Unis et au Royaume-Uni. Si 85 % des équipes comptables ont fait de l'IA une priorité stratégique, seulement 10 % l'utilisent de façon intensive, les principaux freins étant la confiance, la formation et la gouvernance plutôt que la technologie elle-même. Les organisations les plus avancées déploient des agents FloQast Transform pour automatiser les rapprochements, écritures de journal et workflows de clôture avec piste d'audit complète.",
+        "source": "Yahoo Finance / FloQast",
         "url": "https://finance.yahoo.com/technology/ai/articles/floqast-study-reveals-wide-gap-130000189.html",
         "date_publication": "11/08/2026",
         "pertinence": "haute",
-        "categorie": "cas_usage_metier"
+        "categorie": "cas_usage"
       },
       {
-        "titre": "Agentic AI Examples 2026: 11 Real Companies, Real Results",
-        "resume": "Opsima documente onze déploiements d'agents IA en production dans des entreprises réelles avec des résultats mesurés, dont DHL Supply Chain utilisant des agents vocaux et e-mail HappyRobot pour la planification de rendez-vous et le suivi chauffeurs. L'article analyse les patterns architecturaux communs aux déploiements réussis. Publié il y a 6 jours (environ 9 août 2026).",
-        "source": "Opsima.com",
-        "url": "https://opsima.com/blog/industry-insights/agentic-ai-examples/",
-        "date_publication": "09/08/2026",
-        "pertinence": "haute",
-        "categorie": "cas_usage_metier"
-      },
-      {
-        "titre": "AI Scientific Discovery: How Labs Use Agents in 2026",
-        "resume": "Article publié le 14 août 2026 analysant l'état réel de l'IA agentique dans la recherche scientifique en 2026, couvrant ScientistOne de Google, Co-Scientist (Nature), et les self-driving labs en chimie et biologie. Il distingue les preuves solides des effets d'annonce et documente concrètement où les agents scientifiques génèrent de la valeur vs. où ils échouent. Publié il y a 1 jour.",
-        "source": "Dualmedia.com",
-        "url": "https://www.dualmedia.com/ai-scientific-discovery/",
-        "date_publication": "14/08/2026",
+        "titre": "Astraeus lance une infrastructure IA-native pour la gestion de patrimoine sous contrainte réglementaire",
+        "resume": "Le 6 août 2026, Astraeus a annoncé une plateforme d'infrastructure IA-native destinée aux sociétés de gestion de patrimoine, avec des agents opérant au sein d'une couche de conformité stricte. La plateforme donne à l'IA un contexte propre à chaque entreprise pour qu'elle puisse agir à l'intérieur d'un cadre réglementé. Ce lancement illustre l'émergence d'agents déployés en production dans des secteurs où auditabilité et contrôle humain sont non négociables.",
+        "source": "Agentic.ai News",
+        "url": "https://agentic.ai/news",
+        "date_publication": "06/08/2026",
         "pertinence": "moyenne",
-        "categorie": "benchmark"
+        "categorie": "produit"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act Enforcement Is Live: Fines Now Real",
-        "resume": "Depuis le 2 août 2026, l'UE peut infliger des amendes allant jusqu'à 3 % du chiffre d'affaires mondial aux fournisseurs d'IA non conformes. L'AI Office active ses pleins pouvoirs d'exécution : les chatbots doivent se déclarer comme IA, les deepfakes doivent être étiquetés. L'Office préfère d'abord des 'dialogues de conformité technique' avant d'escalader vers des procédures formelles. Publié il y a environ 1 semaine.",
-        "source": "EnterpriseDNA.co",
-        "url": "https://enterprisedna.co/resources/news/eu-ai-act-enforcement-fines-live-gpai-august-2026/",
-        "date_publication": "08/08/2026",
+        "titre": "L'EU AI Act entre en application : chatbots obligés de se déclarer, contenu IA labellisé",
+        "resume": "Publié le 4 août 2026, cet article de Help Net Security détaille les nouvelles obligations effectives : les chatbots doivent désormais se déclarer comme IA (Article 50) et tout contenu généré par IA doit porter un label clair. L'AI Omnibus a par ailleurs repoussé les règles sur les systèmes à haut risque à décembre 2027, et les interdictions sur les contenus sexuels non consentis générés par IA s'appliqueront dès décembre 2026. La Commission avait déjà utilisé d'autres lois numériques européennes pour encadrer les risques de l'IA générative.",
+        "source": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/08/04/eu-ai-act-enforcement-ai-models/",
+        "date_publication": "04/08/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "reglementation"
       },
       {
-        "titre": "EU AI Act: Transparency Obligations Take Effect 2 August 2026",
-        "resume": "Le cabinet d'avocats Cooley analyse en détail l'entrée en vigueur le 2 août 2026 des obligations de transparence de l'Article 50 de l'AI Act, avec amendes jusqu'à 15 millions d'euros ou 3 % du CA mondial. La Commission européenne a publié des guidelines le 20 juillet 2026 pour aider les entreprises à démontrer leur conformité. Les signataires du Code de conduite bénéficient d'une présomption de conformité.",
-        "source": "Cooley.com",
-        "url": "https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026",
-        "date_publication": "03/08/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
-        "resume": "La Commission européenne annonce officiellement le début de l'application des règles de l'AI Act et des nouvelles exigences de transparence au 2 août 2026. Les autorités nationales de surveillance du marché, l'AI Office européen et le Contrôleur européen de la protection des données sont désormais responsables de l'application des règles. Publié directement par la Commission il y a 2 semaines.",
-        "source": "European Commission (digital-strategy.ec.europa.eu)",
-        "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
-        "date_publication": "02/08/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "Enterprise AI Security, Governance and Compliance: The Complete Global Guide for 2026",
-        "resume": "Mobisoft Infotech publie un guide complet sur la gouvernance, sécurité et conformité IA en entreprise, couvrant l'EU AI Act en vigueur depuis août 2026, l'ISO 42001 et les réglementations mondiales (UK, Singapour, Canada, Australie). Le guide confirme que l'EU AI Act est désormais la loi IA la plus exhaustive au monde et est susceptible de devenir la référence globale pour la gouvernance IA. Publié il y a 1 semaine.",
-        "source": "Mobisoftinfotech.com",
+        "titre": "Guide de conformité EU AI Act pour entreprises mondiales : état des lieux après l'AI Omnibus",
+        "resume": "Publié il y a environ une semaine (début août 2026), ce guide complet de Mobisoft Infotech couvre l'articulation entre EU AI Act, ISO 42001, HIPAA, SR 11-7 et autres cadres sectoriels. Il précise qu'au 2 août 2026, les obligations de transparence (Article 50) et les pouvoirs de sanction GPAI sont pleinement actifs, tandis que les lourdes obligations sur systèmes à haut risque sont repoussées à décembre 2027. Le guide inclut un tableau comparatif des juridictions mondiales (UE, UK, Singapour, Canada, Australie) et leur niveau d'application en 2026.",
+        "source": "Mobisoft Infotech",
         "url": "https://mobisoftinfotech.com/resources/blog/enterprise-ai-security-governance-compliance-guide",
-        "date_publication": "08/08/2026",
+        "date_publication": "09/08/2026",
         "pertinence": "haute",
-        "categorie": "gouvernance_enterprise"
+        "categorie": "conformite"
       }
     ],
     "clinique": [
       {
-        "titre": "The Uncertain Road Ahead for Health Care After DEI Rollbacks",
-        "resume": "L'AJMC analyse les conséquences du retrait par la FDA de ses guidelines sur la diversité dans les essais cliniques suite aux executive orders anti-DEI, qui risquent de freiner les progrès vers l'équité en santé. L'article examine l'impact sur la diversité de la main-d'œuvre, les résultats pour les patients et la recherche clinique. Publié il y a 5 jours (environ 10 août 2026).",
-        "source": "AJMC.com",
-        "url": "https://www.ajmc.com/view/the-uncertain-road-ahead-for-health-care-after-dei-rollbacks",
-        "date_publication": "10/08/2026",
-        "pertinence": "haute",
-        "categorie": "politique_reglementaire"
-      },
-      {
-        "titre": "The Impact of DEI Ban On Clinical Research Ecosystem",
-        "resume": "Applied Clinical Trials Online analyse les implications concrètes du retrait des guidelines FDA sur les Diversity Action Plans (DAPs) pour l'écosystème de la recherche clinique. Bien que le commissaire de la FDA ait affirmé soutenir la diversité dans les essais, aucun engagement concret n'a été pris pour restaurer les ressources supprimées. L'article recommande aux sponsors de continuer à avancer en utilisant un vocabulaire alternatif ('représentation complète' vs DEI). Publié il y a 2 jours (environ 13 août 2026).",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/the-impact-of-dei-ban-on-clinical-research-ecosystem",
-        "date_publication": "13/08/2026",
-        "pertinence": "haute",
-        "categorie": "politique_reglementaire"
-      },
-      {
-        "titre": "FDA reveals diversity action plan guide for clinical trials",
-        "resume": "Pharmaphorum rapporte le 13 août 2026 la publication par la FDA de sa mise à jour très attendue des directives sur les Diversity Action Plans (DAPs), visant à s'assurer que les essais cliniques reflètent mieux la diversité des patients réels. Bien que plus de 40 % de la population américaine soit issue de minorités ethniques et raciales, seulement 5 à 10 % des participants aux essais cliniques représentent ces populations. La guidance précise comment les sponsors d'essais doivent structurer leurs DAPs.",
-        "source": "Pharmaphorum.com",
+        "titre": "La FDA publie sa mise à jour très attendue sur les plans d'action pour la diversité dans les essais cliniques",
+        "resume": "Le 13 août 2026, Pharmaphorum rapporte que la FDA a publié son guide actualisé sur les Diversity Action Plans (DAPs), répondant à l'obligation du Congrès établie par les lois FDORA et DEPICT Act de 2022. Ce guide précise comment les sponsors doivent structurer leurs DAPs pour accroître le recrutement des communautés historiquement sous-représentées. Le constat reste alarmant : alors que plus de 40 % de la population américaine est composée de minorités raciales et ethniques, seulement 5 à 10 % des participants aux essais cliniques représentent ces minorités.",
+        "source": "Pharmaphorum",
         "url": "https://pharmaphorum.com/news/fda-reveals-diversity-action-plan-guide-clinical-trials",
         "date_publication": "13/08/2026",
         "pertinence": "haute",
-        "categorie": "reglementation_FDA"
+        "categorie": "reglementation"
       }
     ]
   }
