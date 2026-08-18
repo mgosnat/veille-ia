@@ -1,92 +1,92 @@
 {
-  "generated_at": "2026-08-17T07:06:11.519717Z",
-  "date_fr": "17/08/2026",
+  "generated_at": "2026-08-18T06:55:06.870407Z",
+  "date_fr": "18/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "OSL Group lance OSL AgentPay : infrastructure de paiement stablecoin pour agents IA",
-        "resume": "OSL Group a lancé le 7 août 2026 AgentPay, une infrastructure de paiement conçue pour permettre aux agents IA d'exécuter des flux de paiement autonomes via stablecoins (USDT, USDC, USDGO). Les développeurs peuvent intégrer le service via API en spécifiant montant, actif et destinataire, AgentPay gérant le routage et le règlement. Le produit cible les paiements haute fréquence et de faible valeur entre agents, avec support des protocoles x402, AP2 et MPP.",
-        "source": "GlobeNewswire / Electronic Payments International",
-        "url": "https://www.globenewswire.com/news-release/2026/08/07/3340938/0/en/osl-group-launches-osl-agentpay-multi-stablecoin-payment-infrastructure-for-ai-agents.html",
-        "date_publication": "07/08/2026",
+        "titre": "Claude Code : mises à jour majeures collaboration, Remote Control et sécurité (août 2026)",
+        "resume": "Anthropic a livré courant août 2026 plusieurs mises à jour significatives de Claude Code, incluant le forking de sous-agents par défaut, la messagerie directe inter-sessions, le support des merge requests GitLab dans la vue agents, et un mécanisme de spend-limit via gateway. Des correctifs de sécurité renforcent le sandboxing et les vérifications de permissions. Ces releases s'inscrivent dans la montée en maturité de l'Agent SDK pour les déploiements production enterprise.",
+        "source": "Releasebot / Anthropic",
+        "url": "https://releasebot.io/updates/anthropic/claude-code",
+        "date_publication": "15/08/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "UiPath Agents – Release Notes août 2026 : fonctions codées comme outils et Autopilot en GA",
-        "resume": "UiPath a publié ses notes de version d'août 2026 pour sa plateforme Agents : les agents peuvent désormais utiliser des fonctions Python codées comme outils déterministes (en preview), permettant d'exécuter des transformations de données ou des appels systèmes. Parallèlement, Autopilot (agent de codage natif UiPath) passe en disponibilité générale dans Studio Desktop, capable de planifier, construire et modifier des workflows d'automatisation via des instructions en langage naturel.",
-        "source": "UiPath Documentation",
-        "url": "https://docs.uipath.com/agents/automation-cloud/latest/release-notes/august-2026",
-        "date_publication": "08/2026",
+        "titre": "Claude supporte MCP 2026-07-28 : adoption same-day, Apps et Tasks comme extensions",
+        "resume": "Anthropic a annoncé l'adoption le jour même de la spec MCP 2026-07-28 dans l'ensemble de ses produits Claude, avec déploiement des extensions Apps et Tasks et alignement de l'identité enterprise. La mise à jour couvre aussi l'implémentation du watermarking des contenus générés pour se conformer à l'Article 50 de l'AI Act européen, entré en vigueur le 2 août 2026. Anthropic confirme avoir signé le EU Code of Practice on Transparency of AI-Generated Content en juillet 2026.",
+        "source": "Releasebot / Anthropic",
+        "url": "https://releasebot.io/updates/anthropic/claude",
+        "date_publication": "14/08/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Enterprise AI Agents Adoption Statistics 2026 – mise à jour au 10 août 2026",
-        "resume": "Mise à jour le 10 août 2026 par Paul Okhrem : 31 % des entreprises ont au moins un agent IA en production (mi-2026), avec le secteur bancaire et assurance en tête à 47 %. Gartner projette que 40 % des applications d'entreprise intègreront des agents IA d'ici fin 2026, contre moins de 5 % en 2025. Le délai médian de retour sur investissement est de 5,1 mois selon BCG et Forrester.",
-        "source": "Paul Okhrem Blog",
-        "url": "https://paul-okhrem.com/enterprise-ai-agents-statistics-2026/",
-        "date_publication": "10/08/2026",
+        "titre": "Agentic AI Institute : 10 déploiements enterprise documentés — 4 patterns structurels gagnants",
+        "resume": "L'Agentic AI Institute publie une analyse de 10 déploiements production dans les secteurs santé, télécoms, juridique et retail, identifiant 4 patterns architecturaux communs à tous les projets ayant réussi le passage du pilote à la production. Parmi les cas concrets : OI Infusion Services réduit les délais d'autorisation préalable de 30 à 3 jours, et Easterseals Central Illinois obtient une réduction de 35 jours d'AR grâce à un réseau de 6 agents RCM spécialisés (Eva, Paula, Cody, Cam, Dan, Phil).",
+        "source": "Agentic AI Institute",
+        "url": "https://agenticaiinstitute.org/the-hottest-agentic-ai-examples-and-use-cases-in-2026/",
+        "date_publication": "11/08/2026",
         "pertinence": "haute",
-        "categorie": "benchmark"
+        "categorie": "cas_usage"
+      },
+      {
+        "titre": "7 cas d'usage enterprise en production : données chiffrées et post-mortems (2026)",
+        "resume": "Un panorama documenté de 7 cas d'usage agents ayant atteint la production, avec résultats mesurés : agents finance traitant 350+ factures/mois à 90%+ d'automatisation, réconciliation passant de 3h à 2 minutes ; agents SDR avec un payback médian de 3,4 mois ; IBM AskHR contenant 94% des requêtes RH courantes. L'article identifie aussi 3 cas d'échec et conclut que la portée (scope) est le principal facteur différenciateur entre succès et échec en production.",
+        "source": "ecorpit.com",
+        "url": "https://ecorpit.com/enterprise-ai-agents-production-use-cases-2026/",
+        "date_publication": "11/08/2026",
+        "pertinence": "haute",
+        "categorie": "cas_usage"
+      },
+      {
+        "titre": "Agentic AI Examples 2026 : 11 entreprises réelles avec résultats mesurés (Opsima)",
+        "resume": "Opsima documente 11 déploiements agents réels avec résultats vérifiés, dont DHL Supply Chain utilisant HappyRobot pour la prise de rendez-vous et le suivi chauffeurs par voix et email, et Siemens lançant son Fuse EDA AI Agent en mars 2026 pour les secteurs semiconducteur, 3D IC et PCB. L'article souligne que ces agents opèrent dans la couche de communication non structurée que les logiciels logistiques traditionnels ne peuvent pas atteindre.",
+        "source": "Opsima",
+        "url": "https://opsima.com/blog/industry-insights/agentic-ai-examples/",
+        "date_publication": "11/08/2026",
+        "pertinence": "moyenne",
+        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act enforcement is live : amendes désormais réelles (Enterprise DNA)",
-        "resume": "Article publié il y a 1 semaine détaillant l'activation complète des pouvoirs d'enforcement de l'AI Office européen et des autorités nationales de surveillance depuis le 2 août 2026. Les chatbots doivent désormais se déclarer comme IA, les deepfakes doivent être labellisés, et les 8 modèles fondationnels dépassant 10^25 FLOPs soumettent déjà des évaluations mensuelles de risques systémiques. L'AI Office privilégie des « dialogues de conformité technique » avant toute procédure formelle.",
-        "source": "Enterprise DNA",
-        "url": "https://enterprisedna.co/resources/news/eu-ai-act-enforcement-fines-live-gpai-august-2026/",
-        "date_publication": "10/08/2026",
+        "titre": "EU AI Act Summary [mise à jour août 2026] : ce que le Digital Omnibus a changé",
+        "resume": "Software Improvement Group publie une mise à jour complète de son résumé de l'AI Act intégrant les modifications du Digital Omnibus. L'article confirme que le report est du droit contraignant depuis le 27 juillet 2026, et non une proposition en attente. Il détaille les nouvelles amendes : jusqu'à 35M€ ou 7% du CA pour les pratiques interdites, et 15M€ ou 3% pour les infractions GPAI et Article 50, avec un calendrier précis des prochaines échéances.",
+        "source": "Software Improvement Group",
+        "url": "https://www.softwareimprovementgroup.com/blog/eu-ai-act-summary/",
+        "date_publication": "17/08/2026",
         "pertinence": "haute",
-        "categorie": "enforcement"
-      },
-      {
-        "titre": "Enterprise AI Governance Framework 2026 : guide pour leaders (EverythingCloud)",
-        "resume": "Article publié il y a 1 semaine présentant les trois piliers réglementaires de la gouvernance IA entreprise en 2026 : EU AI Act, NIST AI RMF et ISO 42001. Il décrit un modèle de maturité en 4 stades (ad hoc → opérationnel → cycle de vie → gouvernance à l'échelle) et souligne que la gouvernance mature passe d'audits ponctuels pré-déploiement à un enforcement continu en runtime capable de gérer des agents autonomes.",
-        "source": "EverythingCloud",
-        "url": "https://everythingcloud.com/insights/enterprise-ai-governance-framework-2026-leaders-guide/",
-        "date_publication": "10/08/2026",
-        "pertinence": "haute",
-        "categorie": "framework"
-      },
-      {
-        "titre": "Trussed AI – EU AI Act Enforcement août 2026 : gouvernance runtime pour agents IA",
-        "resume": "Guide publié il y a 2 semaines par Trussed AI spécifiquement axé sur les obligations de conformité pour les enterprises qui déploient des agents IA. Il détaille 4 piliers opérationnels : classification des cas d'usage à haut risque, identité et moindre privilège au moment de l'orchestration, journaux d'audit immuables et surveillance continue. Pour les systèmes agents, la conformité ne peut pas reposer uniquement sur de la documentation pré-déploiement.",
-        "source": "Trussed AI",
-        "url": "https://trussed.ai/resources/eu-ai-act-enforcement-august-2026-guide",
-        "date_publication": "04/08/2026",
-        "pertinence": "haute",
-        "categorie": "conformite_agents"
+        "categorie": "synthese"
       }
     ],
     "clinique": [
       {
-        "titre": "L'incertitude règne sur la diversité en essais cliniques après les reculs DEI – AJMC",
-        "resume": "Article publié il y a 1 semaine par l'AJMC analysant les conséquences des reculs politiques anti-DEI sur la diversité en recherche clinique aux États-Unis. La suppression par la FDA de ses orientations sur les plans d'action diversité (DAP) et les actions de l'administration Trump menacent les avancées en matière d'équité dans les essais. Un personnel de santé diversifié reste crucial pour améliorer les résultats des populations marginalisées.",
-        "source": "AJMC (American Journal of Managed Care)",
-        "url": "https://www.ajmc.com/view/the-uncertain-road-ahead-for-health-care-after-health-care-after-dei-rollbacks",
-        "date_publication": "10/08/2026",
+        "titre": "Applied Clinical Trials : 4 perspectives sur la guidance FDA Diversity Action Plans (17 août 2026)",
+        "resume": "Applied Clinical Trials Online publie le 17 août 2026 une analyse multi-experts de la guidance FDA sur les Diversity Action Plans pour les essais cliniques. Les sponsors doivent désormais fournir leur raisonnement et leurs objectifs d'enrollment désagrégés par facteurs socioéconomiques clés (ethnie, sexe, race) ainsi que leur plan pour les atteindre. L'article reflète la tension entre les exigences statutaires de FDORA et le contexte politique post-ordres exécutifs sur le DEI.",
+        "source": "Applied Clinical Trials Online",
+        "url": "https://www.appliedclinicaltrialsonline.com/view/perspectives-fda-diversity-action-plan-guidance",
+        "date_publication": "17/08/2026",
         "pertinence": "haute",
-        "categorie": "politique_reglementaire"
+        "categorie": "reglementation"
       },
       {
-        "titre": "Impact du DEI ban sur l'écosystème de la recherche clinique – Applied Clinical Trials",
-        "resume": "Article publié il y a 4 jours par Applied Clinical Trials Online examinant les implications des executive orders américains anti-DEI sur les parties prenantes des essais cliniques. Il note que les DAP restent une exigence légale sous FDORA et que la guidance FDA a été supprimée puis restaurée avec un disclaimer rejetant le contenu sur l'identité de genre. Les biopharmas sont dans l'incertitude opérationnelle sur ce qui sera attendu.",
+        "titre": "Frontiers in Digital Health : IA, biais algorithmique et populations manquantes dans le développement clinique (août 2026)",
+        "resume": "Un article publié dans Frontiers in Digital Health (août 2026) propose des tactiques pour combattre le biais des données, le fossé numérique et les populations absentes dans le développement de médicaments assisté par IA. L'article appelle à une dissémination active sur les conséquences de l'utilisation de datasets non inclusifs dans la modélisation prédictive, et recommande la publication des objectifs et résultats réels de recrutement dans ClinicalTrials.gov. Il souligne l'urgence d'une action coordonnée des journaux médicaux et des sociétés savantes.",
+        "source": "Frontiers in Digital Health",
+        "url": "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1880641/full",
+        "date_publication": "16/08/2026",
+        "pertinence": "haute",
+        "categorie": "biais_algorithmique"
+      },
+      {
+        "titre": "Applied Clinical Trials : impact du DEI ban sur l'écosystème de la recherche clinique (août 2026)",
+        "resume": "Applied Clinical Trials Online fait un point en août 2026 sur l'état des initiatives de diversité dans la recherche clinique face aux vents contraires politiques. La FDA a retiré et réintégré la guidance DAP avec un disclaimer rejetant le contenu sur le genre, créant une ambiguïté pour les sponsors. Les DAPs restent une exigence statutaire sous FDORA, mais la guidance finale — légalement due en juin 2025 — n'a toujours pas été publiée, laissant les sponsors sans cadre opérationnel définitif.",
         "source": "Applied Clinical Trials Online",
         "url": "https://www.appliedclinicaltrialsonline.com/view/the-impact-of-dei-ban-on-clinical-research-ecosystem",
         "date_publication": "13/08/2026",
         "pertinence": "haute",
         "categorie": "politique_reglementaire"
-      },
-      {
-        "titre": "Diversity and Inclusion in Clinical Trials : progrès tangibles et stratégies – Applied Clinical Trials",
-        "resume": "Article publié il y a 13 heures par Applied Clinical Trials Online faisant le point sur les stratégies concrètes mises en oeuvre pour améliorer la diversité en essais. Il souligne l'engagement croissant des investigateurs et équipes de site, le recours à des réseaux de sites spécialisés dans les populations sous-représentées, et le déplacement de la réflexion sur la diversité vers la conception du protocole plutôt que le seul recrutement.",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/diversity-and-inclusion-in-clinical-trials-tangible-progress-and-strategies-for-the-future",
-        "date_publication": "17/08/2026",
-        "pertinence": "haute",
-        "categorie": "strategies_inclusion"
       }
     ]
   }
