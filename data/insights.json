@@ -1,92 +1,101 @@
 {
-  "generated_at": "2026-08-19T06:54:11.342891Z",
-  "date_fr": "19/08/2026",
+  "generated_at": "2026-08-20T06:55:21.491873Z",
+  "date_fr": "20/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Kredily 3.0 lance KAI, agent IA agentique pour la paie et les RH",
-        "resume": "Kredily a annoncé le 14 août 2026 le lancement de Kredily 3.0 avec KAI, positionné comme le premier agent IA agentique de paie intégré directement dans un HRMS en Inde. Contrairement aux assistants RH classiques, KAI peut recevoir une instruction en langage naturel, exécuter les actions autorisées, valider les résultats et remonter les exceptions pour approbation humaine. La plateforme propose 110+ compétences couvrant la paie, les absences, les congés et les workflows RH, pour plus de 25 000 entreprises clientes.",
-        "source": "Loktej Business News / ANI",
-        "url": "https://english.loktej.com/article/30568/kredily-3-0-launches-kai--agentic-ai-for-payroll-and-hr--and-expands-into-ai-powered-managed-payroll-services",
+        "titre": "Cursor lance Origin, une plateforme d'hébergement de code native pour agents IA",
+        "resume": "Le 17 août 2026, Cursor a lancé en bêta payante Origin, une plateforme d'hébergement Git conçue spécifiquement pour les agents IA. Elle intègre dépôts, pull requests, navigation de code et synchronisation GitHub directement dans l'éditeur Cursor, permettant à un agent de passer d'un prompt à une PR mergée sans quitter l'environnement. C'est le premier lancement majeur de Cursor depuis son acquisition à 60 milliards de dollars par SpaceX en août 2026.",
+        "source": "Cursor Changelog / SiliconAngle / explainx.ai",
+        "url": "https://cursor.com/changelog/origin-code-hosting",
+        "date_publication": "17/08/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Kredily 3.0 lance KAI, un agent IA agentique pour la paie et les RH",
+        "resume": "Le 14 août 2026, Kredily a annoncé Kredily 3.0 avec KAI, présenté comme le premier agent IA agentique intégré nativement dans un HRMS en Inde. Contrairement aux assistants RH classiques, KAI exécute des workflows complets (paie, congés, présences) à partir d'instructions en langage naturel, valide les résultats et remonte les exceptions pour approbation humaine. La plateforme couvre 110+ compétences et sert déjà 25 000 entreprises et plus d'un million de salariés.",
+        "source": "NewsX / Outlook Business / ANI News",
+        "url": "https://www.newsx.com/business-2/kredily-3-0-launches-kai-agentic-ai-for-payroll-and-hr-and-expands-into-ai-powered-managed-payroll-services-260743/",
         "date_publication": "14/08/2026",
         "pertinence": "haute",
-        "categorie": "cas d'usage métier"
+        "categorie": "cas_usage_metier"
       },
       {
-        "titre": "FloQast : rapport terrain sur l'adoption de l'IA agentique en comptabilité (août 2026)",
-        "resume": "FloQast a publié le 11 août 2026 un rapport d'industrie révélant que 85 % des équipes comptables ont fait de l'IA une priorité stratégique, mais seulement 10 % l'utilisent de façon intensive. Les freins identifiés sont moins techniques que culturels : confiance, formation et gouvernance. Les organisations les plus avancées (niveau 5) s'appuient sur des workflows agentiques automatisés où les comptables supervisent les agents plutôt que de saisir les données.",
-        "source": "Globe Newswire / FloQast",
-        "url": "https://finance.yahoo.com/technology/ai/articles/floqast-study-reveals-wide-gap-130000189.html",
-        "date_publication": "11/08/2026",
+        "titre": "GitHub Copilot intègre Grok 4.6 pour les workflows de codage agentique",
+        "resume": "GitHub a ajouté Grok 4.6 de xAI à GitHub Copilot pour les tâches de codage agentique et les workflows multi-étapes complexes, en déploiement progressif sur les plans Pro, Pro+, Max, Business et Enterprise. Lors des tests internes, Grok 4.6 a montré de solides performances sur les tâches longues nécessitant un raisonnement soutenu et l'utilisation d'outils. C'est une intégration directement accessible aux équipes de développement en production.",
+        "source": "Releasebot / AI Weekly",
+        "url": "https://releasebot.io/updates/github",
+        "date_publication": "15/08/2026",
         "pertinence": "haute",
-        "categorie": "retour d'expérience production"
+        "categorie": "outil"
       },
       {
-        "titre": "Statistiques de déploiement d'agents IA en entreprise – mise à jour août 2026",
-        "resume": "Mise à jour le 10 août 2026, cette analyse agrège les données mid-2026 : 31 % des entreprises disposent désormais d'au moins un agent IA en production, avec les secteurs bancaire et assurance en tête (47 %). Le retour sur investissement médian est de 171 % sur les déploiements agentiques, avec 74 % des dirigeants atteignant un ROI positif en moins d'un an. Le délai médian avant valeur est de 5,1 mois selon BCG et Forrester.",
-        "source": "Paul Okhrem (données BCG / Forrester / S&P Global)",
+        "titre": "Statistiques adoption agents IA entreprise – mise à jour mi-2026 (Paul Okhrem)",
+        "resume": "Mise à jour au 10 août 2026 : 31 % des entreprises ont désormais au moins un agent IA en production selon S&P Global et McKinsey, avec le secteur bancaire/assurance en tête à 47 %. Le temps médian de mise en valeur est de 5,1 mois. Gartner projette que 40 % des applications d'entreprise embarqueront des agents spécialisés d'ici fin 2026, contre moins de 5 % en 2025. Le ROI moyen des déploiements agentiques atteint 171 % selon les données compilées.",
+        "source": "paul-okhrem.com",
         "url": "https://paul-okhrem.com/enterprise-ai-agents-statistics-2026/",
         "date_publication": "10/08/2026",
-        "pertinence": "haute",
-        "categorie": "benchmark / données terrain"
-      },
-      {
-        "titre": "Agentic AI News – Lancements et recherche août 2026 (ScientistOne, KAI, Astraeus)",
-        "resume": "La newsletter Agentic.ai documente en temps réel les lancements d'août 2026 : Google a dévoilé ScientistOne, un framework de recherche autonome enregistrant les citations sans références hallucées (zéro fausse référence sur 75 articles testés). Astraeus a annoncé le 6 août une plateforme d'infrastructure IA-native pour les sociétés de gestion de patrimoine, intégrant contexte réglementaire et auditabilité. Le rapport FloQast du 11 août complète ce panorama des déploiements opérationnels.",
-        "source": "Agentic.ai News",
-        "url": "https://agentic.ai/news",
-        "date_publication": "11/08/2026",
         "pertinence": "moyenne",
-        "categorie": "veille produits agentiques"
+        "categorie": "retour_experience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "L'UE active l'application de l'AI Act le 2 août 2026 : amendes réelles, transparence obligatoire",
-        "resume": "Depuis le 2 août 2026, la Commission européenne applique effectivement l'AI Act : les obligations de l'Article 50 (divulgation chatbots, marquage deepfakes, contenu généré par IA) sont exécutoires et l'AI Office dispose de pouvoirs complets sur les modèles d'IA à usage général (GPAI). Les amendes atteignent jusqu'à 15 millions d'euros ou 3 % du chiffre d'affaires mondial. La Commission privilégie dans un premier temps des 'dialogues de conformité technique' avant d'engager des procédures formelles.",
-        "source": "Enterprise DNA / Commission européenne",
+        "titre": "EU AI Act : l'enforcement est effectif depuis le 2 août 2026 – ce qui a changé",
+        "resume": "Depuis le 2 août 2026, la Commission européenne et l'AI Office exercent leurs pleins pouvoirs d'application du règlement IA. Les obligations Article 50 (divulgation des chatbots, labellisation des deepfakes, marquage machine-readable des contenus générés par IA) sont désormais exigibles. Les amendes peuvent atteindre 15 millions d'euros ou 3 % du chiffre d'affaires mondial. Le Digital Omnibus (Règlement 2026/1744, signé le 27 juillet) a reporté les obligations hauts-risques Annexe III à décembre 2027, mais n'a pas modifié l'échéance du 2 août pour la transparence et les GPAI.",
+        "source": "Enterprise DNA / Jetico / Commission européenne",
         "url": "https://enterprisedna.co/resources/news/eu-ai-act-enforcement-fines-live-gpai-august-2026/",
         "date_publication": "07/08/2026",
         "pertinence": "haute",
-        "categorie": "enforcement réglementaire"
+        "categorie": "réglementation"
+      },
+      {
+        "titre": "Keyfactor obtient la certification ISO 42001 pour la gouvernance IA",
+        "resume": "Le 18 août 2026, Keyfactor a annoncé l'obtention de la certification ISO 42001 après un audit indépendant conduit par A-LIGN, couvrant son système de management de l'intelligence artificielle. La certification reconnaît le cadre de gouvernance de Keyfactor pour le développement, le déploiement et l'utilisation responsable de l'IA au sein de l'organisation. Selon un sondage Gartner 2026, 83 % des équipes d'achat du Fortune 500 prévoient d'exiger l'alignement ISO 42001 de leurs fournisseurs technologiques d'ici 2027.",
+        "source": "The AI Insider / theaiinsider.tech",
+        "url": "https://theaiinsider.tech/2026/08/18/keyfactor-iso-42001-certification-ai-governance/",
+        "date_publication": "18/08/2026",
+        "pertinence": "haute",
+        "categorie": "certification"
       }
     ],
     "clinique": [
       {
-        "titre": "La FDA publie une nouvelle guidance sur les Diversity Action Plans pour les essais cliniques (août 2026)",
-        "resume": "Publiée le 18 août 2026, cette guidance de la FDA détaille les exigences de format et de contenu pour la soumission des Diversity Action Plans (DAPs) par les sponsors d'études cliniques. Les DAPs visent à augmenter l'enrollment de populations historiquement sous-représentées pour améliorer la qualité des données sur les futurs utilisateurs des produits médicaux. La guidance précise le processus de soumission et les critères d'évaluation des demandes de dérogation, conformément au mandat du FDORA.",
+        "titre": "FDA publie une nouvelle guidance sur les Diversity Action Plans pour les essais cliniques (août 2026)",
+        "resume": "Le 18 août 2026, Applied Clinical Trials Online rapporte que la FDA a publié une nouvelle guidance provisoire détaillant les exigences de format, de contenu et de calendrier pour la soumission des Diversity Action Plans par les sponsors d'études cliniques. Ce document vise à augmenter l'enrôlement de populations historiquement sous-représentées et s'applique notamment aux études de Phase III. Bien que 40 % de la population américaine soit issue de minorités ethniques ou raciales, seuls 5 à 10 % des participants aux essais cliniques représentent des populations minoritaires.",
         "source": "Applied Clinical Trials Online",
         "url": "https://www.appliedclinicaltrialsonline.com/view/fda-draft-guidance-diversity-action-plans",
         "date_publication": "18/08/2026",
         "pertinence": "haute",
-        "categorie": "réglementation FDA"
+        "categorie": "réglementation"
       },
       {
-        "titre": "4 perspectives industrielles sur la guidance FDA relative aux Diversity Action Plans",
-        "resume": "Publié le 17-18 août 2026, Applied Clinical Trials a recueilli les réactions de leaders de l'industrie sur l'impact de la nouvelle guidance FDA. Les sponsors doivent désormais fournir leur justification et leurs objectifs d'enrollment décomposés par facteurs socio-économiques clés (ethnie, sexe, race) et expliquer comment ils comptent atteindre ces objectifs. L'article souligne les implications pratiques pour la conception des essais de phase III.",
+        "titre": "4 perspectives d'experts sur la nouvelle guidance FDA sur la diversité dans les essais cliniques",
+        "resume": "Le 17 août 2026, Applied Clinical Trials Online publie l'analyse de quatre experts sur la guidance FDA relative aux Diversity Action Plans. Les sponsors doivent désormais fournir leur justification et leurs objectifs d'enrôlement, ventilés par facteurs socioéconomiques clés tels que l'ethnie, le sexe et la race, ainsi que leur plan pour atteindre ces objectifs. Ce document représente une avancée réglementaire majeure dans un contexte politique tendu sur les initiatives DEI.",
         "source": "Applied Clinical Trials Online",
         "url": "https://www.appliedclinicaltrialsonline.com/view/perspectives-fda-diversity-action-plan-guidance",
         "date_publication": "17/08/2026",
         "pertinence": "haute",
-        "categorie": "analyse réglementaire"
+        "categorie": "analyse"
       },
       {
-        "titre": "Pharmaphorum : la FDA publie sa guidance tant attendue sur les plans de diversité pour les essais cliniques",
-        "resume": "Publié le 13 août 2026, cet article de Pharmaphorum analyse la guidance FDA sur les DAPs mandatés par les lois FDORA et DEPICT de 2022. Il rappelle le paradoxe central : bien que plus de 40 % de la population américaine soit composée de minorités ethniques et raciales, seulement 5 à 10 % des participants aux essais cliniques représentent une population minoritaire, exposant les personnes non-blanches au risque que de nouvelles thérapies soient inefficaces ou potentiellement dangereuses.",
+        "titre": "Pharmaphorum : la FDA publie son guide sur les Diversity Action Plans pour les essais cliniques",
+        "resume": "Publié le 13 août 2026, cet article de Pharmaphorum détaille la nouvelle guidance FDA sur les plans de diversité pour les essais cliniques, mandatée par les lois FDORA et DEPICT de 2022. Il rappelle le paradoxe central : plus de 40 % de la population américaine est composée de minorités ethniques et raciales, mais seulement 5 à 10 % des participants aux essais cliniques représentent des populations minoritaires, exposant ces groupes à un risque que de nouvelles thérapies soient inefficaces ou potentiellement nocives.",
         "source": "Pharmaphorum",
         "url": "https://pharmaphorum.com/news/fda-reveals-diversity-action-plan-guide-clinical-trials",
         "date_publication": "13/08/2026",
         "pertinence": "haute",
-        "categorie": "réglementation FDA"
+        "categorie": "réglementation"
       },
       {
-        "titre": "AJMC : l'impact des reculs DEI sur l'écosystème de la recherche clinique",
-        "resume": "Publié il y a une semaine (env. 12 août 2026), Applied Clinical Trials revient sur les implications de l'ordonnance exécutive Trump sur les DEI pour les essais cliniques. La FDA avait retiré puis restauré (modifiée) sa guidance sur les DAPs en janvier 2025. L'article examine les questions clés que chaque partie prenante des essais cliniques doit maintenant naviguer, dans un contexte où les exigences statutaires du FDORA restent en vigueur malgré les pressions politiques.",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/the-impact-of-dei-ban-on-clinical-research-ecosystem",
+        "titre": "AJMC : bilan de l'incertitude autour des obligations de diversité dans les essais cliniques post-rollbacks DEI",
+        "resume": "Publié il y a une semaine (autour du 13 août 2026), AJMC analyse comment la suppression puis la réintégration partielle de la guidance FDA sur la diversité (suite aux executive orders Trump de janvier 2025) continue de peser sur les sponsors. Les Républicains au Congrès soutiennent désormais le maintien des exigences de plans de diversité en les dissociant du discours DEI, arguant qu'il s'agit d'une nécessité scientifique. La FDA fait face à des pressions contradictoires : accélérer les essais tout en maintenant des exigences de représentativité.",
+        "source": "AJMC",
+        "url": "https://www.ajmc.com/view/why-cutting-trial-red-tape-won-t-fix-clinical-trial-design",
         "date_publication": "12/08/2026",
         "pertinence": "haute",
-        "categorie": "politique et équité en santé"
+        "categorie": "politique"
       }
     ]
   }
