@@ -1,119 +1,101 @@
 {
-  "generated_at": "2026-08-21T06:56:29.763782Z",
-  "date_fr": "21/08/2026",
+  "generated_at": "2026-08-22T06:49:51.946129Z",
+  "date_fr": "22/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "IA agentique en production enterprise : statistiques et retours mi-2026",
-        "resume": "Une mise à jour éditoriale du 10 août 2026 recense les données clés sur l'adoption des agents IA en entreprise : 31% des entreprises ont au moins un agent IA en production (mené par la banque et l'assurance à 47%), avec un délai médian de retour sur valeur de 5,1 mois. Gartner prévoit que 40% des applications d'entreprise intégreront des agents IA spécifiques à une tâche d'ici fin 2026, contre moins de 5% en 2025.",
-        "source": "Paul Okhrem (mis à jour 10/08/2026)",
-        "url": "https://paul-okhrem.com/enterprise-ai-agents-statistics-2026/",
-        "date_publication": "10/08/2026",
+        "titre": "DeepSeek lance DeepSeek Harness : framework agent open source MIT en developer preview",
+        "resume": "DeepSeek a publié le 13 août 2026 son framework agent open source DeepSeek Harness (dsh), sous licence MIT sur GitHub (github.com/deepseek-ai/deepseek-harness). Le projet repose sur une architecture micro-kernel où tout est plugin : modèle, outils, boucle agent, interface et sandbox sont tous remplaçables sans redémarrer l'application. Le repo a franchi 95 000 étoiles GitHub en moins de deux jours, l'un des taux d'adoption les plus rapides jamais enregistrés pour un outil développeur.",
+        "source": "Flowtivity / InfoQ / The New Stack / DataCamp",
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "date_publication": "13/08/2026",
         "pertinence": "haute",
-        "categorie": "retour d'experience"
+        "categorie": "outil"
       },
       {
-        "titre": "Agentic AI examples 2026 : 11 entreprises, résultats réels documentés",
-        "resume": "Article mis à jour il y a deux semaines documentant 11 déploiements réels d'IA agentique en production, en 2026. Il souligne que la majorité des déploiements en production utilisent des architectures multi-agents ou hybrides, et que la distinction clé est la capacité du système à réviser son plan en cours de tâche plutôt que d'exécuter un pipeline fixe. Des cas concrets d'entreprises nommées sont analysés avec métriques avant/après.",
-        "source": "Opsima",
-        "url": "https://opsima.com/blog/industry-insights/agentic-ai-examples/",
-        "date_publication": "",
+        "titre": "Tutorial DataCamp : prise en main step-by-step de DeepSeek Harness",
+        "resume": "DataCamp a publié un tutoriel pratique complet pour installer et configurer DeepSeek Harness avec DeepSeek V4-Pro, la recherche web intégrée et le module de vision ModLens. Le guide couvre les 4 modes d'exécution (web UI, headless, SDK Python, mode minimal), l'ajout de fournisseurs tiers (OpenAI, Anthropic, Kimi K3) et l'interprétation de l'onglet Trajectory pour auditer les appels d'outils. C'est un tutoriel step-by-step vérifiable en environnement local, agnostique au modèle.",
+        "source": "DataCamp",
+        "url": "https://www.datacamp.com/tutorial/deepseek-harness",
+        "date_publication": "20/08/2026",
         "pertinence": "haute",
-        "categorie": "cas d'usage metier"
-      },
-      {
-        "titre": "Guide pratique : construire des agents LangGraph en production (tutorial 2026)",
-        "resume": "Tutorial step-by-step complet sur LangGraph pour construire des agents IA stateful : définition du state, nodes, checkpointing PostgreSQL, human-in-the-loop, streaming. Des données de production réelles sont incluses : les workflows LangGraph coûtant moins de 0,50$ remplacent couramment des tâches humaines de 45 minutes à 4 heures, avec 10 à 15 heures économisées par semaine documentées par des équipes en production.",
-        "source": "jahanzaib.ai",
-        "url": "https://www.jahanzaib.ai/blog/langgraph-tutorial-build-production-ai-agents",
-        "date_publication": "",
-        "pertinence": "moyenne",
         "categorie": "tutoriel"
       },
       {
-        "titre": "Alice Labs : comparatif de 7 frameworks agents issus de 18+ déploiements production (H1 2026)",
-        "resume": "Basé sur 18 déploiements production réels sur 2024–H1 2026, Alice Labs compare LangGraph 1.0, Claude Agent SDK, CrewAI 1.14, Microsoft Agent Framework 1.0, AutoGen/AG2, LlamaIndex Workflows 1.0 et Pydantic AI V2. L'article détaille les nouvelles fonctionnalités Q2 2026 de chaque framework (subagent hiérarchique, backends pluggables, timeouts par nœud) et fournit des critères de sélection concrets selon le type de workflow.",
-        "source": "Alice Labs",
-        "url": "https://alicelabs.ai/en/insights/best-ai-agent-frameworks-2026",
-        "date_publication": "",
+        "titre": "Rockwell Automation intègre des agents IA dans sa plateforme Plex en production (août 2026)",
+        "resume": "Rockwell Automation a déployé en production des agents IA au sein de sa plateforme Plex en août 2026, avec notamment l'agent Plex Connected Worker qui convertit automatiquement des fichiers CAD en instructions de travail étape par étape, et l'intégration de FactoryTalk Analytics VisionAI pour la gestion qualité pilotée par IA. Selon les données de déploiement enterprise 2025-2026, les fabricants ayant des agents en production rapportent un ROI moyen de 171 % et un gain d'efficacité de 34 %. Rockwell indique que 42 % des processus de fabrication devraient être supportés par l'IA dans l'année à venir.",
+        "source": "IIoT World",
+        "url": "https://www.iiot-world.com/artificial-intelligence-ml/agentic-ai-manufacturing-2026/",
+        "date_publication": "21/08/2026",
+        "pertinence": "haute",
+        "categorie": "cas d'usage"
+      },
+      {
+        "titre": "Microsoft Agent Framework 1.0 GA : successeur unifié de Semantic Kernel et AutoGen",
+        "resume": "Microsoft Agent Framework 1.0 est devenu généralement disponible le 3 avril 2026 en fusionnant Semantic Kernel et AutoGen en une plateforme enterprise unique. AutoGen a été placé en mode maintenance en octobre 2025 (aucune nouvelle fonctionnalité), et MAF 1.0 en est désormais le successeur officiel pour les nouveaux projets. Pour les équipes existantes sur Semantic Kernel, la migration vers MAF peut se faire à leur propre rythme sans rupture.",
+        "source": "Dataiku / Shakudo",
+        "url": "https://www.dataiku.com/blog/ai-agent-frameworks",
+        "date_publication": "17/08/2026",
         "pertinence": "haute",
         "categorie": "outil"
+      },
+      {
+        "titre": "Statistiques enterprise agents 2026 : 31% des entreprises avec au moins un agent en production",
+        "resume": "Selon les données agrégées S&P Global / McKinsey / BCG / Forrester (revues au 10 août 2026), 31 % des entreprises disposent d'au moins un agent IA en production mi-2026, avec une concentration dans la banque et l'assurance (environ 47 %). Le délai médian de retour sur investissement est de 5,1 mois depuis la mise en production, et Gartner projette que 40 % des applications enterprise embarqueront des agents spécialisés d'ici fin 2026, contre moins de 5 % en 2025.",
+        "source": "Paul Okhrem (données S&P, McKinsey, BCG, Forrester)",
+        "url": "https://paul-okhrem.com/enterprise-ai-agents-statistics-2026/",
+        "date_publication": "10/08/2026",
+        "pertinence": "haute",
+        "categorie": "retour d'expérience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : entrée en vigueur de l'enforcement et des obligations de transparence le 2 août 2026",
-        "resume": "Le 2 août 2026, l'AI Office de la Commission européenne et les autorités nationales ont officiellement commencé à appliquer l'AI Act. L'Article 50 est désormais en vigueur : les chatbots doivent s'identifier comme IA, les deepfakes doivent être étiquetés, et les contenus générés par IA doivent porter des marques lisibles par machine. Les amendes peuvent atteindre 15 millions d'euros ou 3% du chiffre d'affaires mondial.",
-        "source": "Mondaq / Commission européenne",
-        "url": "https://www.mondaq.com/unitedstates/privacy-protection/1832634/enforcement-and-transparency-obligations-under-the-eu-ai-act-are-now-in-effect",
-        "date_publication": "19/08/2026",
+        "titre": "Keyfactor obtient la certification ISO 42001 après audit indépendant par A-LIGN",
+        "resume": "Keyfactor a annoncé le 18 août 2026 l'obtention de la certification ISO 42001 à l'issue d'un audit indépendant conduit par A-LIGN, couvrant son système de management de l'IA (AIMS). La certification reconnaît le cadre de gouvernance de Keyfactor pour le développement, le déploiement et l'usage responsable de l'IA, en matière de gestion des risques IA, sécurité, transparence, éthique et conformité. C'est un exemple concret d'entreprise ayant complété le cycle de certification ISO 42001 dans la fenêtre d'enforcement de l'AI Act.",
+        "source": "The AI Insider",
+        "url": "https://theaiinsider.tech/2026/08/18/keyfactor-iso-42001-certification-ai-governance/",
+        "date_publication": "18/08/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "certification"
       },
       {
-        "titre": "Morgan Lewis : ce qui est entré en vigueur le 2 août avec les règles de transparence de l'AI Act",
-        "resume": "Analyse juridique précise publiée le 14 août 2026 sur ce que couvre réellement l'Article 50 depuis le 2 août : obligations de divulgation lors des interactions IA, reconnaissance d'émotions, catégorisation biométrique et deepfakes. L'article distingue les obligations déjà applicables de celles repoussées au 2 décembre 2026 pour les systèmes génératifs déjà sur le marché, et propose une checklist de conformité pour les fournisseurs et déployeurs.",
-        "source": "Morgan Lewis",
-        "url": "https://www.morganlewis.com/blogs/sourcingatmorganlewis/2026/08/eu-ai-acts-transparency-rules-what-went-into-effect-on-2-august",
-        "date_publication": "14/08/2026",
+        "titre": "Trussed AI — guide opérationnel : conformité AI Act pour agents agentiques en production",
+        "resume": "Trussed AI publie un guide de conformité AI Act centré sur les systèmes agents en production, détaillant les obligations runtime : identité forte des agents, permissions à portée de tâche (least-privilege), journaux d'audit continus, et workflows d'approbation d'outils. Le guide souligne que la conformité pre-déploiement vieillit mal si les prompts, catalogues d'outils, permissions ou versions de modèles dérivent après la mise en production. Il cible directement les équipes gérant des agents qui appellent des outils et modifient l'état de systèmes enterprise, alignant ces exigences sur les Articles 9-15 de l'AI Act.",
+        "source": "Trussed AI",
+        "url": "https://trussed.ai/resources/eu-ai-act-enforcement-august-2026-guide",
+        "date_publication": "09/08/2026",
         "pertinence": "haute",
-        "categorie": "conformite"
-      },
-      {
-        "titre": "Mobisoftinfotech : guide complet gouvernance et conformité IA entreprise 2026",
-        "resume": "Guide publié il y a deux semaines couvrant les obligations croisées EU AI Act + ISO 42001 pour les entreprises, avec les spécificités sectorielles (santé/HIPAA, finance/SR 11-7, MAS FEAT). Il souligne que l'EU AI Act est désormais pleinement en vigueur depuis août 2026 et constitue la référence mondiale de gouvernance IA, à l'image du GDPR pour la protection des données. Des tableaux par juridiction détaillent qui applique quoi.",
-        "source": "Mobisoftinfotech",
-        "url": "https://mobisoftinfotech.com/resources/blog/enterprise-ai-security-governance-compliance-guide",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "conformite"
+        "categorie": "conformité"
       }
     ],
     "clinique": [
       {
-        "titre": "FDA publie une nouvelle guidance sur les Diversity Action Plans pour les essais cliniques",
-        "resume": "La FDA a publié le 18 août 2026 une guidance actualisée sur les Diversity Action Plans (DAPs) pour les sponsors d'essais cliniques, détaillant le format, le contenu et le calendrier de soumission requis. Les plans s'appliquent aux études de phase III et pivotales, et visent à augmenter l'inscription de populations historiquement sous-représentées. Bien que 40% de la population américaine appartienne à une minorité raciale ou ethnique, 80 à 90% des participants aux essais cliniques sont blancs.",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/fda-draft-guidance-diversity-action-plans",
-        "date_publication": "18/08/2026",
+        "titre": "FDA publie une mise à jour très attendue de la guidance sur les Diversity Action Plans pour les essais cliniques",
+        "resume": "La FDA a publié le 13 août 2026 sa guidance actualisée 'Diversity Action Plans to Improve Enrollment of Participants from Underrepresented Populations in Clinical Studies', détaillant la structure que les sponsors doivent suivre pour soumettre leurs plans de diversité (DAP). La guidance précise les types d'études concernées, le format et contenu requis, le processus de soumission et les critères d'évaluation des demandes de dérogation. Elle est mandatée par les lois FDORA et DEPICT Act de 2022, et la conformité sera obligatoire 180 jours après la publication de la guidance finale.",
+        "source": "Pharmaphorum / Applied Clinical Trials Online",
+        "url": "https://pharmaphorum.com/news/fda-reveals-diversity-action-plan-guide-clinical-trials",
+        "date_publication": "13/08/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "réglementation"
       },
       {
-        "titre": "4 perspectives d'experts sur la guidance FDA relative aux Diversity Action Plans",
-        "resume": "Article du 17 août 2026 recueillant les analyses de quatre leaders de l'industrie (Acclinate, Medable, Advarra, Curavit) sur l'impact de la nouvelle guidance FDA sur les sponsors. Les experts soulignent que les sponsors doivent désormais fournir leurs rationales et objectifs d'enrollment segmentés par facteurs socio-économiques clés (ethnie, sexe, race) et expliquer comment ils comptent atteindre ces objectifs.",
+        "titre": "Applied Clinical Trials : 4 perspectives d'experts sur l'impact de la guidance FDA Diversity Action Plans",
+        "resume": "Applied Clinical Trials a recueilli le 17-18 août 2026 les analyses de plusieurs leaders de l'industrie sur les implications de la guidance FDA pour les sponsors. Les experts soulignent que les sponsors doivent désormais fournir leur raisonnement et leurs objectifs d'enrollment séparés par ethnie, sexe et race, ainsi que leur plan opérationnel pour les atteindre. La guidance intervient dans un contexte où 80 à 90 % des participants aux essais cliniques sont actuellement blancs, alors que les minorités ethniques et raciales représentent plus de 40 % de la population américaine.",
         "source": "Applied Clinical Trials Online",
         "url": "https://www.appliedclinicaltrialsonline.com/view/perspectives-fda-diversity-action-plan-guidance",
         "date_publication": "17/08/2026",
         "pertinence": "haute",
-        "categorie": "politique"
+        "categorie": "analyse"
       },
       {
-        "titre": "Pharmaphorum : la FDA publie sa guidance très attendue sur les plans de diversité pour les essais cliniques",
-        "resume": "Article du 13 août 2026 détaillant la publication par la FDA de sa guidance sur les DAPs, mandatée par les lois FDORA et DEPICT de 2022. La guidance décrit comment les sponsors doivent structurer leurs plans pour augmenter l'enrôlement de sujets issus de communautés historiquement sous-représentées. Elle précise également les critères d'évaluation des demandes de dérogation (waiver) pour les sponsors souhaitant être exemptés.",
-        "source": "Pharmaphorum",
-        "url": "https://pharmaphorum.com/news/fda-reveals-diversity-action-plan-guide-clinical-trials",
-        "date_publication": "13/08/2026",
+        "titre": "Applied Clinical Trials : article de synthèse sur la guidance FDA DAP (18 août 2026)",
+        "resume": "Applied Clinical Trials publie le 18 août 2026 un article de synthèse sur la guidance FDA sur les Diversity Action Plans, rappelant que ces plans sont conçus pour augmenter l'enrollment des populations historiquement sous-représentées et améliorer la qualité des données reçues par la FDA sur les futurs utilisateurs des produits. Le commissaire FDA Robert M. Califf est cité pour souligner que les participants aux essais cliniques doivent être représentatifs des patients qui utiliseront les produits médicaux approuvés. L'article détaille les obligations de format et de contenu introduites par la guidance.",
+        "source": "Applied Clinical Trials Online",
+        "url": "https://www.appliedclinicaltrialsonline.com/view/fda-draft-guidance-diversity-action-plans",
+        "date_publication": "18/08/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "AJMC : pourquoi couper le 'red tape' réglementaire ne résoudra pas les problèmes de conception des essais cliniques",
-        "resume": "Article publié il y a trois semaines analysant la tension entre la suppression de la guidance DEI par la FDA et les obligations statutaires de Diversity Action Plans. Le Congrès (côté républicain) pousse la FDA à continuer d'appliquer les exigences de plans de diversification pour les essais en phase tardive, tout en distançant explicitement l'effort du cadrage DEI. L'article documente aussi les déficits d'infrastructure de recherche en Afrique subsaharienne comme facteur aggravant.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/why-cutting-trial-red-tape-won-t-fix-clinical-trial-design",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "analyse"
-      },
-      {
-        "titre": "AJMC : l'avenir incertain des soins de santé après les reculs DEI – impact sur la diversité des essais cliniques",
-        "resume": "Article publié il y a deux semaines analysant comment la suppression de la guidance FDA sur la diversité dans les essais cliniques et les actions anti-DEI pourraient entraver les progrès vers des soins de santé équitables. L'article examine l'impact sur la diversité de la main-d'œuvre soignante, les résultats pour les patients et la recherche, soulignant que des essais représentatifs génèrent des données plus complètes et reconstruisent la confiance des participants potentiels.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/the-uncertain-road-ahead-for-health-care-after-dei-rollbacks",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "analyse"
+        "categorie": "réglementation"
       }
     ]
   }
