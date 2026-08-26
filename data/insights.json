@@ -1,110 +1,83 @@
 {
-  "generated_at": "2026-08-25T06:57:29.464395Z",
-  "date_fr": "25/08/2026",
+  "generated_at": "2026-08-26T06:58:10.004618Z",
+  "date_fr": "26/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "DeepSeek Harness : un runtime agent open source où tout est plugin",
-        "resume": "DeepSeek AI a publié le 13 août 2026 le DeepSeek Harness (dsh), un runtime d'agents open source sous licence MIT disponible sur GitHub (github.com/deepseek-ai/deepseek-harness). L'architecture repose sur un principe radical : chaque composant (adaptateur de modèle, boucle d'agent, registre d'outils, sandbox) est un plugin interchangeable. Le dépôt a dépassé 95 000 étoiles GitHub en deux jours, l'un des taux d'adoption les plus rapides jamais enregistrés pour un outil développeur.",
-        "source": "Flowtivity / The New Stack / DeepSeek",
-        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "titre": "DeepSeek Harness v0.1 : open-source agent harness lancé le 13 août 2026",
+        "resume": "DeepSeek AI a publié DeepSeek Harness (dsh) le 13 août 2026 sous licence MIT, un runtime agent modulaire où chaque composant (modèle, registre d'outils, boucle agent) est un plugin remplaçable. Le dépôt a dépassé 95 000 étoiles GitHub en moins de 48h. L'outil tourne en local avec une Web UI, supporte un mode headless, et est model-agnostic (pas de lock-in DeepSeek).",
+        "source": "VentureBeat / The New Stack / Flowtivity",
+        "url": "https://venturebeat.com/technology/deepseek-harness-launches-as-open-source-rival-to-claude-code-alongside-v4-pro-on-api-with-higher-prices",
         "date_publication": "13/08/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Sitero lance trois workflows agentiques Ash pour le cycle de vie complet des essais cliniques",
-        "resume": "Le 18 août 2026, Sitero a mis en production trois workflows agentiques pour son agent clinique Ash : configuration d'étude, gestion des données et insights de portefeuille. Ash for Study Configuration réduit la mise en place d'une étude de plusieurs mois à deux semaines ; Ash for Data Management a livré plus de 180 contrôles de revue de données en cinq semaines chez un top-10 pharmaceutique, soit 75 % plus rapide que les méthodes traditionnelles. Tous les workflows partagent un modèle de gouvernance avec revue humaine à chaque point de décision et piste d'audit complète.",
-        "source": "PRNewswire / Dealroom / Yahoo Finance",
+        "titre": "Microsoft Agent Lightning v1.0 : entraînement RL des agents en production sans modifier le code",
+        "resume": "Microsoft a publié Agent Lightning v1.0 le 17 août 2026 (MIT), un framework de reinforcement learning qui permet d'entraîner n'importe quel agent directement dans son harness de production, sans aucune modification de code. Le support Kubernetes natif est inclus, et un exemple concret montre un agent Qwen3.5-9B passant de 41,8% à 56,4% sur SWE-bench Verified avec seulement 6K échantillons d'entraînement. Le projet est disponible sur github.com/microsoft/agent-lightning.",
+        "source": "Crypto Briefing / AI/TLDR / GitHub Microsoft",
+        "url": "https://cryptobriefing.com/microsoft-agent-lightning-agentic-rl/",
+        "date_publication": "17/08/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Sitero étend Ash, son agent IA clinique, sur tout le cycle de données des essais",
+        "resume": "Le 18 août 2026, Sitero (CRO) a mis en production trois workflows agentiques pour son agent Ash : configuration d'étude, gestion des données et insights portefeuille. En déploiement précoce chez un top-10 pharma, Ash for Data Management a réalisé plus de 180 vérifications de revue de données en 5 semaines, soit 75% plus vite que les méthodes traditionnelles. Chaque workflow intègre un audit trail complet et une validation humaine à chaque étape décisionnelle.",
+        "source": "PRNewswire / Dealroom",
         "url": "https://www.prnewswire.com/news-releases/sitero-extends-ash-a-clinical-ai-agent-across-the-full-clinical-data-lifecycle-302853590.html",
         "date_publication": "18/08/2026",
         "pertinence": "haute",
         "categorie": "cas_usage"
       },
       {
-        "titre": "Info-Tech Research Group publie un blueprint six couches pour les stacks IA agentiques en entreprise",
-        "resume": "Le 19 août 2026, Info-Tech Research Group a publié son blueprint 'Discover the Enterprise Agentic AI Technology Stack', alertant que les architectures pilot-era construites pour des victoires rapides exposent les organisations à des risques de fragilité d'intégration, de coûts incontrôlables et de lacunes de gouvernance. Le modèle définit six couches (Application, Outils data & cycle de vie IA, Modèles fondationnels, Orchestration agentique, Plateforme data, Infrastructure) pour aider les DSI et architectes à évaluer leurs lacunes et préparer la montée en charge.",
-        "source": "Info-Tech Research Group / Globe and Mail / Newswire",
-        "url": "https://www.newswire.ca/news-releases/pilot-era-agentic-ai-stacks-expose-enterprises-to-integration-and-governance-risks-finds-info-tech-research-group-835078358.html",
-        "date_publication": "19/08/2026",
-        "pertinence": "haute",
-        "categorie": "retour_experience"
-      },
-      {
-        "titre": "Info-Tech publie un blueprint cinq phases pour développer un prototype d'IA agentique défendable",
-        "resume": "Le 14 août 2026, Info-Tech Research Group a publié le blueprint 'Develop Your Agentic AI Prototype', offrant une méthodologie en cinq phases pour aider les équipes à passer du concept à un prototype reproductible, observable et défendable. Le document comble le fossé constaté entre une conception prometteuse et un prototype générant des preuves suffisantes pour décider d'un passage à l'échelle, en insistant sur les garde-fous et l'observabilité dès la phase de prototype.",
-        "source": "Info-Tech Research Group / AOL",
-        "url": "https://www.aol.com/articles/agentic-ai-initiatives-stall-prototypes-190600000.html",
-        "date_publication": "14/08/2026",
+        "titre": "DataCamp : tutoriel step-by-step DeepSeek Harness – installation et premiers agents",
+        "resume": "DataCamp a publié un tutoriel pratique de prise en main de DeepSeek Harness (dsh), couvrant l'installation (Node ≥22.19, pnpm@11.7.0), la configuration des credentials DeepSeek API, et les différents modes d'exécution (web UI, headless). L'article précise que le harness est model-agnostic et peut être auto-hébergé gratuitement sous MIT. Il s'adresse aux équipes souhaitant déployer des agents de coding locaux sans dépendance cloud.",
+        "source": "DataCamp",
+        "url": "https://www.datacamp.com/tutorial/deepseek-harness",
+        "date_publication": "20/08/2026",
         "pertinence": "haute",
         "categorie": "tutoriel"
-      },
-      {
-        "titre": "KTX Skills Kit : agent de trading connecté aux marchés financiers en temps réel",
-        "resume": "KTX a lancé son Skills Kit à Séoul le 18 août 2026, connectant des agents dans Claude, ChatGPT, Codex et Cursor à des données de marché en temps réel, des outils de portefeuille, l'exécution d'ordres et des marchés de prédiction. Le système permet à un agent d'inspecter l'intelligence de marché, de décider d'une action et de l'exécuter directement, signalant un passage de l'IA conseil à l'IA exécutante dans le domaine financier.",
-        "source": "Agentic.ai News",
-        "url": "https://agentic.ai/news",
-        "date_publication": "18/08/2026",
-        "pertinence": "moyenne",
-        "categorie": "produit"
-      },
-      {
-        "titre": "eDiscovery AI lance CaseBot avec des Skill Agents pour la production de livrables juridiques",
-        "resume": "Le 18 août 2026, eDiscovery AI a annoncé la nouvelle génération de CaseBot intégrant des Skill Agents dans sa plateforme Conversational Discovery. Le système dépasse la simple réponse aux questions pour produire des livrables juridiques structurés avec citations en quelques minutes, signalant la transition des outils de chat vers des systèmes capables de compléter des travaux réglementés de bout en bout.",
-        "source": "Agentic.ai News",
-        "url": "https://agentic.ai/news",
-        "date_publication": "18/08/2026",
-        "pertinence": "moyenne",
-        "categorie": "produit"
       }
     ],
     "gouvernance": [
       {
-        "titre": "Keyfactor obtient la certification ISO 42001 pour la gouvernance de l'IA",
-        "resume": "Le 18 août 2026, Keyfactor a annoncé l'obtention de la certification ISO 42001 à l'issue d'un audit indépendant réalisé par A-LIGN, couvrant son Système de Management de l'Intelligence Artificielle. Cette certification reconnaît le cadre de gouvernance de Keyfactor pour le développement, le déploiement et l'utilisation responsable de l'IA, en renforçant son approche en matière de gestion des risques, de sécurité, de transparence, d'éthique et de conformité.",
-        "source": "The AI Insider",
-        "url": "https://theaiinsider.tech/2026/08/18/keyfactor-iso-42001-certification-ai-governance/",
-        "date_publication": "18/08/2026",
+        "titre": "Technology.org : ce qui s'est vraiment appliqué (et ce qui ne s'est pas appliqué) au 2 août 2026",
+        "resume": "Une analyse détaillée distingue les obligations effectivement entrées en vigueur le 2 août 2026 (Article 50 : transparence chatbots, étiquetage deepfakes, watermarking des contenus génératifs) de celles reportées. L'AI Omnibus, signé le 8 juillet 2026, a repoussé les systèmes à haut risque Annexe III au 2 décembre 2027, et ceux intégrés dans des produits réglementés (dispositifs médicaux, machines) au 2 août 2028. L'article explique pourquoi le report est procédural : les standards harmonisés n'étaient pas finalisés.",
+        "source": "Technology.org",
+        "url": "https://www.technology.org/2026/07/17/eu-ai-act-what-actually-applies-on-2-august-2026/",
+        "date_publication": "26/08/2026",
         "pertinence": "haute",
-        "categorie": "certification"
-      },
-      {
-        "titre": "Mondaq : analyse pratique des deux développements clés de l'AI Act au 2 août 2026",
-        "resume": "Mondaq a publié une analyse détaillée des deux piliers de la mise en œuvre de l'AI Act entrés en vigueur le 2 août 2026 : l'activation des pouvoirs d'application de l'AI Office et des autorités des États membres sur les GPAI, et l'entrée en vigueur de l'Article 50 imposant la divulgation aux utilisateurs lorsqu'ils interagissent avec une IA. Les entreprises doivent désormais s'attendre à une surveillance réglementaire accrue pour toute IA développée, proposée ou utilisée dans l'UE.",
-        "source": "Mondaq",
-        "url": "https://www.mondaq.com/unitedstates/privacy-protection/1832634/enforcement-and-transparency-obligations-under-the-eu-ai-act-are-now-in-effect",
-        "date_publication": "18/08/2026",
-        "pertinence": "haute",
-        "categorie": "conformité"
+        "categorie": "reglementation"
       }
     ],
     "clinique": [
       {
-        "titre": "FDA publie sa guidance très attendue sur les Diversity Action Plans pour les essais cliniques",
-        "resume": "Le 13 août 2026, la FDA a publié sa guidance mise à jour sur les Plans d'Action pour la Diversité (DAP) dans les essais cliniques, précisant comment les sponsors d'essais doivent structurer ces plans pour augmenter le recrutement de populations historiquement sous-représentées. Bien que plus de 40 % de la population américaine soit composée de minorités ethniques et raciales, seulement 5 à 10 % des participants aux essais cliniques représentent ces minorités. La guidance détaille le format, le contenu requis et le processus de soumission des DAP à la FDA.",
+        "titre": "FDA publie sa mise à jour très attendue du guide Diversity Action Plans – 13 août 2026",
+        "resume": "La FDA a publié le 13 août 2026 une mise à jour majeure de son guide sur les Plans d'Action Diversité (DAP) pour les essais cliniques, tel que mandaté par le FDORA et le DEPICT Act de 2022. Ce document précise le format, le contenu et le calendrier de soumission des DAP aux sponsors d'études pivotales (Phase III), qui devront détailler leurs objectifs d'enrôlement par groupe d'âge, sexe, race et ethnie. Alors que plus de 40% de la population américaine appartient à des minorités ethniques, ces groupes ne représentent que 5 à 10% des participants aux essais cliniques.",
         "source": "Pharmaphorum / Applied Clinical Trials Online",
         "url": "https://pharmaphorum.com/news/fda-reveals-diversity-action-plan-guide-clinical-trials",
         "date_publication": "13/08/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "reglementation"
       },
       {
-        "titre": "4 perspectives d'experts sur la nouvelle guidance FDA sur les Diversity Action Plans",
-        "resume": "Applied Clinical Trials Online a recueilli le 17 août 2026 les perspectives de leaders de l'industrie sur la nouvelle guidance FDA relative aux DAP et ses implications pour les sponsors d'essais cliniques. Les experts analysent comment ces nouvelles exigences vont affecter la conception des études, les stratégies de recrutement et les délais de développement, notamment l'obligation pour les sponsors de fournir une justification et des objectifs d'enrôlement par ethnie, sexe et âge.",
+        "titre": "4 perspectives de leaders industriels sur le nouveau guide FDA Diversity Action Plans",
+        "resume": "Applied Clinical Trials Online a recueilli le 17 août 2026 les réactions de quatre leaders du secteur sur les implications pratiques du nouveau guide FDA sur les DAP. Les experts analysent comment cette guidance affectera concrètement les sponsors : délais de planification, impacts sur les CRO, complexité de recrutement dans les populations sous-représentées, et équilibre entre objectifs de diversité et calendriers de développement.",
         "source": "Applied Clinical Trials Online",
         "url": "https://www.appliedclinicaltrialsonline.com/view/perspectives-fda-diversity-action-plan-guidance",
         "date_publication": "17/08/2026",
         "pertinence": "haute",
-        "categorie": "analyse"
+        "categorie": "regulation"
       },
       {
-        "titre": "Applied Clinical Trials Online : dossier diversité dans les essais cliniques et équité en santé (août 2026)",
-        "resume": "Applied Clinical Trials Online a publié plusieurs articles entre le 11 et le 13 août 2026 explorant les voies vers l'équité en santé via la diversification des essais cliniques, incluant des contributions de chercheurs et médecins. Ces publications font suite à la guidance FDA sur les DAP et examinent les stratégies concrètes pour accroître la représentation des populations sous-représentées dans les études cliniques, dans un contexte réglementaire incertain.",
+        "titre": "Applied Clinical Trials : FDA issues draft guidance on Diversity Action Plans – détails pour les sponsors",
+        "resume": "Applied Clinical Trials Online a publié le 18 août 2026 une analyse complète du guide FDA, détaillant les exigences de format et contenu des DAP, les critères d'éligibilité des études concernées et la procédure de demande de dérogation (waiver). Les DAP s'appliquent aux études de Phase III et autres études pivotales, y compris certains dispositifs médicaux. La conformité sera requise 180 jours après la publication de la guidance finale.",
         "source": "Applied Clinical Trials Online",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/diversity-in-clinical-trials-path-to-achieving-health-equity",
-        "date_publication": "13/08/2026",
-        "pertinence": "moyenne",
-        "categorie": "recherche"
+        "url": "https://www.appliedclinicaltrialsonline.com/view/fda-draft-guidance-diversity-action-plans",
+        "date_publication": "18/08/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
       }
     ]
   }
