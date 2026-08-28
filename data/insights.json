@@ -1,83 +1,65 @@
 {
-  "generated_at": "2026-08-27T17:32:11.704839Z",
-  "date_fr": "27/08/2026",
+  "generated_at": "2026-08-28T18:28:01.328594Z",
+  "date_fr": "28/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Lightning v1.0 : entraîner les agents IA dans leur harness de production",
-        "resume": "Microsoft a publié le 17 août 2026 Agent Lightning v1.0, un framework open source sous licence MIT qui permet d'entraîner des agents IA par renforcement directement dans le même harness utilisé en production, éliminant l'écart train/serve. Avec seulement 6 000 exemples d'entraînement, la méthode améliore Qwen3.5-9B de 41,8 % à 56,4 % sur SWE-bench Verified, soit un gain absolu de 14,6 points. Le code, les scripts d'entraînement et la documentation sont publics sur GitHub (github.com/microsoft/agent-lightning) sous ~3 500 lignes de Python core avec support Kubernetes natif.",
-        "source": "Crypto Briefing / AI-TLDR / alphamatch.ai",
+        "titre": "Microsoft Agent Lightning v1.0 : framework open-source de RL pour agents en production",
+        "resume": "Microsoft a publié le 17 août 2026 Agent Lightning v1.0, un framework open-source de reinforcement learning (RL) sous licence MIT qui permet d'entraîner des agents IA sans modifier leur code, outils ou environnements existants. Le concept clé — 'harnessed agentic RL' — consiste à laisser le harness de production (et non le moteur d'entraînement) contrôler la boucle d'interaction avec l'environnement, réduisant ainsi le décalage entre entraînement et déploiement. Un exemple concret montré dans le repo : avec seulement 6K échantillons, un workflow Qwen3.5-9B améliore le score SWE-bench Verified de 41,8 % à 56,4 %.",
+        "source": "GitHub / Crypto Briefing / AI/TLDR",
         "url": "https://github.com/microsoft/agent-lightning",
         "date_publication": "17/08/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "DeepSeek Harness : pourquoi 95 000 étoiles GitHub en 2 jours et analyse de l'architecture",
-        "resume": "Analyse terrain détaillée du DeepSeek Harness publiée par Flowtivity le 14 août 2026, incluant une installation sur serveur propre, un décryptage de l'architecture plugin, et une évaluation des benchmarks réels. Le framework repose sur Cordis, formalisé dans un papier de 88 pages validant l'architecture sur un écosystème de plus de 4 000 plugins développés sur 4 ans. Le lancement coïncide avec la sortie de V4-Pro-0813 et une nouvelle grille tarifaire API peak/off-peak.",
-        "source": "Flowtivity.ai",
-        "url": "https://flowtivity.ai/blog/deepseek-harness-open-source-agent-explained/",
-        "date_publication": "14/08/2026",
-        "pertinence": "haute",
-        "categorie": "retour_experience"
-      },
-      {
-        "titre": "Agent Lightning v1.0 : pourquoi ça change la donne pour les ingénieurs plateforme",
-        "resume": "The New Stack publie le 20 août 2026 une analyse pratique d'Agent Lightning v1.0 expliquant pourquoi le paradigme 'harnessed agentic RL' résout un problème concret en production : la déconnexion entre environnement d'entraînement et harness de déploiement. Microsoft veut que le harness de production supervise l'infrastructure et les interactions agent dès l'entraînement initial, évitant la reconstruction coûteuse de la boucle agent dans un environnement de training séparé. L'article détaille les implications pour les équipes platform engineering.",
-        "source": "The New Stack",
-        "url": "https://thenewstack.io/microsoft-agent-lightning-harness/",
-        "date_publication": "20/08/2026",
-        "pertinence": "haute",
-        "categorie": "tutoriel"
+        "titre": "Sitero lance trois workflows agentiques pour son agent IA clinique Ash",
+        "resume": "Sitero a publié trois nouveaux workflows agentiques pour Ash, son agent IA clinique, couvrant la configuration d'études, la gestion des données et la génération d'insights. Ce lancement fait évoluer Ash d'un outil ponctuel vers un système capable de gérer l'ensemble du cycle de vie des données cliniques de bout en bout. Cela illustre la tendance vers des assistants IA spécialisés par domaine capables de traiter des workflows complets plutôt que des tâches isolées.",
+        "source": "Agentic.ai News",
+        "url": "https://agentic.ai/news",
+        "date_publication": "",
+        "pertinence": "moyenne",
+        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : les obligations de transparence Article 50 sont désormais en vigueur — ce qui s'applique réellement",
-        "resume": "Depuis le 2 août 2026, les obligations de transparence de l'AI Act (Article 50) s'appliquent à toutes les organisations déployant de l'IA dans l'UE : divulgation de l'interaction avec un système IA, étiquetage des deepfakes, marquage machine-readable des contenus générés par IA. Technology.org publie le 25 août une analyse actualisée précisant que les obligations pour les systèmes à haut risque (Annexe III) ont été repoussées au 2 décembre 2027 via le Digital Omnibus signé le 8 juillet 2026. L'Article 50 est la seule partie à s'appliquer intégralement dès le 2 août.",
+        "titre": "EU AI Act gets real : bilan au 28 août 2026 (Axios)",
+        "resume": "Axios publie ce jour un bilan de l'état d'avancement de l'AI Act depuis le 2 août : les exigences de transparence et de divulgation sont en vigueur pour les chatbots et les contenus générés par IA, mais aucune entreprise n'a encore été formellement poursuivie. L'AI Office peut désormais demander des informations aux entreprises ou l'accès à leurs modèles. Les règles pour les systèmes IA à haut risque (éducation, biométrie, migration, produits physiques) n'arriveront qu'en décembre 2027 et août 2028, ce qui signifie que des années seront nécessaires pour évaluer l'impact complet de la loi.",
+        "source": "Axios",
+        "url": "https://www.axios.com/2026/08/28/eu-ai-act-gets-real",
+        "date_publication": "28/08/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
+      },
+      {
+        "titre": "Digital Omnibus AI : ce qui s'applique réellement au 2 août 2026 et ce qui est repoussé",
+        "resume": "Un article de Technology.org du 25 août 2026 clarifie l'impact du Digital Omnibus sur l'AI Act : le Règlement (UE) 2026/1744 est entré en vigueur le 27 juillet 2026, repoussant les obligations pour les systèmes IA à haut risque (Annex III) au 2 décembre 2027. Ce qui est effectivement en vigueur depuis le 2 août : l'Article 50 (divulgation chatbot, marquage deepfakes, signalement reconnaissance d'émotions) et l'enforcement des règles GPAI. Les entreprises dont les systèmes étaient déjà sur le marché avant le 2 août disposent jusqu'au 2 décembre 2026 pour se conformer au marquage des contenus synthétiques.",
         "source": "Technology.org",
-        "url": "https://www.technology.org/2026/08/17/eu-ai-act-what-actually-applies-on-2-august-2026/",
+        "url": "https://www.technology.org/2026/07/17/eu-ai-act-what-actually-applies-on-2-august-2026/",
         "date_publication": "25/08/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "Keyfactor obtient la certification ISO 42001 pour la gouvernance IA",
-        "resume": "Keyfactor annonce le 18 août 2026 avoir obtenu la certification ISO 42001 après un audit indépendant réalisé par A-LIGN, couvrant son Artificial Intelligence Management System. La certification valide le cadre de gouvernance de l'entreprise pour le développement, le déploiement et l'utilisation responsables de l'IA, incluant gestion des risques, sécurité, transparence et éthique. Cet exemple concret illustre l'adoption croissante d'ISO 42001 comme standard de référence en réponse aux exigences de l'AI Act européen.",
-        "source": "The AI Insider",
-        "url": "https://theaiinsider.tech/2026/08/18/keyfactor-iso-42001-certification-ai-governance/",
-        "date_publication": "18/08/2026",
-        "pertinence": "haute",
-        "categorie": "certification"
-      },
-      {
-        "titre": "EU AI Act enforcement : analyse Lexology des deux développements clés du 2 août 2026",
-        "resume": "Lexology publie le 20 août 2026 une analyse synthétique des deux développements majeurs du 2 août : le démarrage de l'enforcement par l'AI Office et les autorités nationales (incluant les règles GPAI), et l'entrée en vigueur de l'Article 50 sur la transparence. L'article rappelle le calendrier actualisé par l'AI Omnibus : nouvelles interdictions en décembre 2026, règles systèmes à haut risque en décembre 2027, et systèmes intégrés dans des produits réglementés en août 2028. Les entreprises doivent s'attendre à une surveillance réglementaire renforcée.",
-        "source": "Lexology",
-        "url": "https://www.lexology.com/library/detail.aspx?g=cb8f5f71-8621-4e82-a83d-b5ce602fc5fc",
-        "date_publication": "20/08/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "réglementation"
       }
     ],
     "clinique": [
       {
-        "titre": "FDA publie un nouveau draft guidance sur les Diversity Action Plans pour les essais cliniques",
-        "resume": "La FDA a publié le 18 août 2026 un nouveau draft guidance intitulé 'Diversity Action Plans to Improve Enrollment of Participants from Underrepresented Populations in Clinical Studies', précisant le format, le contenu et le processus de soumission des DAPs. Le document décrit également le processus d'évaluation par la FDA des demandes de dérogation (waiver) à l'obligation de soumission. Les DAPs sont obligatoires pour les études de phase III et les études pivots de médicaments et dispositifs médicaux, conformément au FDORA.",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/fda-draft-guidance-diversity-action-plans",
-        "date_publication": "18/08/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "4 perspectives d'experts sur le nouveau draft guidance FDA relatif aux Diversity Action Plans",
-        "resume": "Applied Clinical Trials Online publie le 17 août 2026 les réactions de quatre experts sur le nouveau draft guidance FDA sur les DAPs. Les sponsors doivent désormais fournir leur justification et leurs objectifs d'enrollment décomposés par ethnie, sexe et race, ainsi que leur plan opérationnel pour atteindre ces objectifs. Le contexte est frappant : si les minorités ethniques et raciales représentent plus de 40 % de la population américaine, elles ne constituent typiquement que 5 à 10 % des participants aux essais cliniques.",
+        "titre": "4 perspectives d'experts sur la nouvelle guidance FDA sur les Diversity Action Plans",
+        "resume": "Applied Clinical Trials Online publie le 17 août 2026 les réactions de quatre leaders de l'industrie (Acclinate, Medable, Advarra, Curavit) sur la nouvelle guidance FDA relative aux DAPs. Les sponsors doivent désormais fournir leur justification et leurs objectifs d'enrôlement déclinés par ethnie, sexe et race, ainsi que leur plan opérationnel pour les atteindre. Les experts soulignent que si la guidance représente une avancée, les politiques actuelles constituent un 'plan' de diversité et non un mandat contraignant — les sanctions en cas de non-atteinte des objectifs pouvant se limiter à des études complémentaires en vie réelle.",
         "source": "Applied Clinical Trials Online",
         "url": "https://www.appliedclinicaltrialsonline.com/view/perspectives-fda-diversity-action-plan-guidance",
         "date_publication": "17/08/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "analyse_experts"
+      },
+      {
+        "titre": "FDA : nouvelle guidance sur les approches post-commercialisation pour les populations sous-représentées",
+        "resume": "La FDA a émis une nouvelle guidance draft sur les approches post-commercialisation pour obtenir des données sur les populations sous-représentées dans les essais cliniques de médicaments et produits biologiques. Elle décrit les stratégies que les sponsors peuvent utiliser après approbation pour renforcer les données de sécurité et d'efficacité pour des populations insuffisamment incluses en pré-marché, notamment via des essais à bras unique, des modèles bayésiens et le regroupement de données inter-essais. La FDA peut exiger ces études post-marché si des signaux de risque différentiel selon la race ou l'ethnie ont été détectés sans population suffisante lors de l'essai pivotal.",
+        "source": "Applied Clinical Trials Online / JDSupra",
+        "url": "https://www.appliedclinicaltrialsonline.com/view/fda-draft-guidance-diversity-action-plans",
+        "date_publication": "18/08/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
       }
     ]
   }
