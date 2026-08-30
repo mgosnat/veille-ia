@@ -1,42 +1,59 @@
 {
-  "generated_at": "2026-08-29T12:33:31.851259Z",
-  "date_fr": "29/08/2026",
+  "generated_at": "2026-08-30T11:40:48.179095Z",
+  "date_fr": "30/08/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Lightning v1.0 : RL harnessé pour agents en production (17 août 2026)",
-        "resume": "Microsoft Research a publié le 17 août 2026 sous licence MIT ce framework de reinforcement learning qui entraîne les agents IA directement dans le harness de production, éliminant le décalage train/serve. Avec seulement 6 000 exemples d'entraînement, il améliore Qwen3.5-9B de 41,8 % à 56,4 % sur SWE-bench Verified (+14,6 pts). Le code, les scripts et la documentation sont disponibles sur github.com/microsoft/agent-lightning.",
-        "source": "Cryptobriefing / AI/TLDR / AlphaMatch AI",
+        "titre": "Microsoft Agent Lightning v1.0 : framework open-source de RL pour agents en production",
+        "resume": "Microsoft a publié le 17 août 2026 Agent Lightning v1.0, un framework open-source de reinforcement learning qui permet d'entraîner des agents IA directement dans leur harness de production, sans modifier le code existant. Le paradigme 'harnessed agentic RL' élimine le décalage train/déploiement : sur SWE-bench Verified, le modèle Qwen3.5-9B passe de 41,8 % à 56,4 % avec seulement 6 000 exemples d'entraînement. Disponible sous licence MIT sur GitHub (microsoft/agent-lightning), avec support Kubernetes natif et environ 3 500 lignes de code.",
+        "source": "The New Stack / GitHub Microsoft",
         "url": "https://github.com/microsoft/agent-lightning",
         "date_publication": "17/08/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Sitero étend Ash, agent IA clinique, sur le cycle de vie complet des données (18 août 2026)",
-        "resume": "Sitero a lancé simultanément trois workflows agentiques pour Ash (Study Configuration, Data Management, Insights) couvrant tout le cycle de données cliniques dans des environnements GxP. Ash for Study Configuration réduit le setup d'essai de plusieurs mois à deux semaines ; Ash for Data Management a livré plus de 180 contrôles de revue en 5 semaines chez un Top 10 pharma, soit 75 % plus rapide que les méthodes traditionnelles. Chaque workflow inclut une revue humaine obligatoire à chaque point de décision.",
-        "source": "PR Newswire / Yahoo Finance / Dealroom",
-        "url": "https://www.prnewswire.com/news-releases/sitero-extends-ash-a-clinical-ai-agent-across-the-full-clinical-data-lifecycle-302853590.html",
+        "titre": "Grok Bot (xAI) : agent always-on lancé en beta en août 2026",
+        "resume": "xAI a lancé Grok Bot en août 2026, un agent toujours actif disposant de son propre ordinateur cloud pour exécuter des tâches multi-étapes dans les applications existantes. Actuellement en bêta, il est inclus dans l'abonnement premium de xAI et les plans Cursor Premium (suite à leur fusion), avec une liste d'attente pour les entreprises. L'agent vérifie les approbations humaines aux étapes clés.",
+        "source": "Moxo Blog",
+        "url": "https://www.moxo.com/blog/agentic-ai-tools",
+        "date_publication": "21/08/2026",
+        "pertinence": "moyenne",
+        "categorie": "produit"
+      },
+      {
+        "titre": "KTX Skills Kit : agents financiers connectés à l'exécution d'ordres (18 août 2026)",
+        "resume": "KTX a lancé son Skills Kit le 18 août 2026 à Séoul, connectant des agents dans Claude, ChatGPT, Codex et Cursor aux données de marché, outils de portefeuille et plateformes d'exécution d'ordres. Le système permet à un agent d'analyser des données de marché, de décider d'une action et de l'exécuter directement, signalant un passage du conseil conversationnel à l'exécution autonome dans la fintech.",
+        "source": "Agentic.ai News",
+        "url": "https://agentic.ai/news",
+        "date_publication": "18/08/2026",
+        "pertinence": "moyenne",
+        "categorie": "produit"
+      },
+      {
+        "titre": "eDiscovery AI – CaseBot avec Skill Agents pour la production juridique (18 août 2026)",
+        "resume": "eDiscovery AI a annoncé le 18 août 2026 la prochaine génération de CaseBot, intégrant des Skill Agents dans sa plateforme Conversational Discovery. Ces agents produisent des livrables juridiques structurés avec citations en quelques minutes, allant au-delà du simple Q&R pour compléter des travaux réglementés. Ce lancement illustre le passage des outils de chat aux systèmes qui finalisent des travaux de conformité.",
+        "source": "Agentic.ai News",
+        "url": "https://agentic.ai/news",
+        "date_publication": "18/08/2026",
+        "pertinence": "moyenne",
+        "categorie": "cas_usage"
+      },
+      {
+        "titre": "Sitero étend Ash, agent IA clinique, à l'ensemble du cycle de vie des données d'essai",
+        "resume": "Le 18 août 2026, Sitero a publié simultanément trois workflows agentiques pour Ash (Study Configuration, Data Management, Insights), couvrant tout le cycle de données cliniques avec revue humaine obligatoire à chaque étape de décision. Ash for Study Configuration réduit le setup d'une étude de plusieurs mois à deux semaines ; Ash for Data Management a livré plus de 180 contrôles en cinq semaines (75 % plus rapide qu'en manuel) lors d'un déploiement avec un top-10 pharma. Aucun workflow ne prend de décision clinique, de sécurité ou de qualité de manière autonome.",
+        "source": "PR Newswire / Yahoo Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/sitero-extends-ash-clinical-ai-120800332.html",
         "date_publication": "18/08/2026",
         "pertinence": "haute",
         "categorie": "cas_usage"
       }
     ],
-    "gouvernance": [
-      {
-        "titre": "Keyfactor obtient la certification ISO 42001 pour la gouvernance IA (18 août 2026)",
-        "resume": "Keyfactor a annoncé le 18 août 2026 avoir obtenu la certification ISO 42001 suite à un audit indépendant conduit par A-LIGN, couvrant son système de management de l'IA (AIMS). La certification reconnaît le cadre de l'entreprise pour la gouvernance responsable du développement, du déploiement et de l'utilisation de l'IA. C'est un signal fort pour les entreprises cherchant à démontrer leur conformité avant les futures échéances réglementaires.",
-        "source": "The AI Insider / Keyfactor Press Release",
-        "url": "https://theaiinsider.tech/2026/08/18/keyfactor-iso-42001-certification-ai-governance/",
-        "date_publication": "18/08/2026",
-        "pertinence": "haute",
-        "categorie": "certification"
-      }
-    ],
+    "gouvernance": [],
     "clinique": [
       {
-        "titre": "4 perspectives d'experts sur le nouveau guidance FDA Diversity Action Plan (17 août 2026)",
-        "resume": "Applied Clinical Trials Online a recueilli le 17 août 2026 les réactions de plusieurs leaders de l'industrie sur l'impact du guidance FDA sur les DAPs pour les sponsors. Les experts soulignent que bien que plus de 40 % de la population américaine appartienne à une minorité ethnique ou raciale, seulement 5 à 10 % des participants aux essais cliniques représentent ces populations. Le guidance est perçu comme un tournant, mais aussi comme un défi opérationnel pour concilier objectifs de diversité et délais de développement.",
+        "titre": "4 perspectives de leaders de l'industrie sur la guidance FDA Diversity Action Plan (17 août 2026)",
+        "resume": "Applied Clinical Trials Online a publié le 17 août 2026 des réactions de leaders sectoriels sur la nouvelle guidance FDA sur les DAPs. Les experts soulignent que les sponsors doivent désormais fournir leur justification et leurs objectifs d'enrôlement détaillés par facteurs socio-économiques (ethnicité, sexe, race) ainsi que la stratégie pour les atteindre. La conformité au DAP n'entrera en vigueur que 180 jours après la publication de la guidance finale.",
         "source": "Applied Clinical Trials Online",
         "url": "https://www.appliedclinicaltrialsonline.com/view/perspectives-fda-diversity-action-plan-guidance",
         "date_publication": "17/08/2026",
@@ -44,13 +61,22 @@
         "categorie": "analyse"
       },
       {
-        "titre": "Cornerstone AI présente des résultats peer-reviewed sur la standardisation IA de données cliniques (18 août 2026)",
-        "resume": "Cornerstone AI a présenté le 18 août 2026 à la 42e réunion annuelle de l'ISPE à New York des résultats peer-reviewed montrant que sa standardisation assistée par IA surpasse les workflows manuels en termes d'exactitude, d'exhaustivité et de reproductibilité sur 19 415 patients atteints de MASH. Ces résultats signalent que les outils de nettoyage autonomes peuvent améliorer la qualité des datasets cliniques. C'est un cas d'usage concret d'IA au service de la qualité des données dans les essais.",
-        "source": "Agentic.ai News",
-        "url": "https://agentic.ai/news",
+        "titre": "FDA Issues Draft Guidance on Diversity Action Plans – détails pratiques pour les sponsors (18 août 2026)",
+        "resume": "Applied Clinical Trials Online a publié le 18 août 2026 un article détaillé expliquant les modalités pratiques de soumission des DAPs à la FDA selon la nouvelle guidance. Les plans s'appliquent aux études cliniques de phase III et aux autres études pivotales (médicaments, biologiques et dispositifs médicaux). La FDA précise que les DAPs visent à améliorer la généralisabilité des données en reflétant la population réelle de patients susceptibles d'utiliser le produit médical.",
+        "source": "Applied Clinical Trials Online",
+        "url": "https://www.appliedclinicaltrialsonline.com/view/fda-draft-guidance-diversity-action-plans",
         "date_publication": "18/08/2026",
-        "pertinence": "moyenne",
-        "categorie": "recherche"
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "Sitero Ash : agent IA clinique accélère setup d'étude de plusieurs mois à 2 semaines (18 août 2026)",
+        "resume": "Le 18 août 2026, Sitero a lancé trois workflows agentiques pour Ash incluant Ash for Study Configuration (réduction du setup de plusieurs mois à 2 semaines) et Ash for Data Management (plus de 180 contrôles en 5 semaines, 75 % plus rapide qu'en manuel lors d'un essai avec un top-10 pharma). Ce cas d'usage concret documente l'impact des agents IA sur le cycle de vie complet des essais cliniques, avec une couche de gouvernance GxP et revue humaine obligatoire à chaque étape de décision.",
+        "source": "PR Newswire / Yahoo Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/sitero-extends-ash-clinical-ai-120800332.html",
+        "date_publication": "18/08/2026",
+        "pertinence": "haute",
+        "categorie": "cas_usage"
       }
     ]
   }
