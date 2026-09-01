@@ -1,47 +1,19 @@
 {
-  "generated_at": "2026-08-31T13:16:03.634000Z",
-  "date_fr": "31/08/2026",
+  "generated_at": "2026-09-01T11:26:54.576184Z",
+  "date_fr": "01/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Microsoft Agent Lightning v1.0 : entraînement RL dans le harness de production",
-        "resume": "Microsoft a publié le 17 août 2026 Agent Lightning v1.0, un framework open source (MIT) de reinforcement learning permettant d'entraîner un agent directement dans son harness de production sans le reconstruire. Avec seulement 6 000 exemples, le modèle Qwen3.5-9B passe de 41,8 % à 56,4 % sur SWE-bench Verified. Le code, les scripts et la documentation sont disponibles sur GitHub (github.com/microsoft/agent-lightning).",
-        "source": "Crypto Briefing / AI/TLDR / The New Stack",
+        "titre": "Microsoft Agent Lightning v1.0 : framework RL open-source pour entraîner les agents dans leur harness de production",
+        "resume": "Microsoft a publié le 17 août 2026 Agent Lightning v1.0, un framework d'apprentissage par renforcement open-source (MIT) qui permet d'entraîner les agents IA directement dans le même harness utilisé en production, éliminant l'écart train/déploiement. Avec seulement 6 000 exemples d'entraînement, le framework améliore Qwen3.5-9B de 41,8 % à 56,4 % sur SWE-bench Verified (+14,6 pts). Le code, la documentation et les scripts sont disponibles sur github.com/microsoft/agent-lightning sous licence MIT.",
+        "source": "Cryptobriefing / AI/TLDR / The New Stack",
         "url": "https://cryptobriefing.com/microsoft-agent-lightning-agentic-rl/",
         "date_publication": "22/08/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Cas terrain : Sauder Woodworking réduit ses temps de changement de 93 % avec ChampionAI (Redzone/QAD)",
-        "resume": "Publié le 18 août 2026 par Redzone (QAD), ce cas documenté montre que Sauder Woodworking — principal fournisseur nord-américain d'IKEA — a réduit son temps moyen de changement de ligne de 93 % (de 19 minutes à 1 min 24 s) et augmenté sa productivité de 40 % en un an. ChampionAI, la couche agentique native de Redzone, permet aux managers de requêter en temps réel l'état de la production au lieu d'attendre les rapports du lendemain. Le bénéfice quantifié inclut 4,8 M$ d'économies annuelles de main-d'œuvre.",
-        "source": "Yahoo Finance / ERP Today / Business Wire",
-        "url": "https://finance.yahoo.com/technology/ai/articles/sauder-woodworking-cuts-changeover-time-120000987.html",
-        "date_publication": "18/08/2026",
-        "pertinence": "haute",
-        "categorie": "cas_usage"
-      },
-      {
-        "titre": "Agent Assurance (TestMu/LambdaTest) : vérification en CI/CD des agents conversationnels et autonomes",
-        "resume": "Lancé dans la semaine du 17–25 août 2026, Agent Assurance de TestMu (anciennement LambdaTest) dérive automatiquement des tests end-to-end depuis le code source, exercice les agents (conversationnels et autonomes) et produit un rapport d'\"assurance gap\" sur les comportements non observables. Le produit est conçu pour s'intégrer en gate dans les pipelines CI/CD avant mise en production. Il comble un manque critique dans l'outillage de qualité pour agents en production.",
-        "source": "aiagentstore.ai Manufacturing Agentic AI News",
-        "url": "https://aiagentstore.ai/ai-agent-news/topic/manufacturing",
-        "date_publication": "25/08/2026",
         "pertinence": "haute",
         "categorie": "outil"
       }
     ],
     "gouvernance": [],
-    "clinique": [
-      {
-        "titre": "FDA publie une nouvelle guidance sur les Diversity Action Plans pour les essais cliniques — août 2026",
-        "resume": "La FDA a publié mi-août 2026 une guidance actualisée détaillant le format, le contenu et le calendrier de soumission des Diversity Action Plans (DAPs), désormais obligatoires pour la majorité des essais pivots de phase 3 (médicaments, dispositifs, biologiques). Les sponsors doivent documenter leurs objectifs de recrutement ventilés par âge, sexe, race et ethnicité, et expliquer leur stratégie pour les atteindre. Bien que 40 % de la population américaine appartienne à une minorité raciale ou ethnique, 80 à 90 % des participants aux essais sont blancs.",
-        "source": "Applied Clinical Trials Online / Pharmaphorum",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/fda-draft-guidance-diversity-action-plans",
-        "date_publication": "18/08/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      }
-    ]
+    "clinique": []
   }
 }
