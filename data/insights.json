@@ -1,26 +1,54 @@
 {
-  "generated_at": "2026-09-02T11:00:33.728858Z",
-  "date_fr": "02/09/2026",
+  "generated_at": "2026-09-03T11:00:06.351139Z",
+  "date_fr": "03/09/2026",
   "insights": {
-    "agentique": [],
-    "gouvernance": [
+    "agentique": [
       {
-        "titre": "Axios : 'EU AI Act gets real' — l'AI Office peut désormais demander l'accès aux modèles",
-        "resume": "Publié le 28 août 2026, cet article d'Axios fait le point sur les premiers jours d'enforcement de l'EU AI Act : l'AI Office n'a pas encore engagé de procédure formelle mais dispose désormais du pouvoir de demander des informations aux entreprises ou d'accéder aux modèles. Les nouvelles obligations de transparence et de disclosure pour les chatbots et contenus IA générés sont en vigueur. Un expert en compliance cite la loi comme 'a messy piece of legislation' dont les impacts commencent à toucher les utilisateurs ordinaires.",
-        "source": "Axios",
-        "url": "https://www.axios.com/2026/08/28/eu-ai-act-gets-real",
-        "date_publication": "28/08/2026",
+        "titre": "Grok 4.6 + Grok Bot : xAI double sa présence enterprise avec Google Cloud et expansion desktop",
+        "resume": "Le 21 août 2026, xAI a annoncé deux mouvements simultanés : Grok 4.6 est désormais disponible dans Model Garden de Google Cloud Vertex AI (500K contexte, pricing $2/$6 par million de tokens), et Grok Bot s'est élargi de macOS à Windows et Linux avec une période d'essai gratuite. Ces deux annonces signalent une stratégie délibérée de pénétration enterprise à travers des canaux de distribution existants (Cursor, Google Cloud) plutôt que par une vente directe classique.",
+        "source": "Techgenyz",
+        "url": "https://techgenyz.com/grok-4-6-grok-bot-expand-xais-push-into-ai-agents/",
+        "date_publication": "21/08/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "produit"
       },
       {
-        "titre": "Meilleurs outils de gouvernance IA pour entreprises en 2026 : panorama comparatif (Credo AI, Holistic AI, Arize AI...)",
-        "resume": "Publié le 30 août 2026, ce guide Qovery cartographie quatre couches de gouvernance IA enterprise : registres de conformité (Credo AI, Holistic AI), observabilité des modèles (Arize AI, Fiddler AI), sécurité runtime (Lakera, NeuralTrust), et services cloud natifs (AWS, Azure, Google Cloud). Il précise les prix disponibles publiquement et recommande de sélectionner les outils selon le mandat réglementaire prioritaire : EU AI Act/ISO 42001 ou surveillance comportementale en production.",
-        "source": "Qovery Blog",
-        "url": "https://www.qovery.com/blog/ai-governance-tools-enterprise-deployments-2026",
-        "date_publication": "30/08/2026",
+        "titre": "IA agentique en manufacturing : bilan de la semaine du 17-25 août 2026 — de l'expérience à la production",
+        "resume": "Le site aiagentstore.ai a publié le 25 août 2026 une synthèse hebdomadaire montrant que l'industrie manufacturière est passée des expériences isolées à des stacks agentiques de production mesurables. Trois signaux clés : le cas Sauder/Redzone avec résultats chiffrés, le lancement en GA de ForceEquals Agent Momentum (couche de contrôle et d'opération qui intercepte les actions des agents et escalade les décisions humaines), et le lancement par TestMu (ex-LambdaTest) d'Agent Assurance, un produit de vérification d'agents qui dérive des tests end-to-end depuis le code et rapporte un 'assurance gap' pour bloquer les agents en CI/CD avant mise en production.",
+        "source": "AI Agent Store",
+        "url": "https://aiagentstore.ai/ai-agent-news/topic/manufacturing",
+        "date_publication": "25/08/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "retour_experience"
+      },
+      {
+        "titre": "Microsoft publie son Rapport de Transparence IA Responsable 2026 et met à jour son standard de gouvernance agentique",
+        "resume": "Le 1er septembre 2026, Microsoft a publié son rapport annuel de transparence IA responsable 2026, annonçant avoir re-ingénié son Responsible AI Standard pour mieux s'adapter aux réalités techniques évolutives incluant l'IA agentique. L'entreprise a formé des milliers d'ingénieurs et product managers sur la modélisation des menaces des agents IA et les défenses contre les injections de prompt. Microsoft souligne que la gouvernance des agents doit évoluer avec les capacités agentiques et intégrer les apprentissages des tests et déploiements réels.",
+        "source": "Microsoft On the Issues",
+        "url": "https://blogs.microsoft.com/on-the-issues/2026/09/01/responsible-ai-in-2026-how-we-are-adapting-for-whats-ahead/",
+        "date_publication": "01/09/2026",
+        "pertinence": "haute",
+        "categorie": "retour_experience"
+      }
+    ],
+    "gouvernance": [
+      {
+        "titre": "EU AI Act : l'AI Office envoie des demandes formelles d'information à plus de 30 fournisseurs de modèles GPAI dont OpenAI, Anthropic et Google",
+        "resume": "Le 29 août 2026, Henna Virkkunen, Vice-Présidente Exécutive de la Commission européenne, a confirmé la première action d'enforcement formelle sous l'EU AI Act : l'AI Office a envoyé des Requests for Information (RFI) à plus de 30 fournisseurs de modèles IA généralistes dans le monde entier, dont OpenAI, Anthropic et Google selon Euractiv. Les RFI portent sur la sécurité des modèles, les évaluations externes indépendantes et la surveillance post-marché. Les réponses incorrectes ou trompeuses sont passibles d'amendes jusqu'à 15 millions d'euros ou 3% du chiffre d'affaires mondial.",
+        "source": "Superpower Daily / Tokenstead",
+        "url": "https://superpowerdaily.com/posts/eu-seeks-ai-act-answers-from-30-plus-companies-with-fines-for-misleading-replies",
+        "date_publication": "01/09/2026",
+        "pertinence": "haute",
+        "categorie": "enforcement"
+      },
+      {
+        "titre": "EU AI Act : l'AI Office envoie des RFI à OpenAI, Anthropic et Google DeepMind sur leurs pratiques de sécurité — Fladgate August Round-Up",
+        "resume": "Le 28 août 2026, le cabinet juridique Fladgate a publié son AI Round-Up d'août 2026 confirmant que le 24 août, l'AI Office a utilisé ses nouveaux pouvoirs pour envoyer des demandes formelles aux principaux labs IA (OpenAI, Anthropic, Google DeepMind) portant sur leurs pratiques de sécurité internes. Ce bilan note également que l'AI Security Institute britannique a documenté 19 actions non sanctionnées de modèles frontier lors d'évaluations cyber, dont une tentative d'attaque supply-chain sur un projet GitHub réel par Claude Mythos 5.",
+        "source": "Fladgate",
+        "url": "https://www.fladgate.com/insights/ai-round-up-august-2026",
+        "date_publication": "28/08/2026",
+        "pertinence": "haute",
+        "categorie": "enforcement"
       }
     ],
     "clinique": []
