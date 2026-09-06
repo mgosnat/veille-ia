@@ -1,81 +1,72 @@
 {
-  "generated_at": "2026-09-05T10:21:07.308220Z",
-  "date_fr": "05/09/2026",
+  "generated_at": "2026-09-06T10:41:47.277376Z",
+  "date_fr": "06/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "HighByte Intelligence Hub 4.5 : configuration agentique pour l'industrie manufacturière",
-        "resume": "HighByte a annoncé le 27 août 2026 la disponibilité générale de Intelligence Hub 4.5, introduisant un Modeling Agent en langage naturel pour contextualiser les données industrielles et un Data Lineage Graph permettant de tracer les relations entre objets configurés. La version étend également le support MCP (Model Context Protocol) pour connections, modèles et instances, avec revue humaine à chaque étape. Premier cas concret d'agent déployé en production sur des workflows industriels OT/IT.",
-        "source": "Supply & Demand Chain Executive / Assembly Magazine",
+        "titre": "HighByte Intelligence Hub 4.5 : agent de modélisation industriel avec MCP pour l'usine 4.0",
+        "resume": "HighByte a mis en disponibilité générale la version 4.5 de son logiciel Industrial DataOps, introduisant un Modeling Agent en langage naturel qui permet aux équipes OT de créer et modifier des modèles de données industriels sans code spécialisé. L'agent intègre le Model Context Protocol (MCP) étendu aux connexions, modèles et instances, avec revue humaine obligatoire avant chaque changement. Un nouveau Data Lineage Graph permet de tracer l'origine de chaque valeur de données en posant une question en langage naturel.",
+        "source": "Supply & Demand Chain Executive / Quality Magazine",
         "url": "https://www.sdcexec.com/software-technology/ai-ar/news/22972828/highbyte-highbyte-releases-agentic-configuration-for-industrial-dataops",
         "date_publication": "27/08/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "CrowdStrike lance Falcon Guardian : sécurité runtime pour agents IA en production",
-        "resume": "Le 1er septembre 2026 à Fal.Con 2026, CrowdStrike a dévoilé Falcon Guardian, une solution AIDR (AI Detection and Response) offrant visibilité complète et enforcement runtime sur les agents IA exécutés en endpoint, cloud, SaaS et navigateur. La solution découvre les agents sanctionnés et shadow AI, inventorie leur statut de sécurité, et peut bloquer une action malveillante en temps réel. Cas d'usage concret : gouvernance des flottes d'agents en entreprise face aux risques de 'living off the AI land' (LOTAIL).",
-        "source": "CrowdStrike Press Release",
-        "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-unveils-falcon-guardian-ai-agent-security/",
-        "date_publication": "01/09/2026",
+        "titre": "Somansa lance Privacy-i AIDR : contrôle OS-level des agents IA shadow en production",
+        "resume": "Somansa a lancé le 26 août 2026 le module Privacy-i AIDR, qui étend sa plateforme de sécurité endpoint en ajoutant une couche de détection et réponse spécifique aux agents IA. Le module applique des permissions au niveau du système d'exploitation pour contrôler en temps réel les fichiers, programmes et ressources système accessibles aux agents shadow non sanctionnés. Cette annonce illustre le pivot des éditeurs de sécurité de la détection passive vers le contrôle actif en production.",
+        "source": "Agentic.ai News",
+        "url": "https://agentic.ai/news",
+        "date_publication": "26/08/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Guide pratique terrain : LangGraph vs CrewAI vs n8n – lequel choisir en production en 2026 ?",
-        "resume": "Mis à jour le 28 août 2026, ce guide de PromptQuorum tranche clairement : LangGraph pour les agents auditables avec état explicite, CrewAI pour prototyper un multi-agent en une journée, n8n pour les intégrations business (CRM, email, Shopify). Il note qu'AutoGen est entré en mode maintenance en 2026 et que Microsoft recommande officiellement Microsoft Agent Framework comme successeur. Article basé sur des retours d'implémentations réelles, pas de théorie.",
-        "source": "PromptQuorum",
-        "url": "https://www.promptquorum.com/local-llms/best-ai-agent-framework-2026",
-        "date_publication": "28/08/2026",
-        "pertinence": "haute",
-        "categorie": "comparatif"
-      },
-      {
-        "titre": "AI Agents News – Semaine du 5 septembre 2026 : Genesys, Conversed.ai et nouveaux déploiements enterprise",
-        "resume": "Le roundup hebdomadaire du 5 septembre 2026 documente plusieurs déploiements concrets : Genesys Cloud révèle quatre produits agentiques (Navigator, Orchestrator, Contextual Intelligence, AI Control Plane) avec un agent virtuel vocal mis à jour. Une startup Amsterdam (Conversed.ai) lève des fonds de croissance. Des cas d'usage entreprise réels sont documentés chez Basis, Clay et Exa Labs pour l'onboarding et la gestion de comptes via agents.",
-        "source": "AI Agent Store",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "05/09/2026",
-        "pertinence": "haute",
-        "categorie": "cas d'usage"
-      },
-      {
-        "titre": "Best AI Agent Frameworks 2026 : benchmark production LangGraph, CrewAI, n8n – 9 frameworks comparés",
-        "resume": "Publié il y a 5 jours (vers le 1er septembre 2026), ce guide d'AyAutomate documente que LangGraph est déployé en production chez Anthropic, Replit, LinkedIn et Uber grâce à ses graphes d'état stateful et checkpoints human-in-the-loop. CrewAI est positionné comme la voie la plus rapide vers un prototype multi-agent. Contient des retours terrain concrets sur les trade-offs coût/latence par framework.",
-        "source": "AyAutomate",
-        "url": "https://www.ayautomate.com/blog/best-multi-agent-frameworks",
+        "titre": "Anthropic : rapport 2026 State of AI Agents — comment les entreprises déploient des agents en production",
+        "resume": "Anthropic a publié son rapport annuel \"The 2026 State of AI Agents\" documentant comment les organisations passent des expérimentations à des infrastructures agentiques en production. Le rapport couvre les workflows multi-étapes en RH, finance, IT et opérations, et documente le passage d'une logique « meilleure UX » à une automatisation réelle de workflows complets end-to-end. Des témoignages d'entreprises décrivent les patterns architecturaux qui distinguent les déploiements réussis des projets bloqués en pilote.",
+        "source": "Anthropic",
+        "url": "https://resources.anthropic.com/hubfs/The%202026%20State%20of%20AI%20Agents%20Report.pdf",
         "date_publication": "01/09/2026",
         "pertinence": "haute",
-        "categorie": "comparatif"
+        "categorie": "retour_experience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "AI Governance Just Became Enforcement : le checklist 7 piliers post-2 août 2026",
-        "resume": "Publié le 3 septembre 2026, cet article documente que depuis le 2 août 2026, l'EU AI Act impose des obligations concrètes aux systèmes IA à haut risque, avec des amendes jusqu'à 35 M€ ou 7% du CA mondial. Un sondage révèle que 63% des entreprises ne peuvent pas encore enforcer les limitations de finalité de leurs agents et 60% ne peuvent pas terminer un agent défaillant. L'article détaille un checklist de conformité en 7 piliers : risk management, data governance, logging, transparence, supervision humaine, cybersécurité et monitoring post-marché.",
+        "titre": "L'AI Office européen lance sa première vague d'audits on-site sur les systèmes IA à haut risque (30 août 2026)",
+        "resume": "Le 30 août 2026, l'AI Office européen a débuté ses premières inspections physiques dans le cadre de l'EU AI Act, ciblant les systèmes de screening de CV, de scoring crédit et de triage médical. Les auditeurs ont exigé des diagrammes d'architecture, journaux de gouvernance des données, schémas de supervision humaine et registres de gestion des risques. Vingt-quatre autorités nationales de surveillance de marché participent aux demandes, menées par la CNIL française, le BfDI allemand et l'AESIA espagnole.",
+        "source": "Tonisha Tagoe / Cubbbix (cité)",
+        "url": "https://www.tonishatagoe.com/september-2026-ai-regulation-surge-how-enterprises-can-preserve-sovereignty-amid-fragmented-rules/",
+        "date_publication": "04/09/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "Gouvernance IA = enforcement : le bilan de la deadline EU AI Act du 2 août 2026 pour les entreprises",
+        "resume": "Depuis le 2 août 2026, les obligations EU AI Act pour les systèmes IA à haut risque sont exécutoires, avec des amendes pouvant atteindre 35 millions d'euros ou 7 % du chiffre d'affaires mondial. Une enquête révèle que 100 % des entreprises ont des agents IA dans leur roadmap, mais 63 % ne peuvent pas encore enforcer des limitations d'usage et 60 % sont incapables d'arrêter un agent défaillant. L'article identifie sept piliers de compliance (gestion du risque, gouvernance des données, journalisation, transparence, supervision humaine, cybersécurité, monitoring post-marché) et clarifie que les agents IA appelant des APIs sont désormais dans le périmètre réglementaire.",
         "source": "GrowToYourFullest",
         "url": "https://www.growtoyourfullest.com/single-post/governance-just-became-enforcement-ai-compliance-moment-every-enterprise-faces",
         "date_publication": "03/09/2026",
         "pertinence": "haute",
-        "categorie": "conformité"
+        "categorie": "reglementation"
       },
       {
-        "titre": "Agentic AI Governance for Enterprise Teams : guide Dataversity",
-        "resume": "Publié il y a 4 jours (1er septembre 2026), ce guide Dataversity explique pourquoi la gouvernance des agents IA exige un monitoring continu en action, contrairement à l'IA traditionnelle. Il couvre les checks nécessaires en production : authority boundaries, escalation thresholds, runtime constraints, logging, traceability et identity & access controls. Il signale que la santé, la finance et le gouvernement sont les secteurs qui adaptent le plus vite leurs frameworks (HIPAA, SR 11-7 Fed Reserve).",
-        "source": "Dataversity",
-        "url": "https://www.dataversity.net/articles/agentic-ai-governance-enterprise-autonomous-systems/",
-        "date_publication": "01/09/2026",
+        "titre": "Septembre 2026 : vague réglementaire mondiale IA simultanée — UE, USA, Brésil, Inde, Chine",
+        "resume": "Un article de Tonisha Tagoe analyse la convergence inédite de vagues réglementaires IA en septembre 2026 : audits EU AI Act, 30 projets de loi californiens soumis au gouverneur Newsom avant le 30 septembre, vote en attente au Sénat brésilien sur une loi IA à responsabilité stricte, et cadre de responsabilité indien pour l'IA générative. Cette simultanéité crée un paysage de compliance fragmenté pour les entreprises opérant dans plusieurs juridictions. L'article décrit un scénario concret : une fintech globale confrontée à trois timelines réglementaires contradictoires pour le lancement d'une plateforme de scoring crédit IA.",
+        "source": "Tonisha Tagoe",
+        "url": "https://www.tonishatagoe.com/september-2026-ai-regulation-surge-how-enterprises-can-preserve-sovereignty-amid-fragmented-rules/",
+        "date_publication": "04/09/2026",
         "pertinence": "haute",
-        "categorie": "gouvernance enterprise"
+        "categorie": "reglementation"
       },
       {
-        "titre": "Latest Agentic AI & Agent Governance News – 3 septembre 2026 : OpenAgentFlow et contrôle d'agents en flotte",
-        "resume": "Roundup du 3 septembre 2026 présentant OpenAgentFlow, une architecture control-plane/action-plane qui enforce la sécurité à la frontière d'action-commit pour les agents. Documente également comment des entreprises comme Basis et Clay déploient des agents en production pour l'onboarding client. Aborde la problématique de la complexité exponentielle des flottes d'agents (10 agents = des dizaines de chemins d'appels potentiels ingouvernables).",
-        "source": "Kubeify / Agent Governance Newsletter",
-        "url": "https://shyam.kubeify.com/2026/09/latest-agentic-ai-ai-agents-agent_02009761093.html",
-        "date_publication": "03/09/2026",
+        "titre": "Shadow AI agents : 76 % des organisations ne gouvernent pas leurs identités non-humaines",
+        "resume": "Un article d'O'Reilly (Radar) analyse le fossé de gouvernance entre le déploiement des agents IA et leur découverte par les équipes sécurité, s'appuyant sur le rapport Netwrix 2026 indiquant que 76 % des organisations ne gouvernent pas pleinement leurs identités non-humaines incluant les agents IA. Le rapport Verizon DBIR 2026 révèle que l'utilisation d'outils IA non approuvés a triplé pour atteindre 45 % de la main-d'œuvre. L'article décrit les patterns d'accès permanent (standing privileges) comme le principal vecteur de risque pour les flottes d'agents en production.",
+        "source": "O'Reilly Radar",
+        "url": "https://www.oreilly.com/radar/shadow-agents-standing-privileges-and-the-governance-gap-between-deployment-and-discovery/",
+        "date_publication": "24/08/2026",
         "pertinence": "haute",
-        "categorie": "gouvernance agentique"
+        "categorie": "risque"
       }
     ],
     "clinique": []
