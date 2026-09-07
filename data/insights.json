@@ -1,72 +1,72 @@
 {
-  "generated_at": "2026-09-06T10:41:47.277376Z",
-  "date_fr": "06/09/2026",
+  "generated_at": "2026-09-07T12:07:06.325257Z",
+  "date_fr": "07/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "HighByte Intelligence Hub 4.5 : agent de modélisation industriel avec MCP pour l'usine 4.0",
-        "resume": "HighByte a mis en disponibilité générale la version 4.5 de son logiciel Industrial DataOps, introduisant un Modeling Agent en langage naturel qui permet aux équipes OT de créer et modifier des modèles de données industriels sans code spécialisé. L'agent intègre le Model Context Protocol (MCP) étendu aux connexions, modèles et instances, avec revue humaine obligatoire avant chaque changement. Un nouveau Data Lineage Graph permet de tracer l'origine de chaque valeur de données en posant une question en langage naturel.",
-        "source": "Supply & Demand Chain Executive / Quality Magazine",
-        "url": "https://www.sdcexec.com/software-technology/ai-ar/news/22972828/highbyte-highbyte-releases-agentic-configuration-for-industrial-dataops",
-        "date_publication": "27/08/2026",
+        "titre": "OpenClaw 2.0 (v2026.8.1) : la plus grande mise à jour du harness agent open-source",
+        "resume": "L'OpenClaw Foundation a publié le 30 août 2026 OpenClaw 2.0, une refonte majeure de son harness agent open-source impliquant 16 000+ pull requests de 933 contributeurs. La version introduit un processus d'installation simplifié, une interface navigateur reconstruite, des sessions cloud partagées pour le travail en équipe et une mémoire personnelle persistante. Les analystes de The Register signalent toutefois que les nouvelles fonctionnalités collaboratives manquent encore de cloisonnement réseau et système de fichiers robuste.",
+        "source": "VentureBeat / InfoQ / The Register",
+        "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
+        "date_publication": "30/08/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Somansa lance Privacy-i AIDR : contrôle OS-level des agents IA shadow en production",
-        "resume": "Somansa a lancé le 26 août 2026 le module Privacy-i AIDR, qui étend sa plateforme de sécurité endpoint en ajoutant une couche de détection et réponse spécifique aux agents IA. Le module applique des permissions au niveau du système d'exploitation pour contrôler en temps réel les fichiers, programmes et ressources système accessibles aux agents shadow non sanctionnés. Cette annonce illustre le pivot des éditeurs de sécurité de la détection passive vers le contrôle actif en production.",
+        "titre": "Somansa Privacy-i AIDR : contrôle OS-level des agents shadow IA en production",
+        "resume": "Somansa a lancé le 26 août 2026 le module Privacy-i AIDR (AI Detection and Response) intégré à sa plateforme de sécurité endpoint. Le module applique des permissions OS-level sur les agents IA non sanctionnés (shadow AI) et contrôle en temps réel les fichiers, programmes et ressources système accessibles par les agents. Ce lancement illustre la tendance des éditeurs de sécurité à passer de la simple détection au contrôle runtime des agents.",
         "source": "Agentic.ai News",
         "url": "https://agentic.ai/news",
         "date_publication": "26/08/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "produit"
       },
       {
-        "titre": "Anthropic : rapport 2026 State of AI Agents — comment les entreprises déploient des agents en production",
-        "resume": "Anthropic a publié son rapport annuel \"The 2026 State of AI Agents\" documentant comment les organisations passent des expérimentations à des infrastructures agentiques en production. Le rapport couvre les workflows multi-étapes en RH, finance, IT et opérations, et documente le passage d'une logique « meilleure UX » à une automatisation réelle de workflows complets end-to-end. Des témoignages d'entreprises décrivent les patterns architecturaux qui distinguent les déploiements réussis des projets bloqués en pilote.",
-        "source": "Anthropic",
-        "url": "https://resources.anthropic.com/hubfs/The%202026%20State%20of%20AI%20Agents%20Report.pdf",
-        "date_publication": "01/09/2026",
-        "pertinence": "haute",
-        "categorie": "retour_experience"
+        "titre": "HighByte Intelligence Hub 4.5 : configuration agentique pour les équipes de données industrielles",
+        "resume": "HighByte a annoncé le 27 août 2026 la version 4.5 de son Intelligence Hub, qui ajoute une configuration agentique et un graphe de data lineage pour les équipes industrielles. La mise à jour positionne la plateforme comme un outil permettant aux agents de planifier et d'agir directement dans les workflows de données de fabrication. Il s'agit d'un exemple concret d'intégration d'IA agentique dans des workflows métier industriels existants.",
+        "source": "Supply and Demand Chain Executive / Agentic.ai",
+        "url": "https://agentic.ai/news",
+        "date_publication": "27/08/2026",
+        "pertinence": "moyenne",
+        "categorie": "produit"
       }
     ],
     "gouvernance": [
       {
-        "titre": "L'AI Office européen lance sa première vague d'audits on-site sur les systèmes IA à haut risque (30 août 2026)",
-        "resume": "Le 30 août 2026, l'AI Office européen a débuté ses premières inspections physiques dans le cadre de l'EU AI Act, ciblant les systèmes de screening de CV, de scoring crédit et de triage médical. Les auditeurs ont exigé des diagrammes d'architecture, journaux de gouvernance des données, schémas de supervision humaine et registres de gestion des risques. Vingt-quatre autorités nationales de surveillance de marché participent aux demandes, menées par la CNIL française, le BfDI allemand et l'AESIA espagnole.",
-        "source": "Tonisha Tagoe / Cubbbix (cité)",
+        "titre": "L'Office européen de l'IA lance sa première vague d'audits terrain sur les systèmes à haut risque",
+        "resume": "Le 30 août 2026, l'Office européen de l'IA a débuté ses premiers audits terrain sur site des systèmes IA à haut risque sous l'AI Act, ciblant les outils de tri de CV automatisé, les systèmes de scoring de crédit et les outils de triage médical. Les auditeurs réclament des diagrammes d'architecture à jour, des logs de gouvernance des données et des schémas de supervision humaine. Vingt-quatre autorités nationales de surveillance de marché (CNIL, BfDI, AESIA) co-pilotent ces inspections.",
+        "source": "Tonisha Tagoe / Cubbbix",
         "url": "https://www.tonishatagoe.com/september-2026-ai-regulation-surge-how-enterprises-can-preserve-sovereignty-amid-fragmented-rules/",
         "date_publication": "04/09/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "réglementation"
       },
       {
-        "titre": "Gouvernance IA = enforcement : le bilan de la deadline EU AI Act du 2 août 2026 pour les entreprises",
-        "resume": "Depuis le 2 août 2026, les obligations EU AI Act pour les systèmes IA à haut risque sont exécutoires, avec des amendes pouvant atteindre 35 millions d'euros ou 7 % du chiffre d'affaires mondial. Une enquête révèle que 100 % des entreprises ont des agents IA dans leur roadmap, mais 63 % ne peuvent pas encore enforcer des limitations d'usage et 60 % sont incapables d'arrêter un agent défaillant. L'article identifie sept piliers de compliance (gestion du risque, gouvernance des données, journalisation, transparence, supervision humaine, cybersécurité, monitoring post-marché) et clarifie que les agents IA appelant des APIs sont désormais dans le périmètre réglementaire.",
-        "source": "GrowToYourFullest",
+        "titre": "EU AI Act : Article 50 en vigueur depuis le 2 août 2026 — ce que les entreprises doivent faire maintenant",
+        "resume": "Depuis le 2 août 2026, les obligations de transparence de l'Article 50 de l'EU AI Act sont applicables, imposant la divulgation des interactions IA, l'étiquetage des contenus synthétiques et l'identification des deepfakes. Le Cloud Security Alliance publie une analyse Q&A détaillée sur la classification des risques et les priorités de conformité pour les entreprises en retard, incluant les cas des systèmes IA agentiques. Les amendes pour non-conformité peuvent atteindre 35 millions d'euros ou 7% du chiffre d'affaires mondial annuel.",
+        "source": "Cloud Security Alliance",
+        "url": "https://cloudsecurityalliance.org/blog/2026/09/03/eu-ai-act-compliance-for-high-risk-ai-systems-what-your-organization-needs-to-know",
+        "date_publication": "03/09/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
+      },
+      {
+        "titre": "Gouvernance IA : 63% des entreprises incapables d'imposer des limites de finalité à leurs agents",
+        "resume": "Une analyse publiée le 3 septembre 2026 révèle que 100% des entreprises ont des agents IA sur leur roadmap, mais que 63% ne peuvent pas imposer de limitations de finalité et 60% ne peuvent pas arrêter un agent défaillant. Le NIST a annoncé la publication d'un AI Agent Interoperability Profile avant fin 2026 pour répondre à ces lacunes de gouvernance. L'article propose une checklist de conformité en 7 piliers (gestion des risques, gouvernance des données, journalisation, transparence, supervision humaine, cybersécurité, monitoring post-marché).",
+        "source": "growtoyourfullest.com",
         "url": "https://www.growtoyourfullest.com/single-post/governance-just-became-enforcement-ai-compliance-moment-every-enterprise-faces",
         "date_publication": "03/09/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "analyse"
       },
       {
-        "titre": "Septembre 2026 : vague réglementaire mondiale IA simultanée — UE, USA, Brésil, Inde, Chine",
-        "resume": "Un article de Tonisha Tagoe analyse la convergence inédite de vagues réglementaires IA en septembre 2026 : audits EU AI Act, 30 projets de loi californiens soumis au gouverneur Newsom avant le 30 septembre, vote en attente au Sénat brésilien sur une loi IA à responsabilité stricte, et cadre de responsabilité indien pour l'IA générative. Cette simultanéité crée un paysage de compliance fragmenté pour les entreprises opérant dans plusieurs juridictions. L'article décrit un scénario concret : une fintech globale confrontée à trois timelines réglementaires contradictoires pour le lancement d'une plateforme de scoring crédit IA.",
-        "source": "Tonisha Tagoe",
-        "url": "https://www.tonishatagoe.com/september-2026-ai-regulation-surge-how-enterprises-can-preserve-sovereignty-amid-fragmented-rules/",
-        "date_publication": "04/09/2026",
+        "titre": "Septembre 2026 : la régulation IA mondiale passe de la préparation à l'application active",
+        "resume": "Cubbbix publie une mise à jour globale datée du 1er septembre 2026 listant toutes les échéances réglementaires simultanées : audits EU AI Act en cours, 30 projets de loi IA soumis au gouverneur Newsom en Californie (délai 30 septembre), vote du Sénat brésilien sur le projet 2338/2023 prévu le 16 septembre, et règles d'audit formelles du Colorado sur SB24-205. Ce contexte de convergence réglementaire internationale crée une pression inédite pour les équipes juridiques et IT des multinationales.",
+        "source": "Cubbbix",
+        "url": "https://cubbbix.com/blog/ai-regulation-september-2026-global-update",
+        "date_publication": "01/09/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "Shadow AI agents : 76 % des organisations ne gouvernent pas leurs identités non-humaines",
-        "resume": "Un article d'O'Reilly (Radar) analyse le fossé de gouvernance entre le déploiement des agents IA et leur découverte par les équipes sécurité, s'appuyant sur le rapport Netwrix 2026 indiquant que 76 % des organisations ne gouvernent pas pleinement leurs identités non-humaines incluant les agents IA. Le rapport Verizon DBIR 2026 révèle que l'utilisation d'outils IA non approuvés a triplé pour atteindre 45 % de la main-d'œuvre. L'article décrit les patterns d'accès permanent (standing privileges) comme le principal vecteur de risque pour les flottes d'agents en production.",
-        "source": "O'Reilly Radar",
-        "url": "https://www.oreilly.com/radar/shadow-agents-standing-privileges-and-the-governance-gap-between-deployment-and-discovery/",
-        "date_publication": "24/08/2026",
-        "pertinence": "haute",
-        "categorie": "risque"
+        "categorie": "réglementation"
       }
     ],
     "clinique": []
