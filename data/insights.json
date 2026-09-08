@@ -1,72 +1,63 @@
 {
-  "generated_at": "2026-09-07T12:07:06.325257Z",
-  "date_fr": "07/09/2026",
+  "generated_at": "2026-09-08T10:59:50.218909Z",
+  "date_fr": "08/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "OpenClaw 2.0 (v2026.8.1) : la plus grande mise à jour du harness agent open-source",
-        "resume": "L'OpenClaw Foundation a publié le 30 août 2026 OpenClaw 2.0, une refonte majeure de son harness agent open-source impliquant 16 000+ pull requests de 933 contributeurs. La version introduit un processus d'installation simplifié, une interface navigateur reconstruite, des sessions cloud partagées pour le travail en équipe et une mémoire personnelle persistante. Les analystes de The Register signalent toutefois que les nouvelles fonctionnalités collaboratives manquent encore de cloisonnement réseau et système de fichiers robuste.",
-        "source": "VentureBeat / InfoQ / The Register",
-        "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
-        "date_publication": "30/08/2026",
+        "titre": "HighByte Intelligence Hub 4.5 : agent de modélisation agentique pour les données industrielles avec MCP étendu",
+        "resume": "HighByte a lancé la version 4.5 de son Intelligence Hub le 27 août 2026, introduisant un Modeling Agent en langage naturel permettant aux équipes industrielles de configurer, parcourir et modifier des modèles de données sans code. La release étend également les outils MCP Configuration au-delà des pipelines, et ajoute un Data Lineage Graph pour tracer les relations entre données de production. Toutes les modifications requièrent une validation humaine avant application.",
+        "source": "Supply & Demand Chain Executive / Assembly Magazine",
+        "url": "https://www.sdcexec.com/software-technology/ai-ar/news/22972828/highbyte-highbyte-releases-agentic-configuration-for-industrial-dataops",
+        "date_publication": "27/08/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Somansa Privacy-i AIDR : contrôle OS-level des agents shadow IA en production",
-        "resume": "Somansa a lancé le 26 août 2026 le module Privacy-i AIDR (AI Detection and Response) intégré à sa plateforme de sécurité endpoint. Le module applique des permissions OS-level sur les agents IA non sanctionnés (shadow AI) et contrôle en temps réel les fichiers, programmes et ressources système accessibles par les agents. Ce lancement illustre la tendance des éditeurs de sécurité à passer de la simple détection au contrôle runtime des agents.",
-        "source": "Agentic.ai News",
-        "url": "https://agentic.ai/news",
-        "date_publication": "26/08/2026",
+        "titre": "Lumafield lance Quality Agent : IA agentique pour la détection de défauts et l'analyse des causes en fabrication",
+        "resume": "Lumafield a annoncé le 3 septembre 2026 Quality Agent, un système IA agentique basé sur un modèle de fondation entraîné sur des données CT industrielles à grande échelle. L'agent surveille chaque pièce et chaque signal qualité en production, détecte les déviations par rapport à des produits conformes et remonte les preuves de cause racine aux équipes qualité sans avoir besoin d'anticiper le type de défaut. Il s'exécute nativement dans la plateforme Voyager de Lumafield.",
+        "source": "GlobeNewswire / Manila Times",
+        "url": "https://www.globenewswire.com/news-release/2026/09/03/3355956/0/en/lumafield-introduces-quality-agent-a-physical-ai-technology-that-automates-defect-detection-and-root-cause-analysis-for-manufacturers.html",
+        "date_publication": "03/09/2026",
         "pertinence": "haute",
         "categorie": "produit"
       },
       {
-        "titre": "HighByte Intelligence Hub 4.5 : configuration agentique pour les équipes de données industrielles",
-        "resume": "HighByte a annoncé le 27 août 2026 la version 4.5 de son Intelligence Hub, qui ajoute une configuration agentique et un graphe de data lineage pour les équipes industrielles. La mise à jour positionne la plateforme comme un outil permettant aux agents de planifier et d'agir directement dans les workflows de données de fabrication. Il s'agit d'un exemple concret d'intégration d'IA agentique dans des workflows métier industriels existants.",
-        "source": "Supply and Demand Chain Executive / Agentic.ai",
+        "titre": "Somansa lance Privacy-i AIDR : contrôle OS des agents IA fantômes en temps réel",
+        "resume": "Somansa a lancé Privacy-i AIDR le 26 août 2026, ajoutant une couche AI Detection and Response à sa plateforme de sécurité endpoint. Le module applique des permissions au niveau OS sur les agents IA non sanctionnés, contrôlant exactement quels fichiers, programmes et ressources système ils peuvent toucher. Cette approche marque un passage de la détection à un contrôle en temps réel des agents fantômes.",
+        "source": "Agentic.ai News",
         "url": "https://agentic.ai/news",
-        "date_publication": "27/08/2026",
+        "date_publication": "26/08/2026",
         "pertinence": "moyenne",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Guide pratique complet 2026 : LangGraph, CrewAI, n8n et 33 outils agents classés par cas d'usage",
+        "resume": "Dynamic Business a publié un guide terrain comparant 33 outils agentiques répartis en quatre catégories : frameworks développeurs (LangGraph v0.4, CrewAI), builders no-code/visuels, plateformes entreprise et agents spécialisés. LangGraph est présenté comme le benchmark de production pour les systèmes multi-agents stateful avec 87% de taux de succès sur les benchmarks indépendants. Le guide inclut des critères de choix concrets selon le profil de l'équipe et le type de workflow à automatiser.",
+        "source": "Dynamic Business",
+        "url": "https://dynamicbusiness.com/article/tech-tuesday-the-complete-guide-to-agentic-ai-tools-in-2026",
+        "date_publication": "08/09/2026",
+        "pertinence": "haute",
+        "categorie": "tutoriel"
+      },
+      {
+        "titre": "CrowdStrike dévoile Falcon Guardian à Fal.Con 2026 : AIDR pour agents IA sur endpoint, SaaS et cloud",
+        "resume": "CrowdStrike a présenté Falcon Guardian le 1er septembre 2026 à Las Vegas, positionné comme produit AI Detection and Response (AIDR). La solution assure la découverte et l'inventaire des agents connus et fantômes sur Windows et macOS, la visibilité runtime liant le comportement des agents à la télémétrie endpoint, et trace les appels d'outils jusqu'aux actions système. L'objectif déclaré : stopper les agents déjà en mouvement que la gouvernance seule ne peut pas contenir.",
+        "source": "Nerd Level Tech",
+        "url": "https://nerdleveltech.com/ai-agent-firewall-supply-chain-security",
+        "date_publication": "01/09/2026",
+        "pertinence": "haute",
         "categorie": "produit"
       }
     ],
     "gouvernance": [
       {
-        "titre": "L'Office européen de l'IA lance sa première vague d'audits terrain sur les systèmes à haut risque",
-        "resume": "Le 30 août 2026, l'Office européen de l'IA a débuté ses premiers audits terrain sur site des systèmes IA à haut risque sous l'AI Act, ciblant les outils de tri de CV automatisé, les systèmes de scoring de crédit et les outils de triage médical. Les auditeurs réclament des diagrammes d'architecture à jour, des logs de gouvernance des données et des schémas de supervision humaine. Vingt-quatre autorités nationales de surveillance de marché (CNIL, BfDI, AESIA) co-pilotent ces inspections.",
-        "source": "Tonisha Tagoe / Cubbbix",
-        "url": "https://www.tonishatagoe.com/september-2026-ai-regulation-surge-how-enterprises-can-preserve-sovereignty-amid-fragmented-rules/",
-        "date_publication": "04/09/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "EU AI Act : Article 50 en vigueur depuis le 2 août 2026 — ce que les entreprises doivent faire maintenant",
-        "resume": "Depuis le 2 août 2026, les obligations de transparence de l'Article 50 de l'EU AI Act sont applicables, imposant la divulgation des interactions IA, l'étiquetage des contenus synthétiques et l'identification des deepfakes. Le Cloud Security Alliance publie une analyse Q&A détaillée sur la classification des risques et les priorités de conformité pour les entreprises en retard, incluant les cas des systèmes IA agentiques. Les amendes pour non-conformité peuvent atteindre 35 millions d'euros ou 7% du chiffre d'affaires mondial annuel.",
-        "source": "Cloud Security Alliance",
-        "url": "https://cloudsecurityalliance.org/blog/2026/09/03/eu-ai-act-compliance-for-high-risk-ai-systems-what-your-organization-needs-to-know",
-        "date_publication": "03/09/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "Gouvernance IA : 63% des entreprises incapables d'imposer des limites de finalité à leurs agents",
-        "resume": "Une analyse publiée le 3 septembre 2026 révèle que 100% des entreprises ont des agents IA sur leur roadmap, mais que 63% ne peuvent pas imposer de limitations de finalité et 60% ne peuvent pas arrêter un agent défaillant. Le NIST a annoncé la publication d'un AI Agent Interoperability Profile avant fin 2026 pour répondre à ces lacunes de gouvernance. L'article propose une checklist de conformité en 7 piliers (gestion des risques, gouvernance des données, journalisation, transparence, supervision humaine, cybersécurité, monitoring post-marché).",
-        "source": "growtoyourfullest.com",
+        "titre": "Gouvernance IA : août 2026 marque la fin de la philosophie, le début de l'enforcement – checklist en 7 piliers",
+        "resume": "Un article publié le 3 septembre 2026 rappelle qu'avec l'entrée en vigueur de l'AI Act et des amendes réelles jusqu'à 35 M€, les dirigeants incapables de décrire leur posture de gouvernance IA au conseil d'administration en septembre risquent de devoir l'expliquer à un régulateur d'ici fin d'année. L'article propose une checklist en 7 piliers alignée sur l'AI Act, NIST RMF et ISO 42001, et souligne que les agents IA qui invoquent des API sont désormais dans le périmètre réglementaire. Il souligne que la gouvernance est passée de plafond de l'ambition IA à sa fondation.",
+        "source": "GrowToYourFullest",
         "url": "https://www.growtoyourfullest.com/single-post/governance-just-became-enforcement-ai-compliance-moment-every-enterprise-faces",
         "date_publication": "03/09/2026",
         "pertinence": "haute",
-        "categorie": "analyse"
-      },
-      {
-        "titre": "Septembre 2026 : la régulation IA mondiale passe de la préparation à l'application active",
-        "resume": "Cubbbix publie une mise à jour globale datée du 1er septembre 2026 listant toutes les échéances réglementaires simultanées : audits EU AI Act en cours, 30 projets de loi IA soumis au gouverneur Newsom en Californie (délai 30 septembre), vote du Sénat brésilien sur le projet 2338/2023 prévu le 16 septembre, et règles d'audit formelles du Colorado sur SB24-205. Ce contexte de convergence réglementaire internationale crée une pression inédite pour les équipes juridiques et IT des multinationales.",
-        "source": "Cubbbix",
-        "url": "https://cubbbix.com/blog/ai-regulation-september-2026-global-update",
-        "date_publication": "01/09/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "conformité"
       }
     ],
     "clinique": []
