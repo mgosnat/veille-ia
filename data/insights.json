@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-12T10:27:07.786988Z",
-  "date_fr": "12/09/2026",
+  "generated_at": "2026-09-13T11:30:01.533682Z",
+  "date_fr": "13/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Project HydraFusion : l'orchestration multi-modèles en temps réel dans GitHub Copilot",
-        "resume": "GitHub a lancé le 4 septembre 2026 une préversion de recherche appelée HydraFusion, qui orchestre dynamiquement plusieurs modèles IA pour chaque tâche de codage au lieu d'en sélectionner un seul. Le système choisit entre trois workflows (Single, Cascade, Critique) afin d'équilibrer qualité, coût et latence. Les benchmarks internes montrent une qualité comparable à Claude Opus 5 avec une réduction estimée des coûts de 36 à 67 %.",
+        "titre": "GitHub Project HydraFusion : orchestration multi-modèles en temps réel pour Copilot CLI",
+        "resume": "GitHub a lancé le 4 septembre 2026 HydraFusion, une préversion de recherche qui construit un plan d'exécution dynamique par tâche de coding en sélectionnant plusieurs modèles IA issus de différents fournisseurs. Le système choisit entre trois workflows (Single, Cascade, Critique) pour optimiser qualité, coût et latence. Les benchmarks internes montrent une réduction de coûts estimée de 67% sur TerminalBench 2.1 tout en complétant davantage de tâches qu'un modèle unique de type Claude Opus 5.",
         "source": "GitHub Blog / MarkTechPost",
         "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
         "date_publication": "04/09/2026",
@@ -13,78 +13,60 @@
         "categorie": "outil"
       },
       {
-        "titre": "OpenHands 1.0 : agent de codage autonome open source prêt pour la production",
-        "resume": "OpenHands (All Hands AI) a atteint sa version 1.0 avec un sandbox Docker sécurisé, des politiques de sécurité intégrées, des limites de ressources et un système de plugins. Les benchmarks montrent qu'il complète environ 68 % des tâches SWE-bench Verified de façon autonome, avec un coût par tâche estimé à 0,20–1,05 $ contre les outils commerciaux équivalents. C'est la première version jugée production-ready pour les équipes soucieuses des coûts et de la sécurité.",
-        "source": "byteiota.com / aiagentstore.ai / DEV Community",
-        "url": "https://byteiota.com/openhands-1-0-autonomous-coding-agent/",
-        "date_publication": "08/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "GitHub Copilot Workspace : agents spécialisés multi-rôles sur un même codebase",
-        "resume": "GitHub Copilot Workspace supporte désormais plusieurs agents IA spécialisés travaillant simultanément sur différentes parties d'un même codebase, avec des agents séparés pour l'implémentation, les tests et la documentation coordonnés via une fenêtre de contexte partagée. Cette évolution permet aux équipes d'engineering de déléguer des rôles distincts tout en maintenant une cohérence de projet. Les équipes sont invitées à piloter sur un service non critique avant de déployer en production.",
-        "source": "aiagentstore.ai",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "09/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Vague de nouveaux outils agents IA début septembre 2026 : HydraFusion, Mireye, MagiCrew",
-        "resume": "Autour du 4 septembre 2026, plusieurs frameworks et outils d'agents IA ont été lancés ou mis à jour, dont GitHub HydraFusion, Mireye (infrastructure de localisation pour agents, YC Summer 2026) et MagiCrew. CrewAI a également annoncé que son intégration Agent-to-Agent (A2A) atteint un niveau enterprise-grade, la rendant adaptée aux scénarios de production multi-agents. Ces sorties simultanées témoignent de la maturité croissante de la couche agent dans la stack IA.",
-        "source": "dutchstartup.ai",
-        "url": "https://www.dutchstartup.ai/en/news/a-wave-of-new-ai-agent-tools-is-emerging-around-early-september-2026",
-        "date_publication": "07/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "OpenHands + Devin : analyse coût-bénéfice des agents de codage en production (septembre 2026)",
-        "resume": "Un guide pratique publié début septembre 2026 sur DEV Community détaille comment auto-héberger OpenHands avec des modèles open-weight comme Qwen3-Coder ou Devstral 24B pour des tâches de volume (upgrades de dépendances, génération de boilerplate, couverture de tests) à environ 5 % du coût par tâche de Devin. L'article fournit une analyse de coût concrète basée sur les tarifs GPU H100 et des conseils de configuration pour un environnement sandbox sécurisé. La comparaison est présentée comme un choix de production légitime en septembre 2026 pour les équipes sensibles aux coûts.",
-        "source": "DEV Community",
+        "titre": "OpenHands 1.0 : agent de coding autonome open-source prêt pour la production",
+        "resume": "OpenHands, agent de coding open-source développé par All Hands AI, a atteint sa version 1.0 avec un sandboxing Docker production-ready, des politiques de sécurité intégrées, des limites de ressources et un système de plugins. Les benchmarks publiés montrent qu'il résout automatiquement environ 68% des tâches SWE-bench Verified. Un tutoriel pratique de déploiement auto-hébergé (coût estimé entre 0,20$ et 1,05$ par tâche résolue) a été publié pour guider les équipes engineering.",
+        "source": "DEV Community / aiagentstore.ai",
         "url": "https://dev.to/jamilxt/openhands-just-hit-10-heres-how-to-run-it-on-your-own-machine-without-handing-over-the-keys-5666",
         "date_publication": "08/09/2026",
         "pertinence": "haute",
-        "categorie": "retour d'expérience"
+        "categorie": "outil"
       },
       {
-        "titre": "Rapport McKinsey 2026 : les agents de codage remplacent les achats logiciels",
-        "resume": "Un rapport McKinsey State of AI 2026 révèle que 32 % des organisations ont renoncé à acheter au moins un produit logiciel parce qu'elles pouvaient le construire en interne grâce aux agents de codage IA. Les outils agentiques de codage sont présentés comme un facteur croissant dans les budgets technologiques, orientant les dépenses vers le développement interne plutôt que vers les licences vendors. Ce chiffre illustre un changement structurel dans l'économie du développement logiciel en entreprise.",
-        "source": "aiagentstore.ai / byteiota.com",
+        "titre": "Sakana AI lance Fugu Max v1.0 et Fugu Ultra v2 : orchestration multi-agents à prix réduit",
+        "resume": "Sakana AI a lancé le 11 septembre 2026 deux moteurs d'orchestration multi-agents accessibles via une API compatible OpenAI. Fugu Max est tarifé à 2$/M tokens en entrée et 6$ en sortie, soit 40 à 60% moins cher que les modèles frontier concurrents. Fugu Ultra v2 obtient 48,3 sur Chartography contre 27,3 pour Opus 5, et 74,3 sur DeepSWE, sans utiliser les modèles les plus coûteux dans son pool.",
+        "source": "MarkTechPost / AI Weekly / Pondero",
+        "url": "https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/",
+        "date_publication": "11/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "CrowdStrike Falcon Guardian : sécurité runtime pour les agents IA en entreprise",
+        "resume": "CrowdStrike a présenté le 1er septembre 2026 Falcon Guardian, une solution AIDR (AI Detection and Response) qui découvre et inventorie les agents IA connus et shadow sur Windows et macOS. Le produit établit une chaîne causale entre le prompt utilisateur, les appels d'outils et les actions système, permettant de bloquer les agents non autorisés et de contenir les menaces en temps réel. Il couvre endpoints, environnements cloud, SaaS et navigateurs.",
+        "source": "CrowdStrike / Yahoo Finance Tech",
+        "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-unveils-falcon-guardian-ai-agent-security/",
+        "date_publication": "01/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "GitHub Copilot Workspace : agents spécialisés multiples sur un même codebase",
+        "resume": "GitHub Copilot Workspace supporte désormais plusieurs agents IA spécialisés travaillant simultanément sur différentes parties d'un codebase, avec des agents distincts pour l'implémentation, les tests et la documentation qui se coordonnent via une fenêtre de contexte partagée. Cette approche permet aux équipes engineering de traiter les outils agentiques comme des équipes orchestrées plutôt que comme un assistant unique. Le déploiement pilote recommandé est de tester sur un service non critique avant de passer en production.",
+        "source": "aiagentstore.ai (semaine du 9 septembre 2026)",
         "url": "https://aiagentstore.ai/ai-agent-news/this-week",
         "date_publication": "09/09/2026",
-        "pertinence": "moyenne",
-        "categorie": "retour d'expérience"
+        "pertinence": "haute",
+        "categorie": "produit"
+      },
+      {
+        "titre": "CrewAI A2A enterprise-grade : retour d'expérience de déploiement en production",
+        "resume": "CrewAI a annoncé que son intégration Agent-to-Agent (A2A) est désormais de niveau enterprise, permettant la communication authentifiée entre agents via mTLS, OIDC et OAuth2 sur gRPC ou HTTP. Les benchmarks internes de CrewAI indiquent une amélioration de 90,2% de la précision d'exécution en multi-agents par rapport à une approche mono-agent, avec un surcoût de tokens de l'ordre de 4x. Des guides pratiques step-by-step de déploiement en production (Redis, Postgres, canary testing) sont disponibles.",
+        "source": "dutchstartup.ai / techjacksolutions.com",
+        "url": "https://www.dutchstartup.ai/en/news/a-wave-of-new-ai-agent-tools-is-emerging-around-early-september-2026",
+        "date_publication": "05/09/2026",
+        "pertinence": "haute",
+        "categorie": "retour d'experience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act septembre 2026 : guide pratique de mise en conformité pour les startups et PME",
-        "resume": "Un guide publié le 9 septembre 2026 détaille les obligations concrètes de l'AI Act désormais en vigueur pour les entreprises vendant ou utilisant de l'IA en Europe. Il précise que les acheteurs et régulateurs exigent désormais des preuves documentées (registres IA, processus de triage des risques, règles d'escalade, revue des incidents) et non plus de simples pages de politique. Le guide insiste sur la surveillance des exigences des procurement enterprises qui réécrivent leurs questionnaires fournisseurs.",
-        "source": "blog.mean.ceo",
-        "url": "https://blog.mean.ceo/eu-ai-act-news-september-2026/",
-        "date_publication": "09/09/2026",
+        "titre": "EU AI Act : recrutement massif à l'AI Office pour renforcer l'application du règlement",
+        "resume": "L'EU AI Office a lancé un appel à candidatures pour 40 nouveaux postes (techniques, juridiques, opérationnels) dédiés à l'application de l'AI Act, avec date limite le 8 septembre 2026. Ce renforcement de capacités signale la montée en puissance de l'enforcement après l'entrée en vigueur des règles le 2 août 2026. Le plan d'action cybersécurité et IA de juillet 2026 accompagne cette dynamique en coordinant la résilience des modèles IA avancés.",
+        "source": "artificialintelligenceact.eu",
+        "url": "https://artificialintelligenceact.eu/implementation-timeline/",
+        "date_publication": "08/09/2026",
         "pertinence": "haute",
-        "categorie": "conformité"
-      },
-      {
-        "titre": "AI Governance et enforcement : les agents IA désormais dans le périmètre de l'AI Act",
-        "resume": "Un article publié début septembre 2026 alerte sur le fait que les agents IA qui invoquent des API (services internes, plateformes tierces, serveurs MCP) sont dans le scope de l'AI Act au titre des mandats de cybersécurité et de logging. Dans les architectures multi-agents, la frontière de conformité s'étend à chaque agent exerçant une fonction à risque élevé. Une enquête révèle que 63 % des entreprises ne peuvent pas encore appliquer des limitations de finalité à leurs agents, et 60 % ne peuvent pas arrêter un agent défaillant.",
-        "source": "growtoyourfullest.com",
-        "url": "https://www.growtoyourfullest.com/single-post/governance-just-became-enforcement-ai-compliance-moment-every-enterprise-faces",
-        "date_publication": "05/09/2026",
-        "pertinence": "haute",
-        "categorie": "gouvernance"
-      },
-      {
-        "titre": "SundAI : carte d'implémentation pratique de l'AI Act pour les organisations européennes (septembre 2026)",
-        "resume": "Ce guide vérifié au 4 septembre 2026 propose une cartographie opérationnelle step-by-step pour les organisations européennes : inventaire des systèmes IA, attribution des rôles (fournisseur, déployeur, importateur), classification du risque, et mise en place des mesures de transparence. Il rappelle que les obligations hautes-risques sont reportées à décembre 2027 (Annexe III) et août 2028 (produits réglementés), mais que la conformité actuelle est déjà une exigence opérationnelle non optionnelle.",
-        "source": "SundAI",
-        "url": "https://sundaibot.com/insights/eu-ai-act-2026-what-applies-now",
-        "date_publication": "04/09/2026",
-        "pertinence": "haute",
-        "categorie": "conformité"
+        "categorie": "réglementation"
       }
     ],
     "clinique": []
