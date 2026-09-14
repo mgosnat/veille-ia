@@ -1,72 +1,72 @@
 {
-  "generated_at": "2026-09-13T11:30:01.533682Z",
-  "date_fr": "13/09/2026",
+  "generated_at": "2026-09-14T12:22:32.905204Z",
+  "date_fr": "14/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "GitHub Project HydraFusion : orchestration multi-modèles en temps réel pour Copilot CLI",
-        "resume": "GitHub a lancé le 4 septembre 2026 HydraFusion, une préversion de recherche qui construit un plan d'exécution dynamique par tâche de coding en sélectionnant plusieurs modèles IA issus de différents fournisseurs. Le système choisit entre trois workflows (Single, Cascade, Critique) pour optimiser qualité, coût et latence. Les benchmarks internes montrent une réduction de coûts estimée de 67% sur TerminalBench 2.1 tout en complétant davantage de tâches qu'un modèle unique de type Claude Opus 5.",
-        "source": "GitHub Blog / MarkTechPost",
-        "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-        "date_publication": "04/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "OpenHands 1.0 : agent de coding autonome open-source prêt pour la production",
-        "resume": "OpenHands, agent de coding open-source développé par All Hands AI, a atteint sa version 1.0 avec un sandboxing Docker production-ready, des politiques de sécurité intégrées, des limites de ressources et un système de plugins. Les benchmarks publiés montrent qu'il résout automatiquement environ 68% des tâches SWE-bench Verified. Un tutoriel pratique de déploiement auto-hébergé (coût estimé entre 0,20$ et 1,05$ par tâche résolue) a été publié pour guider les équipes engineering.",
-        "source": "DEV Community / aiagentstore.ai",
-        "url": "https://dev.to/jamilxt/openhands-just-hit-10-heres-how-to-run-it-on-your-own-machine-without-handing-over-the-keys-5666",
-        "date_publication": "08/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Sakana AI lance Fugu Max v1.0 et Fugu Ultra v2 : orchestration multi-agents à prix réduit",
-        "resume": "Sakana AI a lancé le 11 septembre 2026 deux moteurs d'orchestration multi-agents accessibles via une API compatible OpenAI. Fugu Max est tarifé à 2$/M tokens en entrée et 6$ en sortie, soit 40 à 60% moins cher que les modèles frontier concurrents. Fugu Ultra v2 obtient 48,3 sur Chartography contre 27,3 pour Opus 5, et 74,3 sur DeepSWE, sans utiliser les modèles les plus coûteux dans son pool.",
-        "source": "MarkTechPost / AI Weekly / Pondero",
-        "url": "https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/",
-        "date_publication": "11/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "CrowdStrike Falcon Guardian : sécurité runtime pour les agents IA en entreprise",
-        "resume": "CrowdStrike a présenté le 1er septembre 2026 Falcon Guardian, une solution AIDR (AI Detection and Response) qui découvre et inventorie les agents IA connus et shadow sur Windows et macOS. Le produit établit une chaîne causale entre le prompt utilisateur, les appels d'outils et les actions système, permettant de bloquer les agents non autorisés et de contenir les menaces en temps réel. Il couvre endpoints, environnements cloud, SaaS et navigateurs.",
-        "source": "CrowdStrike / Yahoo Finance Tech",
-        "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-unveils-falcon-guardian-ai-agent-security/",
-        "date_publication": "01/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "GitHub Copilot Workspace : agents spécialisés multiples sur un même codebase",
-        "resume": "GitHub Copilot Workspace supporte désormais plusieurs agents IA spécialisés travaillant simultanément sur différentes parties d'un codebase, avec des agents distincts pour l'implémentation, les tests et la documentation qui se coordonnent via une fenêtre de contexte partagée. Cette approche permet aux équipes engineering de traiter les outils agentiques comme des équipes orchestrées plutôt que comme un assistant unique. Le déploiement pilote recommandé est de tester sur un service non critique avant de passer en production.",
-        "source": "aiagentstore.ai (semaine du 9 septembre 2026)",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "09/09/2026",
-        "pertinence": "haute",
-        "categorie": "produit"
-      },
-      {
-        "titre": "CrewAI A2A enterprise-grade : retour d'expérience de déploiement en production",
-        "resume": "CrewAI a annoncé que son intégration Agent-to-Agent (A2A) est désormais de niveau enterprise, permettant la communication authentifiée entre agents via mTLS, OIDC et OAuth2 sur gRPC ou HTTP. Les benchmarks internes de CrewAI indiquent une amélioration de 90,2% de la précision d'exécution en multi-agents par rapport à une approche mono-agent, avec un surcoût de tokens de l'ordre de 4x. Des guides pratiques step-by-step de déploiement en production (Redis, Postgres, canary testing) sont disponibles.",
-        "source": "dutchstartup.ai / techjacksolutions.com",
-        "url": "https://www.dutchstartup.ai/en/news/a-wave-of-new-ai-agent-tools-is-emerging-around-early-september-2026",
+        "titre": "GitHub Project HydraFusion : orchestration multi-modèles pour GitHub Copilot",
+        "resume": "GitHub a lancé le 4 septembre 2026 HydraFusion, une preview de recherche intégrée à GitHub Copilot qui orchestre dynamiquement plusieurs modèles IA par tâche de codage (stratégie single, cascade ou critique). Le système réduit les coûts estimés de 36 à 67 % par rapport à une baseline Claude Opus 5, tout en maintenant la qualité. L'outil est accessible via le mode expérimental du Copilot CLI sur tous les plans.",
+        "source": "MarkTechPost / InfoQ / RuntimeWire",
+        "url": "https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/",
         "date_publication": "05/09/2026",
         "pertinence": "haute",
-        "categorie": "retour d'experience"
+        "categorie": "outil"
+      },
+      {
+        "titre": "Vague de nouveaux outils agents début septembre 2026 : HydraFusion, Mireye, MagiCrew",
+        "resume": "Autour du 4 septembre 2026, plusieurs frameworks et outils agents ont été lancés ou mis à jour : le multi-model orchestrator HydraFusion de GitHub, Mireye (infrastructure de localisation pour agents IA, batch YC Summer 2026) et MagiCrew. CrewAI annonce également que son intégration Agent-to-Agent (A2A) est désormais de niveau enterprise-grade, adaptée aux scénarios de production multi-agents. Cette vague illustre la maturation rapide de la couche agent dans la stack IA.",
+        "source": "dutchstartup.ai",
+        "url": "https://www.dutchstartup.ai/en/news/a-wave-of-new-ai-agent-tools-is-emerging-around-early-september-2026",
+        "date_publication": "07/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "McKinsey State of AI 2026 : 32 % des entreprises construisent en interne plutôt que d'acheter grâce aux agents de codage",
+        "resume": "Le rapport McKinsey State of AI 2026 (publié le 25 août 2026, 1 719 répondants sur 97 pays) révèle qu'un tiers des organisations ont renoncé à au moins un achat logiciel parce que des agents de codage agentic pouvaient construire la fonctionnalité en interne. Parmi les entreprises de plus d'un milliard de dollars de CA, 40 % font déjà tourner des agents IA en production dans une ou plusieurs fonctions, contre 27 % l'année précédente. Cependant, seulement 11 % des organisations ont des systèmes agentiques véritablement production-ready selon Deloitte.",
+        "source": "McKinsey / Yahoo Finance / byteiota",
+        "url": "https://finance.yahoo.com/technology/ai/articles/build-vs-buy-shift-32-113806700.html",
+        "date_publication": "04/09/2026",
+        "pertinence": "haute",
+        "categorie": "retour_experience"
+      },
+      {
+        "titre": "Wavespace 'Beyond the Chatbox' : framework UX pour interfaces d'agents agentiques",
+        "resume": "La semaine du 13 septembre 2026, la design agency Wavespace a dévoilé 'Beyond the Chatbox', un framework pour interfaces d'agents IA remplaçant les flux de texte uniques par une UI générative avec raisonnement visible, checkpoints d'approbation humaine et interfaces spécifiques aux tâches. La prévision associée indique qu'environ 40 % des applications d'entreprise intégreront des agents IA spécifiques à des tâches d'ici fin 2026, contre moins de 5 % en 2025. Le framework vise à améliorer l'auditabilité et la conformité des workflows agentiques.",
+        "source": "AI Agent Store (aiagentstore.ai)",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "13/09/2026",
+        "pertinence": "moyenne",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Enterprise AI Governance & Bifrost : opérationnaliser NIST RMF, ISO 42001 et EU AI Act au niveau infrastructure",
+        "resume": "Maxim AI a publié mi-septembre 2026 un guide pratique sur l'implémentation de la gouvernance IA en entreprise, centré sur son gateway open-source Bifrost (Go) qui applique les politiques NIST AI RMF, ISO 42001 et EU AI Act au niveau de chaque requête IA. Le système ajoute 11 microsecondes de latence à 5 000 req/s et couvre les agents desktop via Bifrost Edge. Il illustre comment passer de la politique documentée au contrôle runtime effectif.",
+        "source": "getmaxim.ai",
+        "url": "https://www.getmaxim.ai/articles/enterprise-ai-governance-framework-and-platform-guide-2026/",
+        "date_publication": "07/09/2026",
+        "pertinence": "moyenne",
+        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : recrutement massif à l'AI Office pour renforcer l'application du règlement",
-        "resume": "L'EU AI Office a lancé un appel à candidatures pour 40 nouveaux postes (techniques, juridiques, opérationnels) dédiés à l'application de l'AI Act, avec date limite le 8 septembre 2026. Ce renforcement de capacités signale la montée en puissance de l'enforcement après l'entrée en vigueur des règles le 2 août 2026. Le plan d'action cybersécurité et IA de juillet 2026 accompagne cette dynamique en coordinant la résilience des modèles IA avancés.",
-        "source": "artificialintelligenceact.eu",
-        "url": "https://artificialintelligenceact.eu/implementation-timeline/",
-        "date_publication": "08/09/2026",
+        "titre": "EU AI Act enforcement : amendes opérationnelles, Digital Omnibus et écart de gouvernance agentique",
+        "resume": "Un article de growtoyourfullest.com (publié il y a ~2 semaines) synthétise le passage à l'application effective au 2 août 2026 : amendes jusqu'à 35 M€ ou 7 % du CA pour les pratiques interdites, les huit modèles GPAI dépassant le seuil 10^25 FLOPs soumettent des évaluations mensuelles. L'article signale que 63 % des entreprises ne peuvent pas imposer de limitations d'usage à leurs agents et 60 % ne peuvent pas arrêter un agent défaillant, révélant un écart critique de gouvernance agentique face à la réglementation. Le Digital Omnibus (signé le 27 juillet) a repoussé les obligations pour les systèmes à haut risque (Annexe III) à décembre 2027.",
+        "source": "growtoyourfullest.com",
+        "url": "https://www.growtoyourfullest.com/single-post/governance-just-became-enforcement-ai-compliance-moment-every-enterprise-faces",
+        "date_publication": "01/09/2026",
         "pertinence": "haute",
         "categorie": "réglementation"
+      },
+      {
+        "titre": "Guide pratique gouvernance IA entreprise 2026 : NIST RMF, ISO 42001, EU AI Act",
+        "resume": "Getmaxim.ai a publié (il y a 3 jours, soit ~11 septembre 2026) un guide complet sur les trois référentiels dominants en 2026 : NIST AI RMF (volontaire, langage commun US), ISO/IEC 42001 (premier standard certifiable pour les systèmes de management IA) et EU AI Act (loi contraignante). Le guide souligne que la plupart des entreprises ont des politiques documentées mais aucun moyen d'appliquer ces politiques sur chaque requête IA, et propose une architecture de gateway comme solution de contrôle runtime.",
+        "source": "getmaxim.ai",
+        "url": "https://www.getmaxim.ai/articles/ai-governance-framework-for-enterprises-the-2026-guide/",
+        "date_publication": "11/09/2026",
+        "pertinence": "haute",
+        "categorie": "framework"
       }
     ],
     "clinique": []
