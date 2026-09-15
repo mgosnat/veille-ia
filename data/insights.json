@@ -1,74 +1,93 @@
 {
-  "generated_at": "2026-09-14T12:22:32.905204Z",
-  "date_fr": "14/09/2026",
+  "generated_at": "2026-09-15T11:29:33.826336Z",
+  "date_fr": "15/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "GitHub Project HydraFusion : orchestration multi-modèles pour GitHub Copilot",
-        "resume": "GitHub a lancé le 4 septembre 2026 HydraFusion, une preview de recherche intégrée à GitHub Copilot qui orchestre dynamiquement plusieurs modèles IA par tâche de codage (stratégie single, cascade ou critique). Le système réduit les coûts estimés de 36 à 67 % par rapport à une baseline Claude Opus 5, tout en maintenant la qualité. L'outil est accessible via le mode expérimental du Copilot CLI sur tous les plans.",
-        "source": "MarkTechPost / InfoQ / RuntimeWire",
-        "url": "https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/",
-        "date_publication": "05/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Vague de nouveaux outils agents début septembre 2026 : HydraFusion, Mireye, MagiCrew",
-        "resume": "Autour du 4 septembre 2026, plusieurs frameworks et outils agents ont été lancés ou mis à jour : le multi-model orchestrator HydraFusion de GitHub, Mireye (infrastructure de localisation pour agents IA, batch YC Summer 2026) et MagiCrew. CrewAI annonce également que son intégration Agent-to-Agent (A2A) est désormais de niveau enterprise-grade, adaptée aux scénarios de production multi-agents. Cette vague illustre la maturation rapide de la couche agent dans la stack IA.",
-        "source": "dutchstartup.ai",
-        "url": "https://www.dutchstartup.ai/en/news/a-wave-of-new-ai-agent-tools-is-emerging-around-early-september-2026",
-        "date_publication": "07/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "McKinsey State of AI 2026 : 32 % des entreprises construisent en interne plutôt que d'acheter grâce aux agents de codage",
-        "resume": "Le rapport McKinsey State of AI 2026 (publié le 25 août 2026, 1 719 répondants sur 97 pays) révèle qu'un tiers des organisations ont renoncé à au moins un achat logiciel parce que des agents de codage agentic pouvaient construire la fonctionnalité en interne. Parmi les entreprises de plus d'un milliard de dollars de CA, 40 % font déjà tourner des agents IA en production dans une ou plusieurs fonctions, contre 27 % l'année précédente. Cependant, seulement 11 % des organisations ont des systèmes agentiques véritablement production-ready selon Deloitte.",
-        "source": "McKinsey / Yahoo Finance / byteiota",
-        "url": "https://finance.yahoo.com/technology/ai/articles/build-vs-buy-shift-32-113806700.html",
+        "titre": "GitHub lance Project HydraFusion : orchestration multi-modèles pour Copilot CLI",
+        "resume": "GitHub a lancé le 4 septembre 2026 Project HydraFusion, une préversion de recherche intégrée à GitHub Copilot CLI. Le système orchestre dynamiquement plusieurs modèles d'IA pour chaque tâche de codage selon trois patterns d'exécution (Single, Cascade, Critique), obtenant une réduction de coût estimée à 67% par rapport à Claude Opus 5 sur TerminalBench 2.1 tout en améliorant la qualité de +4,9 points. Disponible à tous les abonnés Copilot via la commande /experimental.",
+        "source": "RuntimeWire / GitHub Blog",
+        "url": "https://runtimewire.com/article/github-hydrafusion-multi-model-copilot-orchestration",
         "date_publication": "04/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "MagiCrew : plateforme open-source d'agents IA pour l'entreprise lancée sur Product Hunt",
+        "resume": "MagiCrew a été lancé le 3 septembre 2026 sur Product Hunt (3e produit du jour, 275 upvotes), proposant une plateforme enterprise open-source (licence Apache 2.0) permettant à chaque employé de déployer des agents IA spécialisés pour la recherche, l'analyse, les rapports et les présentations. Le codebase sous-jacent 'Magic' cumule environ 5 000 étoiles GitHub depuis mai 2025 et est disponible en self-hosting. Le dépôt est accessible sur github.com/dtyq/magic.",
+        "source": "ChatGate / DutchStartup.ai",
+        "url": "https://chatgate.ai/post/magicrew",
+        "date_publication": "03/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Sixfold lance un agent IA de souscription pour l'assurance Vie & Santé",
+        "resume": "Sixfold a lancé le 3 septembre 2026 son AI Underwriter for Life & Health, un agent de gouvernance IA conçu pour la souscription complexe : il évalue les preuves médicales et financières, applique les directives des assureurs et produit une recommandation avec raisonnement cité pour chaque dossier. Les clients rapportent une réduction de 55% du temps d'évaluation et une hausse de 30% des primes souscrites par souscripteur. Le système couvre la vie, l'invalidité, la dépendance et la maladie grave.",
+        "source": "Insurance-Edge / CompleteAITraining",
+        "url": "https://insurance-edge.net/2026/09/03/sixfold-launches-ai-underwriter-for-life-health/",
+        "date_publication": "03/09/2026",
+        "pertinence": "haute",
+        "categorie": "cas_usage"
+      },
+      {
+        "titre": "McKinsey State of AI 2026 : 32% des entreprises renoncent à acheter du SaaS grâce aux agents de codage",
+        "resume": "Le rapport McKinsey State of AI 2026 (publié le 25 août, relayé début septembre) révèle que 32% des organisations ont décliné au moins un achat de logiciel parce qu'elles pouvaient le construire en interne avec des agents de codage IA. La tendance est plus prononcée dans la tech (41%) et la santé (39%). Parmi les 'high performers' (6% des répondants attribuant plus de 5% de leur EBIT à l'IA), ce chiffre approche 50%, signalant un basculement structurel du marché SaaS.",
+        "source": "Yahoo Finance / ANI News",
+        "url": "https://finance.yahoo.com/technology/ai/articles/build-vs-buy-shift-32-113806700.html",
+        "date_publication": "06/09/2026",
         "pertinence": "haute",
         "categorie": "retour_experience"
       },
       {
-        "titre": "Wavespace 'Beyond the Chatbox' : framework UX pour interfaces d'agents agentiques",
-        "resume": "La semaine du 13 septembre 2026, la design agency Wavespace a dévoilé 'Beyond the Chatbox', un framework pour interfaces d'agents IA remplaçant les flux de texte uniques par une UI générative avec raisonnement visible, checkpoints d'approbation humaine et interfaces spécifiques aux tâches. La prévision associée indique qu'environ 40 % des applications d'entreprise intégreront des agents IA spécifiques à des tâches d'ici fin 2026, contre moins de 5 % en 2025. Le framework vise à améliorer l'auditabilité et la conformité des workflows agentiques.",
-        "source": "AI Agent Store (aiagentstore.ai)",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "13/09/2026",
-        "pertinence": "moyenne",
+        "titre": "Vague de nouveaux outils agents début septembre 2026 : Mireye (YC S26) et écosystème en pleine expansion",
+        "resume": "Autour du 3-4 septembre 2026, plusieurs outils agents ont été lancés ou mis à jour : Mireye (YC Summer 2026) fournit une infrastructure de localisation pour agents IA via une API unique et un serveur MCP donnant accès à 366 champs indexés, déjà utilisé pour le screening d'assurance, la proptech et la robotique. CrewAI confirme que son intégration Agent-to-Agent (A2A) est désormais enterprise-grade pour des scénarios multi-agents en production.",
+        "source": "DutchStartup.ai",
+        "url": "https://www.dutchstartup.ai/en/news/a-wave-of-new-ai-agent-tools-is-emerging-around-early-september-2026",
+        "date_publication": "08/09/2026",
+        "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Enterprise AI Governance & Bifrost : opérationnaliser NIST RMF, ISO 42001 et EU AI Act au niveau infrastructure",
-        "resume": "Maxim AI a publié mi-septembre 2026 un guide pratique sur l'implémentation de la gouvernance IA en entreprise, centré sur son gateway open-source Bifrost (Go) qui applique les politiques NIST AI RMF, ISO 42001 et EU AI Act au niveau de chaque requête IA. Le système ajoute 11 microsecondes de latence à 5 000 req/s et couvre les agents desktop via Bifrost Edge. Il illustre comment passer de la politique documentée au contrôle runtime effectif.",
-        "source": "getmaxim.ai",
-        "url": "https://www.getmaxim.ai/articles/enterprise-ai-governance-framework-and-platform-guide-2026/",
-        "date_publication": "07/09/2026",
+        "titre": "AI Agents News : semaine du 13 septembre 2026 — Wavespace UX framework et rapport McKinsey build vs buy",
+        "resume": "Le hub d'actualités AI Agent Store publie les faits marquants de la semaine du 13 septembre 2026 : Wavespace a présenté 'Beyond the Chatbox', un framework UX pour interfaces d'agents remplaçant le flux texte unique par une UI générative avec raisonnement visible, checkpoints d'approbation humaine et interfaces spécifiques aux tâches. McKinsey confirme qu'un tiers des organisations construisent plutôt qu'ils n'achètent, faisant des agents de codage un facteur croissant dans les décisions d'achat technologique.",
+        "source": "AI Agent Store",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "13/09/2026",
         "pertinence": "moyenne",
-        "categorie": "cas_usage"
+        "categorie": "retour_experience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act enforcement : amendes opérationnelles, Digital Omnibus et écart de gouvernance agentique",
-        "resume": "Un article de growtoyourfullest.com (publié il y a ~2 semaines) synthétise le passage à l'application effective au 2 août 2026 : amendes jusqu'à 35 M€ ou 7 % du CA pour les pratiques interdites, les huit modèles GPAI dépassant le seuil 10^25 FLOPs soumettent des évaluations mensuelles. L'article signale que 63 % des entreprises ne peuvent pas imposer de limitations d'usage à leurs agents et 60 % ne peuvent pas arrêter un agent défaillant, révélant un écart critique de gouvernance agentique face à la réglementation. Le Digital Omnibus (signé le 27 juillet) a repoussé les obligations pour les systèmes à haut risque (Annexe III) à décembre 2027.",
-        "source": "growtoyourfullest.com",
-        "url": "https://www.growtoyourfullest.com/single-post/governance-just-became-enforcement-ai-compliance-moment-every-enterprise-faces",
-        "date_publication": "01/09/2026",
+        "titre": "KPMG Canada obtient la certification ISO 42001 pour la gouvernance de l'IA",
+        "resume": "KPMG Canada a officiellement obtenu le 2 septembre 2026 la certification ISO 42001, le premier standard international pour les systèmes de management de l'IA, se positionnant parmi les premiers cabinets de services professionnels au Canada à atteindre cette désignation. La certification couvre la gouvernance, la gestion des risques et la surveillance du développement et du déploiement de l'IA. Une enquête interne révèle que 82% des dirigeants d'entreprises canadiennes citent la sécurité des données et les risques comme raisons de ralentir leurs stratégies IA.",
+        "source": "KPMG Canada / BC Technology / ChannelLife",
+        "url": "https://kpmg.com/ca/en/media/2026/08/kpmg-canada-achieves-iso-42001-certification.html",
+        "date_publication": "02/09/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "certification"
       },
       {
-        "titre": "Guide pratique gouvernance IA entreprise 2026 : NIST RMF, ISO 42001, EU AI Act",
-        "resume": "Getmaxim.ai a publié (il y a 3 jours, soit ~11 septembre 2026) un guide complet sur les trois référentiels dominants en 2026 : NIST AI RMF (volontaire, langage commun US), ISO/IEC 42001 (premier standard certifiable pour les systèmes de management IA) et EU AI Act (loi contraignante). Le guide souligne que la plupart des entreprises ont des politiques documentées mais aucun moyen d'appliquer ces politiques sur chaque requête IA, et propose une architecture de gateway comme solution de contrôle runtime.",
-        "source": "getmaxim.ai",
-        "url": "https://www.getmaxim.ai/articles/ai-governance-framework-for-enterprises-the-2026-guide/",
-        "date_publication": "11/09/2026",
+        "titre": "EU AI Act : recrutement massif de 40 postes au Bureau IA de l'UE pour renforcer l'enforcement",
+        "resume": "Le site officiel de suivi de l'EU AI Act signale un recrutement de grande ampleur au Bureau IA de l'UE : 40 nouveaux postes (tech, juridique, opérationnel) dédiés à l'application de l'AI Act, avec date limite d'expression d'intérêt fixée au 8 septembre 2026. Cela illustre la montée en puissance opérationnelle de l'enforcement après l'entrée en vigueur du 2 août 2026.",
+        "source": "EU Artificial Intelligence Act (artificialintelligenceact.eu)",
+        "url": "https://artificialintelligenceact.eu/implementation-timeline/",
+        "date_publication": "08/09/2026",
         "pertinence": "haute",
-        "categorie": "framework"
+        "categorie": "reglementation"
       }
     ],
-    "clinique": []
+    "clinique": [
+      {
+        "titre": "Clarkston Consulting : l'IA améliore de 65% les taux d'enrôlement dans les essais cliniques diversifiés",
+        "resume": "Un article publié le 14 septembre 2026 par Clarkston Consulting détaille comment les outils de recrutement alimentés par l'IA ont amélioré les taux d'enrôlement de 65% selon une étude de la National Library of Medicine, en détectant les biais cachés, anticipant les pénuries de recrutement et recommandant des mesures correctives en temps réel. L'article souligne cependant que les modèles d'IA entraînés sur des données historiques biaisées peuvent perpétuer les inégalités de représentation si aucun garde-fou n'est mis en place.",
+        "source": "Clarkston Consulting",
+        "url": "https://clarkstonconsulting.com/insights/ai-for-clinical-trial-diversity/",
+        "date_publication": "14/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil_recrutement"
+      }
+    ]
   }
 }
