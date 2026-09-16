@@ -1,92 +1,110 @@
 {
-  "generated_at": "2026-09-15T11:29:33.826336Z",
-  "date_fr": "15/09/2026",
+  "generated_at": "2026-09-16T11:15:27.187841Z",
+  "date_fr": "16/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "GitHub lance Project HydraFusion : orchestration multi-modèles pour Copilot CLI",
-        "resume": "GitHub a lancé le 4 septembre 2026 Project HydraFusion, une préversion de recherche intégrée à GitHub Copilot CLI. Le système orchestre dynamiquement plusieurs modèles d'IA pour chaque tâche de codage selon trois patterns d'exécution (Single, Cascade, Critique), obtenant une réduction de coût estimée à 67% par rapport à Claude Opus 5 sur TerminalBench 2.1 tout en améliorant la qualité de +4,9 points. Disponible à tous les abonnés Copilot via la commande /experimental.",
-        "source": "RuntimeWire / GitHub Blog",
+        "titre": "GitHub Project HydraFusion : orchestration multi-modèles pour Copilot CLI",
+        "resume": "GitHub a lancé le 4 septembre 2026 HydraFusion, une preview de recherche intégrée à GitHub Copilot CLI qui orchestre dynamiquement plusieurs modèles d'IA pour les tâches de codage selon trois patterns d'exécution : Single, Cascade et Critique. Les benchmarks internes montrent une réduction de coût estimée jusqu'à 67 % par rapport à Claude Opus 5, avec une qualité équivalente ou supérieure sur TerminalBench 2.1. L'outil est disponible en accès expérimental pour tous les abonnés Copilot via la commande /experimental.",
+        "source": "RuntimeWire / InfoQ / DutchStartup.ai",
         "url": "https://runtimewire.com/article/github-hydrafusion-multi-model-copilot-orchestration",
         "date_publication": "04/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "MagiCrew : plateforme open-source d'agents IA pour l'entreprise lancée sur Product Hunt",
-        "resume": "MagiCrew a été lancé le 3 septembre 2026 sur Product Hunt (3e produit du jour, 275 upvotes), proposant une plateforme enterprise open-source (licence Apache 2.0) permettant à chaque employé de déployer des agents IA spécialisés pour la recherche, l'analyse, les rapports et les présentations. Le codebase sous-jacent 'Magic' cumule environ 5 000 étoiles GitHub depuis mai 2025 et est disponible en self-hosting. Le dépôt est accessible sur github.com/dtyq/magic.",
-        "source": "ChatGate / DutchStartup.ai",
+        "titre": "MagiCrew : plateforme open-source d'agents IA tout-en-un lancée sur Product Hunt",
+        "resume": "MagiCrew a été lancé le 3 septembre 2026 sur Product Hunt (3e produit du jour, 269 votes), proposant une plateforme open-source sous licence Apache 2.0 permettant d'assembler des agents IA spécialisés pour la recherche, l'analyse, les rapports et les présentations. Le dépôt sous-jacent Magic cumule environ 5 000 étoiles GitHub depuis mai 2025. La plateforme se positionne comme un agent généraliste combinant moteur de workflow, messagerie et suite bureautique collaborative.",
+        "source": "ChatGate / DutchStartup.ai / GitHub",
         "url": "https://chatgate.ai/post/magicrew",
         "date_publication": "03/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Sixfold lance un agent IA de souscription pour l'assurance Vie & Santé",
-        "resume": "Sixfold a lancé le 3 septembre 2026 son AI Underwriter for Life & Health, un agent de gouvernance IA conçu pour la souscription complexe : il évalue les preuves médicales et financières, applique les directives des assureurs et produit une recommandation avec raisonnement cité pour chaque dossier. Les clients rapportent une réduction de 55% du temps d'évaluation et une hausse de 30% des primes souscrites par souscripteur. Le système couvre la vie, l'invalidité, la dépendance et la maladie grave.",
-        "source": "Insurance-Edge / CompleteAITraining",
+        "titre": "McKinsey State of AI 2026 : 32 % des entreprises renoncent à acheter des logiciels grâce aux agents de codage",
+        "resume": "Le rapport McKinsey State of AI 2026 (publié le 25 août, largement relayé début septembre) révèle que 32 % des organisations ont renoncé à au moins un achat logiciel parce que des agents de codage permettaient de développer la fonctionnalité en interne. La tendance est particulièrement marquée dans la tech (41 %), la santé (39 %) et les services professionnels (38 %). Parmi les « high performers » (6 % des répondants), ce taux approche 50 %, signalant un changement structurel dans les décisions d'achat logiciel.",
+        "source": "Yahoo Finance / ANI News / Under30CEO",
+        "url": "https://finance.yahoo.com/technology/ai/articles/build-vs-buy-shift-32-113806700.html",
+        "date_publication": "04/09/2026",
+        "pertinence": "haute",
+        "categorie": "retour_experience"
+      },
+      {
+        "titre": "Vague de nouveaux outils agents IA début septembre 2026 : HydraFusion, Mireye, CrewAI A2A",
+        "resume": "Autour du 3-4 septembre 2026, plusieurs outils et mises à jour ont émergé simultanément : Mireye (YC Summer 2026) propose via API et serveur MCP un accès à 366 champs d'infrastructure de localisation pour agents IA, déjà utilisé en assurance et robotique. CrewAI annonce que son intégration Agent-to-Agent (A2A) est désormais enterprise-grade pour la production. Ces sorties simultanées signalent la maturation rapide de la couche agent dans la stack IA.",
+        "source": "DutchStartup.ai",
+        "url": "https://www.dutchstartup.ai/en/news/a-wave-of-new-ai-agent-tools-is-emerging-around-early-september-2026",
+        "date_publication": "09/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Sixfold lance l'AI Underwriter pour Life & Health : agent de souscription gouverné en production",
+        "resume": "Sixfold a lancé le 3 septembre 2026 son AI Underwriter pour l'assurance Vie & Santé, un agent gouverné capable d'évaluer les preuves médicales et financières, d'appliquer les manuels de souscription et de produire des recommandations avec raisonnement cité. Les clients rapportent une réduction de 55 % du temps d'évaluation par dossier et 30 % de primes supplémentaires par souscripteur. La plateforme couvre vie, invalidité, soins de longue durée et maladies critiques pour des assureurs comme New York Life, Guardian et Zurich.",
+        "source": "Insurance-Edge / Agentic.ai",
         "url": "https://insurance-edge.net/2026/09/03/sixfold-launches-ai-underwriter-for-life-health/",
         "date_publication": "03/09/2026",
         "pertinence": "haute",
         "categorie": "cas_usage"
       },
       {
-        "titre": "McKinsey State of AI 2026 : 32% des entreprises renoncent à acheter du SaaS grâce aux agents de codage",
-        "resume": "Le rapport McKinsey State of AI 2026 (publié le 25 août, relayé début septembre) révèle que 32% des organisations ont décliné au moins un achat de logiciel parce qu'elles pouvaient le construire en interne avec des agents de codage IA. La tendance est plus prononcée dans la tech (41%) et la santé (39%). Parmi les 'high performers' (6% des répondants attribuant plus de 5% de leur EBIT à l'IA), ce chiffre approche 50%, signalant un basculement structurel du marché SaaS.",
-        "source": "Yahoo Finance / ANI News",
-        "url": "https://finance.yahoo.com/technology/ai/articles/build-vs-buy-shift-32-113806700.html",
-        "date_publication": "06/09/2026",
+        "titre": "L'IA agentique entre dans l'industrie manufacturière — retour de terrain de 16 praticiens sur 12 entreprises",
+        "resume": "Un article de B2BNN (daté du 10 septembre 2026) s'appuie sur une étude de 16 praticiens dans 12 entreprises pour documenter l'état réel du déploiement des agents en production industrielle. Le constat : les déploiements réussis ne confient pas le contrôle physique aux agents mais les concentrent sur la synthèse de données, le diagnostic et la préparation de décisions humaines. Dataiku recommande quatre archétypes manufacturiers centrés sur la synthèse de données plutôt que le contrôle machine.",
+        "source": "B2BNN",
+        "url": "https://www.b2bnn.com/2026/09/agentic-ai-is-moving-into-manufacturing-but-without-the-agents-taking-control/",
+        "date_publication": "10/09/2026",
         "pertinence": "haute",
         "categorie": "retour_experience"
       },
       {
-        "titre": "Vague de nouveaux outils agents début septembre 2026 : Mireye (YC S26) et écosystème en pleine expansion",
-        "resume": "Autour du 3-4 septembre 2026, plusieurs outils agents ont été lancés ou mis à jour : Mireye (YC Summer 2026) fournit une infrastructure de localisation pour agents IA via une API unique et un serveur MCP donnant accès à 366 champs indexés, déjà utilisé pour le screening d'assurance, la proptech et la robotique. CrewAI confirme que son intégration Agent-to-Agent (A2A) est désormais enterprise-grade pour des scénarios multi-agents en production.",
-        "source": "DutchStartup.ai",
-        "url": "https://www.dutchstartup.ai/en/news/a-wave-of-new-ai-agent-tools-is-emerging-around-early-september-2026",
-        "date_publication": "08/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "AI Agents News : semaine du 13 septembre 2026 — Wavespace UX framework et rapport McKinsey build vs buy",
-        "resume": "Le hub d'actualités AI Agent Store publie les faits marquants de la semaine du 13 septembre 2026 : Wavespace a présenté 'Beyond the Chatbox', un framework UX pour interfaces d'agents remplaçant le flux texte unique par une UI générative avec raisonnement visible, checkpoints d'approbation humaine et interfaces spécifiques aux tâches. McKinsey confirme qu'un tiers des organisations construisent plutôt qu'ils n'achètent, faisant des agents de codage un facteur croissant dans les décisions d'achat technologique.",
-        "source": "AI Agent Store",
+        "titre": "Semaine du 13 septembre 2026 : Wavespace 'Beyond the Chatbox' — framework UX pour agents en production",
+        "resume": "La semaine du 13 septembre 2026, l'agence Wavespace a publié 'Beyond the Chatbox', un framework pour les interfaces d'agents IA remplaçant les flux textuels uniques par des UI génératives avec raisonnement visible, gestion d'état explicite, points de contrôle humains et interfaces dédiées par tâche. Ce framework répond aux projections selon lesquelles 40 % des applications d'entreprise intègreront des agents spécifiques d'ici fin 2026, contre moins de 5 % un an plus tôt.",
+        "source": "AI Agent Store (aiagentstore.ai)",
         "url": "https://aiagentstore.ai/ai-agent-news/this-week",
         "date_publication": "13/09/2026",
-        "pertinence": "moyenne",
-        "categorie": "retour_experience"
+        "pertinence": "haute",
+        "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "KPMG Canada obtient la certification ISO 42001 pour la gouvernance de l'IA",
-        "resume": "KPMG Canada a officiellement obtenu le 2 septembre 2026 la certification ISO 42001, le premier standard international pour les systèmes de management de l'IA, se positionnant parmi les premiers cabinets de services professionnels au Canada à atteindre cette désignation. La certification couvre la gouvernance, la gestion des risques et la surveillance du développement et du déploiement de l'IA. Une enquête interne révèle que 82% des dirigeants d'entreprises canadiennes citent la sécurité des données et les risques comme raisons de ralentir leurs stratégies IA.",
-        "source": "KPMG Canada / BC Technology / ChannelLife",
-        "url": "https://kpmg.com/ca/en/media/2026/08/kpmg-canada-achieves-iso-42001-certification.html",
-        "date_publication": "02/09/2026",
-        "pertinence": "haute",
-        "categorie": "certification"
-      },
-      {
-        "titre": "EU AI Act : recrutement massif de 40 postes au Bureau IA de l'UE pour renforcer l'enforcement",
-        "resume": "Le site officiel de suivi de l'EU AI Act signale un recrutement de grande ampleur au Bureau IA de l'UE : 40 nouveaux postes (tech, juridique, opérationnel) dédiés à l'application de l'AI Act, avec date limite d'expression d'intérêt fixée au 8 septembre 2026. Cela illustre la montée en puissance opérationnelle de l'enforcement après l'entrée en vigueur du 2 août 2026.",
-        "source": "EU Artificial Intelligence Act (artificialintelligenceact.eu)",
-        "url": "https://artificialintelligenceact.eu/implementation-timeline/",
-        "date_publication": "08/09/2026",
+        "titre": "EU AI Act : le Digital Omnibus est entré en vigueur — nouvelles échéances confirmées au 15 septembre 2026",
+        "resume": "Au 15 septembre 2026, le règlement 2026/1744 (Digital Omnibus on AI) est en vigueur et fixe les grandes échéances : transparence (Art. 50) applicable depuis le 2 août 2026, systèmes à haut risque Annexe III reportés au 2 décembre 2027, Annexe I au 2 août 2028. Les obligations sur les pratiques interdites, les règles GPAI et la transparence n'ont pas été modifiées et sont activement enforced. La Commission européenne a également publié un plan d'action cybersécurité-IA en juillet 2026.",
+        "source": "Decode the Future / Regulation-AI.eu / European Commission",
+        "url": "https://decodethefuture.org/en/eu-ai-act-explained/",
+        "date_publication": "15/09/2026",
         "pertinence": "haute",
         "categorie": "reglementation"
+      },
+      {
+        "titre": "EU AI Act : cadre de conformité pour agents IA — analyse systématique des obligations (arXiv)",
+        "resume": "Ce paper académique propose le premier mapping réglementaire systématique pour les fournisseurs d'agents IA, croisant les normes harmonisées M/613, le Code de pratique GPAI (juillet 2025), le CRA et le Digital Omnibus. Il identifie neuf catégories de déploiement d'agents et les défis spécifiques en cybersécurité, supervision humaine, transparence multi-acteurs et dérive comportementale à l'exécution. Les auteurs concluent que les systèmes agentiques à haut risque avec dérive comportementale non traçable ne peuvent pas satisfaire les exigences essentielles de l'AI Act en l'état.",
+        "source": "arXiv",
+        "url": "https://arxiv.org/html/2604.04604v1",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "conformite"
       }
     ],
     "clinique": [
       {
-        "titre": "Clarkston Consulting : l'IA améliore de 65% les taux d'enrôlement dans les essais cliniques diversifiés",
-        "resume": "Un article publié le 14 septembre 2026 par Clarkston Consulting détaille comment les outils de recrutement alimentés par l'IA ont amélioré les taux d'enrôlement de 65% selon une étude de la National Library of Medicine, en détectant les biais cachés, anticipant les pénuries de recrutement et recommandant des mesures correctives en temps réel. L'article souligne cependant que les modèles d'IA entraînés sur des données historiques biaisées peuvent perpétuer les inégalités de représentation si aucun garde-fou n'est mis en place.",
-        "source": "Clarkston Consulting",
-        "url": "https://clarkstonconsulting.com/insights/ai-for-clinical-trial-diversity/",
-        "date_publication": "14/09/2026",
+        "titre": "Race and trial region changes in cancer clinical trials between 2013 and 2024 (Frontiers in Medicine, sept. 2026)",
+        "resume": "Cette revue systématique publiée le 9 septembre 2026 dans Frontiers in Medicine analyse l'évolution de la composition raciale et géographique des essais cliniques ayant conduit à 92 approbations FDA en oncologie entre 2013 et 2024. Elle confirme que les minorités raciales restent sous-représentées dans les essais cliniques aux États-Unis malgré les mesures réglementaires successives de la FDA. Les auteurs appellent à une meilleure caractérisation des tendances récentes pour guider les politiques d'inclusion.",
+        "source": "Frontiers in Medicine",
+        "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.1894533/full",
+        "date_publication": "09/09/2026",
         "pertinence": "haute",
-        "categorie": "outil_recrutement"
+        "categorie": "etude"
+      },
+      {
+        "titre": "AACR Cancer Disparities Progress Report 2026 — section essais cliniques",
+        "resume": "Le rapport annuel AACR Cancer Disparities Progress Report 2026 (accessible depuis août-septembre 2026) documente que de nombreux segments de la population américaine — minorités raciales et ethniques, populations rurales, personnes handicapées, personnes âgées — restent sous-représentés dans les essais cliniques en oncologie. Les auteurs soulignent que malgré la loi NIH Revitalization Act de 1993 et de nombreuses initiatives FDA, les progrès sont limités et le sous-reporting des données démographiques reste un défi persistant.",
+        "source": "American Association for Cancer Research (AACR)",
+        "url": "https://cancerprogressreport.aacr.org/disparities/cdpr26-contents/cdpr26-disparities-in-clinical-research-and-cancer-treatment/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "rapport"
       }
     ]
   }
