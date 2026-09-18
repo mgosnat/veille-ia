@@ -1,74 +1,65 @@
 {
-  "generated_at": "2026-09-17T11:23:48.189095Z",
-  "date_fr": "17/09/2026",
+  "generated_at": "2026-09-18T10:57:50.746217Z",
+  "date_fr": "18/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "GitHub Project HydraFusion : orchestration multi-modèles pour GitHub Copilot",
-        "resume": "GitHub a lancé le 4 septembre 2026 HydraFusion, une préversion de recherche intégrée à GitHub Copilot CLI qui orchestre plusieurs modèles d'IA à l'exécution plutôt que d'en sélectionner un seul. Le système choisit entre trois patterns (Single, Cascade, Critique) selon la complexité de la tâche, réduisant les coûts estimés de 36 à 67 % par rapport à Claude Opus 5. L'extension à VS Code et à l'app Copilot est prévue pour septembre 2026.",
-        "source": "GitHub Blog / MarkTechPost / InfoQ",
-        "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-        "date_publication": "04/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "McKinsey State of AI 2026 : 32 % des entreprises renoncent à acheter des logiciels grâce aux agents de codage",
-        "resume": "Le rapport McKinsey 'State of AI 2026', publié le 25 août et largement commenté début septembre 2026, révèle qu'un tiers des 1 719 organisations interrogées ont renoncé à au moins un achat logiciel parce que des agents de codage agentiques leur permettaient de construire la fonctionnalité en interne. Le phénomène est particulièrement marqué dans la tech (41 %) et la santé (39 %). 40 % des grandes entreprises (plus d'1 Md$ de CA) déclarent désormais déployer des agents à l'échelle dans au moins une fonction, contre 27 % un an plus tôt.",
-        "source": "ANI News / Yahoo Finance / Under30CEO",
-        "url": "https://finance.yahoo.com/technology/ai/articles/build-vs-buy-shift-32-113806700.html",
-        "date_publication": "04/09/2026",
-        "pertinence": "haute",
-        "categorie": "retour d'expérience"
-      },
-      {
-        "titre": "Vague de nouveaux outils agents début septembre 2026 : HydraFusion, Mireye, MagiCrew et CrewAI A2A enterprise-grade",
-        "resume": "Autour du 4 septembre 2026, plusieurs frameworks et outils agents ont été lancés ou mis à jour : outre HydraFusion de GitHub, CrewAI a annoncé que son intégration Agent-to-Agent (A2A) est désormais enterprise-grade pour la production multi-agents. Mireye (YC Summer 2026) propose une infrastructure de localisation pour agents IA via API et serveur MCP, déjà utilisée en assurance, proptech et robotique. L'écosystème agent atteint une maturité produit inédite avec des outils ciblant des secteurs métiers précis.",
-        "source": "DutchStartup.ai",
-        "url": "https://www.dutchstartup.ai/en/news/a-wave-of-new-ai-agent-tools-is-emerging-around-early-september-2026",
-        "date_publication": "04/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Wavespace 'Beyond the Chatbox' : framework d'interface pour agents IA en production",
-        "resume": "La semaine du 13 septembre 2026, l'agence design Wavespace a dévoilé 'Beyond the Chatbox', un framework remplaçant les flux de texte uniques par une UI générative pour agents. Il insiste sur le raisonnement visible, la gestion d'état explicite, les points de validation humaine et des interfaces tâche-spécifiques (formulaires, tableaux) plutôt que du chat générique. Selon leurs projections, 40 % des applications enterprise incluront des agents tâche-spécifiques d'ici fin 2026, contre moins de 5 % en 2025.",
-        "source": "AI Agent Store / Weekly Digest",
+        "titre": "Wavespace 'Beyond the Chatbox' : framework UX pour interfaces d'agents IA",
+        "resume": "Le cabinet Wavespace a présenté mi-septembre 2026 un framework de conception d'interfaces agentiques qui remplace le flux de chat unique par une UI générative : raisonnement visible, gestion d'état claire, points d'approbation humaine et interfaces spécifiques à chaque tâche (formulaires, tableaux). Ce framework répond à la prévision selon laquelle 40 % des applications d'entreprise incluront des agents IA spécifiques aux tâches d'ici fin 2026, contre moins de 5 % en 2025. L'objectif pratique est de rendre les agents auditables et conformes aux règles de gouvernance.",
+        "source": "AI Agent Store (semaine du 13 sept. 2026)",
         "url": "https://aiagentstore.ai/ai-agent-news/this-week",
         "date_publication": "13/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
+      },
+      {
+        "titre": "EU AI Act Is No Longer Theoretical : premières investigations formelles en juin 2026 (podcast + analyse terrain)",
+        "resume": "Cet article/podcast du 16 septembre 2026 analyse comment l'AI Act est passé d'un exercice de planification à un régime réglementaire activement appliqué : l'AI Office de la Commission européenne détient des pouvoirs d'enquête et d'amende depuis août 2026 et a déjà ouvert ses premières investigations formelles en juin 2026 sur des outils de recrutement, des systèmes de scoring de crédit et des applications de surveillance des étudiants. Retour pratique sur ce que cela implique pour les entreprises en termes de conformité immédiate.",
+        "source": "Volkov Law / Corruption, Crime & Compliance",
+        "url": "https://blog.volkovlaw.com/2026/09/episode-449-the-eu-ai-act-is-no-longer-theoretical/",
+        "date_publication": "16/09/2026",
+        "pertinence": "haute",
+        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act News September 2026 (Startup Edition) : la gouvernance devient un critère commercial",
-        "resume": "Publié la semaine du 10 septembre 2026, cet article analyse comment l'AI Act transforme la dynamique commerciale : les acheteurs et régulateurs exigent désormais des preuves concrètes de conformité (inventaire des systèmes IA, supervision humaine documentée, procédures d'incident). Les fondateurs, éditeurs SaaS, agences et freelancers sont tous potentiellement soumis à la loi en tant que fournisseurs, déployeurs ou distributeurs. L'article identifie trois tendances à surveiller : application par les États membres, évolution des questionnaires achat, et montée des exigences de cybersécurité autour des GPAI.",
-        "source": "MEAN.CEO Blog",
-        "url": "https://blog.mean.ceo/eu-ai-act-news-september-2026/",
-        "date_publication": "10/09/2026",
+        "titre": "EU AI Office lance la première vague d'inspections sur les outils RH automatisés (10 sept. 2026)",
+        "resume": "Le 10 septembre 2026, l'AI Office européen a confirmé que les outils de tri automatique de CV et de décision RH font partie de la première vague d'inspections sous l'EU AI Act. Ce basculement signifie que l'application réglementaire est passée des documents d'orientation à l'examen direct de systèmes spécifiques utilisés en entreprise, avec des obligations relevant de l'Article 50 et du cadre IA à haut risque. Les entreprises opérant dans l'UE ou offrant des services à des clients européens doivent vérifier en urgence si leurs outils de recrutement sont dans le champ d'application.",
+        "source": "OpsIntel",
+        "url": "https://www.opsintel.io/blog/eu-ai-office-begins-automated-hiring-tool-inspections-first-enforcement-wave-under-article-50-starts-september-2026/",
+        "date_publication": "13/09/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "enforcement"
       },
       {
-        "titre": "EU AI Act : recrutement massif à l'AI Office (40 postes) pour renforcer l'application de la loi",
-        "resume": "L'AI Office européen a lancé une vague de recrutement de 40 nouveaux postes (techniques, juridiques, opérations) dédiés à l'application de l'AI Act, avec une date limite d'expression d'intérêt fixée au 8 septembre 2026. Cela reflète la montée en puissance de l'infrastructure d'exécution réglementaire, pas une tolérance accrue envers la non-conformité. Plusieurs analystes notent que le précédent RGPD — presque quatre ans entre l'entrée en vigueur et les premières sanctions majeures — est instructif, mais que l'AI Office a signalé une posture plus agressive.",
-        "source": "EU AI Act (artificialintelligenceact.eu) / Axis Intelligence",
-        "url": "https://artificialintelligenceact.eu/implementation-timeline/",
+        "titre": "EU AI Act phase d'application active : état des lieux au 15 septembre 2026",
+        "resume": "Mise à jour publiée le 15 septembre 2026 : le Règlement (UE) 2026/1744 (Digital Omnibus on AI) est en vigueur, les obligations de transparence de l'Article 50 s'appliquent depuis le 2 août 2026, les pratiques interdites seront élargies au 2 décembre 2026, et les systèmes à haut risque (Annexe III) au 2 décembre 2027. Les équipes de conformité doivent travailler à partir des dates officielles, distinguer les obligations déjà applicables des délais futurs et documenter les décisions de classification IA.",
+        "source": "Decode the Future",
+        "url": "https://decodethefuture.org/en/eu-ai-act-explained/",
+        "date_publication": "15/09/2026",
+        "pertinence": "haute",
+        "categorie": "conformite"
+      },
+      {
+        "titre": "EU AI Office recrute 40 agents contractuels pour renforcer l'application de l'EU AI Act",
+        "resume": "L'AI Office de l'UE, qui compte déjà plus de 125 professionnels répartis en six unités, a lancé une vague de recrutement de ~40 postes supplémentaires (spécialistes tech, juristes, opérations) avec une date limite de candidature au 8 septembre 2026. Cette hausse de capacité prépare une vague d'application au T4 2026, notamment pour traiter le délai du 2 décembre 2026 concernant les marquages machine-readable de l'Article 50(2) pour les systèmes déjà sur le marché.",
+        "source": "Forkast News / artificialintelligenceact.eu",
+        "url": "https://forkast.news/eu-ai-office-hiring-40-enforcement-staff-signals-q4-crackdown/",
         "date_publication": "08/09/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "enforcement"
       }
     ],
     "clinique": [
       {
-        "titre": "Clarkston Consulting : l'IA pour la diversité en essais cliniques — opportunités et risques de biais algorithmique",
-        "resume": "Publié le 14 septembre 2026, cet article analyse comment l'IA est utilisée pour améliorer la diversité en essais cliniques : identification de participants éligibles issus de groupes minoritaires, réduction des biais de recrutement par détection de patterns démographiques sous-représentés. L'article souligne que les modèles entraînés sur des datasets existants (souvent incomplets ou biaisés historiquement) risquent de renforcer les disparités existantes, et préconise validation, évaluation des biais, datasets diversifiés et reporting standardisé.",
-        "source": "Clarkston Consulting",
-        "url": "https://clarkstonconsulting.com/insights/ai-for-clinical-trial-diversity/",
-        "date_publication": "14/09/2026",
-        "pertinence": "haute",
-        "categorie": "biais algorithmique"
+        "titre": "Protocol : Mapping Algorithmic Bias in AI-Powered Electrocardiogram Analysis (JMIR Research Protocols, 2026)",
+        "resume": "Protocole de revue systématique publié en 2026 (JMIR Research Protocols, vol. 15, e82486) par l'Université d'Oxford en collaboration avec la Mayo Clinic Platform, visant à cartographier les biais algorithmiques dans les outils IA d'électrocardiogramme à travers les cinq étapes du cycle de vie IA (collecte de données, développement, évaluation, déploiement, usage clinique). Les résultats seront partagés avec les développeurs, cliniciens et décideurs, avec un accent particulier sur les pays à revenus faibles et intermédiaires où les biais des outils IA peuvent avoir des conséquences plus graves.",
+        "source": "JMIR Research Protocols",
+        "url": "https://www.researchprotocols.org/2026/1/e82486/PDF",
+        "date_publication": "",
+        "pertinence": "moyenne",
+        "categorie": "biais_algorithmique"
       }
     ]
   }
