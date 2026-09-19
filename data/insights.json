@@ -1,64 +1,82 @@
 {
-  "generated_at": "2026-09-18T10:57:50.746217Z",
-  "date_fr": "18/09/2026",
+  "generated_at": "2026-09-19T10:40:27.709508Z",
+  "date_fr": "19/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Wavespace 'Beyond the Chatbox' : framework UX pour interfaces d'agents IA",
-        "resume": "Le cabinet Wavespace a présenté mi-septembre 2026 un framework de conception d'interfaces agentiques qui remplace le flux de chat unique par une UI générative : raisonnement visible, gestion d'état claire, points d'approbation humaine et interfaces spécifiques à chaque tâche (formulaires, tableaux). Ce framework répond à la prévision selon laquelle 40 % des applications d'entreprise incluront des agents IA spécifiques aux tâches d'ici fin 2026, contre moins de 5 % en 2025. L'objectif pratique est de rendre les agents auditables et conformes aux règles de gouvernance.",
-        "source": "AI Agent Store (semaine du 13 sept. 2026)",
+        "titre": "Sixfold lance AI Underwriter for Life & Health : agent IA de souscription en production",
+        "resume": "Sixfold a lancé début septembre 2026 un agent IA de souscription pour les assurances vie et santé, capable d'évaluer preuves médicales et financières, d'appliquer les manuels de souscription du porteur et de produire une recommandation de décision (rate, refer, decline, postpone) avec citations des sources. Les clients rapportent une réduction de 55% du temps d'évaluation par dossier et une augmentation de 30% des primes écrites par souscripteur. Le système conserve la supervision humaine complète pour chaque recommandation.",
+        "source": "Beinsure / Insurance-Edge / Complete AI Training",
+        "url": "https://beinsure.com/news/sixfold-launches-ai-underwriter-life-health-insurance/",
+        "date_publication": "10/09/2026",
+        "pertinence": "haute",
+        "categorie": "cas_usage"
+      },
+      {
+        "titre": "Rapport McKinsey : les agents IA de coding réduisent les achats de logiciels tiers en entreprise",
+        "resume": "Un rapport McKinsey cité dans la semaine du 13 septembre 2026 révèle qu'environ un tiers des organisations interrogées ont renoncé à acheter au moins un produit logiciel car elles pouvaient développer la fonctionnalité en interne grâce aux agents de coding IA. Les outils de coding agentiques sont décrits comme un facteur croissant dans les budgets technologiques, faisant basculer les dépenses vers le développement interne plutôt que les licences éditeurs. Cela illustre un impact économique concret et mesurable du déploiement d'agents en production.",
+        "source": "aiagentstore.ai",
         "url": "https://aiagentstore.ai/ai-agent-news/this-week",
         "date_publication": "13/09/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "retour_experience"
       },
       {
-        "titre": "EU AI Act Is No Longer Theoretical : premières investigations formelles en juin 2026 (podcast + analyse terrain)",
-        "resume": "Cet article/podcast du 16 septembre 2026 analyse comment l'AI Act est passé d'un exercice de planification à un régime réglementaire activement appliqué : l'AI Office de la Commission européenne détient des pouvoirs d'enquête et d'amende depuis août 2026 et a déjà ouvert ses premières investigations formelles en juin 2026 sur des outils de recrutement, des systèmes de scoring de crédit et des applications de surveillance des étudiants. Retour pratique sur ce que cela implique pour les entreprises en termes de conformité immédiate.",
-        "source": "Volkov Law / Corruption, Crime & Compliance",
-        "url": "https://blog.volkovlaw.com/2026/09/episode-449-the-eu-ai-act-is-no-longer-theoretical/",
-        "date_publication": "16/09/2026",
-        "pertinence": "haute",
-        "categorie": "cas_usage"
+        "titre": "Wavespace 'Beyond the Chatbox' : framework de design d'interfaces pour agents IA en production",
+        "resume": "L'agence Wavespace a dévoilé la semaine du 13 septembre 2026 un framework d'interface agents IA remplaçant le flux texte unique par une UI générative, avec raisonnement visible, gestion d'état explicite, signaux de confiance, points d'approbation humaine et interfaces spécifiques à chaque tâche. Le framework s'appuie sur la prévision que 40% des applications enterprise incluront des agents spécifiques à des tâches d'ici fin 2026, contre moins de 5% en 2025. Il vise à améliorer l'auditabilité et la conformité des décisions agents.",
+        "source": "aiagentstore.ai",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "13/09/2026",
+        "pertinence": "moyenne",
+        "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Office lance la première vague d'inspections sur les outils RH automatisés (10 sept. 2026)",
-        "resume": "Le 10 septembre 2026, l'AI Office européen a confirmé que les outils de tri automatique de CV et de décision RH font partie de la première vague d'inspections sous l'EU AI Act. Ce basculement signifie que l'application réglementaire est passée des documents d'orientation à l'examen direct de systèmes spécifiques utilisés en entreprise, avec des obligations relevant de l'Article 50 et du cadre IA à haut risque. Les entreprises opérant dans l'UE ou offrant des services à des clients européens doivent vérifier en urgence si leurs outils de recrutement sont dans le champ d'application.",
-        "source": "OpsIntel",
-        "url": "https://www.opsintel.io/blog/eu-ai-office-begins-automated-hiring-tool-inspections-first-enforcement-wave-under-article-50-starts-september-2026/",
-        "date_publication": "13/09/2026",
-        "pertinence": "haute",
-        "categorie": "enforcement"
-      },
-      {
-        "titre": "EU AI Act phase d'application active : état des lieux au 15 septembre 2026",
-        "resume": "Mise à jour publiée le 15 septembre 2026 : le Règlement (UE) 2026/1744 (Digital Omnibus on AI) est en vigueur, les obligations de transparence de l'Article 50 s'appliquent depuis le 2 août 2026, les pratiques interdites seront élargies au 2 décembre 2026, et les systèmes à haut risque (Annexe III) au 2 décembre 2027. Les équipes de conformité doivent travailler à partir des dates officielles, distinguer les obligations déjà applicables des délais futurs et documenter les décisions de classification IA.",
-        "source": "Decode the Future",
+        "titre": "EU AI Act : état d'application au 15 septembre 2026 — obligations Article 50, Digital Omnibus et prochaines échéances",
+        "resume": "Au 15 septembre 2026, l'EU AI Act est en phase d'application active : les obligations de transparence Article 50 s'appliquent depuis le 2 août 2026, le Règlement (UE) 2026/1744 (Digital Omnibus) est en vigueur et a décalé certaines obligations systèmes haut risque à décembre 2027 (Annexe III) et août 2028 (Annexe I). Les chatbots et agents IA déployeurs sont désormais potentiellement requalifiés en 'provider' s'ils modifient substantiellement un modèle de fondation. L'article confirme que la conformité est obligatoire indépendamment du siège de l'entreprise dès lors qu'un utilisateur est dans l'UE.",
+        "source": "decodethefuture.org",
         "url": "https://decodethefuture.org/en/eu-ai-act-explained/",
         "date_publication": "15/09/2026",
         "pertinence": "haute",
-        "categorie": "conformite"
+        "categorie": "reglementation"
       },
       {
-        "titre": "EU AI Office recrute 40 agents contractuels pour renforcer l'application de l'EU AI Act",
-        "resume": "L'AI Office de l'UE, qui compte déjà plus de 125 professionnels répartis en six unités, a lancé une vague de recrutement de ~40 postes supplémentaires (spécialistes tech, juristes, opérations) avec une date limite de candidature au 8 septembre 2026. Cette hausse de capacité prépare une vague d'application au T4 2026, notamment pour traiter le délai du 2 décembre 2026 concernant les marquages machine-readable de l'Article 50(2) pour les systèmes déjà sur le marché.",
-        "source": "Forkast News / artificialintelligenceact.eu",
-        "url": "https://forkast.news/eu-ai-office-hiring-40-enforcement-staff-signals-q4-crackdown/",
-        "date_publication": "08/09/2026",
+        "titre": "Newsom signe un package de lois historiques sur la sécurité des enfants face à l'IA (Californie, 10 septembre 2026)",
+        "resume": "Le gouverneur Gavin Newsom a signé le 10 septembre 2026 un ensemble de 13 lois renforçant la protection des enfants face aux chatbots IA et aux réseaux sociaux, dont l'interdiction des 'addictive features' pour les moins de 16 ans, l'obligation pour les chatbots compagnons d'intégrer des protocoles de crise (idéation suicidaire) et des contrôles parentaux, et des audits de sécurité indépendants annuels. Les plateformes sociales risquent jusqu'à 1 million de dollars d'amende par enfant lésé. C'est la première législation de ce type aux États-Unis.",
+        "source": "EdSource / Gov.ca.gov / NBC News",
+        "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+        "date_publication": "10/09/2026",
         "pertinence": "haute",
-        "categorie": "enforcement"
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "Newsom signe un décret exécutif pour accélérer la surveillance indépendante de l'IA et un 'AI kill switch' (18 septembre 2026)",
+        "resume": "Le 18 septembre 2026, le gouverneur Newsom a signé un décret exécutif visant à accélérer la supervision indépendante de l'IA en Californie, incluant la certification d'organisations d'audit IA indépendantes (SB 813) et la création d'un registre d'auditeurs IA (AB 1405). Ce décret s'inscrit dans la continuité du package législatif du 10 septembre et positionne la Californie comme leader national en gouvernance IA. Il prévoit également un cadre pour des mécanismes d'interruption de systèmes IA ('kill switch').",
+        "source": "Governor of California",
+        "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+        "date_publication": "18/09/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "Gouvernance IA : 100% des entreprises ont des agents sur la roadmap mais 63% ne peuvent pas imposer de limites de finalité",
+        "resume": "Un article publié il y a deux semaines (mi-septembre 2026) sur la gouvernance des agents IA post-deadline EU AI Act révèle qu'une enquête montre que si 100% des entreprises ont l'IA agentique dans leur roadmap, 63% ne peuvent pas encore faire respecter les limitations de finalité et 60% sont incapables d'interrompre un agent défaillant. Le NIST s'est engagé à publier un profil d'interopérabilité pour agents IA au T4 2026. L'article liste sept piliers de conformité : gestion des risques, gouvernance des données, journalisation, transparence, supervision humaine, cybersécurité et monitoring post-déploiement.",
+        "source": "growtoyourfullest.com",
+        "url": "https://www.growtoyourfullest.com/single-post/governance-just-became-enforcement-ai-compliance-moment-every-enterprise-faces",
+        "date_publication": "06/09/2026",
+        "pertinence": "haute",
+        "categorie": "gouvernance_enterprise"
       }
     ],
     "clinique": [
       {
-        "titre": "Protocol : Mapping Algorithmic Bias in AI-Powered Electrocardiogram Analysis (JMIR Research Protocols, 2026)",
-        "resume": "Protocole de revue systématique publié en 2026 (JMIR Research Protocols, vol. 15, e82486) par l'Université d'Oxford en collaboration avec la Mayo Clinic Platform, visant à cartographier les biais algorithmiques dans les outils IA d'électrocardiogramme à travers les cinq étapes du cycle de vie IA (collecte de données, développement, évaluation, déploiement, usage clinique). Les résultats seront partagés avec les développeurs, cliniciens et décideurs, avec un accent particulier sur les pays à revenus faibles et intermédiaires où les biais des outils IA peuvent avoir des conséquences plus graves.",
-        "source": "JMIR Research Protocols",
-        "url": "https://www.researchprotocols.org/2026/1/e82486/PDF",
-        "date_publication": "",
-        "pertinence": "moyenne",
+        "titre": "AI pour la diversité dans les essais cliniques : opportunités et considérations sur les biais algorithmiques",
+        "resume": "Clarkston Consulting a publié il y a 5 jours (vers le 14 septembre 2026) une analyse pratique sur l'utilisation de l'IA pour améliorer la diversité dans les essais cliniques, soulignant que la validation et les évaluations de biais sont indispensables. Les stratégies proposées incluent l'entraînement sur des datasets diversifiés, la standardisation du reporting des données d'entraînement, et l'évaluation approfondie des performances du modèle pour garantir l'équité et la fiabilité des sorties d'identification de participants.",
+        "source": "Clarkston Consulting",
+        "url": "https://clarkstonclinical.com/insights/ai-for-clinical-trial-diversity/",
+        "date_publication": "14/09/2026",
+        "pertinence": "haute",
         "categorie": "biais_algorithmique"
       }
     ]
