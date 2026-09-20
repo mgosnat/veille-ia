@@ -1,83 +1,65 @@
 {
-  "generated_at": "2026-09-19T10:40:27.709508Z",
-  "date_fr": "19/09/2026",
+  "generated_at": "2026-09-20T11:03:13.070097Z",
+  "date_fr": "20/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Sixfold lance AI Underwriter for Life & Health : agent IA de souscription en production",
-        "resume": "Sixfold a lancé début septembre 2026 un agent IA de souscription pour les assurances vie et santé, capable d'évaluer preuves médicales et financières, d'appliquer les manuels de souscription du porteur et de produire une recommandation de décision (rate, refer, decline, postpone) avec citations des sources. Les clients rapportent une réduction de 55% du temps d'évaluation par dossier et une augmentation de 30% des primes écrites par souscripteur. Le système conserve la supervision humaine complète pour chaque recommandation.",
-        "source": "Beinsure / Insurance-Edge / Complete AI Training",
-        "url": "https://beinsure.com/news/sixfold-launches-ai-underwriter-life-health-insurance/",
-        "date_publication": "10/09/2026",
-        "pertinence": "haute",
-        "categorie": "cas_usage"
-      },
-      {
-        "titre": "Rapport McKinsey : les agents IA de coding réduisent les achats de logiciels tiers en entreprise",
-        "resume": "Un rapport McKinsey cité dans la semaine du 13 septembre 2026 révèle qu'environ un tiers des organisations interrogées ont renoncé à acheter au moins un produit logiciel car elles pouvaient développer la fonctionnalité en interne grâce aux agents de coding IA. Les outils de coding agentiques sont décrits comme un facteur croissant dans les budgets technologiques, faisant basculer les dépenses vers le développement interne plutôt que les licences éditeurs. Cela illustre un impact économique concret et mesurable du déploiement d'agents en production.",
-        "source": "aiagentstore.ai",
+        "titre": "AI Agents News — Semaine du 13 septembre 2026 : interfaces agents et impact sur l'achat logiciel",
+        "resume": "La semaine du 13 septembre 2026 recense plusieurs évolutions terrain majeures : Wavespace publie un framework 'Beyond the Chatbox' pour remplacer les interfaces chat génériques par des UI agentiques avec checkpoints d'approbation humaine et gestion d'état visible. Par ailleurs, un rapport McKinsey révèle qu'un tiers des organisations interrogées ont renoncé à acheter un logiciel tiers parce qu'elles pouvaient le développer en interne grâce aux agents de codage IA.",
+        "source": "AI Agent Store / aiagentstore.ai",
         "url": "https://aiagentstore.ai/ai-agent-news/this-week",
         "date_publication": "13/09/2026",
         "pertinence": "haute",
         "categorie": "retour_experience"
       },
       {
-        "titre": "Wavespace 'Beyond the Chatbox' : framework de design d'interfaces pour agents IA en production",
-        "resume": "L'agence Wavespace a dévoilé la semaine du 13 septembre 2026 un framework d'interface agents IA remplaçant le flux texte unique par une UI générative, avec raisonnement visible, gestion d'état explicite, signaux de confiance, points d'approbation humaine et interfaces spécifiques à chaque tâche. Le framework s'appuie sur la prévision que 40% des applications enterprise incluront des agents spécifiques à des tâches d'ici fin 2026, contre moins de 5% en 2025. Il vise à améliorer l'auditabilité et la conformité des décisions agents.",
-        "source": "aiagentstore.ai",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "13/09/2026",
+        "titre": "L&T Finance et Pine Labs : commerce agentique pour réservations de vols autonomes (Global Fintech Fest 2026)",
+        "resume": "Annoncé lors du Global Fintech Fest 2026 (semaine du 10 septembre), L&T Finance s'associe à Pine Labs pour intégrer Agentic Storefront dans l'app PLANET, en démarrant par des réservations de vols autonomes via le protocole Payments Protocol et le protocole Grantex. Ce cas d'usage signale le passage des agents IA des recommandations vers les transactions financières et de voyage réelles. Il constitue un benchmark concret pour les équipes tracking l'IA agentique dans les opérations business.",
+        "source": "Agentic.ai News",
+        "url": "https://agentic.ai/news",
+        "date_publication": "10/09/2026",
         "pertinence": "moyenne",
-        "categorie": "outil"
+        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : état d'application au 15 septembre 2026 — obligations Article 50, Digital Omnibus et prochaines échéances",
-        "resume": "Au 15 septembre 2026, l'EU AI Act est en phase d'application active : les obligations de transparence Article 50 s'appliquent depuis le 2 août 2026, le Règlement (UE) 2026/1744 (Digital Omnibus) est en vigueur et a décalé certaines obligations systèmes haut risque à décembre 2027 (Annexe III) et août 2028 (Annexe I). Les chatbots et agents IA déployeurs sont désormais potentiellement requalifiés en 'provider' s'ils modifient substantiellement un modèle de fondation. L'article confirme que la conformité est obligatoire indépendamment du siège de l'entreprise dès lors qu'un utilisateur est dans l'UE.",
-        "source": "decodethefuture.org",
+        "titre": "L'AI Office cible les outils RH automatisés dans sa première vague d'inspections (10 septembre 2026)",
+        "resume": "Le 10 septembre 2026, l'AI Office européen a confirmé que les outils de tri automatique de CV et de prise de décision RH sont inclus dans la première vague d'inspections de l'AI Act. Les régulateurs français (CNIL), allemand (BfDI) et espagnol (AESIA) concentrent leurs premières demandes sur trois secteurs : screening RH, scoring de crédit retail et triage IA en cliniques privées. Ce mouvement marque le passage d'une conformité sur papier à un contrôle réglementaire direct sur des systèmes en production.",
+        "source": "OpsIntel / opsintel.io",
+        "url": "https://www.opsintel.io/blog/eu-ai-office-begins-automated-hiring-tool-inspections-first-enforcement-wave-under-article-50-starts-september-2026/",
+        "date_publication": "10/09/2026",
+        "pertinence": "haute",
+        "categorie": "enforcement"
+      },
+      {
+        "titre": "EU AI Act : état de l'enforcement au 15 septembre 2026 — Article 50, Règlement 2026/1744 et prochaines échéances",
+        "resume": "Mis à jour au 15 septembre 2026, cet article fait le point sur la phase d'enforcement active : les obligations de transparence (Article 50) s'appliquent depuis le 2 août 2026, les nouvelles pratiques interdites entrent en vigueur le 2 décembre 2026, et les systèmes à haut risque (Annexe III) sont visés au 2 décembre 2027. Le Règlement (UE) 2026/1744 (Digital Omnibus on AI) est déjà en vigueur. Les amendes peuvent dépasser celles du RGPD, avec une portée extraterritoriale applicable à toute organisation touchant des utilisateurs en UE.",
+        "source": "Decode The Future / decodethefuture.org",
         "url": "https://decodethefuture.org/en/eu-ai-act-explained/",
         "date_publication": "15/09/2026",
         "pertinence": "haute",
         "categorie": "reglementation"
       },
       {
-        "titre": "Newsom signe un package de lois historiques sur la sécurité des enfants face à l'IA (Californie, 10 septembre 2026)",
-        "resume": "Le gouverneur Gavin Newsom a signé le 10 septembre 2026 un ensemble de 13 lois renforçant la protection des enfants face aux chatbots IA et aux réseaux sociaux, dont l'interdiction des 'addictive features' pour les moins de 16 ans, l'obligation pour les chatbots compagnons d'intégrer des protocoles de crise (idéation suicidaire) et des contrôles parentaux, et des audits de sécurité indépendants annuels. Les plateformes sociales risquent jusqu'à 1 million de dollars d'amende par enfant lésé. C'est la première législation de ce type aux États-Unis.",
-        "source": "EdSource / Gov.ca.gov / NBC News",
-        "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
-        "date_publication": "10/09/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "Newsom signe un décret exécutif pour accélérer la surveillance indépendante de l'IA et un 'AI kill switch' (18 septembre 2026)",
-        "resume": "Le 18 septembre 2026, le gouverneur Newsom a signé un décret exécutif visant à accélérer la supervision indépendante de l'IA en Californie, incluant la certification d'organisations d'audit IA indépendantes (SB 813) et la création d'un registre d'auditeurs IA (AB 1405). Ce décret s'inscrit dans la continuité du package législatif du 10 septembre et positionne la Californie comme leader national en gouvernance IA. Il prévoit également un cadre pour des mécanismes d'interruption de systèmes IA ('kill switch').",
-        "source": "Governor of California",
-        "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+        "titre": "AJMC Health Equity & Access Weekly Roundup : 18 septembre 2026 — IA en spirométrie et résultats tafasitamab dans des sous-groupes diversifiés",
+        "resume": "Le roundup du 18 septembre 2026 de l'AJMC signale que l'interprétation de la spirométrie assistée par IA en soins primaires atteint 84 % de sensibilité et 86 % de spécificité en correspondance avec le diagnostic clinicien, mais que l'impact réel nécessite des parcours de soins redessinés. Par ailleurs, une étude en vie réelle sur le tafasitamab dans le DLBCL montre un taux de réponse globale de 73 % dans des sous-groupes raciaux/ethniques diversifiés, comparable aux résultats du trial pivotal L-MIND. Ces données illustrent l'importance de la représentativité pour la validité externe des résultats.",
+        "source": "AJMC / ajmc.com",
+        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-september-18-2026",
         "date_publication": "18/09/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "Gouvernance IA : 100% des entreprises ont des agents sur la roadmap mais 63% ne peuvent pas imposer de limites de finalité",
-        "resume": "Un article publié il y a deux semaines (mi-septembre 2026) sur la gouvernance des agents IA post-deadline EU AI Act révèle qu'une enquête montre que si 100% des entreprises ont l'IA agentique dans leur roadmap, 63% ne peuvent pas encore faire respecter les limitations de finalité et 60% sont incapables d'interrompre un agent défaillant. Le NIST s'est engagé à publier un profil d'interopérabilité pour agents IA au T4 2026. L'article liste sept piliers de conformité : gestion des risques, gouvernance des données, journalisation, transparence, supervision humaine, cybersécurité et monitoring post-déploiement.",
-        "source": "growtoyourfullest.com",
-        "url": "https://www.growtoyourfullest.com/single-post/governance-just-became-enforcement-ai-compliance-moment-every-enterprise-faces",
-        "date_publication": "06/09/2026",
-        "pertinence": "haute",
-        "categorie": "gouvernance_enterprise"
+        "pertinence": "moyenne",
+        "categorie": "sante_equite"
       }
     ],
     "clinique": [
       {
-        "titre": "AI pour la diversité dans les essais cliniques : opportunités et considérations sur les biais algorithmiques",
-        "resume": "Clarkston Consulting a publié il y a 5 jours (vers le 14 septembre 2026) une analyse pratique sur l'utilisation de l'IA pour améliorer la diversité dans les essais cliniques, soulignant que la validation et les évaluations de biais sont indispensables. Les stratégies proposées incluent l'entraînement sur des datasets diversifiés, la standardisation du reporting des données d'entraînement, et l'évaluation approfondie des performances du modèle pour garantir l'équité et la fiabilité des sorties d'identification de participants.",
-        "source": "Clarkston Consulting",
-        "url": "https://clarkstonclinical.com/insights/ai-for-clinical-trial-diversity/",
-        "date_publication": "14/09/2026",
+        "titre": "AJMC Health Equity Roundup 18 sept. 2026 : résultats comparables du tafasitamab dans des sous-groupes raciaux diversifiés",
+        "resume": "Une étude rétrospective publiée dans The Oncologist et relayée le 18 septembre 2026 par l'AJMC montre que les taux de réponse au tafasitamab dans le DLBCL rechutant/réfractaire sont comparables — et numériquement supérieurs — à ceux du trial pivotal L-MIND dans une population plus racialement et ethniquement diverse (22,1 % Black ou African American, 17,1 % Hispanic). L'étude a inclus 181 adultes traités par 23 oncologistes américains en milieux académiques et communautaires, illustrant la pertinence de collecter des données de vie réelle dans des populations diversifiées.",
+        "source": "AJMC / ajmc.com",
+        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-september-18-2026",
+        "date_publication": "18/09/2026",
         "pertinence": "haute",
-        "categorie": "biais_algorithmique"
+        "categorie": "vie_reelle"
       }
     ]
   }
