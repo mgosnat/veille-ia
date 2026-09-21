@@ -1,65 +1,83 @@
 {
-  "generated_at": "2026-09-20T11:03:13.070097Z",
-  "date_fr": "20/09/2026",
+  "generated_at": "2026-09-21T12:30:27.013326Z",
+  "date_fr": "21/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "AI Agents News — Semaine du 13 septembre 2026 : interfaces agents et impact sur l'achat logiciel",
-        "resume": "La semaine du 13 septembre 2026 recense plusieurs évolutions terrain majeures : Wavespace publie un framework 'Beyond the Chatbox' pour remplacer les interfaces chat génériques par des UI agentiques avec checkpoints d'approbation humaine et gestion d'état visible. Par ailleurs, un rapport McKinsey révèle qu'un tiers des organisations interrogées ont renoncé à acheter un logiciel tiers parce qu'elles pouvaient le développer en interne grâce aux agents de codage IA.",
-        "source": "AI Agent Store / aiagentstore.ai",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "13/09/2026",
+        "titre": "n8n release notes de septembre 2026 : MCP 2026-07-28, AI Agent node v3 et exports LangSmith",
+        "resume": "La release n8n de mi-septembre 2026 (v2.38.x stable, v2.39.x beta) intègre le handshake de découverte MCP 2026-07-28, l'exécution des outils MCP sur workers, et une nouvelle option 'Force Tool Call on First Iteration' sur le nœud AI Agent v3 pour forcer les petits modèles (Mistral, Ollama) à appeler un outil dès la première itération. La plateforme corrige aussi des problèmes de fiabilité en mode queue, de redaction de credentials et de gestion des timeouts d'exécution. Ces mises à jour visent à durcir n8n pour les déploiements production entreprise.",
+        "source": "Releasebot / n8n Docs Changelog",
+        "url": "https://releasebot.io/updates/n8n",
+        "date_publication": "15/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Multi-Agent Orchestration 2026 : LangGraph, CrewAI et AutoGen comparés en production",
+        "resume": "Article publié le 20 septembre 2026 sur DEV Community, rédigé par un praticien ayant déployé des systèmes multi-agents en production. Depuis la v1.10.1 début 2026, CrewAI supporte le streaming, le protocole A2A et l'intégration MCP ; depuis la v1.14, il fonctionne en standalone sans dépendance LangChain. L'auteur recommande un pattern hybride : prototypage rapide avec CrewAI, puis durcissement production avec LangGraph pour les scénarios à fort enjeu (gestion d'état fine, auditabilité). LangGraph menait les déploiements production avec 40 % d'avance sur les autres frameworks en mars 2026.",
+        "source": "DEV Community",
+        "url": "https://dev.to/saaro_net/multi-agent-orchestration-2026-langgraph-crewai-and-autogen-compared-34bd",
+        "date_publication": "20/09/2026",
         "pertinence": "haute",
         "categorie": "retour_experience"
       },
       {
-        "titre": "L&T Finance et Pine Labs : commerce agentique pour réservations de vols autonomes (Global Fintech Fest 2026)",
-        "resume": "Annoncé lors du Global Fintech Fest 2026 (semaine du 10 septembre), L&T Finance s'associe à Pine Labs pour intégrer Agentic Storefront dans l'app PLANET, en démarrant par des réservations de vols autonomes via le protocole Payments Protocol et le protocole Grantex. Ce cas d'usage signale le passage des agents IA des recommandations vers les transactions financières et de voyage réelles. Il constitue un benchmark concret pour les équipes tracking l'IA agentique dans les opérations business.",
-        "source": "Agentic.ai News",
-        "url": "https://agentic.ai/news",
-        "date_publication": "10/09/2026",
-        "pertinence": "moyenne",
+        "titre": "Guide praticien : agents IA locaux avec n8n 2.39.x et Ollama 0.34.x (septembre 2026)",
+        "resume": "Guide technique publié le 20 septembre 2026 couvrant la construction de workflows agents locaux avec n8n 2.39.x et Ollama 0.34.x, avec un protocole de debug structuré basé sur des retours de la communauté (cas forum août 2026 : sortie vide sur 5 modèles due à la couche de connexion, pas aux modèles). L'article distingue rigoureusement 'local', 'self-hosted' et 'on-device' pour éviter de mauvais choix matériels. Il couvre la configuration du nœud AI Agent pour que le modèle choisisse dynamiquement les outils plutôt que de suivre un chemin prédéfini.",
+        "source": "AIthinkerlab",
+        "url": "https://aithinkerlab.com/local-agentic-ai-workflows-n8n/",
+        "date_publication": "20/09/2026",
+        "pertinence": "haute",
+        "categorie": "tutoriel"
+      },
+      {
+        "titre": "McKinsey : un tiers des entreprises renoncent à des achats logiciels grâce aux agents IA de code",
+        "resume": "Un rapport McKinsey publié la semaine du 13 septembre 2026 révèle que près d'un tiers des organisations sondées ont renoncé à acheter au moins un produit logiciel ou une fonctionnalité parce qu'elles pouvaient en reconstruire la fonctionnalité en interne grâce à des agents IA de code. Le rapport décrit ces outils comme un facteur croissant dans les décisions de dépenses technologiques des entreprises, faisant basculer les budgets de l'achat de licences vers le développement interne. Cela constitue un signal fort d'adoption opérationnelle des agents en production.",
+        "source": "AI Agent Store (McKinsey via AIAgentStore.ai)",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "13/09/2026",
+        "pertinence": "haute",
         "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "L'AI Office cible les outils RH automatisés dans sa première vague d'inspections (10 septembre 2026)",
-        "resume": "Le 10 septembre 2026, l'AI Office européen a confirmé que les outils de tri automatique de CV et de prise de décision RH sont inclus dans la première vague d'inspections de l'AI Act. Les régulateurs français (CNIL), allemand (BfDI) et espagnol (AESIA) concentrent leurs premières demandes sur trois secteurs : screening RH, scoring de crédit retail et triage IA en cliniques privées. Ce mouvement marque le passage d'une conformité sur papier à un contrôle réglementaire direct sur des systèmes en production.",
-        "source": "OpsIntel / opsintel.io",
-        "url": "https://www.opsintel.io/blog/eu-ai-office-begins-automated-hiring-tool-inspections-first-enforcement-wave-under-article-50-starts-september-2026/",
-        "date_publication": "10/09/2026",
+        "titre": "9e réunion du Conseil IA européen (17 sept. 2026) : priorités d'enforcement sans nouvelle échéance",
+        "resume": "Le Conseil IA européen a tenu sa 9e réunion le 17 septembre 2026 sous présidence irlandaise, centrant les travaux sur les priorités de la Commission en matière d'enforcement, les mesures de transparence, la coopération entre autorités de surveillance des marchés et les tests cyber sur les IA frontier. Aucune nouvelle obligation réglementaire ni date de conformité n'a été ajoutée : il s'agit d'un signal d'enforcement, non d'un amendement au calendrier de l'AI Act. La Moldavie participait pour la première fois en tant qu'observateur.",
+        "source": "Quasa.io",
+        "url": "https://quasa.io/insights/the-eu-ai-board-turns-to-enforcement-but-its-september-meeting-set-no-new-deadline",
+        "date_publication": "17/09/2026",
         "pertinence": "haute",
-        "categorie": "enforcement"
+        "categorie": "réglementation"
       },
       {
-        "titre": "EU AI Act : état de l'enforcement au 15 septembre 2026 — Article 50, Règlement 2026/1744 et prochaines échéances",
-        "resume": "Mis à jour au 15 septembre 2026, cet article fait le point sur la phase d'enforcement active : les obligations de transparence (Article 50) s'appliquent depuis le 2 août 2026, les nouvelles pratiques interdites entrent en vigueur le 2 décembre 2026, et les systèmes à haut risque (Annexe III) sont visés au 2 décembre 2027. Le Règlement (UE) 2026/1744 (Digital Omnibus on AI) est déjà en vigueur. Les amendes peuvent dépasser celles du RGPD, avec une portée extraterritoriale applicable à toute organisation touchant des utilisateurs en UE.",
-        "source": "Decode The Future / decodethefuture.org",
+        "titre": "EU AI Act : état d'application au 15 septembre 2026 — obligations Article 50, GPAI et Digital Omnibus",
+        "resume": "Mis à jour le 15 septembre 2026, cet article de référence détaille l'état d'application de l'AI Act : les obligations de transparence Article 50 s'appliquent depuis le 2 août 2026, le règlement Digital Omnibus (EU) 2026/1744 est en vigueur, et les systèmes à haut risque Annexe III sont attendus pour décembre 2027. L'article précise que les entreprises construisant des pipelines RAG ou des agents IA sur un modèle fondational sont probablement classées 'deployers', mais que le fine-tuning étendu peut requalifier en 'provider' avec des obligations bien plus lourdes. Les sanctions atteignent jusqu'à 7 % du chiffre d'affaires mondial pour les pratiques interdites.",
+        "source": "DecodetheFuture.org",
         "url": "https://decodethefuture.org/en/eu-ai-act-explained/",
         "date_publication": "15/09/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "réglementation"
       },
       {
-        "titre": "AJMC Health Equity & Access Weekly Roundup : 18 septembre 2026 — IA en spirométrie et résultats tafasitamab dans des sous-groupes diversifiés",
-        "resume": "Le roundup du 18 septembre 2026 de l'AJMC signale que l'interprétation de la spirométrie assistée par IA en soins primaires atteint 84 % de sensibilité et 86 % de spécificité en correspondance avec le diagnostic clinicien, mais que l'impact réel nécessite des parcours de soins redessinés. Par ailleurs, une étude en vie réelle sur le tafasitamab dans le DLBCL montre un taux de réponse globale de 73 % dans des sous-groupes raciaux/ethniques diversifiés, comparable aux résultats du trial pivotal L-MIND. Ces données illustrent l'importance de la représentativité pour la validité externe des résultats.",
-        "source": "AJMC / ajmc.com",
-        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-september-18-2026",
-        "date_publication": "18/09/2026",
-        "pertinence": "moyenne",
-        "categorie": "sante_equite"
+        "titre": "EU AI Office recrute 40 postes dédiés à l'enforcement de l'AI Act (deadline 8 sept. 2026)",
+        "resume": "L'EU AI Office a lancé un recrutement massif de 40 nouveaux postes (technique, juridique, opérations) dédiés spécifiquement à l'enforcement de l'AI Act, avec une date limite d'expression d'intérêt fixée au 8 septembre 2026 à midi CET. Cette vague de recrutement reflète la montée en puissance de l'infrastructure d'enforcement plutôt qu'une tolérance réglementaire, selon les observateurs. La Commission a commencé à appliquer les règles de l'AI Act et les nouvelles exigences de transparence à compter du 2 août 2026.",
+        "source": "EU AI Act Implementation Timeline (artificialintelligenceact.eu)",
+        "url": "https://artificialintelligenceact.eu/implementation-timeline/",
+        "date_publication": "08/09/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
       }
     ],
     "clinique": [
       {
-        "titre": "AJMC Health Equity Roundup 18 sept. 2026 : résultats comparables du tafasitamab dans des sous-groupes raciaux diversifiés",
-        "resume": "Une étude rétrospective publiée dans The Oncologist et relayée le 18 septembre 2026 par l'AJMC montre que les taux de réponse au tafasitamab dans le DLBCL rechutant/réfractaire sont comparables — et numériquement supérieurs — à ceux du trial pivotal L-MIND dans une population plus racialement et ethniquement diverse (22,1 % Black ou African American, 17,1 % Hispanic). L'étude a inclus 181 adultes traités par 23 oncologistes américains en milieux académiques et communautaires, illustrant la pertinence de collecter des données de vie réelle dans des populations diversifiées.",
-        "source": "AJMC / ajmc.com",
-        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-september-18-2026",
-        "date_publication": "18/09/2026",
+        "titre": "AI pour la diversité dans les essais cliniques : opportunités et limites (Clarkston Consulting, sept. 2026)",
+        "resume": "Article publié début septembre 2026 analysant comment l'IA est utilisée pour améliorer la diversité des essais cliniques : identification des participants éligibles, recrutement ciblé et réduction des biais. Il souligne cependant que la plupart des modèles IA sont entraînés sur des données existantes contenant des biais historiques, risquant de renforcer les disparités. Les stratégies recommandées incluent l'entraînement sur des datasets diversifiés, la standardisation des rapports de données d'entraînement et l'évaluation approfondie des performances des modèles.",
+        "source": "Clarkston Consulting",
+        "url": "https://clarkstonconsulting.com/insights/ai-for-clinical-trial-diversity/",
+        "date_publication": "14/09/2026",
         "pertinence": "haute",
-        "categorie": "vie_reelle"
+        "categorie": "biais_algorithmique"
       }
     ]
   }
