@@ -1,83 +1,101 @@
 {
-  "generated_at": "2026-09-21T12:30:27.013326Z",
-  "date_fr": "21/09/2026",
+  "generated_at": "2026-09-22T11:19:47.225140Z",
+  "date_fr": "22/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "n8n release notes de septembre 2026 : MCP 2026-07-28, AI Agent node v3 et exports LangSmith",
-        "resume": "La release n8n de mi-septembre 2026 (v2.38.x stable, v2.39.x beta) intègre le handshake de découverte MCP 2026-07-28, l'exécution des outils MCP sur workers, et une nouvelle option 'Force Tool Call on First Iteration' sur le nœud AI Agent v3 pour forcer les petits modèles (Mistral, Ollama) à appeler un outil dès la première itération. La plateforme corrige aussi des problèmes de fiabilité en mode queue, de redaction de credentials et de gestion des timeouts d'exécution. Ces mises à jour visent à durcir n8n pour les déploiements production entreprise.",
-        "source": "Releasebot / n8n Docs Changelog",
-        "url": "https://releasebot.io/updates/n8n",
-        "date_publication": "15/09/2026",
+        "titre": "Google ADK pour Kotlin 1.0 : disponibilité générale pour agents Android et JVM",
+        "resume": "Google a publié le 9 septembre 2026 la version 1.0 de son Agent Development Kit (ADK) pour Kotlin, atteignant la parité fonctionnelle avec ADK Python/Java. Le framework supporte les systèmes multi-agents hiérarchiques, les workflows hybrides cloud/on-device via Firebase AI Logic, et la persistance d'état avec Room et AppSearch. Il introduit une génération de schémas d'outils à la compilation via KSP (@Tool/@Param), éliminant la réflexion runtime pour de meilleures performances sur mobile.",
+        "source": "Google Developers Blog / InfoQ",
+        "url": "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/",
+        "date_publication": "09/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Multi-Agent Orchestration 2026 : LangGraph, CrewAI et AutoGen comparés en production",
-        "resume": "Article publié le 20 septembre 2026 sur DEV Community, rédigé par un praticien ayant déployé des systèmes multi-agents en production. Depuis la v1.10.1 début 2026, CrewAI supporte le streaming, le protocole A2A et l'intégration MCP ; depuis la v1.14, il fonctionne en standalone sans dépendance LangChain. L'auteur recommande un pattern hybride : prototypage rapide avec CrewAI, puis durcissement production avec LangGraph pour les scénarios à fort enjeu (gestion d'état fine, auditabilité). LangGraph menait les déploiements production avec 40 % d'avance sur les autres frameworks en mars 2026.",
-        "source": "DEV Community",
-        "url": "https://dev.to/saaro_net/multi-agent-orchestration-2026-langgraph-crewai-and-autogen-compared-34bd",
+        "titre": "Paper2Agent (Nature) : convertir des articles scientifiques en agents MCP appelables",
+        "resume": "Une équipe Stanford menée par James Zou et Jiacheng Miao a publié le 16 septembre 2026 dans Nature le framework Paper2Agent, qui transforme automatiquement un article de recherche en agent IA via un serveur Model Context Protocol. Sur 100 articles de biologie computationnelle, 74 ont été agentifiés avec succès (593/599 outils validés) et un agent AlphaGenome a atteint 98,7% de précision sur des requêtes tutorielles, pour un coût de ~14$ par article. Le framework est disponible en open source et représente un cas d'usage MCP concret pour la recherche scientifique.",
+        "source": "Nature / AI Weekly",
+        "url": "https://www.nature.com/articles/s41586-026-11044-y",
+        "date_publication": "16/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "AI Agents News Brief du 20 septembre 2026 : Google ADK Kotlin prod-ready, Composio x Salesforce MCP, Dream-RSI",
+        "resume": "Le bulletin du 20 septembre 2026 recense plusieurs sorties terrain : Google ADK Kotlin 1.0 en production avec support on-device Android, Composio annonçant des intégrations DeepSeek Harness et LangChain avec Salesforce MCP pour le contrôle en langage naturel des processus métier, et le modèle Jev pour l'automatisation ultra-rapide de navigateur. Google DeepMind DeepMind Dream-RSI propose une nouvelle approche permettant aux agents de s'améliorer en 'rêvant' leurs tentatives passées. Ces annonces illustrent l'accélération des intégrations agentiques en contexte d'entreprise.",
+        "source": "AI Agents Directory",
+        "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-september-20-2026",
         "date_publication": "20/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Microsoft publie 'Becoming a Frontier Firm' : retour d'expérience sur 100+ déploiements agents internes",
+        "resume": "Le 17 septembre 2026, VentureBeat révèle que Microsoft publie un playbook de 44 pages tiré de plus de 100 transformations AI internes, contre-intuitivement centré sur la refonte des workflows avant le déploiement des agents. Microsoft documente un cas supply-chain concret : des agents qui réduisent le cycle de planification moyen de ~10 jours ouvrés à moins de 2,5 jours (mesure sur 5 cycles avril-août 2026, soit -75%). Le guide insiste sur les évaluations propriétaires et les boucles d'apprentissage comme avantage concurrentiel face aux modèles fondation interchangeables.",
+        "source": "VentureBeat / Channel Insider",
+        "url": "https://venturebeat.com/technology/microsoft-releases-new-ai-playbook-for-enterprises-based-on-its-own-learnings-and-it-reveals-a-surprising-moat-your-biz-may-already-have",
+        "date_publication": "17/09/2026",
         "pertinence": "haute",
         "categorie": "retour_experience"
       },
       {
-        "titre": "Guide praticien : agents IA locaux avec n8n 2.39.x et Ollama 0.34.x (septembre 2026)",
-        "resume": "Guide technique publié le 20 septembre 2026 couvrant la construction de workflows agents locaux avec n8n 2.39.x et Ollama 0.34.x, avec un protocole de debug structuré basé sur des retours de la communauté (cas forum août 2026 : sortie vide sur 5 modèles due à la couche de connexion, pas aux modèles). L'article distingue rigoureusement 'local', 'self-hosted' et 'on-device' pour éviter de mauvais choix matériels. Il couvre la configuration du nœud AI Agent pour que le modèle choisisse dynamiquement les outils plutôt que de suivre un chemin prédéfini.",
-        "source": "AIthinkerlab",
-        "url": "https://aithinkerlab.com/local-agentic-ai-workflows-n8n/",
+        "titre": "Google ADK for Kotlin 1.0 : analyse technique détaillée — InfoQ",
+        "resume": "InfoQ publie le 20 septembre 2026 une analyse technique de l'ADK Kotlin 1.0, détaillant la gestion des outils à la compilation via KSP (annotations @Tool/@Param), le support des systèmes multi-agents hiérarchiques avec délégation parent-enfant, et la compaction de contexte pour les conversations multi-tours. Le framework est construit sur Kotlin Multiplatform, agnostique aux backends de modèles, sessions et mémoire. Des praticiens comme l'ingénieur Android de PiNCAMP confirment la rapidité du démarrage sur mobile grâce à l'absence de réflexion runtime.",
+        "source": "InfoQ",
+        "url": "https://www.infoq.com/news/2026/09/google-adk-1-0-released/",
         "date_publication": "20/09/2026",
         "pertinence": "haute",
-        "categorie": "tutoriel"
-      },
-      {
-        "titre": "McKinsey : un tiers des entreprises renoncent à des achats logiciels grâce aux agents IA de code",
-        "resume": "Un rapport McKinsey publié la semaine du 13 septembre 2026 révèle que près d'un tiers des organisations sondées ont renoncé à acheter au moins un produit logiciel ou une fonctionnalité parce qu'elles pouvaient en reconstruire la fonctionnalité en interne grâce à des agents IA de code. Le rapport décrit ces outils comme un facteur croissant dans les décisions de dépenses technologiques des entreprises, faisant basculer les budgets de l'achat de licences vers le développement interne. Cela constitue un signal fort d'adoption opérationnelle des agents en production.",
-        "source": "AI Agent Store (McKinsey via AIAgentStore.ai)",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "13/09/2026",
-        "pertinence": "haute",
-        "categorie": "cas_usage"
+        "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "9e réunion du Conseil IA européen (17 sept. 2026) : priorités d'enforcement sans nouvelle échéance",
-        "resume": "Le Conseil IA européen a tenu sa 9e réunion le 17 septembre 2026 sous présidence irlandaise, centrant les travaux sur les priorités de la Commission en matière d'enforcement, les mesures de transparence, la coopération entre autorités de surveillance des marchés et les tests cyber sur les IA frontier. Aucune nouvelle obligation réglementaire ni date de conformité n'a été ajoutée : il s'agit d'un signal d'enforcement, non d'un amendement au calendrier de l'AI Act. La Moldavie participait pour la première fois en tant qu'observateur.",
-        "source": "Quasa.io",
-        "url": "https://quasa.io/insights/the-eu-ai-board-turns-to-enforcement-but-its-september-meeting-set-no-new-deadline",
-        "date_publication": "17/09/2026",
+        "titre": "ISO 42001 pourrait devenir le standard de gouvernance IA pour les paiements — PYMNTS",
+        "resume": "PYMNTS publie le 21 septembre 2026 une analyse montrant qu'ISO/IEC 42001 s'impose progressivement comme référence de gouvernance IA dans le secteur des paiements, avec FSS et Axis Bank comme exemples récents de certification appliquée à la banque. Le standard fournit un cadre de management pour les systèmes IA achetés (pas seulement construits), ce qui devient critique alors que les institutions financières scrutent la gouvernance IA de leurs fournisseurs. Une enquête Gartner 2026 indique que 83% des équipes achats des Fortune 500 prévoient d'exiger l'alignement ISO 42001 de leurs fournisseurs technologiques d'ici 2027.",
+        "source": "PYMNTS",
+        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/iso-42001-may-become-payments-ai-governance-benchmark/",
+        "date_publication": "21/09/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "standard"
       },
       {
-        "titre": "EU AI Act : état d'application au 15 septembre 2026 — obligations Article 50, GPAI et Digital Omnibus",
-        "resume": "Mis à jour le 15 septembre 2026, cet article de référence détaille l'état d'application de l'AI Act : les obligations de transparence Article 50 s'appliquent depuis le 2 août 2026, le règlement Digital Omnibus (EU) 2026/1744 est en vigueur, et les systèmes à haut risque Annexe III sont attendus pour décembre 2027. L'article précise que les entreprises construisant des pipelines RAG ou des agents IA sur un modèle fondational sont probablement classées 'deployers', mais que le fine-tuning étendu peut requalifier en 'provider' avec des obligations bien plus lourdes. Les sanctions atteignent jusqu'à 7 % du chiffre d'affaires mondial pour les pratiques interdites.",
-        "source": "DecodetheFuture.org",
+        "titre": "EU AI Act en phase d'enforcement active : état des lieux au 15 septembre 2026",
+        "resume": "DecodetheFuture fait le point le 15 septembre 2026 sur la phase d'enforcement en cours : les obligations de transparence Article 50 sont actives depuis le 2 août 2026, le Digital Omnibus (Règlement EU 2026/1744) est en vigueur depuis le 27 juillet 2026, et les nouvelles pratiques interdites (nudifiers, etc.) prendront effet le 2 décembre 2026. Les obligations pour les systèmes à haut risque Annexe III sont repoussées au 2 décembre 2027 et Annexe I au 2 août 2028. Les organisations déployant des chatbots ou des systèmes d'IA générative sont désormais soumises à des obligations exécutoires.",
+        "source": "DecodetheFuture",
         "url": "https://decodethefuture.org/en/eu-ai-act-explained/",
         "date_publication": "15/09/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "reglementation"
       },
       {
-        "titre": "EU AI Office recrute 40 postes dédiés à l'enforcement de l'AI Act (deadline 8 sept. 2026)",
-        "resume": "L'EU AI Office a lancé un recrutement massif de 40 nouveaux postes (technique, juridique, opérations) dédiés spécifiquement à l'enforcement de l'AI Act, avec une date limite d'expression d'intérêt fixée au 8 septembre 2026 à midi CET. Cette vague de recrutement reflète la montée en puissance de l'infrastructure d'enforcement plutôt qu'une tolérance réglementaire, selon les observateurs. La Commission a commencé à appliquer les règles de l'AI Act et les nouvelles exigences de transparence à compter du 2 août 2026.",
-        "source": "EU AI Act Implementation Timeline (artificialintelligenceact.eu)",
-        "url": "https://artificialintelligenceact.eu/implementation-timeline/",
-        "date_publication": "08/09/2026",
+        "titre": "ISO 42001 : Anaplan certifiée le 10 septembre 2026, état des certifications 2026",
+        "resume": "Punyam publie le 17 septembre 2026 un bilan des certifications ISO/IEC 42001 en 2026 : Anaplan a obtenu la certification le 10 septembre 2026, devenant l'une des premières entreprises du secteur de la gestion de la performance d'entreprise à l'obtenir. D'autres organisations comme Presidio et Accelleo ont également été certifiées en 2026, témoignant de l'adoption croissante du standard. L'article souligne le lien entre la certification ISO 42001 et la conformité EU AI Act, les deux référentiels étant complémentaires pour les entreprises déployant de l'IA à grande échelle.",
+        "source": "Punyam",
+        "url": "https://www.punyam.com/blog/iso-42001-updates-2026-ai-management-systems/",
+        "date_publication": "17/09/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "standard"
+      },
+      {
+        "titre": "EU AI Act Digital Omnibus : analyse des 4 dates modifiées et implications entreprises",
+        "resume": "Le site Regulation-AI.eu publie le 12 septembre 2026 une analyse précise du Digital Omnibus : 4 dates ont été déplacées (Annexe III au 2 décembre 2027, Annexe I au 2 août 2028, sandboxes nationaux au 2 août 2027, marquage de contenu au 2 décembre 2026), tandis que les obligations de transparence Article 50, les règles GPAI et les pratiques interdites restent inchangées et en vigueur. L'article met en garde contre les idées reçues : le report du régime haut risque ne rend pas le 2 août 2026 une date sans conséquences pour les entreprises utilisant des outils IA en SaaS ou intégrés.",
+        "source": "Regulation-AI.eu",
+        "url": "https://www.regulation-ai.eu/en/omnibus/",
+        "date_publication": "12/09/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
       }
     ],
     "clinique": [
       {
-        "titre": "AI pour la diversité dans les essais cliniques : opportunités et limites (Clarkston Consulting, sept. 2026)",
-        "resume": "Article publié début septembre 2026 analysant comment l'IA est utilisée pour améliorer la diversité des essais cliniques : identification des participants éligibles, recrutement ciblé et réduction des biais. Il souligne cependant que la plupart des modèles IA sont entraînés sur des données existantes contenant des biais historiques, risquant de renforcer les disparités. Les stratégies recommandées incluent l'entraînement sur des datasets diversifiés, la standardisation des rapports de données d'entraînement et l'évaluation approfondie des performances des modèles.",
-        "source": "Clarkston Consulting",
-        "url": "https://clarkstonconsulting.com/insights/ai-for-clinical-trial-diversity/",
-        "date_publication": "14/09/2026",
-        "pertinence": "haute",
-        "categorie": "biais_algorithmique"
+        "titre": "Aucun article clinique vérifié dans les 14 derniers jours",
+        "resume": "Les sources identifiées sur la diversité en essais cliniques (guidance FDA DAP, études Frontiers in Oncology sur la représentation en oncologie, article PMC sur les populations sous-représentées en Angleterre) datent d'août 2026 ou antérieurement, hors de la fenêtre des 14 derniers jours. Conformément à la règle stricte, aucun article n'est inclus dans cette catégorie pour cette période.",
+        "source": "",
+        "url": "https://",
+        "date_publication": "",
+        "pertinence": "moyenne",
+        "categorie": "absence_verifiee"
       }
     ]
   }
