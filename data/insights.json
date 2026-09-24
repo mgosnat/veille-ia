@@ -1,120 +1,74 @@
 {
-  "generated_at": "2026-09-23T11:13:14.434200Z",
-  "date_fr": "23/09/2026",
+  "generated_at": "2026-09-24T11:28:41.643229Z",
+  "date_fr": "24/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Google Gemini API : mise à jour antigravity-preview-09-2026 pour agents managés",
-        "resume": "Google a mis à jour ses agents managés Gemini API avec le harnais antigravity-preview-09-2026 qui intègre les outils de l'agent de codage Antigravity dans AI Studio et l'Interactions API sur Gemini 3.8 Flash. La release inclut également de nouvelles APIs Files et Credentials pour le mouvement de données. Des contrôles de sécurité renforcés réduisent les risques d'archives de compétences compromises et imposent le principe du moindre privilège pour les appels d'outils agents.",
-        "source": "AI Agent Store",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "22/09/2026",
+        "titre": "Alibaba lance AgentCore, sa plateforme enterprise d'agents IA, au Apsara Summit 2026",
+        "resume": "Le 22 septembre 2026, Alibaba Cloud a dévoilé AgentCore lors du Hangzhou Cloud Summit, une plateforme enterprise complète pour construire, déployer et gérer des agents IA tout au long de leur cycle de vie. La plateforme prend en charge les tâches longues, le retry automatique, la récupération par checkpoint et l'exécution asynchrone, avec des contrôles d'identité et des pistes d'audit de bout en bout. Alibaba affirme qu'AgentCore augmente les taux de complétion de tâches de 99% et réduit le TCO de 70%.",
+        "source": "HPCwire / Pandaily",
+        "url": "https://www.hpcwire.com/off-the-wire/alibaba-unveils-roadmap-on-full-stack-ai-strategy-from-chips-cloud-infrastructure-models-to-agents/",
+        "date_publication": "23/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "AI Agents News Brief 20 septembre 2026 : Paper2Agent, Jev Model, Meta Muse macOS",
-        "resume": "Un brief du 20 septembre 2026 recense plusieurs sorties pratiques : Paper2Agent convertit des articles de recherche en agents IA appelables ; le modèle Jev, reconnu pour sa vitesse dans les systèmes agents, active une automatisation navigateur ultra-rapide ; Meta étend son agent Muse à macOS pour interagir directement avec fichiers et applications. Composio annonce aussi des intégrations DeepSeek Harness et LangChain avec Salesforce MCP pour le contrôle en langage naturel des processus métier.",
-        "source": "AI Agents Directory",
-        "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-september-20-2026",
-        "date_publication": "20/09/2026",
+        "titre": "Salesforce lance AIforce à Dreamforce 2026 : une couche d'interface agentique enterprise",
+        "resume": "Le 15 septembre 2026 à Dreamforce 2026, Salesforce a présenté AIforce, une couche d'interface agentique qui connecte les données, workflows et gouvernance Salesforce à n'importe quelle interface IA tierce (Claude, Slack, Lightning). La plateforme inclut Claudeforce (intégration Claude via MCP), Agentforce Coworker (déjà utilisé par 100 000 utilisateurs en 35 jours), et des partenariats étendus avec Google Cloud et AWS. Toutes les requêtes s'exécutent dans le cadre des permissions et règles métier Salesforce existantes.",
+        "source": "Salesforce / CIO Dive",
+        "url": "https://www.ciodive.com/news/salesforce-launches-aiforce-interface-layer-agentic-architecture/830479/",
+        "date_publication": "15/09/2026",
+        "pertinence": "haute",
+        "categorie": "produit"
+      },
+      {
+        "titre": "Google Gemini API : mise à jour de l'agent Antigravity (antigravity-preview-09-2026)",
+        "resume": "Google a publié mi-septembre 2026 une nouvelle version de son agent de coding managé Antigravity (antigravity-preview-09-2026) dans la Gemini API et AI Studio, disponible via l'Interactions API. Cette mise à jour apporte de nouveaux APIs Files et Credentials pour une intégration sécurisée avec des services tiers (MCP servers, APIs tierces) depuis un sandbox Linux isolé. L'ancienne version (antigravity-preview-05-2026) sera dépréciée le 5 octobre 2026.",
+        "source": "Google AI for Developers / Startup Fortune",
+        "url": "https://ai.google.dev/gemini-api/docs/changelog",
+        "date_publication": "17/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
+      },
+      {
+        "titre": "EU AI Act : veille agents en scope — semaine du 24 septembre 2026 (AI Agent Store)",
+        "resume": "Le site AI Agent Store publie une veille hebdomadaire des évolutions majeures des agents IA cette semaine, incluant : la mise à jour Antigravity de Google (antigravity-preview-09-2026), le lancement AgentCore d'Alibaba, et les nouveautés GitLab Agent Framework (politiques par modèle et agent, visibilité des coûts par utilisateur). Le bulletin souligne les enjeux de gouvernance et de sécurité pour les équipes déployant des agents en production.",
+        "source": "AI Agent Store",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "24/09/2026",
+        "pertinence": "haute",
+        "categorie": "retour_terrain"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : l'enforcement n'est plus théorique — premières enquêtes formelles (Part I)",
-        "resume": "Publié le 22 septembre 2026, cet article détaille que l'EU AI Office a ouvert ses premières enquêtes formelles dès juin 2026, ciblant les outils de recrutement automatisé, les systèmes de scoring de crédit et les applications de surveillance des étudiants. Depuis le 2 août 2026, la Commission dispose de pouvoirs d'investigation complets : demande de documentation technique, évaluation directe des modèles, mesures correctives et amendes. L'article souligne que la mise en conformité réactive est désormais substantiellement plus coûteuse que la conformité proactive.",
+        "titre": "EU AI Act : le Digital Omnibus en vigueur, nouveau calendrier d'enforcement — analyse pratique (Part II)",
+        "resume": "Le blog Corruption, Crime & Compliance publie le 22 septembre 2026 une analyse pratique en deux parties du calendrier réel d'enforcement de l'EU AI Act post-Digital Omnibus (EU Regulation 1744/2026). Les obligations hauts risques (Annex III) ont été repoussées au 2 décembre 2027, la Commission a ouvert ses premières investigations formelles en juin 2026 (embauche, scoring crédit, surveillance étudiants), et les obligations de transparence (Art. 50) sont en vigueur depuis le 2 août 2026. Le post traduit tout cela en étapes concrètes pour les équipes compliance.",
         "source": "Corruption, Crime & Compliance (Volkov Law)",
-        "url": "https://blog.volkovlaw.com/2026/09/the-eu-ai-act-enforcement-is-no-longer-theoretical-part-i-of-ii/",
+        "url": "https://blog.volkovlaw.com/2026/09/the-eu-ai-act-the-digital-omnibus-the-current-timeline-and-what-to-do-now-part-ii-of-ii/",
         "date_publication": "22/09/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "conformite"
       },
       {
-        "titre": "EU AI Office : inspection des outils RH automatisés, première vague Article 50, septembre 2026",
-        "resume": "Le 10 septembre 2026, l'EU AI Office a confirmé que les outils automatisés de screening de CV et de prise de décision RH sont inclus dans la première vague d'inspections sous l'EU AI Act. Cette confirmation marque un tournant réglementaire clair : les entreprises utilisant l'IA dans les processus RH doivent démontrer leur conformité immédiatement. Le briefing couvre également l'entrée en vigueur de l'article 14 du Cyber Resilience Act le 11 septembre 2026.",
-        "source": "OpsIntel",
-        "url": "https://www.opsintel.io/blog/eu-ai-office-begins-automated-hiring-tool-inspections-first-enforcement-wave-under-article-50-starts-september-2026/",
-        "date_publication": "10/09/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "EU AI Act phase d'enforcement active : état au 15 septembre 2026",
-        "resume": "Au 15 septembre 2026, l'EU AI Act est en phase d'enforcement active avec les obligations de transparence Article 50 applicables depuis le 2 août 2026. Le Règlement (UE) 2026/1744 (Digital Omnibus on AI) est en vigueur, repoussant les délais pour les systèmes à haut risque Annexe III à décembre 2027. Les entreprises ne respectant pas les obligations de transparence risquent des amendes allant jusqu'à 15 millions d'euros ou 3 % du chiffre d'affaires mondial annuel.",
-        "source": "Decode the Future",
-        "url": "https://decodethefuture.org/en/eu-ai-act-explained/",
-        "date_publication": "15/09/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "Anaplan obtient la certification ISO/IEC 42001 le 10 septembre 2026",
-        "resume": "Le 10 septembre 2026, Anaplan a annoncé avoir obtenu la certification ISO/IEC 42001, devenant l'une des premières entreprises du secteur de la gestion de la performance d'entreprise à franchir ce cap. En juillet 2026, RINA avait également obtenu l'accréditation d'Accredia pour fournir des certifications ISO/IEC 42001 pour les systèmes de management de l'IA. Ces certifications illustrent l'adoption croissante du standard comme signal de confiance dans les appels d'offres enterprise.",
-        "source": "Punyam / ISO 42001 Updates 2026",
+        "titre": "ISO/IEC 42001 : Anaplan certifiée le 10 septembre 2026 — bilan des certifications 2026",
+        "resume": "Le 10 septembre 2026, Anaplan a annoncé avoir obtenu la certification ISO/IEC 42001, devenant l'une des premières entreprises du secteur enterprise performance management à l'obtenir. L'article de Punyam recense les certifications 2026 : RINA (accréditation juillet 2026), Presidio, Accelleo, et note qu'une enquête Gartner 2026 indique que 83% des équipes procurement Fortune 500 comptent exiger l'alignement ISO 42001 de leurs fournisseurs tech d'ici 2027. L'adoption croissante reflète un glissement vers des pratiques de gouvernance IA documentées et reproductibles.",
+        "source": "Punyam Blog",
         "url": "https://www.punyam.com/blog/iso-42001-updates-2026-ai-management-systems/",
-        "date_publication": "16/09/2026",
+        "date_publication": "17/09/2026",
         "pertinence": "haute",
         "categorie": "certification"
       },
       {
-        "titre": "Aurigo Software obtient la certification ISO/IEC 42001 pour ses systèmes d'IA",
-        "resume": "Le 22 septembre 2026, Aurigo Software Technologies a annoncé avoir obtenu la certification ISO/IEC 42001, validant indépendamment que son système de management de l'IA répond au standard international. L'entreprise indique appliquer la même rigueur à la sécurité, la conformité et la résilience de ses systèmes IA que pour ses autres capacités critiques. Cette certification s'inscrit dans la tendance de fond où les clients enterprise exigent des preuves formelles de gouvernance IA.",
-        "source": "GlobeNewswire",
-        "url": "https://www.globenewswire.com/news-release/2026/09/22/3366377/0/en/aurigo-software-achieves-iso-iec-42001-certification-for-artificial-intelligence-management.html",
-        "date_publication": "22/09/2026",
-        "pertinence": "haute",
+        "titre": "ISO 42001 : guide pratique certification et gouvernance IA enterprise 2026 (Konfirmity)",
+        "resume": "Publié la semaine du 17 septembre 2026, Konfirmity détaille les 38 contrôles de l'ISO/IEC 42001 et explique pourquoi la norme est devenue un prérequis commercial pour les entreprises vendant des produits IA à des acheteurs régulés ou du secteur public. L'article précise qu'en 2026, ISO 42001 n'est pas encore une norme harmonisée sous l'EU AI Act (pas de présomption de conformité automatique), mais qu'elle est reconnue par les acheteurs et régulateurs comme référence de maturité.",
+        "source": "Konfirmity",
+        "url": "https://www.konfirmity.com/blog/iso-42001",
+        "date_publication": "17/09/2026",
+        "pertinence": "moyenne",
         "categorie": "certification"
-      },
-      {
-        "titre": "Enquête EY : 47 % des organisations contournent leurs propres politiques IA pour des déploiements urgents",
-        "resume": "Un rapport de la semaine du 18 septembre 2026 révèle qu'un peu moins de la moitié (47 %) des organisations ont contourné leurs politiques IA pour des déploiements urgents, selon une enquête EY auprès de 202 décideurs IA senior dans des entreprises américaines de plus d'un milliard de dollars de revenus. Ce chiffre souligne le fossé entre les politiques de gouvernance formelles et leur application opérationnelle réelle. Il représente un risque de conformité critique à l'heure où l'EU AI Act entre en phase d'enforcement active.",
-        "source": "Corporate Compliance Insights",
-        "url": "https://www.corporatecomplianceinsights.com/news-roundup-september-18-2026/",
-        "date_publication": "18/09/2026",
-        "pertinence": "haute",
-        "categorie": "gouvernance_entreprise"
       }
     ],
-    "clinique": [
-      {
-        "titre": "AJMC Health Equity Weekly Roundup : 18 septembre 2026 — équité raciale en oncologie et IA pulmonaire",
-        "resume": "Le roundup du 18 septembre 2026 de l'AJMC couvre des données réelles sur le tafasitamab pour le DLBCL montrant des taux de réponse comparables dans une population racialement et ethniquement plus diverse (22,1 % afro-américains, 17,1 % hispaniques) par rapport à l'essai pivot L-MIND. Il signale aussi que la spirométrie assistée par IA en soins primaires atteint 84 % de sensibilité et 86 % de spécificité pour la détection des maladies pulmonaires. Ces résultats illustrent à la fois le potentiel et les limites de l'IA pour améliorer l'équité en santé.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-september-18-2026",
-        "date_publication": "18/09/2026",
-        "pertinence": "haute",
-        "categorie": "données_cliniques"
-      },
-      {
-        "titre": "AJMC Health Equity Weekly Roundup : 11 septembre 2026 — inégalités d'accès aux essais AML",
-        "resume": "Le roundup du 11 septembre 2026 documente que des barrières persistantes limitent l'accès équitable aux essais cliniques et à la transplantation pour les patients atteints de leucémie myéloïde aiguë (AML). Les critères d'éligibilité désavantagent certains patients, et le fardeau pratique de la transplantation (déménagement, absence du travail, exigence d'aidant) constitue un obstacle décisif pour de nombreux candidats. Ces inégalités sont qualifiées de problème systémique nécessitant une refonte des critères de conception des essais.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-september-11-2026",
-        "date_publication": "11/09/2026",
-        "pertinence": "haute",
-        "categorie": "équité_santé"
-      },
-      {
-        "titre": "ASIDE Health Equity Brief — 21 septembre 2026 : appels à financement diversité et essais NIH",
-        "resume": "Publié le 21 septembre 2026, ce brief recense 8 nouveaux appels à financement, 2 nouveaux essais en recrutement et 120 articles nouvellement indexés sur l'équité en santé. Parmi les appels notables : PRIMED-AI (partenariats académiques-industriels pour la médecine de précision avec IA intégrant imagerie et données multimodales) et un programme d'interventions pour améliorer l'accès au dépistage du cancer dans les populations défavorisées. Ces appels témoignent d'un effort actif pour financer des essais diversifiés malgré les pressions réglementaires.",
-        "source": "ASIDE Healthcare",
-        "url": "https://www.asidehealthcare.org/health-equity-brief-2026-09-21/",
-        "date_publication": "21/09/2026",
-        "pertinence": "haute",
-        "categorie": "financement"
-      },
-      {
-        "titre": "AI for Clinical Trial Diversity : opportunités et considérations (Clarkston Consulting, sept. 2026)",
-        "resume": "Publié la semaine du 16 septembre 2026, cet article de Clarkston Consulting analyse comment l'IA peut réduire les biais de recrutement en signalant les groupes démographiques sous-représentés et en identifiant les populations éligibles dans les données réelles. Il souligne toutefois que les datasets d'entraînement historiquement biaisés risquent de renforcer les disparités existantes, rendant la validation et l'évaluation des biais indispensables. Des stratégies concrètes sont proposées : datasets diversifiés, données étiquetées précises et reporting standardisé des limites.",
-        "source": "Clarkston Consulting",
-        "url": "https://clarkstonconsulting.com/insights/ai-for-clinical-trial-diversity/",
-        "date_publication": "16/09/2026",
-        "pertinence": "haute",
-        "categorie": "biais_algorithmique"
-      }
-    ]
+    "clinique": []
   }
 }
