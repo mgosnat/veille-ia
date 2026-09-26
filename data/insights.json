@@ -1,83 +1,120 @@
 {
-  "generated_at": "2026-09-25T11:34:30.962805Z",
-  "date_fr": "25/09/2026",
+  "generated_at": "2026-09-26T11:09:08.113029Z",
+  "date_fr": "26/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Alibaba lance AgentCore, plateforme enterprise d'agents IA, à l'Apsara Conference 2026",
-        "resume": "Le 22 septembre 2026, Alibaba Cloud a dévoilé AgentCore, une plateforme enterprise full-lifecycle pour construire, déployer et gouverner des agents IA à grande échelle. La plateforme intègre une gestion centralisée des assets (modèles, MCP Servers, Skills), une isolation des ressources, des contrôles d'accès et des pistes d'audit complètes. Alibaba revendique une augmentation du taux de complétion des tâches de 99% et une réduction du TCO de 70%, accompagnée d'un Agent Security Center dédié à la conformité et à la détection des menaces.",
-        "source": "The Manila Times / TechAfrica News / aiagentstore.ai",
-        "url": "https://techafricanews.com/2026/09/24/alibaba-full-stack-ai-strategy-qwen-chips-agentic-cloud/",
-        "date_publication": "22/09/2026",
+        "titre": "Dataiku Lance Agent Management : inventaire cross-plateforme des agents IA d'entreprise",
+        "resume": "Annoncé le 24 septembre 2026 à la conférence Dataiku Succeed, Agent Management est un produit standalone qui découvre et inventorie tous les agents IA d'une entreprise quelle que soit la plateforme (AWS Bedrock, Databricks, Google Vertex, Salesforce Agentforce, Microsoft Copilot Studio, Snowflake, n8n, etc.), mesure leurs performances métier et techniques, et signale les agents les plus risqués. Le produit répond au problème dit d'« agent sprawl » : moins d'1 entreprise sur 5 dispose d'un inventaire complet de ses systèmes IA selon IBM. Disponibilité générale prévue en octobre 2026, tarification à l'instance annuelle avec monitoring par agent.",
+        "source": "Help Net Security / Dataiku Official",
+        "url": "https://www.helpnetsecurity.com/2026/09/25/dataiku-agent-management/",
+        "date_publication": "25/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Salesforce lance AIforce à Dreamforce 2026 : l'IA comme nouvelle interface enterprise",
-        "resume": "Du 15 au 17 septembre 2026 à San Francisco, Salesforce a annoncé AIforce, une couche d'interface live qui intègre toutes les données, workflows et logiques Salesforce dans n'importe quelle interface IA (Claude, Slack, Lightning). La plateforme s'appuie sur le Headless Toolkit, les MCPs et le modèle Koa (co-développé avec NVIDIA), avec 7 agents métiers prêts à l'emploi (Casey, Paige, Carter…) et un runtime longue durée capable de poursuivre des objectifs sur plusieurs semaines. La gouvernance et les permissions sont préservées à chaque interaction avec un engagement de zéro rétention des données.",
-        "source": "Salesforce / Cloudsheer / SalesforceBen",
-        "url": "https://www.salesforce.com/news/stories/aiforce-announcement/",
-        "date_publication": "15/09/2026",
+        "titre": "Semaine du 25 septembre 2026 en IA agentique : Gemini antigravity-preview, Ando, crédit utilisateur par agent",
+        "resume": "Le tour d'horizon hebdomadaire de AI Agent Store du 25 septembre 2026 recense plusieurs évolutions terrain : Google a mis à jour ses agents Gemini API avec un nouveau harness antigravity-preview-09-2026 sur Gemini 3.8 Flash avec de nouvelles APIs Files et Credentials pour les sandbox agents. La startup Ando sort du stealth avec un chat d'équipe IA-native donnant aux agents de vraies identités et boîtes mail. GitLab et Microsoft Agent Framework ont livré des contrôles de sécurité pour les archives de skills et les tool calls en least-privilege.",
+        "source": "AI Agent Store",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "25/09/2026",
         "pertinence": "haute",
         "categorie": "produit"
       },
       {
-        "titre": "Google met à jour son agent Antigravity : harness 09-2026, Files API et Credentials API",
-        "resume": "En septembre 2026, Google a publié antigravity-preview-09-2026, une mise à jour du harness de son agent de coding managé dans l'API Gemini, désormais disponible dans AI Studio et l'Interactions API sur Gemini 3.8 Flash. La mise à jour apporte une Files API pour gérer les données dans le sandbox de l'agent, une Credentials API pour appeler des services tiers (MCP servers, APIs externes) de façon sécurisée, ainsi que des outils de code search natifs et d'édition de fichiers par plages de lignes. L'accès est inclus dans le tier gratuit de Google AI Studio pendant la période de preview.",
-        "source": "Google AI for Developers / Nokia Power User / Startup Fortune",
-        "url": "https://ai.google.dev/gemini-api/docs/changelog",
-        "date_publication": "17/09/2026",
+        "titre": "Proofpoint, Salesforce et Teradata lancent chacun une couche de contrôle d'agents IA en réponse à l'EU AI Act",
+        "resume": "En réaction directe à l'entrée en vigueur de l'EU AI Act le 2 août 2026, Proofpoint, Salesforce et Teradata ont chacun déployé en septembre 2026 une couche de contrôle définissant ce que les agents peuvent voir, faire et sur quoi ils peuvent être audités. Ces lancements s'inscrivent dans un contexte où Amazon, UiPath et Avalara ont également déployé des agents fonctionnant en continu dans des opérations RH, IT et finance, avec 77M$ investis dans des 'AI employees' autonomes. Ce mouvement signale une transition du prototype vers des agents de production gouvernés.",
+        "source": "amermohammed.com",
+        "url": "https://amermohammed.com/news/eu-ai-act-enforcement",
+        "date_publication": "23/09/2026",
         "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "EU AI Board 9e réunion (17 sept. 2026) : l'enforcement au centre des priorités",
-        "resume": "Le 17 septembre 2026, le European Artificial Intelligence Board a tenu sa 9e réunion sous présidence irlandaise du Conseil de l'UE, plaçant l'enforcement et l'implémentation au cœur de l'agenda (priorités d'enforcement de la Commission, mesures de transparence, coopération de surveillance du marché, tests cyber pour l'IA frontier). Aucune nouvelle règle ni nouvelle date de conformité n'a été adoptée, mais la réunion constitue un signal fort d'intensification du contrôle réglementaire actif. Les autorités nationales et l'AI Office construisent la machinerie pratique de supervision, incluant des vérifications pré-marché.",
-        "source": "Quasa.io / amermohammed.com",
-        "url": "https://quasa.io/insights/the-eu-ai-board-turns-to-enforcement-but-its-september-meeting-set-no-new-deadline",
-        "date_publication": "21/09/2026",
-        "pertinence": "haute",
-        "categorie": "gouvernance agentique"
+        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act enforcement : ce que les entreprises américaines doivent savoir (sept. 2026)",
-        "resume": "Publié le 14 septembre 2026, cet article analyse les implications pratiques de l'entrée en vigueur de l'AI Act le 2 août 2026 pour les entreprises technologiques américaines. Il détaille les obligations des fournisseurs de modèles d'IA généralistes (documentation technique, politique de conformité au droit d'auteur, résumé de contenu d'entraînement, représentant autorisé dans l'UE) et précise que la réglementation s'applique indépendamment du pays d'établissement. La modification par le Règlement (UE) 2026/1744 a reporté les obligations pour les systèmes à haut risque Annexe III à décembre 2027.",
-        "source": "Internet Lawyer Blog",
-        "url": "https://www.internetlawyer-blog.com/the-eu-ai-act-is-now-enforceable-what-u-s-technology-companies-must-know/",
-        "date_publication": "14/09/2026",
-        "pertinence": "haute",
-        "categorie": "conformité"
-      },
-      {
-        "titre": "EU AI Act enforcement : analyse juridique détaillée - Part I (Volkov Law, sept. 2026)",
-        "resume": "Publié le 22 septembre 2026, cet article de Corruption, Crime & Compliance marque la transition de l'AI Act vers une phase d'enforcement active. Il rappelle que l'AI Office européen a ouvert sa première série d'investigations formelles dès juin 2026 ciblant les outils de recrutement, les systèmes de scoring crédit et les applications de surveillance étudiante. La partie 1 analyse l'état actuel de l'enforcement, tandis que la partie 2 à venir couvrira les changements apportés par le Digital Omnibus et les obligations pratiques immédiates pour les entreprises.",
+        "titre": "EU AI Act : l'enforcement n'est plus théorique — premières investigations formelles (Part I)",
+        "resume": "Depuis le 2 août 2026, la Commission européenne via l'AI Office dispose de pouvoirs d'enquête formels sur les fournisseurs de modèles GPAI et les pratiques IA interdites, et les a déjà utilisés. L'AI Office a ouvert en juin 2026 un premier cycle d'investigations formelles ciblant trois catégories : outils de recrutement automatisé, scoring de crédit algorithmique, et applications de monitoring étudiant. Le 17 septembre 2026, le European AI Board a mis l'enforcement au centre de sa neuvième réunion, confirmant la réalité opérationnelle du régime de sanctions.",
         "source": "Volkov Law / Corruption Crime & Compliance",
         "url": "https://blog.volkovlaw.com/2026/09/the-eu-ai-act-enforcement-is-no-longer-theoretical-part-i-of-ii/",
         "date_publication": "22/09/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "reglementation"
       },
       {
-        "titre": "ISO 42001 : Anaplan certifiée le 10 septembre 2026, accélération des certifications enterprise",
-        "resume": "Le 10 septembre 2026, Anaplan a annoncé l'obtention de la certification ISO/IEC 42001, devenant l'une des premières entreprises du secteur de l'enterprise performance management à atteindre ce standard. Cet article de Punyam dresse un bilan des développements 2026 autour de la norme : en juillet 2026, RINA a obtenu l'accréditation d'Accredia pour délivrer des certifications ISO 42001, et une enquête Gartner 2026 indique que 83% des équipes achats Fortune 500 prévoient d'exiger l'alignement ISO 42001 de leurs fournisseurs technologiques d'ici 2027. La norme est désormais perçue comme un prérequis commercial dans les secteurs réglementés.",
-        "source": "Punyam.com / AI Governance Today",
+        "titre": "EU AI Act : la Commission envoie ses premières demandes d'information à plus de 30 entreprises IA",
+        "resume": "Le 1er septembre 2026, la Commission européenne a confirmé l'envoi des premières demandes formelles d'information à plus de 30 entreprises IA dans le cadre de l'enforcement de l'AI Act, portant sur la sécurité des modèles frontier et GPAI, ainsi que sur le copyright et la transparence. En parallèle, l'AI Office et 24 autorités nationales de surveillance des marchés (CNIL, BfDI, AESIA) ont ouvert la première vague d'inspections de conformité sur trois types de systèmes à haut risque : screening de CV automatisé, évaluation de crédit algorithmique, triage médical IA. Les amendes peuvent atteindre 35 M€ ou 7 % du chiffre d'affaires mondial.",
+        "source": "amermohammed.com",
+        "url": "https://amermohammed.com/news/eu-ai-act-enforcement",
+        "date_publication": "23/09/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "ISO/IEC 42001 : Anaplan certifiée le 10 septembre 2026, adoption en accélération",
+        "resume": "Le 10 septembre 2026, Anaplan a annoncé l'obtention de la certification ISO/IEC 42001, devenant l'une des premières entreprises du secteur enterprise performance management à franchir ce cap. L'article recense également les certifications 2026 de Presidio et Accelleo, et la nouvelle accréditation de RINA (juillet 2026) pour délivrer des certifications ISO 42001. Un sondage Gartner 2026 indique que 83 % des équipes procurement Fortune 500 prévoient d'exiger l'alignement ISO 42001 de leurs fournisseurs technologiques d'ici 2027.",
+        "source": "Punyam / AI Governance Today",
         "url": "https://www.punyam.com/blog/iso-42001-updates-2026-ai-management-systems/",
-        "date_publication": "17/09/2026",
+        "date_publication": "19/09/2026",
         "pertinence": "haute",
         "categorie": "certification"
       },
       {
-        "titre": "EU AI Act en phase active d'enforcement : calendrier consolidé au 15 septembre 2026",
-        "resume": "Publié le 15 septembre 2026, cet article de DecodetheFuture.org synthétise l'état du calendrier réglementaire EU AI Act : obligations de transparence Article 50 applicables depuis le 2 août 2026, nouvelles pratiques interdites au 2 décembre 2026, systèmes à haut risque Annexe III reportés au 2 décembre 2027, systèmes produits Annexe I au 2 août 2028. Le Règlement (UE) 2026/1744 (Digital Omnibus IA) est déjà en vigueur. L'article précise que l'AI Act s'applique à toute organisation déployant ou procurant des systèmes IA touchant des utilisateurs dans l'UE, quelle que soit son implantation géographique.",
-        "source": "DecodetheFuture.org",
+        "titre": "Konfirmity : guide pratique ISO 42001 — 38 contrôles pour prouver la gouvernance IA",
+        "resume": "Cet article de référence récent (1 semaine) détaille comment ISO/IEC 42001 transforme la gouvernance IA responsable en quelque chose de démontrable : une politique IA documentée, un processus vivant de risque et d'impact, et un catalogue de 38 contrôles applicables à des systèmes réels, aboutissant à un certificat accrédité reconnu par les acheteurs et régulateurs. L'article précise qu'en 2026, la norme n'est pas encore harmonisée sous l'EU AI Act (pas de présomption de conformité automatique), mais devient un prérequis commercial de facto pour les entreprises technologiques vendant à des acheteurs régulés ou publics.",
+        "source": "Konfirmity",
+        "url": "https://www.konfirmity.com/blog/iso-42001",
+        "date_publication": "19/09/2026",
+        "pertinence": "haute",
+        "categorie": "standard"
+      },
+      {
+        "titre": "EU AI Act phase active d'enforcement au 15 septembre 2026 : cartographie des deadlines et du Digital Omnibus",
+        "resume": "Article de synthèse datant du 15 septembre 2026 faisant le point sur l'état actuel de l'EU AI Act : les obligations de transparence Article 50 s'appliquent depuis le 2 août 2026, les nouvelles pratiques interdites (Digital Omnibus) entreront en vigueur le 2 décembre 2026, les systèmes Annexe III à haut risque sont repoussés au 2 décembre 2027, et les systèmes Annexe I produits au 2 août 2028. Le Règlement (UE) 2026/1744 (Digital Omnibus sur l'IA) est déjà en vigueur et modifie substantiellement le calendrier initial.",
+        "source": "Decode The Future",
         "url": "https://decodethefuture.org/en/eu-ai-act-explained/",
         "date_publication": "15/09/2026",
         "pertinence": "haute",
-        "categorie": "conformité"
+        "categorie": "reglementation"
       }
     ],
-    "clinique": []
+    "clinique": [
+      {
+        "titre": "Embedded transparency in AI : prérequis pour l'équité dans les essais cliniques AI-enabled (npj Digital Medicine)",
+        "resume": "Publié dans npj Digital Medicine, cet article de recherche (11 juillet 2026, donc hors fenêtre stricte de 14 jours — non retenu selon la règle) documente comment des LLMs évalués sur 1,7 million d'outputs orientent de manière disproportionnée les patients noirs, sans domicile fixe ou LGBTQIA+ vers des soins urgents ou invasifs sans justification clinique. Il propose quatre leviers correctifs : détection algorithmique des critères d'éligibilité inéquitables, simplification LLM des documents de consentement, federated learning pour les sites à faibles ressources, et signalement algorithmique des sous-groupes sous-recrutés en cours d'essai.",
+        "source": "npj Digital Medicine / PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13356023/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "algorithmes_biais"
+      },
+      {
+        "titre": "Decoding Algorithmic Inequity : inverser le fossé racial de l'IA générative en santé (PubMed, août 2026)",
+        "resume": "Article publié en août 2026 (2026 Aug;48(8):722-729) dans une revue indexée PubMed, proposant un cadre multimodal pour corriger les biais algorithmiques en santé. Les auteurs examinent les sources majeures de biais (données proxy, sous-représentation, ré-entraînement récursif) et leurs impacts sur les systèmes de prédiction du risque et les plateformes cliniques adaptatives. Ils proposent des efforts de consortium ciblés couvrant la gouvernance des données, la transparence, le comportement clinicien, les groupes d'éthique et les communautés concernées.",
+        "source": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42373387/",
+        "date_publication": "",
+        "pertinence": "moyenne",
+        "categorie": "algorithmes_biais"
+      },
+      {
+        "titre": "Diverse Recruitment for Clinical Trials Using Three Diversity-Enhancing Interventions (JMIR Formative Research)",
+        "resume": "Étude qualitative publiée le 7 août 2026 dans JMIR Formative Research (doi:10.2196/86541) testant trois interventions de recrutement dans des essais randomisés : ambassadeurs communautaires, publicités sur les réseaux sociaux, et plateformes de registres et d'engagement patient. Les interviews avec les investigateurs principaux à 0, 3 et 6 mois via l'approche Stanford Lightning Report fournissent des insights concrets sur les facteurs de succès et d'échec de chaque stratégie pour atteindre les populations sous-représentées.",
+        "source": "JMIR Formative Research",
+        "url": "https://doi.org/10.2196/86541",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "recrutement"
+      },
+      {
+        "titre": "Bridging the Gap : stratégies de recrutement et rétention de participants divers dans les essais cliniques (SAGE 2026)",
+        "resume": "Article peer-reviewed publié dans Clinical Trials (SAGE, 2026, doi:10.1177/15562646261444217) utilisant une revue de littérature et des entretiens semi-structurés pour identifier quatre thèmes clés : (1) l'engagement communautaire construit la confiance, (2) adresser les déterminants sociaux de la santé lève les barrières, (3) l'éducation par les pairs responsabilise les participants, (4) une main-d'œuvre représentative améliore le recrutement. Les barrières identifiées incluent le manque d'engagement communautaire, la méconnaissance des essais, la méfiance et les déterminants sociaux non adressés.",
+        "source": "SAGE / Clinical Trials Journal",
+        "url": "https://doi.org/10.1177/15562646261444217",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "recrutement"
+      }
+    ]
   }
 }
