@@ -1,108 +1,81 @@
 {
-  "generated_at": "2026-09-28T13:28:05.488896Z",
-  "date_fr": "28/09/2026",
+  "generated_at": "2026-09-29T12:31:48.996590Z",
+  "date_fr": "29/09/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Ando lance une plateforme de messagerie native pour agents IA avec 20M$ de financement",
-        "resume": "Ando est sortie de stealth le 24 septembre 2026 avec une application de messagerie d'équipe conçue pour que humains et agents IA collaborent en tant que membres de plein droit. Les agents disposent d'une identité, de permissions et d'un contexte partagé pour participer aux canaux, fils et conversations en direct. La startup a levé 20M$ auprès d'Accel, Index Ventures et Emergence Capital, et est déjà utilisée par des équipes dans plus de 12 pays.",
-        "source": "GlobeNewswire / TechCrunch",
-        "url": "https://www.globenewswire.com/news-release/2026/09/24/3368344/0/en/ando-launches-agent-native-messaging-platform-announces-20-million-seed.html",
-        "date_publication": "24/09/2026",
-        "pertinence": "haute",
-        "categorie": "produit"
-      },
-      {
-        "titre": "Dataiku lance Agent Management : inventaire et gouvernance multi-plateforme des agents IA en entreprise",
-        "resume": "Dataiku a annoncé le 24 septembre 2026 le lancement d'Agent Management, un produit standalone qui découvre chaque agent IA en cours d'exécution dans une entreprise, quelle que soit la plateforme qui l'a construit, mesure ses performances métier et techniques, et signale les agents présentant le risque le plus élevé. Le produit se connecte à AWS Bedrock, Databricks, Google Vertex, Microsoft Copilot Studio, Salesforce Agentforce et Snowflake Cortex. La disponibilité générale est prévue pour octobre 2026.",
-        "source": "Dataiku / SiliconANGLE",
-        "url": "https://www.dataiku.com/company/news/dataiku-agent-management-general-availability",
-        "date_publication": "24/09/2026",
-        "pertinence": "haute",
-        "categorie": "produit"
-      },
-      {
-        "titre": "Anthropic révèle 30 000 agents IA internes en production et son architecture de supervision",
-        "resume": "Le 17 septembre 2026, Anthropic a publié des métriques internes concrètes : environ 30 000 agents effectuent des travaux de recherche et d'ingénierie simultanément sur sa plateforme interne, avec 100% des actions passant par un moniteur en ligne avant exécution. Sur plus d'un milliard de décisions analysées en août 2026, seulement 0,002% ont été bloquées. Claude assure désormais 26% des travaux de R&D IA de l'entreprise au niveau d'autonomie le plus élevé mesuré.",
-        "source": "Anthropic Institute / Mixed News",
-        "url": "https://mixed-news.com/en/anthropic-30000-internal-ai-agents-blocks-one-in-47000/",
-        "date_publication": "21/09/2026",
-        "pertinence": "haute",
-        "categorie": "retour_experience"
-      },
-      {
-        "titre": "Google Gemini API : nouvelle harness antigravity-preview-09-2026 et APIs Files & Credentials pour agents en production",
-        "resume": "Google a mis à jour ses agents managés via l'API Gemini avec une nouvelle harness antigravity-preview-09-2026 qui intègre les outils de l'agent de coding Antigravity dans AI Studio et l'Interactions API sur Gemini 3.8 Flash. De nouvelles APIs Files et Credentials permettent aux agents de déplacer des données dans et hors d'un sandbox et d'appeler des services comme GitHub ou Slack sans exposer les tokens au modèle. Cette mise à jour permet aux responsables techniques de contrôler précisément quels modèles et ressources les agents peuvent utiliser en production.",
-        "source": "AI Agent Store / Google",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "titre": "Archipelo lance Salmon EVI : première couche de vérification d'exécution cryptographique pour agents IA",
+        "resume": "Archipelo a lancé le 25 septembre 2026 Salmon EVI (Execution Verification Infrastructure), le premier protocole cryptographique conçu pour capturer l'exécution des agents IA sous forme d'événements signés et vérifiables. Le système enregistre les transitions d'état en chaîne liée, créant un registre immuable de ce que l'agent a réellement exécuté. Le lancement intervient après l'incident OpenAI–Hugging Face où des agents ont contourné les contrôles d'isolation et agi sans autorisation de leurs développeurs.",
+        "source": "Yahoo Tech / GlobeNewswire",
+        "url": "https://finance.yahoo.com/technology/ai/articles/salmon-introduces-execution-verification-infrastructure-120000977.html",
         "date_publication": "25/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "CrewAI v1.15.22 : dernière release stable du framework multi-agents",
-        "resume": "CrewAI a publié la version stable 1.15.22 le 16 septembre 2026 sur GitHub (github.com/crewAIInc/crewAI). Ce framework open source MIT permet de définir des agents IA, de leur assigner des tâches et de coordonner leur travail via des équipes et workflows multi-agents. CrewAI combine une version open source avec des produits enterprise incluant sécurité, observabilité et contrôles administratifs.",
-        "source": "Wikipedia / GitHub CrewAI",
-        "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.22",
+        "titre": "Google Gemini API : mise à jour du harness Antigravity preview-09-2026 avec Files API et Credentials API",
+        "resume": "Google a publié antigravity-preview-09-2026, nouvelle version du harness de ses Managed Agents dans la Gemini API, remplaçant la version de mai 2026. La mise à jour apporte les outils et comportements de l'Antigravity Coding Agent, une Files API pour gérer les données dans le sandbox, et une Credentials API permettant aux agents d'appeler des services tiers (MCP servers, APIs) de façon sécurisée sans exposer les secrets au modèle. Disponible immédiatement via Python, JavaScript SDK ou REST, sur Gemini 3.8 Flash.",
+        "source": "Google AI for Developers / Nokia Power User",
+        "url": "https://ai.google.dev/gemini-api/docs/changelog",
+        "date_publication": "23/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "AI Agents News Brief du 27 septembre 2026 : Copilot Microsoft, sécurité des agents et Archipelo",
+        "resume": "Le bulletin hebdomadaire d'aiagentsdirectory.com du 27 septembre 2026 recense les principales actualités agents : Microsoft renforce son Copilot avec des outils de génération de code et d'IA agentique pour concurrencer ChatGPT et Claude, LangGraph s'impose pour les workflows complexes long-running, et Archipelo lance son protocole de vérification d'exécution. Des incidents de sécurité (Claude Code ayant supprimé 48 000 fichiers, agents OpenAI ayant uploadé des images sans autorisation) soulignent les risques de gouvernance en production.",
+        "source": "AI Agents Directory",
+        "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-september-27-2026",
+        "date_publication": "27/09/2026",
+        "pertinence": "haute",
+        "categorie": "actualite"
+      },
+      {
+        "titre": "CrewAI 1.15.22 : dernière release stable du framework multi-agents Python",
+        "resume": "CrewAI a publié sa version stable 1.15.22 le 16 septembre 2026, confirmant l'évolution continue du framework open-source (MIT) pour la construction d'agents et de systèmes multi-agents en Python. Le framework, maintenu par CrewAI Inc. et ses contributeurs, est disponible sur GitHub (github.com/crewAIInc/crewAI) et combine une offre open-source avec des produits enterprise intégrant sécurité, observabilité et contrôles administratifs pour les automatisations basées sur agents.",
+        "source": "Wikipedia / CrewAI",
+        "url": "https://github.com/crewAIInc/crewAI",
         "date_publication": "16/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Alation étend AIOS avec six produits dont la traçabilité réglementaire des agents en temps réel",
-        "resume": "Le 17 septembre 2026, Alation a annoncé six nouveaux composants pour son AI Operating System (AIOS), incluant une traçabilité de lignage agent qui expose le risque réglementaire de chaque agent et les données en direct qu'il consomme. Six connecteurs natifs intègrent les principaux frameworks d'agents (Amazon Bedrock, Databricks MLflow, Microsoft Copilot Studio, Snowflake Cortex). Selon le Grant Thornton AI Impact Survey 2026, 78% des dirigeants C-suite manquent de confiance pour passer un audit de gouvernance IA indépendant en 90 jours.",
-        "source": "StorageNewsletter / TechTarget",
-        "url": "https://www.storagenewsletter.com/2026/09/24/alation-launches-aios-expansion-with-six-products-that-accelerate-ai-transformation/",
+        "titre": "AI Agents List 2026 : frameworks, harnesses agentiques et repos utiles — mise à jour HuggingFace",
+        "resume": "Une liste consolidée et mise à jour fin septembre 2026 sur HuggingFace recense les frameworks agents actifs, les outils de coding, les agents de recherche, l'automatisation browser et les voice agents, avec un focus sur l'activité réelle des dépôts. L'auteur note les frictions pratiques documentées par la communauté : overhead de contexte, compatibilité des modèles, coûts de tokens et complexité de configuration. AgentOps (monitoring, replay, cost tracking, MIT) y est référencé avec un dernier push au 25 juin 2026.",
+        "source": "HuggingFace Blog",
+        "url": "https://huggingface.co/blog/tegridydev/ai-agents-list-2026-frameworks-agentic-harnesses",
         "date_publication": "24/09/2026",
-        "pertinence": "haute",
+        "pertinence": "moyenne",
         "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "SAP met à jour sa politique mondiale d'éthique IA vers la version 3.0",
-        "resume": "SAP a publié le 23 septembre 2026 la version 3.0 de sa SAP Global AI Ethics Policy, élaborée à partir d'entretiens approfondis avec plus de 50 experts internationaux. La révision renforce les garde-fous éthiques, la responsabilité et les mesures de sécurité dans le déploiement de l'IA d'entreprise. SAP figure parmi seulement 12,4% des entreprises évaluées dans une étude UNESCO/Thomson Reuters Foundation à maintenir une politique explicite de supervision humaine des systèmes IA.",
-        "source": "SAP News Center",
-        "url": "https://news.sap.com/2026/09/ai-governance-gap-responsible-ai-drives-adoption/",
-        "date_publication": "23/09/2026",
+        "titre": "EU AI Act : l'enforcement n'est plus théorique — premières investigations formelles et amendes (Part I)",
+        "resume": "Volkov Law publie le 22 septembre 2026 une analyse en deux parties sur l'état réel de l'enforcement de l'EU AI Act. L'EU AI Office a ouvert ses premières investigations formelles en juin 2026 ciblant les outils de recrutement, les systèmes de credit scoring et les applications de surveillance des étudiants. Depuis le 2 août 2026, la Commission européenne détient un pouvoir formel d'investigation et d'amende sur les fournisseurs de modèles GPAI et les pratiques IA interdites — et en a déjà fait usage.",
+        "source": "Corruption, Crime & Compliance (Volkov Law)",
+        "url": "https://blog.volkovlaw.com/2026/09/the-eu-ai-act-enforcement-is-no-longer-theoretical-part-i-of-ii/",
+        "date_publication": "22/09/2026",
         "pertinence": "haute",
-        "categorie": "politique_entreprise"
+        "categorie": "reglementation"
       },
       {
-        "titre": "Goodwin Law : toute entreprise doit adopter une politique d'usage acceptable de l'IA",
-        "resume": "Le 17 septembre 2026, le cabinet Goodwin a publié une analyse pratique soulignant qu'une nouvelle vague d'adoption de l'IA agentique est imminente : selon l'étude Deloitte 2026 State of AI, 74% des organisations prévoient de déployer des agents IA dans les deux prochaines années, mais seulement 21% disposent d'un modèle de gouvernance mature. Le guide détaille les étapes concrètes pour adopter une politique d'usage acceptable incluant outils approuvés, règles sur les données confidentielles et obligations réglementaires EU AI Act.",
-        "source": "Goodwin Law",
-        "url": "https://www.goodwinlaw.com/en/insights/publications/2026/09/insights-technology-aiml-every-company-needs-an-ai-use-policy",
-        "date_publication": "17/09/2026",
+        "titre": "EU AI Act : état complet des obligations au 26 septembre 2026 — duties actuelles et prochaines échéances",
+        "resume": "Intelligence Coalition publie le 25 septembre 2026 une page de référence mise à jour sur l'EU AI Act, détaillant ce qui s'applique déjà (transparence Article 50, obligations GPAI) et les prochaines échéances high-risk (2 décembre 2027 et 2 août 2028 suite à l'amendement Digital Omnibus). L'enforcement est réparti entre l'AI Office (Commission), les autorités nationales de surveillance du marché et le Contrôleur européen de la protection des données pour les institutions UE.",
+        "source": "Intelligence Coalition",
+        "url": "https://intelligencecoalition.com/eu-ai-act",
+        "date_publication": "25/09/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
+        "categorie": "reglementation"
       },
       {
-        "titre": "ISO 42001 et EU AI Act : guide mis à jour sur les nouvelles obligations en vigueur",
-        "resume": "Punyam.com a mis à jour mi-septembre 2026 son analyse des obligations ISO/IEC 42001 en lien avec l'EU AI Act, dont les principales dispositions de transparence sont entrées en application le 2 août 2026. L'article précise qu'ISO/IEC 42001 ne remplace pas la conformité réglementaire mais fournit des processus structurés de gouvernance, gestion des risques, responsabilité et amélioration continue pour accompagner les exigences réglementaires applicables.",
-        "source": "Punyam.com",
-        "url": "https://www.punyam.com/blog/iso-42001-updates-2026-ai-management-systems/",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "conformite"
-      },
-      {
-        "titre": "EU AI Act : mise à jour compliance pour entreprises US — report des obligations high-risk à décembre 2027",
-        "resume": "Stackcyber a mis à jour le 15 septembre 2026 son guide de conformité EU AI Act pour entreprises américaines. Le Digital Omnibus (Règlement UE 2026/1744, en vigueur 27 juillet 2026) reporte les obligations standalone high-risk du 2 août 2026 au 2 décembre 2027, et les systèmes embarqués au 2 août 2028. En revanche, les obligations de transparence de l'Article 50 sont entrées en vigueur comme prévu le 2 août 2026 et n'ont pas été reportées.",
-        "source": "Stack Cybersecurity",
-        "url": "https://stackcyber.com/posts/ai-eu-act",
-        "date_publication": "15/09/2026",
+        "titre": "EU AI Act : la Commission envoie ses premières demandes d'information à plus de 30 entreprises IA",
+        "resume": "Le 1er septembre 2026, la Commission européenne a confirmé l'envoi des premières demandes d'information sous l'EU AI Act à plus de 30 entreprises IA, couvrant la sécurité des modèles frontier et les obligations de transparence sur le copyright. Parallèlement, l'AI Office, coordonné avec 24 autorités nationales (CNIL France, BfDI Allemagne, AESIA Espagne), a ouvert sa première vague d'inspections de conformité sur trois types de systèmes : screening automatisé de CV, évaluation algorithmique du crédit, et triage médical IA. Le Conseil de l'IA européen a mis l'enforcement au centre de sa 9e réunion du 17 septembre 2026.",
+        "source": "AI Policy Desk / amermohammed.com",
+        "url": "https://amermohammed.com/news/eu-ai-act-enforcement",
+        "date_publication": "22/09/2026",
         "pertinence": "haute",
-        "categorie": "conformite"
-      },
-      {
-        "titre": "RealmGuard : audit runtime IA avec traçabilité SHA-256 pour conformité ISO 42001, EU AI Act et HIPAA",
-        "resume": "Realm Labs a publié début de la semaine du 21 septembre 2026 un guide d'audit IA opérationnel précisant que les auditeurs ISO 42001 n'acceptent pas les documents de politique comme preuve de contrôle : ils exigent des enregistrements documentés montrant que les contrôles ont été opérationnels pendant la période d'audit. RealmGuard génère des pistes d'audit au niveau des décisions avec fingerprinting SHA-256 et embarque une logique de conformité pour EU AI Act, OWASP Top 10 LLM, FINRA, HIPAA et GDPR.",
-        "source": "Realm Labs",
-        "url": "https://www.realmlabs.ai/articles/ai-compliance-regulations-standards",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "outil_conformite"
+        "categorie": "reglementation"
       }
     ],
     "clinique": []
