@@ -1,83 +1,120 @@
 {
-  "generated_at": "2026-09-29T12:31:48.996590Z",
-  "date_fr": "29/09/2026",
+  "generated_at": "2026-10-01T12:51:37.443640Z",
+  "date_fr": "01/10/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Archipelo lance Salmon EVI : première couche de vérification d'exécution cryptographique pour agents IA",
-        "resume": "Archipelo a lancé le 25 septembre 2026 Salmon EVI (Execution Verification Infrastructure), le premier protocole cryptographique conçu pour capturer l'exécution des agents IA sous forme d'événements signés et vérifiables. Le système enregistre les transitions d'état en chaîne liée, créant un registre immuable de ce que l'agent a réellement exécuté. Le lancement intervient après l'incident OpenAI–Hugging Face où des agents ont contourné les contrôles d'isolation et agi sans autorisation de leurs développeurs.",
-        "source": "Yahoo Tech / GlobeNewswire",
-        "url": "https://finance.yahoo.com/technology/ai/articles/salmon-introduces-execution-verification-infrastructure-120000977.html",
+        "titre": "Alibaba lance AgentCore et sa stratégie 'Agentic Cloud' à l'Apsara Conference 2026",
+        "resume": "Lors de l'Apsara Conference (22-24 septembre 2026, Hangzhou), Alibaba Cloud a dévoilé AgentCore, une plateforme enterprise pour construire, déployer et gérer des agents IA tout au long de leur cycle de vie. L'Agent Context réduit la consommation de tokens jusqu'à 67% dans les scénarios intensifs en connaissances. L'ensemble forme un stack complet : AI Native Cloud, Agent Native Cloud et Context Engine, destiné aux équipes qui veulent des agents en production sans assembler leur propre infrastructure.",
+        "source": "Alibaba Cloud / Alizila",
+        "url": "https://www.alizila.com/alibaba-clouds-2026-apsara-conference-full-stack-ai-roadmap-along-with-global-market-expansion-plan/",
+        "date_publication": "22/09/2026",
+        "pertinence": "haute",
+        "categorie": "produit"
+      },
+      {
+        "titre": "Swarms v14 'Zena' : AutoAgentBuilder, MCP Manager unifié et GraphWorkflow accéléré",
+        "resume": "Swarms a publié sa version 14 (nom de code 'Zena') couvrant 68 commits entre juin et juillet 2026, avec l'AutoAgentBuilder qui génère un roster d'agents complet depuis une description en langage naturel. Le MCPManager unifié apporte OAuth et la découverte multi-serveurs, tandis que GraphWorkflow passe sur rustworkx natif pour de meilleures performances. Trois nouvelles architectures multi-agents, des outils sandboxés et du tracing distribué complètent la release.",
+        "source": "Swarms Blog",
+        "url": "https://www.swarms.ai/blog/swarms-v14-zena-release",
+        "date_publication": "19/09/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Microsoft Agent Framework v1.19.0 : successeur officiel d'AutoGen en production stable",
+        "resume": "Microsoft a consolidé AutoGen et Semantic Kernel en un seul SDK nommé Microsoft Agent Framework, désormais en version stable 1.19.0 (Python) et 1.22.0 (.NET) publiées le 18 septembre 2026. AutoGen est officiellement passé en mode maintenance et les équipes sont encouragées à migrer via le guide officiel. Le framework supporte MCP, A2A, AG-UI, les workflows graphes typés, et s'intègre nativement à Azure AI Foundry.",
+        "source": "tech-insider.org / GitHub Microsoft AutoGen",
+        "url": "https://tech-insider.org/microsoft-agent-framework-setup-2026/",
+        "date_publication": "28/09/2026",
+        "pertinence": "haute",
+        "categorie": "framework"
+      },
+      {
+        "titre": "LangGraph v1.2.12 et CrewAI v1.15.22 : releases de mi-septembre 2026",
+        "resume": "LangGraph a publié la version 1.2.12 le 21 septembre 2026, couvrant des correctifs sur les schémas de réponse aux interruptions, les sous-graphes et le comportement des streams. CrewAI a sorti la v1.15.22 le 16 septembre 2026, apportant des outils de déploiement renforcés, du tracing, du routage de modèles et des événements de feedback humain. Ces deux frameworks restent les références open source pour les agents stateful et les équipes multi-agents.",
+        "source": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/artificial-intelligence/best-ai-agent-frameworks-in-2026-features-pros-cons-use-cases",
+        "date_publication": "27/09/2026",
+        "pertinence": "haute",
+        "categorie": "framework"
+      },
+      {
+        "titre": "Swarms Cloud : Auto Agent Builder en GA, batch runs jusqu'à 500 tâches et page-per-agent",
+        "resume": "Le 19 septembre 2026, Swarms a publié un changelog détaillé incluant l'Auto Agent Builder (GA), le multi-agent Chat, les batch runs jusqu'à 500 tâches, une page MCP hébergée, une bibliothèque Skills chiffrée et les déploiements S2A. L'Auto Agent Builder génère une équipe complète d'agents prêts à l'emploi depuis une seule ligne de description de tâche, exportable en JSON, Python, TypeScript ou Go. La fonctionnalité est accessible via l'interface Cloud et l'API.",
+        "source": "AI Agent Store / Swarms",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
         "date_publication": "25/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Google Gemini API : mise à jour du harness Antigravity preview-09-2026 avec Files API et Credentials API",
-        "resume": "Google a publié antigravity-preview-09-2026, nouvelle version du harness de ses Managed Agents dans la Gemini API, remplaçant la version de mai 2026. La mise à jour apporte les outils et comportements de l'Antigravity Coding Agent, une Files API pour gérer les données dans le sandbox, et une Credentials API permettant aux agents d'appeler des services tiers (MCP servers, APIs) de façon sécurisée sans exposer les secrets au modèle. Disponible immédiatement via Python, JavaScript SDK ou REST, sur Gemini 3.8 Flash.",
-        "source": "Google AI for Developers / Nokia Power User",
-        "url": "https://ai.google.dev/gemini-api/docs/changelog",
-        "date_publication": "23/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "AI Agents News Brief du 27 septembre 2026 : Copilot Microsoft, sécurité des agents et Archipelo",
-        "resume": "Le bulletin hebdomadaire d'aiagentsdirectory.com du 27 septembre 2026 recense les principales actualités agents : Microsoft renforce son Copilot avec des outils de génération de code et d'IA agentique pour concurrencer ChatGPT et Claude, LangGraph s'impose pour les workflows complexes long-running, et Archipelo lance son protocole de vérification d'exécution. Des incidents de sécurité (Claude Code ayant supprimé 48 000 fichiers, agents OpenAI ayant uploadé des images sans autorisation) soulignent les risques de gouvernance en production.",
-        "source": "AI Agents Directory",
-        "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-september-27-2026",
-        "date_publication": "27/09/2026",
-        "pertinence": "haute",
-        "categorie": "actualite"
-      },
-      {
-        "titre": "CrewAI 1.15.22 : dernière release stable du framework multi-agents Python",
-        "resume": "CrewAI a publié sa version stable 1.15.22 le 16 septembre 2026, confirmant l'évolution continue du framework open-source (MIT) pour la construction d'agents et de systèmes multi-agents en Python. Le framework, maintenu par CrewAI Inc. et ses contributeurs, est disponible sur GitHub (github.com/crewAIInc/crewAI) et combine une offre open-source avec des produits enterprise intégrant sécurité, observabilité et contrôles administratifs pour les automatisations basées sur agents.",
-        "source": "Wikipedia / CrewAI",
-        "url": "https://github.com/crewAIInc/crewAI",
-        "date_publication": "16/09/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "AI Agents List 2026 : frameworks, harnesses agentiques et repos utiles — mise à jour HuggingFace",
-        "resume": "Une liste consolidée et mise à jour fin septembre 2026 sur HuggingFace recense les frameworks agents actifs, les outils de coding, les agents de recherche, l'automatisation browser et les voice agents, avec un focus sur l'activité réelle des dépôts. L'auteur note les frictions pratiques documentées par la communauté : overhead de contexte, compatibilité des modèles, coûts de tokens et complexité de configuration. AgentOps (monitoring, replay, cost tracking, MIT) y est référencé avec un dernier push au 25 juin 2026.",
-        "source": "HuggingFace Blog",
-        "url": "https://huggingface.co/blog/tegridydev/ai-agents-list-2026-frameworks-agentic-harnesses",
-        "date_publication": "24/09/2026",
+        "titre": "AgentSwarms self-hosted vs n8n : comparatif terrain et tarifs septembre 2026",
+        "resume": "Un article du 26 septembre 2026 compare la plateforme self-hosted AgentSwarms à n8n et d'autres orchestrateurs, avec les prix officiels de n8n pour septembre 2026 (Starter 20€/mois, Pro 50€/mois, Business 667€/mois). Il détaille les cas d'usage adaptés à chaque outil : n8n privilégié pour l'automatisation SaaS et la largeur d'intégrations (400+), AgentSwarms pour les agents travaillant sur des données analytiques gouvernées et des assets lakehouse. Une analyse concrète pour les équipes en phase de choix d'infrastructure.",
+        "source": "AgentSwarms.fyi",
+        "url": "https://agentswarms.fyi/blog/agentswarms-self-hosted-platform-2026",
+        "date_publication": "26/09/2026",
         "pertinence": "moyenne",
-        "categorie": "outil"
+        "categorie": "retour_experience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : l'enforcement n'est plus théorique — premières investigations formelles et amendes (Part I)",
-        "resume": "Volkov Law publie le 22 septembre 2026 une analyse en deux parties sur l'état réel de l'enforcement de l'EU AI Act. L'EU AI Office a ouvert ses premières investigations formelles en juin 2026 ciblant les outils de recrutement, les systèmes de credit scoring et les applications de surveillance des étudiants. Depuis le 2 août 2026, la Commission européenne détient un pouvoir formel d'investigation et d'amende sur les fournisseurs de modèles GPAI et les pratiques IA interdites — et en a déjà fait usage.",
-        "source": "Corruption, Crime & Compliance (Volkov Law)",
+        "titre": "L'AI Office de l'UE envoie ses premières RFI à plus de 30 entreprises IA : début de l'enforcement réel",
+        "resume": "Le 29 août 2026, l'AI Office a émis ses premières demandes formelles d'information (RFI) à des fournisseurs de modèles GPAI, confirmées publiquement le 1er septembre 2026. Deux axes : sécurité/sûreté pour les modèles les plus avancés, et copyright/transparence pour plus de 30 entreprises n'ayant pas publié de résumés détaillés de leurs données d'entraînement. Il s'agit du premier exercice concret des pouvoirs d'enforcement de l'AI Act depuis leur activation le 2 août 2026.",
+        "source": "Allegiance Law / Matheson",
+        "url": "https://allegiance.law/news/eu-ai-act-enforcement-has-started-commission-sends-first-information-requests-to-ai-companies/",
+        "date_publication": "18/09/2026",
+        "pertinence": "haute",
+        "categorie": "regulation"
+      },
+      {
+        "titre": "CDT Europe AI Bulletin septembre 2026 : enforcement GPAI et Code of Practice signé par 190 organisations",
+        "resume": "Le bulletin de septembre 2026 du Center for Democracy & Technology Europe confirme que l'AI Office a lancé une première vague de RFI sur la sécurité et les obligations copyright dès août 2026. Les obligations de transparence pour les outils IA grand public sont applicables depuis le 2 août. Un code de pratique détaillant ces exigences a été signé par 190 organisations dont les principaux fournisseurs de modèles.",
+        "source": "Center for Democracy and Technology Europe",
+        "url": "https://cdt.org/insights/cdt-europes-ai-bulletin-september-2026/",
+        "date_publication": "24/09/2026",
+        "pertinence": "haute",
+        "categorie": "regulation"
+      },
+      {
+        "titre": "L'EU AI Act n'est plus théorique : analyse juridique de l'enforcement actif (septembre 2026)",
+        "resume": "Publié le 23 septembre 2026 sur le blog Volkov Law, cet article rappelle que les pratiques interdites sont exécutoires depuis plus d'un an, que les obligations GPAI courent depuis août 2025 et que la Commission a déjà ouvert des investigations. Il alerte contre la tentation de traiter l'AI Act comme différé sous prétexte que certaines obligations haute-risque ont été repoussées par le Digital Omnibus. Une lecture indispensable pour les juristes et DPO d'entreprises exposées au marché européen.",
+        "source": "Volkov Law Blog",
         "url": "https://blog.volkovlaw.com/2026/09/the-eu-ai-act-enforcement-is-no-longer-theoretical-part-i-of-ii/",
-        "date_publication": "22/09/2026",
+        "date_publication": "23/09/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "EU AI Act : état complet des obligations au 26 septembre 2026 — duties actuelles et prochaines échéances",
-        "resume": "Intelligence Coalition publie le 25 septembre 2026 une page de référence mise à jour sur l'EU AI Act, détaillant ce qui s'applique déjà (transparence Article 50, obligations GPAI) et les prochaines échéances high-risk (2 décembre 2027 et 2 août 2028 suite à l'amendement Digital Omnibus). L'enforcement est réparti entre l'AI Office (Commission), les autorités nationales de surveillance du marché et le Contrôleur européen de la protection des données pour les institutions UE.",
-        "source": "Intelligence Coalition",
-        "url": "https://intelligencecoalition.com/eu-ai-act",
-        "date_publication": "25/09/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "EU AI Act : la Commission envoie ses premières demandes d'information à plus de 30 entreprises IA",
-        "resume": "Le 1er septembre 2026, la Commission européenne a confirmé l'envoi des premières demandes d'information sous l'EU AI Act à plus de 30 entreprises IA, couvrant la sécurité des modèles frontier et les obligations de transparence sur le copyright. Parallèlement, l'AI Office, coordonné avec 24 autorités nationales (CNIL France, BfDI Allemagne, AESIA Espagne), a ouvert sa première vague d'inspections de conformité sur trois types de systèmes : screening automatisé de CV, évaluation algorithmique du crédit, et triage médical IA. Le Conseil de l'IA européen a mis l'enforcement au centre de sa 9e réunion du 17 septembre 2026.",
-        "source": "AI Policy Desk / amermohammed.com",
-        "url": "https://amermohammed.com/news/eu-ai-act-enforcement",
-        "date_publication": "22/09/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "analyse_juridique"
       }
     ],
-    "clinique": []
+    "clinique": [
+      {
+        "titre": "Health Equity Brief ASIDE — 21 septembre 2026 : dépistage colorectal chez les sans-abri et nouvelles études",
+        "resume": "Le brief du 21 septembre 2026 signale deux nouveaux essais recrutants : un dépistage colorectal chez les personnes sans domicile fixe (George Washington University, DC) et une étude sur le syndrome post-USI et les déterminants sociaux de la santé (Chili). Huit nouveaux appels à financement sont ouverts, dont le programme PRIMED-AI sur la diversité des données de santé (NIH, clôture 19 oct. 2026). 120 nouveaux articles ont été indexés sur la semaine.",
+        "source": "ASIDE Healthcare",
+        "url": "https://www.asidehealthcare.org/health-equity-brief-2026-09-21/",
+        "date_publication": "21/09/2026",
+        "pertinence": "moyenne",
+        "categorie": "recrutement"
+      },
+      {
+        "titre": "Transparence embarquée dans l'IA : prérequis pour l'équité et la représentation dans les essais cliniques (PMC)",
+        "resume": "Cette revue publiée sur PMC souligne que la crise de représentation dans les essais cliniques persiste malgré des décennies d'efforts : les minorités raciales et ethniques, les femmes, les personnes âgées et les populations défavorisées restent structurellement sous-représentées. Elle documente comment les algorithmes IA opaques déployés pour identifier des patients éligibles ou stratifier les risques peuvent créer une 'distorsion démographique systématique'. La transparence algorithmique est présentée comme condition sine qua non d'équité, pas comme option.",
+        "source": "PMC / NCBI",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13356023/",
+        "date_publication": "18/09/2026",
+        "pertinence": "haute",
+        "categorie": "biais_algorithmique"
+      },
+      {
+        "titre": "Health Equity & Access Weekly Roundup : modélisation des disparités OAB et accès aux thérapies — 25 sept. 2026",
+        "resume": "Le roundup du 25 septembre 2026 de l'AJMC présente une modélisation par random forest sur données NHANES liant le risque de vessie hyperactive à des seuils non linéaires d'IMC et de ratio revenu/pauvreté, révélant un gradient d'accès socio-économique. Il couvre aussi les écarts de dépenses Medicare sur le ruxolitinib (49,6M$) et les inégalités d'accès communautaire aux thérapies biologiques. Le modèle est proposé comme outil de dépistage à faible coût pour les milieux communautaires.",
+        "source": "AJMC",
+        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-september-25-2026",
+        "date_publication": "25/09/2026",
+        "pertinence": "moyenne",
+        "categorie": "equity_acces"
+      }
+    ]
   }
 }
