@@ -1,119 +1,110 @@
 {
-  "generated_at": "2026-10-01T12:51:37.443640Z",
-  "date_fr": "01/10/2026",
+  "generated_at": "2026-10-02T12:14:53.346993Z",
+  "date_fr": "02/10/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Alibaba lance AgentCore et sa stratégie 'Agentic Cloud' à l'Apsara Conference 2026",
-        "resume": "Lors de l'Apsara Conference (22-24 septembre 2026, Hangzhou), Alibaba Cloud a dévoilé AgentCore, une plateforme enterprise pour construire, déployer et gérer des agents IA tout au long de leur cycle de vie. L'Agent Context réduit la consommation de tokens jusqu'à 67% dans les scénarios intensifs en connaissances. L'ensemble forme un stack complet : AI Native Cloud, Agent Native Cloud et Context Engine, destiné aux équipes qui veulent des agents en production sans assembler leur propre infrastructure.",
-        "source": "Alibaba Cloud / Alizila",
-        "url": "https://www.alizila.com/alibaba-clouds-2026-apsara-conference-full-stack-ai-roadmap-along-with-global-market-expansion-plan/",
-        "date_publication": "22/09/2026",
-        "pertinence": "haute",
-        "categorie": "produit"
-      },
-      {
-        "titre": "Swarms v14 'Zena' : AutoAgentBuilder, MCP Manager unifié et GraphWorkflow accéléré",
-        "resume": "Swarms a publié sa version 14 (nom de code 'Zena') couvrant 68 commits entre juin et juillet 2026, avec l'AutoAgentBuilder qui génère un roster d'agents complet depuis une description en langage naturel. Le MCPManager unifié apporte OAuth et la découverte multi-serveurs, tandis que GraphWorkflow passe sur rustworkx natif pour de meilleures performances. Trois nouvelles architectures multi-agents, des outils sandboxés et du tracing distribué complètent la release.",
-        "source": "Swarms Blog",
-        "url": "https://www.swarms.ai/blog/swarms-v14-zena-release",
-        "date_publication": "19/09/2026",
+        "titre": "Dataiku lance Agent Management : inventaire et gouvernance des agents IA multi-plateformes",
+        "resume": "Dataiku a annoncé le 24 septembre 2026 son produit standalone Agent Management, capable de découvrir automatiquement tous les agents IA en cours d'exécution dans une entreprise, quelle que soit la plateforme (AWS Bedrock, Microsoft Copilot Studio, Salesforce Agentforce, Snowflake, Databricks, n8n, etc.). La solution évalue les performances business et techniques de chaque agent, et les classe par niveau de risque. La disponibilité générale est prévue pour octobre 2026.",
+        "source": "Technology Magazine / eWeek / BigDATAwire",
+        "url": "https://technologymagazine.com/news/how-dataiku-solves-enterprise-ai-agent-sprawl-and-risk",
+        "date_publication": "24/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Microsoft Agent Framework v1.19.0 : successeur officiel d'AutoGen en production stable",
-        "resume": "Microsoft a consolidé AutoGen et Semantic Kernel en un seul SDK nommé Microsoft Agent Framework, désormais en version stable 1.19.0 (Python) et 1.22.0 (.NET) publiées le 18 septembre 2026. AutoGen est officiellement passé en mode maintenance et les équipes sont encouragées à migrer via le guide officiel. Le framework supporte MCP, A2A, AG-UI, les workflows graphes typés, et s'intègre nativement à Azure AI Foundry.",
-        "source": "tech-insider.org / GitHub Microsoft AutoGen",
-        "url": "https://tech-insider.org/microsoft-agent-framework-setup-2026/",
-        "date_publication": "28/09/2026",
+        "titre": "Alibaba lance AgentCore, plateforme entreprise de déploiement et gouvernance d'agents IA",
+        "resume": "Lors de l'Apsara Conference 2026 (Hangzhou Cloud Summit, 22 septembre 2026), Alibaba Cloud a dévoilé AgentCore, une plateforme enterprise full-stack pour construire, exécuter et gouverner des agents IA tout au long de leur cycle de vie. AgentCore intègre sécurité, audit end-to-end, isolation des ressources, contrôle d'accès et un Agent Context capable de réduire la consommation de tokens jusqu'à 67% dans des scénarios intensifs. La plateforme revendique une augmentation de 99% du taux de complétion des tâches et une réduction du TCO de 70%.",
+        "source": "KuCoin News / Media Outreach / Forrester",
+        "url": "https://www.media-outreach.com/news/singapore/2026/09/22/489176/alibaba-unveils-roadmap-on-full-stack-ai-strategy-from-chips-cloud-infrastructure-models-to-agents/",
+        "date_publication": "22/09/2026",
         "pertinence": "haute",
-        "categorie": "framework"
+        "categorie": "outil"
       },
       {
-        "titre": "LangGraph v1.2.12 et CrewAI v1.15.22 : releases de mi-septembre 2026",
-        "resume": "LangGraph a publié la version 1.2.12 le 21 septembre 2026, couvrant des correctifs sur les schémas de réponse aux interruptions, les sous-graphes et le comportement des streams. CrewAI a sorti la v1.15.22 le 16 septembre 2026, apportant des outils de déploiement renforcés, du tracing, du routage de modèles et des événements de feedback humain. Ces deux frameworks restent les références open source pour les agents stateful et les équipes multi-agents.",
-        "source": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/artificial-intelligence/best-ai-agent-frameworks-in-2026-features-pros-cons-use-cases",
-        "date_publication": "27/09/2026",
+        "titre": "LangGraph 1.2.12 publié sur PyPI : timeouts par nœud et streaming typé en production",
+        "resume": "LangGraph a publié sa version 1.2.12 le 21 septembre 2026 sur PyPI, consolidant les fonctionnalités majeures de la branche 1.2 : timeouts par nœud, arrêt gracieux avec checkpoint reprenables, DeltaChannel pour réduire la charge de sérialisation sur les threads longs, et une API de streaming v3 avec projections typées par canal. Ces fonctionnalités sont conçues pour la fiabilité en production d'agents stateful.",
+        "source": "PyPI / LangChain Docs Changelog",
+        "url": "https://pypi.org/project/langgraph/",
+        "date_publication": "21/09/2026",
         "pertinence": "haute",
-        "categorie": "framework"
+        "categorie": "outil"
       },
       {
-        "titre": "Swarms Cloud : Auto Agent Builder en GA, batch runs jusqu'à 500 tâches et page-per-agent",
-        "resume": "Le 19 septembre 2026, Swarms a publié un changelog détaillé incluant l'Auto Agent Builder (GA), le multi-agent Chat, les batch runs jusqu'à 500 tâches, une page MCP hébergée, une bibliothèque Skills chiffrée et les déploiements S2A. L'Auto Agent Builder génère une équipe complète d'agents prêts à l'emploi depuis une seule ligne de description de tâche, exportable en JSON, Python, TypeScript ou Go. La fonctionnalité est accessible via l'interface Cloud et l'API.",
-        "source": "AI Agent Store / Swarms",
+        "titre": "AI Agents News – Semaine du 25 septembre 2026 : synthèse terrain des déploiements enterprise",
+        "resume": "Le site AI Agent Store publie une veille hebdomadaire datée du 25 septembre 2026 recensant les nouveautés terrain : lancement de Dataiku Agent Management, plateforme Alibaba AgentCore, intégration du Universal Commerce Protocol par Worldline pour agents de paiement, et lancement de six agents autonomes Noibu pour diagnostiquer et corriger des problèmes e-commerce en production. La veille couvre également les nouveaux outils de traçabilité et guardrails pour gouverner les agents à l'échelle enterprise.",
+        "source": "AI Agent Store",
         "url": "https://aiagentstore.ai/ai-agent-news/this-week",
         "date_publication": "25/09/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "retour_experience"
       },
       {
-        "titre": "AgentSwarms self-hosted vs n8n : comparatif terrain et tarifs septembre 2026",
-        "resume": "Un article du 26 septembre 2026 compare la plateforme self-hosted AgentSwarms à n8n et d'autres orchestrateurs, avec les prix officiels de n8n pour septembre 2026 (Starter 20€/mois, Pro 50€/mois, Business 667€/mois). Il détaille les cas d'usage adaptés à chaque outil : n8n privilégié pour l'automatisation SaaS et la largeur d'intégrations (400+), AgentSwarms pour les agents travaillant sur des données analytiques gouvernées et des assets lakehouse. Une analyse concrète pour les équipes en phase de choix d'infrastructure.",
-        "source": "AgentSwarms.fyi",
-        "url": "https://agentswarms.fyi/blog/agentswarms-self-hosted-platform-2026",
-        "date_publication": "26/09/2026",
-        "pertinence": "moyenne",
+        "titre": "8 leçons de gouvernance des agents IA issues de The AI Conference (San Francisco, 30 sept – 1er oct 2026)",
+        "resume": "Un retour d'expérience publié le 1er octobre 2026 par Elevate Consult synthétise les enseignements pratiques de The AI Conference : les ingénieurs ont décrit des cas concrets de reward hacking, d'injection de prompt via email, et d'agents passant tous les contrôles dashboard tout en produisant de mauvais résultats. Huit contrôles concrets sont mappés aux keynotes (red teaming comportemental, journaux d'actions, propriétaire nommé par agent, limites d'autorisation déterministes), avec ancrage dans NIST AI RMF et ISO 42001.",
+        "source": "Elevate Consult",
+        "url": "https://elevateconsult.com/insights/agentic-ai-governance-lessons-ai-conference/",
+        "date_publication": "01/10/2026",
+        "pertinence": "haute",
         "categorie": "retour_experience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "L'AI Office de l'UE envoie ses premières RFI à plus de 30 entreprises IA : début de l'enforcement réel",
-        "resume": "Le 29 août 2026, l'AI Office a émis ses premières demandes formelles d'information (RFI) à des fournisseurs de modèles GPAI, confirmées publiquement le 1er septembre 2026. Deux axes : sécurité/sûreté pour les modèles les plus avancés, et copyright/transparence pour plus de 30 entreprises n'ayant pas publié de résumés détaillés de leurs données d'entraînement. Il s'agit du premier exercice concret des pouvoirs d'enforcement de l'AI Act depuis leur activation le 2 août 2026.",
-        "source": "Allegiance Law / Matheson",
-        "url": "https://allegiance.law/news/eu-ai-act-enforcement-has-started-commission-sends-first-information-requests-to-ai-companies/",
-        "date_publication": "18/09/2026",
+        "titre": "AI Regulation News octobre 2026 : après le 2 août, enforcement GPAI et bataille de préemption US",
+        "resume": "Analyse publiée le 2 octobre 2026 par Cubbbix couvrant le paysage réglementaire mondial post-deadline du 2 août 2026 de l'AI Act : les équipes juridiques d'entreprise font face à des obligations simultanées en Europe, Amérique du Nord, Asie-Pacifique, Amérique latine et Moyen-Orient. L'AI Office européen dispose désormais de pouvoirs coercitifs complets sur les fournisseurs de modèles GPAI, tandis que le débat fédéral américain sur la préemption des lois étatiques (notamment SB 1047) s'intensifie.",
+        "source": "Cubbbix Tools",
+        "url": "https://cubbbix.com/blog/ai-regulation-october-2026-global-update",
+        "date_publication": "02/10/2026",
         "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "réglementation"
       },
       {
-        "titre": "CDT Europe AI Bulletin septembre 2026 : enforcement GPAI et Code of Practice signé par 190 organisations",
-        "resume": "Le bulletin de septembre 2026 du Center for Democracy & Technology Europe confirme que l'AI Office a lancé une première vague de RFI sur la sécurité et les obligations copyright dès août 2026. Les obligations de transparence pour les outils IA grand public sont applicables depuis le 2 août. Un code de pratique détaillant ces exigences a été signé par 190 organisations dont les principaux fournisseurs de modèles.",
-        "source": "Center for Democracy and Technology Europe",
-        "url": "https://cdt.org/insights/cdt-europes-ai-bulletin-september-2026/",
-        "date_publication": "24/09/2026",
+        "titre": "ISO 42001 expliqué par A-LIGN : le standard de management IA devenu prérequis commercial",
+        "resume": "Article publié le 30 septembre 2026 par le cabinet A-LIGN décrivant ISO/IEC 42001 comme le premier standard international certifiable pour les systèmes de management de l'IA. Il structure la gouvernance autour de la politique IA, de l'évaluation des risques et impacts, et de 38 contrôles applicables. Selon une enquête Gartner 2026, 83% des équipes achats Fortune 500 prévoient d'exiger l'alignement ISO 42001 de leurs fournisseurs technologiques d'ici 2027.",
+        "source": "A-LIGN",
+        "url": "https://www.a-lign.com/articles/understanding-iso-42001",
+        "date_publication": "30/09/2026",
         "pertinence": "haute",
-        "categorie": "regulation"
-      },
-      {
-        "titre": "L'EU AI Act n'est plus théorique : analyse juridique de l'enforcement actif (septembre 2026)",
-        "resume": "Publié le 23 septembre 2026 sur le blog Volkov Law, cet article rappelle que les pratiques interdites sont exécutoires depuis plus d'un an, que les obligations GPAI courent depuis août 2025 et que la Commission a déjà ouvert des investigations. Il alerte contre la tentation de traiter l'AI Act comme différé sous prétexte que certaines obligations haute-risque ont été repoussées par le Digital Omnibus. Une lecture indispensable pour les juristes et DPO d'entreprises exposées au marché européen.",
-        "source": "Volkov Law Blog",
-        "url": "https://blog.volkovlaw.com/2026/09/the-eu-ai-act-enforcement-is-no-longer-theoretical-part-i-of-ii/",
-        "date_publication": "23/09/2026",
-        "pertinence": "haute",
-        "categorie": "analyse_juridique"
+        "categorie": "standard"
       }
     ],
     "clinique": [
       {
-        "titre": "Health Equity Brief ASIDE — 21 septembre 2026 : dépistage colorectal chez les sans-abri et nouvelles études",
-        "resume": "Le brief du 21 septembre 2026 signale deux nouveaux essais recrutants : un dépistage colorectal chez les personnes sans domicile fixe (George Washington University, DC) et une étude sur le syndrome post-USI et les déterminants sociaux de la santé (Chili). Huit nouveaux appels à financement sont ouverts, dont le programme PRIMED-AI sur la diversité des données de santé (NIH, clôture 19 oct. 2026). 120 nouveaux articles ont été indexés sur la semaine.",
+        "titre": "ARPA-H lance SURPASS et trois projets complémentaires pour moderniser les essais cliniques (30 sept 2026)",
+        "resume": "Le 30 septembre 2026, HHS/ARPA-H a lancé le programme SURPASS (Simulation-augmented, Real-time Platform Adaptive Seamless Trials) avec plus de 100 M$ engagés. Le programme vise à réduire la durée des essais de plus d'une décennie à moins de quatre ans grâce à des jumeaux numériques, des modèles prédictifs et une couche d'opérations agentique. Le projet CINCH, doté de 8,95 M$, cible spécifiquement les disparités d'accès à l'expertise oncologique pour les patients ruraux et des communautés sous-desservies.",
+        "source": "BioSpace / Bank InfoSecurity / ExecutiveGov / AllSci",
+        "url": "https://www.biospace.com/drug-development/us-government-launches-ai-driven-programs-to-overhaul-clinical-trials",
+        "date_publication": "01/10/2026",
+        "pertinence": "haute",
+        "categorie": "politique_inclusivite"
+      },
+      {
+        "titre": "AHA Scientific Sessions : le manque de diversité dans les essais cliniques coûte des milliards et fragilise la recherche",
+        "resume": "Lors des sessions scientifiques de l'American Heart Association à Philadelphie (reportées le 30 septembre 2026), des leaders de santé ont dénoncé le manque structurel de diversité dans les essais : la majorité des participants sont encore des hommes blancs, et les femmes, enfants, seniors, et minorités ethniques présentent différemment leurs maladies. Nakela Cook (PCORI) a qualifié la recherche sans diversité de 'fondamentalement défaillante', et Shelley Zieroth a rappelé que les femmes sont sous-référencées, sous-prescrites et sous-traitées.",
+        "source": "Managed Healthcare Executive / Medical Economics",
+        "url": "https://managedhealthcareexecutive.com/view/the-lack-of-diversity-in-clinical-trials-hurts-research-and-costs-billions-aha-scientific-sessions",
+        "date_publication": "30/09/2026",
+        "pertinence": "haute",
+        "categorie": "equite_sante"
+      },
+      {
+        "titre": "Health Equity Brief – 21 septembre 2026 : nouveaux appels à financement NIH et essais en recrutement",
+        "resume": "La newsletter hebdomadaire de l'ASIDE (American Society for Inclusion, Diversity, and Equity in Healthcare) publiée le 21 septembre 2026 recense 8 nouveaux appels à financement, 2 nouveaux essais en recrutement actif, et 120 articles indexés sur l'équité en santé. Parmi les appels NIH ouverts : PRIMED-AI pour l'intégration de l'imagerie et données multimodales en médecine de précision (clôture 19 octobre 2026), et un programme de réponse aux crises de santé publique CDC.",
         "source": "ASIDE Healthcare",
         "url": "https://www.asidehealthcare.org/health-equity-brief-2026-09-21/",
         "date_publication": "21/09/2026",
-        "pertinence": "moyenne",
-        "categorie": "recrutement"
-      },
-      {
-        "titre": "Transparence embarquée dans l'IA : prérequis pour l'équité et la représentation dans les essais cliniques (PMC)",
-        "resume": "Cette revue publiée sur PMC souligne que la crise de représentation dans les essais cliniques persiste malgré des décennies d'efforts : les minorités raciales et ethniques, les femmes, les personnes âgées et les populations défavorisées restent structurellement sous-représentées. Elle documente comment les algorithmes IA opaques déployés pour identifier des patients éligibles ou stratifier les risques peuvent créer une 'distorsion démographique systématique'. La transparence algorithmique est présentée comme condition sine qua non d'équité, pas comme option.",
-        "source": "PMC / NCBI",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13356023/",
-        "date_publication": "18/09/2026",
         "pertinence": "haute",
-        "categorie": "biais_algorithmique"
+        "categorie": "financement_recrutement"
       },
       {
-        "titre": "Health Equity & Access Weekly Roundup : modélisation des disparités OAB et accès aux thérapies — 25 sept. 2026",
-        "resume": "Le roundup du 25 septembre 2026 de l'AJMC présente une modélisation par random forest sur données NHANES liant le risque de vessie hyperactive à des seuils non linéaires d'IMC et de ratio revenu/pauvreté, révélant un gradient d'accès socio-économique. Il couvre aussi les écarts de dépenses Medicare sur le ruxolitinib (49,6M$) et les inégalités d'accès communautaire aux thérapies biologiques. Le modèle est proposé comme outil de dépistage à faible coût pour les milieux communautaires.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/health-equity-access-weekly-roundup-september-25-2026",
-        "date_publication": "25/09/2026",
+        "titre": "Marché nord-américain des essais cliniques 2026-2034 : la diversité des populations reste une priorité industrielle",
+        "resume": "Un rapport GlobeNewswire publié le 30 septembre 2026 sur le marché des essais cliniques en Amérique du Nord identifie l'amélioration de la diversité des populations dans les essais et l'accès équitable comme une priorité de l'industrie, aux côtés de l'adoption de l'IA (CAGR estimé à 6%). Le rapport couvre la période 2026-2034 et intègre les tendances réglementaires, les immunothérapies et la médecine de précision.",
+        "source": "GlobeNewswire",
+        "url": "https://globenewswire.com/news-release/2026/09/30/3371610/28124/en/north-america-clinical-trials-market-report-2026-2034-size-share-trends-and-forecast-by-phase-indication-study-design-country-and-company-ai-adoption-fuels-6-cagr.html",
+        "date_publication": "30/09/2026",
         "pertinence": "moyenne",
-        "categorie": "equity_acces"
+        "categorie": "marche_tendances"
       }
     ]
   }
