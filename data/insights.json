@@ -1,49 +1,40 @@
 {
-  "generated_at": "2026-10-06T13:08:08.844967Z",
-  "date_fr": "06/10/2026",
+  "generated_at": "2026-10-07T13:03:17.164484Z",
+  "date_fr": "07/10/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "CrewAI 1.15.23 : release de production publiée le 28 septembre 2026",
-        "resume": "CrewAI a publié sa version stable 1.15.23 sur PyPI le 28 septembre 2026, poursuivant un rythme de releases quasi-quotidien depuis fin septembre. La version intègre des correctifs de sécurité, des améliorations de la gestion des flows et du telemetry, et est certifiée prête pour les déploiements enterprise avec support de la scalabilité multi-agents. Le dépôt GitHub actif (github.com/crewAIInc/crewAI) confirme la maturité production du framework.",
-        "source": "PyPI / CrewAI",
-        "url": "https://pypi.org/project/crewai/",
-        "date_publication": "28/09/2026",
+        "titre": "Dataiku lance Agent Management : inventaire cross-plateforme des agents IA en entreprise",
+        "resume": "Dataiku a annoncé le 24 septembre 2026 son produit standalone Agent Management, qui découvre automatiquement chaque agent IA déployé dans l'entreprise, quelle que soit la plateforme d'origine (AWS, Azure, Salesforce, Snowflake, etc.), mesure leurs performances métier et techniques, et classe les agents par niveau de risque. Le produit sera en disponibilité générale en octobre 2026. Il répond au problème croissant du 'sprawl' d'agents, avec une tarification à l'instance annuelle et un monitoring à l'agent.",
+        "source": "BigDATAwire / Dataiku",
+        "url": "https://www.hpcwire.com/bigdatawire/this-just-in/dataiku-unveils-agent-management-to-track-enterprise-ai-agents-across-platforms/",
+        "date_publication": "24/09/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Tutoriel step-by-step : Construire un agent IA en production avec CrewAI Python en 13 étapes (2026)",
-        "resume": "Tech-Insider publie le 4 octobre 2026 un tutoriel complet couvrant la mise en production d'agents CrewAI, incluant la gestion mémoire (Mem0 + Qdrant), les patterns de déploiement REST, la sécurité (sandbox Docker-in-Docker), et les benchmarks de coût par run ($0.06–$0.20 selon le modèle). Le guide documente notamment le URLReadTool ajouté en v1.15.14 et les flows event-driven introduits en v1.15.12.",
-        "source": "Tech-Insider.org",
-        "url": "https://tech-insider.org/crewai-tutorial-multi-agent-ai-python-2026/",
-        "date_publication": "04/10/2026",
-        "pertinence": "haute",
-        "categorie": "tutoriel"
-      },
-      {
-        "titre": "Operationalizing ISO 42001: An Engineering Leader's Analysis of Enterprise AI Governance",
-        "resume": "Article publié sur DEV Community le 6 octobre 2026 par un engineering leader, décrivant comment intégrer ISO 42001 dans les pipelines CI/CD : définition de guardrails en IaC, collecte automatisée de télémétrie d'audit, et traitement des modèles tiers comme des dépendances logicielles avec évaluation du risque vendeur. Retour d'expérience concret sur la mise en œuvre opérationnelle.",
-        "source": "DEV Community",
-        "url": "https://dev.to/cleopatrathegreat/operationalizing-iso-42001-an-engineering-leaders-analysis-of-enterprise-ai-governance-2bo",
+        "titre": "GitLab 19.4 & Microsoft Agent Framework 1.19.0 : gouvernance et sécurité des agents en production",
+        "resume": "GitLab 19.4 a étendu l'automatisation agentique de GitLab Duo sur toute la plateforme en ajoutant des contrôles de gouvernance sur les modèles utilisables par les agents et une visibilité détaillée de la consommation de crédits GitLab par workflow. En parallèle, Microsoft Agent Framework 1.19.0 pour Python restreint désormais la portée des sessions MCP par invocation, authentifie les requêtes selon l'identité et l'origine, et vérifie les archives de skills, renforçant la sécurité des appels d'outils externes. Ces deux mises à jour donnent aux équipes des leviers concrets pour auditabilité et maîtrise des coûts agents.",
+        "source": "AI Agent Store",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
         "date_publication": "06/10/2026",
         "pertinence": "haute",
-        "categorie": "tutoriel"
+        "categorie": "outil"
       },
       {
-        "titre": "n8n Enterprise AI Agent Development Tools 2026 : Re-evaluation technique",
-        "resume": "N8n publie une évaluation technique comparative des outils de développement d'agents IA pour l'entreprise, confirmant que MCP Host/Client est désormais une fonctionnalité banalisée sur toutes les plateformes majeures. Le rapport note que 75% des clients n8n utilisent maintenant activement les fonctionnalités IA, et documente l'adoption enterprise concrète (ex: Vodafone UK, £2,2M d'économies opérationnelles sur l'automatisation threat intelligence).",
-        "source": "n8n.io",
-        "url": "https://n8n.io/reports/2026-ai-agent-development-tools/",
-        "date_publication": "",
+        "titre": "GitLab Duo Agent Platform : guide praticien sur les agents, flows, gouvernance et coûts",
+        "resume": "Un guide praticien publié le 30 septembre 2026 détaille l'architecture de GitLab Duo Agent Platform (GA depuis GitLab 18.8), couvrant le Flow Registry qui a réduit de 45% le code nécessaire par flow agentique, la gouvernance des outils (Read/Write/Delete avec politique Always Allow/Ask/Deny depuis GitLab 19.1), et la facturation GitLab Credits par agent. Il documente la progression de chaque version (19.2 custom flows GA, 19.4 restricted visibility GA) et donne des conseils concrets pour migrer depuis la version beta vers la production.",
+        "source": "releaseteam.com",
+        "url": "https://www.releaseteam.com/gitlab-duo-agent-platform-guide/",
+        "date_publication": "30/09/2026",
         "pertinence": "haute",
-        "categorie": "benchmark"
+        "categorie": "tutoriel"
       }
     ],
     "gouvernance": [
       {
-        "titre": "AI Regulation News October 2026 : The August Reckoning, US Preemption Battle, and 15 Countries Update",
-        "resume": "Synthèse publiée le 2 octobre 2026 sur Cubbbix couvrant l'activation des obligations GPAI de l'EU AI Act au 2 août 2026, avec les mises à jour simultanées dans 15 pays (UE, US, UK, Japon, Chine, Inde, Brésil, EAU, Singapour). Les gouvernements sont passés de lignes directrices volontaires à des pénalités statutaires effectives, avec des amendes GPAI pouvant atteindre €15M selon l'Article 53 & 55.",
+        "titre": "AI Regulation News October 2026 : bilan EU AI Act, bataille de préemption US et 15 pays",
+        "resume": "Publié le 2 octobre 2026, ce rapport couvre le point d'inflexion mondial de la gouvernance IA : l'entrée en vigueur des pouvoirs de sanction de l'AI Office européen le 2 août 2026 sur les modèles GPAI, les exigences de transparence Article 50 actives depuis cette date, et les mises à jour réglementaires simultanées en Amérique du Nord, Asie-Pacifique et Moyen-Orient. Les entreprises internationales doivent désormais naviguer entre audits algorithmiques, watermarking des médias synthétiques et localisation souveraine du compute selon les juridictions.",
         "source": "Cubbbix Tools",
         "url": "https://cubbbix.com/blog/ai-regulation-october-2026-global-update",
         "date_publication": "02/10/2026",
@@ -51,78 +42,42 @@
         "categorie": "réglementation"
       },
       {
-        "titre": "Governing AI: Corporate Oversight and Shareholder Engagement (Harvard Law)",
-        "resume": "Article publié le 6 octobre 2026 sur le blog du Harvard Law School Program on Corporate Governance, analysant comment l'IA governance est devenue un enjeu matériel pour les investisseurs institutionnels. La saison proxy 2026 montre une expansion des divulgations autour de la supervision IA dans les grandes tech, mais les actionnaires estiment que la seule transparence ne suffit pas à adresser les risques.",
-        "source": "Harvard Law School Forum on Corporate Governance",
-        "url": "https://corpgov.law.harvard.edu/2026/10/06/governing-ai-corporate-oversight-and-shareholder-engagement",
-        "date_publication": "06/10/2026",
-        "pertinence": "haute",
-        "categorie": "gouvernance"
-      },
-      {
-        "titre": "AI Governance for Businesses : Connecticut CART Act et patchwork d'État US effectif octobre 2026",
-        "resume": "Alerte client publiée le 1er octobre 2026 par Whiteford Law documentant l'entrée en vigueur le 1er octobre 2026 du Connecticut Artificial Intelligence Responsibility and Transparency Act (CART Act), s'ajoutant au TRAIGA texan (actif depuis janvier 2026) et à la Local Law 144 de NYC. Le patchwork réglementaire US est maintenant actif, rendant la stratégie 'wait and see' intenable pour les entreprises.",
-        "source": "Whiteford Law",
-        "url": "https://www.whitefordlaw.com/news-events/client-alert-ai-governance-for-businesses",
+        "titre": "ISO 42001 redéfinit la gouvernance IA en entreprise : ce que dit la veille d'octobre 2026",
+        "resume": "Selon une enquête Gartner 2026 citée dans cet article, 83% des équipes achats Fortune 500 prévoient d'exiger l'alignement ISO 42001 de leurs fournisseurs technologiques d'ici 2027, faisant de ce standard volontaire un prérequis commercial de facto. ISO 42001 impose une politique IA validée par le top management, des rôles et responsabilités documentés, et un Statement of Applicability comme première pièce examinée lors des audits. Les entreprises qui ont commencé leur AIMS en 2024 finalisent maintenant leurs audits.",
+        "source": "AI Governance Today",
+        "url": "https://www.aigovernancetoday.com/news/iso-42001-redefining-ai-governance-2026",
         "date_publication": "01/10/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "standard"
       },
       {
-        "titre": "AI Regulation & Policy Monthly Report – October 1, 2026",
-        "resume": "Rapport mensuel publié le 1er octobre 2026 par Origin Brief, quantifiant le 'AI governance gap' : 74% d'adoption IA vs 47% de contrôles de gouvernance, et 86% des organisations ont subi au moins un incident IA en un an. L'amende GDPR record de €825M contre Uber pour décisions automatisées RH sans supervision humaine établit un précédent direct pour l'EU AI Act.",
-        "source": "Origin Brief",
-        "url": "https://www.originbrief.app/en/reports/ai-regulation-policy/2026-10-01/monthly",
-        "date_publication": "01/10/2026",
-        "pertinence": "haute",
-        "categorie": "conformité"
-      },
-      {
-        "titre": "Security and AI News – Week of 28 September 2026 : Exabeam Agentic SOC & OpenAI GPT-6.1 retiré",
-        "resume": "Roundup hebdomadaire publié le 5 octobre 2026 par Enterprise Times : OpenAI a retiré la release de GPT-6.1 pour des raisons de sécurité, et Exabeam lance de nouvelles capacités pour l'Agentic SOC combinant investigation IA, exécution et gouvernance dans des environnements cloud et on-premises. Reflète la montée des exigences de gouvernance opérationnelle sur les agents IA.",
-        "source": "Enterprise Times",
-        "url": "https://enterprisetimes.co.uk/2026/10/05/security-and-ai-news-from-the-week-beginning-28-september-2026",
-        "date_publication": "05/10/2026",
-        "pertinence": "moyenne",
-        "categorie": "actualité"
-      },
-      {
-        "titre": "The AI Governance Gap : Why ISO 42001 and NIST AI RMF Don't Prove Your AI Works (StrikeGraph)",
-        "resume": "Livre blanc publié vers le 30 septembre 2026 par StrikeGraph, citant l'IBM Cost of a Data Breach Report 2026 : 68% des organisations n'ont pas de politique de gouvernance IA approuvée, et parmi celles qui en ont une, 47% l'ont contournée pour des déploiements urgents et 36% ont déjà subi un incident IA à impact matériel. Identifie les 10 risques IA enterprise avec la plus haute perte attendue.",
+        "titre": "The AI Governance Gap : pourquoi ISO 42001 et NIST AI RMF ne suffisent pas à prouver que votre IA fonctionne",
+        "resume": "Publié le 30 septembre 2026, cet article de StrikeGraph analyse les lacunes structurelles des deux principaux frameworks de gouvernance IA : ni ISO 42001 ni NIST AI RMF n'exigent d'évaluation technique du modèle lui-même. En 2026, la régulation bancaire américaine a également reculé en excluant l'IA générative et agentique de son périmètre de model risk management. L'article documente 19 mois pendant lesquels les certifications IA ont opéré sans standard harmonisé, posant des questions sur la crédibilité des certifications existantes.",
         "source": "StrikeGraph",
         "url": "https://www.strikegraph.com/white-paper/ai-governance-gap",
         "date_publication": "30/09/2026",
         "pertinence": "haute",
-        "categorie": "étude"
+        "categorie": "analyse"
       }
     ],
     "clinique": [
       {
-        "titre": "FDA Diversity Action Plan Compliance 2026 : état des lieux réglementaire (Sakara Digital)",
-        "resume": "Article publié le 3 octobre 2026 par Sakara Digital dressant un bilan réglementaire précis : le statut du Diversity Action Plan FDA est toujours dans le flou juridique en août 2026 — la loi (FDORA) est en vigueur, mais la guidance finale, dont le délai statutaire était juin 2025, n'a toujours pas été publiée, laissant les sponsors dans l'incertitude sur les critères d'évaluation de leurs plans.",
+        "titre": "Essais cliniques : le défi du recrutement des patients non diagnostiqués dans les populations sous-représentées",
+        "resume": "Article du 1er octobre 2026 : environ 25 millions d'Américains vivent avec une maladie rare non diagnostiquée, mais l'infrastructure de recrutement des essais cliniques suppose que les patients ont déjà un diagnostic confirmé. Ce décalage structurel constitue la principale cause de sous-représentation opérationnelle de ces populations dans la recherche, bien avant que les sites n'ouvrent leurs registres de screening. L'auteur documente les barrières systémiques et propose des pistes concrètes pour adapter les critères d'inclusion.",
+        "source": "Clinical Trial Vanguard",
+        "url": "https://clinicaltrialvanguard.com/news/clinical-trials-struggle-to-recruit-undiagnosed-patients-without-diagnostic-coverage",
+        "date_publication": "01/10/2026",
+        "pertinence": "haute",
+        "categorie": "recrutement"
+      },
+      {
+        "titre": "Diversity Action Plans FDA 2026 : où en est l'obligation légale et quels systèmes de données mettre en place",
+        "resume": "Publié le 3 octobre 2026, cet article de Sakara Digital fait le point sur l'état réel du DAP en 2026 : la loi FDORA crée bien une obligation de plans de diversité, mais le déclencheur de soumission obligatoire (180 jours après publication de la guidance finale) n'a toujours pas eu lieu, la FDA n'ayant pas publié de guidance finale à ce jour. L'article détaille les systèmes de données, de monitoring de l'enrôlement et de rétention que les sponsors doivent mettre en place dès maintenant pour être prêts, en se concentrant sur les outils concrets (EDC, dashboards démographiques temps réel, plateformes de site selection).",
         "source": "Sakara Digital",
         "url": "https://sakaradigital.com/blog/clinical-trial-diversity-action-plans-data-systems/",
         "date_publication": "03/10/2026",
         "pertinence": "haute",
         "categorie": "réglementation"
-      },
-      {
-        "titre": "Advancing Equity in Healthcare AI: Mitigating Bias and Reducing Opacity (NHSJS)",
-        "resume": "Revue publiée en septembre 2026 dans le NHS Journal of Student Science, analysant le lien entre biais algorithmique et opacité dans les systèmes IA de santé. Documente notamment comment un algorithme de stratification du risque a systématiquement assigné des scores de risque inférieurs aux patients Noirs (26% plus de maladies chroniques à score équivalent) et propose des stratégies de mitigation incluant l'équilibrage des datasets et la transparence explicative.",
-        "source": "NHS Journal of Student Science",
-        "url": "https://nhsjs.com/2026/advancing-equity-in-healthcare-ai-mitigating-bias-and-reducing-opacity/",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "étude"
-      },
-      {
-        "titre": "Health Equity & Access Weekly Roundup : October 2, 2026 (AJMC)",
-        "resume": "Roundup hebdomadaire publié le 2 octobre 2026 par AJMC, couvrant notamment une analyse des modèles de soins basés sur la valeur en oncologie présentée au Community Oncology Alliance Payer Exchange Summit. Les experts actuariels examinent si ces modèles mesurent réellement la valeur clinique ou uniquement leur propre méthodologie, avec des implications pour l'équité en santé des populations minoritaires.",
-        "source": "American Journal of Managed Care (AJMC)",
-        "url": "https://ajmc.com/view/health-equity-access-weekly-roundup-october-2-2026",
-        "date_publication": "02/10/2026",
-        "pertinence": "moyenne",
-        "categorie": "actualité"
       }
     ]
   }
