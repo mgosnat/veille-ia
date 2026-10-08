@@ -1,40 +1,31 @@
 {
-  "generated_at": "2026-10-07T13:03:17.164484Z",
-  "date_fr": "07/10/2026",
+  "generated_at": "2026-10-08T13:09:42.378127Z",
+  "date_fr": "08/10/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Dataiku lance Agent Management : inventaire cross-plateforme des agents IA en entreprise",
-        "resume": "Dataiku a annoncé le 24 septembre 2026 son produit standalone Agent Management, qui découvre automatiquement chaque agent IA déployé dans l'entreprise, quelle que soit la plateforme d'origine (AWS, Azure, Salesforce, Snowflake, etc.), mesure leurs performances métier et techniques, et classe les agents par niveau de risque. Le produit sera en disponibilité générale en octobre 2026. Il répond au problème croissant du 'sprawl' d'agents, avec une tarification à l'instance annuelle et un monitoring à l'agent.",
-        "source": "BigDATAwire / Dataiku",
-        "url": "https://www.hpcwire.com/bigdatawire/this-just-in/dataiku-unveils-agent-management-to-track-enterprise-ai-agents-across-platforms/",
-        "date_publication": "24/09/2026",
+        "titre": "Microsoft Agent Framework python-1.20.0 : nouvelles fonctionnalités de hosting, computer-use et connecteurs vectoriels",
+        "resume": "Microsoft a publié le 2 octobre 2026 la version python-1.20.0 de son Agent Framework (successeur unifié d'AutoGen et Semantic Kernel). Cette release majeure introduit le hosting natif de workflows sur Foundry Responses, le support du computer-use natif, de nouveaux connecteurs vectoriels DuckDB et SQL Server, ainsi que des mécanismes renforcés de gestion des flux de réponse et d'isolation des sessions. Le framework MIT open-source supporte Python et .NET et est activement utilisé en production.",
+        "source": "GitHub – microsoft/agent-framework",
+        "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.20.0",
+        "date_publication": "02/10/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "GitLab 19.4 & Microsoft Agent Framework 1.19.0 : gouvernance et sécurité des agents en production",
-        "resume": "GitLab 19.4 a étendu l'automatisation agentique de GitLab Duo sur toute la plateforme en ajoutant des contrôles de gouvernance sur les modèles utilisables par les agents et une visibilité détaillée de la consommation de crédits GitLab par workflow. En parallèle, Microsoft Agent Framework 1.19.0 pour Python restreint désormais la portée des sessions MCP par invocation, authentifie les requêtes selon l'identité et l'origine, et vérifie les archives de skills, renforçant la sécurité des appels d'outils externes. Ces deux mises à jour donnent aux équipes des leviers concrets pour auditabilité et maîtrise des coûts agents.",
-        "source": "AI Agent Store",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "06/10/2026",
+        "titre": "Dify : plateforme de workflows agentiques et pipelines RAG mise à jour (oct. 2026)",
+        "resume": "Dify (github.com/langgenius/dify) a été mis à jour le 7 octobre 2026. La plateforme open-source permet de construire des workflows agentiques et des pipelines RAG avec support multi-modèles (OpenAI, Anthropic, Deepseek), intégration MCP servers et déploiement cloud, VPC ou self-hosted. Les agents autonomes peuvent exécuter des commandes, installer des logiciels et gérer des fichiers pour accomplir des tâches ouvertes, sans reconstruire le stack du prototype à la production.",
+        "source": "GitHub – langgenius/dify",
+        "url": "https://github.com/langgenius/dify",
+        "date_publication": "07/10/2026",
         "pertinence": "haute",
         "categorie": "outil"
-      },
-      {
-        "titre": "GitLab Duo Agent Platform : guide praticien sur les agents, flows, gouvernance et coûts",
-        "resume": "Un guide praticien publié le 30 septembre 2026 détaille l'architecture de GitLab Duo Agent Platform (GA depuis GitLab 18.8), couvrant le Flow Registry qui a réduit de 45% le code nécessaire par flow agentique, la gouvernance des outils (Read/Write/Delete avec politique Always Allow/Ask/Deny depuis GitLab 19.1), et la facturation GitLab Credits par agent. Il documente la progression de chaque version (19.2 custom flows GA, 19.4 restricted visibility GA) et donne des conseils concrets pour migrer depuis la version beta vers la production.",
-        "source": "releaseteam.com",
-        "url": "https://www.releaseteam.com/gitlab-duo-agent-platform-guide/",
-        "date_publication": "30/09/2026",
-        "pertinence": "haute",
-        "categorie": "tutoriel"
       }
     ],
     "gouvernance": [
       {
-        "titre": "AI Regulation News October 2026 : bilan EU AI Act, bataille de préemption US et 15 pays",
-        "resume": "Publié le 2 octobre 2026, ce rapport couvre le point d'inflexion mondial de la gouvernance IA : l'entrée en vigueur des pouvoirs de sanction de l'AI Office européen le 2 août 2026 sur les modèles GPAI, les exigences de transparence Article 50 actives depuis cette date, et les mises à jour réglementaires simultanées en Amérique du Nord, Asie-Pacifique et Moyen-Orient. Les entreprises internationales doivent désormais naviguer entre audits algorithmiques, watermarking des médias synthétiques et localisation souveraine du compute selon les juridictions.",
+        "titre": "AI Regulation News October 2026 : bilan mondial – EU AI Act GPAI, bataille de préemption US, 15 pays",
+        "resume": "Publié le 2 octobre 2026, cet article de Cubbbix analyse l'état de la gouvernance IA mondiale en octobre 2026 : suite à l'entrée en vigueur des dispositions GPAI de l'EU AI Act le 2 août 2026, les équipes juridiques d'entreprise doivent simultanément naviguer entre les mises à jour réglementaires en Amérique du Nord, Europe, Asie-Pacifique, Amérique Latine et Moyen-Orient. Les gouvernements sont passés de lignes directrices éthiques volontaires à des sanctions pénales statutaires, avec des exigences divergentes sur l'audit algorithmique, le watermarking des médias synthétiques et la localisation souveraine des modèles.",
         "source": "Cubbbix Tools",
         "url": "https://cubbbix.com/blog/ai-regulation-october-2026-global-update",
         "date_publication": "02/10/2026",
@@ -42,37 +33,37 @@
         "categorie": "réglementation"
       },
       {
-        "titre": "ISO 42001 redéfinit la gouvernance IA en entreprise : ce que dit la veille d'octobre 2026",
-        "resume": "Selon une enquête Gartner 2026 citée dans cet article, 83% des équipes achats Fortune 500 prévoient d'exiger l'alignement ISO 42001 de leurs fournisseurs technologiques d'ici 2027, faisant de ce standard volontaire un prérequis commercial de facto. ISO 42001 impose une politique IA validée par le top management, des rôles et responsabilités documentés, et un Statement of Applicability comme première pièce examinée lors des audits. Les entreprises qui ont commencé leur AIMS en 2024 finalisent maintenant leurs audits.",
-        "source": "AI Governance Today",
-        "url": "https://www.aigovernancetoday.com/news/iso-42001-redefining-ai-governance-2026",
-        "date_publication": "01/10/2026",
+        "titre": "Aventra Group obtient la certification ISO/IEC 42001 – premier acteur en Malaisie, top 400 mondial",
+        "resume": "Le 6 octobre 2026, Aventra Group (Kuala Lumpur) a annoncé l'obtention de la certification ISO/IEC 42001 pour ses systèmes de management de l'IA, devenant l'un des moins de 400 organisations au monde à détenir cette certification. L'entreprise a unifié ses frameworks ISO 27001 et SOC 2 Type II au sein d'un socle de gouvernance IA commun, permettant à ses clients entreprises de court-circuiter les cycles d'évaluation des risques fournisseurs de plusieurs mois et d'accéder directement aux marchés internationaux réglementés.",
+        "source": "Media OutReach Newswire / Bastille Post",
+        "url": "https://www.bastillepost.com/global/article/6224012-among-the-giants-aventra-group-unveils-pioneering-iso-42001-ai-framework-to-smash-enterprise-procurement-bottlenecks",
+        "date_publication": "06/10/2026",
         "pertinence": "haute",
-        "categorie": "standard"
+        "categorie": "certification"
       },
       {
-        "titre": "The AI Governance Gap : pourquoi ISO 42001 et NIST AI RMF ne suffisent pas à prouver que votre IA fonctionne",
-        "resume": "Publié le 30 septembre 2026, cet article de StrikeGraph analyse les lacunes structurelles des deux principaux frameworks de gouvernance IA : ni ISO 42001 ni NIST AI RMF n'exigent d'évaluation technique du modèle lui-même. En 2026, la régulation bancaire américaine a également reculé en excluant l'IA générative et agentique de son périmètre de model risk management. L'article documente 19 mois pendant lesquels les certifications IA ont opéré sans standard harmonisé, posant des questions sur la crédibilité des certifications existantes.",
-        "source": "StrikeGraph",
-        "url": "https://www.strikegraph.com/white-paper/ai-governance-gap",
-        "date_publication": "30/09/2026",
+        "titre": "AI Risk & Compliance 2026 : guide opérationnel pour les entreprises face à l'enforcement",
+        "resume": "Publié le 3 octobre 2026 par SecurePrivacy, ce guide détaille les obligations opérationnelles concrètes des entreprises depuis l'entrée en vigueur générale de l'EU AI Act le 2 août 2026 : classification des systèmes IA par niveau de risque, exigences de documentation, programmes de conformité auditables, et surveillance post-marché. Il couvre également le Colorado AI Act entré en vigueur le 30 juin 2026 et les obligations de transparence de l'article 50 concernant les deepfakes et les interactions IA.",
+        "source": "SecurePrivacy",
+        "url": "https://secureprivacy.ai/blog/ai-risk-compliance-2026",
+        "date_publication": "03/10/2026",
         "pertinence": "haute",
-        "categorie": "analyse"
+        "categorie": "conformité"
+      },
+      {
+        "titre": "ISO 42001 : standard de gouvernance IA – guide pratique de mise en œuvre pour entreprises (mis à jour oct. 2026)",
+        "resume": "Mis à jour il y a 2 jours (6 octobre 2026), ce guide de A-lign explique les exigences concrètes d'ISO/IEC 42001 pour les entreprises : établissement d'un AI Management System (AIMS), surveillance continue des performances, audit interne, et actions correctives. Il précise que la norme s'applique à tout acteur qui développe, déploie ou utilise des systèmes IA, et constitue désormais un prérequis commercial dans 40% des appels d'offres IA en Europe et 25% en Amérique du Nord.",
+        "source": "A-lign",
+        "url": "https://www.a-lign.com/articles/understanding-iso-42001",
+        "date_publication": "06/10/2026",
+        "pertinence": "haute",
+        "categorie": "standard"
       }
     ],
     "clinique": [
       {
-        "titre": "Essais cliniques : le défi du recrutement des patients non diagnostiqués dans les populations sous-représentées",
-        "resume": "Article du 1er octobre 2026 : environ 25 millions d'Américains vivent avec une maladie rare non diagnostiquée, mais l'infrastructure de recrutement des essais cliniques suppose que les patients ont déjà un diagnostic confirmé. Ce décalage structurel constitue la principale cause de sous-représentation opérationnelle de ces populations dans la recherche, bien avant que les sites n'ouvrent leurs registres de screening. L'auteur documente les barrières systémiques et propose des pistes concrètes pour adapter les critères d'inclusion.",
-        "source": "Clinical Trial Vanguard",
-        "url": "https://clinicaltrialvanguard.com/news/clinical-trials-struggle-to-recruit-undiagnosed-patients-without-diagnostic-coverage",
-        "date_publication": "01/10/2026",
-        "pertinence": "haute",
-        "categorie": "recrutement"
-      },
-      {
-        "titre": "Diversity Action Plans FDA 2026 : où en est l'obligation légale et quels systèmes de données mettre en place",
-        "resume": "Publié le 3 octobre 2026, cet article de Sakara Digital fait le point sur l'état réel du DAP en 2026 : la loi FDORA crée bien une obligation de plans de diversité, mais le déclencheur de soumission obligatoire (180 jours après publication de la guidance finale) n'a toujours pas eu lieu, la FDA n'ayant pas publié de guidance finale à ce jour. L'article détaille les systèmes de données, de monitoring de l'enrôlement et de rétention que les sponsors doivent mettre en place dès maintenant pour être prêts, en se concentrant sur les outils concrets (EDC, dashboards démographiques temps réel, plateformes de site selection).",
+        "titre": "FDA Diversity Action Plan Guidance 2026 : état des lieux de la conformité pour les essais cliniques",
+        "resume": "Publié il y a 5 jours (3 octobre 2026), cet article de Sakara Digital fait le point sur le statut juridique exact des Diversity Action Plans (DAP) de la FDA : bien que le Congrès ait créé l'obligation via le FDORA en décembre 2022, la soumission obligatoire ne s'applique qu'aux études dont le recrutement débute plus de 180 jours après la publication d'une guidance finale – et au mois d'août 2026, aucune guidance finale n'a encore été publiée. L'article détaille les systèmes de données et processus opérationnels que les sponsors doivent néanmoins mettre en place dès maintenant pour anticiper la conformité future.",
         "source": "Sakara Digital",
         "url": "https://sakaradigital.com/blog/clinical-trial-diversity-action-plans-data-systems/",
         "date_publication": "03/10/2026",
