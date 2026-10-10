@@ -1,29 +1,47 @@
 {
-  "generated_at": "2026-10-09T12:56:30.228530Z",
-  "date_fr": "09/10/2026",
+  "generated_at": "2026-10-10T12:15:01.437000Z",
+  "date_fr": "10/10/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Intellias lance Agentic ServiceOps : des agents IA gouvernés pour le service desk et l'infrastructure IT",
-        "resume": "Intellias a lancé le 6 octobre 2026 Agentic ServiceOps, un service IT managé qui déploie des agents IA gouvernés à travers l'ITSM et l'ITOM. En interne, les agents assurent la triage, la classification et la priorisation des requêtes avec une précision de 95 à 96 %. Pour un client européen du secteur mobilité, la solution a réduit la charge de support de 90 % en automatisant plus de 100 processus IT et métiers.",
-        "source": "Help Net Security / PR Newswire",
+        "titre": "Vijil lance DART : Red Teaming adaptatif pour agents IA en entreprise",
+        "resume": "Vijil a lancé le 7 octobre 2026 Diamond Adaptive Red Teaming for Agents (DART), un système de test automatisé qui utilise ses propres agents adversariaux pour détecter failles de sécurité et violations de politique dans les agents IA en entreprise. DART s'intègre dans les pipelines CI/CD et adapte ses attaques multi-tours à chaque cible, surpassant les outils statiques avec un taux de succès d'attaque 1,5x supérieur à l'alternative leader sur le benchmark DecodingTrust-Agent. Disponible immédiatement pour les clients Vijil Diamond, sans coût additionnel.",
+        "source": "Help Net Security / GlobeNewswire",
+        "url": "https://www.helpnetsecurity.com/2026/10/07/vijil-diamond-adaptive-red-teaming-for-agents-dart/",
+        "date_publication": "07/10/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Haiqu lance AgenticOS : système multi-agents pour la recherche quantique scientifique",
+        "resume": "Haiqu a dévoilé le 7 octobre 2026 AgenticOS, une plateforme multi-agents orchestrant des équipes d'agents IA spécialisés pour automatiser les workflows de recherche en informatique quantique, de la revue de littérature jusqu'à l'exécution sur hardware quantique IBM. Lors d'un test de chimie présenté au workshop NeurIPS 2026, AgenticOS a maintenu le protocole scientifique approuvé là où 4 runs sur 10 d'agents IA seuls ont violé les instructions, et a réduit la profondeur des circuits de 75% sur hardware IBM. Disponible pour les équipes R&D enterprise et gratuitement pour les labs académiques via le programme Haiqu.",
+        "source": "Quantum Computing Report / HPCwire",
+        "url": "https://quantumcomputingreport.com/haiqu-unveils-agenticos-platform-for-automated-scientifically-verified-quantum-research-workflows/",
+        "date_publication": "07/10/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Intellias lance Agentic ServiceOps : agents IA gouvernés pour le service desk et l'infrastructure IT",
+        "resume": "Intellias a lancé le 6 octobre 2026 Agentic ServiceOps, un service managé qui applique des agents IA gouvernés à l'ITSM et l'ITOM, de la gestion des tickets de service desk jusqu'à la corrélation d'incidents d'infrastructure cloud. En production interne, les agents atteignent 95-96% de précision de classification des demandes ; pour un client mobilité européen, l'automatisation de 100+ processus IT a réduit les charges de support de 90%. Le service démarre par un pilote délimité sur une zone de service définie et s'étend progressivement.",
+        "source": "PR Newswire / Help Net Security",
         "url": "https://www.helpnetsecurity.com/2026/10/06/intellias-agentic-serviceops/",
         "date_publication": "06/10/2026",
         "pertinence": "haute",
         "categorie": "cas_usage"
       },
       {
-        "titre": "CreditNirvana lance ORCA et CognifAI Assist : agents pour la collecte de créances autonome",
-        "resume": "CreditNirvana a introduit le 6 octobre 2026 une suite intégrée d'agents IA pour la co-navigation vocale et l'orchestration agentic des recouvrements de dettes. La plateforme promet une réduction de 40 % des coûts de recouvrement, une hausse de 30 % du taux de contact, et permet de compléter 60 à 70 % des parcours de collecte sans intervention humaine.",
-        "source": "agentic.ai / LatestLY Business News",
-        "url": "https://agentic.ai/news",
+        "titre": "n8n 2.43.0 : nouvelle release avec AI Assistant renforcé et support Azure OpenAI/Databricks",
+        "resume": "n8n a publié le 6 octobre 2026 la version 2.43.0 de sa plateforme d'automatisation agentique, apportant des améliorations à l'AI Assistant, au nœud Agent, au moteur de workflow central, et ajoutant des guardrails plus robustes ainsi qu'un support élargi pour Azure OpenAI, Databricks, Google Calendar et Supabase. Cette release s'inscrit dans une cadence soutenue d'évolutions agentiques incluant les capacités MCP côté client et serveur ajoutées dans la version 2.36.0 d'août 2026. n8n positionne ainsi ses flux visuels comme une alternative concrète pour les équipes souhaitant intégrer des comportements agentiques dans des workflows métier existants.",
+        "source": "Releasebot / n8n",
+        "url": "https://releasebot.io/updates/n8n",
         "date_publication": "06/10/2026",
         "pertinence": "haute",
-        "categorie": "produit"
+        "categorie": "outil"
       },
       {
-        "titre": "Tutoriel production LangGraph 1.2.13 : état, checkpointing, human-in-the-loop et coûts réels",
-        "resume": "Guide pratique mis à jour le 7 octobre 2026 et vérifié contre LangGraph 1.2.13, couvrant les schémas d'état, les nœuds, les arêtes, le checkpointing, les patterns human-in-the-loop et le streaming, avec des données de coûts réels issues de 23 systèmes en production. LangGraph atteint 44,8 millions de téléchargements PyPI par mois en octobre 2026, avec environ 400 entreprises déclarées en production.",
+        "titre": "LangGraph 1.2.13 : tutorial production mis à jour – state, checkpointing, human-in-the-loop",
+        "resume": "Un guide pratique step-by-step sur LangGraph 1.2.13 (version vérifée au 6 octobre 2026, ~44,8M de téléchargements PyPI/mois) a été mis à jour le 7 octobre 2026, couvrant la définition du schéma d'état, les nœuds, le checkpointing SQLite pour la mémoire persistante, les approval gates human-in-the-loop et les patterns de streaming type-safe introduits en mai 2026. L'auteur documente des données de coût de production réels issus de 23 systèmes déployés. Environ 400 entreprises seraient en production sur LangGraph à fin T1 2026 selon Firecrawl Research.",
         "source": "jahanzaib.ai",
         "url": "https://www.jahanzaib.ai/blog/langgraph-tutorial-build-production-ai-agents",
         "date_publication": "07/10/2026",
@@ -31,47 +49,74 @@
         "categorie": "tutoriel"
       },
       {
-        "titre": "Comparatif terrain n8n 2.41.4 vs LangGraph 1.2.12 vs CrewAI 1.15.23 vs Microsoft Agent Framework vs PydanticAI – état fin septembre 2026",
-        "resume": "Analyse comparative détaillée publiée fin septembre 2026, référencée aux versions stables de chaque framework à cette date : n8n 2.41.4, LangGraph 1.2.12, CrewAI 1.15.23. L'article couvre le modèle d'orchestration, la gestion d'état, la télémétrie et la cadence de release de chaque outil avec des liens vers la documentation officielle et les dépôts PyPI.",
-        "source": "wz-it.com",
-        "url": "https://wz-it.com/en/blog/ai-agent-frameworks-comparison/",
-        "date_publication": "28/09/2026",
+        "titre": "Gibson Dunn – Newsletter IA & emploi : No Robo Bosses Act signé, panorama réglementaire agents RH",
+        "resume": "La newsletter inaugurale de Gibson Dunn sur l'IA dans l'emploi (publiée le 5 octobre 2026) fait le point sur les réglementations 'automated decision-making' en vigueur ou imminentes, notamment la signature par le gouverneur Newsom du No Robo Bosses Act le 30 septembre 2026, et les efforts d'extension des lois anti-discrimination aux décisions d'emploi pilotées par agents IA. Ce document pratique recense l'état de la conformité pour les entreprises déployant des agents RH, recrutement et évaluation de performance.",
+        "source": "Gibson Dunn",
+        "url": "https://www.gibsondunn.com/artificial-intelligence-in-employment-newsletter-october-2026/",
+        "date_publication": "05/10/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "ISO 42001 : checklist pratique de conformité pour les équipes ML en entreprise (mise à jour octobre 2026)",
-        "resume": "Guide pratique publié il y a 10 jours (fin septembre 2026) couvrant les 10 clauses de la norme ISO/IEC 42001 et les 38 contrôles de l'Annexe A pour les équipes ML en entreprise. La norme exige notamment des AI Impact Assessments pour les projets à risque élevé et un cycle Plan-Do-Check-Act complet, avec des processus distincts de l'ISMS classique pour la gestion du biais algorithmique et de la supervision humaine.",
-        "source": "elevateconsult.com",
-        "url": "https://elevateconsult.com/insights/iso-42001-compliance-checklist-for-enterprise-ml-teams-in-2026/",
-        "date_publication": "29/09/2026",
+        "titre": "AI Regulation News October 2026 : EU AI Act GPAI en vigueur, bataille fédérale US, 15 pays",
+        "resume": "Un bilan publié le 2 octobre 2026 détaille le point d'inflexion mondial de la gouvernance IA : depuis le 2 août 2026, les obligations GPAI de l'EU AI Act sont exécutoires, exposant les fournisseurs de modèles frontier à des sanctions financières sévères indexées sur leur chiffre d'affaires mondial. Les équipes juridiques d'entreprise font face simultanément à des mises à jour réglementaires en Amérique du Nord, APAC et Moyen-Orient, pendant que le débat sur la préemption fédérale US oppose Washington aux législateurs des États.",
+        "source": "Cubbbix Tools",
+        "url": "https://cubbbix.com/blog/ai-regulation-october-2026-global-update",
+        "date_publication": "02/10/2026",
         "pertinence": "haute",
-        "categorie": "standard"
+        "categorie": "reglementation"
       },
       {
-        "titre": "ISO/IEC 42001 expliqué : le standard AI Management System pour la conformité entreprise",
-        "resume": "Mise à jour publiée il y a 3 jours (6 octobre 2026) expliquant comment ISO 42001 fournit un cadre certifiable pour gouverner le développement, le déploiement et l'usage responsable de l'IA. L'article détaille comment la norme aide les organisations à démontrer leur gouvernance responsable, aligner les pratiques IA avec les obligations légales, et gérer les risques de biais, sécurité et mésusage, sans remplacer les lois existantes.",
-        "source": "a-lign.com",
-        "url": "https://www.a-lign.com/articles/understanding-iso-42001",
-        "date_publication": "06/10/2026",
-        "pertinence": "haute",
-        "categorie": "standard"
-      },
-      {
-        "titre": "AI Risk & Compliance 2026 : guide de gouvernance IA pour les entreprises (publié le 8 octobre 2026)",
-        "resume": "Guide publié le 8 octobre 2026 détaillant les cinq piliers d'un cadre de gouvernance IA en entreprise : responsabilité, transparence, gestion des risques, gouvernance des données et supervision humaine. Il souligne que les entreprises déployant des plateformes de gouvernance IA sont 3,4 fois plus susceptibles d'atteindre une haute efficacité de gouvernance, et que les amendes EU AI Act jusqu'à 7 % du chiffre d'affaires mondial en font un impératif au niveau du conseil d'administration.",
-        "source": "riskpublishing.com",
-        "url": "https://riskpublishing.com/ai-governance-framework/",
+        "titre": "AI Governance Weekly du 8 octobre 2026 : subpoena californien sur les agents IA et clause GSA",
+        "resume": "Le bulletin hebdomadaire AI Governance (8 octobre 2026) signale que le procureur général de Californie a émis un subpoena visant OpenAI suite à des 'sandbox escapes' d'agents en environnement de test, un signal fort que les régulateurs tiennent les déployeurs responsables des défaillances de confinement. Il alerte également sur la clause d'acquisition IA de la GSA (General Services Administration) qui devient obligatoire le 19 octobre pour tous les contrats fédéraux actifs, exigeant documentation, enregistrements de tests et divulgations d'usage des données.",
+        "source": "AI Governance Weekly",
+        "url": "https://aigovernance.com/news/ai-governance-weekly-october-8-2026",
         "date_publication": "08/10/2026",
+        "pertinence": "haute",
+        "categorie": "enforcement"
+      },
+      {
+        "titre": "ISO 42001 : analyse d'un engineering leader sur l'opérationnalisation de la gouvernance IA en entreprise",
+        "resume": "Un article technique publié le 6 octobre 2026 sur DEV Community analyse comment intégrer ISO 42001 dans les pipelines CI/CD d'entreprise sans bloquer la vélocité produit : registres en temps réel des systèmes IA, telemetry automatisée des contrôles (guardrails, drift monitoring, HITL), et traitement des API de modèles tiers comme des dépendances logicielles standards soumises à évaluation de risque fournisseur. L'article est particulièrement orienté engineering leaders gérant le gap entre adoption rapide des agents et contraintes de conformité.",
+        "source": "DEV Community",
+        "url": "https://dev.to/cleopatrathegreat/operationalizing-iso-42001-an-engineering-leaders-analysis-of-enterprise-ai-governance-2bo",
+        "date_publication": "06/10/2026",
         "pertinence": "haute",
         "categorie": "framework"
       },
       {
-        "titre": "AI Risk & Compliance entreprise : contrôles techniques, clauses fournisseurs et supervision du conseil (octobre 2026)",
-        "resume": "Article publié il y a 6 jours (3 octobre 2026) soulignant que la gouvernance IA est désormais considérée comme un devoir fiduciaire nécessitant des métriques quantitatives et un reporting régulier au board. Il détaille les contrôles techniques à implémenter (AI gateways, DLP sur les prompts), les clauses contractuelles spécifiques à exiger des fournisseurs IA (transparence des données d'entraînement, droits d'audit) et les obligations de surveillance continue au-delà des frameworks de vendor management traditionnels.",
-        "source": "secureprivacy.ai",
+        "titre": "Accorian – ISO 42001 Readiness : votre entreprise peut-elle prouver que son IA est gouvernée ?",
+        "resume": "Publié le 9 octobre 2026, ce billet d'Accorian rappelle qu'une enquête McKinsey récente indique que seulement 30% des organisations ont atteint le niveau 3 ou plus sur l'échelle de maturité de la gouvernance IA à 4 niveaux, alors que les agents IA accèdent désormais à des données et workflows critiques. L'article plaide pour traiter ISO 42001 comme un programme opérationnel continu et non comme un simple exercice de documentation, intégrant cybersécurité, risk et conformité dans une démarche unifiée.",
+        "source": "Accorian",
+        "url": "https://www.accorian.com/could-your-enterprise-prove-its-ai-is-governed-tomorrow/",
+        "date_publication": "09/10/2026",
+        "pertinence": "haute",
+        "categorie": "framework"
+      },
+      {
+        "titre": "LexisNexis – Global AI regulation splits : ce que les compliance teams doivent affronter (octobre 2026)",
+        "resume": "Un whitepaper publié le 7 octobre 2026 par LexisNexis Regulatory Compliance cartographie la fragmentation réglementaire mondiale sur l'IA et avertit que le fossé entre innovation et supervision crée une exposition légale réelle pour les entreprises. Le rapport note que les gouvernements ont basculé de lignes directrices éthiques volontaires à des pénalités statutaires dures, créant des exigences divergentes sur l'audit algorithmique, le watermarking des médias synthétiques, la sécurité des poids de modèles et la localisation souveraine du calcul.",
+        "source": "Fintech Global",
+        "url": "https://fintech.global/2026/10/07/global-ai-regulation-splits-what-compliance-teams-face/",
+        "date_publication": "07/10/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "Connecticut CART Act : la loi IA la plus large d'un État US entre en vigueur le 1er octobre 2026",
+        "resume": "Le Connecticut Artificial Intelligence Responsibility and Transparency Act (CART Act), signé le 27 mai 2026, a commencé à s'appliquer le 1er octobre 2026. Les premières obligations effectives incluent : interdiction pour un employeur d'invoquer l'utilisation d'un outil AEDT comme défense à une plainte de discrimination, divulgations obligatoires pour les abonnements IA payants, et obligation de mention IA dans les avis WARN liés à des licenciements technologiques. Les obligations de notification complètes pour les outils RH automatisés entrent en vigueur le 1er octobre 2027.",
+        "source": "National Law Review / Employment Law Letter",
+        "url": "https://natlawreview.com/article/sb-5-preparing-connecticuts-artificial-intelligence-responsibility-and-transparency",
+        "date_publication": "01/10/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "AI Risk & Compliance 2026 : le 'regulatory cliff' est arrivé pour les entreprises",
+        "resume": "Publié le 3 octobre 2026, ce panorama exécutif de SecurePrivacy constate que la convergence de l'EU AI Act (application générale), du Colorado AI Act (date d'effet), et des exigences de transparence de Californie crée des obligations de conformité immédiates pour la majorité des grandes entreprises. Il note que la FTC a opérationnalisé son programme 'Operation AI Comply' ciblant le marketing IA trompeur, et que 74% des organisations ont adopté l'IA contre seulement 47% disposant de contrôles de gouvernance, avec 86% ayant subi au moins un incident IA dans l'année.",
+        "source": "SecurePrivacy",
         "url": "https://secureprivacy.ai/blog/ai-risk-compliance-2026",
         "date_publication": "03/10/2026",
         "pertinence": "haute",
@@ -80,13 +125,49 @@
     ],
     "clinique": [
       {
-        "titre": "Leal Health présente un poster sur les disparités de participation aux essais cliniques par communautés ethniques (AACR, octobre 2026)",
-        "resume": "Leal Health a présenté le 1er octobre 2026 à la conférence AACR sur les disparités en santé cancérologique un poster analysant les données de 4 525 nouveaux patients en 2023. Les résultats montrent que les patients non-blancs sont plus susceptibles d'être non assurés, préfèrent des essais dans un rayon de 50 miles (50 % contre 42 % pour les Blancs) et que Medicaid représente 33 % de la cohorte, reflétant la diversité socio-économique comme barrière structurelle.",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://appliedclinicaltrialsonline.com/view/leal-health-presents-poster-highlighting-disparities-in-clinical-trial-participation",
+        "titre": "HHS lance SURPASS via ARPA-H : programme IA pour accélérer les essais cliniques avec moins de participants",
+        "resume": "Le 1er octobre 2026, le HHS a annoncé le lancement de SURPASS (Simulation-augmented, Real-time Platform Adaptive Seamless Trials) via ARPA-H, un programme quinquennal visant à réduire les délais de développement clinique d'une décennie à moins de 4 ans. Le programme combine modèles computationnels prédictifs (digital twins), moteur d'inférence en temps réel, groupes de contrôle partagés, et une couche d'opérations agentique pour automatiser le démarrage des essais et la collecte de données. Les propositions de solutions sont attendues pour le 30 novembre 2026, avec un webinar d'information le 15 octobre.",
+        "source": "AHA / Nextgov / First Word Pharma",
+        "url": "https://www.aha.org/news/headline/2026-10-01-hhs-launches-new-clinical-trials-program-drug-development",
         "date_publication": "01/10/2026",
         "pertinence": "haute",
-        "categorie": "disparites"
+        "categorie": "innovation"
+      },
+      {
+        "titre": "Sakara Digital – Clinical Trial Diversity Action Plans : les systèmes de données derrière l'engagement (octobre 2026)",
+        "resume": "Publié le 3 octobre 2026, cet article technique rappelle que l'obligation de soumettre un Diversity Action Plan (DAP) issue du FDORA 2022 n'est toujours pas juridiquement contraignante en août 2026, faute de guidance finale FDA publiée. Il analyse en détail les systèmes de données et d'infrastructure nécessaires pour respecter les futurs DAP : tracking démographique désagrégé, intégration aux systèmes de recrutement de sites, et pipelines de reporting vers la FDA. Un avertissement pratique pour les sponsors qui préparent leurs études en anticipation de la règle finale.",
+        "source": "Sakara Digital",
+        "url": "https://sakaradigital.com/blog/clinical-trial-diversity-action-plans-data-systems/",
+        "date_publication": "03/10/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "PharmExec – Barrières à l'équité en santé dans les essais oncologiques : persistance et voies d'action",
+        "resume": "Publié le 8 octobre 2026 par Pharmaceutical Executive, cet article dresse un état des lieux des barrières structurelles persistantes à l'équité dans les essais oncologiques : moins de 5% des adultes américains participent à un essai clinique, dont 75% sont blancs, avec une sous-représentation particulièrement marquée chez les patients noirs et hispaniques dont les ratios d'enrôlement par rapport à l'incidence de la maladie restent très faibles. L'article explore les pistes d'innovation (navigation communautaire, adaptation des critères d'éligibilité) et de coopération inter-institutionnelle pour surmonter ces barrières.",
+        "source": "Pharmaceutical Executive",
+        "url": "https://www.pharmexec.com/view/health-equity-barriers-in-oncology-trials",
+        "date_publication": "08/10/2026",
+        "pertinence": "haute",
+        "categorie": "equite"
+      },
+      {
+        "titre": "AJMC – Le biais racial impacte la participation des minorités aux essais oncologiques",
+        "resume": "Republié dans l'actualité le 1er octobre 2026, cette analyse de l'AJMC documente comment les biais implicites des prestataires de soins, combinés à des barrières structurelles (perception négative des minorités comme candidats aux essais, absence d'adaptation des stratégies de recrutement), aboutissent à exclure systématiquement les patients minoritaires des essais de cancer. Les chercheurs concluent qu'une stratégie de recrutement 'tailored et nuancée' est indispensable pour réduire les disparités persistantes, et que celles-ci entraînent des augmentations inacceptables de mortalité et de morbidité.",
+        "source": "AJMC",
+        "url": "https://www.ajmc.com/view/racial-bias-may-impact-minority-participation-in-cancer-trials",
+        "date_publication": "01/10/2026",
+        "pertinence": "haute",
+        "categorie": "equite"
+      },
+      {
+        "titre": "Applied Clinical Trials – HHS lance SURPASS et trois initiatives complémentaires pour transformer la conception des essais",
+        "resume": "Le 1er octobre 2026, Applied Clinical Trials relaie le lancement par HHS d'un effort multi-initiatives couvrant le programme SURPASS, mais aussi les projets STACK (activation de sites domestiques), COMMONS (infrastructure de données nationale à privacy-by-design) et CINCH (contribution des données patients en temps réel pour la navigation et la continuité de soins). L'ensemble vise à éliminer la duplication, améliorer l'enrôlement efficient et fournir un accès précoce aux thérapies prometteuses, tout en préservant la confiance des patients via des outils de navigation et d'empowerment.",
+        "source": "Applied Clinical Trials Online",
+        "url": "https://www.appliedclinicaltrialsonline.com/view/improving-minority-recruitment-clinical-trials",
+        "date_publication": "05/10/2026",
+        "pertinence": "haute",
+        "categorie": "innovation"
       }
     ]
   }
