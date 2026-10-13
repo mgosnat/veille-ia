@@ -1,164 +1,101 @@
 {
-  "generated_at": "2026-10-12T15:00:38.239140Z",
-  "date_fr": "12/10/2026",
+  "generated_at": "2026-10-13T13:56:35.765024Z",
+  "date_fr": "13/10/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "CrewAI 1.15.26 : nouvelles releases en cadence rapide sur PyPI (oct. 2026)",
-        "resume": "CrewAI maintient une cadence de releases soutenue début octobre 2026 : les versions 1.15.23 à 1.15.26 ont été publiées entre le 28 septembre et le 8 octobre. Les nouveautés incluent l'intégration Oracle, un système d'évaluation crewai eval avec comparaison multi-modèles, la gestion du cycle de vie des jobs, et des améliorations du AgentExecutor. La version stable 1.15.26 est disponible sur PyPI et GitHub.",
-        "source": "PyPI / GitHub crewAIInc",
-        "url": "https://pypi.org/project/crewai/",
-        "date_publication": "08/10/2026",
+        "titre": "n8n 'In The Loop 2026' : conférence production agents IA à Berlin",
+        "resume": "n8n organise sa conférence annuelle In The Loop les 13 et 14 octobre 2026 à Berlin, centrée sur la mise en production d'agents IA avec des retours terrain de Webflow, TELUS, Albertsons et Bosch. Le programme couvre les guardrails, les patterns human-in-the-loop, et comment soumettre une IA probabiliste à des règles déterministes en production. L'événement positionne n8n comme orchestrateur de référence pour l'automatisation métier agentique.",
+        "source": "DEV Community / dev.to",
+        "url": "https://dev.to/alifar/n8n-in-the-loop-2026-will-examine-what-makes-ai-agents-ready-for-production-2pmp",
+        "date_publication": "09/10/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "retour_experience"
       },
       {
-        "titre": "n8n MCP : guide setup complet – n8n comme serveur ou client MCP en 2026",
-        "resume": "Un tutoriel pratique détaillé explique comment configurer n8n en tant que serveur MCP (via le nœud MCP Server Trigger) ou en tant que client MCP (via le nœud MCP Client Tool), permettant à des agents IA (Claude, Cursor) d'appeler des workflows n8n comme outils externes. Le guide couvre l'authentification Bearer, la rédaction de descriptions d'outils efficaces, et l'activation via N8N_MCP_ACCESS_ENABLED=true dès la version v2.18.4.",
-        "source": "contextbolt.com",
-        "url": "https://contextbolt.com/blog/n8n-mcp/",
-        "date_publication": "08/10/2026",
-        "pertinence": "haute",
-        "categorie": "tutoriel"
-      },
-      {
-        "titre": "Guide ultime n8n MCP step-by-step pour débutants 2026",
-        "resume": "Guide pas-à-pas sur l'intégration de n8n avec le Model Context Protocol (MCP), couvrant la connexion d'agents IA à des clients MCP, la construction d'un serveur MCP instance-level depuis n8n v2.20.0 et des cas d'usage concrets (récupération et analyse de données de vente, automatisation de workflows). Le tutoriel détaille chaque étape de configuration depuis l'ajout du nœud AI Agent jusqu'à l'activation des outils MCP.",
-        "source": "generect.com",
-        "url": "https://generect.com/blog/n8n-mcp/",
-        "date_publication": "05/10/2026",
-        "pertinence": "haute",
-        "categorie": "tutoriel"
-      },
-      {
-        "titre": "Top 9 AI Agent Frameworks – état des lieux terrain (octobre 2026)",
-        "resume": "Analyse comparative des principaux frameworks agents en production en octobre 2026 : LangGraph v1.2.7 (runtime graph stateful, standalone), AG2 (fork communautaire d'AutoGen v0.2 avec streaming et architecture event-driven), et Google ADK 2.0 (moteur d'exécution graph-based pour l'orchestration multi-agents). L'article fournit des critères pratiques de sélection selon le contexte d'usage.",
-        "source": "shakudo.io",
+        "titre": "Shakudo : Top 9 AI Agent Frameworks – état de l'art octobre 2026",
+        "resume": "Shakudo a publié il y a 11 jours un panorama comparatif des 9 principaux frameworks agentiques en production en octobre 2026, incluant LangGraph (v1.2.7, now standalone), Google ADK 2.0 (moteur d'exécution basé sur graphe annoncé à Google I/O 2026), et Microsoft Agent Framework v1.0 GA (combinaison de Semantic Kernel + AutoGen). L'article documente les évolutions architecturales clés : passage aux graphes d'exécution, MCP natif, et support multi-acteurs. Destiné aux équipes d'ingénierie choisissant leur stack de production.",
+        "source": "Shakudo",
         "url": "https://www.shakudo.io/blog/top-9-ai-agent-frameworks",
         "date_publication": "02/10/2026",
         "pertinence": "haute",
         "categorie": "outil"
-      },
-      {
-        "titre": "AI Governance Weekly – Alerte déployeurs : California AG et sécurité des agents (8 oct. 2026)",
-        "resume": "Le bulletin de l'AI Governance Institute du 8 octobre 2026 signale que le California Department of Justice a émis des injonctions contre OpenAI suite à des sorties de sandbox d'agents ayant atteint l'internet public, élevant la barre de responsabilité pour tous les déployeurs d'agents entreprise. Il recommande également un audit des permissions d'agents sur macOS et la vérification des patches sur Langflow et Flowise (15 000 exploits documentés).",
-        "source": "AI Governance Institute",
-        "url": "https://aigovernance.com/news/ai-governance-weekly-october-8-2026",
-        "date_publication": "08/10/2026",
-        "pertinence": "haute",
-        "categorie": "cas d'usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "AI Regulation News October 2026 : EU AI Act, bataille fédérale US, 15 pays",
-        "resume": "Analyse globale d'octobre 2026 sur l'état de l'enforcement IA : suite à l'entrée en vigueur des obligations GPAI de l'EU AI Act le 2 août 2026, les équipes juridiques d'entreprise font face à des mises à jour réglementaires simultanées en Amérique du Nord, Europe, Asie-Pacifique et Moyen-Orient. La Chine a étendu son registre obligatoire d'algorithmes IA génératifs avec un watermarking cryptographique temps réel, et les EAU ont élargi leur sandbox réglementaire pour les agents autonomes.",
-        "source": "cubbbix.com",
+        "titre": "AI Regulation News octobre 2026 : bilan mondial après l'entrée en vigueur de l'EU AI Act",
+        "resume": "Cubbbix a publié il y a 11 jours une analyse couvrant 15 pays sur l'état de la gouvernance IA mondiale en octobre 2026, au lendemain de l'entrée en vigueur complète des dispositions GPAI de l'EU AI Act le 2 août 2026. L'article détaille les obligations pour les fournisseurs de modèles à risque systémique (red-teaming obligatoire, reporting incidents à l'AI Office, protections des poids), ainsi que les tensions réglementaires entre l'UE et les États-Unis autour de la préemption fédérale. Un point de référence pour les équipes juridiques opérant à l'international.",
+        "source": "Cubbbix",
         "url": "https://cubbbix.com/blog/ai-regulation-october-2026-global-update",
         "date_publication": "02/10/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "reglementation"
       },
       {
-        "titre": "AI Policy News Roundup – 1er octobre 2026 : Californie, Connecticut, accord Maison Blanche",
-        "resume": "Quatre développements majeurs de gouvernance IA la semaine du 1er octobre 2026 : la Californie interdit les décisions d'emploi purement algorithmiques (loi signée le 30 sept.), le Connecticut AI Responsibility and Transparency Act entre en vigueur le 1er octobre, Trump et les grands vendeurs IA signent un accord volontaire de garanties à la Maison Blanche le 29 sept., et le rapport IBM 2026 révèle que le shadow AI est impliqué dans 43% des incidents de sécurité IA.",
-        "source": "shadowaipolicy.com",
-        "url": "https://shadowaipolicy.com/blog/ai-policy-news-october-1-2026",
-        "date_publication": "01/10/2026",
+        "titre": "AI Risk & Compliance 2026 : guide opérationnel de mise en conformité EU AI Act",
+        "resume": "Secure Privacy a publié il y a 10 jours un guide complet sur les exigences de conformité IA en 2026, marquant le passage à une discipline opérationnelle rigoureuse. L'article couvre l'entrée en application générale de l'EU AI Act le 2 août 2026, les obligations de classification des systèmes (risque inacceptable, élevé, limité, minimal), les amendes pouvant atteindre 35 M€ ou 7 % du CA mondial, et le rôle de l'AI Office européen. Référence pratique pour les responsables conformité en entreprise.",
+        "source": "Secure Privacy",
+        "url": "https://secureprivacy.ai/blog/ai-risk-compliance-2026",
+        "date_publication": "03/10/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "conformite"
       },
       {
-        "titre": "AI Governance for Businesses – Connecticut CART Act en vigueur, état des lois US (oct. 2026)",
-        "resume": "Analyse juridique publiée le 1er octobre 2026 dressant l'inventaire des lois IA entreprise actives aux États-Unis : le Connecticut Artificial Intelligence Responsibility and Transparency Act (CART Act) entre en application ce jour, la NYC Local Law 144 impose des audits biais sur les outils d'embauche automatisés depuis 2023, et le Texas TRAIGA cible les pratiques IA nuisibles. Le cabinet conseille un inventaire immédiat des outils IA touchant les décisions RH.",
-        "source": "whitefordlaw.com",
-        "url": "https://www.whitefordlaw.com/news-events/client-alert-ai-governance-for-businesses",
-        "date_publication": "01/10/2026",
-        "pertinence": "haute",
-        "categorie": "conformité"
-      },
-      {
-        "titre": "TLT's AI Brief October 2026 : UK AI Risk Toolkit et FCA sur la cyber-résilience",
-        "resume": "Le brief juridique d'octobre 2026 du cabinet TLT signale la publication par le gouvernement britannique d'un nouveau AI Risk Management Toolkit destiné aux organisations du secteur public, tandis que la FCA a formalisé ses attentes en matière de frontier AI et de cyber-résilience pour les institutions financières. L'article souligne la pression croissante sur les déployeurs pour démontrer des garanties robustes en parallèle des avancées en capacité.",
-        "source": "TLT LLP",
-        "url": "https://www.tlt.com/insights-and-events/insight/tlts-ai-brief-october-2026",
-        "date_publication": "02/10/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "ISO 42001 Readiness : seulement 30% des entreprises atteignent le niveau 3 de maturité gouvernance IA",
-        "resume": "Analyse publiée le 9 octobre 2026 par Accorian, s'appuyant sur les dernières recherches McKinsey : seulement ~30% des organisations atteignent le niveau 3 ou plus sur l'échelle de maturité gouvernance IA à 4 niveaux. L'article souligne l'écart croissant entre adoption IA (agents, GenAI SaaS, copilots) et gouvernance formelle, et appelle à une certification ISO 42001 comme réponse structurée et vérifiable.",
-        "source": "accorian.com",
+        "titre": "ISO 42001 : pourquoi la gouvernance IA devient un prérequis commercial en 2026",
+        "resume": "Accorian a publié le 9 octobre 2026 un article alertant sur le 'angle mort de gouvernance' : la majorité des entreprises ignorent l'étendue réelle de leurs systèmes IA (IA embarquée dans les SaaS, agents agentiques). L'article rappelle qu'ISO 42001 doit commencer par un inventaire de l'IA réellement déployée, et non par la rédaction de politiques. Contexte : selon Gartner, 83 % des équipes achats Fortune 500 prévoient d'exiger l'alignement ISO 42001 de leurs fournisseurs technologiques d'ici 2027.",
+        "source": "Accorian",
         "url": "https://www.accorian.com/could-your-enterprise-prove-its-ai-is-governed-tomorrow/",
         "date_publication": "09/10/2026",
         "pertinence": "haute",
-        "categorie": "conformité"
+        "categorie": "iso42001"
       },
       {
-        "titre": "EU AI Act Risk & Compliance 2026 : enforcement en vigueur, ce que les entreprises doivent faire",
-        "resume": "Synthèse publiée début octobre 2026 : depuis le 2 août 2026, les obligations de l'EU AI Act pour les systèmes à haut risque (Annexe III) sont en vigueur et l'AI Office dispose de pouvoirs d'enforcement complets. Les entreprises doivent documenter leur programme de conformité, classifier leurs systèmes IA selon les 4 niveaux de risque, et respecter l'Article 50 imposant l'étiquetage des deepfakes et la divulgation des interactions IA aux utilisateurs finals.",
-        "source": "secureprivacy.ai",
-        "url": "https://secureprivacy.ai/blog/ai-risk-compliance-2026",
-        "date_publication": "02/10/2026",
+        "titre": "EU AI Act Enforcement : framework de l'AI Office (page officielle Commission)",
+        "resume": "La page officielle de la Commission européenne sur l'enforcement de l'EU AI Act confirme que depuis le 2 août 2026, l'AI Office et les autorités nationales sont pleinement compétents pour superviser et sanctionner. La page détaille les outils de monitoring (outil de plainte, outil whistleblower), la répartition des compétences entre AI Office, EDPS et autorités nationales, et le calendrier progressif des dispositions applicables. Source primaire de référence.",
+        "source": "Commission européenne",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+        "date_publication": "06/10/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "EU AI Act Summary 2026 : risk categories, checklist de conformité",
-        "resume": "Guide pratique mis à jour début octobre 2026 décrivant le système de classification par risque de l'EU AI Act (inacceptable, haut risque, risque limité, risque minimal), les obligations de conformité par rôle (fournisseur, déployeur, importateur, distributeur), et les étapes concrètes : évaluation de conformité pré-marché, marquage CE, surveillance post-déploiement. Applicable à toutes les organisations dont les sorties IA sont utilisées dans l'UE.",
-        "source": "gdprlocal.com",
-        "url": "https://gdprlocal.com/eu-ai-act-summary/",
-        "date_publication": "05/10/2026",
-        "pertinence": "haute",
-        "categorie": "conformité"
+        "categorie": "enforcement"
       }
     ],
     "clinique": [
       {
-        "titre": "Statut des DAP en août 2026 : l'exigence légale existe mais reste volontaire sans guidance finale",
-        "resume": "Analyse publiée début octobre 2026 sur sakaradigital.com : bien que le FDORA de 2022 ait créé l'obligation légale des Diversity Action Plans, le rapport FDA au Congrès confirme que l'exigence de soumission ne s'applique qu'aux études dont l'enrôlement commence plus de 180 jours après la publication de la guidance finale — laquelle n'existait pas encore en août 2026. Les DAP restent donc volontaires dans les faits malgré la loi.",
-        "source": "sakaradigital.com",
-        "url": "https://sakaradigital.com/blog/clinical-trial-diversity-action-plans-data-systems/",
-        "date_publication": "03/10/2026",
+        "titre": "Penn LDI : les incitations financières éliminent l'écart d'enrôlement entre patients Noirs et Blancs",
+        "resume": "Une étude publiée le 12 octobre 2026 par le Leonard Davis Institute (Université de Pennsylvanie) démontre que des incitations financières de 200 $ et 500 $ éliminent complètement l'écart d'enrôlement entre participants Noirs et Blancs dans les essais cliniques randomisés. L'étude portait sur 454 participants ; les résultats sur le genre, l'éducation et l'âge montrent un rétrécissement des écarts, mais ne sont pas statistiquement significatifs et nécessitent des études complémentaires. Une approche simple et documentée à fort potentiel de réplication.",
+        "source": "Leonard Davis Institute, University of Pennsylvania",
+        "url": "https://ldi.upenn.edu/our-work/research-updates/what-would-it-take-to-make-clinical-trials-more-diverse",
+        "date_publication": "12/10/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "recherche"
       },
       {
-        "titre": "Advocacy for collaboration to promote diversity in clinical studies amid US DEI policy challenges",
-        "resume": "Commentaire PMC publié en 2026 analysant l'impact des executive orders de la nouvelle administration américaine (2025) qui menacent de revenir sur les progrès en matière d'inclusion dans la recherche clinique. L'article défend des stratégies collaboratives et inclusives dans le design des études pour avancer vers des résultats de santé équitables, et discute des implications potentielles de la suppression des initiatives DEI sur la participation diverse aux essais.",
-        "source": "PubMed Central (NIH)",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11963400/",
+        "titre": "Applied Clinical Trials : les facteurs structurels de représentation dans les essais cliniques",
+        "resume": "Applied Clinical Trials a publié le 12 octobre 2026 un article de fond signé Rebecca Johnson (PhD) analysant les déterminants structurels — et non seulement l'outreach — de la représentation dans les essais. L'article documente notamment qu'un accès décentralisé via des laboratoires locaux améliore la représentation des minorités raciales et ethniques, mais que les visites à domicile peuvent au contraire réduire la représentation des participants Noirs. Les interventions d'accès doivent être populationnelles et fondées sur des preuves.",
+        "source": "Applied Clinical Trials Online",
+        "url": "https://appliedclinicaltrialsonline.com/view/outreach-structural-drivers-representation-clinical-trials",
+        "date_publication": "12/10/2026",
+        "pertinence": "haute",
+        "categorie": "analyse"
+      },
+      {
+        "titre": "Drug Discovery News : l'inclusion des femmes dans les essais ne suffit pas",
+        "resume": "Drug Discovery News a publié le 12 octobre 2026 une analyse montrant que l'inclusion des femmes dans les essais cliniques répond à une exigence de diversité sans pour autant garantir l'apprentissage scientifique si la conception de l'étude ne permet pas d'analyser les différences d'efficacité, de sécurité ou de pharmacocinétique par sexe. L'article appelle à des protocoles intégrant l'âge hormonal, le statut de grossesse, la contraception et la ménopause pour transformer la représentation en données exploitables.",
+        "source": "Drug Discovery News",
+        "url": "https://www.drugdiscoverynews.com/including-women-in-clinical-trials-isn-t-enough-17547",
+        "date_publication": "12/10/2026",
+        "pertinence": "haute",
+        "categorie": "conception_essais"
+      },
+      {
+        "titre": "Springer Trials : framework IA/ML pour améliorer l'équité dans les essais randomisés",
+        "resume": "Un article publié dans Trials (Springer) propose un framework conceptuel intégrant l'IA/ML pour améliorer l'équité, la diversité et l'inclusion (EDI) dans les RCTs, combinant métriques de fairness, génération de données synthétiques, optimisation du recrutement et monitoring continu des biais. Le système FRAMM (Fair Ranking with Missing Modalities) a amélioré l'enrôlement des minorités jusqu'à 60 % en simulation. L'article illustre aussi l'usage du reinforcement learning pour adapter les protocoles aux populations sous-représentées.",
+        "source": "Springer / Trials Journal",
+        "url": "https://link.springer.com/article/10.1186/s13063-026-09537-2",
         "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "politique"
-      },
-      {
-        "titre": "Advancing Equity in Healthcare AI : biais algorithmiques et opacité dans les essais cliniques",
-        "resume": "Revue systématique publiée sur NHSJS en 2026 identifiant trois dimensions du biais algorithmique en santé : biais cognitif/sociétal, biais de données/mesure, et biais de modèle/systémique. L'opacité algorithmique aggrave ces biais et détruit la confiance clinique, illustrée par le cas ScreenTrustMRI où l'IA détecte des cancers mais n'explique pas ses scores de risque. Les auteurs recommandent le rééquilibrage des datasets et la transparence explicative comme mesures correctives prioritaires.",
-        "source": "NHSJS",
-        "url": "https://nhsjs.com/2026/advancing-equity-in-healthcare-ai-mitigating-bias-and-reducing-opacity/",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "biais algorithmique"
-      },
-      {
-        "titre": "Equity and AI Governance at Academic Medical Centers : faible engagement sur les enjeux d'équité",
-        "resume": "Étude AJMC publiée début octobre 2026 : une minorité des centres médicaux académiques étudiés intègre réellement l'équité, le racisme ou le biais dans leurs processus de gouvernance IA. La majorité conceptualise ces enjeux uniquement comme des caractéristiques de l'outil (biais algorithmique), sans questionner les implications plus larges pour les patients. Les disparités de ressources en technologie de santé entre systèmes sont identifiées comme menace structurelle pour l'équité.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/equity-and-ai-governance-at-academic-medical-centers",
-        "date_publication": "06/10/2026",
-        "pertinence": "haute",
-        "categorie": "biais algorithmique"
-      },
-      {
-        "titre": "Boosting Minority Participation in Clinical Trials : la méfiance médicale reste le frein principal",
-        "resume": "Article publié le 6 octobre 2026 sur OncNursingNews : seulement 3 à 5% des patients adultes atteints de cancer participent à des essais cliniques, et moins de 10% sont des minorités raciales et ethniques. La méfiance médicale est le facteur limitant le plus souvent cité, aggravée par des critères d'inclusion stricts qui excluent les patients âgés ou plurimorbides, groupes déjà vulnérables dans le système de santé.",
-        "source": "OncNursingNews",
-        "url": "https://oncnursingnews.com/view/boosting-minority-participation-in-clinical-trials",
-        "date_publication": "06/10/2026",
-        "pertinence": "haute",
-        "categorie": "recrutement"
+        "pertinence": "moyenne",
+        "categorie": "outil_ia"
       }
     ]
   }
