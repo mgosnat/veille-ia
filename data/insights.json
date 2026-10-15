@@ -1,49 +1,67 @@
 {
-  "generated_at": "2026-10-14T11:34:01.649146Z",
-  "date_fr": "14/10/2026",
+  "generated_at": "2026-10-15T11:11:39.395053Z",
+  "date_fr": "15/10/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Cisco WebexOne 2026 : cadre agentique Dialog et agents Claude dans les réunions d'entreprise",
-        "resume": "Le 7 octobre 2026 à Austin, Cisco a dévoilé à WebexOne un cadre agentique complet pour Webex, incluant Dialog (un harnais CX agentique) et l'intégration de Claude Managed Agents d'Anthropic directement dans les espaces, réunions et appels. Les collaborateurs peuvent @mentionner un agent pendant une réunion pour extraire des données ou mettre à jour des documents à la volée. L'Agent Observability avec Splunk est prévu en disponibilité générale en décembre 2026.",
-        "source": "Cisco Newsroom / SiliconAngle / Startup Fortune",
-        "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m10/cisco-unveils-new-agentic-collaboration-experiences.html",
-        "date_publication": "07/10/2026",
+        "titre": "Workday lance Sana comme nouvelle interface agentique RH et finance avec l'Agent Harness",
+        "resume": "Le 13 octobre 2026, Workday a annoncé lors de sa conférence Rising 2026 que Sana devient la nouvelle interface principale (Workday Home) permettant aux employés d'interagir en langage naturel avec des agents IA pour accomplir des tâches RH, finance et IT. Workday a également lancé l'Agent Harness en disponibilité générale, avec mémoire, garde-fous, contrôles de données régionaux et traces d'audit pas à pas. Sana s'intègre désormais dans Claude, Gemini Enterprise, Microsoft Copilot, Teams et Slack, transportant les permissions et règles métier de l'entreprise dans chaque plateforme.",
+        "source": "Workday Newsroom / Enterprise Times / SiliconAngle",
+        "url": "https://newsroom.workday.com/2026-10-13-Sana-Is-the-New-Workday-Home-A-Dynamic-Agentic-Experience-Built-to-Finish-the-Work,-Not-Just-Answer-Questions",
+        "date_publication": "13/10/2026",
         "pertinence": "haute",
-        "categorie": "produit"
+        "categorie": "cas_usage"
       },
       {
-        "titre": "LangGraph 1.2.13 en production : tutoriel step-by-step avec données réelles de 23 systèmes déployés",
-        "resume": "Mis à jour le 7 octobre 2026, ce tutoriel pratique couvre la construction d'agents LangGraph en production : schémas d'état, checkpointing PostgreSQL, human-in-the-loop, streaming SSE via FastAPI et Docker. L'auteur partage des données de coût réelles issues de 23 systèmes déployés, et confirme que LangGraph 1.2.13 atteint désormais 44,8 millions de téléchargements PyPI/mois. Uber, Cisco, LinkedIn et JPMorgan figurent parmi les entreprises utilisant LangGraph en production.",
-        "source": "jahanzaib.ai",
+        "titre": "Workday et Anthropic s'associent pour connecter Claude aux agents Sana RH et finance",
+        "resume": "Le 13 octobre 2026, Workday et Anthropic ont annoncé un partenariat intégrant le raisonnement de Claude directement dans les agents Sana de Workday pour les workflows RH et finance. Sana orchestre les agents Workday pour des processus complexes et de longue durée (cycle de compensation, clôture financière) tout en maintenant les données dans Workday. Le plugin 'Sana in Claude' est en accès anticipé, avec une disponibilité générale attendue fin 2026.",
+        "source": "Workday Newsroom / Unite.AI",
+        "url": "https://newsroom.workday.com/2026-10-13-Workday-and-Anthropic-Announce-New-Partnership-to-Connect-Reasoning-to-the-Rules-That-Run-the-Business,-Wherever-People-Choose-to-Work",
+        "date_publication": "13/10/2026",
+        "pertinence": "haute",
+        "categorie": "cas_usage"
+      },
+      {
+        "titre": "Google lance Gemini 4 Argon en disponibilité générale pour les workflows agentiques d'entreprise",
+        "resume": "Le 13 octobre 2026, Google a rendu Gemini 4 Argon globalement disponible pour les développeurs et entreprises via l'API Gemini, AI Studio et la plateforme Gemini Enterprise. Le modèle est conçu pour des workflows complexes de longue durée (migration de code, recherche d'entreprise, cybersécurité) avec une fenêtre de contexte unifiée de 1 048 576 tokens. Les premiers clients enterprise incluent Deloitte, LexisNexis, Ambience Healthcare et Isomorphic Labs ; la tarification d'introduction est de 2$/million tokens en entrée et 10$/million en sortie.",
+        "source": "VentureBeat / American Bazaar / Google Cloud Docs",
+        "url": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token",
+        "date_publication": "13/10/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "LangGraph vs CrewAI vs AutoGen : comparatif production mis à jour (LangGraph 1.2.13, oct. 2026)",
+        "resume": "Un tutoriel pratique basé sur 23 systèmes en production compare LangGraph (44,8 millions de téléchargements PyPI/mois, v1.2.13 à oct. 2026) et CrewAI pour des pipelines réels. LangGraph est recommandé pour les workflows stateful complexes avec branchements et checkpointing (utilisé par Uber, Cisco, LinkedIn, JPMorgan), tandis que CrewAI convient aux équipes d'agents par rôles. Les déploiements rapportent 10 à 15 heures de travail manuel économisées par semaine.",
+        "source": "jahanzaib.ai (LangGraph Tutorial)",
         "url": "https://www.jahanzaib.ai/blog/langgraph-tutorial-build-production-ai-agents",
         "date_publication": "07/10/2026",
         "pertinence": "haute",
         "categorie": "tutoriel"
       },
       {
-        "titre": "Cisco Dialog : harnais CX agentique pour Webex AI Agent — analyse terrain WebexOne 2026",
-        "resume": "Publié le 8 octobre 2026, cet article détaille le fonctionnement de Webex Dialog, le harnais agentique pour la gestion des interactions client après la fin d'un chat. L'agent Dialog s'améliore en continu depuis les parcours, les jugements humains et les exceptions, tout en restant dans le cadre des politiques d'entreprise. La beta est prévue en Q1 2027, avec le MCP Server Webex Contact Center en disponibilité générale dès octobre 2026.",
-        "source": "techmymoney.com",
-        "url": "https://techmymoney.com/2026/10/08/cisco-webex-dialog-agentic-harness-webexone/",
-        "date_publication": "08/10/2026",
+        "titre": "LangGraph vs CrewAI vs AutoGen : guide de production comparatif (Spheron, oct. 2026)",
+        "resume": "Publié il y a 12 jours, ce guide de production compare les trois frameworks dominants sur des critères terrain : observabilité, récupération après échec, coût d'exécution et human-in-the-loop. LangGraph offre un checkpointing natif (reprise au dernier nœud), CrewAI un mode hiérarchique permettant au manager LLM de re-déléguer en cas d'échec. L'article inclut un guide de déploiement CrewAI avec sizing GPU et câblage vLLM auto-hébergé.",
+        "source": "Spheron Network Blog",
+        "url": "https://www.spheron.network/blog/langgraph-vs-crewai-vs-autogen-2026/",
+        "date_publication": "03/10/2026",
         "pertinence": "haute",
-        "categorie": "produit"
+        "categorie": "tutoriel"
       },
       {
-        "titre": "Shakudo : Top 9 frameworks agents IA en octobre 2026 — comparatif terrain (LangGraph, CrewAI, Google ADK 2.0, MAF)",
-        "resume": "Publié il y a 12 jours (circa 2 octobre 2026), ce comparatif couvre les 9 principaux frameworks agentiques en production : LangGraph v1.2.7 (désormais autonome sans dépendances LangChain), CrewAI v1.15.1 (avec backends mémoire pluggables et support Snowflake Cortex), Google ADK 2.0 (moteur d'exécution graphe, annoncé à Google I/O 2026) et Microsoft Agent Framework v1.0 GA. Le guide cible des secteurs comme la finance, la santé et la logistique.",
-        "source": "Shakudo",
-        "url": "https://www.shakudo.io/blog/top-9-ai-agent-frameworks",
-        "date_publication": "02/10/2026",
+        "titre": "Kaspersky publie un rapport sur la sécurisation des agents IA autonomes en entreprise (semaine du 15 oct. 2026)",
+        "resume": "Kaspersky a publié cette semaine un rapport traitant les LLMs comme des composants non fiables dans les infrastructures d'entreprise autonomes, en appliquant ses principes de Cyber Immunity (isolation stricte, privilège minimal). Le rapport cadre les agents IA autonomes comme une surface d'attaque à part entière nécessitant une architecture de sécurité spécifique. L'approche préconisée s'applique directement aux déploiements d'agents en production.",
+        "source": "AI Agent Store (aiagentstore.ai)",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "15/10/2026",
         "pertinence": "moyenne",
-        "categorie": "outil"
+        "categorie": "retour_experience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : état des obligations au 6 octobre 2026 sous le règlement Omnibus 2026/1744",
-        "resume": "Au 6 octobre 2026, trois séries d'obligations sont en vigueur : pratiques interdites (depuis février 2025), obligations GPAI (depuis août 2025), et règles de transparence Article 50 (depuis août 2026). Le règlement Omnibus 2026/1744, publié le 24 juillet 2026, a reporté les obligations pour les systèmes à haut risque (Annexe III) au 2 décembre 2027. Cet article d'ActuIA, daté du 6 octobre, fournit un tableau de bord détaillé par rôle, pénalités et autorités de surveillance en France et en Allemagne.",
+        "titre": "EU AI Act : état des obligations en vigueur et délais post-Omnibus 2026/1744 (ActuIA, 6 oct. 2026)",
+        "resume": "Au 6 octobre 2026, trois ensembles de règles s'appliquent déjà aux entreprises : les pratiques interdites et la littératie IA (depuis fév. 2025), les obligations GPAI (depuis août 2025), et les règles de transparence de l'Article 50 (depuis 2 août 2026). Le règlement Omnibus 2026/1744 reporte les obligations pour les systèmes à haut risque autonomes (Annexe III) au 2 décembre 2027. Un tableau daté et détaillé couvre les rôles, pénalités et autorités de supervision en France et en Allemagne.",
         "source": "ActuIA",
         "url": "https://www.actuia.com/en/news/ai-act-obligations-in-force-and-delays-under-omnibus-2026-1744/",
         "date_publication": "06/10/2026",
@@ -51,76 +69,49 @@
         "categorie": "réglementation"
       },
       {
-        "titre": "EU AI Enforcement Tracker : 14 actions au 2 octobre 2026, toutes sous RGPD et non l'AI Act",
-        "resume": "Le tracker de vorplabs.com, mis à jour le 2 octobre 2026, recense 14 actions coercitives d'institutions européennes et d'autorités nationales impliquant des systèmes IA, plus 3 enquêtes annoncées. Toutes les amendes à ce jour ont été infligées sous le droit existant, principalement le RGPD — les pouvoirs propres à l'AI Act sont en phase de montée en charge. L'amende notable récente : 158 000 € infligée par le Garante italien à Character.AI pour manquements à la protection des mineurs (juillet 2026).",
-        "source": "vorplabs.com",
-        "url": "https://vorplabs.com/ai-regulatory-updates/eu-enforcement",
-        "date_publication": "02/10/2026",
-        "pertinence": "haute",
-        "categorie": "enforcement"
-      },
-      {
-        "titre": "AI Regulation News October 2026 : point mondial sur 15 pays — EU GPAI, bataille de préemption aux USA",
-        "resume": "Publié il y a 12 jours (circa 2 octobre 2026), ce rapport analyse octobre 2026 comme un tournant dans la gouvernance IA internationale. Après l'entrée en vigueur des obligations GPAI de l'EU AI Act le 2 août 2026, les équipes juridiques font face à des mises à jour réglementaires simultanées dans 15 pays (UE, USA, UK, Japon, Chine, Inde, Brésil, EAU, Singapour). Les gouvernements sont passés de lignes directrices volontaires à des pénalités statutaires contraignantes.",
-        "source": "cubbbix.com",
-        "url": "https://cubbbix.com/blog/ai-regulation-october-2026-global-update",
-        "date_publication": "02/10/2026",
+        "titre": "EU AI Act après l'Omnibus : ce qui s'applique de décembre 2026 à août 2028 (Technology.org, 13 oct. 2026)",
+        "resume": "Cet article du 13 octobre 2026 détaille précisément ce qui a bougé et ce qui est resté en place après l'Omnibus digital : les règles de transparence (Article 50) sont en vigueur depuis le 2 août 2026, tandis que les obligations pour les systèmes à haut risque (recrutement, scoring crédit, éducation, forces de l'ordre) démarrent le 2 décembre 2027. La supervision est centralisée : l'AI Office de l'UE obtient une compétence exclusive sur les systèmes basés sur des modèles GPAI du même fournisseur. Une entreprise qui aurait interprété 'l'AI Act est retardé' et stoppé sa conformité est déjà en retard sur certaines obligations.",
+        "source": "Technology.org",
+        "url": "https://www.technology.org/2026/10/13/eu-ai-act-deadlines-after-the-digital-omnibus-what-applies-from-december-2026-to-august-2028/",
+        "date_publication": "13/10/2026",
         "pertinence": "haute",
         "categorie": "réglementation"
       },
       {
-        "titre": "AI Act Governance and Enforcement Framework : mise à jour Commission européenne, 2 octobre 2026",
-        "resume": "La Commission européenne a clarifié l'architecture de supervision effective depuis le 2 août 2026 : l'AI Office détient la supervision primaire des modèles GPAI et la coordination transfrontalière. Les autorités nationales supervisent les systèmes à haut risque dans leurs territoires respectifs. Le règlement 2026/1744 a par ailleurs décalé les obligations substantielles pour les systèmes à haut risque. Une correction factuelle importante a été apportée le 2 octobre 2026 sur les dates de l'Annexe I.",
-        "source": "aigovernance.com",
-        "url": "https://aigovernance.com/policy/eu-ai-act-enforcement-framework-2026",
-        "date_publication": "02/10/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "EU AI Act : mise à jour de l'AI Omnibus — délais reportés, nouvelles implications stratégiques pour les entreprises",
-        "resume": "Mis à jour le 12 octobre 2026, cet article de dawiso.com analyse les conséquences stratégiques du règlement Omnibus 2026/1744 : les délais pour les systèmes à haut risque standalone sont reportés au 2 décembre 2027, ceux intégrés à des produits réglementés au 2 août 2028. Deux nouvelles interdictions sont introduites (imagerie intime non-consensuelle générée par IA). L'article souligne que le report est une pause et non un abandon du cadre.",
-        "source": "dawiso.com",
-        "url": "https://www.dawiso.com/blog-post/ai-omnibus-eu-ai-act-changes",
-        "date_publication": "12/10/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "EU AI Act Enforcement Framework : enforcement page de la Commission européenne mise à jour (8 jours)",
-        "resume": "La page officielle de la Commission européenne sur l'enforcement de l'AI Act, mise à jour il y a 8 jours, rappelle que les pouvoirs coercitifs de l'AI Office et des autorités nationales s'appliquent depuis le 2 août 2026. Parmi les obligations déjà actives : la transparence des chatbots (obligation de signaler qu'on interagit avec une IA), le marquage des deepfakes, et l'intégration de marques lisibles par machine dans le contenu synthétique.",
-        "source": "Commission européenne",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
-        "date_publication": "06/10/2026",
-        "pertinence": "haute",
-        "categorie": "enforcement"
+        "titre": "'Traiter l'IA comme une entité unique paralyse les stratégies d'entreprise' — analyse gouvernance (AIJourn, 15 oct. 2026)",
+        "resume": "Publié le 15 octobre 2026, cet article argue que l'échec exécutif profond est un défaut de gouvernance : l'EU AI Act expose que l'IA n'est pas une entité unique, et que la transparence de l'Article 50 (applicable depuis le 2 août 2026) doit pénétrer bien en dessous de la surface pour l'IA d'entreprise. L'auteur plaide pour que la lecture la plus mature de l'AI Act commence par les données et les personnes, pas par le modèle, et que la responsabilité traverse désormais toute la chaîne de valeur IA.",
+        "source": "AIJourn",
+        "url": "https://aijourn.com/demystifying-the-fog-why-treating-ai-as-a-single-entity-is-paralyzing-enterprise-strategies/",
+        "date_publication": "15/10/2026",
+        "pertinence": "moyenne",
+        "categorie": "gouvernance_entreprise"
       }
     ],
     "clinique": [
       {
-        "titre": "Penn LDI : des incitations financières de 200 $ et 500 $ éliminent totalement l'écart d'inscription entre patients Noirs et Blancs en essais cliniques",
-        "resume": "Publié le 12 octobre 2026 par la Leonard Davis Institute (Université de Pennsylvanie), cette étude secondaire de l'étude RETAIN montre que des incitations financières de 200 $ et 500 $ ont entièrement supprimé l'écart d'enrollment entre participants Noirs et Blancs dans un essai de sevrage tabagique avec dépression. Les résultats, publiés dans JAMA Internal Medicine, montrent également un rétrécissement des écarts par sexe, éducation et âge, mais ces résultats ne sont pas statistiquement significatifs. L'étude portait sur 454 participants.",
-        "source": "Penn LDI (Leonard Davis Institute)",
+        "titre": "Penn LDI : des incitations financières de 200 $ et 500 $ éliminent totalement l'écart d'enrôlement Noir/Blanc dans les essais cliniques (JAMA Internal Medicine, oct. 2026)",
+        "resume": "Publiée le 12 octobre 2026 par l'Université de Pennsylvanie, cette analyse secondaire de l'étude RETAIN (publiée dans JAMA Internal Medicine) montre que des incitations financières de 200 $ et 500 $ ont totalement éliminé l'écart d'enrôlement entre participants Noirs et Blancs dans un essai clinique randomisé sur le sevrage tabagique. Des réductions de l'écart ont également été observées pour le sexe, l'éducation et l'âge, mais ces résultats nécessitent confirmation. L'étude portait sur 454 participants, ce qui constitue une limite.",
+        "source": "Penn LDI (Leonard Davis Institute of Health Economics)",
         "url": "https://ldi.upenn.edu/our-work/research-updates/what-would-it-take-to-make-clinical-trials-more-diverse/",
         "date_publication": "12/10/2026",
         "pertinence": "haute",
-        "categorie": "recherche"
+        "categorie": "recherche_equite"
       },
       {
-        "titre": "Beyond Outreach : les déterminants structurels de la représentation en essais cliniques",
-        "resume": "Publié le 12 octobre 2026 dans Applied Clinical Trials Online, ce commentaire de Rebecca Johnson, PhD, argue que 80 % des sponsors n'atteignent pas leurs objectifs de représentation malgré des investissements visibles (décentralisation, flexibilité des visites, traductions). L'article démontre que les décisions de protocole, d'éligibilité et de sélection de sites — prises bien avant le premier patient — sont les vrais déterminants structurels de la représentation. Un changement systémique est nécessaire, pas seulement des efforts de recrutement.",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://appliedclinicaltrialsonline.com/view/outreach-structural-drivers-representation-clinical-trials",
-        "date_publication": "12/10/2026",
+        "titre": "Penn Medicine / JAMA : les incitations financières doublent le taux d'arrêt du tabac chez les populations sous-représentées en dépistage cancer du poumon",
+        "resume": "Publié le 5 octobre 2026 dans le JAMA, cet essai clinique randomisé de grande envergure (3 228 participants dans 4 systèmes de santé) montre que des incitations financières jusqu'à 600 $ ont quasi-doublé les taux de sevrage tabagique chez les adultes médicalement défavorisés orientés vers le dépistage du cancer du poumon. Les participants incluaient des individus Noirs et Hispaniques, des résidents ruraux et des personnes à faible revenu — des groupes historiquement exclus des études précédentes. Le taux d'abstinence soutenue atteignait 8,8 % dans le groupe incitations vs 4,3 % en soins habituels.",
+        "source": "Penn Medicine / JAMA / Medscape",
+        "url": "https://www.pennmedicine.org/news/cash-rewards-help-underserved-adults-quit-smoking",
+        "date_publication": "05/10/2026",
         "pertinence": "haute",
-        "categorie": "analyse"
+        "categorie": "recherche_equite"
       },
       {
-        "titre": "FDA Diversity Action Plan : statut au 3 octobre 2026 — guidance finale toujours absente, obligations en suspens",
-        "resume": "Publié il y a 11 jours (circa 3 octobre 2026), cet article de Sakara Digital précise qu'au 3 août 2026, la FDA n'a toujours pas publié la guidance finale sur les Diversity Action Plans — pourtant statutairement due depuis juin 2025. Sans cette guidance finale, le délai de 180 jours ne peut pas s'enclencher et les obligations de soumission restent techniquement non contraignantes. Le contexte politique (executive order DEI de janvier 2025) complique la publication.",
-        "source": "sakaradigital.com",
-        "url": "https://sakaradigital.com/blog/clinical-trial-diversity-action-plans-data-systems/",
-        "date_publication": "03/10/2026",
+        "titre": "FDA : suppression puis restauration de la guidance sur la diversité dans les essais cliniques — état des lieux au 15 oct. 2026",
+        "resume": "L'AJMC rappelle mi-octobre 2026 que la FDA a discrètement retiré sa guidance sur les plans d'action pour la diversité dans les essais cliniques à la suite d'un décret exécutif Trump sur le DEI en janvier 2025, avant qu'un tribunal fédéral n'ordonne sa restauration. La guidance reste aujourd'hui en ligne avec la mention qu'elle n'est 'pas pour implementation', et la FDA n'a pas publié la guidance finale malgré l'échéance statutaire de juin 2025. Cette situation laisse les sponsors dans l'incertitude quant à leurs obligations de conformité.",
+        "source": "AJMC (American Journal of Managed Care)",
+        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
+        "date_publication": "15/10/2026",
         "pertinence": "haute",
         "categorie": "réglementation"
       }
