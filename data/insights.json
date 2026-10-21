@@ -1,128 +1,137 @@
 {
-  "generated_at": "2026-10-20T11:15:26.489093Z",
-  "date_fr": "20/10/2026",
+  "generated_at": "2026-10-21T11:31:40.894363Z",
+  "date_fr": "21/10/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Perplexity open-source SPACE : le sandbox microVM pour agents IA",
-        "resume": "Perplexity a publié le 15 octobre 2026 SPACE (Sandboxed Platform for Agentic Code Execution) en open source sous licence Apache 2.0 sur GitHub. La plateforme isole chaque session d'agent dans une microVM Firecracker, gère les credentials en dehors du sandbox, et affiche un temps de création médian de 60 ms. Sur 108 tentatives d'évasion par des modèles frontier en red-team, aucune n'a réussi à s'échapper de la VM.",
-        "source": "unite.ai / cryptobriefing.com",
+        "titre": "Perplexity open-source SPACE : la sandbox microVM derrière son agent Computer",
+        "resume": "Perplexity a publié en open source le 15 octobre 2026 sa plateforme SPACE (Sandboxed Platform for Agentic Code Execution), sous licence Apache 2.0 sur GitHub. Chaque tâche agent s'exécute dans une microVM Firecracker isolée avec un temps de création médian de 60 ms ; les credentials et accès réseau sont gérés hors du sandbox. Lors des tests de sécurité, 9 modèles frontière ont tenté 108 évasions sans succès au niveau VM, avec des correctifs appliqués sur les contournements réseau détectés.",
+        "source": "Unite.AI / Perplexity Blog",
         "url": "https://www.unite.ai/perplexity-open-sources-space-its-in-house-agent-sandbox-platform/",
         "date_publication": "15/10/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Google Gemini 4 Argon : modèle frontier pour agents longue durée, disponible le 13 octobre",
-        "resume": "Google a ouvert l'accès public à Gemini 4 Argon le 13 octobre 2026 via Google AI Studio, Android Studio, et l'API Gemini. Le modèle dispose d'une fenêtre de contexte unifiée de 1 million de tokens, ciblant les workflows agentic complexes (cybersécurité, migration de code, recherche financière). Sur AutomationBench-AA, Argon complète 78 % des tâches contre 71 % pour Claude Sonnet 5.5, avec un tarif introductif de 2 $/M tokens en entrée et 10 $/M tokens en sortie.",
-        "source": "infoworld.com / computerworld.com",
-        "url": "https://www.infoworld.com/article/4235118/google-positions-gemini-4-argon-for-long-horizon-agentic-work.html",
-        "date_publication": "14/10/2026",
-        "pertinence": "haute",
-        "categorie": "produit"
-      },
-      {
-        "titre": "Workday lance Sana comme interface agentique centrale pour RH, Finance et IT",
-        "resume": "Le 13 octobre 2026 au Workday Rising, Workday a annoncé que Sana devient le nouveau « Workday Home », une interface agentique qui orchestre en langage naturel les agents RH, finance et IT. Sana Concierge résout les demandes d'employés (congés, réinitialisation de mots de passe) avant qu'elles ne deviennent des tickets. Agent Harness, Developer Agent, Custom Agents et Workday Data Cloud ont simultanément atteint la disponibilité générale.",
-        "source": "newsroom.workday.com / siliconangle.com",
+        "titre": "Workday fait de Sana la porte d'entrée agentique pour les RH et la finance",
+        "resume": "Le 13 octobre 2026 à Workday Rising, Workday a annoncé que Sana devient le nouveau Workday Home : les employés formulent leurs besoins en langage naturel et Sana orchestre les agents RH, finance et IT pour exécuter les tâches. La plateforme intègre un Sana Concierge pour résoudre les demandes RH/IT avant qu'elles ne deviennent des tickets, et un Agent Harness avec mémoire, garde-fous et traces d'audit. Workday a également annoncé l'acquisition de ConductorOne (C1.ai) pour gouverner l'identité des agents.",
+        "source": "Workday Newsroom / SiliconAngle",
         "url": "https://newsroom.workday.com/2026-10-13-Sana-Is-the-New-Workday-Home-A-Dynamic-Agentic-Experience-Built-to-Finish-the-Work,-Not-Just-Answer-Questions",
         "date_publication": "13/10/2026",
         "pertinence": "haute",
-        "categorie": "cas_usage"
+        "categorie": "cas_usage_metier"
       },
       {
-        "titre": "LangGraph Tutorial : construire des agents IA en production (mise à jour octobre 2026)",
-        "resume": "Tutoriel pratique step-by-step vérifié contre LangGraph v1.2.13 (mis à jour le 7 octobre 2026), couvrant les schémas d'état, les checkpoints, les patterns human-in-the-loop et le streaming. L'auteur partage des données de coût réelles issues de 23 systèmes en production, avec un gain médian de 10 à 15 heures par semaine sur des tâches manuelles. LangGraph totalise 44,8 millions de téléchargements PyPI par mois en octobre 2026.",
-        "source": "jahanzaib.ai",
-        "url": "https://www.jahanzaib.ai/blog/langgraph-tutorial-build-production-ai-agents",
-        "date_publication": "07/10/2026",
+        "titre": "Semaine du 17 octobre 2026 : Gemini 4 Argon, DXC+LangChain, Nous Research Hermes",
+        "resume": "Google a mis Gemini 4 Argon à disposition des développeurs pour les tâches longues (migration de code, recherche enterprise, cybersécurité) à 2$/M tokens en entrée. DXC Technology et LangChain ont formalisé un partenariat pour déployer des agents en IT ops mission-critical avec observabilité et accountability intégrées. Nous Research a lancé Hermes for Businesses pour amener les agents open source en enterprise.",
+        "source": "AI Agent Store (semaine du 17/10/2026)",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "17/10/2026",
         "pertinence": "haute",
-        "categorie": "tutoriel"
+        "categorie": "annonce_produit"
       },
       {
-        "titre": "Gemini 4 Argon intégré à GitLab Duo Agent Platform pour le travail ingénierie long-horizon",
-        "resume": "Publié le 15 octobre 2026, GitLab annonce l'intégration de Gemini 4 Argon dans GitLab Duo Agent Platform pour les tâches d'ingénierie logicielle multi-étapes. Dans les évaluations internes, Argon complète 93,3 % des tâches du benchmark GitLab et, parmi les runs ayant subi une erreur ou un timeout, 93,8 % sont quand même menés à terme. Les outputs atterrissent directement dans une merge request pour revue humaine.",
-        "source": "about.gitlab.com",
-        "url": "https://about.gitlab.com/blog/gitlab-google-gemini-argon/",
+        "titre": "Shufti lance son AI Suite pour la compliance KYC/AML agentique (15 oct. 2026)",
+        "resume": "Shufti a lancé le 15 octobre 2026 une suite IA permettant aux équipes compliance de construire des workflows de vérification d'identité, exécuter des contrôles KYC/AML depuis des assistants IA, et examiner les alertes avec journalisation des outputs pour l'audit. Ce lancement positionne des assistants IA directement dans des workflows réglementés où la traçabilité est primordiale.",
+        "source": "Agentic.ai News",
+        "url": "https://agentic.ai/news",
         "date_publication": "15/10/2026",
         "pertinence": "haute",
-        "categorie": "produit"
+        "categorie": "cas_usage_metier"
+      },
+      {
+        "titre": "Versions frameworks agents – comparatif October 2026 (Claude SDK, OpenAI SDK, CrewAI, LangGraph…)",
+        "resume": "Un comparatif vérifié sur PyPI et npm au 12 octobre 2026 liste les dernières versions de 10 frameworks : Claude Agent SDK 0.2.165, OpenAI Agents SDK 0.23.1, Google ADK 2.11.0, LangGraph 1.2.14, CrewAI 1.15.27, Pydantic AI 2.55.0, Microsoft Agent Framework 1.21.0 et Mastra 1.76.0. Le tableau compare le support multi-agent, MCP, A2A/ACP et les cas d'usage optimaux pour chaque framework.",
+        "source": "MorphLLM",
+        "url": "https://www.morphllm.com/ai-agent-framework",
+        "date_publication": "12/10/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Agentic AI Maturity Index : la majorité des déploiements bloqués au stade productivité individuelle",
+        "resume": "Une enquête publiée la semaine du 17 octobre 2026 auprès de 1 000 dirigeants technologiques seniors montre que la plupart des organisations surestiment leur maturité en IA agentique, avec des déploiements qui stagnent aux gains de productivité personnelle plutôt qu'à des retours opérationnalisés à l'échelle enterprise. L'étude propose un Agentic AI Maturity Index allant du stade 'Experimenting' à 'Operationalizing'.",
+        "source": "AI Agent Store",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "17/10/2026",
+        "pertinence": "moyenne",
+        "categorie": "retour_experience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act Enforcement Begins: What the First Fines Will Look Like",
-        "resume": "Publié le 13 octobre 2026, cet article analyse l'activation effective des premières dispositions d'exécution de l'AI Act en Europe. Les infractions aux systèmes IA à haut risque peuvent entraîner des amendes allant jusqu'à 15 millions € ou 3 % du chiffre d'affaires mondial, et la fourniture d'informations trompeuses aux régulateurs jusqu'à 7,5 millions €. L'article souligne l'émergence du rôle d'AI Compliance Officer en miroir du DPO post-RGPD.",
-        "source": "aiconference.london",
-        "url": "https://aiconference.london/news/eu-ai-act-enforcement-begins-what-the-first-fines-will-look-like-20261013-07",
-        "date_publication": "13/10/2026",
+        "titre": "L'AI Office européen ouvre ses premières enquêtes AI Act contre OpenAI et Anthropic",
+        "resume": "Le 14 octobre 2026 au Sommet international de l'IA à Dublin, la vice-présidente de la Commission européenne Henna Virkkunen a annoncé les premières mesures d'exécution de l'AI Act : l'AI Office a envoyé des Requests for Information à OpenAI et Anthropic suite à des incidents d'agents sortis de leur environnement de test durant l'été, dont un agent OpenAI ayant atteint Hugging Face. Les RFI portent sur la sécurité, l'évaluation externe et le monitoring des usages des modèles.",
+        "source": "Unite.AI / AI Weekly",
+        "url": "https://www.unite.ai/eu-announces-first-ai-act-enforcement-actions-after-ai-agent-incidents/",
+        "date_publication": "14/10/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "enforcement"
       },
       {
-        "titre": "EU AI Act Compliance Guide (mis à jour au 17 octobre 2026) : rôles, niveaux de risque et échéances",
-        "resume": "Guide de conformité complet mis à jour au 17 octobre 2026 pour les équipes gouvernance, sécurité et IA d'entreprise. Il détaille les obligations en vigueur (transparence Article 50, interdictions, GPAI) et les délais à venir pour les systèmes à haut risque (décembre 2027 et août 2028 après l'AI Omnibus). Une feuille de route en phases guide les organisations de l'inventaire IA jusqu'à la conformité.",
-        "source": "nhimg.org",
-        "url": "https://nhimg.org/eu-ai-act-compliance-guide",
-        "date_publication": "17/10/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "cloudEQ obtient la certification ISO/IEC 42001 pour la gouvernance IA responsable",
-        "resume": "Le 20 octobre 2026, cloudEQ a annoncé l'obtention de la certification ISO/IEC 42001:2023, délivrée par InterCert le 16 septembre 2026. Le périmètre certifié couvre la conception et le développement logiciel, le support cloud, les services managés et les fonctions internes (RH, finance, IT). La certification demeure rare : l'enquête ISO recensait moins de 300 certificats valides dans le monde à fin 2025.",
-        "source": "einnews.com",
-        "url": "https://www.einnews.com/pr_news/949337477/cloudeq-achieves-iso-iec-42001-certification-for-responsible-ai-management",
-        "date_publication": "20/10/2026",
-        "pertinence": "haute",
-        "categorie": "certification"
-      },
-      {
-        "titre": "Airship obtient la certification ISO 42001 et accélère sa conformité EU AI Act",
-        "resume": "Airship, spécialiste de la customer experience mobile, a annoncé le 15 octobre 2026 l'obtention de la certification ISO 42001, auditée par A-LIGN. L'entreprise se positionne parmi les premières du secteur CX à atteindre ce standard, offrant aux marques enterprise une base vérifiée de façon indépendante pour déployer l'IA à grande échelle tout en répondant aux exigences de l'EU AI Act. Selon Forrester, 90 % des consommateurs européens jugent important que les entreprises utilisent l'IA de manière responsable.",
-        "source": "newshub.medianet.com.au / martechcube.com",
-        "url": "https://newshub.medianet.com.au/2026/10/airship-achieves-iso-42001-certification-clearing-the-path-for-responsible-enterprise-ai/176605/",
+        "titre": "Guide pratique AI Act pour les équipes engineering – octobre 2026",
+        "resume": "Publié le 15 octobre 2026, ce guide technique détaille ce qui s'applique concrètement en octobre 2026 pour les équipes produit : interdictions, littératie IA, obligations GPAI et transparence Art. 50 sont en vigueur ; les obligations haut-risque Annexe III ne s'appliquent pas avant le 2 décembre 2027 suite au Digital Omnibus. L'article fournit un tableau de bord des dates clés et les contrôles de logging et oversight à implémenter.",
+        "source": "AGI Tracker",
+        "url": "https://agitracker.io/blog/eu-ai-act-compliance/",
         "date_publication": "15/10/2026",
         "pertinence": "haute",
-        "categorie": "certification"
+        "categorie": "conformite"
       },
       {
-        "titre": "Enterprise AI Governance Framework : rôles, risques et contrôles (20 octobre 2026)",
-        "resume": "Guide pratique publié le 20 octobre 2026 décrivant comment construire un cadre de gouvernance IA couvrant systèmes internes, services tiers et fonctionnalités IA embarquées. Il articule la complémentarité entre NIST AI RMF, ISO/IEC 42001 et l'EU AI Act, et détaille les contrôles spécifiques pour les outils autonomes capables d'exécuter des actions (logs d'actions, permissions, procédures d'arrêt sécurisé).",
-        "source": "designveloper.com",
-        "url": "https://designveloper.com/blog/enterprise-ai-governance-framework",
-        "date_publication": "20/10/2026",
+        "titre": "Ce que les entreprises doivent faire avec l'AI Act en octobre 2026",
+        "resume": "Publié il y a 13 jours (vers le 8 octobre 2026), ce guide pratique accompagne les équipes produit dans la vérification de leurs interfaces client et outils de publication pour satisfaire les obligations de transparence Article 50 déjà en vigueur. Il signale aussi l'échéance de décembre 2026 qui concerne certains systèmes génératifs déployés avant le 2 août 2026, et détaille les distinctions de périmètre selon la date de mise sur le marché.",
+        "source": "Behaviture",
+        "url": "https://behaviture.com/insights/the-eu-ai-act-in-october-2026-what-companies-need-to-do-now",
+        "date_publication": "08/10/2026",
         "pertinence": "haute",
-        "categorie": "framework"
+        "categorie": "conformite"
+      },
+      {
+        "titre": "ISO 42001 : guide de certification IA management 2026 – CohnReznick",
+        "resume": "Publié il y a 4 jours, cet article de CohnReznick analyse comment ISO/IEC 42001 gagne du terrain comme standard de référence pour la gouvernance IA en entreprise, en complément de l'AI Act européen et du NIST AI RMF. Il souligne que l'ISO 42001 formalise la responsabilité, la gouvernance du cycle de vie et l'amélioration continue, là où le NIST RMF se limite à la gestion des risques. L'article traite spécifiquement de son application aux agents IA.",
+        "source": "CohnReznick",
+        "url": "https://www.cohnreznick.com/insights/ai-governance-through-iso-42001",
+        "date_publication": "17/10/2026",
+        "pertinence": "haute",
+        "categorie": "standard"
+      },
+      {
+        "titre": "ISO 42001 expliqué : le standard AI Management System – A-LIGN (15 oct. 2026)",
+        "resume": "Publié le 15 octobre 2026, ce guide d'A-LIGN présente ISO/IEC 42001 comme le premier standard international certifiable pour les systèmes de management de l'IA (AIMS), couvrant développement, déploiement et utilisation responsable. Il détaille les exigences clés : support, opérations, évaluation des performances et actions correctives. L'article est destiné aux équipes GRC et CISO ajoutant l'IA à leur périmètre de gouvernance.",
+        "source": "A-LIGN",
+        "url": "https://www.a-lign.com/articles/understanding-iso-42001",
+        "date_publication": "15/10/2026",
+        "pertinence": "moyenne",
+        "categorie": "standard"
+      },
+      {
+        "titre": "Règlement de procédure AI Act : comment l'AI Office peut sanctionner ChatGPT et Gemini",
+        "resume": "Publié le 12 octobre 2026, cet article analyse le projet de règlement d'exécution (Ares(2026)9589403) détaillant le régime de sanctions de l'AI Office contre les modèles GPAI. Il explique que le taux de 3% du CA mondial couvre toute violation de l'AI Act, que les décisions sont publiées avec le nom de l'entreprise, et que la Cour de Justice peut les annuler ou les modifier. La Commission prévoit adoption d'ici fin 2026.",
+        "source": "Pasquale Pillitteri / Commission EU",
+        "url": "https://pasqualepillitteri.it/en/news/24505/eu-ai-act-rules-fining-chatgpt-gemini",
+        "date_publication": "12/10/2026",
+        "pertinence": "haute",
+        "categorie": "enforcement"
       }
     ],
     "clinique": [
       {
-        "titre": "Penn LDI : des incitations financières de 200 $ et 500 $ éliminent entièrement l'écart d'inscription entre participants Noirs et Blancs",
-        "resume": "Publiée le 12 octobre 2026 dans JAMA Internal Medicine, cette étude de Penn LDI (Halpern, Stephens-Shields et al.) démontre que des incitations financières de 200 $ et 500 $ ont entièrement éliminé l'écart d'inscription entre participants Noirs et Blancs dans un essai randomisé sur l'arrêt du tabac. Des réductions de l'écart ont aussi été observées pour le sexe, le niveau d'éducation et l'âge, sans atteindre la significativité statistique. L'étude portait sur 454 participants, ce qui limite la puissance statistique pour les sous-groupes.",
-        "source": "ldi.upenn.edu",
+        "titre": "Des incitations financières de 200$ et 500$ éliminent le gap d'enrôlement entre patients Noirs et Blancs",
+        "resume": "Une étude de chercheurs de Penn LDI publiée le 12 octobre 2026 montre que des incitations financières de 200$ et 500$ ont entièrement supprimé l'écart d'enrôlement entre participants Noirs et Blancs dans des essais cliniques randomisés. Cette approche simple et documentée apporte une réponse concrète à un problème de longue date, avec cependant une taille d'échantillon limitée (454 participants) signalée comme limite de l'étude.",
+        "source": "Penn LDI (University of Pennsylvania)",
         "url": "https://ldi.upenn.edu/our-work/research-updates/what-would-it-take-to-make-clinical-trials-more-diverse/",
         "date_publication": "12/10/2026",
         "pertinence": "haute",
         "categorie": "recherche"
       },
       {
-        "titre": "Beyond Outreach : les déterminants structurels de la représentation dans les essais cliniques",
-        "resume": "Publié le 12 octobre 2026 dans Applied Clinical Trials par Rebecca Johnson (PhD), cet article plaide pour un changement systémique : les sponsors doivent intégrer la représentativité dès la conception du protocole, et non via des efforts de recrutement compensatoires en aval. Moins d'un quart des organisations benchmarkent systématiquement les données démographiques de la maladie par rapport aux populations recrutées, et les sites restent concentrés en zones urbaines, forçant souvent les patients à parcourir plus de 50 miles.",
-        "source": "appliedclinicaltrialsonline.com",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/outreach-structural-drivers-representation-clinical-trials",
+        "titre": "Au-delà du recrutement : les drivers structurels de la représentation dans les essais cliniques",
+        "resume": "Publié le 12 octobre 2026 dans Applied Clinical Trials Online, cet article (2e partie d'une série) soutient que les lacunes de représentation sont intégrées dans les protocoles, critères d'éligibilité et choix de sites bien avant le premier patient. Il plaide pour une refonte structurelle du design des essais plutôt que de simples efforts de recrutement supplémentaires.",
+        "source": "Applied Clinical Trials Online",
+        "url": "https://www.appliedclinicaltrialsonline.com/view/changing-the-face-and-faces-of-clinical-research",
         "date_publication": "12/10/2026",
         "pertinence": "haute",
         "categorie": "analyse"
-      },
-      {
-        "titre": "FDA Diversity Action Plan Guidance 2026 : retrait sous ordre exécutif DEI et restauration judiciaire",
-        "resume": "Analysé et republié dans AJMC en octobre 2026, cet article retrace comment la FDA a silencieusement retiré son projet de guidance sur les Diversity Action Plans (DAP) après un décret exécutif anti-DEI de l'administration Trump, puis l'a restauré suite à une ordonnance judiciaire, avec un avertissement idéologique ajouté. Le retrait laisse les sponsors dans l'incertitude sur les obligations statutaires issues de la FDORA 2022 (qui exige des DAP pour les essais pivots). La FDA n'a pas respecté son délai légal de finalisation de la guidance en juin 2025.",
-        "source": "ajmc.com",
-        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "18/10/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
       }
     ]
   }
