@@ -1,47 +1,20 @@
 {
-  "generated_at": "2026-10-21T11:31:40.894363Z",
-  "date_fr": "21/10/2026",
+  "generated_at": "2026-10-22T11:31:47.380690Z",
+  "date_fr": "22/10/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Perplexity open-source SPACE : la sandbox microVM derrière son agent Computer",
-        "resume": "Perplexity a publié en open source le 15 octobre 2026 sa plateforme SPACE (Sandboxed Platform for Agentic Code Execution), sous licence Apache 2.0 sur GitHub. Chaque tâche agent s'exécute dans une microVM Firecracker isolée avec un temps de création médian de 60 ms ; les credentials et accès réseau sont gérés hors du sandbox. Lors des tests de sécurité, 9 modèles frontière ont tenté 108 évasions sans succès au niveau VM, avec des correctifs appliqués sur les contournements réseau détectés.",
-        "source": "Unite.AI / Perplexity Blog",
-        "url": "https://www.unite.ai/perplexity-open-sources-space-its-in-house-agent-sandbox-platform/",
-        "date_publication": "15/10/2026",
+        "titre": "Cas d'usage terrain : agent n8n de triage email chez Fieldnote – résultats en 90 jours",
+        "resume": "Un retour d'expérience documenté décrit comment l'équipe Fieldnote a remplacé un workflow Zapier basé sur des règles par un agent à trois couches orchestré via n8n, Claude 3.5 Sonnet et Pinecone. En 90 jours, le temps de première réponse a chuté de 14h à 4,5h (-68 %), la charge par agent a baissé de 31 % et le taux d'autonomie de l'agent a atteint 62 % des tickets traités sans édition humaine. L'article détaille l'architecture complète et les points de friction rencontrés.",
+        "source": "Neura Market",
+        "url": "https://www.neura.market/blog/ai-agents-in-production-a-2026-case-study",
+        "date_publication": "16/10/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "retour_experience"
       },
       {
-        "titre": "Workday fait de Sana la porte d'entrée agentique pour les RH et la finance",
-        "resume": "Le 13 octobre 2026 à Workday Rising, Workday a annoncé que Sana devient le nouveau Workday Home : les employés formulent leurs besoins en langage naturel et Sana orchestre les agents RH, finance et IT pour exécuter les tâches. La plateforme intègre un Sana Concierge pour résoudre les demandes RH/IT avant qu'elles ne deviennent des tickets, et un Agent Harness avec mémoire, garde-fous et traces d'audit. Workday a également annoncé l'acquisition de ConductorOne (C1.ai) pour gouverner l'identité des agents.",
-        "source": "Workday Newsroom / SiliconAngle",
-        "url": "https://newsroom.workday.com/2026-10-13-Sana-Is-the-New-Workday-Home-A-Dynamic-Agentic-Experience-Built-to-Finish-the-Work,-Not-Just-Answer-Questions",
-        "date_publication": "13/10/2026",
-        "pertinence": "haute",
-        "categorie": "cas_usage_metier"
-      },
-      {
-        "titre": "Semaine du 17 octobre 2026 : Gemini 4 Argon, DXC+LangChain, Nous Research Hermes",
-        "resume": "Google a mis Gemini 4 Argon à disposition des développeurs pour les tâches longues (migration de code, recherche enterprise, cybersécurité) à 2$/M tokens en entrée. DXC Technology et LangChain ont formalisé un partenariat pour déployer des agents en IT ops mission-critical avec observabilité et accountability intégrées. Nous Research a lancé Hermes for Businesses pour amener les agents open source en enterprise.",
-        "source": "AI Agent Store (semaine du 17/10/2026)",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "17/10/2026",
-        "pertinence": "haute",
-        "categorie": "annonce_produit"
-      },
-      {
-        "titre": "Shufti lance son AI Suite pour la compliance KYC/AML agentique (15 oct. 2026)",
-        "resume": "Shufti a lancé le 15 octobre 2026 une suite IA permettant aux équipes compliance de construire des workflows de vérification d'identité, exécuter des contrôles KYC/AML depuis des assistants IA, et examiner les alertes avec journalisation des outputs pour l'audit. Ce lancement positionne des assistants IA directement dans des workflows réglementés où la traçabilité est primordiale.",
-        "source": "Agentic.ai News",
-        "url": "https://agentic.ai/news",
-        "date_publication": "15/10/2026",
-        "pertinence": "haute",
-        "categorie": "cas_usage_metier"
-      },
-      {
-        "titre": "Versions frameworks agents – comparatif October 2026 (Claude SDK, OpenAI SDK, CrewAI, LangGraph…)",
-        "resume": "Un comparatif vérifié sur PyPI et npm au 12 octobre 2026 liste les dernières versions de 10 frameworks : Claude Agent SDK 0.2.165, OpenAI Agents SDK 0.23.1, Google ADK 2.11.0, LangGraph 1.2.14, CrewAI 1.15.27, Pydantic AI 2.55.0, Microsoft Agent Framework 1.21.0 et Mastra 1.76.0. Le tableau compare le support multi-agent, MCP, A2A/ACP et les cas d'usage optimaux pour chaque framework.",
+        "titre": "Versions d'octobre 2026 des principaux frameworks agents : tableau comparatif vérifié",
+        "resume": "MorphLLM a publié le 12 octobre 2026 un tableau de versions vérifié sur PyPI et npm listant les dernières releases de 10 frameworks : Claude Agent SDK (0.2.165 du 08/10), OpenAI Agents SDK (0.23.1 du 02/10), Google ADK 2.11.0, LangGraph 1.2.14, CrewAI 1.15.27, Pydantic AI 2.55.0, Mastra 1.76.0 et Microsoft Agent Framework 1.21.0. L'article inclut une matrice comparative sur le support MCP, A2A/ACP et les cas d'usage optimaux par framework. Toutes les versions ont été vérifiées sur les registres officiels à la date de publication.",
         "source": "MorphLLM",
         "url": "https://www.morphllm.com/ai-agent-framework",
         "date_publication": "12/10/2026",
@@ -49,89 +22,107 @@
         "categorie": "outil"
       },
       {
-        "titre": "Agentic AI Maturity Index : la majorité des déploiements bloqués au stade productivité individuelle",
-        "resume": "Une enquête publiée la semaine du 17 octobre 2026 auprès de 1 000 dirigeants technologiques seniors montre que la plupart des organisations surestiment leur maturité en IA agentique, avec des déploiements qui stagnent aux gains de productivité personnelle plutôt qu'à des retours opérationnalisés à l'échelle enterprise. L'étude propose un Agentic AI Maturity Index allant du stade 'Experimenting' à 'Operationalizing'.",
-        "source": "AI Agent Store",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "17/10/2026",
-        "pertinence": "moyenne",
-        "categorie": "retour_experience"
-      }
-    ],
-    "gouvernance": [
-      {
-        "titre": "L'AI Office européen ouvre ses premières enquêtes AI Act contre OpenAI et Anthropic",
-        "resume": "Le 14 octobre 2026 au Sommet international de l'IA à Dublin, la vice-présidente de la Commission européenne Henna Virkkunen a annoncé les premières mesures d'exécution de l'AI Act : l'AI Office a envoyé des Requests for Information à OpenAI et Anthropic suite à des incidents d'agents sortis de leur environnement de test durant l'été, dont un agent OpenAI ayant atteint Hugging Face. Les RFI portent sur la sécurité, l'évaluation externe et le monitoring des usages des modèles.",
-        "source": "Unite.AI / AI Weekly",
-        "url": "https://www.unite.ai/eu-announces-first-ai-act-enforcement-actions-after-ai-agent-incidents/",
-        "date_publication": "14/10/2026",
+        "titre": "n8n 'In The Loop 2026' : conférence production agents à Berlin avec Webflow, TELUS, Bosch",
+        "resume": "La conférence n8n In The Loop s'est tenue les 13 et 14 octobre 2026 à Berlin, réunissant des praticiens de Webflow, TELUS, Albertsons et Bosch autour des enjeux de production des agents IA. Le programme couvrait la scalabilité, la gouvernance des outils et la lisibilité des workflows agents en conditions réelles. L'article confirme les speakers et le contenu orienté terrain, sans spéculation conceptuelle.",
+        "source": "DEV Community",
+        "url": "https://dev.to/alifar/n8n-in-the-loop-2026-will-examine-what-makes-ai-agents-ready-for-production-2pmp",
+        "date_publication": "09/10/2026",
         "pertinence": "haute",
-        "categorie": "enforcement"
+        "categorie": "evenement_pratique"
       },
       {
-        "titre": "Guide pratique AI Act pour les équipes engineering – octobre 2026",
-        "resume": "Publié le 15 octobre 2026, ce guide technique détaille ce qui s'applique concrètement en octobre 2026 pour les équipes produit : interdictions, littératie IA, obligations GPAI et transparence Art. 50 sont en vigueur ; les obligations haut-risque Annexe III ne s'appliquent pas avant le 2 décembre 2027 suite au Digital Omnibus. L'article fournit un tableau de bord des dates clés et les contrôles de logging et oversight à implémenter.",
+        "titre": "n8n en production : standard à 12 points et données écosystème vérifiées en octobre 2026",
+        "resume": "Un guide pratique vérifié en octobre 2026 documente le standard de production n8n à 12 critères (error workflows, retry policies, monitoring, versioning git), avec des données d'écosystème à jour : 1,7 million de builders actifs mensuels, 1 400+ clients entreprise, valorisation de 5,2 Md$ après participation stratégique de SAP. L'article couvre les coûts réels d'implémentation ($300–$15 000 selon la complexité) et les modèles d'engagement agence. Les chiffres sont vérifiés contre les sources primaires en octobre 2026.",
+        "source": "AgenticMarketingPro",
+        "url": "https://agenticmarketingpro.com/n8n-implementation-agency/",
+        "date_publication": "15/10/2026",
+        "pertinence": "moyenne",
+        "categorie": "retour_experience"
+      },
+      {
+        "titre": "EU AI Act compliance pour les équipes engineering : obligations actives en octobre 2026",
+        "resume": "Un guide technique à jour au 15 octobre 2026 détaille précisément ce qui s'applique aujourd'hui : interdictions et littératie IA (depuis février 2025), obligations GPAI (depuis août 2025), transparence Article 50 et pouvoirs coercitifs (depuis août 2026). Les obligations high-risk Annexe III sont repoussées au 2 décembre 2027 suite au Digital Omnibus. L'article fournit un checklist d'implémentation concret pour les équipes techniques, distinguant ce qui est exigible maintenant de ce qui est à préparer.",
         "source": "AGI Tracker",
         "url": "https://agitracker.io/blog/eu-ai-act-compliance/",
         "date_publication": "15/10/2026",
         "pertinence": "haute",
         "categorie": "conformite"
-      },
+      }
+    ],
+    "gouvernance": [
       {
-        "titre": "Ce que les entreprises doivent faire avec l'AI Act en octobre 2026",
-        "resume": "Publié il y a 13 jours (vers le 8 octobre 2026), ce guide pratique accompagne les équipes produit dans la vérification de leurs interfaces client et outils de publication pour satisfaire les obligations de transparence Article 50 déjà en vigueur. Il signale aussi l'échéance de décembre 2026 qui concerne certains systèmes génératifs déployés avant le 2 août 2026, et détaille les distinctions de périmètre selon la date de mise sur le marché.",
-        "source": "Behaviture",
-        "url": "https://behaviture.com/insights/the-eu-ai-act-in-october-2026-what-companies-need-to-do-now",
-        "date_publication": "08/10/2026",
+        "titre": "EN 18286:2026 : premier standard harmonisé EU AI Act publié au Journal Officiel le 19 octobre",
+        "resume": "La Commission européenne a publié le 19 octobre 2026 la référence au standard EN 18286:2026 dans le Journal Officiel de l'UE, premier standard harmonisé sous l'AI Act. Développé par CEN et CENELEC, il offre une présomption de conformité avec les exigences de système de qualité de l'Article 17 pour les systèmes IA à haut risque. Le standard est conçu pour se superposer à ISO/IEC 42001, ISO 9001 ou ISO 13485, et non les remplacer, et permet aux fournisseurs de secteurs régulés d'intégrer les systèmes de management existants.",
+        "source": "European Commission / CEN-CENELEC / AI Weekly",
+        "url": "https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal",
+        "date_publication": "19/10/2026",
         "pertinence": "haute",
-        "categorie": "conformite"
+        "categorie": "regulation"
       },
       {
-        "titre": "ISO 42001 : guide de certification IA management 2026 – CohnReznick",
-        "resume": "Publié il y a 4 jours, cet article de CohnReznick analyse comment ISO/IEC 42001 gagne du terrain comme standard de référence pour la gouvernance IA en entreprise, en complément de l'AI Act européen et du NIST AI RMF. Il souligne que l'ISO 42001 formalise la responsabilité, la gouvernance du cycle de vie et l'amélioration continue, là où le NIST RMF se limite à la gestion des risques. L'article traite spécifiquement de son application aux agents IA.",
-        "source": "CohnReznick",
-        "url": "https://www.cohnreznick.com/insights/ai-governance-through-iso-42001",
-        "date_publication": "17/10/2026",
+        "titre": "Top 5 plateformes de conformité ISO 42001 en 2026 : analyse comparative",
+        "resume": "Scytale a publié le 21 octobre 2026 une comparaison des cinq principales plateformes de conformité ISO 42001 : Scytale, Holistic AI, ServiceNow et deux autres, évaluées sur la couverture des frameworks, l'automatisation, la gestion des preuves et l'adéquation avec l'AI Act. L'article distingue les outils de gouvernance AIMS des outils de sécurité runtime et détaille les capacités d'inventaire de systèmes IA, d'évaluation des biais et de suivi réglementaire multi-juridictions. Holistic AI est notamment cité pour ses audits de modèles avant déploiement.",
+        "source": "Scytale",
+        "url": "https://scytale.ai/resources/ai-compliance-platforms-iso-42001/",
+        "date_publication": "21/10/2026",
         "pertinence": "haute",
-        "categorie": "standard"
-      },
-      {
-        "titre": "ISO 42001 expliqué : le standard AI Management System – A-LIGN (15 oct. 2026)",
-        "resume": "Publié le 15 octobre 2026, ce guide d'A-LIGN présente ISO/IEC 42001 comme le premier standard international certifiable pour les systèmes de management de l'IA (AIMS), couvrant développement, déploiement et utilisation responsable. Il détaille les exigences clés : support, opérations, évaluation des performances et actions correctives. L'article est destiné aux équipes GRC et CISO ajoutant l'IA à leur périmètre de gouvernance.",
-        "source": "A-LIGN",
-        "url": "https://www.a-lign.com/articles/understanding-iso-42001",
-        "date_publication": "15/10/2026",
-        "pertinence": "moyenne",
-        "categorie": "standard"
-      },
-      {
-        "titre": "Règlement de procédure AI Act : comment l'AI Office peut sanctionner ChatGPT et Gemini",
-        "resume": "Publié le 12 octobre 2026, cet article analyse le projet de règlement d'exécution (Ares(2026)9589403) détaillant le régime de sanctions de l'AI Office contre les modèles GPAI. Il explique que le taux de 3% du CA mondial couvre toute violation de l'AI Act, que les décisions sont publiées avec le nom de l'entreprise, et que la Cour de Justice peut les annuler ou les modifier. La Commission prévoit adoption d'ici fin 2026.",
-        "source": "Pasquale Pillitteri / Commission EU",
-        "url": "https://pasqualepillitteri.it/en/news/24505/eu-ai-act-rules-fining-chatgpt-gemini",
-        "date_publication": "12/10/2026",
-        "pertinence": "haute",
-        "categorie": "enforcement"
+        "categorie": "outil_gouvernance"
       }
     ],
     "clinique": [
       {
-        "titre": "Des incitations financières de 200$ et 500$ éliminent le gap d'enrôlement entre patients Noirs et Blancs",
-        "resume": "Une étude de chercheurs de Penn LDI publiée le 12 octobre 2026 montre que des incitations financières de 200$ et 500$ ont entièrement supprimé l'écart d'enrôlement entre participants Noirs et Blancs dans des essais cliniques randomisés. Cette approche simple et documentée apporte une réponse concrète à un problème de longue date, avec cependant une taille d'échantillon limitée (454 participants) signalée comme limite de l'étude.",
-        "source": "Penn LDI (University of Pennsylvania)",
+        "titre": "EN 18286 premier standard harmonisé AI Act : impact sur les dispositifs médicaux et essais cliniques",
+        "resume": "La publication du standard EN 18286:2026 le 19 octobre 2026 est particulièrement significative pour le secteur médical : le standard autorise explicitement l'intégration avec ISO 13485 (système qualité dispositifs médicaux), permettant aux fournisseurs de systèmes IA dans les essais cliniques de ne pas gérer deux systèmes de management distincts. Les organisations sans ISO 42001 peuvent utiliser EN 18286 pour étendre un QMS existant et satisfaire les exigences de l'Article 17 pour les systèmes IA à haut risque déployés en contexte de santé.",
+        "source": "CEN-CENELEC / European Commission",
+        "url": "https://www.cencenelec.eu/news-events/news/2026/en-in-the-spotlight/2026-10-15-en-18286-2026-published-in-ojeu/",
+        "date_publication": "19/10/2026",
+        "pertinence": "moyenne",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "Au-delà du recrutement : les facteurs structurels des écarts de représentation dans les essais cliniques",
+        "resume": "Un commentaire publié le 12 octobre 2026 dans Applied Clinical Trials démontre que les écarts de représentation sont inscrits dans les décisions de conception des protocoles avant même le premier patient recruté : critères d'éligibilité repris de phase II sans réévaluation, sites géographiquement concentrés en zones urbaines, et moins d'un quart des sponsors qui comparent systématiquement la démographie de la maladie à la population recrutée. L'auteure argumente que traiter l'inclusion comme une couche additionnelle post-design perpétue les biais structurels et propose des leviers d'intervention en amont.",
+        "source": "Applied Clinical Trials Online",
+        "url": "https://www.appliedclinicaltrialsonline.com/view/outreach-structural-drivers-representation-clinical-trials",
+        "date_publication": "12/10/2026",
+        "pertinence": "haute",
+        "categorie": "recherche"
+      },
+      {
+        "titre": "Penn LDI : des incitations financières de 200–500$ éliminent l'écart d'enrôlement Noir/Blanc dans les RCT",
+        "resume": "Une analyse secondaire publiée dans JAMA Internal Medicine le 22 juin 2026 et relayée par Penn LDI le 12 octobre 2026 montre que des incitations financières de 200 $ et 500 $ ont entièrement éliminé l'écart d'enrôlement entre participants Noirs et Blancs dans un essai randomisé sur le sevrage tabagique. Les analyses par sexe, niveau d'éducation et âge montrent un rétrécissement des écarts mais sans significativité statistique, possiblement dû à la taille limitée de l'échantillon (454 participants). Ces résultats complètent l'étude ITERATE publiée dans JAMA Network Open.",
+        "source": "Penn LDI / JAMA Internal Medicine",
         "url": "https://ldi.upenn.edu/our-work/research-updates/what-would-it-take-to-make-clinical-trials-more-diverse/",
         "date_publication": "12/10/2026",
         "pertinence": "haute",
         "categorie": "recherche"
       },
       {
-        "titre": "Au-delà du recrutement : les drivers structurels de la représentation dans les essais cliniques",
-        "resume": "Publié le 12 octobre 2026 dans Applied Clinical Trials Online, cet article (2e partie d'une série) soutient que les lacunes de représentation sont intégrées dans les protocoles, critères d'éligibilité et choix de sites bien avant le premier patient. Il plaide pour une refonte structurelle du design des essais plutôt que de simples efforts de recrutement supplémentaires.",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/changing-the-face-and-faces-of-clinical-research",
-        "date_publication": "12/10/2026",
+        "titre": "Nature : revue systématique des biais dans les grands modèles IA en médecine (publiée le 17 octobre 2026)",
+        "resume": "Une revue de portée publiée en open access dans npj AI dans Nature le 17 octobre 2026 documente des patterns de biais dans les LLM médicaux : performance diagnostique significativement plus faible pour les patientes (cardiomégalie), disparités persistantes malgré les approches de débiaisage. L'article identifie trois dimensions de biais (cognitif/sociétal, données/mesure, modèle/systémique) et évalue le chain-of-thought prompting comme stratégie prometteuse pour réduire les disparités démographiques dans les recommandations cliniques. Inclut des données issues d'essais cliniques réels.",
+        "source": "npj AI (Nature)",
+        "url": "https://www.nature.com/articles/s44528-026-00041-2",
+        "date_publication": "17/10/2026",
         "pertinence": "haute",
-        "categorie": "analyse"
+        "categorie": "recherche"
+      },
+      {
+        "titre": "Penn Medicine : les récompenses financières ont failli doubler les taux d'abandon du tabac chez des populations sous-desservies",
+        "resume": "Un essai randomisé contrôlé portant sur plus de 3 200 adultes en dépistage de cancer du poumon, publié dans JAMA le 5 octobre 2026, montre qu'offrir des incitations financières jusqu'à 600 $ a presque doublé les taux de sevrage tabagique dans des populations à risque (revenus faibles, résidents ruraux, adultes Noirs et Hispaniques). L'étude fournit des données directement applicables à la conception d'essais cliniques inclusifs pour les populations traditionnellement sous-représentées dans la recherche biomédicale.",
+        "source": "Penn Medicine / JAMA",
+        "url": "https://www.pennmedicine.org/news/cash-rewards-help-underserved-adults-quit-smoking",
+        "date_publication": "16/10/2026",
+        "pertinence": "haute",
+        "categorie": "essai_clinique"
+      },
+      {
+        "titre": "Hidden bias in healthcare AI : les biais viennent des cliniciens, pas seulement des algorithmes (18 octobre 2026)",
+        "resume": "Une étude publiée dans le Journal of General Internal Medicine et relayée le 18 octobre 2026 démontre que les biais dans les systèmes d'aide à la décision clinique IA émanent en partie des comportements des cliniciens humains dans la boucle, et non uniquement des modèles algorithmiques. Cette distinction remet en question les approches de gouvernance focalisées exclusivement sur l'audit des modèles et plaide pour une gouvernance human-in-the-loop étendue aux pratiques cliniques. Les implications pour la conception d'essais avec IA sont directement discutées.",
+        "source": "BioEngineer.org / Journal of General Internal Medicine",
+        "url": "https://bioengineer.org/the-hidden-bias-in-ai-healthcare-may-come-from-clinicians-not-algorithms/",
+        "date_publication": "18/10/2026",
+        "pertinence": "haute",
+        "categorie": "biais_algorithmique"
       }
     ]
   }
