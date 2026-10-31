@@ -1,128 +1,110 @@
 {
-  "generated_at": "2026-10-30T12:32:26.939344Z",
-  "date_fr": "30/10/2026",
+  "generated_at": "2026-10-31T11:59:58.814890Z",
+  "date_fr": "31/10/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Cresta ouvre sa plateforme d'agents IA en self-service aux développeurs enterprise",
-        "resume": "Le 29 octobre 2026, Cresta a annoncé l'ouverture en self-service de sa plateforme Conductor, permettant aux développeurs enterprise de construire, tester, déployer et optimiser des agents IA orientés client. La plateforme est construite sur le Claude Agent SDK en collaboration avec Anthropic, et Cresta affirme avoir réduit de moitié les délais de déploiement initial des agents. Un programme de certification 'Cresta Academy' est également lancé pour former les ingénieurs partenaires.",
-        "source": "PR Newswire / RuntimeWire",
-        "url": "https://www.prnewswire.com/news-releases/cresta-opens-its-ai-agent-platform-with-end-to-end-self-service-for-developers-302922987.html",
-        "date_publication": "29/10/2026",
+        "titre": "TanStack AI atteint la version 1.0 avec un toolkit agent stable",
+        "resume": "TanStack a publié la version 1.0 de son stack AI, stabilisant 76 packages et supportant formellement les agents, sous-agents, workflows d'agents de coding, sandboxes et 23 adaptateurs de fournisseurs. La release inclut des Agent Skills portables, le support MCP server, et un harness expérimental pour exécuter des agents dans plusieurs environnements. Un guide de migration depuis la version 0.x est disponible sur GitHub.",
+        "source": "TanStack Blog / aiagentstore.ai",
+        "url": "https://tanstack.com/blog/tanstack-ai-1-0",
+        "date_publication": "23/10/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Cycode devient la première plateforme de sécurité agentique certifiée ISO/IEC 42001",
-        "resume": "Le 23 octobre 2026, Cycode a annoncé avoir obtenu la certification ISO/IEC 42001, devenant ainsi la première plateforme de sécurité de développement agentique à atteindre ce standard. La certification couvre les politiques, évaluations des risques, gouvernance des données, régimes de test et réponse aux incidents de tous les systèmes IA construits sur la plateforme. Cela positionne Cycode comme référence de confiance pour les entreprises déployant des agents IA dans des pipelines DevSecOps.",
-        "source": "Cycode",
-        "url": "https://cycode.com/blog/iso-iec-42001-certification",
+        "titre": "Cisco lance Agentic FAITH : benchmark multi-étapes pour agents en cybersécurité",
+        "resume": "Cisco Foundation AI a étendu son framework d'évaluation FAITH avec un support agentique pour les tâches multi-étapes utilisant des outils. Le premier benchmark intégré, VulnLoc, teste si les agents peuvent localiser des fichiers vulnérables dans un dépôt de code tout en évitant les faux positifs sur du code patché. Le code est disponible sur GitHub et supporte l'exécution via Docker ou Kubernetes.",
+        "source": "Cisco Blogs",
+        "url": "https://blogs.cisco.com/ai/introducing-agentic-evaluation-in-faith",
         "date_publication": "23/10/2026",
         "pertinence": "haute",
-        "categorie": "produit"
+        "categorie": "outil"
       },
       {
-        "titre": "Comparatif terrain CrewAI vs LangGraph vs AutoGen : état des lieux en production (octobre 2026)",
-        "resume": "Publié le 22 octobre 2026, ce comparatif de Sim AI fait le point sur les trois frameworks dominants en production : AutoGen est désormais en mode maintenance par Microsoft, qui recommande Microsoft Agent Framework ; LangGraph s'impose comme standard de production pour les workflows stateful complexes ; CrewAI revendique 150+ clients enterprise et 2 milliards d'exécutions d'agents sur 12 mois. Une étude Foundra 2026 mesure un taux de succès moyen de 56,6% sur 6 259 agents déployés, soulignant l'importance critique de la conception de la récupération sur erreur.",
-        "source": "Sim AI",
-        "url": "https://www.sim.ai/library/crewai-vs-langgraph-vs-autogen",
-        "date_publication": "22/10/2026",
+        "titre": "Quatre projets agents majeurs rejoignent l'Agentic AI Foundation (semaine du 29 octobre 2026)",
+        "resume": "L'Agentic AI Foundation a intégré Agent Skills d'Anthropic, Open Responses d'OpenAI, OpenEnv d'Hugging Face et OpenSandbox d'Alibaba, portant le total à 10 projets sous gouvernance vendor-neutral. Ces ajouts couvrent les instructions d'agents réutilisables, une interface modèle commune, des environnements d'entraînement/évaluation et l'exécution isolée. L'objectif est de réduire les dépendances à des fournisseurs spécifiques pour les builders d'agents.",
+        "source": "aiagentstore.ai",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "29/10/2026",
         "pertinence": "haute",
-        "categorie": "benchmark"
+        "categorie": "annonce_produit"
       },
       {
-        "titre": "150 déploiements d'agents enterprise analysés : ce qui fonctionne vraiment en production en 2026",
-        "resume": "Cette analyse de 150 cas de déploiements réels d'agents enterprise (données figées au 2 septembre 2026) révèle que le modèle dominant en production est l'autonomie bornée (A3), et non l'autonomie totale. Parmi les cas documentés : Hospital for Special Surgery avec des agents de scheduling patient en production 24/7, Travelers avec un assistant de déclaration de sinistres à 85-90% de complétion, et Glide avec une réduction du temps de merge de 23 heures à 14 minutes. La publication de l'analyse date de fin septembre/début octobre 2026.",
-        "source": "The Brief Script",
-        "url": "https://thebriefscript.com/enterprise-ai-agents/",
+        "titre": "Udemy – Formation complète agents IA 2026 : LangGraph, CrewAI, n8n en production (mise à jour octobre 2026)",
+        "resume": "Cours professionnel mis à jour en octobre 2026 couvrant la construction d'agents Python en production avec LangChain, LangGraph (workflows multi-agents avec état), CrewAI (orchestration d'équipes d'agents) et n8n (automatisation low-code). Le programme inclut LangSmith pour l'observabilité, les guardrails pour la conformité et la conception de systèmes multi-agents avancés.",
+        "source": "Udemy",
+        "url": "https://www.udemy.com/course/agentic-ai-masters-langchain-langgraph-crewai-n8n/",
         "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "cas_usage"
+        "pertinence": "moyenne",
+        "categorie": "tutoriel"
       }
     ],
     "gouvernance": [
       {
-        "titre": "AI Governance & Risk Brief - Octobre 2026 : premières actions d'enforcement de l'AI Office",
-        "resume": "Ce bulletin de Quantidal daté du 30 octobre 2026 documente les événements clés du mois : le 14 octobre, l'AI Office de l'UE a lancé sa toute première action d'enforcement en envoyant des demandes d'information formelles à OpenAI et Anthropic suite à des incidents estivaux. Le 19 octobre, la Commission européenne a publié sa première norme harmonisée sous l'EU AI Act. Le 21 octobre, le Conseil de l'UE a adopté sa position sur le Digital Omnibus. Le 28 octobre, New York a promulgué une loi restreignant les chatbots dangereux pour les mineurs.",
-        "source": "Quantidal (Substack)",
-        "url": "https://quantidal.substack.com/p/ai-governance-and-risk-brief-october",
-        "date_publication": "30/10/2026",
-        "pertinence": "haute",
-        "categorie": "enforcement"
-      },
-      {
-        "titre": "VikingCloud lance ses AI Governance Services : un scorecard de maturité IA pour les entreprises",
-        "resume": "Le 28 octobre 2026, VikingCloud a lancé un service complet d'évaluation de gouvernance IA couvrant 10 domaines de risque IA et 101 contrôles mappés sur ISO/IEC 42001, NIST AI RMF et EU AI Act. Le service intègre une détection du 'shadow AI' (outils IA non déclarés), une analyse des lacunes de sécurité et un plan de remédiation priorisé. Les résultats sont gérés dans leur plateforme Asgard, aux côtés des autres programmes de conformité de l'entreprise.",
-        "source": "Help Net Security",
-        "url": "https://helpnetsecurity.com/2026/10/28/vikingcloud-ai-governance-services",
-        "date_publication": "28/10/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "TechBullion : ISO/IEC 42001 dans le build - ce que le standard demande aux équipes qui déploient des features IA",
-        "resume": "Publié le 29 octobre 2026, cet article pratique détaille comment ISO/IEC 42001 s'intègre dans le cycle de développement : la clause 6.1.2 impose une évaluation des risques IA répétable, la clause 6.1.4 exige un impact assessment spécifique IA (absent de l'ISO 27001) couvrant usages prévus et détournements prévisibles. Les contrôles de l'Annexe A demandent documentation, vérification avant déploiement, logs et traçabilité des données. L'article souligne que le standard doit être répété à chaque changement de modèle.",
-        "source": "TechBullion",
-        "url": "https://techbullion.com/ai-governance-belongs-in-the-build-what-iso-iec-42001-asks-of-teams-shipping-ai-features",
-        "date_publication": "29/10/2026",
+        "titre": "Chronologie complète et état des lieux EU AI Act au 27 octobre 2026 – toutes les échéances",
+        "resume": "Une synthèse vérifiée au 27 octobre 2026 détaille l'état d'application de l'AI Act : interdictions, règles GPAI et obligations de transparence (Art. 50) sont en vigueur depuis le 2 août 2026, tandis que les règles pour les systèmes à haut risque ont été repoussées au 2 décembre 2027 par le règlement Digital Omnibus (EU) 2026/1744. Aucune amende n'a encore été prononcée au 24 octobre 2026.",
+        "source": "aisafetyassociation.org / sysart.consulting",
+        "url": "https://sysart.consulting/eu-ai-act/timeline/",
+        "date_publication": "27/10/2026",
         "pertinence": "haute",
         "categorie": "conformite"
       },
       {
-        "titre": "CDT Europe AI Bulletin - Octobre 2026 : Digital Omnibus, position du Conseil et enforcement DSA",
-        "resume": "Le bulletin du Center for Democracy and Technology daté du 27 octobre 2026 analyse la position du Conseil de l'UE adoptée le 21 octobre sur le Digital Omnibus, consolidant les exceptions IA dans les règles de protection des données. La Commission européenne a également ouvert une consultation sur un acte d'exécution concernant l'enforcement contre les opérateurs de systèmes GPAI sous le Digital Services Act, ouverte jusqu'au 9 novembre 2026. Plus de 110 MEPs ont appelé à l'enforcement des nouvelles interdictions sur les deepfakes non-consentis.",
-        "source": "Center for Democracy and Technology",
-        "url": "https://cdt.org/insights/cdt-europes-ai-bulletin-october-2026",
-        "date_publication": "27/10/2026",
+        "titre": "Guide pays par pays : comment les 27 États membres implémentent l'EU AI Act (vérifié octobre 2026)",
+        "resume": "Un guide complet vérifié en octobre 2026 couvre l'état d'implémentation de l'AI Act dans chacun des 27 États membres : autorités nationales désignées, lois d'adaptation, sandboxes réglementaires et scores de readiness. Il documente notamment que l'AI Office a envoyé ses premiers RFI à plus de 30 entreprises d'IA en septembre 2026, avant de cibler spécifiquement OpenAI et Anthropic mi-octobre.",
+        "source": "imiel.dev",
+        "url": "https://imiel.dev/explore/eu-ai-act-2026/",
+        "date_publication": "22/10/2026",
         "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "conformite"
       },
       {
-        "titre": "Cybersecurity Insiders : la conformité IA de façade ne protège pas contre les fuites de données agentiques",
-        "resume": "Publié le 30 octobre 2026, cet article d'opinion documentée de Cybersecurity Insiders avertit que les certifications ponctuelles sont insuffisantes à l'ère des agents IA. Il cite une recherche du BCG selon laquelle plus de la moitié des PDG estiment que l'engouement pour l'IA déforme le jugement des conseils d'administration, et 61% disent que leurs conseils 'précipitent la transformation IA'. L'article propose un cadre pratique : déploiement progressif par équipes pilotes, monitoring continu selon ISO 42001 et CIS benchmarks, et gouvernance des identités agents.",
-        "source": "Cybersecurity Insiders",
-        "url": "https://cybersecurity-insiders.com/compliance-theater-wont-stop-an-ai-data-breach-do-this-instead",
-        "date_publication": "30/10/2026",
+        "titre": "ISO 42001 vs EU AI Act : démystifier la confusion sur la conformité en entreprise en 2026",
+        "resume": "Une note de recherche de la Cloud Security Alliance publiée en octobre 2026 alerte sur une confusion répandue en entreprise : la certification ISO/IEC 42001 ne constitue pas une conformité légale à l'EU AI Act, car la norme n'est pas harmonisée au sens de l'Article 40. Les équipes compliance doivent auditer et corriger toute communication interne ou fournisseur laissant entendre le contraire, car cela expose l'organisation à des risques réglementaires.",
+        "source": "Cloud Security Alliance Labs",
+        "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-governance-fragmentation-20260908-csa-s/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "standard"
+      },
+      {
+        "titre": "ISO 42001 : ce que vérifient vraiment les auditeurs en 2026 – guide certification entreprise",
+        "resume": "Publié il y a 5 jours (fin octobre 2026), ce guide détaille les 38 contrôles de la norme ISO/IEC 42001 et les compare à l'EU AI Act et au NIST AI RMF. Il souligne qu'en 2026, la certification est de plus en plus exigée par les acheteurs enterprise et les régulateurs comme preuve de gouvernance IA responsable, même si elle reste formellement volontaire et sans pénalité légale pour non-respect.",
+        "source": "Scrut.io",
+        "url": "https://www.scrut.io/post/iso-42001",
+        "date_publication": "26/10/2026",
         "pertinence": "moyenne",
-        "categorie": "gouvernance"
-      },
-      {
-        "titre": "EU AI Act : obligations en vigueur et délais post-Digital Omnibus (mise à jour 24 octobre 2026)",
-        "resume": "Cette synthèse de l'AI Safety Association, vérifiée au 24 octobre 2026, fait le point complet sur l'état de l'EU AI Act : les interdictions, règles de transparence (Article 50) et obligations GPAI sont en vigueur depuis le 2 août 2026 ; le Digital Omnibus (Règlement (UE) 2026/1744) a reporté les obligations pour les systèmes à haut risque à décembre 2027. Aucune amende publiée n'a été recensée à ce jour, mais l'AI Office a lancé sa première action d'enforcement en octobre 2026.",
-        "source": "AI Safety Association",
-        "url": "https://aisafetyassociation.org/eu-ai-act-news",
-        "date_publication": "24/10/2026",
-        "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "standard"
       }
     ],
     "clinique": [
       {
-        "titre": "Health Affairs : revue de portée sur les lignes directrices IA et équité en santé (27 octobre 2026)",
-        "resume": "Publiée dans Health Affairs le 27 octobre 2026, cette revue systématique de 166 articles peer-reviewed analyse les recommandations des experts pour une implémentation équitable de l'IA dans les soins de santé. Elle révèle que seulement 13% des articles fournissent une définition précise de l'équité en santé, et que 70% des études proviennent des États-Unis. La principale recommandation convergente est que la supervision humaine éthique doit accompagner tout usage de l'IA, et que des parties prenantes diversifiées doivent être impliquées dès le développement des modèles.",
-        "source": "Health Affairs",
-        "url": "https://ramaonhealthcare.com/recommended-guidelines-concerning-artificial-intelligence-and-health-equity-a-scoping-review",
-        "date_publication": "27/10/2026",
+        "titre": "La FDA retire discrètement son guide sur la diversité dans les essais cliniques suite aux décrets anti-DEI",
+        "resume": "L'AJMC rapporte (article récemment mis à jour) que la FDA a retiré en janvier 2025 son guide provisoire sur les Plans d'Action pour la Diversité (DAP) sans avis public ni explication, à la suite des décrets exécutifs Trump sur le DEI. En 2026, la situation réglementaire reste incertaine : le Congrès républicain pousse désormais à maintenir les exigences de DAP en les dissociant du vocabulaire DEI, tandis qu'un tribunal fédéral a ordonné la restauration de certaines pages retirées.",
+        "source": "AJMC / Applied Clinical Trials Online",
+        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
+        "date_publication": "21/10/2026",
         "pertinence": "haute",
-        "categorie": "recherche"
+        "categorie": "reglementation"
       },
       {
-        "titre": "MM+M : le recrutement en essais cliniques apprend à aller à la rencontre des patients (octobre 2026)",
-        "resume": "Publié dans Medical Marketing & Media le 29 octobre 2026, cet article de fond documente l'évolution du recrutement en essais cliniques : l'inclusion s'est élargie au-delà de la race et du sexe pour couvrir la géographie, les revenus et l'accès aux soins. Les sponsors intègrent désormais la stratégie de recrutement dès la conception du protocole et la sélection des sites. L'article souligne que l'IA peut accélérer le screening mais ne résout pas à elle seule les biais liés à des critères d'éligibilité restrictifs ou aux barrières géographiques.",
-        "source": "MM+M - Medical Marketing and Media",
-        "url": "https://mmm-online.com/features/clinical-trial-recruitment-meeting-patients-where-they-are",
-        "date_publication": "29/10/2026",
+        "titre": "Diversité dans le recrutement en essais cliniques : tactiques pratiques pour les populations sous-représentées (25 octobre 2026)",
+        "resume": "Un guide pratique publié le 25 octobre 2026 explique pourquoi la diversité des participants est scientifiquement nécessaire et détaille des tactiques concrètes de recrutement : partenariats communautaires avec centres de santé et organisations confessionnelles, messages culturellement adaptés en langue native, et ciblage géographique par publicités digitales. Il cite des données cardiologiques montrant la sous-représentation historique des femmes dans les essais de maladies cardiovasculaires.",
+        "source": "Brighter Click",
+        "url": "https://www.brighterclick.com/blog-post/diversity-in-clinical-trial-recruitment",
+        "date_publication": "25/10/2026",
         "pertinence": "haute",
         "categorie": "recrutement"
       },
       {
-        "titre": "AJMC : la FDA retire discrètement son guide sur la diversité dans les essais cliniques après l'executive order DEI",
-        "resume": "Publié il y a 9 jours (circa 21 octobre 2026), cet article de l'American Journal of Managed Care révèle que la FDA a retiré de son site web, sans annonce publique ni explication, le projet de guidance sur la diversité dans les essais cliniques. Ce retrait crée une incertitude significative pour les sponsors, bien que la loi FDORA exige formellement les Diversity Action Plans uniquement après publication d'une guidance finale. De nombreux sponsors avaient déjà commencé à les incorporer volontairement dans leurs soumissions.",
-        "source": "AJMC (American Journal of Managed Care)",
-        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "21/10/2026",
+        "titre": "Nature npj : transparence embarquée dans l'IA comme prérequis à l'équité dans les essais cliniques",
+        "resume": "Un article publié dans npj Digital Medicine (2026) argumente que l'IA est de plus en plus intégrée dans l'infrastructure des essais cliniques, influençant qui est identifié, stratifié et analysé, et que moins de 5% des patients cancéreux s'y inscrivent, avec une exclusion disproportionnée des minorités, personnes âgées et populations rurales. Les auteurs proposent un cadre de transparence embarquée incluant des explications en langage clair sur les décisions algorithmiques et un monitoring post-déploiement de l'équité.",
+        "source": "Nature npj Digital Medicine",
+        "url": "https://www.nature.com/articles/s41746-026-02987-7",
+        "date_publication": "",
         "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "biais_algorithmique"
       }
     ]
   }
