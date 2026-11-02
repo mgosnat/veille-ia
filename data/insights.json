@@ -1,128 +1,119 @@
 {
-  "generated_at": "2026-11-01T13:00:06.008987Z",
-  "date_fr": "01/11/2026",
+  "generated_at": "2026-11-02T15:19:37.291321Z",
+  "date_fr": "02/11/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Tipalti lance AP Agent et des capacités MCP pour automatiser la comptabilité fournisseurs",
-        "resume": "Tipalti a annoncé le 22 octobre 2026 son AP Agent, un agent IA de nouvelle génération qui orchestre l'intégralité du processus comptes fournisseurs — de la capture de facture à la réconciliation — avec contrôle humain intégré. La plateforme introduit également de nouvelles capacités Model Context Protocol (MCP) permettant de connecter en temps réel les données financières Tipalti à des outils IA d'entreprise comme Claude Enterprise. Ce lancement illustre le passage des agents IA de l'automatisation de tâches isolées à l'orchestration de workflows complets en production.",
-        "source": "Tipalti / CPA Practice Advisor",
-        "url": "https://tipalti.com/press/tipalti-ap-agent-agentic-ai/",
+        "titre": "GitHub Agentic Workflows désormais en disponibilité générale",
+        "resume": "GitHub a annoncé le 28 octobre 2026 la disponibilité générale de ses Agentic Workflows, un projet open source de GitHub Next. La fonctionnalité permet d'automatiser des tâches basées sur le raisonnement (triage d'issues, analyse d'échecs CI, rédaction de tests) en décrivant l'automatisation en Markdown naturel, qui est ensuite compilé en YAML GitHub Actions standard. Le modèle de sécurité est en couches : permissions en lecture seule par défaut, isolation via micro-VM Cloud Hypervisor, et un pare-feu Agent Workflow Firewall opérant hors du runner VM.",
+        "source": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+        "date_publication": "28/10/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "TanStack AI 1.0 : le toolkit agent vendor-neutral passe en stable",
+        "resume": "TanStack a publié le 23 octobre 2026 la version 1.0 stable de son stack IA open source, stabilisant 76 packages avec support officiel des agents, sous-agents, workflows coding-agent, sandboxes, 23 adaptateurs de providers et 8 frameworks UI. La release inclut la prise en charge de MCP, de Claude Code, Codex, OpenCode et de tout agent ACP, ainsi qu'un harness agent expérimental pour sessions longue durée. Un guide de migration depuis les versions 0.x est fourni.",
+        "source": "TanStack Blog",
+        "url": "https://tanstack.com/blog/tanstack-ai-1-0",
+        "date_publication": "23/10/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Akamai lance Akamai Inference et Agent Sandbox (bêta) avec isolation WebAssembly",
+        "resume": "Akamai a lancé le 27 octobre 2026 en bêta deux nouveaux services cloud : Akamai Inference pour le serving de modèles open weight en serverless, et Akamai Agent Sandbox pour l'exécution isolée du code généré par des agents IA. Le sandbox, basé sur WebAssembly via le Spin SDK, isole l'exécution du code produit par les agents de leur runtime, avec des limites strictes sur le compute, la mémoire et les connexions sortantes bloquées par défaut.",
+        "source": "Techzine / Akamai Technologies",
+        "url": "https://www.techzine.eu/news/infrastructure/145346/akamai-launches-ai-inference-service-and-agent-sandbox/",
+        "date_publication": "28/10/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Agentic AI Foundation intègre 4 nouveaux projets majeurs sous gouvernance neutre",
+        "resume": "Le 22 octobre 2026, la Agentic AI Foundation (AAIF, sous Linux Foundation) a annoncé l'intégration de quatre nouveaux projets : Agent Skills d'Anthropic (standard ouvert pour donner des capacités aux agents, déjà intégré par 70+ plateformes et avec 1 million de skills publiés), Open Responses d'OpenAI, OpenEnv de Hugging Face et OpenSandbox d'Alibaba. La fondation passe ainsi de 3 à 10 projets en un an, tous sous gouvernance vendor-neutral.",
+        "source": "Linux Foundation",
+        "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox",
         "date_publication": "22/10/2026",
         "pertinence": "haute",
-        "categorie": "produit"
-      },
-      {
-        "titre": "SnapLogic publie une mise à jour majeure de sa plateforme d'intégration agentique avec MCP et Bedrock RAG",
-        "resume": "Durant la semaine du 19-27 octobre 2026, SnapLogic a déployé une mise à jour de son Agentic Integration Platform ajoutant la génération de pipelines en langage naturel, 545 patterns d'intégration 'agentiques' préconstruits, des connecteurs MCP/Bedrock RAG, et des outils runtime permettant aux agents de surveiller l'exécution sur ERP, CRM et systèmes IT. Ce déploiement positionne explicitement les agents IA comme acteurs d'automatisation de production dans les environnements enterprise.",
-        "source": "AI Agent Store",
-        "url": "https://aiagentstore.ai/ai-agent-news/topic/business-automation",
-        "date_publication": "27/10/2026",
-        "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "agentproto v0.5 : runtime agentique open source TypeScript avec MCP, exécution mono-vol et plafonnement de récursion",
-        "resume": "Le 27 octobre 2026, le projet open source agentproto a publié une release ajoutant l'exécution single-flight, les retries, le plafonnement de récursion et la réconciliation au démarrage pour les agents coding. La nouvelle version introduit également une route HTTP POST /sessions/:id/prompt-policy et un outil MCP operator-only agent_set_operator_label pour la gestion fine des sessions agents en production. Le runtime est compatible CLI, HTTP, MCP, SDK, Mastra et AI SDK.",
-        "source": "GitHub agentproto/ts",
-        "url": "https://github.com/agentproto/ts/releases/tag/release/2026-10-27",
-        "date_publication": "27/10/2026",
+        "titre": "IA agentique en manufacturing : cas terrain avec Karl sur inventaire Navision",
+        "resume": "Publié le 30 octobre 2026, ce guide de Kanerika documente 8 cas d'usage terrain d'IA agentique en manufacturing, dont le déploiement de Karl (agent data insights propriétaire) chez un client britannique du secteur des matériaux de construction sur données Navision : réconciliation d'inventaire 30% plus rapide, time-to-insight réduit de plus de 50%, et plus de 10 patterns de variance récurrents détectés automatiquement.",
+        "source": "Kanerika",
+        "url": "https://kanerika.com/blogs/agentic-ai-in-manufacturing/",
+        "date_publication": "30/10/2026",
         "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Dell étend son AI Factory pour les workloads agents on-premises avec NVIDIA",
-        "resume": "Fin octobre 2026, Dell a annoncé une expansion de son AI Factory avec NVIDIA lors de NVIDIA GTC Berlin, incluant de nouveaux systèmes rack-scale, un serveur air-cooled deux-sockets et des templates de déploiement validés pour les workloads agentiques. Dell indique que plus de 6 500 entreprises utilisent la plateforme alors que les projets IA migrent de l'expérimentation vers la production.",
-        "source": "AI Agent Store (semaine 29 oct. 2026)",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "29/10/2026",
-        "pertinence": "moyenne",
-        "categorie": "produit"
-      },
-      {
-        "titre": "LangGraph vs CrewAI vs n8n : comparatif honnête avec benchmarks production 2026",
-        "resume": "Publié le 19 octobre 2026, cet article de Spheron Network présente des données de production issues de l'analyse Foundra 2026 mesurant un taux de succès de 56,6% sur 6 259 agents déployés et 4,5 millions d'exécutions. CrewAI revendique 2 milliards d'exécutions d'agents sur 12 mois glissants et 150+ clients enterprise en 2026. Les données montrent que LangGraph domine sur la fiabilité en production (état déterministe, persistance native), tandis que CrewAI reste le choix pour un déploiement rapide d'équipes d'agents.",
-        "source": "Spheron Network",
-        "url": "https://www.spheron.network/blog/langgraph-vs-crewai-vs-autogen-2026/",
-        "date_publication": "19/10/2026",
-        "pertinence": "haute",
-        "categorie": "benchmark"
+        "categorie": "cas d'usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "FCA publie ses résultats sur les bonnes et mauvaises pratiques IA dans les services financiers",
-        "resume": "Le 19 octobre 2026, la Financial Conduct Authority britannique a publié ses conclusions sur les pratiques IA dans les services financiers, identifiant les bonnes pratiques et les axes d'amélioration pour les firmes. Ce document s'inscrit dans un mouvement réglementaire coordonné avec la MAS (guidelines IA du 7 octobre 2026) et le FSB, marquant une semaine d'octobre 2026 historiquement dense en exigences de gouvernance IA pour le secteur financier mondial.",
-        "source": "Latham Watkins / LawFuel",
-        "url": "https://www.lawfuel.com/law-ai-latham-watkins-report-fca-issues-guidance-for-firms-on-their-use-of-ai/",
-        "date_publication": "19/10/2026",
+        "titre": "ISO 42001 : le standard de gouvernance IA que 83% des Fortune 500 prévoient d'exiger",
+        "resume": "Mis à jour le 30 octobre 2026, ce guide complet de A-LIGN explique pourquoi ISO 42001 est devenu un enjeu critique pour les entreprises : c'est le premier standard international certifiable pour la gouvernance des systèmes IA, structuré comme ISO 27001 mais spécifique aux cycles de vie IA. Il couvre les 38 contrôles Annexe A, le rôle de la direction, la gestion des risques IA fournisseurs et les procédures d'incident response spécifiques à l'IA.",
+        "source": "A-LIGN",
+        "url": "https://www.a-lign.com/articles/understanding-iso-42001",
+        "date_publication": "30/10/2026",
         "pertinence": "haute",
-        "categorie": "regulation"
+        "categorie": "standard"
       },
       {
-        "titre": "EU AI Act enforcement : architecture juridictionnelle et structure des amendes pour les équipes compliance",
-        "resume": "Publié le 22 octobre 2026 (corrigé le 25 octobre), cet article de TechJacks Solutions détaille l'architecture d'enforcement de l'EU AI Act : depuis le 2 août 2026, l'AI Office détient les pouvoirs d'enforcement sur les fournisseurs de modèles GPAI. Les premières enquêtes Article 91 ont été lancées le 1er octobre 2026, et une deuxième vague ciblant les fournisseurs GPAI de taille moyenne est attendue au T1 2027. Les NCAs des États membres devraient commencer à agir contre les applications IA à haut risque entre T4 2026 et T1 2027.",
-        "source": "TechJacks Solutions",
-        "url": "https://techjacksolutions.com/ai-brief/eu-ai-act-enforcement-jurisdiction-map-ai-office-nca-penalty/",
-        "date_publication": "22/10/2026",
+        "titre": "ISO 42001 AI Management System : guide complet des clauses et contrôles (21 oct. 2026)",
+        "resume": "Publié le 21 octobre 2026, ce guide de Solytics Partners détaille les clauses 4 à 10 de l'ISO 42001, les 38 contrôles Annexe A (dont A.2 politiques IA, A.7 gouvernance des données, A.8 explicabilité) et la différence fondamentale avec ISO 27001 : l'AIMS ajoute le cycle de vie IA, les évaluations d'impact et la surveillance continue des systèmes à décision automatisée. Il inclut une feuille de route pour l'audit de conformité.",
+        "source": "Solytics Partners",
+        "url": "https://www.solytics-partners.com/resources/blogs/iso-42001-ai-management-system",
+        "date_publication": "21/10/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
+        "categorie": "standard"
       },
       {
-        "titre": "Microsoft publie son Rapport de Transparence IA Responsable 2026",
-        "resume": "Microsoft a publié son Rapport de Transparence IA Responsable 2026, détaillant les nouvelles pratiques de modélisation des menaces pour l'IA agentique, les défenses contre le prompt injection et une couverture élargie des classifieurs de sécurité. Le rapport introduit un nouveau chapitre Deployer dans le Responsible AI Standard fixant les exigences pour le déploiement d'applications IA tierces chez Microsoft. Il représente un cas concret de gouvernance IA déployée à l'échelle d'un hyperscaler.",
-        "source": "Microsoft",
-        "url": "https://www.microsoft.com/en-us/corporate-responsibility/topics/responsible-ai/reports/transparency-report/",
-        "date_publication": "",
+        "titre": "Meilleur logiciel de conformité EU AI Act 2026 : guide acheteur (mis à jour octobre 2026)",
+        "resume": "Mis à jour au 20 octobre 2026, ce guide compare les solutions du marché en 4 catégories : automatisation GRC, gouvernance IA enterprise, observabilité LLM et plans de contrôle runtime. Il note que les produits de gouvernance d'agents de Drata et Vanta étaient en disponibilité limitée ou sur liste d'attente en octobre 2026, tandis qu'OneTrust, Credo AI, IBM watsonx.governance et Holistic AI proposent des inventaires complets de systèmes, agents et modèles.",
+        "source": "kla.digital",
+        "url": "https://kla.digital/blog/best-eu-ai-act-compliance-software-2026",
+        "date_publication": "20/10/2026",
         "pertinence": "moyenne",
-        "categorie": "politique_entreprise"
+        "categorie": "outils de conformité"
       },
       {
-        "titre": "State of Enterprise AI octobre 2026 : un standard harmonisé EU AI Act publié au Journal Officiel",
-        "resume": "La newsletter mensuelle State of Enterprise AI (octobre 2026) signale qu'une décision d'exécution de la Commission (EU) 2026/2274 publiée le 14 octobre cite la norme EN 18286 (management de la qualité pour les fournisseurs de systèmes IA à haut risque) dans le Journal Officiel — premier standard harmonisé de l'EU AI Act. La MAS a publié ses lignes directrices finales sur la gestion des risques IA le 7 octobre et le FSB ses pratiques le 15 octobre, concentrant un volume inédit de régulation sur la seule semaine du 14 octobre 2026.",
-        "source": "The Reliability Layer (Substack)",
-        "url": "https://thereliabilitylayer.substack.com/p/state-of-enterprise-ai-october-2026",
-        "date_publication": "28/10/2026",
-        "pertinence": "haute",
-        "categorie": "regulation"
+        "titre": "EU AI Act compliance en entreprise : ce qui a changé en août 2026 et les prochaines étapes",
+        "resume": "Publié le 21 octobre 2026 (12 jours avant aujourd'hui), cet article de code10it.com fait le bilan des changements effectifs depuis août 2026 : obligations de transparence Article 50, supervision des providers par l'AI Office et les autorités nationales, obligation de marquage lisible par machine des contenus synthétiques. Il détaille les prochaines étapes pratiques pour les entreprises : inventaire IA, classification des risques, revue des contrats fournisseurs.",
+        "source": "code10it.com",
+        "url": "https://code10it.com/eu-ai-act-compliance-in-2026-why-businesses-need-effective-ai-governance/",
+        "date_publication": "21/10/2026",
+        "pertinence": "moyenne",
+        "categorie": "conformité réglementaire"
       }
     ],
     "clinique": [
       {
-        "titre": "Le recrutement dans les essais cliniques apprend à aller vers les patients : le rôle de l'IA et ses limites",
-        "resume": "Un article publié le 29 octobre 2026 dans MM+M montre que l'inclusion dans les essais s'est élargie au-delà du sexe, de la race et de l'ethnicité pour intégrer la géographie, le revenu et les responsabilités d'aidants. À Ochsner Health, une plateforme IA a augmenté de 41% le nombre de patients screenés pour les essais. Cependant, l'IA ne corrige pas les critères d'éligibilité trop restrictifs : un système de matching plus rapide reproduit les biais protocolaires à grande échelle.",
-        "source": "MM+M (Medical Marketing and Media)",
-        "url": "https://mmm-online.com/features/clinical-trial-recruitment-meeting-patients-where-they-are",
-        "date_publication": "29/10/2026",
-        "pertinence": "haute",
-        "categorie": "pratique"
-      },
-      {
-        "titre": "Augmenter l'enrôlement des populations sous-représentées dans les essais en oncologie : Urotoday (27 octobre 2026)",
-        "resume": "Un bulletin publié le 27 octobre 2026 par UroToday compile les travaux récents sur la diversité raciale dans les essais d'enrôlement en oncologie (notamment cancer de la prostate), documentant que les populations de minorités raciales et ethniques restent fréquemment absentes des populations d'essais censées les représenter. Le tracking démographique y est présenté comme un baromètre clé de l'équité thérapeutique.",
-        "source": "UroToday",
-        "url": "https://www.urotoday.com/component/acymailing/archive/forward/mailid-9122.html",
-        "date_publication": "27/10/2026",
-        "pertinence": "moyenne",
-        "categorie": "recherche"
-      },
-      {
-        "titre": "Les IA médicales 'boîtes noires' peuvent aggraver les disparités de santé, alerte une chercheuse",
-        "resume": "Lors du sommet d'automne de l'AHCJ (Los Angeles), la chercheuse Tiffani Bright a averti que les outils IA commerciaux propriétaires, non inspectables par les établissements de santé, introduisent des biais par trois voies principales : données historiques biaisées, mauvaises questions cliniques et absence de réaction aux alertes systèmes. Elle souligne que la plupart des outils IA cliniques ne subissent pas d'essais cliniques rigoureux par des évaluateurs externes avant d'atteindre les patients, contrairement aux médicaments. Cet article a été publié le 30 octobre 2026.",
-        "source": "Health Journalism (AHCJ)",
-        "url": "https://healthjournalism.org/blog/2026/10/black-box-medical-ai-can-deepen-health-disparities-researcher-says",
-        "date_publication": "30/10/2026",
-        "pertinence": "haute",
-        "categorie": "biais_algorithmique"
-      },
-      {
-        "titre": "Health Equity Brief — 26 octobre 2026 : 7 nouveaux appels à financement, 3 nouveaux essais et 120 articles indexés",
-        "resume": "La newsletter hebdomadaire ASIDE Health Equity Brief du 26 octobre 2026 recense 7 nouveaux appels à financement, 3 nouveaux essais cliniques en recrutement et 120 nouveaux articles indexés dans le domaine de l'équité en santé. Parmi les essais signalés figure une étude évaluant l'IA pour la traduction de ressources de gestion des connaissances (Université de l'Alberta) et une étude pilote sur la surveillance tensionnelle à domicile dans un centre de santé fédéral qualifié.",
+        "titre": "Health Equity Brief du 26 octobre 2026 : 7 nouveaux appels à financement, 3 essais en recrutement",
+        "resume": "Publié le 26 octobre 2026, ce bulletin hebdomadaire ASIDE recense les nouveaux essais cliniques en recrutement actif sur la diversité et l'équité en santé, dont un essai de dépistage cancer du col de l'utérus dans la communauté hispanique et est-africaine immigrée (Mayo Clinic) et une intervention communautaire pour stress/dépression chez les jeunes (Lurie Children's Hospital Chicago). 120 nouveaux articles indexés cette semaine.",
         "source": "ASIDE Healthcare",
-        "url": "https://asidehealthcare.org/health-equity-brief-2026-10-26",
+        "url": "https://www.asidehealthcare.org/health-equity-brief-2026-10-26/",
         "date_publication": "26/10/2026",
         "pertinence": "moyenne",
-        "categorie": "veille"
+        "categorie": "équité en santé"
+      },
+      {
+        "titre": "Diversité dans le recrutement en essais cliniques : guide pratique mis à jour le 25 octobre 2026",
+        "resume": "Mis à jour le 25 octobre 2026, ce guide de Brighter Click définit les standards opérationnels pour recruter des populations représentatives dans les essais cliniques : âge, sexe, race, ethnie et statut de santé alignés sur la population cible du traitement. Il détaille les stratégies concrètes pour atteindre les patients sous-représentés (sites décentralisés, partenaires communautaires) et les exigences des Diversity Action Plans FDA.",
+        "source": "Brighter Click",
+        "url": "https://www.brighterclick.com/blog-post/diversity-in-clinical-trial-recruitment",
+        "date_publication": "25/10/2026",
+        "pertinence": "moyenne",
+        "categorie": "recrutement"
+      },
+      {
+        "titre": "Vue d'ensemble des documents FDA sur la diversité en essais cliniques (Applied Clinical Trials, oct. 2026)",
+        "resume": "Publié il y a 7 jours (vers le 26 octobre 2026) dans Applied Clinical Trials, cet article passe en revue l'ensemble des documents FDA publiés depuis 2016 pour promouvoir la diversité dans les essais cliniques, avec focus sur les Diversity Action Plans (DAPs) imposés par le FDORA. Il détaille les exigences de contenu des plans (évaluation de la race/ethnie, engagement des sites en zones sous-desservies) et le cadre réglementaire évolutif pour les sponsors.",
+        "source": "Applied Clinical Trials Online",
+        "url": "https://www.appliedclinicaltrialsonline.com/view/an-overview-of-fda-diversity-related-documents-for-clinical-trials",
+        "date_publication": "26/10/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation FDA"
       }
     ]
   }
