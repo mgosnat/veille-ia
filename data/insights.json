@@ -1,137 +1,74 @@
 {
-  "generated_at": "2026-11-03T13:56:50.682581Z",
-  "date_fr": "03/11/2026",
+  "generated_at": "2026-11-04T14:07:38.739882Z",
+  "date_fr": "04/11/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Agentic AI Foundation annonce quatre nouveaux projets open source : Agent Skills, Open Responses, OpenEnv, OpenSandbox",
-        "resume": "Le 22 octobre 2026, l'Agentic AI Foundation (AAIF), hébergée par la Linux Foundation, a annoncé quatre nouveaux projets : Agent Skills (Anthropic), Open Responses (OpenAI), OpenEnv (Hugging Face) et OpenSandbox (Alibaba). OpenSandbox est une plateforme sandbox généraliste avec SDKs multi-langages, APIs unifiées et runtimes Docker/Kubernetes pour agents de code, agents GUI et évaluation d'agents. Ces projets s'ajoutent aux projets fondateurs MCP, goose et AGENTS.md pour établir des standards ouverts d'interopérabilité agentique.",
-        "source": "Linux Foundation / AAIF",
-        "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox",
-        "date_publication": "22/10/2026",
+        "titre": "Top 13 Open-Source Agentic AI Frameworks : Benchmark réel sur 6 500 runs (Oct. 2026)",
+        "resume": "AIMultiple a testé 13 frameworks agentiques open-source sur 5 tâches répétées 100 fois chacune (6 500 runs au total), en mesurant latence, coût et consommation de tokens. Le benchmark, daté du 27 octobre 2026, compare LangGraph, CrewAI, Microsoft Agent Framework, OpenAI Agents SDK, Google ADK, Pydantic AI, smolagents et d'autres. Les résultats fournissent des données chiffrées concrètes pour choisir un framework en production.",
+        "source": "AIMultiple",
+        "url": "https://aimultiple.com/agentic-frameworks",
+        "date_publication": "30/10/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "benchmark"
       },
       {
-        "titre": "Android Studio Rabbit 2 stable : 'Bring Your Own Agent' ouvre l'IDE à 40+ agents de code via ACP",
-        "resume": "Google a publié Android Studio Rabbit 2 (version 2026.2.2) sur le canal stable le 28 octobre 2026, avec la fonctionnalité 'Bring Your Own Agent' (BYOA) permettant aux développeurs d'intégrer plus de 40 agents compatibles Agent Client Protocol (ACP), dont Claude Agent, OpenAI Codex, Junie et Google Antigravity. Ces agents accèdent directement aux outils IDE : émulateur Android, systèmes de build et Logcat. C'est un changement architectural majeur : Android Studio n'est plus lié à un seul fournisseur d'IA.",
-        "source": "Android Developers Blog / Google",
-        "url": "https://developer.android.com/blog/posts/ai-agents-android-studio-integration",
-        "date_publication": "28/10/2026",
+        "titre": "LangGraph vs n8n for Enterprise Multi-Agent Systems : A 2026 Production Post-Mortem",
+        "resume": "Retour d'expérience terrain de l'équipe Elesium ayant déployé et benchmarké LangGraph et n8n en conditions de production réelles dans des entreprises indiennes des secteurs bancaire et logistique. L'article documente concrètement les pannes sous charge de n8n (heap fragmentation sur 3 000 PDFs simultanés) et explique pourquoi LangGraph StateGraph compilé en microservices Python async est préféré pour les workflows critiques. Des métriques P99 et FinOps sont incluses.",
+        "source": "DEV Community (Elesium)",
+        "url": "https://dev.to/chaman_shah_elesium/langgraph-vs-n8n-for-enterprise-multi-agent-systems-a-2026-production-post-mortem-1h32",
+        "date_publication": "23/10/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "retour-experience"
       },
       {
-        "titre": "SAP TechEd 2026 : Joule Studio, Enterprise AI Gateway et gouvernance d'agents en production",
-        "resume": "Lors de SAP TechEd 2026 (annonce officielle du 2 novembre 2026), SAP a lancé un Enterprise AI Gateway centralisant authentification, routage, monitoring et audit de tout le trafic IA de l'entreprise, ainsi qu'un AI Governance Assistant pour la conformité EU AI Act. Joule Studio supporte désormais plus de 70 modèles avec des contrôles de comportement des agents, d'utilisation et de dépenses. SAP AI Agent Hub permet de découvrir, documenter et rendre conformes les agents SAP et non-SAP.",
-        "source": "SAP Africa News Center / SAP TechEd 2026",
-        "url": "https://news.sap.com/africa/2026/11/sap-beefs-up-business-ai-platform-and-joule-to-drive-agentic-ai-adoption/",
-        "date_publication": "02/11/2026",
-        "pertinence": "haute",
-        "categorie": "produit"
-      },
-      {
-        "titre": "AWS publie un blueprint multi-agents pour workflows d'ingénierie régulés (5 notebooks Jupyter + GitHub)",
-        "resume": "AWS a publié sur son blog Machine Learning un tutoriel complet avec 5 notebooks Jupyter et un dépôt GitHub pour construire un assistant d'ingénierie multi-agents avec Amazon Nova Multimodal Embeddings et Amazon Bedrock AgentCore. Le pattern utilise un agent planificateur et trois agents spécialistes (Catalog, Evaluation, Knowledge), des vérifications Python déterministes pour les règles de tolérance, et AgentCore Evaluations pour le scoring en continu. Conçu pour les industries régulées nécessitant un comportement d'agent auditable et répétable.",
-        "source": "AI Agent Store / AWS Machine Learning Blog",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "03/11/2026",
-        "pertinence": "haute",
-        "categorie": "tutoriel"
-      },
-      {
-        "titre": "AWS : blueprint open source 'Enterprise Agentic AI Platform' sur Amazon Bedrock AgentCore",
-        "resume": "AWS a publié un blueprint de référence open source pour une plateforme IA agentique d'entreprise multi-comptes sur Amazon Bedrock AgentCore, avec un plan de contrôle, des cellules par workstream, des gateways d'inférence et d'outils séparés, et un pipeline CI/CD d'évaluation avant mise en production. La plateforme est publiée avec le code infrastructure-as-code et un workshop dédié. Applicable pour équipes produit et engineering souhaitant standardiser le déploiement d'agents en entreprise.",
-        "source": "AWS Machine Learning Blog",
-        "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
-        "date_publication": "29/10/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Kanerika : 8 cas d'usage concrets d'IA agentique en production dans l'industrie manufacturière (étude de cas Karl)",
-        "resume": "Publié le 24 octobre 2026, cet article documente des déploiements réels d'agents IA en manufacturing, dont le cas 'Karl' de réconciliation d'inventaires en production chez une entreprise de produits de construction. L'architecture multi-agents s'appuie sur un orchestrateur coordonnant des agents spécialisés (maintenance, scheduling, matières) avec des logs d'audit complets. L'article détaille les KPIs ROI, les connexions MES/ERP/CMMS et les niveaux d'autonomie recommandés.",
-        "source": "Kanerika",
-        "url": "https://kanerika.com/blogs/agentic-ai-in-manufacturing/",
-        "date_publication": "24/10/2026",
-        "pertinence": "haute",
-        "categorie": "cas-usage"
-      },
-      {
-        "titre": "Designveloper : 10 études de cas d'agents IA en production dans des secteurs variés (oct. 2026)",
-        "resume": "Publié le 21 octobre 2026, cet article propose un cadre rigoureux de validation de cas d'usage agents : évaluation pre-pilot avec cas nominaux et difficiles, comparaison agent/workflow existant, suivi de la complétion des tâches, précision, temps de revue, rework et incidents de sécurité. Il distingue clairement les déploiements en production des pilotes, démos et capacités déclarées par les éditeurs.",
-        "source": "Designveloper",
-        "url": "https://www.designveloper.com/blog/ai-agent-useful-case-study/",
-        "date_publication": "21/10/2026",
+        "titre": "Cycode obtient la certification ISO/IEC 42001 — première plateforme de sécurité agentique certifiée",
+        "resume": "Cycode annonce être la première plateforme de sécurité du développement agentique (Agentic Development Security Platform) à obtenir la certification ISO/IEC 42001, le standard international pour les systèmes de management de l'IA. La certification atteste que les politiques, évaluations de risques, gouvernance des données et cycles d'amélioration de Cycode répondent au standard. L'annonce est datée du 23 octobre 2026.",
+        "source": "Cycode",
+        "url": "https://cycode.com/blog/iso-iec-42001-certification/",
+        "date_publication": "23/10/2026",
         "pertinence": "moyenne",
-        "categorie": "cas-usage"
-      },
-      {
-        "titre": "Neontri : Guide stratégique de déploiement d'agents IA en entreprise avec playbook 90 jours",
-        "resume": "Mis à jour le 26 octobre 2026, ce guide détaille un playbook pilot-to-production en 90 jours pour agents IA en entreprise : sélection des use cases (critères : >500 transactions/mois, 80% de cas suivant un pattern défini, métrique claire), déploiement sur 20-30% du volume réel avec supervision humaine des escalades, et monitoring KPI quotidien. Le guide couvre architecture, stack d'observabilité et critères go/no-go pour le passage à l'échelle.",
-        "source": "Neontri",
-        "url": "https://neontri.com/blog/enterprise-ai-agents/",
-        "date_publication": "26/10/2026",
-        "pertinence": "moyenne",
-        "categorie": "tutoriel"
+        "categorie": "annonce-produit"
       }
     ],
     "gouvernance": [
       {
-        "titre": "SAP TechEd 2026 : SAP Enterprise AI Gateway et AI Governance Assistant pour conformité EU AI Act",
-        "resume": "Lors de SAP TechEd 2026 (octobre-novembre 2026), SAP a annoncé son Enterprise AI Gateway qui centralise authentification, application des politiques, routage, monitoring et audit de tout le trafic IA entreprise. Un AI Governance Assistant intégré aide les clients à se conformer à l'EU AI Act directement depuis l'inventaire d'architecture d'entreprise existant. SAP prévoit de rendre l'AI Governance Assistant disponible aux clients SAP Early Adopter Care en novembre 2026.",
-        "source": "SAP TechEd / SAP Insider",
-        "url": "https://sapinsider.org/blogs/sap-teched-2026-new-tools-to-build-and-govern-ai-agents",
-        "date_publication": "27/10/2026",
+        "titre": "AI Governance & Risk Brief — Octobre 2026 (Quantidal)",
+        "resume": "Synthèse mensuelle des évolutions réglementaires d'octobre 2026 : publication d'EN 18286:2026, mise à jour des lignes directrices ERA de la Commission sur l'IA générative agentique (16 octobre), ouverture d'une consultation sur l'EU Kids Act incluant les contenus IA (2 octobre), et entrée en vigueur de la législation italienne de transposition de l'AI Act (23 octobre). OpenAI a aussi déployé un watermarking invisible dans l'UE pour se conformer aux exigences de transparence de l'AI Act (5 octobre).",
+        "source": "Quantidal (Substack)",
+        "url": "https://quantidal.substack.com/p/ai-governance-and-risk-brief-october",
+        "date_publication": "30/10/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "veille-reglementaire"
       },
       {
-        "titre": "EU AI Act News octobre 2026 : le 'Digital Omnibus' est loi, prochaine échéance le 2 décembre 2026",
-        "resume": "Le mois d'octobre 2026 marque l'entrée en vigueur de l'AI Act amendé par le Digital Omnibus, avec des obligations clés au 2 décembre 2026 : fin du délai de grâce pour le marquage des contenus générés par IA en forme lisible par machine, et fin de la période transitoire pour les systèmes interdits de génération d'images intimes non-consenties. L'obligation d'informer les utilisateurs qu'ils parlent à une IA est applicable depuis le 2 août 2026. Les petites mid-caps bénéficient désormais d'obligations simplifiées.",
-        "source": "Ashford Publishing / AI Governance News",
-        "url": "https://ashford-publishing.com/blog/ai-governance-news",
-        "date_publication": "25/10/2026",
+        "titre": "AI Act : ce qui a changé d'octobre à novembre 2026 — Global Update (Cubbbix)",
+        "resume": "Mise à jour mondiale de la réglementation IA pour novembre 2026 : bilan de l'enforcement démarré en octobre (premières demandes d'information, standard EN 18286, Italie et Pologne activant leurs chapitres nationaux), agenda des prochaines échéances dont la date clé du 2 décembre 2026 (fin des périodes de grâce pour le marquage des contenus générés par IA et la nouvelle prohibition sur les contenus intimes non consentis). Pas d'amende AI Act prononcée au 3 novembre 2026.",
+        "source": "Cubbbix",
+        "url": "https://cubbbix.com/blog/ai-regulation-november-2026-global-update",
+        "date_publication": "03/11/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "Comparatif des 7 meilleurs outils de gouvernance IA pour la conformité EU AI Act (octobre 2026)",
-        "resume": "Publié le 21 octobre 2026 et mis à jour après les premières actions coercitives du 14 octobre, cet article compare Credo AI, Trustible, Holistic AI, IBM watsonx.governance, Modulos, Asenion et Kertos sur le registre des systèmes IA, la cartographie des niveaux de risque AI Act, la couverture des agents tiers et la tarification. IBM watsonx.governance est noté 'meilleur pour les grands environnements multi-cloud' à partir de 3 500$/mois (plan Basic).",
-        "source": "AISsist.io",
-        "url": "https://aissist.io/insights/best-ai-governance-tools",
-        "date_publication": "21/10/2026",
-        "pertinence": "moyenne",
-        "categorie": "outil"
+        "categorie": "veille-reglementaire"
       }
     ],
     "clinique": [
       {
-        "titre": "UK HRA/MHRA publient les résultats du pilote 'Inclusion and Diversity Plan' pour les essais cliniques",
-        "resume": "Publiés le 3 novembre 2026, les résultats du pilote HRA/MHRA sur les Plans d'Inclusion et Diversité (IDP) pour les essais cliniques montrent que 7 études ont participé (5 essais phase 3 CTIMPS, 2 études dispositifs médicaux). Les sponsors commerciaux ont trouvé le Plan utile pour structurer la réflexion sur l'inclusion dès la conception de l'étude et dans les discussions de recrutement avec les sites. Les comités d'éthique (RECs) ont des avis partagés sur la revue du Plan. La soumission reste volontaire et non obligatoire réglementairement.",
-        "source": "GOV.UK / MHRA / HRA",
-        "url": "https://www.gov.uk/government/news/clinical-trials-for-medicines-inclusion-and-diversity-plan-pilot-findings-published",
+        "titre": "Georgetown University / Health Affairs Scholar : seuls 13 % des articles IA & équité en santé définissent explicitement l'équité",
+        "resume": "Une revue publiée le 8 octobre 2026 dans Health Affairs Scholar (Georgetown University) révèle que seulement 13 % des articles examinant l'IA et l'équité en santé définissent explicitement ce qu'est l'équité en santé. Cette lacune définitionnelle expose les approches IA au risque de bénéficier davantage aux groupes les plus favorisés. L'étude souligne l'urgence d'un cadrage conceptuel rigoureux pour les outils IA ciblant la réduction des disparités.",
+        "source": "EurekAlert / Health Affairs Scholar",
+        "url": "https://www.eurekalert.org/news-releases/1150063",
+        "date_publication": "02/11/2026",
+        "pertinence": "haute",
+        "categorie": "etude"
+      },
+      {
+        "titre": "Beinsure / Georgetown : l'IA en santé creuse les disparités diagnostiques — bilan novembre 2026",
+        "resume": "Article publié le 3 novembre 2026 par Beinsure synthétisant plusieurs revues récentes sur les biais algorithmiques en santé, dont la revue Georgetown 2026 indiquant que seulement 22 des 166 articles analysés définissaient l'équité en santé, et l'enquête STAT's Denied by AI documentant des décisions algorithmiques ayant restreint des couvertures de rééducation pour des patients âgés et handicapés. L'article souligne que les entreprises de santé numérique adoptent l'IA plus vite que les assureurs n'adaptent leur gestion des risques.",
+        "source": "Beinsure",
+        "url": "https://beinsure.com/ai-in-healthcare-raises-health-equity-algorithmic-bias-and-disability-risks/",
         "date_publication": "03/11/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "MM+M : le recrutement en essais cliniques se réinvente pour rejoindre les patients là où ils sont (oct. 2026)",
-        "resume": "Publié dans le numéro du 1er octobre 2026 de Medical Marketing & Media, cet article de fond montre que l'inclusion dans les essais cliniques s'est élargie au-delà du sexe et de l'origine ethnique pour intégrer la géographie, les revenus, les responsabilités familiales et l'accès aux soins. Les sponsors intègrent désormais la stratégie de recrutement dès la conception du protocole et la sélection des sites. L'IA peut analyser plus de patients candidats mais ne corrige pas les critères d'éligibilité restrictifs ni les déserts géographiques d'accès aux essais.",
-        "source": "MM+M - Medical Marketing and Media",
-        "url": "https://mmm-online.com/features/clinical-trial-recruitment-meeting-patients-where-they-are",
-        "date_publication": "29/10/2026",
-        "pertinence": "haute",
-        "categorie": "strategie"
-      },
-      {
-        "titre": "ASIDE Health Equity Brief du 26 octobre 2026 : 7 nouveaux appels à financement, 120 nouveaux articles indexés",
-        "resume": "Le bulletin hebdomadaire ASIDE Health Equity du 26 octobre 2026 recense 7 nouveaux appels à financement, 3 nouveaux essais en recrutement actif et 120 articles nouvellement indexés en équité en santé et recherche clinique inclusive. Il référence notamment un article sur les inégalités d'exposition à la désinformation santé selon l'origine ethnique et un essai pilote sur la surveillance de la tension artérielle à domicile dans un Federally Qualified Health Center.",
-        "source": "ASIDE Healthcare",
-        "url": "https://www.asidehealthcare.org/health-equity-brief-2026-10-26/",
-        "date_publication": "26/10/2026",
-        "pertinence": "moyenne",
-        "categorie": "veille"
+        "categorie": "analyse"
       }
     ]
   }
