@@ -1,29 +1,38 @@
 {
-  "generated_at": "2026-11-06T14:02:36.994620Z",
-  "date_fr": "06/11/2026",
+  "generated_at": "2026-11-07T12:46:34.098823Z",
+  "date_fr": "07/11/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "DeepSeek lance Super-Agent, un agent de coding open-source autonome",
-        "resume": "DeepSeek a publié le 1er novembre 2026 un prototype open-source MIT appelé dsh-superagent, conçu pour surveiller les chats développeurs (GitHub, Feishu) et proposer des solutions de code sans être sollicité. L'agent utilise une architecture Router/Worker isolée et a enregistré un temps médian d'exécution de 12,4 minutes dans les tests. Le code est disponible sur GitHub accompagné d'un document de conception 'Exploring Super-Agent Design'.",
-        "source": "Bloomberg / The Next Web / Dataconomy",
-        "url": "https://thenextweb.com/news/deepseek-open-sources-super-agent-a-coding-agent-that-reads-team-chats",
-        "date_publication": "01/11/2026",
+        "titre": "DeepSeek lance dsh-superagent en open source : un agent autonome de coding qui surveille les chats d'équipe",
+        "resume": "DeepSeek a publié le 1er novembre 2026 un prototype open source (MIT) baptisé 'Super-Agent' (dsh-superagent v0.1.0), capable de surveiller en temps réel les discussions de groupe des développeurs sur GitHub et Feishu et de proposer des solutions de code sans être sollicité. L'agent utilise une architecture Router/Worker isolée, enregistre un temps médian de complétion de 12,4 minutes et est disponible gratuitement sur GitHub. DeepSeek le positionne directement face à Claude Code d'Anthropic, en ciblant l'automatisation de tâches de coding en équipe.",
+        "source": "Bloomberg / Help Net Security / The Next Web",
+        "url": "https://www.helpnetsecurity.com/2026/11/02/deepseek-dsh-superagent/",
+        "date_publication": "02/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "SAP TechEd 2026 : Joule Work et Joule Studio mis en production pour l'entreprise agentique",
-        "resume": "Lors de SAP TechEd Berlin (27-29 octobre 2026), SAP a annoncé la disponibilité générale de sa SAP Business AI Platform incluant Joule Work, Joule Studio, SAP Knowledge Graph et un Enterprise AI Gateway avec gouvernance. Des cas concrets ont été présentés : ITOCHU a réduit ses heures opérationnelles de 50 à 70% sur ses deux premiers cas d'usage IA ; Accenture ANZ déploie des solutions agentiques sur Procure-to-Pay en production. SAP prévoit 400 agents dans son Autonomous Suite d'ici fin 2026.",
-        "source": "SAP Africa News Center / Implema",
+        "titre": "Android Studio Rabbit 2 : Google ouvre son IDE à 40+ agents de coding tiers via 'Bring Your Own Agent'",
+        "resume": "Au Android Dev Summit du 28 octobre 2026, Google a rendu stable Android Studio Rabbit 2 avec la fonctionnalité 'Bring Your Own Agent' (BYOA) permettant aux développeurs d'intégrer plus de 40 agents de coding (Claude Agent, Codex, Antigravity, Junie…) directement dans l'IDE via l'Agent Client Protocol (ACP) ouvert. Les agents accèdent nativement aux outils de build, à l'émulateur et à Logcat d'Android Studio. Google a également publié des plugins Android CLI officiels pour Claude Code et Codex.",
+        "source": "Android Developers Blog / The Decoder",
+        "url": "https://developer.android.com/blog/posts/build-your-way-use-any-ai-agent-of-your-choice-in-android-studio",
+        "date_publication": "28/10/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "SAP TechEd 2026 : SAP élargit Joule Studio et lance le SAP Enterprise AI Gateway pour les agents d'entreprise",
+        "resume": "Lors de SAP TechEd 2026 (annoncé le 2 novembre 2026), SAP a dévoilé des mises à jour majeures de Joule Studio et Joule Work, avec accès à plus de 70 modèles d'IA, planification multistep et intégration de n8n pour les premiers adoptants. Le nouveau SAP Enterprise AI Gateway centralise l'authentification, le routage, le monitoring et l'audit de tous les agents IA de l'entreprise. SAP positionne cette plateforme comme un socle pour l'entreprise autonome, avec Novartis et Nestlé parmi les clients en production.",
+        "source": "SAP News / BigGo Finance",
         "url": "https://news.sap.com/africa/2026/11/sap-beefs-up-business-ai-platform-and-joule-to-drive-agentic-ai-adoption/",
         "date_publication": "02/11/2026",
         "pertinence": "haute",
-        "categorie": "cas_usage"
+        "categorie": "produit"
       },
       {
-        "titre": "AWS publie un blueprint multi-agents pour workflows d'ingénierie en environnement régulé",
-        "resume": "AWS a publié le 2 novembre 2026 sur son blog ML un tutoriel complet (5 notebooks Jupyter + repo GitHub) pour construire un assistant multi-agents d'ingénierie avec Amazon Nova Multimodal Embeddings et Amazon Bedrock AgentCore. L'architecture utilise un planner et trois agents spécialistes (Catalog, Evaluation, Knowledge) avec des contrôles Python déterministes pour les règles de tolérance, permettant d'alimenter des revues formelles d'ingénierie. Le post inclut le déploiement et l'instrumentation pour un scoring continu en production.",
+        "titre": "AWS publie un blueprint pratique : agent multi-spécialistes pour workflows d'ingénierie réglementés (Amazon Bedrock AgentCore)",
+        "resume": "Le 2 novembre 2026, AWS a publié sur son blog Machine Learning un tutoriel complet (5 notebooks Jupyter + repo GitHub) pour construire un assistant d'ingénierie multi-agents avec Amazon Nova Multimodal Embeddings et Amazon Bedrock AgentCore. L'architecture déploie un agent planificateur et trois agents spécialistes (Catalogue, Évaluation, Connaissance) avec des contrôles déterministes Python pour les règles de spécification. Le guide est orienté production et conformité, adapté aux industries réglementées nécessitant des comportements auditables.",
         "source": "AWS Machine Learning Blog",
         "url": "https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/",
         "date_publication": "02/11/2026",
@@ -31,98 +40,125 @@
         "categorie": "tutoriel"
       },
       {
-        "titre": "Comparatif des 7 frameworks agents à évaluer en novembre 2026 (versions PyPI vérifiées)",
-        "resume": "Kanerika a publié le 3 novembre 2026 une analyse mise à jour directement depuis PyPI des 7 frameworks agents les plus pertinents : LangGraph (v2.65.0), CrewAI (v1.15.35), Microsoft Agent Framework (v1.24.0), OpenAI Agents SDK (v1.63.0), Google ADK, Pydantic AI et Strands Agents. Chaque version est horodatée avec sa licence et ses cas d'usage recommandés (LangGraph pour workflows avec approbation humaine, CrewAI pour équipes role-based). Un tableau de comparaison pratique couvre la durabilité, les protocoles supportés et la gouvernance.",
+        "titre": "Comparatif kanerika : les 7 frameworks d'agents IA à évaluer en novembre 2026 (versions PyPI vérifiées)",
+        "resume": "Publié le 3 novembre 2026 et vérifié directement sur PyPI et GitHub, cet article compare LangGraph, CrewAI, Microsoft Agent Framework, OpenAI Agents SDK, Google ADK, Pydantic AI et Strands Agents avec leurs versions exactes. Il documente notamment CrewAI v1.24.0 (30 oct. 2026), LangGraph v2.65.0 (3 nov. 2026) et Microsoft Agent Framework v1.63.0 (30 oct. 2026). L'article recommande LangGraph pour les workflows nécessitant des approbations humaines et CrewAI pour les équipes d'agents à rôles définis.",
         "source": "Kanerika",
         "url": "https://kanerika.com/blogs/ai-agent-frameworks/",
         "date_publication": "03/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
-      },
-      {
-        "titre": "AI Agents News – Semaine du 3 novembre 2026 : Android Studio, SAP, Snowflake",
-        "resume": "Le tracker hebdomadaire AI Agent Store du 3 novembre 2026 recense : Android Studio Rabbit 2 qui ouvre son IDE à 40+ agents tiers via l'Agent Client Protocol (Claude Agent, Codex, Junie…) ; SAP qui introduit data-fabric et ontologie pour contextualiser les agents métier ; Snowflake qui ajoute trois contrôles publics à l'API coding de Cortex Agents (thinking_effort, instructions.system, stage_mounts). Chaque annonce inclut des détails techniques sur les APIs et paramètres ajoutés.",
-        "source": "AI Agent Store",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "03/11/2026",
-        "pertinence": "moyenne",
-        "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : mise à jour réglementation novembre 2026 – compte à rebours du 2 décembre et 15 pays",
-        "resume": "Un rapport du 3 novembre 2026 (Cubbbix) synthétise l'état de l'application de l'AI Act : les pouvoirs d'exécution du Bureau IA et des autorités nationales sont actifs depuis le 2 août 2026, mais aucune amende formelle n'avait encore été annoncée au 3 novembre. L'Italie et la Pologne ont activé leurs chapitres d'application en octobre. Le 2 décembre 2026 est le prochain jalon critique (extension des obligations de transparence aux systèmes legacy et entrée en vigueur des nouvelles interdictions).",
-        "source": "Cubbbix Tools",
-        "url": "https://cubbbix.com/blog/ai-regulation-november-2026-global-update",
-        "date_publication": "03/11/2026",
+        "titre": "EU AI Act : la période de feedback sur le règlement d'exécution de la Commission se ferme le 9 novembre 2026",
+        "resume": "Un projet de règlement d'exécution de la Commission européenne (Ares(2026)9589403, daté du 12 octobre 2026) établissant les procédures pratiques pour les enquêtes d'enforcement de l'AI Act est en consultation publique jusqu'au 9 novembre 2026. Ce texte, encore non adopté, définit notamment les règles de confidentialité des preuves et les délais de réponse pour les entreprises visées. C'est la dernière semaine pour soumettre des observations concrètes avant que le projet ne progresse.",
+        "source": "Regulations.ai",
+        "url": "https://regulations.ai/news/eu-ai-enforcement-draft-feedback-closes-9-november",
+        "date_publication": "05/11/2026",
         "pertinence": "haute",
-        "categorie": "enforcement"
+        "categorie": "reglementation"
       },
       {
-        "titre": "EU AI Act dans le monde réel : ce que les organisations doivent faire maintenant",
-        "resume": "Publié le 4 novembre 2026 par SC World, cet article de fond détaille les obligations actives depuis le 2 août 2026 : inventaires IA, évaluations des risques, transparence (article 50) et responsabilité organisationnelle. L'article identifie la prochaine deadline critique du 2 décembre 2026 (fin du délai de grâce pour les systèmes IA déjà sur le marché) et rappelle que les obligations pour les systèmes à haut risque autonomes ont été repoussées au 2 décembre 2027 par le Digital Omnibus. L'exposition financière en cas de non-conformité est présentée comme significative.",
+        "titre": "L'EU AI Act entre dans le monde réel : ce que les organisations doivent faire maintenant",
+        "resume": "Depuis le 2 août 2026, la phase d'enforcement élargie de l'AI Act est en vigueur : les autorités de l'AI Office et les autorités nationales compétentes disposent désormais de pouvoirs d'exécution pour les obligations de transparence (Article 50) et les GPAI. Les systèmes mis sur le marché avant le 2 août 2026 ont jusqu'au 2 décembre 2026 pour se conformer aux exigences de marquage. L'article recommande aux organisations de bâtir un inventaire IA, d'effectuer des évaluations de risques et de mettre en place des mécanismes de responsabilité.",
         "source": "SC World",
         "url": "https://www.scworld.com/perspective/the-eu-ai-act-has-entered-the-real-world-what-organizations-need-to-do-now",
         "date_publication": "04/11/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
+        "categorie": "reglementation"
       },
       {
-        "titre": "ISO 42001 expliqué : ce que les auditeurs vérifient au-delà des politiques",
-        "resume": "Publié le 24 octobre 2026 par Forcepoint, cet article pratique détaille ce que les auditeurs ISO 42001 examinent concrètement : preuves de gouvernance exécutive, inventaires de données alimentant les systèmes IA, évaluations d'impact (clause 6.1.4), et contrôles du cycle de vie. Il précise qu'ISO 42001 est volontaire et ne confère pas de présomption de conformité à l'AI Act (absence d'Annex ZA), positionnant la norme comme infrastructure de gouvernance complémentaire.",
-        "source": "Forcepoint",
-        "url": "https://www.forcepoint.com/blog/insights/iso-42001",
-        "date_publication": "24/10/2026",
+        "titre": "Actualités réglementation IA – novembre 2026 : enforcement EU AI Act, lois California, 1 170 instruments mondiaux",
+        "resume": "Publié le 7 novembre 2026, ce bulletin d'actualité pour startups recense les grandes évolutions réglementaires : l'EU AI Act est entré en phase d'enforcement depuis l'été 2026 et s'applique à tout produit IA atteignant des utilisateurs européens quelle que soit la localisation de l'entreprise. La Californie continue d'empiler des lois sur la transparence et l'audit de l'IA, et le nombre global d'instruments réglementaires IA a dépassé 1 170 dans 109 pays. Les premiers cas publics d'enforcement européen sont attendus pour définir l'interprétation des règles.",
+        "source": "blog.mean.ceo",
+        "url": "https://blog.mean.ceo/ai-regulation-news-november-2026/",
+        "date_publication": "07/11/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "Guide de conformité EU AI Act au 5 novembre 2026 : ce qui s'applique aujourd'hui et ce qui arrive",
+        "resume": "Mis à jour le 5 novembre 2026, ce guide pratique détaille l'état exact des obligations en vigueur : interdictions (Article 5), obligation de littératie IA (Article 4), règles GPAI et transparence (Article 50) sont toutes applicables et l'enforcement a débuté. Le Digital Omnibus entré en vigueur le 27 juillet 2026 a repoussé les règles sur les systèmes à haut risque (Annexe III) au 2 décembre 2027 et (Annexe I) au 2 août 2028. La Commission a publié des lignes directrices de classification en mai 2026, encore en statut de projet au 5 novembre.",
+        "source": "DigitalXForce",
+        "url": "https://digitalxforce.com/eu-ai-act-compliance-guide/",
+        "date_publication": "05/11/2026",
+        "pertinence": "haute",
+        "categorie": "conformite"
+      },
+      {
+        "titre": "ISO 42001 : lacune de gouvernance majeure pour le code généré par IA dans les applications internes d'entreprise",
+        "resume": "Publié le 3 novembre 2026, cet article alerte sur le fait qu'ISO 42001 s'applique à toutes les organisations utilisant des outils IA de coding, y compris les équipes IT internes — or la plupart des entreprises n'ont aucun enregistrement de gouvernance pour le code généré par IA déjà en production. La norme exige une chaîne auditale depuis l'utilisation de l'outil IA jusqu'à la revue humaine et le déploiement en production, un gap que la majorité des processus de contrôle des changements ne peut pas combler. Les DSI doivent désormais répondre à leurs conseils d'administration sur la documentation de leurs processus de développement assistés par IA.",
+        "source": "CloudApper / Enterprise AI",
+        "url": "https://www.cloudapper.ai/enterprise-ai/iso-42001-ai-governance-internally-built-enterprise-applications/",
+        "date_publication": "03/11/2026",
         "pertinence": "haute",
         "categorie": "standard"
       },
       {
-        "titre": "Vice-Présidente exécutive Virkkunen brief le Conseil et le Parlement sur la mise en oeuvre du Digital Rulebook",
-        "resume": "Le 4 novembre 2026, la Commission européenne a publié une mise à jour officielle de la Vice-Présidente exécutive Henna Virkkunen au Conseil et au Parlement européen sur la simplification, la mise en oeuvre et l'application du Digital Rulebook (incluant l'AI Act). Ce briefing intervient dans le contexte du Digital Omnibus (Règlement (UE) 2026/1744 en vigueur depuis le 27 juillet 2026) et de la prochaine échéance du 2 décembre 2026.",
-        "source": "Commission européenne",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-        "date_publication": "04/11/2026",
+        "titre": "ISO 42001 expliqué : le standard de management des systèmes IA pour les entreprises (mise à jour 30 octobre 2026)",
+        "resume": "Mis à jour le 30 octobre 2026, cet article de référence d'A-LIGN explique qu'ISO 42001 est le premier standard international pour les systèmes de management de l'IA (AIMS), offrant un cadre certifiable couvrant développement, déploiement et utilisation responsable de l'IA. Le standard est volontaire mais non légalement contraignant, et s'applique aux organisations de toute taille selon la portée des systèmes IA concernés. Il est présenté comme le futur benchmark de gouvernance IA, complémentaire de l'EU AI Act sans lui être équivalent.",
+        "source": "A-LIGN",
+        "url": "https://www.a-lign.com/articles/understanding-iso-42001",
+        "date_publication": "30/10/2026",
+        "pertinence": "moyenne",
+        "categorie": "standard"
+      },
+      {
+        "titre": "EU AI Act novembre 2026 : l'Italie et la Pologne activent l'enforcement, premiers dossiers d'information ouverts en octobre",
+        "resume": "Publié le 3 novembre 2026, ce bulletin global sur la réglementation IA révèle que l'enforcement de l'EU AI Act a démarré concrètement en octobre 2026, avec les premières demandes d'information et l'activation de l'enforcement par deux États membres (Italie et Pologne). Aucune amende ni décision formelle n'avait été annoncée au 3 novembre 2026. Une consultation de la Commission sur les règles procédurales pour les pénalités est ouverte du 12 octobre au 9 novembre 2026.",
+        "source": "Cubbbix",
+        "url": "https://cubbbix.com/blog/ai-regulation-november-2026-global-update",
+        "date_publication": "03/11/2026",
         "pertinence": "haute",
-        "categorie": "politique"
+        "categorie": "reglementation"
       }
     ],
     "clinique": [
       {
-        "titre": "UK HRA/MHRA : résultats du pilote sur les Plans d'Inclusion et Diversité dans les essais cliniques",
-        "resume": "Le 3 novembre 2026, le gouvernement britannique (HRA et MHRA) a publié les résultats de son pilote sur les Plans d'Inclusion et Diversité (I&D Plans) dans les essais cliniques : 7 études participantes (5 sponsors commerciaux, 2 non-commerciaux) ont montré que les sponsors commerciaux ont trouvé une réelle valeur dans l'élaboration du plan dès la conception de l'étude. Sur la base de ces résultats, la HRA a confirmé qu'à partir de début 2027, elle invitera un plus grand nombre de chercheurs et sponsors à soumettre volontairement un Plan avec leurs demandes. La soumission reste encouragée mais non obligatoire.",
-        "source": "GOV.UK / Health Research Authority / National Health Executive",
-        "url": "https://www.gov.uk/government/news/clinical-trials-for-medicines-inclusion-and-diversity-plan-pilot-findings-published",
-        "date_publication": "03/11/2026",
+        "titre": "IA et équité en santé : seulement 13 % des études définissent explicitement l'équité — revue publiée dans Health Affairs Scholar (octobre 2026)",
+        "resume": "Une revue de 166 articles peer-reviewed publiée le 8 octobre 2026 dans Health Affairs Scholar (Georgetown University) révèle que seulement 22 articles (13 %) définissent explicitement la notion d'équité en santé dans les études sur l'IA — une lacune qui risque de concentrer les bénéfices des approches IA sur les groupes les plus favorisés. Les chercheurs recommandent une participation accrue des spécialistes cliniques, des patients et des populations sous-représentées dans le développement de l'IA. Les implications touchent hôpitaux, assureurs, médecins et développeurs de technologies.",
+        "source": "EurekAlert / Distilinfo (Georgetown University Medical Center)",
+        "url": "https://www.eurekalert.org/news-releases/1150063",
+        "date_publication": "02/11/2026",
         "pertinence": "haute",
-        "categorie": "politique_reglementaire"
+        "categorie": "recherche"
       },
       {
-        "titre": "UK : les plans de diversité dans les essais poussent les sponsors à penser plus systématiquement l'inclusion",
-        "resume": "Publié le 4 novembre 2026 par Citeline/Pink Sheet, cet article analyse les retours du pilote HRA/MHRA : les sponsors commerciaux ont valorisé les plans pour structurer les considérations de diversité lors de la conception de l'étude et pour informer les discussions sur le recrutement. Les sponsors non-commerciaux ont vu moins d'intérêt car ils avaient déjà intégré la diversité pour répondre aux exigences de financement. Le pilote va s'élargir en 2027 de façon volontaire.",
-        "source": "Citeline / Pink Sheet",
-        "url": "https://insights.citeline.com/pink-sheet/r-and-d/clinical-trials/diversity-and-inclusion/uk-trial-diversity-plans-push-sponsors-to-think-more-systematically-about-inclusion-CUIASQAU3VHE7M27EKCNFE6MTU",
-        "date_publication": "04/11/2026",
+        "titre": "Biais algorithmique et équité en santé : étude medRxiv sur les choix de design comme déterminants des disparités d'allocation de ressources",
+        "resume": "Postée le 1er novembre 2026 sur medRxiv (NIH All of Us Research Program), cette étude de simulation causale démontre que les choix de design algorithmique — notamment l'objectif d'entraînement — constituent le déterminant le plus puissant des inégalités dans l'allocation des ressources de santé. L'objectif 'health status' atteint un EOD Noir-Blanc quasi nul (0,008), montrant qu'une modification de conception peut inverser la direction des disparités pour la plupart des groupes. L'étude conclut que l'équité algorithmique dans le ciblage des soins est largement une conséquence de choix de design modifiables.",
+        "source": "medRxiv",
+        "url": "https://www.medrxiv.org/content/10.64898/2026.10.30.26366732v1",
+        "date_publication": "01/11/2026",
         "pertinence": "haute",
-        "categorie": "retour_experience"
+        "categorie": "recherche"
       },
       {
-        "titre": "Health Equity Brief du 26 octobre 2026 : 7 nouveaux appels à financement, 3 nouveaux essais, 120 publications",
-        "resume": "Le bulletin hebdomadaire ASIDE du 26 octobre 2026 recense 7 nouveaux appels à financement en équité en santé, 3 nouveaux essais cliniques en recrutement et 120 articles nouvellement indexés. Parmi les thèmes couverts : surveillance à domicile de la tension artérielle dans des centres de santé fédéralement qualifiés, inégalités d'exposition à la désinformation sanitaire selon l'appartenance raciale et ethnique, et barrières d'accès aux essais pour les populations rurales et communautaires.",
-        "source": "ASIDE Healthcare",
-        "url": "https://www.asidehealthcare.org/health-equity-brief-2026-10-26/",
-        "date_publication": "26/10/2026",
-        "pertinence": "moyenne",
-        "categorie": "veille_recherche"
+        "titre": "Biais algorithmique dans l'IA médicale : étude sur les perspectives des professionnels de santé (arXiv, 27 octobre 2026)",
+        "resume": "Soumis le 27 octobre 2026 sur arXiv, ce papier explore le biais algorithmique dans les systèmes d'IA appliqués aux systèmes d'information de santé, à partir d'une enquête et d'entretiens avec des professionnels de santé aux rôles variés (cliniques vs administratifs). Les résultats montrent que les opinions sur les causes du biais, les critères d'évaluation et les approches de mitigation varient significativement selon le rôle professionnel. L'étude souligne la nécessité de davantage de recherches pour garantir l'équité algorithmique en santé.",
+        "source": "arXiv",
+        "url": "https://arxiv.org/abs/2610.38006",
+        "date_publication": "27/10/2026",
+        "pertinence": "haute",
+        "categorie": "recherche"
       },
       {
-        "titre": "Nouvelles réglementations UK sur les essais cliniques : mise à jour du 6 novembre 2026 incluant les résultats du pilote I&D",
-        "resume": "Le 6 novembre 2026, la MHRA a mis à jour sa page réglementaire sur les essais cliniques au Royaume-Uni pour intégrer la publication des résultats du pilote sur les Plans d'Inclusion et Diversité. Cette mise à jour fait partie du cadre réglementaire entré en vigueur le 28 avril 2026 et s'inscrit dans les travaux du UK Clinical Research Inclusion Group. La soumission d'un Plan reste encouragée mais non mandatoire et son absence ne conduit pas au rejet d'une demande.",
-        "source": "Pharmavibes / MHRA",
-        "url": "https://www.pharmavibes.co.uk/2026/11/06/new-clinical-trials-legislation-laid-in-uk-parliament",
-        "date_publication": "06/11/2026",
+        "titre": "Rôle de l'IA dans les essais cliniques : opportunités et biais — article dans International Journal of Clinical Trials (novembre 2026)",
+        "resume": "Publiée dans l'édition octobre-décembre 2026 de l'International Journal of Clinical Trials (Vol 13, Issue 4), cette analyse souligne que la performance technique seule ne suffit pas à établir la valeur clinique de l'IA, et que les cohortes caucasiennes et est-asiatiques dominant les données d'entraînement créent des biais systématiques. L'article appelle à des études prospectives, validées en externe, pour que l'IA puisse réellement transformer les essais cliniques de façon équitable. Le biais de représentation est identifié comme un problème récurrent dans toutes les discussions sérieuses sur l'IA dans les essais.",
+        "source": "International Journal of Clinical Trials / ResearchGate",
+        "url": "https://www.researchgate.net/publication/416939333_The_role_of_artificial_intelligence_in_clinical_trials_opportunities",
+        "date_publication": "01/11/2026",
+        "pertinence": "haute",
+        "categorie": "recherche"
+      },
+      {
+        "titre": "IA et outils digitaux dans les essais cliniques : l'implication des patients reste critique — conférence ADAPT (octobre 2026)",
+        "resume": "Publié le 30 octobre 2026 par HC Innovation Group, ce compte rendu de la conférence ADAPT (15 octobre 2026, Santa Fe) rapporte les discussions d'experts sur l'IA pour les essais cliniques. Les panélistes ont souligné que les approches IA de recrutement et de matching ne sont fiables que si les données sous-jacentes sont exemptes de biais systématiques, et que la randomisation reste un outil indispensable. L'implication des patients — notamment des populations sous-représentées — est présentée comme condition sine qua non de la validité des essais augmentés par IA.",
+        "source": "HC Innovation Group",
+        "url": "https://www.hcinnovationgroup.com/analytics-ai/article/55415806/ai-and-digital-tools-could-transform-clinical-trials-but-patient-involvement-remains-critical",
+        "date_publication": "30/10/2026",
         "pertinence": "moyenne",
-        "categorie": "politique_reglementaire"
+        "categorie": "conference"
       }
     ]
   }
