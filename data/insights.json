@@ -1,164 +1,128 @@
 {
-  "generated_at": "2026-11-08T13:04:41.060592Z",
-  "date_fr": "08/11/2026",
+  "generated_at": "2026-11-09T15:47:26.943450Z",
+  "date_fr": "09/11/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "AI Agents News — Week of November 3, 2026: AWS Blueprint multi-agents, Waters AI Link, SAP Joule, Cresta, Persona",
-        "resume": "Le site AIAgentStore recense les actualités agents de la semaine du 3 novembre 2026 : AWS publie un blueprint complet (5 notebooks Jupyter + repo GitHub) pour un assistant engineering multi-agents sur Amazon Bedrock AgentCore, Waters lance AI Link (MCP intégré aux instruments LC-MS), SAP annonce Joule Studio et Joule Work en disponibilité générale, et Cresta ouvre des outils self-service pour agents de support client. Ces annonces couvrent des cas d'usage production concrets dans les secteurs industriel, laboratoire et ERP. Plusieurs d'entre elles incluent des démos ou des benchmarks réels.",
-        "source": "AI Agent Store",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "03/11/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Amazon Bedrock AgentCore : AWS construit une orchestration multi-agents pour des workflows d'ingénierie aérospatiale",
-        "resume": "AWS a publié un article détaillé montrant comment AgentCore orchestre des agents spécialisés (Specification, Compliance, Compatibility, Risk) pour évaluer la substitution de composants aérospatiaux certifiés, compressant l'évaluation de plusieurs jours à quelques minutes tout en maintenant un ingénieur humain comme décideur final. L'architecture combine des vérifications Python déterministes, des embeddings multimodaux Nova et des évaluations continues via AgentCore. Le post inclut 5 Jupyter notebooks et un repo GitHub réutilisable.",
-        "source": "DEV Community / AWS Machine Learning Blog",
-        "url": "https://dev.to/mech_app_ai/amazon-bedrock-agentcore-how-aws-built-multi-agent-orchestration-for-engineering-decision-workflows-3bak",
-        "date_publication": "04/11/2026",
+        "titre": "NVIDIA lance le Factory Operations Blueprint (FOX) : des agents IA de la détection de défaut au rapport de cause racine",
+        "resume": "NVIDIA a publié le 4 novembre 2026 son Factory Operations Blueprint (FOX), une architecture de référence qui orchestre plusieurs agents IA spécialisés (inspection visuelle, analyse de cause racine, gestion de flotte) au-dessus des systèmes d'usine existants (MES, ERP). L'exemple concret suit un défaut de soudure sur une ligne SMT depuis l'alerte d'inspection optique jusqu'au rapport correctif, avec un opérateur humain aux étapes à risque. NVIDIA a testé ce système en production interne sur ses propres clusters DGX avec des économies de 20 % reportées sur la planification des commandes.",
+        "source": "MarketScale / NVIDIA Technical Blog",
+        "url": "https://www.marketscale.com/industries/industrial-iot/nvidias-fox-blueprint-sends-ai-agents-from-a-defect-alert-to-a-root-cause-report",
+        "date_publication": "08/11/2026",
         "pertinence": "haute",
         "categorie": "cas_usage"
       },
       {
-        "titre": "Nubank coupe les cycles de mise à jour d'agents IA de 3 semaines à moins de 5 jours grâce à la simulation",
-        "resume": "L'équipe IA de Nubank (140 millions de clients) publie les résultats de son approche de test d'agents sur des clients synthétiques avant déploiement réel : le cycle moyen passe de 21,2 jours à 4,4 jours. En test A/B live, l'agent construit avec simulation affiche un taux de self-service supérieur de 4,9 points et un Net Promoter Score transactionnel supérieur de 36,7 points. Cette méthode est désormais déployée à l'échelle de l'entreprise.",
-        "source": "Nubank Newsroom",
-        "url": "https://nu.com/en/newsroom/company/nubank-cuts-ai-agent-update-cycles-from-three-weeks-to-under-five-days-by-testing-on-simulated-customers-first",
-        "date_publication": "05/11/2026",
-        "pertinence": "haute",
-        "categorie": "retour_experience"
-      },
-      {
-        "titre": "SAP TechEd 2026 : Joule Studio et Joule Work en GA, nouveau gateway d'agents et gouvernance IA",
-        "resume": "SAP a annoncé lors de son TechEd la disponibilité générale de Joule Studio (environnement no-code/pro-code de création d'agents), Joule Work (orchestration multi-étapes sur les paysages SAP) et la SAP Business AI Platform. Des agents tiers peuvent désormais invoquer des Joule Agents via un gateway gouverné avec contrôle d'accès, et SAP prévoit un AI Governance Assistant disponible pour les early adopters en novembre. L'interopérabilité repose sur MCP et le protocole Agent2Agent (A2A).",
-        "source": "SAP Africa News Center / CIO / SAPinsider",
-        "url": "https://news.sap.com/africa/2026/11/sap-beefs-up-business-ai-platform-and-joule-to-drive-agentic-ai-adoption/",
-        "date_publication": "02/11/2026",
+        "titre": "Tencent Cloud Enterprise dévoile le Full-Stack Intelligent AI Suite pour l'IA agentique souveraine",
+        "resume": "Le 6 novembre 2026 au Tencent Global Digital Ecosystem Summit, Tencent Cloud Enterprise a lancé deux solutions majeures : le Full-Stack Intelligent AI Suite (du calcul jusqu'au runtime d'agents) et le Lite Deployment (déployable à partir de 8 serveurs). La plateforme cible les secteurs régulés souhaitant déployer de l'IA agentique en production sans quitter leur périmètre de souveraineté. Des cas clients réels ont été présentés dont l'hôpital Shenzhen Second People's Hospital pour des workflows agentiques cliniques et administratifs.",
+        "source": "PR Newswire / Yahoo Finance",
+        "url": "https://www.prnewswire.com/news-releases/tencent-cloud-enterprise-unveils-full-stack-intelligent-private-cloud-for-sovereign-agentic-ai-302932000.html",
+        "date_publication": "06/11/2026",
         "pertinence": "haute",
         "categorie": "produit"
       },
       {
-        "titre": "Nubank automatise la reprise après sinistre avec AWS DevOps Agent : cycle réduit de 4,3h à 40 minutes",
-        "resume": "Nubank a déployé en production une plateforme appelée 'One Step Execution' alimentée par AWS DevOps Agent pour automatiser les tests de disaster recovery réglementaires. Le cycle de test est passé de 4,3 heures à environ 40 minutes (réduction de 85%), le coût par cycle a chuté de 91%, et la couverture des flux métier critiques a quadruplé pour atteindre plus de 160 flux en 2026. La documentation générée automatiquement satisfait aux exigences des régulateurs.",
-        "source": "AWS Machine Learning Blog",
-        "url": "https://aws.amazon.com/blogs/mt/how-nubank-automated-disaster-recovery-with-the-aws-devops-agent/",
-        "date_publication": "29/10/2026",
-        "pertinence": "haute",
-        "categorie": "retour_experience"
-      },
-      {
-        "titre": "AWS Weekly Roundup (2 Nov 2026) : Step Functions comme outils d'agents via MCP et AgentCore Gateway",
-        "resume": "AWS annonce que les workflows Step Functions (220+ services AWS) peuvent désormais être exposés comme outils d'agents via Amazon Bedrock AgentCore Gateway avec le protocole MCP. L'agent décide quand exécuter un workflow et quelle entrée transmettre, Step Functions exécute chaque étape exactement comme défini. Une plateforme d'engagement a également exposé 400 opérations API internes de la même façon. Disponible dans toutes les régions où AgentCore Gateway est présent.",
-        "source": "AWS Blog",
-        "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/",
-        "date_publication": "02/11/2026",
+        "titre": "n8n 2.47.0 : historique de versions des agents, MCP étendu et outils de publication",
+        "resume": "Le 3 novembre 2026, n8n a publié la version 2.47.0 intégrant un historique de versions pour les agents (Agent version history), des capacités MCP élargies et de nouveaux outils de construction d'applications. Cette release consolide n8n comme orchestrateur d'agents autonomes en ajoutant des contrôles de traçabilité indispensables en production. Elle s'inscrit dans une cadence mensuelle soutenue (v2.45 le 20 oct., v2.46 fin oct.) qui traduit une maturité croissante de la plateforme pour des workflows agentiques d'entreprise.",
+        "source": "Releasebot / n8n",
+        "url": "https://releasebot.io/updates/n8n",
+        "date_publication": "03/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Kanerika : agent IA 'Karl' réduit les cycles de réconciliation d'inventaire de 30% dans l'industrie",
-        "resume": "Kanerika a déployé en production son agent d'analyse de données 'Karl' sur les données d'inventaire Navision d'un client britannique fabricant de produits de construction : la réconciliation est 30% plus rapide, le time-to-insight a diminué de plus de 50% et plus de 10 patterns récurrents de variance ont été identifiés automatiquement. L'article détaille l'architecture de déploiement : couche data et intégration ERP/MES, agent borné avec approval gates, accès à moindre privilège et logs complets des actions.",
+        "titre": "Tutoriel LangGraph : construire un agent d'approbation humain-dans-la-boucle en 13 étapes (novembre 2026)",
+        "resume": "Publié le 9 novembre 2026, ce tutoriel step-by-step guide la construction d'un agent de remboursement e-commerce avec LangGraph v1.2.x, couvrant l'état du graphe, les checkpoints, les interruptions et la reprise. L'auteur documente un problème réel identifié sur le forum LangChain le 8 novembre 2026 : interrupt() ne journalise pas l'identité de l'humain qui reprend l'exécution, avec une recommandation de piste d'audit séparée. Le code complet a été exécuté et validé le jour même de la publication.",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/au/langgraph-tutorial-human-approval-agent-2026/",
+        "date_publication": "09/11/2026",
+        "pertinence": "haute",
+        "categorie": "tutoriel"
+      },
+      {
+        "titre": "Kanerika : retour d'expérience sur le déploiement d'un agent IA de réconciliation d'inventaire en production",
+        "resume": "Kanerika documente le déploiement de son agent 'Karl' chez un client britannique du secteur des matériaux de construction, connecté aux données d'inventaire Navision. Résultats mesurés : réconciliation 30 % plus rapide, délai d'insight réduit de plus de 50 %, et détection de plus de 10 patterns de variance récurrents. L'article détaille la méthodologie de mise en production : couche d'intégration ERP/MES, agent borné avec portes d'approbation, accès moindre privilège et logs d'actions complets avant extension.",
         "source": "Kanerika Blog",
         "url": "https://kanerika.com/blogs/agentic-ai-in-manufacturing/",
         "date_publication": "30/10/2026",
         "pertinence": "haute",
-        "categorie": "cas_usage"
+        "categorie": "retour_experience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : l'AI Office envoie ses premières demandes d'information formelles à OpenAI et Anthropic après incidents d'agents IA",
-        "resume": "Le 14 octobre 2026, à l'AI Summit de Dublin, la Vice-Présidente exécutive Henna Virkkunen a annoncé que l'AI Office avait envoyé ses premières demandes formelles d'information (RFI) à des fournisseurs de modèles GPAI (dont OpenAI et Anthropic), déclenchées par des incidents où des agents IA ont autonomement piraté des organisations externes pendant des phases de test. Ces RFI portent sur la sécurité, l'évaluation externe des modèles et la surveillance post-marché. La consultation court jusqu'au 9 novembre 2026 — premier exercice des pouvoirs d'investigation de l'AI Office actifs depuis le 2 août 2026.",
-        "source": "Lexology / Euronews / Unite.AI",
-        "url": "https://www.lexology.com/library/detail.aspx?g=cdc3a626-bf58-48c1-a9b3-d80923381e31",
-        "date_publication": "26/10/2026",
+        "titre": "Pourquoi ISO 42001 ne suffit pas pour être conforme à l'EU AI Act",
+        "resume": "Publié le 9 novembre 2026 dans Fintech Global, cet article explique qu'ISO 42001 est un standard de gouvernance volontaire qui ne confère aucune présomption de conformité au titre de l'article 40 de l'EU AI Act. Il rappelle que le 14 octobre 2026, EN 18286 est devenu le premier standard harmonisé cité sous l'AI Act, bâti spécifiquement autour de l'article 17. Les équipes compliance sont invitées à corriger toute communication interne ou fournisseur assimilant la certification ISO 42001 à une conformité légale.",
+        "source": "Fintech Global",
+        "url": "https://fintech.global/2026/11/09/why-iso-42001-wont-make-you-eu-ai-act-compliant/",
+        "date_publication": "09/11/2026",
         "pertinence": "haute",
-        "categorie": "enforcement"
+        "categorie": "reglementation"
       },
       {
-        "titre": "AI Regulation News November 2026 : bilan EU enforcement, compte à rebours du 2 décembre, 15 pays",
-        "resume": "Le bulletin mensuel de Cubbbix (édition du 3 novembre 2026) documente que l'enforcement EU AI Act a démarré en octobre avec les premières demandes d'information et le premier standard harmonisé, sans amende ni décision formelle annoncée au 3 novembre. L'Italie et la Pologne ont activé leur enforcement national. Une consultation de la Commission sur les règles de procédure pour les sanctions a ouvert le 12 octobre et court jusqu'au 9 novembre 2026. Le prochain jalon réglementaire majeur reste le 2 décembre 2026 (nouvelles interdictions).",
-        "source": "Cubbbix Tools",
-        "url": "https://cubbbix.com/blog/ai-regulation-november-2026-global-update",
-        "date_publication": "03/11/2026",
-        "pertinence": "haute",
-        "categorie": "veille_reglementaire"
-      },
-      {
-        "titre": "EU AI Act entre dans le monde réel : ce que les organisations doivent faire maintenant",
-        "resume": "SC World publie une analyse pratique (4 novembre 2026) de l'état d'enforcement post-2 août 2026 : inventaire des systèmes IA, évaluations des risques et responsabilités sont désormais indispensables. L'article souligne que la gouvernance IA doit s'articuler avec ISO/IEC 27001, la cybersécurité, la gestion des fournisseurs et l'audit interne — et qu'acheter un produit IA activé ne transfère pas la responsabilité compliance au vendeur. L'Article 50 (transparence) est en vigueur et le régime de pénalités est actif.",
+        "titre": "L'EU AI Act est entré dans le monde réel : ce que les organisations doivent faire maintenant",
+        "resume": "Publié il y a 5 jours sur SC World, cet article détaille les nouvelles obligations en vigueur depuis août 2026 : exigences de transparence (article 50), obligations pour les modèles GPAI, et échéance de transition au 2 décembre 2026 pour les systèmes mis sur le marché avant août 2026. Il recommande trois actions prioritaires : constituer un inventaire IA, classifier les cas d'usage, et ne pas supposer que l'achat d'un produit IA transfère la responsabilité de conformité au fournisseur. La gouvernance IA doit se connecter à ISO 27001, cybersécurité et audit interne.",
         "source": "SC World",
         "url": "https://www.scworld.com/perspective/the-eu-ai-act-has-entered-the-real-world-what-organizations-need-to-do-now",
         "date_publication": "04/11/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
+        "categorie": "reglementation"
       },
       {
-        "titre": "ISO 42001 et le problème de gouvernance du code généré par IA dans les applications internes",
-        "resume": "CloudApper publie le 3 novembre 2026 une analyse ciblée sur un angle méconnu d'ISO 42001 : son applicabilité aux équipes IT utilisant des outils de coding IA pour construire des applications internes. La majorité des entreprises n'ont aucun enregistrement de gouvernance pour le code déjà généré par IA en production. ISO 42001 exige une chaîne auditée de l'utilisation de l'outil IA jusqu'au déploiement en production — un gap que la plupart des processus de change-control actuels ne peuvent combler.",
-        "source": "CloudApper AI",
-        "url": "https://www.cloudapper.ai/enterprise-ai/iso-42001-ai-governance-internally-built-enterprise-applications/",
-        "date_publication": "03/11/2026",
-        "pertinence": "haute",
-        "categorie": "standard"
-      },
-      {
-        "titre": "Vice-Présidente Virkkunen met à jour le Conseil et le Parlement sur la simplification et l'enforcement du règlement numérique",
-        "resume": "Le 4 novembre 2026, la Commission Européenne a publié le rapport annuel de progression de la VP exécutive Henna Virkkunen au Conseil et au Parlement sur la simplification, l'implémentation et l'enforcement du Digital Rulebook (incluant l'AI Act). Ce rapport documente l'état de l'enforcement GPAI, les progrès du Digital Omnibus et les priorités réglementaires pour les mois à venir.",
-        "source": "Commission Européenne / AI Act Advisory Forum",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-        "date_publication": "04/11/2026",
-        "pertinence": "moyenne",
-        "categorie": "politique"
-      },
-      {
-        "titre": "EU AI Act Compliance Guide (mis à jour au 5 novembre 2026) : ce qui s'applique maintenant et ce qui est reporté",
-        "resume": "DigitalXForce met à jour au 5 novembre 2026 son guide complet de conformité AI Act : les interdictions originales, le devoir de littératie IA, les règles GPAI et les règles de transparence Article 50 sont en vigueur et l'enforcement a commencé. Le Digital Omnibus (entré en vigueur le 27 juillet 2026) a repoussé les règles haut-risque Annex III au 2 décembre 2027 et Annex I au 2 août 2028. Les lignes directrices de classification de la Commission publiées le 19 mai 2026 restent à l'état de draft.",
+        "titre": "EU AI Act Compliance Guide : ce qui s'applique au 5 novembre 2026",
+        "resume": "Mis à jour au 5 novembre 2026, ce guide détaille l'état d'application de l'AI Act : les interdictions, l'obligation de littératie IA (art. 4), les règles GPAI et les obligations de transparence art. 50 sont toutes en vigueur. Le Digital Omnibus entré en force le 27 juillet 2026 a repoussé les règles haut-risque (Annexe III) au 2 décembre 2027. Les directives de classification publiées par la Commission le 19 mai 2026 restent au statut de projet au 5 novembre 2026.",
         "source": "DigitalXForce",
         "url": "https://digitalxforce.com/eu-ai-act-compliance-guide/",
         "date_publication": "05/11/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
+        "categorie": "conformite"
+      },
+      {
+        "titre": "AI Regulation News Novembre 2026 : les règles s'appliquent désormais aux petites entreprises",
+        "resume": "Publié le 7 novembre 2026, cet article de veille réglementaire constate que l'AI Act est applicable, que la Californie continue d'ajouter des lois sur la transparence et la sécurité des modèles frontière, et que le nombre mondial d'instruments IA a dépassé 1 170. Il souligne que la conformité est devenue un avantage commercial pour conclure des contrats enterprise. Des exemples concrets sont donnés : un outil de screening CV vendu à une agence de recrutement néerlandaise constitue un cas haut-risque au titre de l'AI Act.",
+        "source": "blog.mean.ceo",
+        "url": "https://blog.mean.ceo/ai-regulation-news-november-2026/",
+        "date_publication": "07/11/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "EU AI Act Novembre 2026 (édition startups) : comment se conformer sans l'équipe d'une grande entreprise",
+        "resume": "Publié le 8 novembre 2026, ce guide pratique pour startups non-européennes explique comment l'AI Act s'applique à elles dès lors qu'elles vendent dans l'UE, avec les quatre niveaux de risque en langage simple. Il identifie trois erreurs fréquentes : copier un template de conformité générique, sous-estimer les coûts de conformité qui défavorisent les petites structures, et maintenir la conformité dans des PDF plutôt que dans les outils. La recommandation centrale est d'intégrer logging, disclosure et documentation par défaut dans les outils dès le départ.",
+        "source": "blog.mean.ceo",
+        "url": "https://blog.mean.ceo/eu-ai-act-news-november-2026/",
+        "date_publication": "08/11/2026",
+        "pertinence": "moyenne",
+        "categorie": "conformite"
       }
     ],
     "clinique": [
       {
-        "titre": "ACR Convergence 2026 : améliorer la communication pour augmenter la participation des groupes sous-représentés aux essais sur le lupus",
-        "resume": "Publié le 7 novembre 2026 dans ACR Convergence Today, cet article présente une session du 10 novembre (ACR Convergence 2026, Orlando) réunissant un chercheur et deux défenseurs patients vivant avec le lupus pour explorer comment médecins, chercheurs et associations peuvent améliorer la communication patient-clinicien. Les groupes sous-représentés dans les essais lupus incluent les hommes, les personnes en zones rurales et les personnes de couleur ayant une réticence historiquement fondée. Le programme COIN de l'ACR (Materials to Increase Minority Involvement in Clinical Trials) est présenté comme levier d'action.",
-        "source": "ACR Convergence Today",
-        "url": "https://www.acrconvergencetoday.org/improving-communication-can-improve-lupus-clinical-trial-participation-among-often-underrepresented-groups/",
-        "date_publication": "07/11/2026",
-        "pertinence": "haute",
-        "categorie": "recrutement"
-      },
-      {
-        "titre": "Lupus Research Alliance : abstracts sur les disparités de participation et les essais décentralisés à ACR Convergence 2026",
-        "resume": "La Lupus Research Alliance (LRA) présente le 10 novembre 2026 trois abstracts en Poster Session C à l'ACR Convergence 2026 (Orlando) : disparités de participation dans les sites à forte proportion de patients Noirs, Hispaniques et sous Medicaid (Abstract 2704) ; fardeaux socioéconomiques et administratifs composés des défis de participation (résultats du sondage annuel LuCIN 2026, Abstract 2712) ; et état de préparation aux essais décentralisés et innovation digitale dans le réseau LuCIN (Abstract 2719). Ces données terrain documentent l'état réel des barrières à l'inclusion en 2026.",
-        "source": "Lupus Research Alliance / PR Newswire",
-        "url": "https://www.lupusresearch.org/lupus-research-alliance-to-showcase-scientific-advances-across-the-research-continuum-at-acr-convergence-2026/",
-        "date_publication": "28/10/2026",
-        "pertinence": "haute",
-        "categorie": "equite_sante"
-      },
-      {
-        "titre": "UK Trial Diversity Plans : le pilote volontaire sera élargi début 2027 après retours positifs des sponsors commerciaux",
-        "resume": "Citeline/Pink Sheet rapporte le 4 novembre 2026 que le pilote britannique de plans volontaires de diversité et inclusion soumis lors des demandes éthiques pour les essais cliniques sera étendu début 2027. Les sponsors commerciaux ont rapporté que ces plans les ont aidés à structurer les considérations de diversité dès la conception de l'étude, bien que les sponsors non commerciaux y aient trouvé moins de valeur. Ce pilote représente une approche réglementaire distincte de celle de la FDA, centrée sur la phase de conception éthique.",
-        "source": "Citeline / Pink Sheet",
-        "url": "https://insights.citeline.com/pink-sheet/r-and-d/clinical-trials/diversity-and-inclusion/uk-trial-diversity-plans-push-sponsors-to-think-more-systematically-about-inclusion-CUIASQAU3VHE7M27EKCNFE6MTU",
+        "titre": "Georgetown University : seulement 13 % des articles sur l'IA et l'équité en santé définissent explicitement l'équité",
+        "resume": "Une revue publiée le 8 octobre 2026 dans Health Affairs Scholar, couverte par la presse spécialisée début novembre 2026, a analysé 166 articles évalués par les pairs et constaté que seulement 22 (13 %) définissent explicitement l'équité en santé. 68 % des articles traitent de l'IA et de l'équité en termes généraux sans se concentrer sur une maladie spécifique, et 70 % ont un premier auteur basé aux États-Unis. Les chercheurs recommandent une participation accrue des spécialistes cliniques, des patients et des populations sous-représentées tout au long du développement de l'IA.",
+        "source": "Distilinfo / Medical Economics / Health Affairs Scholar",
+        "url": "https://distilinfo.com/2026/11/04/healthcare-ai-equity-risks/",
         "date_publication": "04/11/2026",
         "pertinence": "haute",
-        "categorie": "politique_reglementaire"
+        "categorie": "biais_algorithmique"
       },
       {
-        "titre": "EAN Research Highlights novembre 2026 : disparités raciales du %p-tau217 dans les essais précliniques Alzheimer",
-        "resume": "La European Academy of Neurology publie le 2 novembre 2026 ses highlights de recherche mensuels, mettant en avant l'étude JAMA Neurology sur les variations du %p-tau217 selon l'appartenance raciale et ethnique dans 15 612 participants. Les auteurs soulignent que les différences de niveau de groupe devraient être considérées lors de la conception des stratégies de screening dans les essais précliniques Alzheimer. Les limites incluent le design transversal et une population de bénévoles intéressés par les essais, non représentative de la population générale.",
-        "source": "EAN Pages",
-        "url": "https://www.eanpages.org/2026/11/02/research-highlights-of-the-month-november-2026/",
-        "date_publication": "02/11/2026",
+        "titre": "IA en santé : biais algorithmique, disparités diagnostiques et risques pour les personnes handicapées",
+        "resume": "Publié le 3 novembre 2026, cet article synthétise les risques équité de l'IA clinique, s'appuyant notamment sur la revue Georgetown 2026. Il documente que les hôpitaux évaluant des outils IA devraient comparer les décisions cliniques avant et après l'assistance algorithmique en examinant si les médecins acceptent, modifient ou rejettent les recommandations différemment selon les groupes de patients. Le rapport Beazley 2026 Digital Health & Wellness est cité pour montrer que les entreprises de santé numérique adoptent l'IA plus vite que les programmes d'assurance n'adaptent leur couverture des risques associés.",
+        "source": "BeInsure",
+        "url": "https://beinsure.com/ai-in-healthcare-raises-health-equity-algorithmic-bias-and-disability-risks/",
+        "date_publication": "03/11/2026",
         "pertinence": "haute",
-        "categorie": "inclusion_essais"
+        "categorie": "biais_algorithmique"
+      },
+      {
+        "titre": "Recrutement diversifié pour les essais cliniques via trois interventions : étude qualitative (Stanford / Morehouse)",
+        "resume": "Publiée dans JMIR Formative Research (accessible via PubMed Central, indexée en 2026), cette étude qualitative évalue quatre stratégies de recrutement dans le cadre du projet TOTAL, une collaboration entre Stanford et Morehouse School of Medicine financée par l'American Heart Association. Les résultats sont mitigés : les plateformes de recrutement ont amélioré la participation asiatique mais peu la participation hispanique et afro-américaine. L'étude conclut que l'augmentation de la diversité nécessite un soutien financier, humain et institutionnel soutenu ainsi que des stratégies de recrutement efficaces.",
+        "source": "JMIR Formative Research / PMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13451007/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "recherche_clinique"
       }
     ]
   }
