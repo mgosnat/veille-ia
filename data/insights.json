@@ -1,164 +1,119 @@
 {
-  "generated_at": "2026-11-10T14:40:25.012048Z",
-  "date_fr": "10/11/2026",
+  "generated_at": "2026-11-11T13:55:36.562046Z",
+  "date_fr": "11/11/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Tencent Cloud Enterprise dévoile un cloud privé full-stack pour l'IA agentique souveraine",
-        "resume": "Le 6 novembre 2026, Tencent Cloud Enterprise (TCE) a présenté deux nouvelles solutions lors du Tencent Global Digital Ecosystem Summit : le Full-Stack Intelligent AI Suite et la Lite Deployment (opérationnel dès 8 serveurs). Ces solutions permettent aux industries très réglementées de déployer de l'IA agentique en production à l'intérieur de leur propre infrastructure privée. TCE et Gartner ont conjointement publié un guide pratique pour construire des plateformes souveraines d'IA cloud.",
-        "source": "HPCwire / PR Newswire",
-        "url": "https://www.hpcwire.com/aiwire/2026/11/10/tencent-cloud-enterprise-unveils-full-stack-intelligent-private-cloud-for-sovereign-agentic-ai/",
-        "date_publication": "06/11/2026",
+        "titre": "LangGraph Tutorial : Human-in-the-Loop Agent en 13 étapes [Novembre 2026]",
+        "resume": "Tutoriel step-by-step publié le 9 novembre 2026, testé et vérifié ligne par ligne à cette date, montrant comment construire un agent LangGraph avec interruption pour validation humaine. Couvre l'état (state), les checkpoints, les interruptions et la reprise d'exécution. Le guide cible les praticiens qui souhaitent déployer des agents en production avec un point de contrôle humain sur les décisions sensibles.",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/au/langgraph-tutorial-human-approval-agent-2026/",
+        "date_publication": "09/11/2026",
         "pertinence": "haute",
-        "categorie": "produit"
+        "categorie": "tutoriel"
       },
       {
-        "titre": "Top 9 frameworks d'agents IA – état de l'art novembre 2026",
-        "resume": "Shakudo publie un panorama actualisé des 9 principaux frameworks agentiques en novembre 2026, incluant Google ADK 2.0 (annoncé à Google I/O 2026), le Microsoft Agent Framework (fusion AutoGen + Semantic Kernel), CrewAI, LangGraph et Pydantic AI. L'article détaille les primitives clés de chaque SDK : agents, handoffs, guardrails et sandbox. Il permet aux équipes techniques de choisir le bon framework selon leur contexte de déploiement en production.",
-        "source": "Shakudo.io",
+        "titre": "EU AI Act DevOps : ce qui s'applique aux équipes de développement depuis août 2026",
+        "resume": "Article publié le 10 novembre 2026 sur DEV.to, expliquant aux équipes DevOps et plateforme ce que les obligations de transparence de l'EU AI Act (Article 50, en vigueur depuis août 2026) impliquent concrètement : labellisation du contenu IA dans les pipelines CI/CD, middleware de provenance, et gestion des métadonnées en déploiement. Approche très opérationnelle avec exemples concrets.",
+        "source": "DEV Community (dev.to)",
+        "url": "https://dev.to/saaro_net/eu-ai-act-2026-what-now-applies-to-developer-teams-and-devops-350n",
+        "date_publication": "10/11/2026",
+        "pertinence": "haute",
+        "categorie": "cadre réglementaire"
+      },
+      {
+        "titre": "Top 9 frameworks d'agents IA – comparatif novembre 2026 (Shakudo)",
+        "resume": "Panorama publié il y a 9 jours (autour du 2 novembre 2026) comparant les 9 principaux frameworks agentiques en production : LangChain, AutoGen/AG2, Semantic Kernel, Google ADK 2.0, Rasa Pro 3.17.0, smolagents et OpenAI Agents SDK. Chaque framework est évalué sur ses cas d'usage, ses primitives clés (Agents, Handoffs, Guardrails) et son positionnement marché. Utile pour choisir un framework selon le contexte de déploiement.",
+        "source": "Shakudo",
         "url": "https://www.shakudo.io/blog/top-9-ai-agent-frameworks",
         "date_publication": "02/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Top 13 frameworks open-source agentiques – benchmark AIMultiple",
-        "resume": "AIMultiple publie le 5 novembre 2026 un benchmark comparatif des 13 principaux frameworks open-source agentiques. L'article couvre les critères de sélection techniques, les cas d'usage en production et les limites de chaque solution. Il constitue une référence pratique pour les équipes qui souhaitent choisir et déployer un framework agentique.",
-        "source": "AIMultiple",
-        "url": "https://aimultiple.com/agentic-frameworks",
-        "date_publication": "05/11/2026",
+        "titre": "LangGraph Tutorial : build production AI agents – mise à jour novembre 2026",
+        "resume": "Tutoriel complet mis à jour le 1er novembre 2026, couvrant les state schemas, nodes, edges, checkpointing, patterns human-in-the-loop, streaming et données de coût réelles issues de 23 systèmes déployés. La version courante LangGraph 1.2.15 (octobre 2026) est utilisée avec 44,8 millions de téléchargements PyPI/mois. Environ 400 entreprises l'utilisent en production selon les données Q1 2026.",
+        "source": "jahanzaib.ai",
+        "url": "https://www.jahanzaib.ai/blog/langgraph-tutorial-build-production-ai-agents",
+        "date_publication": "01/11/2026",
         "pertinence": "haute",
-        "categorie": "outil"
+        "categorie": "tutoriel"
       },
       {
-        "titre": "Agentic AI en manufacturing : cas terrain Karl chez un fabricant UK (Kanerika)",
-        "resume": "Kanerika documente le déploiement en production de son agent Karl chez un fabricant de produits de construction britannique sous Microsoft Navision : réconciliation d'inventaire 30 % plus rapide, réduction du temps d'analyse de 50 % et détection automatique de plus de 10 patterns récurrents d'écarts. L'article publié le 7 novembre 2026 décrit la méthodologie de déploiement pas-à-pas (sélection du workflow, couche data, agent borné avec gates d'approbation). Un retour d'expérience terrain rare avec KPIs mesurés et vérifiés.",
-        "source": "Kanerika",
-        "url": "https://kanerika.com/blogs/agentic-ai-in-manufacturing/",
-        "date_publication": "07/11/2026",
+        "titre": "ISO 42001 : le manque de gouvernance sur le code généré par IA en entreprise",
+        "resume": "Article publié le 3 novembre 2026 alertant sur un angle mort majeur : la norme ISO 42001 s'applique aussi aux équipes IT qui utilisent des outils de codage IA pour développer des applications internes, mais la grande majorité des entreprises n'a aucune trace de gouvernance pour le code IA-généré déjà en production. La norme exige une chaîne auditables depuis l'outil IA jusqu'au déploiement, ce que peu de processus de change-control peuvent satisfaire.",
+        "source": "CloudApper AI",
+        "url": "https://www.cloudapper.ai/enterprise-ai/iso-42001-ai-governance-internally-built-enterprise-applications/",
+        "date_publication": "03/11/2026",
         "pertinence": "haute",
-        "categorie": "cas_usage"
-      },
-      {
-        "titre": "20 cas d'usage agentiques d'entreprise classés par maturité et payback",
-        "resume": "Kanerika publie le 6 novembre 2026 un classement de 20 cas d'usage agentiques en production, triés par degré de maturité et vitesse de retour sur investissement. Les use cases couvrent le traitement de factures, la gestion d'exceptions supply chain, l'assistance client et l'analyse d'inventaire. L'article identifie les patterns où les agents apportent la plus grande valeur : files d'exception et workflows à contexte variable.",
-        "source": "Kanerika",
-        "url": "https://kanerika.com/blogs/agentic-ai-use-cases/",
-        "date_publication": "06/11/2026",
-        "pertinence": "haute",
-        "categorie": "cas_usage"
-      },
-      {
-        "titre": "Tencent Cloud élargit son écosystème IA entreprise à Singapour avec MAGIC AI et WAND",
-        "resume": "Le 4 novembre 2026, Tencent Cloud annonce à Singapour le lancement de MAGIC AI, un workspace agentique de marketing automatisé avec validation humaine finale, et WAND, une suite multimodale combinant le modèle Hunyuan et plus de 100 utilitaires de traitement média. Ces solutions visent à faire passer les entreprises régionales du POC au déploiement en production. Des partenariats avec des intégrateurs locaux sont inclus pour la conformité et la résidence des données.",
-        "source": "TechEdgeAI / PR Newswire",
-        "url": "https://techedgeai.com/tencent-cloud-expands-ai-ecosystem-in-singapore-tools/",
-        "date_publication": "04/11/2026",
-        "pertinence": "moyenne",
-        "categorie": "produit"
+        "categorie": "retour_experience"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act après le Digital Omnibus (Règlement 2026/1744) : ce qui s'applique en novembre 2026",
-        "resume": "Le Règlement (UE) 2026/1744 (Digital Omnibus on AI), en vigueur depuis le 27 juillet 2026, a décalé les obligations high-risk (Annexe III au 2 décembre 2027, Annexe I au 2 août 2028), ajouté deux nouvelles pratiques interdites et donné des pouvoirs d'exécution directs à l'AI Office. Les obligations de transparence (Article 50), les interdictions existantes et les règles sur les modèles IA à usage général s'appliquent depuis le 2 août 2026 sans délai. Un guide complet publié le 10 novembre 2026 récapitule le calendrier réel pour les entreprises.",
-        "source": "nflo.tech",
-        "url": "https://nflo.tech/knowledge-base/eu-ai-act-timeline-obligations-for-companies/",
-        "date_publication": "10/11/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "EU AI Act Executive Briefing pour les Conseils d'Administration – novembre 2026",
-        "resume": "Ce briefing exécutif publié le 9 novembre 2026 par nhimg.org explique les obligations du Digital Omnibus 2026/1744 au niveau board : classification des rôles (provider vs deployer), pratiques interdites, calendrier des amendes et questions clés à poser au management. Il souligne que l'exécution a démarré depuis le 2 août 2026 pour les GPAI et les règles de transparence. Un tableau de bonne gouvernance inclut ISO/IEC 42001 et le NIST AI RMF comme systèmes de management recommandés.",
-        "source": "nhimg.org",
-        "url": "https://nhimg.org/eu-ai-act-executive-briefing",
-        "date_publication": "09/11/2026",
-        "pertinence": "haute",
-        "categorie": "gouvernance"
-      },
-      {
-        "titre": "L'EU AI Act dans le monde réel : ce que les organisations doivent faire maintenant",
-        "resume": "SC World publie le 4 novembre 2026 un guide pratique sur l'entrée en vigueur effective de l'EU AI Act, avec des étapes concrètes : inventaire IA, classification des use cases, attribution de responsabilité et revue des fournisseurs. L'article insiste sur l'Article 50 (obligations de transparence) et sur l'échéance du 2 décembre 2026 pour les systèmes génératifs mis sur le marché avant août 2026. La gouvernance IA doit être connectée à ISO/IEC 27001, cybersécurité, gestion des risques fournisseurs et audit interne.",
-        "source": "SC World",
-        "url": "https://www.scworld.com/perspective/the-eu-ai-act-has-entered-the-real-world-what-organizations-need-to-do-now",
-        "date_publication": "04/11/2026",
-        "pertinence": "haute",
-        "categorie": "conformité"
-      },
-      {
-        "titre": "EU AI Act novembre 2026 : les règles s'appliquent désormais aux petites entreprises",
-        "resume": "Ce guide publié le 7 novembre 2026 sur blog.mean.ceo explique aux startups comment l'EU AI Act s'applique à elles en novembre 2026, y compris hors de l'UE dès lors qu'un client européen est touché. Il détaille les quatre niveaux de risque avec des exemples concrets (outil de screening CV vendu à une agence néerlandaise = haut risque) et liste les erreurs de conformité les plus fréquentes. La conformité est présentée comme un avantage commercial pour remporter des contrats enterprise.",
-        "source": "blog.mean.ceo",
-        "url": "https://blog.mean.ceo/ai-regulation-news-november-2026/",
-        "date_publication": "07/11/2026",
-        "pertinence": "haute",
-        "categorie": "conformité"
-      },
-      {
-        "titre": "ISO 42001 et gouvernance du code généré par IA : le problème des preuves manquantes en entreprise",
-        "resume": "Publié le 3 novembre 2026, cet article de CloudApper.ai pointe un angle mort critique : ISO 42001 s'applique aussi au code généré par des outils IA (Copilot, etc.) intégré dans les systèmes internes, or la plupart des entreprises n'ont aucun enregistrement de gouvernance pour ce code déjà en production. ISO 42001 exige une chaîne d'audit traçable de l'utilisation de l'outil IA jusqu'au déploiement. Les CIO doivent documenter et contrôler leurs processus de développement assistés par IA pour les audits de gouvernance.",
-        "source": "CloudApper.ai",
-        "url": "https://www.cloudapper.ai/enterprise-ai/iso-42001-ai-governance-internally-built-enterprise-applications/",
-        "date_publication": "03/11/2026",
+        "titre": "EN 18286 expliqué : EU AI Act vs. ISO 42001 – ce que les entreprises doivent savoir",
+        "resume": "Article publié le 6 novembre 2026 expliquant en détail la portée de la norme EN 18286:2026 et sa relation avec ISO 42001 : EN 18286 s'applique au système d'IA (cycle de vie), tandis qu'ISO 42001 s'applique à l'organisation. Les fournisseurs de systèmes IA à haut risque bénéficient désormais d'une présomption de conformité avec l'Article 17 s'ils appliquent ce standard. Document de référence pour les équipes de conformité.",
+        "source": "VerifyWise",
+        "url": "https://verifywise.ai/blog/en-18286-eu-ai-act-iso-42001",
+        "date_publication": "06/11/2026",
         "pertinence": "haute",
         "categorie": "standard"
       },
       {
-        "titre": "EU AI Act après le Digital Omnibus : calendrier réel et actions prioritaires en novembre 2026",
-        "resume": "i-scoop.eu publie le 8 novembre 2026 un guide consolidé du calendrier EU AI Act post-Omnibus : ce qui s'applique aujourd'hui (interdictions, Article 50, GPAI), ce qui arrive le 2 décembre 2026 (nouvelles interdictions, marquage des systèmes génératifs legacy), et le régime high-risk repoussé à décembre 2027. L'article alerte sur le fait que beaucoup d'organisations travaillent encore sur l'ancien calendrier (tout au 2 août 2026) et donne des étapes pratiques de préparation.",
-        "source": "i-scoop.eu",
-        "url": "https://www.i-scoop.eu/eu-ai-act-timeline-digital-omnibus/",
+        "titre": "EU AI Act News Novembre 2026 : enforcement phase, obligations de transparence actives, report du haut risque",
+        "resume": "Synthèse publiée le 8 novembre 2026 faisant le point sur l'état réel de l'AI Act : interdictions et obligations de transparence (Article 50) en vigueur depuis août 2026, obligations pour les systèmes haut risque (Annexe III) repoussées au 2 décembre 2027. Les règles de disclosure chatbot sont obligatoires. Document de référence pour startups et PME avec FAQ opérationnelle.",
+        "source": "blog.mean.ceo",
+        "url": "https://blog.mean.ceo/eu-ai-act-news-november-2026/",
         "date_publication": "08/11/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "veille réglementaire"
+      },
+      {
+        "titre": "AI Regulation News Novembre 2026 – Startup Edition : EU AI Act en phase d'enforcement, 1170 instruments mondiaux",
+        "resume": "Newsletter publiée le 7 novembre 2026 signalant que l'EU AI Act est officiellement en phase d'enforcement, que le compteur mondial d'instruments réglementaires IA dépasse 1 170 dans 109 pays et juridictions, et que la Californie continue d'empiler de nouveaux statuts IA. Focus sur les obligations concrètes pour les fondateurs : disclosure chatbot, outils RH/crédit/éducation classés haut risque, responsabilité sur les modèles open source fine-tunés.",
+        "source": "blog.mean.ceo",
+        "url": "https://blog.mean.ceo/ai-regulation-news-november-2026/",
+        "date_publication": "07/11/2026",
+        "pertinence": "haute",
+        "categorie": "veille réglementaire"
+      },
+      {
+        "titre": "EU AI Act : ce que les organisations doivent faire maintenant (SC World)",
+        "resume": "Article publié le 4 novembre 2026 par SC World détaillant les actions pratiques post-enforcement du 2 août 2026 : constituer un inventaire IA, classifier les cas d'usage, intégrer la gouvernance IA avec ISO 27001, cybersécurité et audit interne. Rappelle que les systèmes mis sur le marché avant le 2 août 2026 ont jusqu'au 2 décembre 2026 pour satisfaire certaines obligations de marquage. Approche terrain pour les RSSI et responsables conformité.",
+        "source": "SC World",
+        "url": "https://www.scworld.com/perspective/the-eu-ai-act-has-entered-the-real-world-what-organizations-need-to-do-now",
+        "date_publication": "04/11/2026",
+        "pertinence": "haute",
+        "categorie": "mise en oeuvre"
+      },
+      {
+        "titre": "Mise à jour ISO/IEC 42001 – Guide enterprise leaders (1er novembre 2026)",
+        "resume": "Guide mis à jour le 1er novembre 2026 sur la structure de la norme ISO/IEC 42001 et son articulation avec l'EU AI Act et le NIST AI RMF. Couvre les 8 domaines de contrôle Annexe A (politiques, cycle de vie IA, gouvernance des données, transparence utilisateurs), les exigences de certification et les questions émergentes liées aux agents IA et à la contention des modèles. Ressource de référence pour les équipes de gouvernance IA en entreprise.",
+        "source": "Imagine Works",
+        "url": "https://imagine-works.com/insights/iso-42001-ai-management-system-standard",
+        "date_publication": "01/11/2026",
+        "pertinence": "haute",
+        "categorie": "standard"
+      },
+      {
+        "titre": "AI Regulation Global Update Novembre 2026 : EU, US Midterms, 15 pays",
+        "resume": "Article publié le 3 novembre 2026 couvrant l'actualité mondiale : en EU, l'enforcement a démarré en octobre avec les premières demandes d'information et l'Italie et la Pologne ont activé leur surveillance nationale. Aucune amende formelle n'avait été prononcée au 3 novembre. Rappel que le 2 décembre 2026 est la prochaine échéance clé (nouvelles interdictions sur les contenus intimes non-consentis générés par IA). Tour d'horizon de 15 pays.",
+        "source": "Cubbbix",
+        "url": "https://cubbbix.com/blog/ai-regulation-november-2026-global-update",
+        "date_publication": "03/11/2026",
+        "pertinence": "haute",
+        "categorie": "veille réglementaire"
       }
     ],
     "clinique": [
       {
-        "titre": "UK : les plans de diversité des essais cliniques poussent les sponsors à penser l'inclusion plus systématiquement",
-        "resume": "Publié le 4 novembre 2026 par Citeline/Pink Sheet, cet article révèle que le pilote volontaire de plans de diversité pour les essais cliniques au Royaume-Uni sera étendu début 2027 après des retours positifs des sponsors commerciaux. Les sponsors non commerciaux ont trouvé moins de valeur dans le dispositif. La Health Research Authority (HRA) continue de structurer la voie réglementaire pour l'inclusion dans les essais.",
-        "source": "Citeline / Pink Sheet",
-        "url": "https://insights.citeline.com/pink-sheet/r-and-d/clinical-trials/diversity-and-inclusion/uk-trial-diversity-plans-push-sponsors-to-think-more-systematically-about-inclusion-CUIASQAU3VHE7M27EKCNFE6MTU",
-        "date_publication": "04/11/2026",
-        "pertinence": "haute",
-        "categorie": "politique"
-      },
-      {
-        "titre": "Science 37 nommée 'BioTechnology Innovation of the Year 2026' pour son modèle Direct-to-Patient",
-        "resume": "Science 37 est récompensée le 5 novembre 2026 pour son modèle de livraison directe au patient, qui enrôle en moyenne 150 participants par essai contre 26 dans les sites traditionnels, avec des taux de complétion supérieurs de plus de 50 % aux benchmarks sectoriels. L'analyse démontre une meilleure représentation des femmes et des participants noirs, populations historiquement sous-représentées. Le modèle représente 20 à 30 % de l'enrôlement total dans chaque essai analysé.",
-        "source": "GlobeNewswire",
-        "url": "https://globenewswire.com/news-release/2026/11/05/3396367/0/en/science-37-named-2026-biotechnology-innovation-of-the-year-for-its-direct-to-patient-clinical-trial-delivery-model.html",
-        "date_publication": "05/11/2026",
-        "pertinence": "haute",
-        "categorie": "innovation"
-      },
-      {
-        "titre": "Skin of Color Savvy : diversité dans les essais et confiance des patients – ACAAI 2026",
-        "resume": "Présenté le 9 novembre 2026 lors du congrès ACAAI 2026, ce late-breaker met en scène les Dr Mona Shahriari et Valerie D. Callender qui discutent de la diversité dans les essais cliniques en dermatologie, des mesures de résultats adaptées aux peaux de couleur et des stratégies pour gagner la confiance des patients issus de populations sous-représentées. La session illustre la montée en puissance du sujet de la représentation dans les congrès médicaux spécialisés.",
-        "source": "HCPLive / ACAAI 2026",
-        "url": "https://hcplive.com/view/acaai-2026-preview-late-breakers",
-        "date_publication": "09/11/2026",
-        "pertinence": "haute",
-        "categorie": "congrès"
-      },
-      {
-        "titre": "Recrutement dans les essais cliniques : l'IA accélère le screening mais ne corrige pas les biais protocolaires",
-        "resume": "MM+M publie le 29 octobre 2026 une analyse terrain du recrutement inclusif : à Ochsner Health, la plateforme Paradigm a augmenté de 41 % le nombre de patients screenés. Mais les experts alertent : l'IA ne corrige pas les critères d'éligibilité trop restrictifs et risque de reproduire les biais protocolaires à grande échelle si ceux-ci ne sont pas traités en amont. L'inclusion s'élargit désormais de la race/ethnie à la géographie, au revenu et à l'accès aux soins.",
-        "source": "MM+M (Medical Marketing & Media)",
-        "url": "https://www.mmm-online.com/features/clinical-trial-recruitment-meeting-patients-where-they-are",
-        "date_publication": "29/10/2026",
-        "pertinence": "haute",
-        "categorie": "recrutement"
-      },
-      {
-        "titre": "FDA : suppression silencieuse de la guidance sur la diversité dans les essais cliniques suite à l'exécutif DEI",
-        "resume": "Publié il y a environ 20 jours (fin octobre 2026), cet article de l'AJMC documente le retrait par la FDA, sans annonce publique ni explication, de sa draft guidance sur les Diversity Action Plans pour les essais cliniques, à la suite des executive orders anti-DEI de janvier 2025. Ce retrait laisse les sponsors dans l'incertitude sur les attentes réglementaires en matière de diversité, bien que beaucoup intègrent déjà volontairement des DAP dans leurs soumissions. La loi FDORA mandatant les DAP reste en vigueur.",
-        "source": "AJMC",
-        "url": "https://www.ajmc.com/view/fda-quietly-removes-draft-guidance-on-diversity-in-clinical-trials-following-executive-order-on-dei",
-        "date_publication": "",
-        "pertinence": "haute",
-        "categorie": "réglementation"
+        "titre": "Webinaire Xtalks : Build Patient-Site Trust to Improve Clinical Trial Retention (2 novembre 2026)",
+        "resume": "Webinaire diffusé le 2 novembre 2026 sur les stratégies pratiques pour améliorer la diversité des essais cliniques via la confiance patient-site. Les intervenants ont couvert les décisions quotidiennes influençant la participation (communication, géographie des sites, partenariats avec organisations communautaires et advocacy), ainsi que des cadres actionnables pour avancer l'équité en santé dans la recherche clinique et engager les populations sous-représentées.",
+        "source": "Xtalks",
+        "url": "https://xtalks.com/webinars/improve-recruitment-outcomes-through-more-diverse-clinical-trials/",
+        "date_publication": "02/11/2026",
+        "pertinence": "moyenne",
+        "categorie": "événement/webinaire"
       }
     ]
   }
