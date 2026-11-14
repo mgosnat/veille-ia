@@ -1,112 +1,76 @@
 {
-  "generated_at": "2026-11-13T14:21:39.457185Z",
-  "date_fr": "13/11/2026",
+  "generated_at": "2026-11-14T13:17:54.961618Z",
+  "date_fr": "14/11/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "AI Agents News — Week of November 12, 2026: AWS Bedrock AgentCore et Google Agent Substrate",
-        "resume": "Tour d'horizon hebdomadaire des actualités agents IA : AWS publie des mises à jour d'AgentCore (CLI v1.0 stable, Gateway avec model fallback automatique et intégration Step Functions), Anthropic sort Claude Fable 5.2 et Mythos 5.2 optimisés pour les tâches agentiques, et Google Cloud annonce un stack Kubernetes AI-native avec Agent Substrate 1.0. Un récapitulatif pratique et daté pour les équipes en production.",
-        "source": "AI Agent Store",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "12/11/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
-        "resume": "Natera a construit SWARM (Systematic Workflow Analytics and Resolutions Manager), un système IA agentique sur Amazon Bedrock AgentCore pour capturer la connaissance institutionnelle des opérations de laboratoire et l'appliquer à grande échelle. Le système délivre un premier temps de réponse 130 fois plus rapide et couvre 96,2 % des tickets de support de manière automatisée. L'architecture complète (base de connaissances, déploiement, évaluation) est documentée en détail.",
-        "source": "AWS Machine Learning Blog",
-        "url": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
-        "date_publication": "12/11/2026",
-        "pertinence": "haute",
-        "categorie": "cas_usage"
-      },
-      {
-        "titre": "Sandboxing Untrusted AI Agents at Scale: Google Donates Agent Substrate and gVisor to the CNCF",
-        "resume": "Google Cloud a officiellement donné Agent Substrate 1.0, gVisor et OpenRL à la Cloud Native Computing Foundation (CNCF) le 5 novembre 2026, à l'occasion de KubeCon North America à Salt Lake City. Agent Substrate est un runtime open-source qui exécute chaque session d'agent IA dans un sandbox isolé sur Kubernetes, résolvant les deux principaux problèmes des workloads agentiques en production : le gaspillage de ressources idle et la surcharge du control plane. La version 1.0 est disponible comme capacité managée sur Google Kubernetes Engine.",
-        "source": "Google Open Source Blog",
-        "url": "https://opensource.googleblog.com/2026/11/sandboxing-untrusted-ai-agents-at-scale.html",
-        "date_publication": "05/11/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Pluggable Agentic AI Framework: A seven-layer composable enterprise agentic AI reference architecture on Amazon Bedrock AgentCore",
-        "resume": "AWS publie le 9 novembre 2026 une architecture de référence en sept couches pour déployer des systèmes multi-agents en entreprise sur Amazon Bedrock AgentCore. Chaque couche (données/connaissance, orchestration, raisonnement, mémoire, outils, sécurité, observabilité) a une responsabilité distincte et une interface stable, permettant de substituer n'importe quel composant sans casser l'ensemble. L'architecture supporte Strands Agents, MCP, A2A, LiteLLM et OpenTelemetry comme blocs interchangeables.",
-        "source": "AWS Machine Learning Blog",
-        "url": "https://aws.amazon.com/blogs/machine-learning/pluggable-agentic-ai-framework-a-seven-layer-composable-enterprise-agentic-ai-reference-architecture-on-amazon-bedrock-agentcore/",
+        "titre": "Claude Fable 5.2 et Mythos 5.2 : Anthropic lance ses modèles orientés travail agentique longue durée",
+        "resume": "Anthropic a lancé le 9 novembre 2026 Claude Fable 5.2 et Claude Mythos 5.2, deux modèles conçus explicitement pour le raisonnement intensif et les tâches agentiques multi-étapes. Fable 5.2 affiche un score de 49,1% sur le benchmark FrontierCode 2.0 (agentic coding), contre 32,4% pour la version précédente, et est disponible sur Claude API, AWS Bedrock, Google Cloud et Microsoft Foundry. Le modèle est 30% plus rapide que son prédécesseur et 20% moins cher, avec une fenêtre de contexte de 1M tokens et un mode rapide à 2,5x pour Claude Code.",
+        "source": "MacRumors / Anthropic Platform Docs",
+        "url": "https://www.macrumors.com/2026/11/09/anthropic-launches-claude-fable-5-2/",
         "date_publication": "09/11/2026",
         "pertinence": "haute",
-        "categorie": "framework"
+        "categorie": "produit"
       },
       {
-        "titre": "Run agents securely and efficiently with the next generation AgentCore runtime",
-        "resume": "AWS annonce le 12 novembre 2026 la prochaine génération du runtime Amazon Bedrock AgentCore : démarrage de session en moins de 2 secondes, jusqu'à 8 vCPU et 32 Go par microVM Firecracker isolée, facturation scale-to-zero pour les agents inactifs, et montages Amazon S3 restant dans le périmètre de confiance. Cette mise à jour réduit significativement les coûts et la latence des agents en production.",
-        "source": "AWS Machine Learning Blog",
-        "url": "https://aws.amazon.com/blogs/machine-learning/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock/",
+        "titre": "Google Agent Substrate 1.0 donné au CNCF : sandbox open-source pour agents IA sur Kubernetes",
+        "resume": "Le 6 novembre 2026, Google a officiellement donné Agent Substrate, gVisor et OpenRL à la CNCF Sandbox, et lancé Agent Substrate 1.0 comme capacité managée sur Google Kubernetes Engine. Ce runtime open-source isole chaque session d'agent IA dans un sandbox sur un cluster Kubernetes, permettant une réduction des coûts de 10x par rapport à des VMs dédiées selon Google. L'outil résout deux problèmes critiques de production : le gaspillage de ressources lors des périodes d'inactivité des agents (90-95% du temps) et la surcharge du control plane Kubernetes.",
+        "source": "DEV Community / SiliconANGLE / Google Open Source Blog",
+        "url": "https://dev.to/neticslabs/agent-substrate-reaches-10-as-google-hands-its-agent-stack-to-the-cncf-3i08",
         "date_publication": "12/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Google DeepMind Introduces AlphaProof Code: agentic verification of Signal's core cryptographic implementation",
-        "resume": "Google DeepMind publie le 10 novembre 2026 AlphaProof Code, un framework multi-agents de vérification formelle qui a généré plus de 6 millions de lignes de preuves machine-checked en Lean pour vérifier les propriétés de sécurité clés du protocole Signal (libsignal) en seulement 4 semaines avec une équipe de 5 chercheurs. Les agents basés sur Gemini 4 Carbon ont produit l'intégralité du code de preuve ; les spécifications ont été revues par des experts humains avec un second modèle (Claude Opus 5.5). Il s'agit de la première vérification formelle au niveau machine-code d'un protocole cryptographique largement déployé.",
-        "source": "Google DeepMind Blog",
-        "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-        "date_publication": "10/11/2026",
+        "titre": "Gemini 4 Hydrogen : Google lance un modèle rapide dédié aux workflows agentiques",
+        "resume": "Google a lancé Gemini 4 Hydrogen le 12 novembre 2026, un modèle conçu pour l'exécution rapide dans des workflows agentiques diversifiés (coding, debugging, recherche, analyse de données). Il est disponible sur Google AI Studio, l'API Gemini, Google Search et Gemini for Business à 1,50$/million de tokens en entrée. Le modèle intègre quatre niveaux de réflexion configurables et peut opérer en tandem avec Gemini 4 Carbon via l'Antigravity Orchestrator pour des workflows multi-agents.",
+        "source": "Unite.AI / ODSC / Google Cloud Docs",
+        "url": "https://www.unite.ai/google-launches-gemini-4-hydrogen-for-everyday-agentic-workflows/",
+        "date_publication": "12/11/2026",
         "pertinence": "haute",
-        "categorie": "benchmark"
+        "categorie": "produit"
       },
       {
-        "titre": "7 Best AI Agent Frameworks in 2026: Which Fits Your Stack",
-        "resume": "Mise à jour au 12 novembre 2026 d'un guide comparatif des 7 principaux frameworks agents en production, avec les stars GitHub capturés en direct (CrewAI 60 777, LlamaIndex 52 874, LangGraph 44 805, OpenAI Agents SDK 30 617, PydanticAI 21 143, Microsoft Agent Framework 14 633). L'article analyse ce qui casse réellement en production pour chaque framework selon le langage, la forme d'équipe et le type d'orchestration.",
-        "source": "Algoscale",
+        "titre": "LangGraph en production : tutoriel pas-à-pas avec données réelles de 23 systèmes déployés",
+        "resume": "Tutoriel pratique publié le 1er novembre 2026 couvrant la construction d'agents LangGraph en production : schémas d'état, nodes, edges, checkpointing PostgresSaver, patterns human-in-the-loop et streaming. L'auteur partage des données de coûts réels issues de 23 systèmes déployés en production. Le guide détaille les 7 patterns de production incontournables, dont la limitation de récursion, le débogage avec LangGraph Studio et la gestion de la mémoire persistante.",
+        "source": "jahanzaib.ai",
+        "url": "https://www.jahanzaib.ai/blog/langgraph-tutorial-build-production-ai-agents",
+        "date_publication": "01/11/2026",
+        "pertinence": "haute",
+        "categorie": "tutoriel"
+      },
+      {
+        "titre": "LangGraph Human-in-the-Loop Agent : guide 13 étapes, agent d'approbation en 90 min",
+        "resume": "Tutoriel step-by-step publié le 9 novembre 2026 (code testé et validé le jour même) pour construire un agent LangGraph avec gate d'approbation humaine via interrupts et checkpoints. Le guide couvre l'état, les checkpoints, les interruptions et la reprise de session, avec cinq tests passants documentés. Il s'intègre dans une architecture de computer-use agent avec contrôle humain intercalé.",
+        "source": "tech-insider.org",
+        "url": "https://tech-insider.org/au/langgraph-tutorial-human-approval-agent-2026/",
+        "date_publication": "09/11/2026",
+        "pertinence": "haute",
+        "categorie": "tutoriel"
+      },
+      {
+        "titre": "7 meilleurs frameworks agents IA en 2026 : comparatif terrain avec GitHub stars et retours production",
+        "resume": "Article mis à jour le 12 novembre 2026 comparant CrewAI (60 777 stars), LlamaIndex (52 874), LangGraph (44 805), OpenAI Agents SDK (30 617), PydanticAI (21 143) et Microsoft Agent Framework (14 633) sur la base de métriques GitHub capturées le 11 novembre 2026. L'analyse se concentre sur les points de rupture en production selon le type d'équipe et la complexité des workflows. Chaque framework est évalué sur le langage supporté, la forme d'équipe idéale et les problèmes typiques rencontrés en production.",
+        "source": "Algoscale (Neeraj Agarwal)",
         "url": "https://algoscale.com/data-engineering/ai-agent-frameworks/",
         "date_publication": "12/11/2026",
-        "pertinence": "moyenne",
-        "categorie": "framework"
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "kagent 1.0 GA : Agent Substrate en production sur Kubernetes avec Solo.io",
+        "resume": "Solo.io a annoncé le 10 novembre 2026 la disponibilité générale de kagent 1.0, une couche plateforme construite au-dessus de Google Agent Substrate sur Kubernetes. kagent gère les sessions, l'injection de credentials, les révisions, la suspension et la passerelle A2A, tandis qu'Agent Substrate s'occupe des actors, workers, snapshots, sandboxes, identité et egress. Cette architecture répond aux limitations du modèle pod-par-agent avec des sandboxes isolés, une planification efficace des ressources et un état agent persistant.",
+        "source": "solo.io",
+        "url": "https://www.solo.io/blog/announcing-kagent-1-0-ga",
+        "date_publication": "10/11/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "The EU AI Act has entered the real world: What organizations need to do now",
-        "resume": "Article publié le 4 novembre 2026 par SC World : depuis le 2 août 2026, le bureau de l'IA de la Commission européenne et les autorités nationales compétentes disposent de pouvoirs d'application effectifs. L'article détaille les obligations transparence (Article 50) déjà actives, et donne un plan d'action concret en 5 étapes (inventaire IA, classification, gouvernance fournisseurs, cybersécurité, ownership). Il souligne que la gouvernance IA doit s'intégrer à ISO/IEC 27001, RGPD, NIS2 et la gestion des risques fournisseurs.",
-        "source": "SC World",
-        "url": "https://www.scworld.com/perspective/the-eu-ai-act-has-entered-the-real-world-what-organizations-need-to-do-now",
-        "date_publication": "04/11/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "EU AI Act Compliance Guide: From Legal Duty to Evidence (DigitalXForce)",
-        "resume": "Guide mis à jour au 5 novembre 2026 faisant le point sur ce qui s'applique aujourd'hui : interdictions, obligation de littératie IA, règles GPAI et obligations de transparence Article 50 sont en vigueur et font l'objet d'une application. Le Digital Omnibus, en force depuis le 27 juillet 2026, a reporté les obligations high-risk Annex III au 2 décembre 2027 et Annex I au 2 août 2028. Des lignes directrices de classification publiées le 19 mai 2026 restent en version draft.",
-        "source": "DigitalXForce",
-        "url": "https://digitalxforce.com/eu-ai-act-compliance-guide/",
-        "date_publication": "05/11/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "EU AI Act After the Digital Omnibus: What Applies Now (Encorp.ai)",
-        "resume": "Analyse datée du 4 novembre 2026 récapitulant l'état post-Digital Omnibus : le règlement (UE) 2026/1744 a décalé les obligations high-risk mais n'a pas suspendu les interdictions, les obligations GPAI ni la plupart des règles de transparence. L'article avertit que reporter la préparation à 2027 crée un embouteillage de conformité exactement quand les autorités attendront des preuves. Inclut un calendrier consolidé des obligations actives en novembre 2026.",
-        "source": "Encorp.ai",
-        "url": "https://encorp.ai/en/blog/eu-ai-act-digital-omnibus-2026-11-05",
-        "date_publication": "04/11/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "EU AI Act News November 2026 — Startup Edition: premier standard harmonisé EN 18286:2026 publié",
-        "resume": "Newsletter datée de novembre 2026 (publiée ~8 novembre) annonçant une avancée concrète : le premier standard harmonisé EU AI Act, EN 18286:2026 (systèmes de management qualité pour fournisseurs d'IA à haut risque), a été publié au Journal Officiel de l'UE. Les entreprises qui s'y conforment bénéficient d'une présomption de conformité avec l'Article 17. Environ 11 autres standards AI Act sont en cours d'élaboration.",
-        "source": "blog.mean.ceo",
-        "url": "https://blog.mean.ceo/eu-ai-act-news-november-2026/",
-        "date_publication": "08/11/2026",
-        "pertinence": "haute",
-        "categorie": "standard"
-      },
-      {
-        "titre": "EU AI Act compliance guide: what applies now and what changed — SureCloud",
-        "resume": "Guide mis à jour le 12 novembre 2026 listant précisément ce qui est actif : Article 4 (littératie IA) modifié par le Digital Omnibus transfère une partie de la charge sur la Commission et les États membres ; deux nouvelles interdictions entrent en vigueur le 2 décembre 2026 (IA générant des contenus intimes non consentis et CSAM). Le guide fournit un calendrier opérationnel complet pour les équipes conformité.",
+        "titre": "EU AI Act : guide de conformité post-Digital Omnibus — ce qui s'applique maintenant en novembre 2026",
+        "resume": "Article publié le 12 novembre 2026 par SureCloud faisant le point complet sur l'état de conformité AI Act : les interdictions Article 5, le devoir de littératie IA, les règles GPAI et les obligations de transparence Article 50 sont en vigueur depuis le 2 août 2026, tandis que le Digital Omnibus a repoussé les obligations high-risk à décembre 2027 (Annex III) et août 2028 (Annex I). L'article détaille les preuves de gouvernance attendues par article (registre des risques, comités, rationale des décisions) et les pouvoirs d'enquête de l'AI Office sur les modèles GPAI.",
         "source": "SureCloud",
         "url": "https://www.surecloud.com/blog-hub/eu-ai-act-compliance-guide-what-applies-now",
         "date_publication": "12/11/2026",
@@ -114,42 +78,78 @@
         "categorie": "reglementation"
       },
       {
-        "titre": "European Digital Compliance — Q3 2026: EU AI Act Transparency Obligations Now in Effect",
-        "resume": "Bulletin trimestriel de Morrison Foerster publié le 4 novembre 2026 couvrant les développements réglementaires numériques EU/UK/Allemagne du T3 2026. Il détaille les obligations de transparence désormais en vigueur, les changements apportés par le Digital Omnibus (simplifications pour les PME et petites mid-caps, extension des sandboxes réglementaires), et les deux nouvelles catégories d'interdictions applicables au 2 décembre 2026.",
+        "titre": "L'EU AI Act dans le monde réel : ce que les organisations doivent faire maintenant",
+        "resume": "Article publié le 4 novembre 2026 dans SC World détaillant les obligations en vigueur depuis le 2 août 2026 : pouvoirs d'enforcement de l'AI Office et des autorités nationales, obligations de transparence Article 50 (disclosure chatbots, watermarking deepfakes). L'article souligne que la gouvernance IA doit s'intégrer avec ISO/IEC 27001, RGPD, NIS2 et la gestion des risques fournisseurs — l'achat d'un produit IA ne transfère pas la responsabilité compliance au vendeur. Les violations des pratiques interdites (social scoring, reconnaissance émotionnelle) restent punissables de 35M€ ou 7% du CA mondial.",
+        "source": "SC World",
+        "url": "https://www.scworld.com/perspective/the-eu-ai-act-has-entered-the-real-world-what-organizations-need-to-do-now",
+        "date_publication": "04/11/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "42Gears obtient la certification ISO/IEC 42001:2023 pour son système de gestion IA SureMDM",
+        "resume": "42Gears a annoncé le 13 novembre 2026 l'obtention de la certification ISO/IEC 42001:2023 après audit indépendant du British Standards Institution (BSI), validant ses frameworks de gouvernance IA, de gestion des risques et de supervision humaine dans sa plateforme SureMDM. La certification couvre la gouvernance auditée de bout en bout, l'évaluation structurée des risques IA sur tout le cycle de vie, et des mécanismes de responsabilité sur la prise de décision assistée par IA incluant les LLMs. C'est un exemple concret de déploiement entreprise ISO 42001 en production.",
+        "source": "Manila Times / GlobeNewswire",
+        "url": "https://www.manilatimes.net/2026/11/13/tmt-newswire/globenewswire/42gears-achieves-isoiec-420012023-certification-for-artificial-intelligence-management-systems/2469745",
+        "date_publication": "13/11/2026",
+        "pertinence": "haute",
+        "categorie": "certification"
+      },
+      {
+        "titre": "ISO 42001 et le code IA déjà en production : l'angle mort des entreprises",
+        "resume": "Article publié le 3 novembre 2026 par CloudApper alertant sur un angle mort critique : ISO 42001 s'applique aux équipes IT qui utilisent des outils de coding IA pour construire des applications internes, mais la plupart des entreprises n'ont aucune trace de gouvernance pour le code IA-généré déjà déployé en production. La norme exige une chaîne auditée de l'utilisation de l'outil IA jusqu'à la revue humaine et le déploiement — un gap que la plupart des processus de change-control ne peuvent pas combler. Les boards exigent désormais que les CIO répondent si leurs processus de développement assistés par IA sont documentés et contrôlés.",
+        "source": "CloudApper.ai",
+        "url": "https://www.cloudapper.ai/enterprise-ai/iso-42001-ai-governance-internally-built-enterprise-applications/",
+        "date_publication": "03/11/2026",
+        "pertinence": "haute",
+        "categorie": "standard"
+      },
+      {
+        "titre": "EU AI Act après Digital Omnibus : analyse de conformité pour novembre 2026",
+        "resume": "Article publié le 5 novembre 2026 par Encorp.ai synthétisant l'état post-Omnibus en novembre 2026 : les transparences, bans, littératie IA et obligations GPAI restent en vigueur sans délai, tandis que les high-risk Annex III sont reportés à décembre 2027. L'article note que le 4 novembre 2026, la commission bulgare a rejeté son projet de loi national IA 5-9-0, illustrant les divergences d'implémentation entre États membres. L'auteur avertit que reporter la compliance à 2027 créera une file d'attente exactement quand les autorités attendront des preuves.",
+        "source": "Encorp.ai",
+        "url": "https://encorp.ai/en/blog/eu-ai-act-digital-omnibus-2026-11-05",
+        "date_publication": "05/11/2026",
+        "pertinence": "moyenne",
+        "categorie": "reglementation"
+      },
+      {
+        "titre": "Morrison Foerster : Digital Compliance Q3 2026 — obligations de transparence AI Act désormais en vigueur",
+        "resume": "Bulletin juridique publié le 5 novembre 2026 par Morrison Foerster couvrant les développements Q3 2026 en compliance digitale EU : les obligations de transparence AI Act sont en vigueur depuis le 2 août 2026, le Digital Omnibus (Regulation EU 2026/1744) a étendu les simplifications QMS aux PME et aux small mid-caps, et deux nouvelles interdictions entrent en vigueur le 2 décembre 2026 (deepfakes intimes non-consentis, CSAM généré par IA). Le bulletin couvre également AI Act, NIS2 et protection des consommateurs dans une perspective pan-européenne.",
         "source": "Morrison Foerster",
         "url": "https://www.mofo.com/resources/insights/261102-european-digital-compliance-key-digital-regulation",
-        "date_publication": "04/11/2026",
+        "date_publication": "05/11/2026",
         "pertinence": "haute",
         "categorie": "reglementation"
       }
     ],
     "clinique": [
       {
-        "titre": "Algorithmic design choices as determinants of health equity: a causal simulation study of healthcare resource allocation",
-        "resume": "Préprint medrxiv posté le 1er novembre 2026 : une étude de simulation causale démontre que les choix de design algorithmique (objectif d'entraînement, enrichissement des données d'enquête, seuils de décision) sont les déterminants principaux des disparités raciales dans l'allocation des ressources de santé. L'objectif 'health status' atteint un EOD Black-White quasi nul (0,008) contre des disparités significatives avec l'objectif standard 'coût des soins'. L'étude révèle que les inégalités algorithmiques sont largement évitables par des choix de conception modifiables.",
-        "source": "medRxiv",
-        "url": "https://www.medrxiv.org/content/10.64898/2026.10.30.26366732v1",
-        "date_publication": "01/11/2026",
+        "titre": "Revue Georgetown : seulement 13% des études IA & équité en santé définissent explicitement l'équité",
+        "resume": "Une revue de 166 articles peer-reviewed publiée le 8 octobre 2026 dans Health Affairs Scholar (relayée le 2-11 novembre 2026) par l'Université Georgetown révèle que seulement 22 articles (13%) définissent explicitement la santé équitable — un gap qui risque de diriger les ressources IA vers les populations déjà avantagées. 68% des manuscrits abordent l'IA et l'équité à un niveau théorique général sans évaluer un résultat clinique distinct. Les chercheurs recommandent une participation accrue des spécialistes cliniques, des patients et des populations sous-représentées tout au long du développement des outils IA.",
+        "source": "EurekAlert / Bioengineer.org (Georgetown University Medical Center)",
+        "url": "https://www.eurekalert.org/news-releases/1150063",
+        "date_publication": "02/11/2026",
         "pertinence": "haute",
-        "categorie": "biais_algorithmique"
+        "categorie": "recherche"
       },
       {
-        "titre": "Diverse Recruitment for Clinical Trials Using Three Diversity-Enhancing Interventions: Qualitative Study",
-        "resume": "Étude qualitative publiée sur PMC (indexée dans les résultats récents) évaluant trois interventions pour améliorer le recrutement diversifié dans les essais cliniques. Les résultats sont mitigés : des gains ont été observés pour les participants asiatiques mais peu d'augmentation pour les groupes hispaniques et afro-américains. L'étude identifie les barrières géographiques et démographiques comme obstacles structurels persistants, notamment la distance aux sites d'essai.",
-        "source": "PMC / JMIR",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13451007/",
-        "date_publication": "01/11/2026",
-        "pertinence": "moyenne",
-        "categorie": "recrutement"
-      },
-      {
-        "titre": "FDA Diversity Action Plan in 2026: Is a Diversity Action Plan Still Required for Clinical Trials?",
-        "resume": "Analyse de Decentrialz publiée fin août 2026 (hors fenêtre stricte de 14 jours) faisant le point sur le statut légal des DAP : la guidance finale FDA a été remplacée par un document intitulé 'Enhancing Participation in Clinical Trials' sans mentionner le mot 'diversity'. L'obligation DAP est suspendue mais pas abolie, le statut légal FDORA demeure. Les sponsors sont conseillés de maintenir leurs plans de diversité de manière volontaire en attendant une clarification réglementaire.",
+        "titre": "Statut FDA Diversity Action Plans en 2026 : exigence en pause, pas supprimée",
+        "resume": "Article publié le 5 novembre 2026 par Decentrialz faisant le point sur le statut réglementaire actuel des Diversity Action Plans (DAPs) aux États-Unis : l'obligation FDORA est en pause suite aux turbulences réglementaires de 2025-2026, mais la loi reste en vigueur. En décembre 2025, la FDA a finalisé une guidance alternative intitulée 'Enhancing Participation in Clinical Trials' sans mentionner explicitement la diversité. L'article propose une stratégie pour construire un recrutement représentatif resilient quel que soit le sens de la politique FDA.",
         "source": "Decentrialz",
         "url": "https://decentrialz.com/blog/fda-diversity-action-plan-2026-still-required-clinical-trials",
-        "date_publication": "",
-        "pertinence": "moyenne",
+        "date_publication": "05/11/2026",
+        "pertinence": "haute",
         "categorie": "reglementation"
+      },
+      {
+        "titre": "EU AI Act compliance : biais algorithmique dans les systèmes IA de santé — ce qui s'applique maintenant",
+        "resume": "Article publié le 4 novembre 2026 par Distilinfo relayant une étude de Georgetown University parue dans Health Affairs Scholar montrant que les patients noirs sont significativement plus malades que les patients blancs à score algorithmique de risque équivalent. La revue documente aussi l'absence de représentation des personnes handicapées et le manque de supervision algorithmique dans 166 études examinées. Les chercheurs recommandent d'évaluer les résultats cliniques réels plutôt que de s'appuyer exclusivement sur des benchmarks techniques.",
+        "source": "Distilinfo",
+        "url": "https://distilinfo.com/2026/11/04/healthcare-ai-equity-risks/",
+        "date_publication": "04/11/2026",
+        "pertinence": "haute",
+        "categorie": "biais algorithmique"
       }
     ]
   }
