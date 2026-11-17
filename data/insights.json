@@ -1,173 +1,164 @@
 {
-  "generated_at": "2026-11-16T15:23:34.329725Z",
-  "date_fr": "16/11/2026",
+  "generated_at": "2026-11-17T15:47:06.627670Z",
+  "date_fr": "17/11/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Google donne Agent Substrate, gVisor et OpenRL au CNCF Sandbox et lance Agent Substrate 1.0 sur GKE",
-        "resume": "Le 6 novembre 2026, Google a cédé trois projets open source (Agent Substrate, gVisor, OpenRL) à la Cloud Native Computing Foundation et a simultanément mis Agent Substrate 1.0 en disponibilité générale sur Google Kubernetes Engine. Agent Substrate isole chaque session d'agent IA dans un sandbox sur Kubernetes, réduisant selon Google le coût de fonctionnement des agents de 90 % par rapport aux VM dédiées. OpenRL apporte la boucle de reinforcement learning au même cluster, permettant l'amélioration continue des workflows agentiques en production.",
-        "source": "SiliconANGLE / IT Brief / Dev.to",
-        "url": "https://siliconangle.com/2026/11/10/red-hat-ai-agent-infrastructure-kubeconna/",
-        "date_publication": "10/11/2026",
+        "titre": "LangChain lève 300 M$ en Série C à une valorisation de 3 Mds$ pour LangSmith",
+        "resume": "LangChain a annoncé le 13 novembre 2026 une levée de fonds de 300 millions de dollars à une valorisation de 3 milliards, menée par CapitalG (Alphabet). Les fonds visent à étendre LangSmith, la plateforme d'exécution et de gouvernance d'agents, qui sert déjà plus de 7 000 organisations et traite plus d'un milliard d'événements par jour. Workday a réduit son délai de déploiement d'un nouvel agent de cinq mois à moins d'une journée grâce à LangSmith.",
+        "source": "Unite.AI / Dataconomy",
+        "url": "https://www.unite.ai/langchain-secures-300m-series-c-at-3b-valuation-for-agent-governance/",
+        "date_publication": "13/11/2026",
+        "pertinence": "haute",
+        "categorie": "plateforme"
+      },
+      {
+        "titre": "AT&T déploie près de 500 workflows agentiques en production, 45 milliards de tokens traités par jour",
+        "resume": "AT&T a déployé près de 500 workflows autonomes en production via sa plateforme Business Agent Foundry, traitant 45 milliards de tokens IA par jour et plus d'un million de transactions par mois. Les cas d'usage couvrent le provisioning client, les opérations réseau, la prospection commerciale et la récupération de connaissances sur des systèmes legacy. L'entreprise vise à tripler ce nombre d'ici 2027, avec un ROI mesuré à 5x sur ses investissements IA en production.",
+        "source": "AI Weekly / SaaS Sentinel",
+        "url": "https://aiweekly.co/alerts/att-runs-500-agentic-ai-workflows-processing-45b-tokens-a-day-targets-3x-by-2027",
+        "date_publication": "15/11/2026",
+        "pertinence": "haute",
+        "categorie": "cas_usage"
+      },
+      {
+        "titre": "GitHub Copilot : mises à jour hebdomadaires agent-first avec nouveaux contrôles IDE (semaine du 16 nov. 2026)",
+        "resume": "GitHub Copilot a déployé de nouvelles fonctionnalités agentiques dans VS Code : une boîte de réception Agents pour prioriser les sessions en attente d'intervention humaine, un outil expérimental 'Compare Models', et l'ajout de Claude Fable 5.2 et Gemini 4 Carbon comme nouveaux modèles disponibles. Copilot est désormais disponible comme agent sélectionnable dans JetBrains Air et dans Xcode (preview publique depuis Xcode 27.3 beta). Ces mises à jour pratiques permettent aux équipes multi-agents de gérer les sessions sans quitter l'IDE.",
+        "source": "AI Agent Store / GitHub Changelog",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "16/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "LangChain 1.5.0 : suppression de Python 3.10 et ajout d'un model router",
-        "resume": "LangChain a publié la version 1.5.0 le 11 novembre 2026 sur PyPI (github.com/langchain-ai/langchain). Cette release abandonne le support de Python 3.10 (fin de vie), exige Python 3.11+ et langchain-core 1.8.0, et introduit un ModelRouterMiddleware (en bêta) permettant d'aiguiller dynamiquement chaque requête vers le modèle choisi. Les équipes restées sur Python 3.10 continuent de recevoir la branche 1.4.x.",
-        "source": "PyPI / GitHub langchain-ai / Releasebot",
+        "titre": "LangSmith Deployment renommé LangSmith Agent Server en novembre 2026",
+        "resume": "LangChain a renommé LangSmith Deployment en LangSmith Agent Server, signalant une évolution vers une infrastructure de production agnostique aux frameworks pour les agents à grande échelle. La plateforme expose plus de 30 endpoints API, supporte les protocoles A2A et MCP, et intègre un Agent Registry pour versionner et gouverner tous les agents déployés. Elle prend en charge les déploiements Cloud, Hybride, Self-hosted et Standalone.",
+        "source": "LangSmith (langchain.com)",
+        "url": "https://www.langchain.com/langsmith/deployment",
+        "date_publication": "11/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "digna lance digna Agentic, Data Reconciliation et le digna Engine — analyse qualité via agents MCP",
+        "resume": "La société viennoise digna a lancé trois nouvelles capacités le 14 novembre 2026 permettant aux employés d'interroger les mesures de qualité des données d'entreprise via des agents IA (ChatGPT, Claude, Gemini) sans sortir les données de l'infrastructure interne. Le serveur MCP de digna connecte la plateforme aux modèles d'IA, avec un déploiement on-premises, cloud privé ou cloud public client. Ce cas d'usage démontre un pattern concret d'agent souverain sur données sensibles opérationnelles.",
+        "source": "Eye of Riyadh / BizpreneurME",
+        "url": "https://www.eyeofriyadh.com/news/details/digna-introduces-agentic-ai-to-make-enterprise-data-easier-to-understand",
+        "date_publication": "14/11/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "LangChain 1.5.0 publié sur PyPI le 11 novembre 2026 — fin du support Python 3.10, ajout du model router",
+        "resume": "LangChain 1.5.0 a été publié le 11 novembre 2026 sur PyPI et GitHub. Cette version majeure abandonne le support Python 3.10 (fin de vie), monte la dépendance minimale vers langchain-core 1.8.0, et introduit un ModelRouterMiddleware (beta) ainsi qu'un middleware 'auto mode' pour le routage dynamique de modèles dans les workflows agentiques. Les utilisateurs sur Python 3.10 restent bloqués sur la branche 1.4.x.",
+        "source": "PyPI / GitHub langchain-ai/langchain",
         "url": "https://pypi.org/project/langchain/",
         "date_publication": "11/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
-      },
-      {
-        "titre": "digna lance digna Agentic, digna Data Reconciliation et le digna Engine",
-        "resume": "La société viennoise digna a mis en production trois nouvelles fonctionnalités le 11-14 novembre 2026 : digna Agentic permet aux collaborateurs d'interroger les mesures de qualité de données via ChatGPT, Claude, Gemini ou des modèles open source, sans que les données quittent l'infrastructure interne, grâce à un serveur MCP. digna Data Reconciliation vérifie la correspondance des données entre sources et cibles, tandis que le digna Engine contrôle où s'effectue le profilage. Un pattern pratique pour les organisations souhaitant déployer des agents sur des données sensibles en toute souveraineté.",
-        "source": "Mid-east.info / Eye of Riyadh / digna.ai",
-        "url": "https://docs.digna.ai/platform/agentic/Introduction/",
-        "date_publication": "14/11/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "AT&T déploie près de 500 workflows agentiques en production : 45 milliards de tokens par jour",
-        "resume": "AT&T a révélé lors d'un événement AWS à Boston (novembre 2026) que son Business Agent Foundry pilote désormais près de 500 workflows IA autonomes traitant plus d'un million de transactions par mois et environ 45 milliards de tokens quotidiens. Les cas d'usage couvrent le provisionnement client, les opérations réseau, la prospection commerciale et la gestion des systèmes legacy. Chaque workflow démarre sous supervision humaine et n'est autonomisé qu'une fois l'exactitude atteignant le milieu-haut des 90 %, après revue sécurité et conformité. L'entreprise vise à tripler ce nombre d'ici 2027.",
-        "source": "SiliconANGLE / AI Weekly / Beri.net",
-        "url": "https://siliconangle.com/2026/11/14/att-uses-agentic-ai-to-reinvent-business-processes-from-the-ground-up/",
-        "date_publication": "14/11/2026",
-        "pertinence": "haute",
-        "categorie": "retour_experience"
-      },
-      {
-        "titre": "Google Cloud publie son stack Kubernetes AI-natif pour agents stateful : llm-d 1.0, KubeRay, Agent Substrate",
-        "resume": "Le 10 novembre 2026, Google Cloud a publié un article de blog développeur détaillant son stack Kubernetes « AI-native » comprenant OpenRL, llm-d 1.0 (routage de l'inférence prefix-aware), KubeRay et Agent Substrate. Ces composants ciblent l'entraînement post-reinforcement, l'inférence avec cache KV partagé et l'exécution multi-tour des agents en toute sécurité. L'objectif est d'offrir aux équipes plateforme une infrastructure open source pour faire tourner des agents stateful à grande échelle.",
-        "source": "AI Agent Store / SiliconANGLE",
-        "url": "https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf",
-        "date_publication": "10/11/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "DIA Global Forum : modèle de maturité en 5 niveaux pour l'IA agentique en affaires réglementaires",
-        "resume": "Un article publié en novembre 2026 par le DIA Global Forum présente un modèle de maturité en cinq étapes pour l'IA agentique dans les affaires réglementaires (pharma/dispositifs médicaux), s'appuyant sur des benchmarks RegASK. Il documente que la plupart des organisations prennent entre une et quatre semaines pour répondre à de nouvelles exigences réglementaires, et propose des critères pratiques pour progresser vers une réponse automatisée via agents. Un cas d'usage métier documenté, à la croisée de l'agentique et de la compliance.",
-        "source": "AI Governance News / DIA Global Forum",
-        "url": "https://aigovernance.com/news",
-        "date_publication": "16/11/2026",
-        "pertinence": "moyenne",
-        "categorie": "cas_usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : phase d'enforcement active — ce que les organisations doivent faire maintenant",
-        "resume": "Publié le 4 novembre 2026 par SC World, cet article analyse la situation post-2 août 2026, date à laquelle l'AI Office européen et les autorités nationales ont acquis des pouvoirs d'enforcement élargis. L'article détaille les obligations actives (transparence, documentation, surveillance humaine), les prochaines échéances (décembre 2026, puis 2027-2028) et donne un plan d'action en six points : inventaire IA, classification des usages, attribution des responsabilités, audit fournisseurs, production de preuves et connexion avec la gouvernance cybersécurité.",
+        "titre": "La Commission européenne publie son premier standard harmonisé sous l'EU AI Act — avertissement des experts scientifiques",
+        "resume": "Le 16 novembre 2026, le Groupe des conseillers scientifiques en chef et le Groupe d'éthique de la Commission européenne ont publié une déclaration commune appelant à maintenir des garde-fous rigoureux face à l'IA de plus en plus autonome. La Commission a simultanément publié son premier standard harmonisé sous l'EU AI Act. Les experts recommandent de préserver la législation existante, de protéger la supervision humaine et de faire évoluer la régulation au rythme des capacités de l'IA.",
+        "source": "European Commission Research & Innovation",
+        "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en",
+        "date_publication": "16/11/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
+      },
+      {
+        "titre": "EU AI Act en phase opérationnelle : ce que les organisations doivent faire maintenant",
+        "resume": "Depuis le 2 août 2026, l'AI Office de l'UE et les autorités nationales ont pris en charge la supervision et l'application de l'EU AI Act. Les obligations de transparence (Article 50) sont désormais actives pour les nouveaux systèmes, et une prochaine échéance clé arrive le 2 décembre 2026 pour les systèmes legacy et les nouvelles catégories interdites. L'article recommande un inventaire IA, une classification des cas d'usage, une assignation de propriété et une revue des fournisseurs.",
         "source": "SC World",
         "url": "https://www.scworld.com/perspective/the-eu-ai-act-has-entered-the-real-world-what-organizations-need-to-do-now",
         "date_publication": "04/11/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "conformité"
       },
       {
-        "titre": "DOJ : la nouvelle Super Intelligence Task Force met les entreprises utilisatrices d'IA dans le collimateur",
-        "resume": "Publié le 12 novembre 2026 par PYMNTS, l'article révèle que la nouvelle Super Intelligence Task Force du Département de Justice américain élargit son périmètre au-delà des développeurs IA pour cibler aussi les entreprises déployant des systèmes IA. La task force doit formuler des recommandations de priorités d'enforcement, coordonner les enquêtes civiles et pénales liées à l'IA et évaluer les mesures de conformité, faisant des contrôles internes une préoccupation centrale pour les directions juridiques et compliance.",
-        "source": "PYMNTS",
-        "url": "https://www.pymnts.com/news/artificial-intelligence/2026/doj-ai-task-force-puts-business-users-enforcement-spotlight/",
-        "date_publication": "12/11/2026",
-        "pertinence": "haute",
-        "categorie": "enforcement"
-      },
-      {
-        "titre": "EU AI Act novembre 2026 : les interdictions et obligations de transparence chatbot sont live, les exigences haut-risque retardées mais pas supprimées",
-        "resume": "Publié le 7 novembre 2026, ce bulletin destiné aux startups et entreprises rappelle que les obligations de divulgation pour les chatbots et les interdictions de pratiques IA sont déjà applicables, tandis que les obligations complètes pour les systèmes haut-risque ont été décalées. L'article souligne que l'AI Act est désormais présent dans les contrats, les questionnaires d'appels d'offres et les due diligences investisseurs, et recommande de cartographier ses contrôles sur ISO/IEC 42001 ou le NIST AI RMF pour faciliter les audits.",
-        "source": "MEAN CEO Blog",
+        "titre": "EU AI Act novembre 2026 : bilan de conformité pour startups — interdictions actives, obligations hauts risques reportées",
+        "resume": "Bilan opérationnel de l'EU AI Act en novembre 2026 : les interdictions et règles de transparence des chatbots (Article 50) sont en vigueur et actives ; les obligations pour les systèmes à haut risque ont été reportées au 2 décembre 2027 (Omnibus Digital du 27 juillet 2026). La conformité ISO 42001 et NIST AI RMF est recommandée comme infrastructure de gouvernance pour accélérer les audits enterprise. Les entreprises qui se conforment en avance remportent des appels d'offres plus vite que leurs concurrents.",
+        "source": "blog.mean.ceo",
         "url": "https://blog.mean.ceo/eu-ai-act-news-november-2026/",
-        "date_publication": "07/11/2026",
+        "date_publication": "08/11/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "conformité"
       },
       {
-        "titre": "Réglementation IA novembre 2026 : l'AI Act en phase d'enforcement, toujours pas de loi fédérale américaine, 1 170 règles mondiales",
-        "resume": "Publié le 6 novembre 2026, ce panorama de la régulation IA pour startups et PME confirme que l'EU AI Act est en phase d'enforcement active en novembre 2026 et que les États-Unis n'ont toujours pas adopté de loi fédérale IA globale. Il recense plus de 1 170 règles IA en vigueur dans le monde et détaille les enjeux pratiques pour les petites structures : prouver ses décisions aux auditeurs, répondre aux questions des acheteurs enterprise, et transformer la compliance en avantage commercial.",
-        "source": "MEAN CEO Blog",
-        "url": "https://blog.mean.ceo/ai-regulation-news-november-2026/",
-        "date_publication": "06/11/2026",
+        "titre": "42Gears obtient la certification ISO/IEC 42001:2023 pour son système de management de l'IA (SureMDM)",
+        "resume": "42Gears, éditeur mondial de gestion unifiée des endpoints, a obtenu le 13 novembre 2026 la certification ISO/IEC 42001:2023 après audit indépendant par BSI. La certification couvre les rôles de producteur, fournisseur et utilisateur de systèmes IA intégrés dans SureMDM, et englobe gouvernance IA, gestion des risques, supervision humaine et gouvernance des fournisseurs tiers. Elle complète les certifications ISO 27001, SOC 2 Type II, PCI DSS et HIPAA déjà détenues par l'entreprise.",
+        "source": "GlobeNewswire",
+        "url": "https://www.globenewswire.com/news-release/2026/11/13/3402739/0/en/42gears-achieves-iso-iec-42001-2023-certification-for-artificial-intelligence-management-systems.html",
+        "date_publication": "13/11/2026",
         "pertinence": "haute",
-        "categorie": "reglementation"
+        "categorie": "certification"
       },
       {
-        "titre": "Forbes Tech Council : pourquoi votre outillage IA n'est pas de la gouvernance IA",
-        "resume": "Publié le 16 novembre 2026 sur Forbes, cet article d'expert souligne la divergence croissante entre les outils de monitoring IA (télémétrie, tableaux de bord) et une véritable gouvernance IA. Il rappelle que l'AI Act européen (enforcement depuis août 2026) exige des systèmes de gestion des risques, une gouvernance des données d'entraînement et une validation humaine en boucle, pendant que la FTC, la SEC et des États américains (Californie, Colorado, entrée en vigueur janvier 2027) scrutent les systèmes de décision automatisée.",
-        "source": "Forbes Tech Council",
-        "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/16/why-your-ai-tooling-isnt-ai-governance/",
-        "date_publication": "16/11/2026",
+        "titre": "Vague d'enforcement EU AI Act 2026 : comment elle redéfinit les logiciels mondiaux",
+        "resume": "Publié le 17 novembre 2026, cet article analyse comment la phase d'enforcement de l'EU AI Act en fin 2026 transforme concrètement la stratégie des entreprises mondiales. Les organisations font face à une supervision réglementaire active, des obligations de transparence strictes et des pénalités financières massives (jusqu'à 35 M€ ou 7% du CA mondial). Plutôt que de maintenir des modèles de conformité distincts par territoire, de nombreuses entreprises mondiales adoptent les standards européens de transparence et de gouvernance des données comme référence universelle.",
+        "source": "Europeans24",
+        "url": "https://europeans24.com/2026/11/eu-ai-act-2026-enforcement-changing-global-software/",
+        "date_publication": "17/11/2026",
         "pertinence": "haute",
-        "categorie": "gouvernance_entreprise"
+        "categorie": "réglementation"
       },
       {
-        "titre": "Commission européenne : draft implementing regulation sur les pouvoirs de sanction de l'AI Office contre Google et Meta",
-        "resume": "La Commission européenne a ouvert mi-octobre 2026 une consultation de quatre semaines sur un projet de règlement d'exécution de 10 pages (Ares(2026)9589403) précisant comment les opérateurs de systèmes IA supervisés directement par l'AI Office (grandes plateformes, modèles GPAI intégrés) peuvent consulter les preuves les concernant et comment se calcule le délai de prescription de cinq ans pour les amendes. La période de retour s'est clôturée le 9 novembre 2026, l'adoption est prévue au quatrième trimestre 2026.",
-        "source": "PPC.land",
-        "url": "https://ppc.land/eu-draft-lets-ai-office-restart-5-year-fining-clock-on-google-and-meta-ai/",
-        "date_publication": "09/11/2026",
+        "titre": "AI Insights : développements mondiaux clés en novembre 2026 — EU prépare les échéances de décembre",
+        "resume": "Un bilan mondial du 17 novembre 2026 : la Commission européenne a publié son premier standard harmonisé sous l'EU AI Act, et les discussions portent sur simplification des règles et renforcement de l'enforcement. L'échéance du 2 décembre 2026 approche avec l'entrée en vigueur des interdictions sur les deepfakes sexuels non consentis et les contenus pédopornographiques générés par IA. La gouvernance des agents IA est également au cœur des discussions régulateurs.",
+        "source": "RiskInfo.ai",
+        "url": "https://www.riskinfo.ai/post/ai-insights-key-global-developments-in-november-2026",
+        "date_publication": "17/11/2026",
         "pertinence": "haute",
-        "categorie": "enforcement"
-      },
-      {
-        "titre": "Exigences de transparence pour modèles frontier : deux marchés majeurs publient leurs règles le 11 novembre 2026",
-        "resume": "Selon un récapitulatif hebdomadaire publié par Emergent.sh le 14 novembre 2026, des autorités de régulation dans deux grands marchés ont officiellement publié le 11 novembre 2026 des exigences de transparence pour les modèles d'IA frontier, imposant des divulgations de capacités, des protocoles de tests de sécurité et des évaluations de risques de déploiement. Ces règles s'appliquent aux modèles dépassant 10^25 opérations en virgule flottante à l'entraînement et exigent des rapports de conformité trimestriels.",
-        "source": "Emergent.sh",
-        "url": "https://emergent.sh/news/week-s-top-5-ai-stories-november-2026-roundup",
-        "date_publication": "14/11/2026",
-        "pertinence": "moyenne",
-        "categorie": "reglementation"
+        "categorie": "réglementation"
       }
     ],
     "clinique": [
       {
-        "titre": "Revue systématique : moins d'un essai sur quatre sur les fibromes utérins rapporte les données de race et d'ethnicité",
-        "resume": "Publiée le 11 novembre 2026 dans Frontiers in Global Women's Health, cette revue systématique et méta-analyse conclut que moins d'un essai clinique sur quatre évaluant la prise en charge des fibromes utérins rapporte la race ou l'ethnicité des participantes. Les auteurs soulignent que ce sous-reporting persistant empêche d'évaluer l'équité des traitements et la généralisabilité des résultats, en particulier pour les populations noires les plus touchées par cette pathologie. Ils appellent à des cadres de reporting granulaires et contextuels pour améliorer l'équité en santé.",
-        "source": "Bioengineer.org / Frontiers in Global Women's Health",
-        "url": "https://bioengineer.org/few-uterine-fibroid-trials-report-race-and-ethnicity-data-review-finds/",
-        "date_publication": "11/11/2026",
-        "pertinence": "haute",
-        "categorie": "rapport_scientifique"
-      },
-      {
-        "titre": "Oncologie communautaire : comment élargir l'accès aux essais cliniques pour les populations sous-représentées",
-        "resume": "Publié le 13 novembre 2026 sur OncLive, cet article documente les résultats de l'étude de phase 3 evERA Breast Cancer présentés à l'ASCO Annual Meeting 2026 par Texas Oncology, qui a utilisé des stratégies d'outreach communautaire et des documents traduits pour élargir la participation de patients afro-américains, asiatiques et hispaniques. L'article souligne que si la recherche clinique doit refléter les soins réels, elle doit être disponible là où la majorité des patients se font traiter, c'est-à-dire dans les cabinets d'oncologie indépendants en communauté.",
-        "source": "OncLive",
-        "url": "https://www.onclive.com/view/expanding-clinical-trial-access-through-community-oncology",
-        "date_publication": "13/11/2026",
-        "pertinence": "haute",
-        "categorie": "acces_equite"
-      },
-      {
-        "titre": "Barrières structurelles aux essais cliniques en oncologie : les patients noirs ont 26 % de chances en moins d'être enrollés",
-        "resume": "Publié le 12 novembre 2026 par Distilinfo, cette analyse d'une grande base de données d'oncologie montre que les patients noirs ont 26 % de probabilités ajustées en moins d'être enrollés par rapport aux patients blancs, et que les pratiques desservant les zones défavorisées ont des taux d'enrollment significativement plus faibles. Dix-sept pratiques oncologiques sans aucun enrollment en essai clinique ont été identifiées ; elles traitent pourtant 3 257 patients dont 42,6 % sont hispaniques. L'étude recommande de renforcer l'infrastructure de recherche dans les sites à fort volume de populations sous-représentées.",
-        "source": "Distilinfo",
-        "url": "https://distilinfo.com/2026/11/12/cancer-trial-enrollment/",
+        "titre": "Pourquoi tant de patients des groupes sous-représentés ne sont jamais invités à rejoindre un essai",
+        "resume": "Dans une interview vidéo du 12 novembre 2026, Shaalan Beg (CMO de ConcertAI) explique que la disponibilité géographique des essais — fortement liée au code postal — est le principal obstacle à l'inclusion, et que les schémas d'accès aux essais reflètent les disparités de santé plus larges. Une fois que les patients sont simplement sollicités, les taux d'acceptation sont identiques entre tous les groupes démographiques, pointant l'absence de sollicitation comme cause principale et non le refus des patients.",
+        "source": "Applied Clinical Trials Online",
+        "url": "https://www.appliedclinicaltrialsonline.com/news",
         "date_publication": "12/11/2026",
         "pertinence": "haute",
-        "categorie": "rapport_scientifique"
+        "categorie": "accès_équité"
       },
       {
-        "titre": "Pourquoi tant de patients sous-représentés ne sont jamais invités à rejoindre un essai : interview ConcertAI",
-        "resume": "Publiée le 12 novembre 2026 sur Applied Clinical Trials Online, cette interview vidéo du Dr Shaalan Beg (CMO, ConcertAI) explique pourquoi la disponibilité géographique des essais — largement déterminée par le code postal — est la principale barrière à l'enrollment et comment ces inégalités d'accès reflètent des disparités sanitaires plus larges. Le même numéro couvre (13 novembre 2026) les biais de dépistage inconsistant qui conditionnent quels patients en oncologie sont orientés vers les essais.",
+        "titre": "Comment le dépistage inconsistant détermine quels patients en oncologie sont orientés vers des essais",
+        "resume": "Un article du 13 novembre 2026 documente que les biais de dépistage au niveau des sites et la conscience des médecins dictent quels patients sont flaggés pour des essais cliniques en oncologie. Les taux d'acceptation étant identiques entre tous les groupes dès qu'un patient est sollicité, le problème se situe en amont : l'inconsistance du dépistage, et non le refus des patients minoritaires.",
         "source": "Applied Clinical Trials Online",
         "url": "https://www.appliedclinicaltrialsonline.com/view/path-ahead-improve-dei-clinical-trials",
-        "date_publication": "12/11/2026",
+        "date_publication": "13/11/2026",
         "pertinence": "haute",
-        "categorie": "acces_equite"
+        "categorie": "recrutement"
       },
       {
-        "titre": "Fermer le fossé communautaire et rural : Q&A avec Kent Thoelke, Paradigm Health",
-        "resume": "Publié le 5 novembre 2026 sur Applied Clinical Trials Online, ce Q&A avec le CEO de Paradigm Health détaille pourquoi les gaps de participation dans les contextes ruraux et communautaires tiennent à la fois aux barrières financières pour les patients et au manque d'infrastructure des sites, comment les workflows hérités pèsent sur les cliniques communautaires, et quels changements de politique et de technologie permettraient de faire de la recherche clinique une option de soins réelle pour davantage de patients.",
+        "titre": "Combler le gap d'accès communautaire : Q&A avec Kent Thoelke, Paradigm Health",
+        "resume": "Dans un Q&A du 5 novembre 2026, Kent Thoelke (CEO de Paradigm Health) analyse pourquoi les gaps de participation dans les settings communautaires et ruraux tiennent à la fois aux barrières de coûts pour les patients et à l'infrastructure des sites. Il propose des changements de politique et d'investissement technologique (intégration EHR, matching IA) pour rendre la recherche clinique accessible à une plus grande partie de la population, notamment en dehors des grands centres académiques.",
         "source": "Applied Clinical Trials Online",
         "url": "https://www.appliedclinicaltrialsonline.com/view/path-ahead-improve-dei-clinical-trials",
         "date_publication": "05/11/2026",
         "pertinence": "haute",
-        "categorie": "acces_equite"
+        "categorie": "accès_équité"
+      },
+      {
+        "titre": "ACT Brief : incohérences de dépistage en oncologie, pause du programme de vouchers FDA et usage de l'IA par les patients",
+        "resume": "Le bulletin du 16 novembre 2026 d'Applied Clinical Trials examine trois sujets d'actualité : les incohérences de dépistage oncologique et leur impact sur la représentativité des essais, la pause rapportée du programme de vouchers prioritaires de la FDA, et comment l'usage croissant de l'IA par les patients redéfinit la communication des sponsors avec leurs participants potentiels — avec des implications directes pour la diversité du recrutement.",
+        "source": "Applied Clinical Trials Online",
+        "url": "https://www.appliedclinicaltrialsonline.com/news",
+        "date_publication": "16/11/2026",
+        "pertinence": "haute",
+        "categorie": "réglementation"
+      },
+      {
+        "titre": "Marché mondial des essais cliniques 2026 : l'IA, les essais décentralisés et la diversité patient comme moteurs de croissance",
+        "resume": "Un rapport de marché publié le 17 novembre 2026 (GlobeNewswire) projette le marché mondial des essais cliniques à 510 milliards de dollars d'ici 2035. Les essais décentralisés (télémédecine, apps mobiles, tests à domicile) sont identifiés comme leviers d'élargissement de l'accès et d'amélioration de la rétention pour les populations géographiquement diversifiées, avec l'IA-enabled analytics et les adaptive trial designs en tête des tendances aux États-Unis.",
+        "source": "GlobeNewswire",
+        "url": "https://globenewswire.com/news-release/2026/11/17/3404789/28124/en/global-clinical-trial-market-report-to-2035-size-share-trends-forecast-and-competitive-analysis-market-to-reach-510-billion-as-ai-virtual-trials-and-apac-drive-growth.html",
+        "date_publication": "17/11/2026",
+        "pertinence": "moyenne",
+        "categorie": "marché"
       }
     ]
   }
