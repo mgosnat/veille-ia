@@ -1,128 +1,128 @@
 {
-  "generated_at": "2026-11-21T14:29:06.864870Z",
-  "date_fr": "21/11/2026",
+  "generated_at": "2026-11-22T14:23:46.995808Z",
+  "date_fr": "22/11/2026",
   "insights": {
     "agentique": [
       {
         "titre": "LangChain lance LangSmith Tool Gateway en beta publique",
-        "resume": "LangChain a mis en beta publique le 19 novembre 2026 son LangSmith Tool Gateway, une couche managée centralisant les credentials, l'identité et les droits d'accès pour chaque appel d'outil effectué par un agent IA. L'outil s'intègre avec les clients compatibles MCP (Claude Code, Cursor, etc.) et permet des flux d'approbation humaine avant les actions sensibles. Il cible directement le principal frein des équipes qui passent des prototypes aux agents en production.",
-        "source": "LangChain Blog / Unite.ai",
-        "url": "https://www.langchain.com/blog/langsmith-tool-gateway",
+        "resume": "LangChain a mis en beta publique le 19 novembre 2026 son LangSmith Tool Gateway, une couche de gouvernance centralisée pour les agents IA. L'outil gère les credentials, l'identité, les politiques d'accès et les traces d'audit pour chaque appel d'outil effectué par un agent, via une URL unique compatible MCP. Il supporte des intégrations natives avec Google, Microsoft, Salesforce, GitHub et LinkedIn, et est disponible sur les plans LangSmith Plus et Enterprise.",
+        "source": "Unite.ai / LangChain Blog",
+        "url": "https://www.unite.ai/langchain-launches-langsmith-tool-gateway-to-govern-agent-tool-calls/",
         "date_publication": "19/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Databricks ouvre Genie ZeroOps en beta publique : agent autonome de réparation de pipelines",
-        "resume": "Databricks a ouvert le 19 novembre 2026 la beta publique de Genie ZeroOps, un agent autonome formé sur plus de 80 000 incidents clients réels qui surveille en arrière-plan les jobs, pipelines et tables, diagnostique les pannes via Unity Catalog et propose des correctifs sous forme de Pull Requests sans jamais toucher la production sans approbation humaine. Les nouvelles fonctionnalités incluent une boîte de réception partagée, des instructions personnalisées et la création de PR en un clic. C'est un cas d'usage data ops concret avec benchmark documenté.",
+        "titre": "Databricks ouvre Genie ZeroOps en beta publique : un agent autonome pour réparer les pipelines de données",
+        "resume": "Databricks a ouvert le 19 novembre 2026 la beta publique de Genie ZeroOps, un agent autonome formé sur plus de 80 000 incidents clients. L'agent surveille en continu les jobs, pipelines et tables, diagnostique les pannes via Unity Catalog, propose des correctifs sous forme de Pull Requests et ne modifie jamais la production sans approbation humaine. Les nouvelles fonctionnalités incluent des boîtes de réception partagées, des instructions personnalisées et la création de PR en un clic.",
         "source": "Databricks Blog",
         "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
         "date_publication": "19/11/2026",
         "pertinence": "haute",
-        "categorie": "produit agentique"
+        "categorie": "produit"
       },
       {
-        "titre": "LangSmith Agent Server : renommage et mise à jour de la plateforme de déploiement d'agents en production",
-        "resume": "LangChain a renommé LangSmith Deployment en LangSmith Agent Server en novembre 2026, officialisant une plateforme managée pour déployer des agents LangGraph à l'échelle en production avec tolérance aux pannes, human-in-the-loop, mémoire persistante et streaming. La plateforme expose plus de 30 endpoints API et supporte les protocoles A2A et MCP. Ce changement reflète le pivot officiel de LangChain vers un positionnement 'runtime pour agents de production'.",
-        "source": "LangChain",
-        "url": "https://www.langchain.com/langsmith/deployment",
-        "date_publication": "",
+        "titre": "Microsoft Ignite 2026 : Agent 365, Copilot Workspaces et Entra Agent Identity pour gouverner les agents en entreprise",
+        "resume": "Microsoft a annoncé lors d'Ignite 2026 (17-19 novembre) plusieurs produits agentiques : Agent 365 comme couche d'observabilité et de gouvernance pour les agents IA, Copilot Workspaces permettant aux employés et agents de collaborer sur des projets partagés, et Entra Agent Identity en preview publique capable de découvrir 60 types d'agents locaux. Nadella a affirmé que 50 millions d'agents sont déjà enregistrés sur la plateforme.",
+        "source": "ADTmag / CEO Economy",
+        "url": "https://adtmag.com/articles/2026/11/18/microsoft-ignite-2026-maps-out-the-stack-for-building-and-running-enterprise-ai-agents.aspx",
+        "date_publication": "18/11/2026",
+        "pertinence": "haute",
+        "categorie": "produit"
+      },
+      {
+        "titre": "Stitch AI : agents opérationnels intégrés nativement dans un système bancaire",
+        "resume": "Stitch a lancé le 18 novembre 2026 Stitch AI, une plateforme d'agents IA embarquée directement dans son operating system bancaire. Les agents prêts à l'emploi couvrent l'onboarding client, la décision de crédit et le recouvrement, avec des permissions scopées, des contrôles maker/checker, des pistes d'audit et un masquage des données PII avant accès au modèle. Les banques conservent le choix du modèle et décident où les agents s'exécutent.",
+        "source": "The Paypers / PRNewswire",
+        "url": "https://thepaypers.com/fintech/news/stitch-launches-stitch-ai-with-agents-for-banking-operations",
+        "date_publication": "18/11/2026",
+        "pertinence": "haute",
+        "categorie": "cas_usage"
+      },
+      {
+        "titre": "Databricks Genie Ontology en disponibilité générale : la couche de contexte métier pour les agents autonomes",
+        "resume": "Databricks a rendu Genie Ontology généralement disponible le 9 novembre 2026. Cette couche de contexte fournit aux agents (Genie One, Genie Code, etc.) une carte business-aware de l'organisation en combinant des connaissances modélisées dans Unity Catalog Semantics et des connaissances apprises automatiquement à partir des assets et des usages. Plus de 1,5 million de Genie Spaces avaient déjà été créés à mi-2026.",
+        "source": "Databricks / Cryptobriefing",
+        "url": "https://cryptobriefing.com/databricks-updated-genie-ai-agent/",
+        "date_publication": "11/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
-      },
-      {
-        "titre": "n8n démontre des workflows agents avec Microsoft Foundry à Microsoft Ignite 2026",
-        "resume": "n8n a présenté du 17 au 20 novembre 2026 à Microsoft Ignite (San Francisco) une démonstration live de workflows agents combinant l'orchestration n8n avec Microsoft Agent 365 et Microsoft Foundry pour le raisonnement et le grounding. L'événement confirme le positionnement de n8n comme plateforme d'agents en production avec 208 000 étoiles GitHub et une valorisation de 2,5 milliards de dollars annoncée en novembre 2026. Des cas d'usage concrets (triage leads, extraction factures) ont été mis en avant.",
-        "source": "DEV Community / blog.mean.ceo",
-        "url": "https://dev.to/alifar/n8n-to-show-microsoft-foundry-powered-agent-workflows-at-ignite-2026-4902",
-        "date_publication": "10/11/2026",
-        "pertinence": "haute",
-        "categorie": "cas d'usage"
-      },
-      {
-        "titre": "Stitch AI : agents opérationnels embarqués dans un OS bancaire",
-        "resume": "Stitch a lancé Stitch AI, intégrant des assistants Copilot-style et des agents opérationnels prêts à l'emploi (onboarding, scoring crédit, recouvrement) directement dans son système d'exploitation bancaire, avec permissions scopées, approbations maker/checker, pistes d'audit et masquage des PII avant accès au modèle. C'est un cas d'usage métier documenté dans les services financiers avec architecture de gouvernance intégrée. L'annonce a été publiée dans la semaine du 20 novembre 2026.",
-        "source": "AI Agent Store",
-        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
-        "date_publication": "19/11/2026",
-        "pertinence": "haute",
-        "categorie": "cas d'usage"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EN 18286:2026 : première norme harmonisée publiée au JOUE en soutien à l'AI Act",
-        "resume": "La Commission européenne a publié le 14 octobre 2026 au Journal officiel de l'UE la référence de la norme EN 18286:2026, première norme harmonisée au titre de l'AI Act, qui établit un système de management de la qualité pour les fournisseurs de systèmes IA à haut risque au sens de l'article 17. Les fournisseurs qui l'appliquent bénéficient d'une présomption de conformité, réduisant ainsi l'incertitude juridique. Des analyses pratiques pour les entreprises ont été publiées en novembre 2026 par Lexology et Dower Law Firm.",
-        "source": "Lexology / Commission européenne",
-        "url": "https://www.lexology.com/library/detail.aspx?g=966a6b36-1efd-4290-9c7c-992d8943bd12",
-        "date_publication": "11/11/2026",
+        "titre": "EU AI Act : état de l'enforcement en novembre 2026 — obligations actives et délais révisés",
+        "resume": "Depuis le 2 août 2026, l'AI Office européen et les autorités nationales ont des pouvoirs d'enforcement actifs sur les pratiques interdites, les obligations GPAI et les transparences de l'Article 50. Le Digital Omnibus a repoussé les obligations Annex III (systèmes à haut risque) au 2 décembre 2027. Les amendes peuvent atteindre 35 M€ ou 7 % du chiffre d'affaires mondial pour violations des pratiques interdites.",
+        "source": "Orbiq HQ (mis à jour 18/11/2026)",
+        "url": "https://www.orbiqhq.com/eu-regulations/eu-ai-act-compliance",
+        "date_publication": "18/11/2026",
         "pertinence": "haute",
         "categorie": "réglementation"
       },
       {
-        "titre": "EU AI Act novembre 2026 : bans actifs, transparence en vigueur, obligations haut risque repoussées à 2027",
-        "resume": "Un état des lieux de novembre 2026 confirme que les interdictions de l'AI Act s'appliquent depuis février 2025, les obligations de transparence (Article 50) depuis août 2026 et que les pouvoirs d'enforcement de l'AI Office et des autorités nationales sont opérationnels depuis le 2 août 2026. Le Digital Omnibus a repoussé les obligations haut risque au 2 décembre 2027. Les entreprises doivent aujourd'hui être conformes sur les pratiques interdites, la littératie IA et la divulgation des interactions IA.",
-        "source": "CEO Economy / orbiqhq.com",
-        "url": "https://ceoeconomy.com/article/eu-ai-act-obligations-2026-2027",
-        "date_publication": "20/11/2026",
+        "titre": "EU AI Act Enforcement Wave : comment la vague réglementaire de fin 2026 transforme les logiciels d'entreprise mondiaux",
+        "resume": "Fin 2026 marque un tournant opérationnel pour l'EU AI Act : les organisations ne font plus face à de la théorie juridique abstraite mais à une surveillance réglementaire active, des obligations de transparence strictes et des pénalités financières massives. De nombreuses entreprises mondiales adoptent désormais les standards européens de transparence et gouvernance des données comme baseline universelle. L'Article 50 impose notamment de notifier explicitement les utilisateurs qu'ils interagissent avec une IA.",
+        "source": "Europeans24",
+        "url": "https://europeans24.com/2026/11/eu-ai-act-2026-enforcement-changing-global-software/",
+        "date_publication": "17/11/2026",
         "pertinence": "haute",
         "categorie": "réglementation"
       },
       {
-        "titre": "Guide pratique d'implémentation ISO 42001 : étapes pas-à-pas pour les équipes ML en entreprise",
-        "resume": "Optro (ex-AuditBoard) a publié le 17 novembre 2026 un guide d'implémentation ISO 42001 step-by-step couvrant le périmètre du système de management IA, l'évaluation des écarts, la construction des preuves et la préparation à la certification. Il insiste sur la nécessité d'inventorier l'IA shadow et les outils tiers embarqués, et préconise d'assigner des responsables clairs pour l'approbation des cas d'usage à risque élevé. C'est l'un des guides les plus récents et pratiques disponibles pour les équipes opérationnelles.",
-        "source": "Optro / Auditboard",
+        "titre": "ISO 42001 : guide d'implémentation pratique étape par étape pour les équipes entreprise",
+        "resume": "Publié le 17 novembre 2026, ce guide pratique détaille comment scoper un AI Management System ISO 42001, réaliser une gap assessment, construire les preuves nécessaires et préparer la certification. Il insiste sur la nécessité d'inventorier toutes les IA incluant l'IA shadow et les IA vendeurs embarquées, et d'assigner des propriétaires clairs pour chaque cas d'usage à risque élevé. La certification reste volontaire mais devient un atout différenciant pour remporter des marchés enterprise réglementés.",
+        "source": "Optro AI",
         "url": "https://optro.ai/blog/iso-42001-implementation-guide",
         "date_publication": "17/11/2026",
         "pertinence": "haute",
         "categorie": "standard"
       },
       {
-        "titre": "Digital Fairness Act : la Commission européenne propose de nouveaux droits pour les consommateurs face aux agents IA",
-        "resume": "Le 11 novembre 2026, la Commission européenne a présenté le Digital Fairness Act (DFA), qui interdit dix pratiques de design manipulatrices en ligne et introduit un droit explicite des consommateurs à communiquer avec un humain en service client et à disposer de droits clairs lorsqu'ils utilisent un agent IA pour acheter des produits en leur nom. Les entreprises contrevenantes s'exposent à des amendes pouvant atteindre 6 % du chiffre d'affaires mondial. Ce texte devra coexister avec le DSA et l'AI Act.",
-        "source": "Commission européenne / AI Weekly",
-        "url": "https://aiweekly.co/alerts/eu-draft-digital-fairness-act-targets-ai-companion-bots-6-fines",
-        "date_publication": "09/11/2026",
+        "titre": "Assessed Signal novembre 2026 : l'EU AI Act entre en enforcement pendant que sa timeline est réécrite",
+        "resume": "Ce bulletin de novembre 2026 (21 novembre) note que l'EU AI Act est entré en phase d'enforcement même si ses délais sont en cours de réécriture, créant un problème de gouvernance spécifique aux agents IA délégués. L'Article 55 impose aux fournisseurs de modèles GPAI à risque systémique : évaluation adversarielle, mitigation des risques, reporting d'incidents graves et protection cybersécurité. Les organisations doivent tenir un registre à jour de tous leurs systèmes IA et de leurs obligations respectives.",
+        "source": "Assessed Intelligence",
+        "url": "https://assessedintelligence.com/assessed-signal-november-2026/",
+        "date_publication": "21/11/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "conformité"
       }
     ],
     "clinique": [
       {
-        "titre": "Biais dans l'IA médicale et équité numérique : revue de portée publiée en novembre 2026 (PMC)",
-        "resume": "Une revue de portée publiée le 9 novembre 2026 dans JMIR (PMC) portant sur 22 études identifie le biais comme un phénomène sociotechnique multidimensionnel : biais social (21/22 études), biais algorithmique (16/22), biais structurel (14/22) et biais lié au design (12/22). L'article appelle à une plus grande participation des patients et des populations sous-représentées tout au long du développement de l'IA médicale. Les implications concernent directement la conception des essais cliniques intégrant des outils d'IA de décision clinique.",
-        "source": "JMIR / PMC",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13747314",
-        "date_publication": "09/11/2026",
-        "pertinence": "haute",
-        "categorie": "biais algorithmique"
-      },
-      {
-        "titre": "Avancer l'équité en santé dans toutes les phases des essais cliniques – perspectives infirmières (ONS)",
-        "resume": "L'Oncology Nursing Society a publié le 19 novembre 2026 un article détaillant comment les infirmières peuvent contribuer à l'équité dans le recrutement aux essais cliniques par un dépistage systématique et non directif. L'article note que 83 % des patients noirs se déclarent prêts à participer à un essai, mais que 40 % indiquent que leur équipe soignante n'a jamais abordé le sujet. Les programmes de navigation patient sont présentés comme une solution concrète documentée pour améliorer l'équité dans le recrutement.",
-        "source": "Oncology Nursing Society (ONS)",
-        "url": "https://www.ons.org/publications-research/voice/news-views/11-2026/advance-health-equity-across-all-phases-clinical-trials",
-        "date_publication": "19/11/2026",
-        "pertinence": "haute",
-        "categorie": "recrutement et inclusion"
-      },
-      {
-        "titre": "L'IA évaluée pour réduire les disparités mondiales dans le diagnostic de l'épilepsie (Nature Reviews Neurology)",
-        "resume": "Une revue publiée le 20 novembre 2026 dans Nature Reviews Neurology (DOI : 10.1038/s41582-026-01287-8) évalue comment l'IA combinée à des outils diagnostiques à bas coût peut réduire les disparités dans la prise en charge de l'épilepsie à l'échelle mondiale, notamment dans les pays à revenu faible et intermédiaire. L'article aborde le biais algorithmique, la validation externe et les enjeux d'équité dans le déploiement clinique de l'IA. Il plaide pour des modèles open-source et des approches adaptées aux infrastructures locales.",
-        "source": "BioEngineer / Nature Reviews Neurology",
-        "url": "https://bioengineer.org/artificial-intelligence-evaluated-for-reducing-global-disparities-in-epilepsy-diagnosis/",
+        "titre": "Déterminants sociaux de la santé et accès aux essais cliniques : publication FPM du 20 novembre 2026",
+        "resume": "Cet article publié le 20 novembre 2026 par la Faculty of Pharmaceutical Medicine analyse comment les facteurs sociaux non-médicaux (statut socioéconomique, transport, accès à la technologie, soutien social) influencent directement la participation aux essais cliniques. Ces barrières contribuent à la sous-représentation de certaines populations dans la recherche, réduisant la diversité et la généralisabilité des résultats. L'article propose des pistes pour l'avenir : engagement communautaire, designs centrés sur le patient et technologies numériques innovantes.",
+        "source": "Faculty of Pharmaceutical Medicine (FPM)",
+        "url": "https://fpm.org.uk/blog/social-determinants-of-health-clinical-trial-access",
         "date_publication": "20/11/2026",
         "pertinence": "haute",
-        "categorie": "biais algorithmique"
+        "categorie": "équité en santé"
       },
       {
-        "titre": "Statut des Diversity Action Plans FDA en 2026 : pause, non disparition",
-        "resume": "Un article publié par Decentrialz en août 2026 (mis à jour) fait le point sur l'état d'incertitude réglementaire autour des Diversity Action Plans : l'obligation légale existe (FDORA Section 3601) mais la guidance finale n'a pas été publiée, remplacée par un document intitulé 'Enhancing Participation in Clinical Trials'. Sans guidance finale, l'obligation de soumission formelle n'est pas encore déclenchée, mais les sponsors construisent des stratégies de représentativité pour anticiper la prochaine direction réglementaire.",
-        "source": "Decentrialz",
-        "url": "https://decentrialz.com/blog/fda-diversity-action-plan-2026-still-required-clinical-trials",
-        "date_publication": "",
-        "pertinence": "moyenne",
-        "categorie": "réglementation"
+        "titre": "Health Equity & Access Weekly Roundup – 20 novembre 2026 (AJMC)",
+        "resume": "La synthèse hebdomadaire de l'AJMC du 20 novembre 2026 couvre plusieurs études récentes sur les disparités de santé : écarts raciaux dans les taux de CRC post-EMR, différences de mortalité entre patients ruraux et urbains hospitalisés pour insuffisance cardiaque, et enjeux de médecine de précision. Les données montrent des estimations ponctuelles plus élevées chez les patients Noirs, Asiatiques et de race inconnue pour certaines pathologies, mais avec des intervalles de confiance qui se chevauchent en raison d'effectifs limités.",
+        "source": "AJMC",
+        "url": "https://ajmc.com/view/health-equity-access-weekly-roundup-november-20-2026",
+        "date_publication": "20/11/2026",
+        "pertinence": "haute",
+        "categorie": "équité en santé"
+      },
+      {
+        "titre": "IA en essais cliniques 2026 : marché mondial de 4,1 Mds$ d'ici 2032, focus diversité et recrutement",
+        "resume": "Rapport de marché publié le 18 novembre 2026 par GlobeNewswire : l'IA est utilisée pour combiner données cliniques et sociodémographiques afin d'identifier des participants issus de populations historiquement sous-représentées. Les plateformes analytiques avancées analysent dossiers médicaux, registres de patients et données en vie réelle pour accélérer le recrutement de populations plus représentatives. L'IA supporte aussi les modèles d'essais décentralisés avec monitoring à distance et collecte de données numérique.",
+        "source": "GlobeNewswire",
+        "url": "https://www.globenewswire.com/news-releases/2026/11/18/3405932/28124/en/ai-in-clinical-trials-global-strategic-business-report-2026-secure-share-of-a-us-4-1-billion-market-by-2032-with-iqvia-microsoft-tempus-ai-and-saama.html",
+        "date_publication": "18/11/2026",
+        "pertinence": "haute",
+        "categorie": "recrutement & IA"
+      },
+      {
+        "titre": "Biais IA et disparités de santé : étude Yale publiée en novembre 2026",
+        "resume": "Un rapport de Yale School of Medicine publié dans PLOS Digital Health et relayé le 13 novembre 2026 par Healthcare IT News montre comment le biais algorithmique peut impacter les résultats cliniques à chaque étape du développement IA : données d'entraînement, développement du modèle, publication et implémentation. L'étude démontre qu'une performance globale plus élevée ne se traduit pas nécessairement par un diagnostic plus équitable, et appelle à une validation rigoureuse via des essais cliniques avant tout déploiement clinique.",
+        "source": "Healthcare IT News / PLOS Digital Health",
+        "url": "https://www.healthcareitnews.com/news/yale-study-shows-how-ai-bias-worsens-healthcare-disparities",
+        "date_publication": "13/11/2026",
+        "pertinence": "haute",
+        "categorie": "biais algorithmique"
       }
     ]
   }
