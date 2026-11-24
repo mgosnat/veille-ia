@@ -1,11 +1,20 @@
 {
-  "generated_at": "2026-11-23T17:48:22.082007Z",
-  "date_fr": "23/11/2026",
+  "generated_at": "2026-11-24T17:20:39.545323Z",
+  "date_fr": "24/11/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Databricks Genie ZeroOps en bêta publique : un agent autonome qui répare les pipelines de données",
-        "resume": "Databricks a ouvert Genie ZeroOps en bêta publique le 19 novembre 2026, après un test en privé sur plus de 80 000 incidents clients. L'agent surveille en continu les jobs et tables, diagnostique les pannes via Unity Catalog, propose des correctifs sous forme de Pull Requests, mais ne touche jamais le code en production sans approbation humaine. Les équipes data peuvent ainsi réduire drastiquement le temps de triage des pipelines cassés.",
+        "titre": "Microsoft Ignite 2026 : Agent 365, Copilot Workspaces et Microsoft IQ au cœur de l'entreprise agentique",
+        "resume": "Microsoft a tenu sa conférence Ignite du 17 au 20 novembre 2026 à San Francisco, en plaçant les agents IA au centre de sa stratégie entreprise. Parmi les annonces majeures : Copilot Workspaces (environnement collaboratif humains/agents), Microsoft IQ (plateforme de contexte organisationnel avec des centaines de nouveaux connecteurs), et Agent 365 (plan de contrôle pour gérer identités, sécurité et gouvernance des agents, avec déjà 50 millions d'agents enregistrés). Microsoft Entra peut désormais découvrir 60 types d'agents locaux (Claude Code, OpenAI Codex...) en préversion publique.",
+        "source": "CEO Economy / ADTmag / Microsoft Blog",
+        "url": "https://ceoeconomy.com/article/microsoft-ignite-2026-copilot-agents",
+        "date_publication": "17/11/2026",
+        "pertinence": "haute",
+        "categorie": "produit"
+      },
+      {
+        "titre": "Databricks Genie ZeroOps passe en bêta publique : un agent autonome qui répare les pipelines de données",
+        "resume": "Le 19 novembre 2026, Databricks a ouvert la bêta publique de Genie ZeroOps, un agent de fond entraîné sur plus de 80 000 incidents clients. L'agent surveille les jobs, pipelines et tables en continu, diagnostique les pannes via Unity Catalog, génère des correctifs testés en sandbox et les soumet à validation humaine avant tout déploiement en production. Aucune modification de code ou de données n'est appliquée sans approbation explicite d'un opérateur.",
         "source": "Databricks Blog / StartupHub.ai",
         "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
         "date_publication": "19/11/2026",
@@ -13,143 +22,134 @@
         "categorie": "outil"
       },
       {
-        "titre": "Tether 0.4.0 : harness agent avec rejeu déterministe des runs enregistrés",
-        "resume": "Tether a publié la version 0.4.0 le 22 novembre 2026 en ajoutant un test harness capable de rejouer des runs d'agents enregistrés pour vérifier quels outils ont été appelés, le contenu final des fichiers et le respect des limites de coût ou d'étapes. Cela permet de faire des tests de régression sans toucher le modèle, réduisant le risque lors des mises en production. Le code est disponible sur GitHub (chizy7/tether).",
-        "source": "aiagentstore.ai / GitHub chizy7/tether",
-        "url": "https://github.com/chizy7/tether",
+        "titre": "Tether 0.4.0 : un harnais de test déterministe pour rejouer les runs d'agents en CI/CD",
+        "resume": "Le 22 novembre 2026, Tether a publié sa version 0.4.0 sur GitHub, ajoutant un test harness capable de rejouer des runs d'agents enregistrés pour vérifier quels outils ont été appelés, le contenu final des fichiers et le respect des limites de coût ou d'étapes. Cette approche permet de tester des changements de politique ou de modèle sans appeler le LLM, réduisant le risque de régressions en production. L'outil est disponible via Cargo/PyPI/npm.",
+        "source": "AI Agents News (aiagentstore.ai) / GitHub chizy7/tether",
+        "url": "https://github.com/chizy7/tether/pull/54",
         "date_publication": "22/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Databricks Genie Ontology en GA et Genie One pour Windows : nouvelles capacités agentiques",
-        "resume": "Databricks a rendu Genie et Genie Ontology généralement disponibles le 11 novembre 2026 : Genie Ontology capture les définitions métier, métriques et processus pour permettre à Genie de traiter des tâches multi-étapes sans supervision constante. Une extension Chrome et une appli bureau Windows ont également été lancées en bêta. Plus de 1,5 million de Genie Spaces avaient déjà été créés à mi-2026.",
-        "source": "Crypto Briefing / beri.net",
-        "url": "https://cryptobriefing.com/databricks-updated-genie-ai-agent/",
-        "date_publication": "11/11/2026",
+        "titre": "Oracle Life Sciences AI Agents : coordination agentique pour les essais cliniques",
+        "resume": "Le 18 novembre 2026, Oracle a lancé Oracle Life Sciences AI Agents, une suite d'agents intégrés à ses systèmes de gestion d'essais cliniques. Les agents couvrent le monitoring de portefeuille, la planification et la conduite des essais, en agrégeant des signaux issus de multiples sources de données tierces pour recommander des actions opérationnelles. Toute action proposée reste soumise à révision et approbation humaine avant exécution.",
+        "source": "Oracle Press Release / Becker's Hospital Review",
+        "url": "https://www.oracle.com/news/announcement/oracle-life-sciences-ai-agents-bring-operational-intelligence-and-coordination-to-clinical-trials-2026-11-18/",
+        "date_publication": "18/11/2026",
         "pertinence": "haute",
         "categorie": "produit"
       },
       {
-        "titre": "Stitch AI : agents bancaires pour l'onboarding, le crédit et les recouvrements intégrés nativement dans un core banking",
-        "resume": "Stitch a lancé Stitch AI le 18 novembre 2026, intégrant des agents opérationnels (onboarding, credit decisioning, collections) directement dans son système d'exploitation bancaire avec permissions granulaires, approbations maker/checker, audit trails et masquage PII avant accès au modèle. Les banques choisissent quel modèle utiliser et où le déployer (cloud privé ou in-country). C'est un cas d'usage métier documenté en production réelle dans un environnement réglementé.",
-        "source": "Yahoo Finance / The Paypers",
-        "url": "https://finance.yahoo.com/technology/ai/articles/stitch-launches-stitch-ai-bringing-071400636.html",
-        "date_publication": "18/11/2026",
+        "titre": "LangGraph vs CrewAI en production 2026 : retours terrain sur 23 systèmes déployés",
+        "resume": "Un développeur partage son retour d'expérience sur 23 systèmes de production construits avec LangGraph et CrewAI : LangGraph est privilégié pour les pipelines stateful complexes avec branchements et portes d'approbation humaine, tandis que CrewAI est utilisé pour le prototypage rapide d'équipes d'agents basées sur des rôles. Les déploiements reportent en moyenne 10 à 15 heures de travail manuel économisées par semaine. Le tutoriel couvre la gestion de l'interruption humaine-dans-la-boucle et le streaming multi-niveaux.",
+        "source": "jahanzaib.ai",
+        "url": "https://www.jahanzaib.ai/blog/langgraph-tutorial-build-production-ai-agents",
+        "date_publication": "",
         "pertinence": "haute",
-        "categorie": "cas_usage"
+        "categorie": "retour d'expérience"
       },
       {
-        "titre": "MCP tools dans Genie Agents Databricks : disponibilité générale le 20 novembre 2026",
-        "resume": "Databricks a rendu les outils MCP (Model Context Protocol) dans Genie Agents généralement disponibles le 20 novembre 2026, permettant aux agents Databricks de se connecter à des serveurs MCP externes via le protocole standardisé. Genie Code CLI est également passé en GA le 18 novembre 2026, permettant l'exécution de l'agent en ligne de commande. Ces sorties s'appuient sur les notes de release officielles Databricks.",
-        "source": "Databricks Release Notes (GitHub ntphiep/databricks-dep-hub)",
+        "titre": "Databricks Unity Gateway Insights (Bêta) : analyser l'usage des agents et détecter les tokens gaspillés",
+        "resume": "Le 17 novembre 2026, Databricks a publié Unity Gateway Insights en bêta, un outil permettant de générer des rapports sur ce que les utilisateurs demandent aux agents et où les tokens sont consommés inutilement. Les rapports sont construits par Genie Code à partir d'un échantillon de sessions dans la table de traces unifiée. Cette fonctionnalité est disponible directement dans la plateforme Databricks.",
+        "source": "Databricks Release Notes November 2026",
         "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
-        "date_publication": "20/11/2026",
-        "pertinence": "haute",
+        "date_publication": "17/11/2026",
+        "pertinence": "moyenne",
         "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : l'AI Office démarre les premières enquêtes sur les modèles GPAI — octobre/novembre 2026",
-        "resume": "L'AI Office de la Commission européenne a officiellement commencé à faire appliquer les règles de l'AI Act pour les modèles d'IA à usage général (GPAI) depuis août 2026, avec plus de 20 incidents de perte de contrôle documentés en 2026. La VP exécutive Henna Virkkunen a confirmé le 14 octobre à Dublin que des Requests for Information avaient été envoyés sur la sécurité, l'évaluation externe et le monitoring des modèles. Un article de synthèse Lexology publié le 20 novembre 2026 détaille l'état complet de l'enforcement.",
-        "source": "Lexology / alicelabs.ai",
-        "url": "https://www.lexology.com/library/detail.aspx?g=b84977c3-c4da-41e4-9133-07fba2b56997",
-        "date_publication": "20/11/2026",
+        "titre": "EU AI Act Digital Omnibus : cinq étapes pratiques pour la conformité après les nouveaux délais",
+        "resume": "Le 19 novembre 2026, la National Law Review a publié une analyse vidéo expliquant les cinq étapes concrètes pour les DPO et GC après l'entrée en vigueur du Digital Omnibus on AI (Règlement (UE) 2026/1744 depuis le 27 juillet 2026). Le texte repousse les obligations pour les systèmes à haut risque autonomes au 2 décembre 2027, mais les interdictions, les obligations de transparence (Article 50) et les règles GPAI restent pleinement applicables. Deux nouvelles interdictions entrent en vigueur le 2 décembre 2026.",
+        "source": "National Law Review",
+        "url": "https://natlawreview.com/article/five-steps-amended-eu-ai-act-compliance-video",
+        "date_publication": "19/11/2026",
         "pertinence": "haute",
-        "categorie": "enforcement"
+        "categorie": "réglementation"
       },
       {
-        "titre": "Lignes directrices Article 50 AI Act publiées au Journal officiel de l'UE le 12 novembre 2026",
-        "resume": "La Commission européenne a publié le 12 novembre 2026 ses lignes directrices sur les obligations de transparence de l'Article 50 de l'AI Act (Communication C/2026/6005), clarifiant les devoirs des fournisseurs et déployeurs concernant les systèmes d'IA génératifs, deepfakes et contenus synthétiques. Le contenu synthétique doit avoir à la fois un marquage lisible par machine et une détectabilité. Les non-résidents UE sont couverts dès lors que leurs outputs sont diffusés dans l'Union.",
-        "source": "Law & Technology EU / CASRAI / EU Law Live",
-        "url": "https://lawandtechnology.eu/en/transparency-ai-generated-content-article-50-guidelines-ai-act-en/",
-        "date_publication": "22/11/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "EU AI Act : carte des autorités nationales de surveillance mise à jour le 9 novembre 2026",
-        "resume": "La Commission européenne a mis à jour le 9 novembre 2026 sa cartographie des autorités nationales de surveillance (market surveillance authorities) désignées par les États membres, incluant la Bundesnetzagentur allemande, l'ACN italienne et l'AI Office irlandais. Certaines désignations restent en attente d'adoption finale. L'article euaiactus.com publié le 12 novembre 2026 analyse les implications opérationnelles pour providers et deployers.",
-        "source": "euaiactus.com",
-        "url": "https://euaiactus.com/blog/ai-act-market-surveillance-authorities-september-2026.html",
-        "date_publication": "12/11/2026",
-        "pertinence": "haute",
-        "categorie": "reglementation"
-      },
-      {
-        "titre": "EU AI Act novembre 2026 : obligations actuelles et délais décalés par le Digital Omnibus — guide entreprises",
-        "resume": "CEO Economy a publié le 20 novembre 2026 une synthèse complète de l'état des obligations AI Act : interdictions et obligation de littératie IA appliquées depuis février 2025, pouvoirs d'enforcement depuis août 2026, mais obligations pour les systèmes à haut risque (Annex III) repoussées à décembre 2027 par le Digital Omnibus (Règlement 2026/1744). Les amendes montent jusqu'à 35 M€ ou 7% du CA mondial.",
+        "titre": "Ce que l'EU AI Act exige des entreprises en 2026 et 2027 : état des lieux post-Omnibus",
+        "resume": "Publié le 20 novembre 2026, cet article de synthèse détaille les obligations actives (interdictions depuis février 2025, transparence depuis août 2026, règles GPAI en cours d'application) et les délais reportés par l'AI Omnibus. Il souligne la création d'une nouvelle catégorie 'petite mid-cap' (moins de 750 employés, CA jusqu'à 150 M€) bénéficiant d'un traitement simplifié. L'AI Office a commencé les premières investigations sur les modèles GPAI en octobre 2026.",
         "source": "CEO Economy",
         "url": "https://ceoeconomy.com/article/eu-ai-act-obligations-2026-2027",
         "date_publication": "20/11/2026",
         "pertinence": "haute",
-        "categorie": "compliance"
+        "categorie": "réglementation"
       },
       {
-        "titre": "ISO 42001 : BSI délivre son 50e certificat et l'adoption entreprise s'accélère en novembre 2026",
-        "resume": "BSI a délivré son 50e certificat ISO/IEC 42001 en octobre 2026 (à UKG), avec un rythme d'adoption ayant plus que triplé en 2026 par rapport à 2025. Un article de testmuai.ai publié le 23 novembre 2026 analyse pourquoi la certification ISO 42001 prouve le management system mais pas le comportement des agents, introduisant un modèle 'Three Proofs' pour les acheteurs enterprise. ISO 42001 reste la seule option certifiable pour démontrer la gouvernance IA aux partenaires commerciaux.",
-        "source": "testmuai.ai",
-        "url": "https://www.testmuai.com/blog/iso-42001-certification-ai-agents/",
-        "date_publication": "23/11/2026",
+        "titre": "EU AI Act : timeline complète mise à jour au 16 novembre 2026 après le Digital Omnibus",
+        "resume": "Mise à jour le 16 novembre 2026, cette page de référence liste toutes les dates d'application de l'EU AI Act amendées par le Règlement (UE) 2026/1744. Elle distingue ce qui s'applique déjà (interdictions, transparence Article 50, obligations de littératie IA) de ce qui a été reporté (systèmes à haut risque autonomes au 2 décembre 2027, IA embarquée dans des produits au 2 août 2028). Aucune date supplémentaire n'a bougé depuis l'entrée en vigueur du Digital Omnibus.",
+        "source": "alicelabs.ai",
+        "url": "https://alicelabs.ai/en/insights/eu-ai-act-timeline-2026",
+        "date_publication": "16/11/2026",
         "pertinence": "haute",
-        "categorie": "standard"
+        "categorie": "réglementation"
       },
       {
-        "titre": "Comparaison des frameworks de gouvernance IA : EU AI Act, NIST AI RMF, ISO 42001 — mise à jour novembre 2026",
-        "resume": "Trustible.ai a mis à jour le 19 novembre 2026 sa comparaison côte-à-côte des trois grands frameworks de gouvernance IA (EU AI Act, NIST AI RMF, ISO 42001) avec un crosswalk de contrôles et les nouvelles dates du Digital Omnibus. L'article précise qu'ISO 42001 n'est pas encore un standard harmonisé sous l'AI Act (pas de présomption de conformité automatique), mais reste le signal de confiance le plus fort pour la procurement enterprise. Guide pratique pour choisir par quel framework commencer.",
-        "source": "Trustible.ai",
-        "url": "https://trustible.ai/ai-governance-frameworks-nist-ai-rmf-eu-ai-act-iso-42001-compared/",
-        "date_publication": "19/11/2026",
+        "titre": "BSI décerne son 50e certificat ISO/IEC 42001 : adoption en forte accélération",
+        "resume": "BSI a annoncé en novembre 2026 l'attribution de son 50e certificat ISO/IEC 42001, la norme internationale pour les systèmes de management de l'IA. L'organisme souligne que les certifications ont plus que triplé en 2026 (181 certifications sur l'année d'après le registre iso42k.com, contre 103 sur toute l'année 2025). BSI est le premier organisme triplement accrédité (UKAS, RvA, ANAB) pour certifier cette norme.",
+        "source": "BSI Group",
+        "url": "https://www.bsigroup.com/en-US/insights-and-media/media-center/press-releases/2026/november/bsi-awards-its-50th-iso-iec-42001-certificate/",
+        "date_publication": "",
         "pertinence": "haute",
-        "categorie": "standard"
+        "categorie": "certification"
+      },
+      {
+        "titre": "EU AI Act post-Omnibus : ce qui s'applique maintenant pour les entreprises (mise à jour 20 nov. 2026)",
+        "resume": "Publié le 20 novembre 2026, ce guide pratique à destination des CIO et DPO distingue les deux textes Digital Omnibus (l'AI Omnibus est loi depuis juillet 2026 ; l'Omnibus Data/RGPD est encore une proposition en cours de trilogue). Il fournit un tableau d'actions par obligation et met en garde contre la tentation de suspendre la conformité en attendant 2027, car les obligations de transparence et les interdictions sont déjà exécutoires.",
+        "source": "erpimplementation.eu",
+        "url": "https://www.erpimplementation.eu/en/eu-digital-omnibus-ai-act-gdpr-erp-impact-2026/",
+        "date_publication": "20/11/2026",
+        "pertinence": "haute",
+        "categorie": "conformité entreprise"
+      },
+      {
+        "titre": "42Gears obtient la certification ISO/IEC 42001:2023 pour son IA dans SureMDM",
+        "resume": "Le 13 novembre 2026, 42Gears (leader en Unified Endpoint Management) a annoncé sa certification ISO/IEC 42001:2023 après un audit indépendant par BSI. La certification valide les cadres de gouvernance IA, de gestion des risques et de supervision humaine intégrés à sa plateforme SureMDM. C'est un exemple concret du mouvement observé chez les éditeurs logiciels B2B qui adoptent proactivement la norme pour rassurer leurs clients entreprise.",
+        "source": "Globe Newswire",
+        "url": "https://www.globenewswire.com/news-release/2026/11/13/3402739/0/en/42gears-achieves-iso-iec-42001-2023-certification-for-artificial-intelligence-management-systems.html",
+        "date_publication": "13/11/2026",
+        "pertinence": "moyenne",
+        "categorie": "certification"
+      },
+      {
+        "titre": "EU AI Act : l'AI Office lance ses premières investigations sur les modèles GPAI",
+        "resume": "Le 14 octobre 2026, la Vice-Présidente exécutive de la Commission européenne a confirmé lors du sommet international IA de Dublin que l'AI Office avait débuté l'application des règles sur les modèles d'IA à usage général (GPAI) suite à des incidents signalés de perte de contrôle. La newsletter EMEA de Lexology (novembre 2026) rapporte également que le DPC irlandais a publié les enseignements tirés de la supervision de 180 produits IA, et que le Conseil de l'UE a adopté sa position de négociation sur le Digital Omnibus Data le 21 octobre 2026.",
+        "source": "Lexology (Data Bytes 70, novembre 2026)",
+        "url": "https://www.lexology.com/library/detail.aspx?g=b84977c3-c4da-41e4-9133-07fba2b56997",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "enforcement"
       }
     ],
     "clinique": [
       {
-        "titre": "Oracle Life Sciences AI Agents : agents d'IA pour la coordination opérationnelle des essais cliniques",
-        "resume": "Oracle a lancé le 18 novembre 2026 des agents IA dédiés aux opérations d'essais cliniques, couvrant le monitoring de portefeuille, la planification et la conduite des essais. Les agents agrègent des signaux de multiples systèmes pour recommander des actions (risques opérationnels, déviations de protocole, coordination de sites) sous supervision humaine obligatoire avant toute exécution. Des extensions vers le data management clinique et l'analytique post-essai sont planifiées.",
-        "source": "Oracle PR Newswire / Becker's Hospital Review",
-        "url": "https://www.prnewswire.com/news-releases/oracle-life-sciences-ai-agents-bring-ai-assisted-operational-intelligence-and-coordination-to-clinical-trials-302943185.html",
+        "titre": "Oracle Life Sciences AI Agents : coordination agentique pour les opérations d'essais cliniques",
+        "resume": "Le 18 novembre 2026, Oracle a lancé une suite d'agents IA pour les organisations de sciences du vivant, couvrant le monitoring de portefeuille, la planification et la conduite des essais. Les agents agrègent des données issues des applications Oracle et de sources tierces pour identifier les risques opérationnels, recommander des actions et coordonner les équipes tout en maintenant la supervision humaine. Les accès early adopters sont disponibles, avec une extension prévue vers la gestion des données cliniques et la surveillance post-commercialisation.",
+        "source": "Oracle Press Release / Becker's Hospital Review",
+        "url": "https://www.oracle.com/news/announcement/oracle-life-sciences-ai-agents-bring-operational-intelligence-and-coordination-to-clinical-trials-2026-11-18/",
         "date_publication": "18/11/2026",
         "pertinence": "haute",
-        "categorie": "outil_clinique"
+        "categorie": "technologie"
       },
       {
-        "titre": "Équité en santé et essais cliniques : rôle des infirmières en oncologie dans la promotion de l'inclusion — ONS, novembre 2026",
-        "resume": "L'Oncology Nursing Society a publié le 19 novembre 2026 un article pratique sur les leviers actionnables par les infirmières pour promouvoir l'équité en santé dans les essais cliniques, incluant la littératie en santé, l'élargissement des critères d'éligibilité et le soutien au consentement éclairé. L'article s'appuie sur une publication du Clinical Journal of Oncology Nursing d'octobre 2026 et intègre les recommandations des Diversity Action Plans FDA.",
-        "source": "Oncology Nursing Society (ONS)",
-        "url": "https://www.ons.org/publications-research/voice/news-views/11-2026/advance-health-equity-across-all-phases-clinical-trials",
-        "date_publication": "19/11/2026",
-        "pertinence": "haute",
-        "categorie": "equite_sante"
+        "titre": "EU AI Act Digital Omnibus : impact sur les systèmes IA à haut risque dans le secteur santé (mise à jour nov. 2026)",
+        "resume": "L'analyse de Morrison Foerster publiée en novembre 2026 (Q3 2026 recap) précise que les obligations de transparence de l'Article 50 sont désormais en vigueur pour les systèmes IA médicaux, tandis que les obligations complètes pour les systèmes à haut risque (incluant les IA de triage et d'éligibilité aux services publics de santé) sont reportées. L'Omnibus étend aussi les simplifications de documentation aux SME et aux petites mid-caps, incluant les startups en santé numérique. Deux nouvelles interdictions entrent en application le 2 décembre 2026.",
+        "source": "Morrison Foerster (mofo.com)",
+        "url": "https://www.mofo.com/resources/insights/261102-european-digital-compliance-key-digital-regulation",
+        "date_publication": "",
+        "pertinence": "moyenne",
+        "categorie": "réglementation"
       },
       {
-        "titre": "Déterminants sociaux de la santé et accès aux essais cliniques — FPM, 20 novembre 2026",
-        "resume": "La Faculty of Pharmaceutical Medicine (FPM) a publié le 20 novembre 2026 une analyse des déterminants sociaux (SDOH) comme barrières à la participation aux essais cliniques : conscience limitée, obstacles logistiques et financiers, défiance historique. L'article identifie comment ces facteurs contribuent à la sous-représentation systémique de certaines populations, réduisant la généralisabilité des résultats. Des pistes concrètes sont proposées : engagement communautaire, design centré patient, technologies numériques.",
-        "source": "Faculty of Pharmaceutical Medicine (FPM)",
-        "url": "https://fpm.org.uk/blog/social-determinants-of-health-clinical-trial-access",
-        "date_publication": "20/11/2026",
+        "titre": "FDA Diversity Action Plan 2026 : statut réglementaire, obligations en suspens et stratégies pour les sponsors",
+        "resume": "Cet article de référence (mis à jour août 2026) précise que l'obligation de soumettre un Diversity Action Plan (FDORA) ne s'applique qu'aux études dont l'enrôlement commence 180 jours après la publication du guide final de la FDA — guide qui n'était toujours pas finalisé à l'été 2026. En décembre 2025, la FDA a finalisé un document distinct intitulé 'Enhancing Participation in Clinical Trials', sans le mot 'diversity' dans le titre. L'article guide les sponsors sur comment construire une stratégie d'enrôlement représentative résistante aux évolutions politiques.",
+        "source": "decentrialz.com",
+        "url": "https://decentrialz.com/blog/fda-diversity-action-plan-2026-still-required-clinical-trials",
+        "date_publication": "",
         "pertinence": "haute",
-        "categorie": "recrutement_diversite"
-      },
-      {
-        "titre": "AI dans les essais cliniques : marché mondial à 4,1 Mds$ d'ici 2032, focus recrutement de populations sous-représentées",
-        "resume": "Un rapport stratégique publié le 18 novembre 2026 (GlobeNewswire) analyse l'intégration de l'IA dans les essais cliniques pour améliorer le recrutement inclusif : l'analytique avancée combine données cliniques et sociodémographiques pour identifier des participants issus de populations historiquement sous-représentées à partir des dossiers médicaux électroniques. Les acteurs clés incluent IQVIA, Microsoft, Tempus AI et Saama. Le marché est estimé à 4,1 Mds$ d'ici 2032.",
-        "source": "GlobeNewswire",
-        "url": "https://globenewswire.com/news-release/2026/11/18/3405932/28124/en/ai-in-clinical-trials-global-strategic-business-report-2026-secure-share-of-a-us-4-1-billion-market-by-2032-with-iqvia-microsoft-tempus-ai-and-saama.html",
-        "date_publication": "18/11/2026",
-        "pertinence": "haute",
-        "categorie": "ia_diversite"
-      },
-      {
-        "titre": "Pourquoi tant de patients de groupes sous-représentés ne sont jamais invités à participer à un essai — Applied Clinical Trials, novembre 2026",
-        "resume": "Applied Clinical Trials a publié le 12 novembre 2026 une interview vidéo avec le Dr Shaalan Beg (CMO de ConcertAI) expliquant que la disponibilité géographique des essais (fortement corrélée au code postal) est la principale barrière à l'inclusion, et que les taux d'acceptation sont identiques entre groupes dès lors qu'on demande simplement aux patients. Un second article du 13 novembre souligne comment la conscience des médecins et l'accès au niveau des sites créent des incohérences de dépistage.",
-        "source": "Applied Clinical Trials Online",
-        "url": "https://www.appliedclinicaltrialsonline.com/view/path-ahead-improve-dei-clinical-trials",
-        "date_publication": "12/11/2026",
-        "pertinence": "haute",
-        "categorie": "recrutement_diversite"
+        "categorie": "réglementation"
       }
     ]
   }
