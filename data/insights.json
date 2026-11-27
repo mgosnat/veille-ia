@@ -1,137 +1,92 @@
 {
-  "generated_at": "2026-11-26T16:41:57.029204Z",
-  "date_fr": "26/11/2026",
+  "generated_at": "2026-11-27T16:26:33.463659Z",
+  "date_fr": "27/11/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Anthropic lance 'Skills over MCP' en beta publique pour Claude et Claude Code",
-        "resume": "Anthropic a annoncé le 24 novembre 2026 la mise en beta publique de Skills over MCP, une extension permettant aux serveurs MCP de livrer des instructions de workflow standardisées directement à Claude en même temps que leurs outils. Simultanément, Tasks (exécution de jobs longs) et Elicitation (pauses pour demander une entrée utilisateur) passent en disponibilité générale. L'adoption est progressive : disponible par défaut sur les plans Pro, Max et Ultra, avec activation manuelle par admin pour les plans Team.",
-        "source": "Anthropic / claude.com",
+        "titre": "Anthropic lance Skills over MCP en beta publique — Tasks et Elicitation en GA",
+        "resume": "Anthropic a annoncé le 24 novembre 2026 que les serveurs MCP peuvent désormais embarquer des 'Skills' (instructions de workflow packagées) directement aux côtés de leurs outils, disponibles en beta publique dans Claude et Claude Code. Tasks (exécution de jobs longs en arrière-plan) et Elicitation (pause pour demander une confirmation utilisateur) passent en disponibilité générale. Claude Code v2.1.331+ est requis pour accéder à la beta Skills.",
+        "source": "Anthropic (claude.com)",
         "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
         "date_publication": "24/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "LangChain lance LangSmith Tool Gateway en beta publique : gouvernance des appels d'outils pour agents",
-        "resume": "LangChain a mis en beta publique le 19 novembre 2026 le LangSmith Tool Gateway, une couche managée qui centralise les identifiants, l'identité de l'appelant, les politiques d'accès, les flux d'approbation et les traces d'audit pour chaque appel d'outil effectué par un agent IA. Compatible avec les clients MCP (Claude Code, Cursor, LangChain, Deep Agents), il inclut des intégrations natives pour Google, Microsoft, Salesforce et GitHub. Disponible sur les plans LangSmith Plus et Enterprise.",
-        "source": "LangChain / unite.ai",
+        "titre": "LangChain lance LangSmith Tool Gateway en beta publique — gouvernance des appels d'outils pour agents",
+        "resume": "LangChain a mis en beta publique le 19 novembre 2026 le LangSmith Tool Gateway, une couche managée qui centralise les credentials, l'identité appelante, les politiques d'accès, les flux d'approbation et les traces d'audit pour chaque appel d'outil effectué par un agent. Le gateway est compatible MCP et intègre nativement Google, Microsoft, Salesforce, GitHub et Linear. Disponible sur les plans LangSmith Plus et Enterprise.",
+        "source": "LangChain / Unite.ai",
         "url": "https://www.unite.ai/langchain-launches-langsmith-tool-gateway-to-govern-agent-tool-calls/",
         "date_publication": "19/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Databricks ouvre Genie ZeroOps en beta publique : agent autonome de réparation de pipelines de données",
-        "resume": "Databricks a ouvert le 19 novembre 2026 la beta publique de Genie ZeroOps, un agent autonome en arrière-plan formé sur plus de 80 000 incidents clients réels. L'agent surveille en continu les jobs, pipelines et tables, diagnostique les pannes via Unity Catalog, propose des correctifs sous forme de Pull Requests testés en sandbox, et ne touche jamais la production sans approbation humaine explicite. Il prend également en charge la détection de dégradation silencieuse des modèles ML.",
-        "source": "Databricks",
+        "titre": "Databricks ouvre Genie ZeroOps en beta publique — agent autonome de réparation de pipelines de données",
+        "resume": "Databricks a ouvert le 19 novembre 2026 la beta publique de Genie ZeroOps, un agent d'arrière-plan qui surveille en continu les jobs, pipelines et tables, diagnostique les pannes via Unity Catalog, propose des correctifs sous forme de Pull Requests et ne touche jamais la production sans approbation humaine. L'agent a été entraîné sur plus de 80 000 incidents clients réels identifiés durant la preview privée. Databricks indique que plus de la moitié des incidents nécessitaient une connaissance spécifique au contexte de l'entreprise.",
+        "source": "Databricks Blog / remio.ai",
         "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
         "date_publication": "19/11/2026",
-        "pertinence": "haute",
-        "categorie": "produit"
-      },
-      {
-        "titre": "Microsoft Ignite 2026 : Agent 365 et stack entreprise pour gouverner les agents IA en production",
-        "resume": "Microsoft Ignite 2026 (17-20 novembre, San Francisco) a centré ses annonces sur l'opérationnalisation des agents IA en entreprise : Agent 365 (GA) gère désormais plus de 50 millions d'agents, Entra peut découvrir 60 types d'agents locaux (Claude Code, GitHub Copilot CLI) et leur assigner des identités, et Windows 365 for Agents introduit un Cloud PC dédié aux agents autonomes. Nadella a présenté Copilot comme le 'nouvel OS du travail', avec Microsoft IQ comme couche de contexte organisationnel.",
-        "source": "Microsoft / InfoQ",
-        "url": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/",
-        "date_publication": "26/11/2026",
-        "pertinence": "haute",
-        "categorie": "produit"
-      },
-      {
-        "titre": "Tether 0.4.0 : harness de test déterministe par rejeu pour agents IA (GitHub)",
-        "resume": "Tether a publié la version 0.4.0 le 22 novembre 2026, ajoutant un test harness capable de rejouer des sessions d'agents enregistrées afin d'asserter quels outils ont été appelés, le contenu final des fichiers, et si l'agent a respecté les limites de budget ou d'étapes. Cette approche permet de tester des changements de politique ou de modèle sans ré-interroger le LLM, rendant les tests de régression pratiques en CI/CD pour les équipes qui déploient des agents.",
-        "source": "GitHub (chizy7/tether)",
-        "url": "https://github.com/chizy7/tether/releases/tag/v0.4.0",
-        "date_publication": "22/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Databricks : Unity Gateway Insights en beta pour analyser l'usage des agents et l'optimisation des tokens",
-        "resume": "Databricks a lancé le 17 novembre 2026 Unity Gateway Insights en beta, un outil permettant aux équipes de générer des rapports sur ce pour quoi les utilisateurs emploient les agents et où les tokens sont gaspillés. Les rapports sont construits par Genie Code à partir d'un échantillon de sessions dans la table de traces unifiée, offrant une visibilité opérationnelle directe sur les déploiements d'agents en production.",
-        "source": "Databricks",
-        "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
-        "date_publication": "17/11/2026",
-        "pertinence": "moyenne",
+        "titre": "Cloudflare lance Search for Agents — endpoint de recherche pour agents IA sur chaque site web",
+        "resume": "Le 25 novembre 2026, Cloudflare a lancé en beta Search for Agents, une fonctionnalité accessible via un simple toggle dans le dashboard qui indexe automatiquement un site et expose un endpoint de recherche structuré pour agents IA à l'adresse /.well-known/search, retournant des passages en Markdown. Disponible sur tous les plans (y compris Free), la facturation à l'usage via AI Search démarre le 1er décembre 2026. L'endpoint est autodécouvert grâce à une balise meta agent:endpoint sur chaque page.",
+        "source": "Cloudflare Blog / Unite.ai",
+        "url": "https://www.unite.ai/cloudflare-launches-automatic-website-search-for-ai-agents/",
+        "date_publication": "25/11/2026",
+        "pertinence": "haute",
+        "categorie": "outil"
+      },
+      {
+        "titre": "Tether 0.4.0 — harnais de test déterministe par rejeu pour agents IA (GitHub open source)",
+        "resume": "La version 0.4.0 de Tether, publiée le 22 novembre 2026 sur GitHub (chizy7/tether), ajoute un test harness permettant de rejouer des sessions d'agents enregistrées sans ré-appeler le modèle. Les développeurs peuvent asserter quels outils ont été appelés, le contenu final des fichiers et si l'agent a respecté les limites de budget ou d'étapes. Cela permet d'intégrer des tests de régression agents directement dans les pipelines CI/CD avant tout déploiement en production.",
+        "source": "GitHub / aiagentstore.ai",
+        "url": "https://github.com/chizy7/tether/releases/tag/v0.4.0",
+        "date_publication": "22/11/2026",
+        "pertinence": "haute",
         "categorie": "outil"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU AI Act : l'AI Office lance ses premières enquêtes d'enforcement sur les modèles GPAI",
-        "resume": "Lors du Sommet IA international de Dublin le 14 octobre 2026, la Commission européenne a confirmé que l'AI Office avait débuté ses premières actions d'enforcement formelles sous l'AI Act, en envoyant des Requests for Information à des fournisseurs de modèles (dont OpenAI et Anthropic) sur la sécurité, l'évaluation externe et le monitoring. Plus de 20 incidents de 'perte de contrôle' d'agents IA ont été documentés en 2026. Aucune amende n'a été annoncée publiquement au 25 novembre 2026.",
-        "source": "Lexology / ai.info",
-        "url": "https://ai.info/ethics/eu-ai-act-enforcement-fines-global-regulation-2026",
-        "date_publication": "25/11/2026",
+        "titre": "EU Digital Omnibus on AI — Analyse des nouvelles obligations en vigueur en novembre 2026",
+        "resume": "Un guide détaillé publié le 22 novembre 2026 par Elets News Network analyse le Règlement (UE) 2026/1744 (Digital Omnibus on AI), entré en vigueur le 27 juillet 2026. Le texte repousse les obligations pour les systèmes IA à haut risque (Annexe III : recrutement, scoring de crédit, infrastructures critiques) au 2 décembre 2027, tout en ajoutant deux nouvelles interdictions et en renforçant les pouvoirs d'exécution tout au long de la chaîne de valeur IA. Les obligations de transparence (Art. 50) et les pouvoirs de l'AI Office sont, eux, déjà en vigueur depuis le 2 août 2026.",
+        "source": "Elets News Network / egov.eletsonline.com",
+        "url": "https://egov.eletsonline.com/2026/11/eu-digital-omnibus-reshapes-ai-act-timelines-and-adds-new-prohibitions/",
+        "date_publication": "21/11/2026",
         "pertinence": "haute",
         "categorie": "réglementation"
       },
       {
-        "titre": "EU AI Act novembre 2026 : bans actifs, transparence Article 50 en vigueur, haut-risque reporté à 2027",
-        "resume": "Un bilan consolidé daté du 18 novembre 2026 confirme l'état de l'AI Act : interdictions actives depuis février 2025, obligations GPAI depuis août 2025, pouvoirs d'enforcement et obligations de transparence Article 50 depuis le 2 août 2026 (amendes jusqu'à 35M€ ou 7% du CA mondial). Le Digital Omnibus (Règlement (UE) 2026/1744) a repoussé les obligations Annexe III haut-risque au 2 décembre 2027 et les AI embarquées dans des produits au 2 août 2028.",
-        "source": "orbiqhq.com",
-        "url": "https://www.orbiqhq.com/eu-regulations/eu-ai-act-compliance",
-        "date_publication": "18/11/2026",
+        "titre": "BSI décerne son 50ème certificat ISO/IEC 42001 — accélération mondiale de la gouvernance IA",
+        "resume": "Le BSI (British Standards Institution) a annoncé en novembre 2026 l'attribution de son 50ème certificat ISO/IEC 42001, la première norme internationale pour les systèmes de management de l'IA, en réponse à une demande croissante de la part des entreprises. Les organisations certifiées sont variées en taille, secteur et maturité IA, illustrant la large applicabilité du standard. Le répertoire indépendant iso42k.com recense 305 organisations certifiées ISO 42001 au total, dont 181 depuis le début 2026.",
+        "source": "BSI Group",
+        "url": "https://www.bsigroup.com/en-US/insights-and-media/media-center/press-releases/2026/november/bsi-awards-its-50th-iso-iec-42001-certificate/",
+        "date_publication": "",
+        "pertinence": "haute",
+        "categorie": "certification"
+      },
+      {
+        "titre": "Ce que l'EU AI Act exige des entreprises en 2026 et 2027 — guide pratique mis à jour",
+        "resume": "Article publié le 20 novembre 2026 (CEO Economy) faisant le point sur les obligations concrètes en vigueur : l'AI Omnibus a repoussé les délais des systèmes haut-risque à décembre 2027 et août 2028, mais les interdictions, les obligations de littératie IA, les règles GPAI et les pouvoirs d'exécution s'appliquent déjà. Une neuvième interdiction — sur les systèmes générant des contenus intimes non-consentis ou de la CSAM — entre en vigueur le 2 décembre 2026. L'article détaille les obligations par catégorie d'acteur (fournisseur, déployeur).",
+        "source": "CEO Economy",
+        "url": "https://ceoeconomy.com/article/eu-ai-act-obligations-2026-2027",
+        "date_publication": "20/11/2026",
         "pertinence": "haute",
         "categorie": "réglementation"
-      },
-      {
-        "titre": "ISO/IEC 42001 : webinaire pratique sur la gouvernance IA de confiance sans freiner l'innovation",
-        "resume": "CBQA Global a organisé le 17 novembre 2026 un webinaire dédié à ISO/IEC 42001, abordant la mise en place concrète d'un Système de Management de l'IA (AIMS) certifiable. Les participants ont soulevé des questions pratiques sur l'évaluation sécuritaire des serveurs MCP et connecteurs IA, l'intégration d'ISO/IEC 42001 avec ISO 27001 et NIST AI RMF, et la gestion des risques liés aux outils IA publics. L'accent a été mis sur les AI Impact Assessments et les compétences requises des responsables IA.",
-        "source": "CBQA Global",
-        "url": "https://cbqaglobal.com/blog/2026/11/17/iso-iec-42001-ai-governance-eng/",
-        "date_publication": "17/11/2026",
-        "pertinence": "haute",
-        "categorie": "standard"
-      },
-      {
-        "titre": "ISO 42001 : certification IA en passe de devenir obligatoire de facto dans les secteurs réglementés",
-        "resume": "Un guide publié le 26 novembre 2026 détaille les politiques indispensables avant une certification ISO 42001 : politique d'usage acceptable IA, cycle de vie des modèles, provenance des données, supervision humaine et réponse aux incidents spécifiques IA. L'article souligne qu'ISO 42001 est en train de passer de 'optionnel' à 'attendu', notamment comme exigence dans les appels d'offres des secteurs réglementés, et que 63% des organisations ayant subi une violation IA n'avaient pas de politique de gouvernance formelle.",
-        "source": "ThinkCloudly",
-        "url": "https://thinkcloudly.com/blog/iso-42001-certification/",
-        "date_publication": "26/11/2026",
-        "pertinence": "moyenne",
-        "categorie": "standard"
-      },
-      {
-        "titre": "Microsoft Ignite 2026 : AI Transparency Initiative alignée NIST et gouvernance des agents MCP",
-        "resume": "À Ignite 2026, Microsoft a annoncé une AI Transparency Initiative alignée sur le NIST Agent Standards Initiative, permettant aux clients de vérifier indépendamment les actions des agents IA. Agent 365 intègre désormais un registre d'outils GA (plugins, skills, serveurs MCP, connecteurs), une gouvernance MCP en preview via Azure AI Gateway, et Dynamic Agent Risk combinant les signaux runtime, posture et blast-radius. Entra désactive automatiquement les identités d'agents inactifs depuis 60 jours.",
-        "source": "InfoQ",
-        "url": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/",
-        "date_publication": "26/11/2026",
-        "pertinence": "haute",
-        "categorie": "politique entreprise"
       }
     ],
     "clinique": [
       {
-        "titre": "The Lancet Digital Health : revue systématique sur les biais et l'équité dans les LLMs en santé (publiée nov. 2026)",
-        "resume": "Une revue systématique publiée en ligne le 18 novembre 2026 dans The Lancet Digital Health analyse les biais et l'équité dans les applications de LLMs en santé. Elle conclut qu'il existe un écart significatif entre la détection des biais et leur mitigation, et que le potentiel des LLMs pour promouvoir l'équité en santé reste largement inexploré. Les chercheurs appellent à une approche plus systématique intégrant des métriques standardisées d'équité dans les benchmarks cliniques.",
-        "source": "The Lancet Digital Health",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/43052083",
-        "date_publication": "18/11/2026",
-        "pertinence": "haute",
-        "categorie": "biais algorithmique"
-      },
-      {
-        "titre": "Springer AI & Society : intégrer la justice dans la régulation des dispositifs médicaux IA par la FDA",
-        "resume": "Un article de recherche publié le 26 novembre 2026 dans AI & Society (Springer) examine comment la FDA pourrait intégrer des principes de justice sociale dans sa régulation des dispositifs médicaux à base d'IA. Il souligne que ces technologies présentent des bénéfices particuliers pour les patients ayant un accès limité aux soins, mais nécessitent des cadres réglementaires explicitement orientés vers l'équité pour éviter d'amplifier les disparités existantes.",
-        "source": "AI & Society (Springer)",
-        "url": "https://link.springer.com/article/10.1007/s43681-026-01491-8",
-        "date_publication": "26/11/2026",
-        "pertinence": "haute",
-        "categorie": "réglementation"
-      },
-      {
-        "titre": "IA et ré-ingénierie de la production de preuves cliniques : chercheurs examinent les enjeux d'équité",
-        "resume": "Une étude publiée le 19 novembre 2026 examine comment l'IA pourrait restructurer les systèmes de production de preuves en essais cliniques, avec des mots-clés explicites sur les disparités de santé, l'équité mondiale et la gouvernance des données. Elle s'interroge sur le risque de concentration des preuves ('evidence monopoly') et sur la dérive algorithmique dans les essais automatisés, et propose un modèle d'commons de preuves pour préserver l'inclusivité.",
-        "source": "BioEngineer.org / Scienmag",
-        "url": "https://bioengineer.org/researchers-examine-how-artificial-intelligence-could-reshape-clinical-evidence-production-systems/",
-        "date_publication": "19/11/2026",
+        "titre": "Collaboration inter-partenaires pour la diversité dans les essais cliniques face aux défis politiques américains (PMC 2026)",
+        "resume": "Article de revue publié dans Trials (BMC, doi: 10.1186/s13063-025-08820-y) analysant les conséquences des politiques américaines récentes (exécutive orders de janvier 2025 supprimant les initiatives DEI) sur la participation diverse aux essais cliniques. Les auteurs discutent des implications du démantèlement des DEI fédéraux sur la représentation des groupes historiquement sous-représentés et prônent une collaboration renforcée entre institutions académiques, industrie, FDA et communautés pour maintenir la diversité en recherche clinique.",
+        "source": "Trials (BioMed Central) / PubMed Central",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11963400/",
+        "date_publication": "",
         "pertinence": "moyenne",
-        "categorie": "IA et essais cliniques"
+        "categorie": "politique de santé"
       }
     ]
   }
