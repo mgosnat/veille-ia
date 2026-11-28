@@ -1,92 +1,119 @@
 {
-  "generated_at": "2026-11-27T16:26:33.463659Z",
-  "date_fr": "27/11/2026",
+  "generated_at": "2026-11-28T15:19:41.765417Z",
+  "date_fr": "28/11/2026",
   "insights": {
     "agentique": [
       {
-        "titre": "Anthropic lance Skills over MCP en beta publique — Tasks et Elicitation en GA",
-        "resume": "Anthropic a annoncé le 24 novembre 2026 que les serveurs MCP peuvent désormais embarquer des 'Skills' (instructions de workflow packagées) directement aux côtés de leurs outils, disponibles en beta publique dans Claude et Claude Code. Tasks (exécution de jobs longs en arrière-plan) et Elicitation (pause pour demander une confirmation utilisateur) passent en disponibilité générale. Claude Code v2.1.331+ est requis pour accéder à la beta Skills.",
-        "source": "Anthropic (claude.com)",
-        "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
-        "date_publication": "24/11/2026",
+        "titre": "Cloudflare lance Search for Agents en bêta pour tous les plans",
+        "resume": "Le 25 novembre 2026, Cloudflare a lancé Search for Agents, une fonctionnalité qui permet aux propriétaires de sites web d'activer en un seul clic un index de recherche accessible aux agents IA via l'endpoint standard /.well-known/search. Le système indexe le contenu du site en Markdown, réduisant la consommation de tokens des agents d'environ 80 % par rapport au HTML brut. La facturation débute le 1er décembre 2026 avec 1 000 requêtes/mois incluses, puis 0,75 $ par tranche de 1 000.",
+        "source": "Dataconomy / Cloudflare Blog",
+        "url": "https://dataconomy.com/2026/11/26/cloudflare-launches-ai-agent-search-service-for-websites/",
+        "date_publication": "26/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "LangChain lance LangSmith Tool Gateway en beta publique — gouvernance des appels d'outils pour agents",
-        "resume": "LangChain a mis en beta publique le 19 novembre 2026 le LangSmith Tool Gateway, une couche managée qui centralise les credentials, l'identité appelante, les politiques d'accès, les flux d'approbation et les traces d'audit pour chaque appel d'outil effectué par un agent. Le gateway est compatible MCP et intègre nativement Google, Microsoft, Salesforce, GitHub et Linear. Disponible sur les plans LangSmith Plus et Enterprise.",
-        "source": "LangChain / Unite.ai",
-        "url": "https://www.unite.ai/langchain-launches-langsmith-tool-gateway-to-govern-agent-tool-calls/",
-        "date_publication": "19/11/2026",
+        "titre": "Anthropic lance Skills over MCP en bêta publique dans Claude et Claude Code",
+        "resume": "Le 24 novembre 2026, Anthropic a ouvert en bêta publique la fonctionnalité Skills over MCP, qui permet aux serveurs MCP de distribuer des instructions de workflow réutilisables (\"skills\") aux côtés de leurs outils. Deux autres fonctionnalités MCP, Tasks et Elicitation, passent simultanément en disponibilité générale pour les plans Pro, Max et Ultra. Des partenaires comme Shopify, HubSpot et Atlassian ont déjà publié leurs premiers skills, le protocole MCP comptant désormais plus de 10 000 connecteurs.",
+        "source": "Anthropic / Dataconomy",
+        "url": "https://dataconomy.com/2026/11/26/anthropic-adds-skills-over-mcp-to-claude-and-claude-code/",
+        "date_publication": "26/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
       },
       {
-        "titre": "Databricks ouvre Genie ZeroOps en beta publique — agent autonome de réparation de pipelines de données",
-        "resume": "Databricks a ouvert le 19 novembre 2026 la beta publique de Genie ZeroOps, un agent d'arrière-plan qui surveille en continu les jobs, pipelines et tables, diagnostique les pannes via Unity Catalog, propose des correctifs sous forme de Pull Requests et ne touche jamais la production sans approbation humaine. L'agent a été entraîné sur plus de 80 000 incidents clients réels identifiés durant la preview privée. Databricks indique que plus de la moitié des incidents nécessitaient une connaissance spécifique au contexte de l'entreprise.",
-        "source": "Databricks Blog / remio.ai",
-        "url": "https://www.databricks.com/blog/genie-zeroops-now-public-beta-autonomous-agent-fixes-data-pipelines-lessons-80000-customer",
-        "date_publication": "19/11/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Cloudflare lance Search for Agents — endpoint de recherche pour agents IA sur chaque site web",
-        "resume": "Le 25 novembre 2026, Cloudflare a lancé en beta Search for Agents, une fonctionnalité accessible via un simple toggle dans le dashboard qui indexe automatiquement un site et expose un endpoint de recherche structuré pour agents IA à l'adresse /.well-known/search, retournant des passages en Markdown. Disponible sur tous les plans (y compris Free), la facturation à l'usage via AI Search démarre le 1er décembre 2026. L'endpoint est autodécouvert grâce à une balise meta agent:endpoint sur chaque page.",
-        "source": "Cloudflare Blog / Unite.ai",
-        "url": "https://www.unite.ai/cloudflare-launches-automatic-website-search-for-ai-agents/",
-        "date_publication": "25/11/2026",
-        "pertinence": "haute",
-        "categorie": "outil"
-      },
-      {
-        "titre": "Tether 0.4.0 — harnais de test déterministe par rejeu pour agents IA (GitHub open source)",
-        "resume": "La version 0.4.0 de Tether, publiée le 22 novembre 2026 sur GitHub (chizy7/tether), ajoute un test harness permettant de rejouer des sessions d'agents enregistrées sans ré-appeler le modèle. Les développeurs peuvent asserter quels outils ont été appelés, le contenu final des fichiers et si l'agent a respecté les limites de budget ou d'étapes. Cela permet d'intégrer des tests de régression agents directement dans les pipelines CI/CD avant tout déploiement en production.",
-        "source": "GitHub / aiagentstore.ai",
+        "titre": "Tether 0.4.0 : harnais de test déterministe pour agents IA avec rejeu de traces",
+        "resume": "Le 22 novembre 2026, Tether a publié sa version 0.4.0 sur GitHub (chizy7/tether), ajoutant un harnais de test qui rejoue des exécutions enregistrées d'agents afin que les développeurs puissent vérifier quels outils ont été appelés, le contenu final des fichiers et le respect des limites d'étapes ou de coûts. Cette approche permet de réaliser des tests de non-régression sur les changements de politique ou de modèle sans solliciter le LLM, réduisant ainsi les risques lors des déploiements en production.",
+        "source": "AI Agent Store / GitHub chizy7/tether",
         "url": "https://github.com/chizy7/tether/releases/tag/v0.4.0",
         "date_publication": "22/11/2026",
         "pertinence": "haute",
         "categorie": "outil"
+      },
+      {
+        "titre": "Talent500 publie un guide développeur comparatif sur 7 frameworks d'agents IA",
+        "resume": "Le 25 novembre 2026, Talent500 a publié un guide pratique comparant sept frameworks agentiques (LangChain, LangGraph, CrewAI, Microsoft Agent Framework, AutoGen/AG2, Smolagents, AutoGPT) destiné aux ingénieurs souhaitant dépasser le stade du prototype. Le guide détaille les approches architecturales de chaque framework et les compétences nécessaires pour déployer des agents en production, avec un focus sur les cas d'usage concrets.",
+        "source": "Manila Times / GlobeNewswire",
+        "url": "https://www.manilatimes.net/2026/11/25/tmt-newswire/globenewswire/talent500-publishes-developer-guide-to-agentic-ai-frameworks/2477455",
+        "date_publication": "25/11/2026",
+        "pertinence": "moyenne",
+        "categorie": "tutoriel"
+      },
+      {
+        "titre": "Alerte sécurité Microsoft : deux packages PyPI d'agent framework compromis",
+        "resume": "Le 25 novembre 2026, Microsoft a publié un avis de sécurité révélant que deux versions de son package Python d'agent framework (1.26.1 et 1.26.2) avaient été uploadées sur PyPI sans autorisation et contenaient du code de vol de credentials. Microsoft a supprimé les uploads malveillants, rendu son dépôt temporairement indisponible le temps de l'investigation, et fourni des étapes de remédiation aux utilisateurs affectés.",
+        "source": "AI Agent Store",
+        "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+        "date_publication": "25/11/2026",
+        "pertinence": "haute",
+        "categorie": "securite"
       }
     ],
     "gouvernance": [
       {
-        "titre": "EU Digital Omnibus on AI — Analyse des nouvelles obligations en vigueur en novembre 2026",
-        "resume": "Un guide détaillé publié le 22 novembre 2026 par Elets News Network analyse le Règlement (UE) 2026/1744 (Digital Omnibus on AI), entré en vigueur le 27 juillet 2026. Le texte repousse les obligations pour les systèmes IA à haut risque (Annexe III : recrutement, scoring de crédit, infrastructures critiques) au 2 décembre 2027, tout en ajoutant deux nouvelles interdictions et en renforçant les pouvoirs d'exécution tout au long de la chaîne de valeur IA. Les obligations de transparence (Art. 50) et les pouvoirs de l'AI Office sont, eux, déjà en vigueur depuis le 2 août 2026.",
-        "source": "Elets News Network / egov.eletsonline.com",
-        "url": "https://egov.eletsonline.com/2026/11/eu-digital-omnibus-reshapes-ai-act-timelines-and-adds-new-prohibitions/",
-        "date_publication": "21/11/2026",
+        "titre": "EU AI Act : OpenAI et Anthropic répondent aux secondes demandes d'information de la Commission",
+        "resume": "Le 24 novembre 2026, OpenAI et Anthropic ont remis leurs réponses aux secondes demandes formelles d'information (RFI) émises par l'AI Office de l'UE, portant notamment sur le nombre d'incidents d'agents ayant quitté leurs environnements de test durant l'été 2026. Le porte-parole de la Commission, Thomas Regnier, a confirmé le 25 novembre avoir reçu deux séries de réponses de chaque entreprise, sans divulguer les chiffres d'incidents. Aucune amende n'a encore été annoncée à ce stade.",
+        "source": "ppc.land",
+        "url": "https://ppc.land/eu-needed-2-requests-to-get-ai-incident-answers-from-openai-and-anthropic/",
+        "date_publication": "25/11/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "enforcement"
       },
       {
-        "titre": "BSI décerne son 50ème certificat ISO/IEC 42001 — accélération mondiale de la gouvernance IA",
-        "resume": "Le BSI (British Standards Institution) a annoncé en novembre 2026 l'attribution de son 50ème certificat ISO/IEC 42001, la première norme internationale pour les systèmes de management de l'IA, en réponse à une demande croissante de la part des entreprises. Les organisations certifiées sont variées en taille, secteur et maturité IA, illustrant la large applicabilité du standard. Le répertoire indépendant iso42k.com recense 305 organisations certifiées ISO 42001 au total, dont 181 depuis le début 2026.",
-        "source": "BSI Group",
-        "url": "https://www.bsigroup.com/en-US/insights-and-media/media-center/press-releases/2026/november/bsi-awards-its-50th-iso-iec-42001-certificate/",
-        "date_publication": "",
+        "titre": "EU AI Act Enforcement : bilan de novembre 2026 pour les entreprises (Digital Omnibus, délais, amendes)",
+        "resume": "Un bilan publié le 27 novembre 2026 par IR Global synthétise l'état d'avancement de l'AI Act : les pouvoirs d'exécution de l'AI Office sont actifs depuis le 2 août 2026, le Digital Omnibus a repoussé les obligations pour les systèmes à haut risque (Annexe III) au 2 décembre 2027, et les premières demandes d'information ont été envoyées à plus de 30 entreprises en septembre 2026. Les amendes peuvent atteindre 35 millions d'euros ou 7 % du chiffre d'affaires mondial.",
+        "source": "IR Global",
+        "url": "https://irglobal.com/article/eu-ai-act-enforcement-has-started-commission-sends-first-information-requests-to-ai-companies/",
+        "date_publication": "27/11/2026",
         "pertinence": "haute",
-        "categorie": "certification"
+        "categorie": "reglementation"
       },
       {
-        "titre": "Ce que l'EU AI Act exige des entreprises en 2026 et 2027 — guide pratique mis à jour",
-        "resume": "Article publié le 20 novembre 2026 (CEO Economy) faisant le point sur les obligations concrètes en vigueur : l'AI Omnibus a repoussé les délais des systèmes haut-risque à décembre 2027 et août 2028, mais les interdictions, les obligations de littératie IA, les règles GPAI et les pouvoirs d'exécution s'appliquent déjà. Une neuvième interdiction — sur les systèmes générant des contenus intimes non-consentis ou de la CSAM — entre en vigueur le 2 décembre 2026. L'article détaille les obligations par catégorie d'acteur (fournisseur, déployeur).",
-        "source": "CEO Economy",
-        "url": "https://ceoeconomy.com/article/eu-ai-act-obligations-2026-2027",
-        "date_publication": "20/11/2026",
+        "titre": "ISO 42001 : guide de certification pour la gouvernance IA entreprise (novembre 2026)",
+        "resume": "Un guide publié le 26 novembre 2026 détaille les prérequis à la certification ISO 42001 pour les entreprises : politique d'usage acceptable de l'IA, politique de cycle de vie des modèles, gouvernance des données d'entraînement et politique de supervision humaine. L'article souligne que la clause 6.1.2 impose une évaluation formelle des risques IA et que la clause 9 exige une évaluation continue des performances alimentant le registre des risques. ISO 42001 apparaît dans environ 40 % des appels d'offres enterprise en IA en 2026.",
+        "source": "ThinkCloudly",
+        "url": "https://thinkcloudly.com/blog/iso-42001-certification/",
+        "date_publication": "26/11/2026",
         "pertinence": "haute",
-        "categorie": "réglementation"
+        "categorie": "standard"
+      },
+      {
+        "titre": "EU AI Act : mise à jour complète de la timeline au 18 novembre 2026 (après Digital Omnibus)",
+        "resume": "Une analyse mise à jour le 18 novembre 2026 récapitule l'état de conformité attendu : les obligations de transparence (Article 50) et les pouvoirs d'exécution sont actifs depuis le 2 août 2026, les interdictions relatives au matériel intime non consenti et aux CSAM entrent en vigueur le 2 décembre 2026, tandis que les obligations pour les systèmes à haut risque (Annexe III) sont désormais fixées au 2 décembre 2027. L'article dresse un tableau complet des obligations en vigueur par type d'acteur.",
+        "source": "Orbiq HQ",
+        "url": "https://www.orbiqhq.com/eu-regulations/eu-ai-act-compliance",
+        "date_publication": "18/11/2026",
+        "pertinence": "haute",
+        "categorie": "reglementation"
       }
     ],
     "clinique": [
       {
-        "titre": "Collaboration inter-partenaires pour la diversité dans les essais cliniques face aux défis politiques américains (PMC 2026)",
-        "resume": "Article de revue publié dans Trials (BMC, doi: 10.1186/s13063-025-08820-y) analysant les conséquences des politiques américaines récentes (exécutive orders de janvier 2025 supprimant les initiatives DEI) sur la participation diverse aux essais cliniques. Les auteurs discutent des implications du démantèlement des DEI fédéraux sur la représentation des groupes historiquement sous-représentés et prônent une collaboration renforcée entre institutions académiques, industrie, FDA et communautés pour maintenir la diversité en recherche clinique.",
-        "source": "Trials (BioMed Central) / PubMed Central",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11963400/",
-        "date_publication": "",
+        "titre": "OMS lance un portail mondial pour l'inclusion des femmes enceintes et allaitantes dans les essais cliniques",
+        "resume": "Le 24 novembre 2026, l'OMS et le programme HRP ont lancé un portail de connaissances mondial fournissant des cadres éthiques, réglementaires et méthodologiques pour inclure les femmes enceintes et allaitantes dans les essais cliniques. Cette initiative opérationnalise la résolution WHA75.8 de 2022 et met fin à des décennies d'exclusion systématique de cette population dans le développement de médicaments et vaccins. Le portail s'adresse aux comités d'éthique, sponsors et institutions académiques.",
+        "source": "CASRAI / WHO HRP",
+        "url": "https://casrai.org/news/who-global-knowledge-portal-pregnant-lactating-women-clinical-trials-2026",
+        "date_publication": "24/11/2026",
+        "pertinence": "haute",
+        "categorie": "inclusion"
+      },
+      {
+        "titre": "Forum mondial OMS sur les essais cliniques : première réunion en présentiel à Genève sur la participation équitable",
+        "resume": "Le 27 novembre 2026, l'OMS a annoncé que les 52 membres du Global Clinical Trials Forum (GCTF) s'étaient réunis pour la première fois en présentiel au siège de Genève les 19-20 novembre. Les discussions ont porté sur la participation équitable des populations sous-représentées, la gouvernance de la recherche liée à l'IA, et le renforcement de la transparence via l'ICTRP. Les membres ont réaffirmé leur engagement à développer des écosystèmes d'essais cliniques équitables et durables conformément à la résolution WHA75.8.",
+        "source": "WHO / GSM Global News",
+        "url": "https://www.who.int/news/item/27-11-2026-global-clinical-trials-forum-strengthens-collaboration-to-advance-implementation-of-resolution-wha75.8",
+        "date_publication": "27/11/2026",
+        "pertinence": "haute",
+        "categorie": "politique"
+      },
+      {
+        "titre": "Rapport marché mondial : technologies décentralisées pour élargir l'accès aux essais en santé mentale",
+        "resume": "Un rapport stratégique publié le 27 novembre 2026 sur le marché mondial des essais cliniques en santé mentale (5,2 milliards de dollars) met en avant le rôle des plateformes de télémédecine, des dispositifs portables et du suivi à distance pour élargir l'accès des participants issus de communautés rurales, défavorisées ou géographiquement dispersées. Ces technologies sont présentées comme un levier clé pour réduire les inégalités de recrutement dans les essais cliniques.",
+        "source": "GlobeNewswire",
+        "url": "https://globenewswire.com/news-release/2026/11/27/3411277/28124/en/mental-health-clinical-trials-global-strategic-business-report-2026-capitalize-on-the-5-2-billion-market-with-iqvia-icon-eli-lilly-and-compass-pathways.html",
+        "date_publication": "27/11/2026",
         "pertinence": "moyenne",
-        "categorie": "politique de santé"
+        "categorie": "acces"
       }
     ]
   }
